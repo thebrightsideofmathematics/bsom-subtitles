@@ -1,0 +1,460 @@
+﻿1
+00:00:00,420 --> 00:00:03,410
+Hello and welcome back to real analysis
+
+2
+00:00:03,980 --> 00:00:08,880
+and as always first i want to thank all the people that support this channel on Steady or Paypal.
+
+3
+00:00:09,340 --> 00:00:13,170
+In todays part 6 we will talk about the supremum and the infimum.
+
+4
+00:00:13,800 --> 00:00:18,600
+However before we start with this lets look at some simple subsets of the number line.
+
+5
+00:00:19,220 --> 00:00:25,110
+We can see the real numbers as this number line, because we know the real numbers are totally ordered.
+
+6
+00:00:25,730 --> 00:00:33,220
+Therefore it makes sense to say we start with a number "a" and then we go to another number "b" which is greater or equal than "a"
+
+7
+00:00:34,120 --> 00:00:38,000
+and now all the numbers in between i want to put in one set.
+
+8
+00:00:38,700 --> 00:00:46,400
+Such a set is then called an interval where we use different brackets to denote if the endpoints are included or excluded.
+
+9
+00:00:46,830 --> 00:00:51,720
+In this case here the set consists of all the points "x" that are inbetween "a" and "b".
+
+10
+00:00:52,510 --> 00:00:55,900
+However "a" itself is not in the set, but "b" is.
+
+11
+00:00:56,590 --> 00:00:59,590
+Of course you can change that just by changing the brackets.
+
+12
+00:01:00,050 --> 00:01:01,430
+So please remember that.
+
+13
+00:01:01,460 --> 00:01:04,950
+We use the round brackets, the parentheses to denote exclusion.
+
+14
+00:01:05,600 --> 00:01:10,090
+With this you see, intervals are just special subsets of the real number line.
+
+15
+00:01:10,470 --> 00:01:13,200
+Please note we also use the interval notation
+
+16
+00:01:13,220 --> 00:01:15,220
+when we don't have a bound on one side.
+
+17
+00:01:15,830 --> 00:01:22,420
+There we simple use the symbol infinity to denote that we start with "a", but then we go as far as we want.
+
+18
+00:01:23,210 --> 00:01:27,090
+So this interval consists of all the points  "x" that are greater or equal than "a".
+
+19
+00:01:28,010 --> 00:01:31,410
+And in the same way the symbol minus infinity is used.
+
+20
+00:01:32,030 --> 00:01:38,720
+Ok, now you should see these intervals are very nice subsets of the real numbers, but of course not the only ones.
+
+21
+00:01:39,350 --> 00:01:44,840
+For example we could consider a set M that consists of all the points here on the number line.
+
+22
+00:01:45,140 --> 00:01:48,140
+It's much more complicated than just an interval,
+
+23
+00:01:48,150 --> 00:01:51,650
+but still we can talk about nice properties of the subset M.
+
+24
+00:01:52,330 --> 00:01:56,250
+For example this point here that is the farest on the right hand side of M
+
+25
+00:01:56,350 --> 00:01:58,100
+We could call the maximum of M.
+
+26
+00:01:58,770 --> 00:02:01,100
+In short we would just write "max M".
+
+27
+00:02:02,030 --> 00:02:04,630
+We could also call it an upper bound for the set M,
+
+28
+00:02:04,660 --> 00:02:08,650
+because there is no other point in M that exceeds this number.
+
+29
+00:02:09,150 --> 00:02:13,150
+However, this property holds for all the numbers here on the right hand side
+
+30
+00:02:14,150 --> 00:02:18,250
+Hence every point in this region here is called an upper bound for M.
+
+31
+00:02:18,800 --> 00:02:22,900
+and then you might already guess, we have lower bounds here on the left.
+
+32
+00:02:24,130 --> 00:02:28,420
+Now, what we also see on the left is that we don't find a minimal element in M.
+
+33
+00:02:29,130 --> 00:02:33,120
+Simply because the boundary point here is not an element in M.
+
+34
+00:02:33,830 --> 00:02:35,830
+Hence if we just live in the set M
+
+35
+00:02:35,840 --> 00:02:39,220
+we can go to the left, but we never find a smallest one.
+
+36
+00:02:40,270 --> 00:02:43,270
+Ok, so lets put all of this into a definition.
+
+37
+00:02:44,230 --> 00:02:49,220
+So for any subset M we call a real number "b" an upper bound for M
+
+38
+00:02:49,740 --> 00:02:53,340
+if all elements in M are less or equal than this "b".
+
+39
+00:02:53,980 --> 00:02:56,170
+There are two important things you should really note here.
+
+40
+00:02:56,230 --> 00:03:00,610
+First "b" is just a real number. It does not have to lie in M.
+
+41
+00:03:01,220 --> 00:03:05,160
+and second we could have a lot of different upper bounds for the set M.
+
+42
+00:03:05,930 --> 00:03:09,130
+Therefore we just talk about an upper bound for the set M.
+
+43
+00:03:09,960 --> 00:03:14,060
+Now in the same way a real number "a" is called a lower bound for M
+
+44
+00:03:14,590 --> 00:03:18,590
+if for all "x" in M. 
+"x" is greater or equal than this "a".
+
+45
+00:03:19,260 --> 00:03:22,850
+Now in the case that for a set M such an upper bound exist
+
+46
+00:03:22,920 --> 00:03:24,920
+we call the set bounded from above.
+
+47
+00:03:25,780 --> 00:03:29,280
+and in the case a lower bound exist we call it bounded from below.
+
+48
+00:03:30,120 --> 00:03:31,130
+and you might already guess.
+
+49
+00:03:31,160 --> 00:03:34,250
+If we have both things we just call the set bounded
+
+50
+00:03:35,030 --> 00:03:39,930
+Ok, lets also fix the other notations we use namely maximum and minimum.
+
+51
+00:03:40,380 --> 00:03:45,250
+Indeed this is very simple. If we have an upper bound "b" for the set M
+
+52
+00:03:45,270 --> 00:03:48,640
+and this "b" is also an element of M.
+
+53
+00:03:48,650 --> 00:03:51,940
+Then "b" is called a maximal element of M.
+
+54
+00:03:52,680 --> 00:03:57,180
+and here we can show that we can only have at most one maximal element.
+
+55
+00:03:57,740 --> 00:04:00,840
+Hence the notation we use "max M" is justified.
+
+56
+00:04:01,270 --> 00:04:04,070
+Now the same definition we also have for a lower bound
+
+57
+00:04:04,080 --> 00:04:09,180
+which is also in the set M and then we call it a minimal element.
+
+58
+00:04:09,960 --> 00:04:13,560
+and the notation we use there is simply given by "min M"
+
+59
+00:04:14,040 --> 00:04:17,440
+Ok, to get an idea of this lets look at a concrete example.
+
+60
+00:04:18,029 --> 00:04:23,020
+Here the set M should be the interval that starts with 1 and ends with 3.
+
+61
+00:04:23,460 --> 00:04:26,040
+and both numbers are included in the set.
+
+62
+00:04:26,760 --> 00:04:30,350
+Therefore we immediately see the maximum of M is the number 3
+
+63
+00:04:30,590 --> 00:04:32,780
+and the minimum of M is the number 1.
+
+64
+00:04:33,260 --> 00:04:37,050
+However, when we now consider the set where we exclude both numbers
+
+65
+00:04:37,090 --> 00:04:41,080
+we see that maximum and minimum don't exist.
+
+66
+00:04:41,630 --> 00:04:46,520
+In this case these two end points can't be described by these simple descriptions.
+
+67
+00:04:47,270 --> 00:04:52,120
+There we really need a new idea and this leads us to supremum and infimum.
+
+68
+00:04:52,680 --> 00:04:56,870
+In order to define these two new things lets look at the number line again.
+
+69
+00:04:57,690 --> 00:05:02,780
+So here you see our interval 1, 3. Where 1 and 3 are not included.
+
+70
+00:05:03,440 --> 00:05:07,530
+Now we know for example 5 is an upper bound for this set.
+
+71
+00:05:08,090 --> 00:05:13,170
+However we can also choose a smaller one. For example 4 is also an upper bound.
+
+72
+00:05:13,790 --> 00:05:18,890
+Then the general idea is that we push this upper bound as far to the left as we can.
+
+73
+00:05:19,610 --> 00:05:24,710
+Therefore in this case we will find the number 3 as the lowest possible upper bound
+
+74
+00:05:25,340 --> 00:05:28,620
+and that is exactly what we will call the supremum of M
+
+75
+00:05:29,340 --> 00:05:36,820
+actually then the result will be that this works for any set M. So any subset of R and not just for intervals.
+
+76
+00:05:37,520 --> 00:05:42,200
+But for this we really need to write down the correct definition for the lowest upper bound.
+
+77
+00:05:42,650 --> 00:05:46,430
+So lets consider again any subset M of the real numbers
+
+78
+00:05:46,470 --> 00:05:50,170
+and then a real number "s" is called supremum of M
+
+79
+00:05:50,470 --> 00:05:52,970
+if it fulfils two properties.
+
+80
+00:05:53,530 --> 00:05:57,420
+The first one you already know. You want that "s" is an upper bound for M.
+
+81
+00:05:58,100 --> 00:06:00,800
+So this is exactly the definition we had above.
+
+82
+00:06:01,430 --> 00:06:07,120
+and now together with the second property we should describe that we get indeed the lowest upper bound.
+
+83
+00:06:07,770 --> 00:06:13,450
+and there the idea should be if we subtract a small number epsilon from this number "s"
+
+84
+00:06:13,460 --> 00:06:17,450
+we should get out a number that is not an upper bound anymore.
+
+85
+00:06:18,070 --> 00:06:24,660
+In other words on the right of this number "s - epsilon" we will find at least one element of M.
+
+86
+00:06:25,340 --> 00:06:30,330
+and if this works no matter how small we choose the epsilon we have the lowest upper bound described.
+
+87
+00:06:30,960 --> 00:06:33,990
+Now in formulars we would write there is some "x tilde"
+
+88
+00:06:34,020 --> 00:06:37,440
+such that "s-epsilon" is less than this x tilde
+
+89
+00:06:38,020 --> 00:06:43,390
+So please note this means exactly that "s-epsilon" is not an upper bound for M.
+
+90
+00:06:44,210 --> 00:06:48,290
+and of course this needs to work for any epsilon greater than 0.
+
+91
+00:06:49,020 --> 00:06:54,200
+Ok, in the case such an "s", the supremum of M exist we use the notation from above.
+
+92
+00:06:54,840 --> 00:06:58,620
+This makes sense, because you can easily show if the supremum exist
+
+93
+00:06:58,660 --> 00:07:01,750
+there can only be one number "s" with these properties.
+
+94
+00:07:02,150 --> 00:07:06,630
+However we want even more. Even in the case that a supremum does not exist
+
+95
+00:07:06,670 --> 00:07:08,870
+because there is no upper bound for the set M
+
+96
+00:07:08,890 --> 00:07:10,870
+We want to use this symbol here.
+
+97
+00:07:11,390 --> 00:07:15,470
+Then supremum of M should just stand for the symbol infinity
+
+98
+00:07:16,060 --> 00:07:19,660
+Then we quarantee that this notation always has a meaning.
+
+99
+00:07:20,330 --> 00:07:26,120
+Maybe the only other strange case would be when you want to calculate the supremum of the empty set.
+
+100
+00:07:27,010 --> 00:07:32,950
+Because there all numbers are upper bounds for this set we use the symbol minus infinity there.
+
+101
+00:07:33,910 --> 00:07:38,100
+Ok there you have it. This is the whole definition for the supremum of a set M.
+
+102
+00:07:38,610 --> 00:07:42,310
+and similarly we can write down the definition for the infimum.
+
+103
+00:07:42,950 --> 00:07:45,290
+Of course this looks almost the same
+
+104
+00:07:45,320 --> 00:07:48,909
+because the only difference ist now that we are on the left hand side here
+
+105
+00:07:49,020 --> 00:07:50,640
+and increase the lower bounds.
+
+106
+00:07:51,500 --> 00:07:54,900
+Therefore this "l" should be the greatest lower bound for M.
+
+107
+00:07:55,660 --> 00:08:01,240
+So what you should see here is the only difference to the supremum is the directions of the inequalities.
+
+108
+00:08:01,820 --> 00:08:08,510
+Also we have the similar notation if the infimum exist and otherwise we use the symbols infinity as well.
+
+109
+00:08:09,070 --> 00:08:14,450
+So i already told you, if we write "sup M" or "inf M", it always has a meaning.
+
+110
+00:08:14,850 --> 00:08:20,050
+In fact this is a result that follows from the completeness axiom of the real numbers.
+
+111
+00:08:20,550 --> 00:08:24,450
+So it would not be true if you were working just with rational numbers.
+
+112
+00:08:24,740 --> 00:08:27,740
+So i would say, please remember the whole definition here
+
+113
+00:08:27,820 --> 00:08:31,910
+and then in the next video i'll explain connection to the completeness axiom.
+
+114
+00:08:32,200 --> 00:08:34,900
+and of course i also show you more examples.
+
+115
+00:08:35,460 --> 00:08:38,750
+Therefore i hope i see you there and have a nice day. Bye!

@@ -1,0 +1,431 @@
+﻿1
+00:00:00,470 --> 00:00:03,170
+Hello and welcome to real analysis.
+
+2
+00:00:03,770 --> 00:00:09,150
+and as always many, many thanks to all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,780 --> 00:00:13,700
+In todays part 4 we will talk about the so called limit theorems.
+
+4
+00:00:14,340 --> 00:00:17,820
+Indeed, when you deal with sequences you use them all the time.
+
+5
+00:00:18,640 --> 00:00:20,040
+For this please recall.
+
+6
+00:00:20,060 --> 00:00:24,350
+This is how we denote a sequence which consists of real number "an"
+
+7
+00:00:25,110 --> 00:00:28,200
+and if the sequence is convergent to a point "a"
+
+8
+00:00:28,450 --> 00:00:30,490
+we have a notation for this limit.
+
+9
+00:00:31,180 --> 00:00:33,180
+One possibility is to write
+
+10
+00:00:33,190 --> 00:00:37,180
+limit "n to infinity" of "an" is equal to "a"
+
+11
+00:00:38,250 --> 00:00:41,350
+and another possibility is just to use an arrow,
+
+12
+00:00:41,370 --> 00:00:45,450
+where we write "n to infinity" and then it goes to "a"
+
+13
+00:00:46,370 --> 00:00:48,370
+Both things exactly mean the same
+
+14
+00:00:48,380 --> 00:00:51,180
+Namely the definition we gave for convergence.
+
+15
+00:00:51,760 --> 00:00:53,710
+In this picture you see it again.
+
+16
+00:00:53,730 --> 00:00:59,450
+For all epsilon the sequence members lie inside this epsilon-neighbourhood of "a" eventually.
+
+17
+00:01:00,340 --> 00:01:03,750
+and now we will talk about what happens with the convergence
+
+18
+00:01:03,770 --> 00:01:06,510
+when we combine two convergent sequences.
+
+19
+00:01:07,070 --> 00:01:10,460
+and then we also get some rules how to deal with limits.
+
+20
+00:01:11,300 --> 00:01:14,480
+All of these things we can put into a nice theorem.
+
+21
+00:01:15,770 --> 00:01:18,460
+Lets simply call it the Theorem on limits.
+
+22
+00:01:19,020 --> 00:01:20,060
+This simply means
+
+23
+00:01:20,080 --> 00:01:23,760
+there exists an uniquely given limit "a" for this sequence
+
+24
+00:01:23,780 --> 00:01:27,280
+and an uniquely given "b" for that sequence.
+
+25
+00:01:27,850 --> 00:01:31,380
+Ok, now maybe lets visualize these sequences with a graph.
+
+26
+00:01:32,140 --> 00:01:35,740
+Therefore for example here we can draw the sequence "an".
+
+27
+00:01:35,770 --> 00:01:39,900
+So this is a1, a2, a3, a4 and so on.
+
+28
+00:01:40,350 --> 00:01:42,840
+and in the same way we can look at "bn"
+
+29
+00:01:42,860 --> 00:01:45,340
+So b1, b2 and so on.
+
+30
+00:01:45,870 --> 00:01:48,950
+and there you see we can easily form a new sequence
+
+31
+00:01:48,970 --> 00:01:52,250
+just by combining the two sequences here at each point.
+
+32
+00:01:53,050 --> 00:01:55,420
+For example we could just add the values
+
+33
+00:01:55,450 --> 00:01:57,300
+and then we get a new sequence
+
+34
+00:01:57,310 --> 00:01:58,610
+we could call the sum.
+
+35
+00:01:59,190 --> 00:02:01,280
+Now of course the natural question is
+
+36
+00:02:01,290 --> 00:02:03,390
+what happens when "n" goes to infinity?
+
+37
+00:02:03,930 --> 00:02:07,920
+Because we already know we have convergence for "an" and "bn"
+
+38
+00:02:08,389 --> 00:02:13,270
+Therefore it would be nice to have it for "an + bn", the new sequence, as well.
+
+39
+00:02:13,980 --> 00:02:16,660
+and indeed, this is our first result.
+
+40
+00:02:17,210 --> 00:02:22,110
+We have that the new sequence "an + bn" is again convergent.
+
+41
+00:02:22,280 --> 00:02:24,680
+So this limit is uniquely defined.
+
+42
+00:02:25,070 --> 00:02:26,550
+But we have even more.
+
+43
+00:02:26,560 --> 00:02:28,329
+We can immediately calculate it.
+
+44
+00:02:28,890 --> 00:02:32,270
+It's simply the sum of the two limits we already know.
+
+45
+00:02:33,030 --> 00:02:36,790
+In other words we can pull in the limit when we have a sum.
+
+46
+00:02:37,240 --> 00:02:40,740
+Provided that these two limits here actually exist.
+
+47
+00:02:41,440 --> 00:02:43,630
+Of course this is what we can use a lot
+
+48
+00:02:43,640 --> 00:02:47,310
+when we want to calculate the limit and we have a plus sign involved.
+
+49
+00:02:47,730 --> 00:02:52,350
+Now the nice thing is this it works exactly the same when have a multiplication sign
+
+50
+00:02:53,060 --> 00:02:56,660
+Also here we can just pull the limit into the product.
+
+51
+00:02:57,110 --> 00:03:01,020
+In other words this new sequence here is also convergent,
+
+52
+00:03:01,030 --> 00:03:03,600
+when we put in two convergent sequences.
+
+53
+00:03:04,400 --> 00:03:09,100
+Ok. I can tell you the same thing also holds for the inverse operations
+
+54
+00:03:09,160 --> 00:03:11,350
+namely minus and division.
+
+55
+00:03:11,950 --> 00:03:15,900
+So maybe lets write that down for the new sequence given by this fraction.
+
+56
+00:03:16,560 --> 00:03:20,500
+Of course there we have to put in that the denominator is never 0
+
+57
+00:03:20,520 --> 00:03:22,990
+such that this whole fraction is well defined.
+
+58
+00:03:23,570 --> 00:03:28,079
+But then we can just write the limit in the numerator and denominator
+
+59
+00:03:28,090 --> 00:03:31,490
+provided that this limit here is also not 0.
+
+60
+00:03:31,970 --> 00:03:36,560
+However under these two assumptions we get the same result as for the product.
+
+61
+00:03:37,440 --> 00:03:40,730
+Ok, with this we have the 3 important limit theorems.
+
+62
+00:03:40,980 --> 00:03:42,170
+You really should remember.
+
+63
+00:03:42,700 --> 00:03:47,180
+We can simply prove them by using our epsilon, "N" definition as always.
+
+64
+00:03:47,960 --> 00:03:51,860
+Since the proof works in a similar way as we have done it for other proofs before
+
+65
+00:03:51,890 --> 00:03:53,280
+i can just skip it here.
+
+66
+00:03:53,840 --> 00:03:58,040
+However it's really not so hard so we better use the time for a typical example.
+
+67
+00:03:58,740 --> 00:04:03,060
+So lets take this new sequence "Cn" given by this fraction for all "n"
+
+68
+00:04:03,480 --> 00:04:04,750
+and ask the question
+
+69
+00:04:04,770 --> 00:04:07,150
+is this one a convergent sequence?
+
+70
+00:04:07,760 --> 00:04:09,850
+and if yes, what is the limit?
+
+71
+00:04:10,310 --> 00:04:12,740
+At first glance this is not clear at all,
+
+72
+00:04:12,750 --> 00:04:15,000
+because we don't have the form from above.
+
+73
+00:04:15,130 --> 00:04:17,720
+We don't have a convergent sequence here or here.
+
+74
+00:04:18,459 --> 00:04:22,740
+Indeed if "n" increases this number here gets larger and larger
+
+75
+00:04:22,990 --> 00:04:26,250
+However what you should see is that the term with "n^2"
+
+76
+00:04:26,270 --> 00:04:28,850
+is the most important part for this growth.
+
+77
+00:04:29,460 --> 00:04:31,820
+In other words if "n" is very large
+
+78
+00:04:31,840 --> 00:04:35,350
+only these two parts here are important for the whole calculation.
+
+79
+00:04:35,760 --> 00:04:37,400
+Therefore the question remains
+
+80
+00:04:37,409 --> 00:04:39,780
+how can we deal with this in the correct way.
+
+81
+00:04:40,400 --> 00:04:42,400
+In fact this always works the same 
+
+82
+00:04:42,409 --> 00:04:46,320
+we just have to expand the whole fraction by this highest power.
+
+83
+00:04:46,770 --> 00:04:52,850
+Hence in this case just the multiply numerator and denominator by 1 over "n^2"
+
+84
+00:04:53,600 --> 00:04:55,800
+Then you see everything cancels out 
+
+85
+00:04:55,830 --> 00:04:58,600
+and we get out sequences we already know.
+
+86
+00:04:59,070 --> 00:05:00,860
+So here constant 2 
+
+87
+00:05:00,870 --> 00:05:02,800
+then 5 over "n" and 
+
+88
+00:05:02,810 --> 00:05:04,310
+-1 over "n^2"
+
+89
+00:05:04,830 --> 00:05:07,370
+and similarly in the denominator.
+
+90
+00:05:08,050 --> 00:05:13,150
+Now please recall we have already shown that 1 over "n" goes to 0.
+
+91
+00:05:13,670 --> 00:05:16,270
+So it's convergent with limit 0.
+
+92
+00:05:16,820 --> 00:05:19,690
+Then by using the limit theorem part b 
+
+93
+00:05:19,710 --> 00:05:22,950
+we also know that 1 over "n^2" goes to 0.
+
+94
+00:05:23,680 --> 00:05:26,340
+Therefore by combining all the limit theorems
+
+95
+00:05:26,400 --> 00:05:29,890
+we see that these parts here all go to 0.
+
+96
+00:05:29,980 --> 00:05:34,400
+and the only thing that remains in the limit is 2 divided by -5.
+
+97
+00:05:35,010 --> 00:05:40,440
+More concretely here after the limit we get 2 + 0 - 0
+
+98
+00:05:40,460 --> 00:05:44,050
+and here -5 + 0 + 0.
+
+99
+00:05:44,760 --> 00:05:48,950
+Hence -2 over 5 is indeed the limit of "Cn"
+
+100
+00:05:49,800 --> 00:05:54,260
+To put it into other words we have proven that this sequence is indeed convergent
+
+101
+00:05:54,280 --> 00:05:57,659
+without using the definition with epsilon and "N".
+
+102
+00:05:58,640 --> 00:06:02,220
+Hence you see the limit theorems make your life much easier here.
+
+103
+00:06:02,920 --> 00:06:05,020
+Now besides all these properties 
+
+104
+00:06:05,030 --> 00:06:08,110
+the limit also fulfills a monotonicity property
+
+105
+00:06:08,490 --> 00:06:12,360
+also this is then very helpful for actually calculating limits.
+
+106
+00:06:12,840 --> 00:06:17,320
+Therefore i show you that in the next video and then we consider more examples.
+
+107
+00:06:17,890 --> 00:06:20,470
+Therefore i hope i see you there and have a nice day.
+
+108
+00:06:20,890 --> 00:06:21,370
+Bye!
