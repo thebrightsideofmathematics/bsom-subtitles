@@ -1,0 +1,759 @@
+﻿1
+00:00:00,600 --> 00:00:03,500
+Hello and welcome back to real analysis
+
+2
+00:00:04,100 --> 00:00:08,700
+and as always i want to thank all the nice people, that support this channel on Steady or Paypal
+
+3
+00:00:09,890 --> 00:00:12,400
+Now, today we actually start with our analysis course
+
+4
+00:00:12,500 --> 00:00:15,000
+by talking about talking about sequences and limits.
+
+5
+00:00:16,000 --> 00:00:19,500
+Therefore let's immediatly start defining what a sequence is.
+
+6
+00:00:20,290 --> 00:00:24,000
+More concretely we will say that we have a sequence of real numbers,
+
+7
+00:00:24,500 --> 00:00:28,190
+when we have a map from the natural numbers into "R".
+
+8
+00:00:28,600 --> 00:00:32,090
+and most of the time such a map gets the name "a"
+
+9
+00:00:32,600 --> 00:00:36,700
+In the same way also a map "a" from "N0" into "R"
+
+10
+00:00:36,700 --> 00:00:37,900
+is called a sequence.
+
+11
+00:00:38,900 --> 00:00:42,100
+Please recall. Here in the natural numbers we don't include 0,
+
+12
+00:00:42,300 --> 00:00:44,300
+but here in "N0" we do.
+
+13
+00:00:45,000 --> 00:00:47,400
+So you see, the choice here just depends
+
+14
+00:00:47,400 --> 00:00:50,400
+if you want to start counting with 1 or with 0.
+
+15
+00:00:50,600 --> 00:00:54,600
+Now, when we deal with sequences we seldom write down such a map,
+
+16
+00:00:54,600 --> 00:00:57,480
+but rather an  infinte list of numbers.
+
+17
+00:00:57,680 --> 00:01:02,350
+In other words when we put 1 into the function here we get "a1".
+
+18
+00:01:02,550 --> 00:01:05,099
+and we put the 1 in the index.
+
+19
+00:01:05,590 --> 00:01:09,290
+and then we get a2, a3 and so on.
+
+20
+00:01:09,490 --> 00:01:11,280
+Therefore please remember.
+
+21
+00:01:11,289 --> 00:01:15,000
+Formally a sequence is a map, but we will use shorter notations.
+
+22
+00:01:15,900 --> 00:01:20,200
+For example what you often will see is just "(an)".
+
+23
+00:01:20,600 --> 00:01:23,590
+and then to remind you that it is an infinite list
+
+24
+00:01:23,590 --> 00:01:26,590
+we put "n in N" in the index here.
+
+25
+00:01:26,790 --> 00:01:32,000
+Of course if we want to start with 0 here we will put "N0" in the index here.
+
+26
+00:01:32,200 --> 00:01:38,150
+Alternatively, we could also put the starting number here as n=1
+
+27
+00:01:38,200 --> 00:01:40,600
+and then remind us again it's an infinite list,
+
+28
+00:01:40,650 --> 00:01:42,600
+so we put infinity at the top.
+
+29
+00:01:42,900 --> 00:01:46,080
+Now if from the context the starting number is clear
+
+30
+00:01:46,090 --> 00:01:49,200
+we can just omit everything and just use the parantheses.
+
+31
+00:01:49,700 --> 00:01:52,200
+Ok. I think that is enough about the notations.
+
+32
+00:01:52,300 --> 00:01:54,590
+Let's immediatly look at some examples.
+
+33
+00:01:55,000 --> 00:01:58,970
+The best way to describe a sequence is just to give a rule
+
+34
+00:01:58,990 --> 00:02:01,200
+for all the sequence members "an"
+
+35
+00:02:01,600 --> 00:02:07,000
+For example we could say that "an" = -1 to the power n.
+
+36
+00:02:07,600 --> 00:02:11,400
+and then we can use the parantheses to denote the whole sequence.
+
+37
+00:02:11,600 --> 00:02:14,400
+So here you see, this is a very simple sequence,
+
+38
+00:02:14,430 --> 00:02:17,500
+because you see the first number is just -1
+
+39
+00:02:17,890 --> 00:02:19,890
+and then the next is 1
+
+40
+00:02:20,530 --> 00:02:25,100
+then -1 again and 1 again and so on.
+
+41
+00:02:26,010 --> 00:02:29,000
+Therefore if you want to visualize this on the number line
+
+42
+00:02:29,150 --> 00:02:31,150
+we would start at -1
+
+43
+00:02:31,350 --> 00:02:34,640
+and then in the next step we jump to 1.
+
+44
+00:02:35,470 --> 00:02:38,700
+Afterwards for the next step we jump back to -1.
+
+45
+00:02:39,340 --> 00:02:43,000
+and then we know we continue this whole procedure with no end.
+
+46
+00:02:43,650 --> 00:02:45,050
+Here you can remember
+
+47
+00:02:45,060 --> 00:02:49,460
+This is always a good way to visualize a sequence on the number line.
+
+48
+00:02:49,990 --> 00:02:52,790
+So you can see the sequence has time steps
+
+49
+00:02:52,800 --> 00:02:56,200
+were we hit at each timestep a number on the number line.
+
+50
+00:02:57,030 --> 00:03:00,880
+However this is not the only way to visualize a sequence
+
+51
+00:03:00,900 --> 00:03:03,970
+because we already know it's simply a map.
+
+52
+00:03:04,170 --> 00:03:07,800
+Therefore you could also just draw the graph of this map.
+
+53
+00:03:08,530 --> 00:03:12,080
+In other words we have a set in this coordinate system,
+
+54
+00:03:12,090 --> 00:03:16,770
+but please remember we have as the domain just the natural numbers,
+
+55
+00:03:16,900 --> 00:03:19,150
+but the codomain is the real numbers.
+
+56
+00:03:19,160 --> 00:03:22,020
+Therefore on the y-achses we find "R".
+
+57
+00:03:22,990 --> 00:03:26,990
+In conclusion we don't get a line in this plane. We just get points.
+
+58
+00:03:27,040 --> 00:03:31,030
+For example for 1 we find -1. So a point here.
+
+59
+00:03:31,630 --> 00:03:36,420
+Now this is very important. We have -1 as the value of this map.
+
+60
+00:03:37,000 --> 00:03:42,329
+In the same way we have 1 as a value when we put 2 into the map.
+
+61
+00:03:43,000 --> 00:03:47,500
+and then we can continue with 3, 4, 5 and so on.
+
+62
+00:03:47,700 --> 00:03:52,380
+Now. The jumping we had before we now see here when we go to the right.
+
+63
+00:03:53,010 --> 00:03:57,680
+Indeed we are very interested in what happens with the values of this sequence
+
+64
+00:03:57,700 --> 00:04:00,380
+when we just continue here on the line.
+
+65
+00:04:00,880 --> 00:04:05,770
+Roughly speaking what happens to the sequence when n goes to infinity?
+
+66
+00:04:06,220 --> 00:04:09,200
+For this example you see not so much will happen,
+
+67
+00:04:09,210 --> 00:04:12,200
+because we still jump between -1 and 1.
+
+68
+00:04:13,030 --> 00:04:15,530
+It doesn't matter how large our n is.
+
+69
+00:04:15,560 --> 00:04:17,620
+The jumping is always the same.
+
+70
+00:04:18,089 --> 00:04:21,300
+For this reason lets look at another example.
+
+71
+00:04:22,000 --> 00:04:26,550
+Here our sequence should be defined by the rule "1 over n".
+
+72
+00:04:27,750 --> 00:04:30,390
+Now you immediatly see this is way more interesting,
+
+73
+00:04:30,400 --> 00:04:32,400
+because we get out different numbers.
+
+74
+00:04:33,020 --> 00:04:38,000
+The first number is just 1, but then we have 1/2 then 1/3
+
+75
+00:04:38,280 --> 00:04:40,870
+and then a lot of different fractions,
+
+76
+00:04:40,880 --> 00:04:43,920
+because the denominator gets larger and larger.
+
+77
+00:04:44,410 --> 00:04:48,000
+Now also this sequences we can visualize as a graph.
+
+78
+00:04:48,460 --> 00:04:50,750
+There we just start with the value 1.
+
+79
+00:04:50,770 --> 00:04:56,750
+Then the value 1/2, 1/3, 1/4 and so on.
+
+80
+00:04:56,760 --> 00:05:01,000
+Here in fact something happens when we get larger and larger,
+
+81
+00:05:01,220 --> 00:05:04,700
+because you see, we get closer and closer to 0.
+
+82
+00:05:05,010 --> 00:05:09,900
+and this is what we will define soon as the limit of the sequence.
+
+83
+00:05:10,100 --> 00:05:14,500
+So here we recognize that this sequence has such a nice property,
+
+84
+00:05:15,020 --> 00:05:18,700
+but the sequence from before doesn't satisfy such a rule.
+
+85
+00:05:19,490 --> 00:05:23,230
+However, before we define the limit as a property of a squence
+
+86
+00:05:23,260 --> 00:05:25,260
+lets look at another example.
+
+87
+00:05:25,650 --> 00:05:29,730
+Here i want to have the numbers that are given by the powers of 2.
+
+88
+00:05:30,150 --> 00:05:35,000
+In other words we have 2, 4, 8, 16 and so on.
+
+89
+00:05:36,030 --> 00:05:38,300
+Of course this is a very nice sequence,
+
+90
+00:05:38,300 --> 00:05:42,130
+but now we want to look what happens again when we increase n
+
+91
+00:05:42,150 --> 00:05:44,050
+so make it larger and larger.
+
+92
+00:05:44,380 --> 00:05:49,170
+Then you see, the values we get out also get larger and larger.
+
+93
+00:05:49,980 --> 00:05:53,240
+and indeed, there is no upper bound for the members in the sequence
+
+94
+00:05:53,260 --> 00:05:56,350
+so we could say, that this limit should be infinity.
+
+95
+00:05:56,920 --> 00:06:00,100
+But of course we don't know what this means exactly
+
+96
+00:06:00,110 --> 00:06:02,400
+so we have to clarify this as well.
+
+97
+00:06:03,050 --> 00:06:06,350
+In order to do this, lets jump to our next definition.
+
+98
+00:06:07,130 --> 00:06:11,700
+Here we will define the notion of a convergent sequence of real numbers.
+
+99
+00:06:12,270 --> 00:06:17,750
+We say that a sequence "an" is convergent to a given number  "a"
+
+100
+00:06:17,780 --> 00:06:23,200
+if the sequence members "an" lie arbitrary close to "a" eventually.
+
+101
+00:06:23,750 --> 00:06:25,990
+Now before we give the formal definifion
+
+102
+00:06:26,000 --> 00:06:29,450
+lets visualize this idea on the number line.
+
+103
+00:06:29,660 --> 00:06:31,660
+So here we have the point "a"
+
+104
+00:06:31,670 --> 00:06:34,670
+and in green we have the epsilon-neighbourhood of "a".
+
+105
+00:06:35,170 --> 00:06:38,100
+This means for a given positive number epsilon
+
+106
+00:06:38,100 --> 00:06:43,000
+we can look at the number "a + epsilon" and "a - epsilon".
+
+107
+00:06:43,230 --> 00:06:47,650
+and the whole region in green we call the "epsilon neighbourhood of a"
+
+108
+00:06:48,390 --> 00:06:51,600
+Please note here that "a" doesn't denote the sequence anymore,
+
+109
+00:06:51,610 --> 00:06:53,000
+but just another number.
+
+110
+00:06:53,000 --> 00:06:54,600
+This is just a common notation.
+
+111
+00:06:55,560 --> 00:06:59,460
+Now if we want to have "a" as the limit of the sequence in some sence
+
+112
+00:06:59,480 --> 00:07:04,050
+we really need to get closer and closer to "a" with the sequence members.
+
+113
+00:07:04,140 --> 00:07:06,300
+Or in other words eventually
+
+114
+00:07:06,300 --> 00:07:10,000
+all the sequence members have to lie in this epsilon-neighbourhood of a.
+
+115
+00:07:10,950 --> 00:07:13,450
+Only finitely many can lie outside.
+
+116
+00:07:14,270 --> 00:07:16,500
+For example here we could have "a1"
+
+117
+00:07:16,550 --> 00:07:18,000
+and there "a2",
+
+118
+00:07:18,510 --> 00:07:22,640
+but at some point we will find an index "N" such that
+
+119
+00:07:22,650 --> 00:07:27,100
+all the sequence members afterwards lie inside the epsilon-neighbourhood.
+
+120
+00:07:27,970 --> 00:07:30,600
+So what you should see is that this is really needed
+
+121
+00:07:30,600 --> 00:07:32,980
+if we want to make sense out of the sentence
+
+122
+00:07:32,990 --> 00:07:35,990
+"an" gets closer and closer to the point "a".
+
+123
+00:07:36,880 --> 00:07:39,130
+Therefore formally we now would say
+
+124
+00:07:39,140 --> 00:07:46,040
+There exits a "N" such that for all "n >= N"
+
+125
+00:07:46,140 --> 00:07:51,500
+we have that the distance "an" to "a" is less than epsilon.
+
+126
+00:07:52,300 --> 00:07:55,400
+and this distance we can measure with the absolute value.
+
+127
+00:07:56,150 --> 00:07:58,900
+Please note. This means exactly the same as saying
+
+128
+00:07:58,920 --> 00:08:01,620
+"an" lies in the epsilon-neighbourhood of a.
+
+129
+00:08:02,080 --> 00:08:04,080
+However here you should see,
+
+130
+00:08:04,080 --> 00:08:10,070
+this only describes the convergence to the point "a" if this works for any epsilon.
+
+131
+00:08:10,690 --> 00:08:14,580
+So no matter of small the epsilon is this always works.
+
+132
+00:08:15,000 --> 00:08:17,300
+Of course if we choose a smaller epsilon
+
+133
+00:08:17,350 --> 00:08:19,850
+we may have to choose a bigger "N" here.
+
+134
+00:08:20,310 --> 00:08:22,000
+In the end this doesn't matter,
+
+135
+00:08:22,030 --> 00:08:27,020
+because we still have infinitely many sequence members inside the epsilon-neighbourhood
+
+136
+00:08:27,030 --> 00:08:29,220
+and only finitely many outside.
+
+137
+00:08:29,980 --> 00:08:33,679
+and with this you have the full definition of convergency.
+
+138
+00:08:34,320 --> 00:08:38,100
+Now the opposite of this we simply call divergence.
+
+139
+00:08:38,820 --> 00:08:42,900
+So in the case we don't find such a limit point "a" with the property above.
+
+140
+00:08:42,919 --> 00:08:45,100
+We call the sequence divergent.
+
+141
+00:08:45,650 --> 00:08:47,650
+We have already seen 2 examples,
+
+142
+00:08:47,660 --> 00:08:50,800
+where it's very obvious that we can't find such an "a".
+
+143
+00:08:51,380 --> 00:08:55,000
+But of course you really should write down a correct  proof for this.
+
+144
+00:08:55,750 --> 00:08:59,990
+However maybe it's more interesting to first look at our positive example.
+
+145
+00:09:00,660 --> 00:09:05,500
+Or in other words. The sequence 1/n is convergent to 0.
+
+146
+00:09:06,220 --> 00:09:09,050
+So our "a" from above is now just 0.
+
+147
+00:09:09,580 --> 00:09:13,400
+We have already talked about this. Intuitively this makes sense.
+
+148
+00:09:13,870 --> 00:09:17,870
+But now we are able to write down the formal proof of this statement.
+
+149
+00:09:18,550 --> 00:09:23,000
+First you should note, since we have to show this statement for all epsilon
+
+150
+00:09:23,020 --> 00:09:26,010
+we have to choose an arbitrary epsilon at the beginning.
+
+151
+00:09:26,480 --> 00:09:28,480
+Therefore the first sentence should read
+
+152
+00:09:28,510 --> 00:09:32,500
+Let epsilon be a real number that is greater than 0.
+
+153
+00:09:32,990 --> 00:09:36,990
+and we also already know what the last sentence of the proof should be.
+
+154
+00:09:37,790 --> 00:09:43,500
+Namely that we have that the distance "an" to 0 in this case is less than epsilon.
+
+155
+00:09:43,970 --> 00:09:49,500
+and this should hold for all indices "n >= N".
+
+156
+00:09:50,460 --> 00:09:54,940
+Hence you see, the only thing that is missing here is the definition of "N"
+
+157
+00:09:54,950 --> 00:09:57,880
+and the calculation to reach this result.
+
+158
+00:09:58,300 --> 00:10:01,260
+Of course here we can already fill in some details,
+
+159
+00:10:01,280 --> 00:10:03,570
+because we know the sequence "an".
+
+160
+00:10:04,210 --> 00:10:07,130
+First subtracting 0 doesn't change anything
+
+161
+00:10:07,150 --> 00:10:09,540
+so we have the absolute value of "an".
+
+162
+00:10:10,160 --> 00:10:13,150
+Which is of course simply 1/n.
+
+163
+00:10:13,730 --> 00:10:15,630
+Now at this point you should see,
+
+164
+00:10:15,650 --> 00:10:20,640
+because we have this inequality we have the other inequality for the reciprocals
+
+165
+00:10:21,330 --> 00:10:26,330
+Or simply "1/n" is less or equal than "1/N".
+
+166
+00:10:27,520 --> 00:10:29,520
+Ok. Now with this we have filled in the calculation
+
+167
+00:10:30,280 --> 00:10:35,150
+and now the only thing missing is that 1/N is indeed less than epsilon.
+
+168
+00:10:36,030 --> 00:10:40,750
+Of course we can define "N" as we want so lets choose it so large that
+
+169
+00:10:40,750 --> 00:10:43,400
+that "N" times epsilon is greater than 1.
+
+170
+00:10:44,080 --> 00:10:48,080
+Hence you only have to ask youself "is this really possible".
+
+171
+00:10:48,790 --> 00:10:50,480
+and the answer is yes.
+
+172
+00:10:50,490 --> 00:10:54,090
+This is exactly our Archimedean property from our axioms.
+
+173
+00:10:54,700 --> 00:10:58,940
+It just tells us that no matter how small a number epsilon is
+
+174
+00:10:58,940 --> 00:11:02,040
+we can always exceed any number we want.
+
+175
+00:11:02,420 --> 00:11:06,050
+Just by adding the number finitely many times.
+
+176
+00:11:06,630 --> 00:11:10,000
+Therefore we just find a suitable "N" here.
+
+177
+00:11:10,950 --> 00:11:14,880
+Now having this we can finally read the proof from left to right.
+
+178
+00:11:14,900 --> 00:11:16,350
+and everything makes sense.
+
+179
+00:11:16,830 --> 00:11:19,930
+and also of course our statement is proven.
+
+180
+00:11:20,880 --> 00:11:26,300
+Ok. Here you have seen what your thinking process should be when you want to solve such a problem.
+
+181
+00:11:26,370 --> 00:11:29,270
+You start with the things you need to put in
+
+182
+00:11:29,290 --> 00:11:31,800
+and the things you want to show in the end.
+
+183
+00:11:32,390 --> 00:11:34,850
+and then you try to fill in all gaps
+
+184
+00:11:34,910 --> 00:11:38,550
+such that in the end you can read it from left to right.
+
+185
+00:11:39,120 --> 00:11:42,550
+This means that sometimes you need to shift the things a little bit around
+
+186
+00:11:42,570 --> 00:11:44,570
+to get your result in the end.
+
+187
+00:11:45,000 --> 00:11:46,900
+Ok. I think this is good enough for today.
+
+188
+00:11:46,900 --> 00:11:48,640
+I hope i see you in the next video,
+
+189
+00:11:48,660 --> 00:11:52,000
+when we talk about the properties of a convergent sequence.
+
+190
+00:11:52,390 --> 00:11:55,380
+So have a nice day and see you then. Bye!

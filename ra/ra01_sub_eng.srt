@@ -1,0 +1,287 @@
+﻿1
+00:00:00,000 --> 00:00:04,000
+Hello and welcome to real analysis
+
+2
+00:00:04,200 --> 00:00:09,200
+and first i want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,399 --> 00:00:11,399
+This is part 1 of a new course
+
+4
+00:00:11,599 --> 00:00:15,590
+where we talk about the analysis we can do with the real numbers.
+
+5
+00:00:15,790 --> 00:00:17,790
+Before we start with it i can tell you
+
+6
+00:00:17,990 --> 00:00:21,980
+you will always find the PDF versions of these videos and the quizzes
+
+7
+00:00:22,000 --> 00:00:24,680
+where you can test your understanding of these topics
+
+8
+00:00:24,700 --> 00:00:26,700
+in the description below.
+
+9
+00:00:26,790 --> 00:00:30,890
+Now, the topic of real analysis is also known as calculus.
+
+10
+00:00:31,090 --> 00:00:33,090
+But there are also a lot of other names.
+
+11
+00:00:33,090 --> 00:00:37,290
+For example just analysis or infinitesimal calculus.
+
+12
+00:00:37,490 --> 00:00:39,490
+So you might recognize your lecture here,
+
+13
+00:00:39,490 --> 00:00:41,690
+but of course the name is not important.
+
+14
+00:00:41,890 --> 00:00:43,890
+The goal of the course is important.
+
+15
+00:00:44,090 --> 00:00:50,090
+This should be in the end the understanding of differential and integral calculations.
+
+16
+00:00:50,290 --> 00:00:54,280
+Therefore in the end you will be able to understand everything 
+
+17
+00:00:54,280 --> 00:00:56,480
+about the symbol "df/dx"
+
+18
+00:00:56,680 --> 00:01:00,670
+and also about the integral symbol "f dx".
+
+19
+00:01:00,870 --> 00:01:05,170
+With this you might already guess some of the topics we will cover here.
+
+20
+00:01:05,370 --> 00:01:08,370
+First we will look at sequences of real numbers
+
+21
+00:01:08,570 --> 00:01:10,570
+and then define what limits are.
+
+22
+00:01:10,870 --> 00:01:15,360
+Afterwards we will talk about functions that are continuous.
+
+23
+00:01:15,560 --> 00:01:19,560
+Then, usually it gets easier when we talk about derivatives.
+
+24
+00:01:20,760 --> 00:01:24,760
+In the end integrals will close our real analysis course.
+
+25
+00:01:24,960 --> 00:01:26,960
+So you see, we have a lot to cover here.
+
+26
+00:01:27,160 --> 00:01:31,150
+Therefore i should tell you what the requirements are for this course.
+
+27
+00:01:31,350 --> 00:01:34,000
+Indeed, this is very simple to say.
+
+28
+00:01:34,000 --> 00:01:36,000
+I can put it into two words.
+
+29
+00:01:36,000 --> 00:01:38,200
+You just have to know the real numbers.
+
+30
+00:01:38,400 --> 00:01:40,200
+You don't need much else,
+
+31
+00:01:40,200 --> 00:01:43,400
+if you know how to calculate in the real numbers "R",
+
+32
+00:01:43,400 --> 00:01:46,000
+you know everything to follow this course.
+
+33
+00:01:46,200 --> 00:01:48,400
+In the case you don't know the real numbers.
+
+34
+00:01:48,410 --> 00:01:52,400
+That is not a problem, because i have a whole video course about them.
+
+35
+00:01:52,600 --> 00:01:56,600
+In "Start Learning Mathematics" you find everything you need.
+
+36
+00:01:56,600 --> 00:02:00,000
+and the important videos are the ones about the real numbers.
+
+37
+00:02:00,200 --> 00:02:04,200
+Therefore it might be sufficient to look at "Start Learning Reals".
+
+38
+00:02:04,880 --> 00:02:08,400
+For us here, we will take the axioms of the real numbers
+
+39
+00:02:08,600 --> 00:02:10,389
+as our foundation.
+
+40
+00:02:10,590 --> 00:02:12,590
+Indeed they are not so complicated.
+
+41
+00:02:12,590 --> 00:02:14,790
+We just have a set with two operations:
+
+42
+00:02:14,780 --> 00:02:16,990
+addition and multiplication
+
+43
+00:02:17,190 --> 00:02:22,000
+and also with an ordering such that we have all these properties here.
+
+44
+00:02:23,000 --> 00:02:25,480
+Roughly they tell us that we have a field of numbers
+
+45
+00:02:25,570 --> 00:02:27,680
+that are also nicely ordered.
+
+46
+00:02:27,880 --> 00:02:33,000
+Which simply means that we can visualize the real numbers as the number line.
+
+47
+00:02:33,200 --> 00:02:36,480
+and the last property here is the completeness axiom,
+
+48
+00:02:36,680 --> 00:02:38,680
+which talks about sequences.
+
+49
+00:02:38,880 --> 00:02:42,170
+But don't worry. We will talk about sequences a lot soon.
+
+50
+00:02:42,370 --> 00:02:45,370
+Therefore you will understand this axiom in the end.
+
+51
+00:02:46,060 --> 00:02:48,660
+However, what we need immediately from the beginning
+
+52
+00:02:48,760 --> 00:02:52,000
+is the so called "absolute value" of a real number.
+
+53
+00:02:52,200 --> 00:02:56,190
+So you see, it always gives us a positive number or zero.
+
+54
+00:02:57,000 --> 00:03:02,000
+In other words, it measures the distance from 0 to the point x.
+
+55
+00:03:03,000 --> 00:03:07,190
+Soon we will see it is very important that we can measure distances 
+
+56
+00:03:07,190 --> 00:03:08,760
+to do real analysis.
+
+57
+00:03:09,000 --> 00:03:11,580
+That is what the definition of a limit
+
+58
+00:03:11,580 --> 00:03:14,000
+or the definition of the derivatives needs.
+
+59
+00:03:14,390 --> 00:03:17,190
+Now, what you really should know is, what to do
+
+60
+00:03:17,180 --> 00:03:19,480
+when you have two numbers in the absolute value.
+
+61
+00:03:20,000 --> 00:03:23,580
+So they could be combined by multiplication or by addition.
+
+62
+00:03:24,000 --> 00:03:26,770
+For the multiplication nothing special happens.
+
+63
+00:03:26,860 --> 00:03:29,960
+You can just split it up into the two absolute values.
+
+64
+00:03:30,000 --> 00:03:32,740
+However, for the addition this is not true.
+
+65
+00:03:32,900 --> 00:03:35,050
+There we just have an inequality.
+
+66
+00:03:35,250 --> 00:03:38,250
+and this is called the "triangle inequality".
+
+67
+00:03:38,450 --> 00:03:40,450
+and we will use that a lot.
+
+68
+00:03:40,650 --> 00:03:43,640
+Ok! I think that is good enough for a short introduction here.
+
+69
+00:03:43,839 --> 00:03:47,200
+In the next video we will start with our real analysis course
+
+70
+00:03:47,190 --> 00:03:49,400
+by considering sequences.
+
+71
+00:03:49,600 --> 00:03:52,490
+Therefore i hope i see you there and have a nice day.
+
+72
+00:03:52,500 --> 00:03:53,380
+Bye!
