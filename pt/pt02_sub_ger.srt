@@ -1,0 +1,420 @@
+﻿1
+00:00:00,660 --> 00:00:03,760
+Hallo und willkommen zurück zu Wahrscheinlichkeitstheorie
+
+2
+00:00:04,300 --> 00:00:08,880
+und als erstes möchte ich all den netten Menschen, die diesen Kanal auf Steady oder Paypal unterstützen danken.
+
+3
+00:00:09,430 --> 00:00:13,510
+Im heutigen Teil 2, werden wir über Wahrscheinlichkeitsmaße reden.
+
+4
+00:00:13,980 --> 00:00:18,280
+Natürlich wird diese Notation wichtig für die gesamte Videoreihe sein.
+
+5
+00:00:18,480 --> 00:00:23,380
+Weil wir die gesamte Zufälligkeit mit einem Wahrscheinlichkeitsmaß beschreiben können.
+
+6
+00:00:24,150 --> 00:00:29,840
+Wenn ihr schon etwas Maßtheorie kennt, dann wisst ihr auch schon was Wahrscheinlichkeitsmaße sind.
+
+7
+00:00:30,620 --> 00:00:35,300
+Tatsächlich könnt ihr sagen, dass sind Maße mit einer totalen Masse 1.
+
+8
+00:00:36,160 --> 00:00:39,840
+Jedoch möchte ich hier ein bisschen mehr darüber erklären.
+
+9
+00:00:40,600 --> 00:00:45,300
+ Vielleicht ist es ein guter Anfang, wenn man sich ein Rechteck oder einen Quadrat in der Ebene vorstellt.
+
+10
+00:00:46,210 --> 00:00:50,310
+Das ist insgesamt die Menge, die wir uns vorstellen und wird normalerweise Omega genannt.
+
+11
+00:00:51,300 --> 00:00:56,580
+und ihr solltet wissen, dass dies in Wahrscheinlichkeitstheorie normalerweise Ergebnisraum genannt wird.
+
+12
+00:00:57,430 --> 00:01:04,849
+Daher könnte Omega irgendeine Menge sein, da wir einfach alle möglichen Ergebnisse des Zufallsexperiments einfügen.
+
+13
+00:01:05,550 --> 00:01:11,330
+und dann visualisieren wir die Menge mit diesem Rechteck hier, 
+dessen gesamten Fläche 1 betragen sollte.
+
+14
+00:01:11,940 --> 00:01:15,830
+Denn die Wahrscheinlichkeit irgendein Ergebnis zu bekommen, sollte 1 sein.
+
+15
+00:01:16,310 --> 00:01:22,510
+und jetzt sollte euch ein Wahrscheinlichkeitsmaß auch die Wahrscheinlichkeit für eine gegebene Teilmenge sagen.
+
+16
+00:01:23,880 --> 00:01:27,370
+was wir hier also wollen ist eine Abbildung, die wir "P" nennen.
+
+17
+00:01:27,470 --> 00:01:29,970
+welche Teilmengen auf Nummern abbildet.
+
+18
+00:01:30,770 --> 00:01:34,550
+daher soll dieses geschwungene "A" die Sammlung von Teilmengen sein.
+
+19
+00:01:35,290 --> 00:01:41,780
+Mit anderen Worten, haben wir besten Falle alle Teilmengen von Omega in diesem geschwungenen "A"
+
+20
+00:01:42,570 --> 00:01:49,160
+ok, um einen brauchbaren Begriff zu haben, sollte diese Abbildung zwei wichtige Bedingungen erfüllen.
+
+21
+00:01:49,980 --> 00:01:55,370
+Das erste haben wir schon genannt. Wir wollen, dass die Wahrscheinlichkeit für den gesamten Ergebnisraum 1 ist.
+
+22
+00:01:56,290 --> 00:02:01,140
+ wenn wir also Wahrscheinlichkeiten messen, wollen wir, dass der höchste Wert 1 sein soll.
+
+23
+00:02:01,850 --> 00:02:05,140
+auf der anderen Seite, sollte der kleinste Wert 0 sein.
+
+24
+00:02:05,830 --> 00:02:12,210
+ Daher wollen wir unabhängig von der Teilmenge "A", immer ein Ergebnis zwischen 0 und 1 raus bekommen.
+
+25
+00:02:12,790 --> 00:02:15,770
+Deshalb haben wir ein abgeschlossenes Intervall 0,1.
+
+26
+00:02:16,670 --> 00:02:22,360
+Wenn wir zurück zu unseren Rechteck gehen, würde dies bedeuten, dass die kleinste Fläche, die wir messen können, 0 ist. 
+
+27
+00:02:23,050 --> 00:02:27,850
+Deshalb sollten alle anderen Werte zwischen 0 und 1 auch eine mögliche Flächengröße sein.
+
+28
+00:02:28,410 --> 00:02:32,300
+Ok, lasst uns für den nächsten Schritt eine andere Teilmenge "B" betrachten.
+
+29
+00:02:33,320 --> 00:02:38,610
+Wenn es keine Schnittmenge zwischen "A" und "B" gibt, 
+dann können wir einfach die Flächen zusammen addieren.
+
+30
+00:02:39,170 --> 00:02:47,550
+Das heißt die Wahrscheinlichkeit für die Teilmenge "A vereinigt mit B" ist die Summe von beiden Wahrscheinlichkeiten.
+
+31
+00:02:48,230 --> 00:02:53,450
+Wir wollen diese schöne und natürliche Formel im Falle, dass "A" und "B" disjunkt sind.
+
+32
+00:02:54,100 --> 00:02:58,890
+Nochmal zur Erinnerung, dies bedeutet, dass die Schnittmenge von den beiden Teilmengen, die Leere Menge sein soll.
+
+33
+00:02:59,430 --> 00:03:03,390
+Wo wir gerade bei der Leeren Menge sind.
+ Was ist die Fläche von der Leeren Menge? 
+
+34
+00:03:04,080 --> 00:03:07,980
+Natürlich wäre die einzige sinnvolle Definition, dass die Fläche gleich 0 ist.
+
+35
+00:03:08,580 --> 00:03:12,980
+Die Wahrscheinlichkeit gar kein Ergebnis zu bekommen sollte immer 0 sein.
+
+36
+00:03:13,630 --> 00:03:18,620
+Ok, wir haben fast alles was wir hier brauchen.
+ Es fehlt nur noch eine Sache.
+
+37
+00:03:19,200 --> 00:03:23,190
+Nämlich, die Formel sollte auch für den Limit Prozess gelten.
+
+38
+00:03:23,730 --> 00:03:27,360
+Das bedeutet wir schauen uns eine abzählbare Vereinigung der Teilmengen an.
+
+39
+00:03:27,980 --> 00:03:34,360
+In unserem Bild würde das Bedeuten, dass wir eine Fläche annähern, indem wir zählbar viele Flächen aufsummieren.
+
+40
+00:03:34,850 --> 00:03:39,340
+Daher haben wir in unserer Formel eine Reihe von 1 bis unendlich.
+
+41
+00:03:40,310 --> 00:03:42,410
+Diese Vereinigung geht in eine Summe.
+
+42
+00:03:43,270 --> 00:03:48,070
+Natürlich brauchen wir auch für diese Formel die Vorrausetzung, 
+dass dies eine disjunkte Vereinigung ist.
+
+43
+00:03:48,730 --> 00:03:53,120
+Mit anderen Worten würden wir sagen, dass die Familie "A_j" 
+paarweise disjunkt ist.
+
+44
+00:03:53,730 --> 00:04:00,530
+Das bedeutet egal welche zwei verschiedene Mengen "A_i" und "A_j" ihr auswählt, die Schnittmenge ist immer die Leere Menge.
+
+45
+00:04:01,230 --> 00:04:07,600
+So, damit haben wir die Bedingungen, die wir brauchen um einen allgemeinen Begriff von Wahrscheinlichkeit zu definieren.
+
+46
+00:04:08,540 --> 00:04:14,200
+Um diese Behauptungen zu erfüllen brauchen wir einen Definitionsbereich "A", welches ein Sigma-Algebra ist.
+
+47
+00:04:14,820 --> 00:04:18,660
+Daher lasst uns über die Definition eines Sigma Algebra reden.
+
+48
+00:04:19,279 --> 00:04:26,720
+Ich möchte nicht in die Details eingehen, da ich eine gesamte Serie zu Maßtheorie habe, wo es im ersten Video um Sigma Algebra geht.
+
+49
+00:04:27,360 --> 00:04:30,580
+Die allgemeine Idee ist die Selbe für irgendeine Menge Omega.
+
+50
+00:04:30,950 --> 00:04:33,530
+Wir wollen nur geeignete Teilmengen betrachten.
+
+51
+00:04:34,170 --> 00:04:37,410
+Dennoch sollten die Teilmengen zusammen ein paar Regeln erfüllen.
+
+52
+00:04:38,380 --> 00:04:42,120
+Wir nehmen eine Sammlung von Teilmengen, die wir geschwungenes "A" nennen.
+
+53
+00:04:42,320 --> 00:04:46,010
+Was bedeutet wir haben eine Teilmenge von der Potenzmenge von Omega.
+
+54
+00:04:46,470 --> 00:04:53,460
+Wenn wir jetzt an ein Wahrscheinlichkeitsproblem denken, dann haben wir alle Ereignisse, für die wir eine Wahrscheinlichkeit wollen, in diesem geschwungenem "A"
+
+55
+00:04:53,900 --> 00:04:59,380
+Z.B. haben wir für einen Würfelwurf das Ereignis eine gerade Zahl zu bekommen.
+
+56
+00:04:59,990 --> 00:05:03,930
+und dieses Ereignis ist eine Teilmenge von der wir die Wahrscheinlichkeit messen wollen.
+
+57
+00:05:04,750 --> 00:05:08,850
+In diesem Fall muss dieses Ereignis ein Element von diesem "A" sein.
+
+58
+00:05:09,570 --> 00:05:16,570
+Was wir aber immer haben wollen ist die Wahrscheinlichkeit von der Leeren Menge und den gesamten Ergebnisraum Omega.
+
+59
+00:05:17,220 --> 00:05:20,120
+Daher sollten beide Mengen Teil von "A" sein.
+
+60
+00:05:21,240 --> 00:05:27,000
+Die nächste Eigenschaft die wir brauchen ist, dass wenn wir eine Teilmenge "A", die im geschwungenen "A" liegt, nehmen,
+
+61
+00:05:27,340 --> 00:05:30,050
+dann sollte das Komplement auch im geschwungenem "A" liegen.
+
+62
+00:05:30,630 --> 00:05:35,620
+ Das Komplement ist generell definiert als Omega, also der gesamte Raum, ohne der Menge "A".
+
+63
+00:05:35,810 --> 00:05:38,630
+und wird immer gekennzeichnet mit oberen Index "c".
+
+64
+00:05:39,330 --> 00:05:43,930
+Das macht Sinn, denn wenn wir die Wahrscheinlichkeit für ein Ereignis "A" haben,
+
+65
+00:05:44,100 --> 00:05:48,240
+dann sollten wir auch in der Lage sein die Wahrscheinlichkeit von nicht "A" zu bestimmen.
+
+66
+00:05:48,770 --> 00:05:55,650
+Ok, und die dritte Eigenschaft ist nicht so schwer zu verstehen, weil wir schon wissen, dass wir sie für das Wahrscheinlichkeitsmaß wollen.
+
+67
+00:05:56,390 --> 00:06:03,830
+Wir nehmen uns eine abzählbare Menge von "A" und die gesamte Vereinigung davon soll auch eine Menge von "A" sein.
+
+68
+00:06:04,960 --> 00:06:09,820
+Wenn wir alle 3 Eigenschaften für die Sammlung "A" haben, dann handelt es sich um ein Sigma Algebra.
+
+69
+00:06:10,490 --> 00:06:14,450
+und normalerweise schreiben wir dies mit einem kleinen Sigma.
+
+70
+00:06:15,060 --> 00:06:22,630
+Was man sich auch merken sollte ist, dass in Wahrscheinlichkeitstheorie, die Elemente vom Sigma Algebra, normalerweise Ereignisse genannt werden. 
+
+71
+00:06:23,520 --> 00:06:31,030
+Ok, dieses Sigma Algebra ist nun der Definitionsbereich für solch ein Wahrscheinlichkeitsmaß.
+
+72
+00:06:31,730 --> 00:06:36,300
+Lasst uns ein Ergebnisraum Omega und ein Sigma Algebra "A" festlegen.
+
+73
+00:06:36,940 --> 00:06:43,630
+Die Abbildung, die wir "P" nennen, mit der Definitionsmenge "A" und der Zielmenge [0,1]
+
+74
+00:06:44,350 --> 00:06:48,140
+wird Wahrscheinlichkeitsmaß genannt, wenn sie 2 Eigenschaften erfüllt.
+
+75
+00:06:48,770 --> 00:06:52,810
+und weil wir die schon vorher besprochen haben, können wir sie jetzt einfach kopieren.
+
+76
+00:06:53,340 --> 00:07:00,310
+Die erste ist, dass die Wahrscheinlichkeit vom gesamten Raum 1 und die von der Leeren Menge 0 ist.
+
+77
+00:07:00,900 --> 00:07:04,470
+und die zweite nennen wir Sigma Additivität.
+
+78
+00:07:05,060 --> 00:07:09,890
+merkt euch für Sigma Additivität, brauchen wir paarweise disjunkte Mengen.
+
+79
+00:07:10,480 --> 00:07:17,720
+Ok und damit kennt ihr die generellen Voraussetzungen für ein Wahrscheinlichkeitsmaß, welche wir sehr oft nutzen werden.
+
+80
+00:07:18,320 --> 00:07:21,460
+vielleicht sollten wir mit einem einfachen Beispiel starten.
+
+81
+00:07:22,210 --> 00:07:25,410
+Lasst uns wieder den Würfel vom letzten Video anschauen.
+
+82
+00:07:25,980 --> 00:07:30,480
+wenn wir ihn nur einmal Werfen kennen wir sofort den Ergebnisraum Omega.
+
+83
+00:07:31,260 --> 00:07:35,200
+Alle möglichen Ausgaben von 1 bis 6 sind im unseren Ergebnisraum.
+
+84
+00:07:35,690 --> 00:07:39,680
+Für den Sigma Algebra "A" habt ihr nun die Wahl.
+
+85
+00:07:40,430 --> 00:07:43,930
+Die Frage ist, an wie vielen Ereignissen seid ihr interessiert?
+
+86
+00:07:44,420 --> 00:07:49,520
+Die einfachste Antwort wäre, dass wir an allen Ereignissen interessiert sind. In diesem Fall haben wir die Potenzmenge.
+
+87
+00:07:50,130 --> 00:07:57,030
+Oftmals ist dies ein guter Ansatz. Jedoch wird dies nicht funktionieren im Falle, dass unser Ergebnisraum unendlich ist.
+
+88
+00:07:57,390 --> 00:08:01,800
+aber auch dort könnte man einfach sagen, 
+ich wähle eine Sigma Algebra, was groß genug ist.
+
+89
+00:08:02,220 --> 00:08:06,420
+und dann definieren wir das Wahrscheinlichkeitsmaß an diesem Sigma Algebra.
+
+90
+00:08:07,030 --> 00:08:12,910
+Da wir, in unseren Fall, ein einfachen Würfel haben, haben alle Seiten die Selbe Wahrscheinlichkeit.
+
+91
+00:08:13,630 --> 00:08:21,300
+In unserer allgemeinen Definition hier, würde dies bedeuten, dass wir einfach die Elemente von "A" zählen und dann durch die Anzahl der Elemente in Omega teilen.
+
+92
+00:08:21,960 --> 00:08:26,460
+Natürlich wäre dadurch, in unseren Fall, die Zahl im Nenner 6.
+
+93
+00:08:27,020 --> 00:08:34,010
+wenn wir z.B. die Wahrscheinlichkeit für das Ereignis einer 2 haben wollen, bekommen wir 1 geteilt durch 6 raus.
+
+94
+00:08:34,669 --> 00:08:40,770
+Auf der anderen Seite bekommen wir für das Ereignis von einer geraden Zahl, 3 geteilt durch 6 raus
+
+95
+00:08:41,299 --> 00:08:42,970
+oder in anderen Worten ein halb.
+
+96
+00:08:43,429 --> 00:08:49,520
+Ok und jetzt seht ihr unser mathematisches Modell für den Wurf eines normalen Würfels.
+
+97
+00:08:50,190 --> 00:08:56,800
+und in späteren Videos werdet ihr sehen, dass wir dieses Modell sehr einfach erweitern können um weiter Beispiele mit einzubeziehen.
+
+98
+00:08:57,240 --> 00:09:02,620
+Ok zum Schluss gebe ich euch noch eine kleine Aufgabe über Wahrscheinlichkeitsmaße.
+
+99
+00:09:03,030 --> 00:09:08,110
+Versucht zu Beweisen, dass für ein allgemeines Wahrscheinlichkeitsmaß "P" und ein Ereignis "A"
+
+100
+00:09:08,600 --> 00:09:13,340
+die Wahrscheinlichkeit für das Komplement ,
+ 1 minus die Wahrscheinlichkeit von "A", ist.
+
+101
+00:09:13,990 --> 00:09:19,280
+Das ist eine sehr schöne Eigenschaft, die sofort von den anderen zwei Eigenschaften folgt.
+
+102
+00:09:20,000 --> 00:09:26,300
+Ok ich denke das war erstmal genug für heute und im nächsten Video werden wir mehr Beispiele zu Wahrscheinlichkeitsmaße sehen.
+
+103
+00:09:26,880 --> 00:09:30,520
+Daher hoffe ich euch dort zu sehen und habt noch einen schönen Tag :)
+Bye!

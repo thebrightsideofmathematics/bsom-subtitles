@@ -1,0 +1,420 @@
+﻿1
+00:00:00,660 --> 00:00:03,760
+Hello and welcome back to probability theory
+
+2
+00:00:04,300 --> 00:00:08,880
+And first i want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,430 --> 00:00:13,510
+Now in todays part 2 we will talk about probability measures.
+
+4
+00:00:13,980 --> 00:00:18,280
+Of course this will be a notion that will be important through the whole series
+
+5
+00:00:18,480 --> 00:00:23,380
+because we can put the whole randomness we want to describe into such a probability measure.
+
+6
+00:00:24,150 --> 00:00:29,840
+Now if you already know some measure theory you also already know what probability measures are.
+
+7
+00:00:30,620 --> 00:00:35,300
+Indeed in short you can just say these are the measure with total mass 1.
+
+8
+00:00:36,160 --> 00:00:39,840
+However of course i want to explain a little bit more about this here.
+
+9
+00:00:40,600 --> 00:00:45,300
+Maybe a good starting point is always to think of a rectangle
+or a square in the plane.
+
+10
+00:00:46,210 --> 00:00:50,310
+This is the overall set we consider and usually we call it omega
+
+11
+00:00:51,300 --> 00:00:56,580
+and also you should know in probability theory this is usually known as the sample space.
+
+12
+00:00:57,430 --> 00:01:04,849
+Therefore this omega could be any set, because we just put all possible outcomes of our random experiment into it.
+
+13
+00:01:05,550 --> 00:01:11,330
+and then we just visualize this set with the rectangle here where the whole area should be 1.
+
+14
+00:01:11,940 --> 00:01:15,830
+Simply because the probability to get any outcome should be 1.
+
+15
+00:01:16,310 --> 00:01:22,510
+And now a probability measure should also tell you the probability for a given subset.
+
+16
+00:01:23,880 --> 00:01:27,370
+So what we want here is simply a map we call "P".
+
+17
+00:01:27,470 --> 00:01:29,970
+That maps subsets to numbers.
+
+18
+00:01:30,770 --> 00:01:34,550
+Hence this curved "A" here should be a collection of subsets.
+
+19
+00:01:35,290 --> 00:01:41,780
+In other words the best case scenario would be that we have all the subsets of omega in this fancy "A".
+
+20
+00:01:42,570 --> 00:01:49,160
+Ok, now for getting a useful probability notion here
+we really have some important requirements for this map.
+
+21
+00:01:49,980 --> 00:01:55,370
+The first thing we already said. We want That the probability of the whole sample space should be 1.
+
+22
+00:01:56,290 --> 00:02:01,140
+So when we measure probabilities the maximum value we want to get out should be 1.
+
+23
+00:02:01,850 --> 00:02:05,140
+On the other hand the minimal value should be 0.
+
+24
+00:02:05,830 --> 00:02:12,210
+Therefore no matter which subset "A" we put in we always want to get out a number between 0 and 1.
+
+25
+00:02:12,790 --> 00:02:15,770
+Hence we have the closed 0,1 interval here.
+
+26
+00:02:16,670 --> 00:02:22,360
+Going back to our rectangle here this means the smallest area we could measure should be 0.
+
+27
+00:02:23,050 --> 00:02:27,850
+However all other values between 0 and 1 could be possible for areas.
+
+28
+00:02:28,410 --> 00:02:32,300
+Ok then in the next step let's look at another subset "B" here.
+
+29
+00:02:33,320 --> 00:02:38,610
+Now if there's no overlap between both sets "A" and "B" we could simply add the areas.
+
+30
+00:02:39,170 --> 00:02:47,550
+This means that the probability of the subset "A union B"  should be just the sum of both probabilities.
+
+31
+00:02:48,230 --> 00:02:53,450
+So we want this nice and natural formula in the case  that "A" and "B" are disjoint.
+
+32
+00:02:54,100 --> 00:02:58,890
+As a reminder this means that the intersection of both subsets should be the empty set.
+
+33
+00:02:59,430 --> 00:03:03,390
+Speaking of the empty set. What should be the area of the empty set?
+
+34
+00:03:04,080 --> 00:03:07,980
+Of course the only useful definition should be to choose it as zero.
+
+35
+00:03:08,580 --> 00:03:12,980
+So the probability to get no outcome at all should always be 0.
+
+36
+00:03:13,630 --> 00:03:18,620
+Ok, now we have almost everything we need here.
+There is only one thing missing.
+
+37
+00:03:19,200 --> 00:03:23,190
+Namely this formula should also hold in a limit process.
+
+38
+00:03:23,730 --> 00:03:27,360
+This means that we look here at a countable union of subsets.
+
+39
+00:03:27,980 --> 00:03:34,360
+In our picture this would mean that we approximate an area by adding up countable many areas.
+
+40
+00:03:34,850 --> 00:03:39,340
+Hence in our formula we will have a series from one to infinity.
+
+41
+00:03:40,310 --> 00:03:42,410
+So this union goes to a sum.
+
+42
+00:03:43,270 --> 00:03:48,070
+Of course for this formula we also need the assumption that we have a disjoint union here.
+
+43
+00:03:48,730 --> 00:03:53,120
+In other words you would say the family "A_j" is pairwise disjoint.
+
+44
+00:03:53,730 --> 00:04:00,530
+This means that no matter which two different sets "A_i" and "A_j" you choose you always have an empty intersection.
+
+45
+00:04:01,230 --> 00:04:07,600
+So with this we have the requirements we demand when we want to define a general notion of a probability.
+
+46
+00:04:08,540 --> 00:04:14,200
+Now to satisfy these claims here we need for the domain "A" a so called sigma-algebra.
+
+47
+00:04:14,820 --> 00:04:18,660
+Therefore lets talk about the definition of a sigma-algebra.
+
+48
+00:04:19,279 --> 00:04:26,720
+I don't want to go into the details, because i have a whole series about measure theory, where the first videos are about sigma-algebras.
+
+49
+00:04:27,360 --> 00:04:30,580
+The overall idea is the same. For any set omega
+
+50
+00:04:30,950 --> 00:04:33,530
+we only want to consider suitable subsets.
+
+51
+00:04:34,170 --> 00:04:37,409
+However these subsets together should fulfill some rules.
+
+52
+00:04:38,380 --> 00:04:42,120
+So we take a collection of subsets denoted with this curved "A"
+
+53
+00:04:42,320 --> 00:04:46,010
+Which means we have a subset of the power set of omega.
+
+54
+00:04:46,470 --> 00:04:53,460
+Now thinking of a probability problem in this curved "A" we have all the events we want the probability for.
+
+55
+00:04:53,900 --> 00:04:59,380
+For example for the throw of a die we have the event of getting 
+an even number as an outcome
+
+56
+00:04:59,990 --> 00:05:03,930
+and this event is a subset of which we want to measure the probability.
+
+57
+00:05:04,750 --> 00:05:08,850
+Therefore in this case we need that event to be an element of this "A" here.
+
+58
+00:05:09,570 --> 00:05:16,570
+However what we always want to do is to measure the probability of the empty set and the whole sample space omega.
+
+59
+00:05:17,220 --> 00:05:20,120
+Hence both sets should be an element of "A".
+
+60
+00:05:21,240 --> 00:05:27,000
+Then the next property we need is, if we take any subset "A" that lies in our curved "A"
+
+61
+00:05:27,340 --> 00:05:30,050
+then the complement should also be in curved "A".
+
+62
+00:05:30,630 --> 00:05:35,620
+The complement in general is defined as omega, the whole space, without the set "A"
+
+63
+00:05:35,810 --> 00:05:38,630
+and i always denote it with this upper index "c".
+
+64
+00:05:39,330 --> 00:05:43,930
+Please note this makes sense, because if we have the probability for one event "A"
+
+65
+00:05:44,100 --> 00:05:48,240
+then we should also be able to calculate the probability of not "A".
+
+66
+00:05:48,770 --> 00:05:55,650
+Ok and then the third property is not so hard to understand, because you already know we want this for the probability measure.
+
+67
+00:05:56,390 --> 00:06:03,830
+So we just take countable many sets from "A" and then the whole union should also be an element of "A".
+
+68
+00:06:04,960 --> 00:06:09,820
+Now having these three properties the collection "A" is called a sigma algebra
+
+69
+00:06:10,490 --> 00:06:14,450
+and usually we will write it in this way with a lowercase sigma.
+
+70
+00:06:15,060 --> 00:06:22,630
+Also important to note here is that the elements of a sigma algebra in probability theory are usually called events.
+
+71
+00:06:23,520 --> 00:06:31,030
+Ok now such a sigma algebra is as i told you before the domain for such a probability measure we now define.
+
+72
+00:06:31,730 --> 00:06:36,300
+Therefore lets fix a sample space omega and a sigma algebra "A".
+
+73
+00:06:36,940 --> 00:06:43,630
+Then a map we now call "P" with domain "A" and codomain the interval [0,1]
+
+74
+00:06:44,350 --> 00:06:48,140
+is called a probability measure if it fulfills two properties
+
+75
+00:06:48,770 --> 00:06:52,810
+and because we have already discussed them above we can just copy them now.
+
+76
+00:06:53,340 --> 00:07:00,310
+The first one is simply that the probability of the whole space is 1 and the probability of the empty event is 0.
+
+77
+00:07:00,900 --> 00:07:04,470
+And the second one is what we call sigma additivity.
+
+78
+00:07:05,060 --> 00:07:09,890
+And please remember for this sigma additivity
+we need pairwise disjoint sets.
+
+79
+00:07:10,480 --> 00:07:17,720
+Ok and with this you know the general notion of a probability measure and of course we will use that a lot here.
+
+80
+00:07:18,320 --> 00:07:21,460
+However maybe lets start with a simple example.
+
+81
+00:07:22,210 --> 00:07:25,410
+I would say lets look a the die from last video again.
+
+82
+00:07:25,980 --> 00:07:30,480
+So if we just throw it one time we immediately know the sample space omega.
+
+83
+00:07:31,260 --> 00:07:35,200
+All possible outcomes from 1 to 6 form our sample space.
+
+84
+00:07:35,690 --> 00:07:39,680
+However now for the sigma algebra "A" you already have the choice.
+
+85
+00:07:40,430 --> 00:07:43,930
+The questions here is in how many events could you be interested.
+
+86
+00:07:44,420 --> 00:07:49,520
+The simple answer would be we are interested in all events.
+Therefore we choose the power set.
+
+87
+00:07:50,130 --> 00:07:57,030
+Often i would say this is a useful approach. 
+However it won't work in the case that the sample space is infinite,
+
+88
+00:07:57,390 --> 00:08:01,800
+but also there one could simply say i choose a large enough sigma algebra
+
+89
+00:08:02,220 --> 00:08:06,420
+and then we define the probability measure on this sigma algebra.
+
+90
+00:08:07,030 --> 00:08:12,910
+In our case, because we have an ordinary die we have that each side has the same probability.
+
+91
+00:08:13,630 --> 00:08:21,300
+Thefore in our general definition here this would mean that we count the elements of "A" and devide by the elements of omega.
+
+92
+00:08:21,960 --> 00:08:26,460
+Of course in this case this would mean in the denominator we have the number 6.
+
+93
+00:08:27,020 --> 00:08:34,010
+For example if we want to calculate the probability of the event of throwing a 2 we get out 1 over 6.
+
+94
+00:08:34,669 --> 00:08:40,770
+On the other hand the probability of the event of throwing an even number is 3 divided by 6
+
+95
+00:08:41,299 --> 00:08:42,970
+or in other words one half.
+
+96
+00:08:43,429 --> 00:08:49,520
+Ok and now here you see this is our mathematical model of
+throwing one ordinary die
+
+97
+00:08:50,190 --> 00:08:56,800
+and in later videos you will see we can easily expand this whole model to cover also other examples.
+
+98
+00:08:57,240 --> 00:09:02,620
+Ok now for closing this video i give you a small exercise about probability measures.
+
+99
+00:09:03,030 --> 00:09:08,110
+Try to prove that for a general probability measure "P" and an event "A"
+
+100
+00:09:08,600 --> 00:09:13,340
+the probability of the complement is 1 minus the probability of "A".
+
+101
+00:09:13,990 --> 00:09:19,280
+So this is a very nice property that immediately comes out of the two other properties here.
+
+102
+00:09:20,000 --> 00:09:26,300
+Ok i think that's good enough for today in the next videos we will cover a lot of other examples of probability measures.
+
+103
+00:09:26,880 --> 00:09:30,520
+Therefore i hope i see you there and have a nice day. 
+Bye!

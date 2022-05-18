@@ -1,0 +1,259 @@
+﻿1
+00:00:00,150 --> 00:00:03,340
+Hallo und willkommen zu Wahrscheinlichkeitstheorie.
+
+2
+00:00:03,550 --> 00:00:07,240
+Eine Videoreihe, wo wir über stochastische Probleme reden wollen.
+
+3
+00:00:08,000 --> 00:00:13,500
+Dieser neue Kurs ist nur dank sehr netten Unterstützern auf Steady und Paypal möglich.
+
+4
+00:00:14,220 --> 00:00:17,610
+Deshalb danke vielmals und ich hoffe euch gefällt das Video.
+
+5
+00:00:18,110 --> 00:00:22,600
+Für den Start kann ich euch sagen, dass das allgemeine Ziel von Wahrscheinlichkeitstheorie es ist Dinge,
+
+6
+00:00:22,680 --> 00:00:27,970
+wie Zufälligkeit und Chancen, so zu Formulieren, dass wir eine mathematische Theorie bekommen.
+
+7
+00:00:28,440 --> 00:00:33,130
+Somit können die Themen sehr anwendungsbezogen sein, aber sie sind trotzdem mathematisch.
+
+8
+00:00:33,890 --> 00:00:38,710
+Außerdem kann ich euch sagen, dass es viele andere Namen gegeben hätte, um diesen Kurs zu benennen.
+
+9
+00:00:38,920 --> 00:00:44,270
+Zum Beispiel hätte man ihn Stochastik, Stochastische Prozesse oder sogar Statistik nennen können.
+
+10
+00:00:44,870 --> 00:00:51,350
+Da ich aber verschiedene Themen ansprechen wollte, bleibe ich bei dem sehr allgemeinen Wort Wahrscheinlichkeitstheorie.
+
+11
+00:00:51,830 --> 00:00:57,350
+Damit ihr eine Idee bekommt was euch hier wartet, habe ich ein paar Notationen und Themen in den Boxen stehen.
+
+12
+00:00:57,860 --> 00:01:03,640
+Zum Beispiel werden wir beschreiben was ein Wahrscheinlichkeitsmaß oder Wahrscheinlichkeitsverteilung wirklich ist.
+
+13
+00:01:03,900 --> 00:01:05,700
+Also kommt Maßtheorie mit ins Spiel.
+
+14
+00:01:06,470 --> 00:01:12,460
+Dann werden noch Zufallsvariablen und Zufallsprozesse benötigt um Zufallsexperimente zu beschreiben.
+
+15
+00:01:12,850 --> 00:01:16,840
+Außerdem finde ich es sehr wichtig den Zentraler Grenzwertsatz zu beweisen.
+
+16
+00:01:16,860 --> 00:01:19,640
+und dann wenden wir unser Wissen auf statistische Tests an.
+
+17
+00:01:20,520 --> 00:01:25,610
+Ok, ich würde sagen wir schauen uns erstmal ein einfaches Beispiel an, bevor wir in die gesamte Theorie reingehen.
+
+18
+00:01:26,630 --> 00:01:31,220
+lasst uns einfach ein normalen Würfel mit 6 Seiten werfen.
+
+19
+00:01:31,920 --> 00:01:36,220
+Meine Frage wäre nun, was ist die Wahrscheinlichkeit eine gerade Zahl zu bekommen?
+
+20
+00:01:36,740 --> 00:01:41,020
+und ihr solltet sehen, dass die Mathematik sofort eine Rolle spielt, wenn wir die Frage beantworten wollen.
+
+21
+00:01:41,710 --> 00:01:48,000
+weil wir sagen würden, dass wir eine Menge "A" haben, welche 3 Elemente beinhaltet. Nämlich 2, 4 und 6.
+
+22
+00:01:48,840 --> 00:01:52,539
+vielleicht würdet ihr dann sagen, dass das die Hälfte der Zahlen auf dem Würfel sind.
+
+23
+00:01:52,730 --> 00:01:55,120
+Deshalb sollte die Wahrscheinlichkeit 0.5 sein.
+
+24
+00:01:55,710 --> 00:01:59,070
+Oder in einer Formel dargestellt: P(A) = 0.5
+
+25
+00:01:59,870 --> 00:02:01,970
+Ok, das sieht nun gut und korrekt aus,
+
+26
+00:02:01,990 --> 00:02:05,680
+aber noch wissen wir nicht die mathematische Bedeutung von diesem "P".
+
+27
+00:02:06,160 --> 00:02:10,850
+Außerdem haben wir noch die Frage: Was bedeutet diese Nummer, wenn ich einen Würfel würfle?
+
+28
+00:02:11,270 --> 00:02:14,870
+Denn ein Wurf gibt uns genau ein Ergebnis.
+
+29
+00:02:15,660 --> 00:02:21,350
+Jedoch kennt ihr schon diese Wahrscheinlichkeit. Diese Nummer bezieht sich auf den Fall, dass wir mehrere Würfe haben.
+
+30
+00:02:22,390 --> 00:02:27,010
+Denn dann zählt man die Würfe in denen wir eine gerade Zahl raus bekommen haben
+
+31
+00:02:27,530 --> 00:02:31,530
+und diese kann man durch die gesamte Anzahl an Würfen, die man gemacht hat, teilen.
+
+32
+00:02:32,260 --> 00:02:37,650
+und dann sagt uns unser Gefühl, dass diese Nummer zu 0.5 konvergieren sollte.
+
+33
+00:02:38,270 --> 00:02:42,720
+also es konvergiert in einem Limit Prozess, wo die Anzahl an Würfe erhöht wird.
+
+34
+00:02:43,470 --> 00:02:49,160
+Somit stellt sich die Frage ob dieser genauso funktioniert, wie ein normaler Limit Prozess, denn wir z.B. in Analysis hatten.
+
+35
+00:02:49,810 --> 00:02:53,540
+und ich kann euch jetzt schon sagen, dass wir diese Frage in späteren Videos beantworten werden.
+
+36
+00:02:54,440 --> 00:02:57,230
+Ok, ich glaube das war gut genug für eine kurze Einführung.
+
+37
+00:02:57,370 --> 00:03:03,470
+Denn nun möchte ich die nächsten Minuten dazu nutzen, um euch zu sagen, dass wir die Programmiersprache "R" verwenden werden.
+
+38
+00:03:04,060 --> 00:03:07,900
+Ich glaube wirklich, dass dies sehr hilfreich sein wird um Wahrscheinlichkeiten zu verstehen,
+
+39
+00:03:07,970 --> 00:03:11,250
+da man damit Zufallsexperimente machen kann.
+
+40
+00:03:12,030 --> 00:03:15,630
+Aus diesem Grund ist es hilfreich wenn ihr euch RStudio runtelädt und installiert
+
+41
+00:03:16,100 --> 00:03:19,280
+und dann solltet ihr dieses Programm sehen.
+
+42
+00:03:19,700 --> 00:03:25,780
+Ihr solltet diese 4 Fenster sehen, wovon wir den links unten sofort benutzen können.
+
+43
+00:03:26,220 --> 00:03:31,150
+Dies ist die Konsole für R und man kann dort sofort einfache Rechnungen mit durchführen.
+
+44
+00:03:32,430 --> 00:03:35,829
+Ihr seht, unsere erste Aussgabe hier ist die 5.
+
+45
+00:03:36,860 --> 00:03:39,460
+Tatsächlich ist RStudio nicht schwer zu benutzen.
+
+46
+00:03:39,740 --> 00:03:45,840
+z.B. können wir hier Variablen definieren und Werte zuweisen, indem man einfach das Gleichheitszeichen benutzt.
+
+47
+00:03:47,320 --> 00:03:51,810
+und das Schöne ist, dass man alle zugewiesenen Werte hier, im oberen rechten Fenster, sehen kann.
+
+48
+00:03:52,330 --> 00:03:56,220
+Um einen Vektor oder eine Liste zu definieren benutzt man den Befehl "c"
+
+49
+00:03:56,700 --> 00:04:00,970
+dann kann man innerhalb der Klammern alle Werte einsetzen und diese mit Kommas trennen.
+
+50
+00:04:01,410 --> 00:04:03,300
+aber lasst mich zuerst das ganze größer machen.
+
+51
+00:04:04,380 --> 00:04:07,000
+Ich setzte 1, 2, 3, 4, 5, 6 ein.
+
+52
+00:04:07,020 --> 00:04:11,500
+drücke enter und du siehst wir haben eine Liste definiert mit dem Namen "die"
+
+53
+00:04:12,330 --> 00:04:14,830
+außerdem sieht ihr die Werte hier aufgelistet.
+
+54
+00:04:15,380 --> 00:04:18,870
+In der Tat kann man damit sofort einen Würfelwurf simulieren.
+
+55
+00:04:19,300 --> 00:04:25,200
+dafür benutzen wir den Befehl "sample", wo wir "die" einsetzten und werfen nur einmal.
+
+56
+00:04:26,340 --> 00:04:28,700
+Wenn man enter drückt, bekommen wir dieses Ergebnis.
+
+57
+00:04:29,410 --> 00:04:33,600
+Zum wiederholen, können wir die obere Pfeiltaste drücken und bekommen diesmal eine 4.
+
+58
+00:04:34,100 --> 00:04:37,400
+Somit haben wir sofort ein Zufallsexperiment.
+
+59
+00:04:38,000 --> 00:04:42,550
+offensichtlich werden wir diese in unserem Kurs sehr oft benutzen.
+
+60
+00:04:43,090 --> 00:04:47,470
+Natürlich werden wir noch über viele weitere Befehle von "R" in weiteren Videos reden.
+
+61
+00:04:48,050 --> 00:04:54,500
+Die letzte Sache die ich euch noch sagen sollte wäre, dass ihr mit einem "?" vor einem Befehl, das Handbuch öffnen könnt.
+
+62
+00:04:55,170 --> 00:05:00,440
+ Beispielweise gibt euch ?sample alle Informationen, die ihr über diesen Befehl braucht.
+
+63
+00:05:01,700 --> 00:05:04,690
+Daher würde ich euch bitten mit RStudio etwas rumzuspielen.
+
+64
+00:05:04,990 --> 00:05:08,660
+und dann können wir nächstes Video mit Wahrscheinlichkeitsmaßen starten.
+
+65
+00:05:09,190 --> 00:05:14,680
+Ok, dann nutzt bitte die Kommentare um Fragen zu stellen und ich hoffe, ich sehe euch im nächsten Video.
