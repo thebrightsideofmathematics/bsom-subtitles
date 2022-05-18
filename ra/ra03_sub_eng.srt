@@ -1,0 +1,623 @@
+﻿1
+00:00:00,410 --> 00:00:03,410
+Hello and welcome back to real analysis
+
+2
+00:00:04,170 --> 00:00:09,500
+and as always many, many thanks to all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,990 --> 00:00:14,590
+In todays part 3 i will tell you more things about convergence sequences.
+
+4
+00:00:15,240 --> 00:00:19,000
+For this i think a good starting point would be to consider an example.
+
+5
+00:00:19,840 --> 00:00:22,040
+Here i have the sequence (an)
+
+6
+00:00:22,250 --> 00:00:25,250
+which is given by -1 to the power n.
+
+7
+00:00:25,640 --> 00:00:28,740
+So, this is an example we had in the last video,
+
+8
+00:00:28,750 --> 00:00:32,800
+but now we will show, that this sequence is not convergent.
+
+9
+00:00:33,470 --> 00:00:36,960
+Or in other words: We prove that the sequence is divergent.
+
+10
+00:00:37,590 --> 00:00:39,790
+Now the prove will work by contradiction.
+
+11
+00:00:39,790 --> 00:00:43,180
+Which means we will assume that the sequence has a limit "a".
+
+12
+00:00:44,090 --> 00:00:46,490
+So this could be any number on the number line,
+
+13
+00:00:46,510 --> 00:00:48,800
+where the sequence gets closer and closer to.
+
+14
+00:00:49,360 --> 00:00:51,440
+However, if you look at the number line
+
+15
+00:00:51,450 --> 00:00:53,950
+you already see that this can't happen.
+
+16
+00:00:54,530 --> 00:00:57,430
+Because the sequence jumps between -1 and 1.
+
+17
+00:00:58,420 --> 00:01:01,020
+Therefore it does not matter were we set the "a"
+
+18
+00:01:01,370 --> 00:01:05,750
+You always find infinitely many points that are far away from "a"
+
+19
+00:01:06,710 --> 00:01:10,000
+and of course this should not happen for a convergent sequence.
+
+20
+00:01:10,990 --> 00:01:14,780
+Hence for us it now remains to put this idea into a formal way.
+
+21
+00:01:15,840 --> 00:01:17,750
+So a good idea at the beginning would be
+
+22
+00:01:17,770 --> 00:01:20,860
+to write down the explicit definition of convergence.
+
+23
+00:01:21,510 --> 00:01:24,410
+Which reads that for every small number epsilon
+
+24
+00:01:24,430 --> 00:01:26,430
+we find an index "N"
+
+25
+00:01:26,460 --> 00:01:29,250
+such that for all indices afterwards
+
+26
+00:01:29,270 --> 00:01:34,050
+we have that the distance "an" to "a" is less than a given epsilon.
+
+27
+00:01:34,860 --> 00:01:40,640
+Now what we can put in is that the distance between -1 and 1 is exactly 2.
+
+28
+00:01:41,500 --> 00:01:45,380
+Ok, now the idea is that we have to choose epsilon so small
+
+29
+00:01:45,390 --> 00:01:47,860
+that in the epsilon-neighbourhood around "a"
+
+30
+00:01:47,870 --> 00:01:50,870
+we don't have -1 and 1 at the same time.
+
+31
+00:01:51,370 --> 00:01:54,470
+This means we need a number smaller or equal than 1
+
+32
+00:01:54,510 --> 00:01:56,210
+so lets choose 1.
+
+33
+00:01:57,000 --> 00:02:00,900
+Now by definiton for this epsilon we find a "N".
+
+34
+00:02:01,830 --> 00:02:07,310
+Therefore we now know, the distance from "an" to "a" is less than our given epsilon.
+
+35
+00:02:07,730 --> 00:02:12,100
+and of course we have also this result for the next member in the sequence.
+
+36
+00:02:12,790 --> 00:02:16,260
+Now you know this holds for infinitely many sequence members,
+
+37
+00:02:16,270 --> 00:02:17,800
+but we only need these two.
+
+38
+00:02:18,350 --> 00:02:22,740
+Because we know one of the two indices is even and the other is odd.
+
+39
+00:02:23,600 --> 00:02:25,130
+Therefore we get both outcomes
+
+40
+00:02:25,140 --> 00:02:26,829
+-1 and 1.
+
+41
+00:02:27,670 --> 00:02:30,000
+With this you might already see the problem we have
+
+42
+00:02:30,030 --> 00:02:33,530
+we measure two distances, but both are less than 1,
+
+43
+00:02:33,620 --> 00:02:36,820
+but the distance between -1 and 1 is still 2.
+
+44
+00:02:37,440 --> 00:02:40,630
+Therefore this should contradict the triangle inequality.
+
+45
+00:02:41,390 --> 00:02:42,800
+Ok, then lets write that down.
+
+46
+00:02:43,030 --> 00:02:45,630
+First we note, when we add both distances here
+
+47
+00:02:45,670 --> 00:02:47,760
+we get a number that is less than 2
+
+48
+00:02:48,320 --> 00:02:50,110
+and on the other hand we already know
+
+49
+00:02:50,110 --> 00:02:52,910
+the distance between -1 and 1 is exactly 2.
+
+50
+00:02:54,010 --> 00:02:57,900
+Ok and now the idea is to go the detour with "a" in the middle.
+
+51
+00:02:58,650 --> 00:03:02,050
+In other words i want to get "a" into the absolute value here.
+
+52
+00:03:02,900 --> 00:03:07,800
+So lets write "- a + a" here and use the triangle inequality
+
+53
+00:03:08,670 --> 00:03:09,560
+and there you should see
+
+54
+00:03:09,560 --> 00:03:13,160
+this is exactly the same we have written at the right hand side before.
+
+55
+00:03:13,900 --> 00:03:18,900
+Which immediately leads to our contradiction, because we have 2 is less than 2.
+
+56
+00:03:19,730 --> 00:03:23,720
+So this is not correct, therefore the assumption has to be false.
+
+57
+00:03:24,400 --> 00:03:27,600
+Or in other words. This sequence is indeed divergent.
+
+58
+00:03:28,500 --> 00:03:33,900
+Ok, so here we have seen a sequence which does not have the nice property of convergence,
+
+59
+00:03:33,940 --> 00:03:35,990
+but still it has some properties.
+
+60
+00:03:36,730 --> 00:03:40,860
+and one important one is that this sequence is a bounded sequence.
+
+61
+00:03:41,510 --> 00:03:44,600
+Therefore now lets define what a bounded sequence is.
+
+62
+00:03:45,720 --> 00:03:48,910
+For this let "an" be any sequence of real numbers
+
+63
+00:03:48,940 --> 00:03:50,940
+and then we call it bounded
+
+64
+00:03:51,830 --> 00:03:54,450
+If there exists a real number "C"
+
+65
+00:03:55,290 --> 00:03:57,990
+such that for all sequence members we have
+
+66
+00:03:58,540 --> 00:04:03,000
+that the distance "an" to 0 is less or equal than "C"
+
+67
+00:04:03,760 --> 00:04:05,760
+You can visualize this on a number line
+
+68
+00:04:05,770 --> 00:04:08,970
+by putting in two bounds: "- C" and "C"
+
+69
+00:04:09,530 --> 00:04:13,330
+and then the whole sequence "an" just lives inside.
+
+70
+00:04:14,030 --> 00:04:16,420
+and of course if we don't find such a "C"
+
+71
+00:04:16,420 --> 00:04:18,820
+we just call the sequence unbounded.
+
+72
+00:04:19,410 --> 00:04:22,480
+An example of a bounded sequence you have already seen
+
+73
+00:04:22,540 --> 00:04:24,240
+in the example from the beginning.
+
+74
+00:04:25,100 --> 00:04:27,440
+There we can just set the "C" to be 1.
+
+75
+00:04:28,120 --> 00:04:30,120
+and then you see, the picture fits in.
+
+76
+00:04:30,990 --> 00:04:33,590
+However, we have even seen more examples,
+
+77
+00:04:33,650 --> 00:04:35,940
+because we have the following important fact.
+
+78
+00:04:36,600 --> 00:04:41,600
+If we have a convergent sequence we can conclude it's also bounded.
+
+79
+00:04:41,970 --> 00:04:44,040
+However, not the other way around
+
+80
+00:04:44,050 --> 00:04:46,440
+as we have seen in the first example today.
+
+81
+00:04:47,020 --> 00:04:50,650
+Another important fact you should remember here is the contraposition.
+
+82
+00:04:51,460 --> 00:04:54,000
+Which means if we have an unbounded sequence
+
+83
+00:04:54,020 --> 00:04:56,560
+we already know it can't be convergent
+
+84
+00:04:57,290 --> 00:04:59,290
+So lets prove this important fact here.
+
+85
+00:04:59,290 --> 00:05:01,000
+Which is indeed not so hard.
+
+86
+00:05:01,520 --> 00:05:05,100
+For this just recall again the definition of convergence.
+
+87
+00:05:05,900 --> 00:05:08,480
+So you know there exists a limit we call "a"
+
+88
+00:05:08,480 --> 00:05:12,180
+such that we have something we can visualize with this picture here.
+
+89
+00:05:12,690 --> 00:05:17,280
+We have that almost all points lie in the epsilon-neighbourhood around "a"
+
+90
+00:05:17,920 --> 00:05:20,290
+Therefore to get something like in the picture above
+
+91
+00:05:20,290 --> 00:05:25,120
+we simply have to define "C" or "- C" to be "a + epsilon"
+
+92
+00:05:25,140 --> 00:05:29,000
+or to be the member that is the farthest away from this epsilon-neighbourhood.
+
+93
+00:05:29,560 --> 00:05:30,860
+To put it into a formular
+
+94
+00:05:30,860 --> 00:05:35,580
+we just define "C" to be the maximum out of these finitely many numbers.
+
+95
+00:05:36,380 --> 00:05:38,360
+And if we take the absolute values
+
+96
+00:05:38,370 --> 00:05:40,370
+we don't have a problem with the sign.
+
+97
+00:05:40,390 --> 00:05:43,070
+We just get out "C" as a positive number.
+
+98
+00:05:43,650 --> 00:05:46,640
+and if we write "|a| + epsilon"
+
+99
+00:05:46,820 --> 00:05:50,510
+we get out a bound here, that is the farthest away from 0.
+
+100
+00:05:50,970 --> 00:05:52,970
+It could be this one or this one.
+
+101
+00:05:53,060 --> 00:05:55,659
+Depending where 0 lies here on the number line.
+
+102
+00:05:56,460 --> 00:05:58,720
+An important thing to note here is that "C"
+
+103
+00:05:58,730 --> 00:06:00,660
+obviously has to be positive,
+
+104
+00:06:00,670 --> 00:06:03,670
+but we don't have to find the minimal possible "C"
+
+105
+00:06:04,000 --> 00:06:05,400
+We just have to find a "C".
+
+106
+00:06:05,920 --> 00:06:08,320
+and that's what we get with this definition here.
+
+107
+00:06:09,090 --> 00:06:12,970
+Knowing this lets get to another important fact about sequences.
+
+108
+00:06:13,460 --> 00:06:17,740
+You know if you consider a convergent sequence, you find such a limit "a",
+
+109
+00:06:17,780 --> 00:06:20,460
+but this "a" is indeed uniquely given.
+
+110
+00:06:21,260 --> 00:06:25,150
+Therefore we are able to speak of THE limit of the convergent sequence.
+
+111
+00:06:25,950 --> 00:06:29,430
+Moreover the notation "limit an" makes sense.
+
+112
+00:06:30,050 --> 00:06:33,350
+So lets end this video by proving this important fact.
+
+113
+00:06:33,980 --> 00:06:38,280
+Lets assume that we have two different limits "a" and "ã"
+
+114
+00:06:38,610 --> 00:06:43,210
+This means the distance between both of them is greater than 0.
+
+115
+00:06:43,750 --> 00:06:46,110
+Now, if you visualize this on the number line
+
+116
+00:06:46,130 --> 00:06:48,520
+ you already see, this can't happen
+
+117
+00:06:49,470 --> 00:06:51,990
+because you know, for an arbitrary epsilon
+
+118
+00:06:52,000 --> 00:06:56,300
+the sequence members lie inside the epsilon-neighbourhood eventually.
+
+119
+00:06:56,830 --> 00:06:59,820
+and this works for "a" and " ã " as well.
+
+120
+00:07:00,490 --> 00:07:04,000
+Which is clearly a contradiction when epsilon is small enough.
+
+121
+00:07:04,300 --> 00:07:06,910
+Ignoring finitely many sequence members
+
+122
+00:07:06,920 --> 00:07:10,520
+you can't have all sequence members inside this epsilon-neighbourhood
+
+123
+00:07:10,530 --> 00:07:11,560
+and in this one.
+
+124
+00:07:12,380 --> 00:07:15,570
+This clearly contradicts the definition of convergence.
+
+125
+00:07:16,210 --> 00:07:18,210
+In this sense this picture says it all.
+
+126
+00:07:18,220 --> 00:07:20,770
+Now we just have to put this into formulars.
+
+127
+00:07:21,260 --> 00:07:22,630
+Or in other words 
+
+128
+00:07:22,650 --> 00:07:26,100
+choose a small enough epsilon such that this picture works.
+
+129
+00:07:26,740 --> 00:07:30,240
+You see it has to be less than the distance between "a" and " ã "
+
+130
+00:07:30,260 --> 00:07:32,750
+so lets choose a quarter of this distance.
+
+131
+00:07:33,300 --> 00:07:36,100
+Therefore this is our epsilon now.
+
+132
+00:07:37,020 --> 00:07:39,409
+Now by the definition of the convergence 
+
+133
+00:07:39,410 --> 00:07:42,700
+we know for this epsilon we find a "N".
+
+134
+00:07:43,230 --> 00:07:47,830
+and then we have that all sequence members after "N" fulfill this.
+
+135
+00:07:48,550 --> 00:07:52,350
+However, of course by assumption we have the same for "ã"
+
+136
+00:07:53,040 --> 00:07:57,540
+and the "N" we find for "ã" we can just call "Ñ"
+
+137
+00:07:58,270 --> 00:08:01,410
+Therefore now we can just choose a "n" 
+
+138
+00:08:01,420 --> 00:08:04,220
+which is greater than "N" and "Ñ"
+
+139
+00:08:04,810 --> 00:08:08,210
+Hence we simply set it as greater or equal than the maximum.
+
+140
+00:08:08,740 --> 00:08:12,440
+and then of course we want to use the triangle inequality again.
+
+141
+00:08:12,890 --> 00:08:17,280
+This means between "a" and " ã " we put in our "an"
+
+142
+00:08:17,900 --> 00:08:20,680
+and then we just split that into our two parts.
+
+143
+00:08:21,520 --> 00:08:25,150
+and at this point we know by the assumption of the two limits 
+
+144
+00:08:25,160 --> 00:08:27,700
+that this one is less than epsilon
+
+145
+00:08:27,760 --> 00:08:29,760
+and this one
+
+146
+00:08:29,960 --> 00:08:33,549
+Now using the definition of epsilon we now get
+
+147
+00:08:34,110 --> 00:08:37,409
+that the left hand side is less than the right hand side.
+
+148
+00:08:37,539 --> 00:08:39,730
+which is one half of the left hand side.
+
+149
+00:08:40,260 --> 00:08:42,620
+However, we have positive numbers here. 
+
+150
+00:08:42,640 --> 00:08:44,130
+So this can't happen.
+
+151
+00:08:45,060 --> 00:08:46,640
+and with this we have the whole proof.
+
+152
+00:08:46,830 --> 00:08:49,620
+Which was indeed just the picture i showed you before.
+
+153
+00:08:50,080 --> 00:08:54,180
+Of course this fact here is what we will use for the whole course.
+
+154
+00:08:55,010 --> 00:08:58,800
+Therefore please remember a convergent sequence has a unique limit.
+
+155
+00:08:59,670 --> 00:09:01,760
+With this i hope to see you in the next video.
+
+156
+00:09:01,850 --> 00:09:03,850
+Have a nice day and Bye!
