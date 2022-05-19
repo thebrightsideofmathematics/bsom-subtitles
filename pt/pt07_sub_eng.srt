@@ -1,0 +1,444 @@
+1
+00:00:00,400 --> 00:00:03,352
+Hello and welcome back to probability theory.
+
+2
+00:00:04,129 --> 00:00:09,472
+and of course as always first i want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,957 --> 00:00:15,353
+Now this is part 7 in the series and we will talk about the so called conditional Probability.
+
+4
+00:00:15,729 --> 00:00:21,472
+It's a special name for a probability measure that is defined relatively to another probability measure.
+
+5
+00:00:21,957 --> 00:00:26,126
+Today i will explain this definition and also show you an example.
+
+6
+00:00:26,326 --> 00:00:29,538
+Now the starting point here could be any probability space.
+
+7
+00:00:29,738 --> 00:00:35,325
+Which means we have a sample space Omega, a sigma algebra A and probability measure P.
+
+8
+00:00:35,643 --> 00:00:39,502
+Maybe here it's a good idea to visualize Omega with a rectangle.
+
+9
+00:00:40,486 --> 00:00:44,168
+Hence the area should represent the probability measure P.
+
+10
+00:00:44,486 --> 00:00:47,598
+Which means the whole are has the value 1.
+
+11
+00:00:47,943 --> 00:00:53,481
+However if we look at a subset B in Omega. Which has probability less than 1.
+
+12
+00:00:53,681 --> 00:00:58,380
+Then we can visualize that as a smaller rectangle inside Omega.
+
+13
+00:00:58,914 --> 00:01:05,157
+and of course B should be an element of the sigma algebra A. Otherwise we wouldn't be able to caluclate the probability.
+
+14
+00:01:05,757 --> 00:01:11,891
+Now the actual restriction we have here in the following, is that the probability of B is not 0.
+
+15
+00:01:12,400 --> 00:01:15,966
+So in our picture this would mean, we have a nonvanishing rectangle.
+
+16
+00:01:16,543 --> 00:01:20,848
+and when we have this we get immediately a new probability measure.
+
+17
+00:01:21,048 --> 00:01:24,433
+Moreover we even get the whole new probability space.
+
+18
+00:01:24,633 --> 00:01:28,581
+Now instead of Omega we take B as the new sample space.
+
+19
+00:01:29,157 --> 00:01:32,171
+Of course we can simply do that, but then we have the question:
+
+20
+00:01:32,243 --> 00:01:35,986
+what is the new sigma algebra and what is the new probability measure?
+
+21
+00:01:36,257 --> 00:01:38,743
+For the sigma algebra the answer is very straight forward.
+
+22
+00:01:38,804 --> 00:01:43,533
+If you only want to work in B, we can only consider subsets of B.
+
+23
+00:01:43,733 --> 00:01:50,498
+So we can take any element A from the original sigma algebra, if it fulfills that A is a subset of B.
+
+24
+00:01:51,000 --> 00:01:54,894
+and then of course we could measure the probability of A as before.
+
+25
+00:01:55,094 --> 00:01:59,255
+Therefore P tilde could simply be the same probability measure as before.
+
+26
+00:01:59,714 --> 00:02:03,826
+So in our picture it would just give us the area of the set A.
+
+27
+00:02:04,400 --> 00:02:10,774
+However there we see a problem, because the maximal area we would get out, would be the area of B.
+
+28
+00:02:10,800 --> 00:02:12,791
+Which is in general not 1.
+
+29
+00:02:13,300 --> 00:02:16,502
+Indeed what we rather want would be a ratio.
+
+30
+00:02:16,702 --> 00:02:20,693
+So the ratio of the area of A to the area of B.
+
+31
+00:02:21,071 --> 00:02:25,630
+Hence in our formula we have that P(A) gets divided by P(B).
+
+32
+00:02:25,830 --> 00:02:28,843
+Only now we have a well defined probability measure.
+
+33
+00:02:29,043 --> 00:02:33,473
+Because now when we put in the sample space B, we get out 1.
+
+34
+00:02:34,086 --> 00:02:39,205
+Ok, now i can tell you this is almost a full idea of a conditional probability.
+
+35
+00:02:39,405 --> 00:02:44,916
+I say almost, because actually we don't want to change the sample space and the sigma algebra.
+
+36
+00:02:45,371 --> 00:02:51,223
+In other words this means that we also have to consider sets A that are not subsets of B.
+
+37
+00:02:51,957 --> 00:02:54,305
+For example they could look llike this.
+
+38
+00:02:54,700 --> 00:03:00,400
+So as you can see, it could have a very large area, but the intersection with the set B could be small.
+
+39
+00:03:00,923 --> 00:03:06,618
+Therefore you might already know how we can transform this definition here to the whole space Omega.
+
+40
+00:03:06,914 --> 00:03:11,745
+So our new probability space only gets a new probability measure.
+
+41
+00:03:11,945 --> 00:03:14,573
+and for the moment lets put an index B to it.
+
+42
+00:03:15,157 --> 00:03:20,921
+Now for the definition please remind yourself that we still want to measure the ratio of 2 areas.
+
+43
+00:03:21,200 --> 00:03:26,257
+Which means the denominator is the same as before. Which means the whole area of B,
+
+44
+00:03:26,400 --> 00:03:29,351
+but the numerator should now be this area.
+
+45
+00:03:29,551 --> 00:03:33,778
+Speaking of probabilities this would be the probability of the intersection.
+
+46
+00:03:34,343 --> 00:03:40,414
+and now this is the definition of the conditional probability of an event A under the event B.
+
+47
+00:03:40,457 --> 00:03:44,334
+Therefore i would suggest putting this into formal definition.
+
+48
+00:03:44,914 --> 00:03:52,221
+Of course the assumptions are the same as before. We have a probability space and also a set B, with a nonzero probability.
+
+49
+00:03:52,457 --> 00:03:56,843
+and then we can define the conditional probability as a new probability measure.
+
+50
+00:03:57,457 --> 00:04:04,110
+In fact sometimes this index notation is used for this probability measure, but often we have another notation.
+
+51
+00:04:04,310 --> 00:04:10,819
+Namely one uses the bar inside the parentheses and puts the condition, the set B, to the right hand side.
+
+52
+00:04:11,371 --> 00:04:16,500
+and then we call this number the conditional probability of the event A under the condition B.
+
+53
+00:04:17,186 --> 00:04:23,098
+Moreover if one wants to talk about the abstract probability measure, one uses the following notation.
+
+54
+00:04:23,614 --> 00:04:26,742
+We simply put a dot, where the set should go in.
+
+55
+00:04:26,942 --> 00:04:31,845
+and then we call this well defined measure the conditional probability measure given B.
+
+56
+00:04:32,045 --> 00:04:39,442
+Ok, then please never forget this measure has an important property. Namely when we put in B, we get out 1.
+
+57
+00:04:39,871 --> 00:04:42,151
+Of course this something we get immediately out.
+
+58
+00:04:42,614 --> 00:04:47,723
+Speaking of this definition here, you see it won't work if P(B) would be 0.
+
+59
+00:04:47,923 --> 00:04:52,081
+However now sometimes it happens that we simply don't want to check that.
+
+60
+00:04:52,429 --> 00:04:57,471
+Maybe we don't have enough information, but we still want to calculate with the conditional probabilities.
+
+61
+00:04:58,143 --> 00:05:04,081
+Therefore in this case we will use the following definition. This symbol just represents the number 0 then.
+
+62
+00:05:04,629 --> 00:05:07,683
+This will be useful for a lot formulas later.
+
+63
+00:05:08,200 --> 00:05:12,444
+However please not here in this case, we don't have such a probability measure.
+
+64
+00:05:12,829 --> 00:05:16,915
+Ok, so i think that's enough for the definition. Lets look at an example.
+
+65
+00:05:17,671 --> 00:05:21,491
+and as often it's helpful to talk about the general urn model.
+
+66
+00:05:21,691 --> 00:05:25,558
+So i would say lets do something new and look at an ordered one.
+
+67
+00:05:25,971 --> 00:05:30,311
+and to keep it simple, lets consider only 4 balls with 2 different colours.
+
+68
+00:05:30,686 --> 00:05:36,841
+Then lets do 2 steps. First we take out one ball. We don't replace it and then we take out the second one.
+
+69
+00:05:37,743 --> 00:05:40,982
+Hence a sample we get is always an ordered pair.
+
+70
+00:05:41,182 --> 00:05:44,458
+It has a first position and also a second position.
+
+71
+00:05:45,000 --> 00:05:51,897
+This means when we introduce a coloured set C with 2 colours, which is in our case green and red.
+
+72
+00:05:52,097 --> 00:05:57,281
+Then the sample space Omega is given by the cartedian product of C with itself.
+
+73
+00:05:57,481 --> 00:06:02,378
+Ok and the sigma algebra as for all discrete models, is given by the power set.
+
+74
+00:06:02,757 --> 00:06:06,782
+So the only thing missing here would be the probability measure itself.
+
+75
+00:06:07,400 --> 00:06:13,115
+Also here since we have a discrete model, the probability measure is given by a probability mass function.
+
+76
+00:06:13,729 --> 00:06:19,990
+and the best way to calculate this, is to look here at the different stages we have in our random experiment.
+
+77
+00:06:20,500 --> 00:06:24,343
+Therefore i would say a visualisation with a tree can really help.
+
+78
+00:06:24,725 --> 00:06:30,680
+So the first stage is very simple. We just take out one ball and the probabilites should be very clear.
+
+79
+00:06:30,880 --> 00:06:35,237
+3/4 in the favour of green and 1/4 in the favour of red.
+
+80
+00:06:35,771 --> 00:06:41,232
+Ok, then in the second stage we take out a second ball. Which also can be either green or red.
+
+81
+00:06:41,686 --> 00:06:46,985
+However now we have different probabilities, because we have fewer balls left in the urn.
+
+82
+00:06:47,186 --> 00:06:51,742
+So for the left hand side we have 2/3 for green and 1/3 for red.
+
+83
+00:06:52,171 --> 00:06:58,046
+Yet on the right hand side there are no red balls left. Therefore we have 1 for green and 0 for red.
+
+84
+00:06:58,500 --> 00:07:05,075
+Ok, then in summary with each path in the tree, we have exactly one value for the probability mass function.
+
+85
+00:07:05,757 --> 00:07:12,647
+For example for this part we first have green then red. So we have 3/4 times 1/3.
+
+86
+00:07:12,847 --> 00:07:15,482
+Which is simply 1/4.
+
+87
+00:07:16,314 --> 00:07:20,398
+On the other hand, first green, then green again gives us 1/2.
+
+88
+00:07:20,786 --> 00:07:23,443
+Then red, green is also 1/4.
+
+89
+00:07:23,486 --> 00:07:25,629
+and the other one is 0.
+
+90
+00:07:26,414 --> 00:07:32,584
+Ok there we have the whole probability measure and now we can finally talk about the conditional probability.
+
+91
+00:07:32,957 --> 00:07:37,860
+Therefore lets fix a condition B. So an event from the sigma algebra A.
+
+92
+00:07:38,014 --> 00:07:41,711
+In words, for example this could be: the first ball is green.
+
+93
+00:07:42,071 --> 00:07:47,044
+and in the formula this would just mean we take the 2 events that have green at the beginning.
+
+94
+00:07:47,244 --> 00:07:50,876
+So this is our subset of Omega, we want as a condition.
+
+95
+00:07:51,357 --> 00:07:56,457
+and then lets calculate the probability of (g, r) under the condition B.
+
+96
+00:07:56,946 --> 00:08:01,243
+So this is a nice conditional probability which shouldn't be so hard to calculate.
+
+97
+00:08:01,700 --> 00:08:05,116
+Indeed we can immediately use the definition and write it down.
+
+98
+00:08:05,316 --> 00:08:10,943
+So in the numerator we have the intersection and in the denominator we have the probability of B.
+
+99
+00:08:11,447 --> 00:08:14,600
+Of course this intersection here we can immediately simplify.
+
+100
+00:08:15,343 --> 00:08:19,011
+and now this probability of (g, r) we already know.
+
+101
+00:08:19,500 --> 00:08:24,144
+and in addition we also know the probability of B is given by 3/4.
+
+102
+00:08:24,843 --> 00:08:28,369
+Hence the overall result here is 1/3.
+
+103
+00:08:28,671 --> 00:08:31,827
+So this is our conditional probability here.
+
+104
+00:08:32,027 --> 00:08:37,999
+and maybe it's not so surprising, but still interesting, we find the number also here in the tree.
+
+105
+00:08:38,400 --> 00:08:43,240
+This is the case, because this first step here was exactly our condition B.
+
+106
+00:08:43,686 --> 00:08:49,493
+However it's important to know that the notion conditional probability is not restricted to such cases.
+
+107
+00:08:49,943 --> 00:08:53,096
+In fact any event could work as an condition.
+
+108
+00:08:53,296 --> 00:08:58,214
+Later we will see more examples and then we will also talk about independence.
+
+109
+00:08:58,528 --> 00:09:01,253
+Which is indeed related to the conditional probability.
+
+110
+00:09:01,714 --> 00:09:06,488
+and with this i hope i see you in the next videos about probability theory.
+
+111
+00:09:06,857 --> 00:09:09,000
+Have a nice day and bye!
+

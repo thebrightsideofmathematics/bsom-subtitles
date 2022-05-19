@@ -1,0 +1,464 @@
+1
+00:00:00,714 --> 00:00:04,186
+Hello and welcome back to complex analysis.
+
+2
+00:00:05,214 --> 00:00:13,547
+and you might already know, first as always i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:14,500 --> 00:00:19,505
+Now, finally in todays part 6, we will talk about the Cauchy-Riemann equations.
+
+4
+00:00:20,400 --> 00:00:28,511
+In order to understand them we first have to recall the 2 notions of differentiability we have for complex function.
+
+5
+00:00:29,500 --> 00:00:34,875
+The first is the normal one. The one we introduced at the start of this series.
+
+6
+00:00:35,729 --> 00:00:40,500
+This one we simply called complex differentiable at a given point z_0.
+
+7
+00:00:41,400 --> 00:00:49,303
+Now, as a reminder in other videos i already explained, the domain here doesn't have to be the whole complex plane C.
+
+8
+00:00:50,043 --> 00:00:52,163
+It's sufficient to have an open subset.
+
+9
+00:00:53,271 --> 00:00:59,414
+However this might be distracting for this video here. Therefore i always write C for the domain.
+
+10
+00:01:00,186 --> 00:01:05,593
+So if needed you can just substitute this domain with any open subset U.
+
+11
+00:01:06,471 --> 00:01:13,330
+Ok, back to the differentiability here. This one can be described as a linear approximation in C.
+
+12
+00:01:13,614 --> 00:01:20,628
+More precisely this means that we can find the complex number, we can call f'(z_0).
+
+13
+00:01:21,371 --> 00:01:24,386
+Indeed, this could be any complex number.
+
+14
+00:01:25,457 --> 00:01:31,913
+Then with this it's possible for us to write f(z) as a linear term + an error term.
+
+15
+00:01:32,629 --> 00:01:39,361
+and you already know, everything happens locally around z_0. Therefore the constant term is f(z_0).
+
+16
+00:01:40,429 --> 00:01:46,243
+Then next comes the linear map. Which has a slope given by f'(z_0).
+
+17
+00:01:46,957 --> 00:01:51,685
+More precisely we have this number times (z - z_0).
+
+18
+00:01:52,757 --> 00:01:58,569
+So you see again, this is the linear approximation of the function f around the point z_0.
+
+19
+00:01:59,314 --> 00:02:03,637
+and please recall, in real analysis this represents the tangent.
+
+20
+00:02:04,300 --> 00:02:09,557
+Therefore the only thing missing here is a corresponding error term, we could call Phi.
+
+21
+00:02:10,114 --> 00:02:14,490
+Of course this Phi is also a function from C to C.
+
+22
+00:02:15,129 --> 00:02:21,782
+Now as an error function this map here should go to 0, when we send z to z_0.
+
+23
+00:02:22,686 --> 00:02:28,086
+and this convergence to 0 should go faster to 0 than the linear function would do.
+
+24
+00:02:28,986 --> 00:02:39,600
+Or more concretely Phi(z) divided by (z - z_0) should still go to 0, when we send z to z_0.
+
+25
+00:02:40,414 --> 00:02:46,112
+Now, with this property we really get a linear approximation around the point z_0.
+
+26
+00:02:46,771 --> 00:02:53,583
+Indeed, this is what we could read as the definition for complex differentiability at the point z_0.
+
+27
+00:02:54,243 --> 00:02:58,955
+However to be honest it looks a little bit different than the definition we gave before.
+
+28
+00:02:59,786 --> 00:03:05,438
+Yet i would say it's not hard at all to get this reformulation from our definition.
+
+29
+00:03:06,143 --> 00:03:09,651
+and i guess it's a good exercise for you to think about it.
+
+30
+00:03:10,114 --> 00:03:16,099
+After this you see, you simply can take this for the definition of complex differentiability.
+
+31
+00:03:16,757 --> 00:03:25,328
+and that's a good thing, because we can nicely compare this to the definition of total differentiability we explained in the last video.
+
+32
+00:03:26,000 --> 00:03:31,869
+As a reminder, this definition we introduced for functions from R^2 into R^2.
+
+33
+00:03:32,571 --> 00:03:40,739
+and there please recall, we have a 1 to 1 correspondence between functions from C to C and functions from R^2 into R^2.
+
+34
+00:03:41,471 --> 00:03:45,929
+Therefore often both functions are just called by the same name, f.
+
+35
+00:03:46,426 --> 00:03:51,028
+However to distinguish them i give the last one here an index R.
+
+36
+00:03:51,657 --> 00:03:57,547
+Ok, now we can recall the definition of total differentiability for such functions.
+
+37
+00:03:58,443 --> 00:04:03,571
+Also there we have to fix a point in the plane. So lets call it (x_0, y_0).
+
+38
+00:04:04,171 --> 00:04:12,446
+Then we know the function is called totally differentiable at this point, if there exists a matrix J and an error map Phi.
+
+39
+00:04:13,014 --> 00:04:16,817
+Please note i use another variant to denote the letter Phi here.
+
+40
+00:04:17,829 --> 00:04:23,406
+Then what we need is also a linear approximation. Now given by this matrix J.
+
+41
+00:04:24,186 --> 00:04:30,114
+and lastly of course this error term here should also go to 0 in the same way as before.
+
+42
+00:04:30,786 --> 00:04:37,255
+Which means if we divide it by the length of the difference vector, we still get out 0 in this limit.
+
+43
+00:04:37,914 --> 00:04:45,588
+Here please note, before this 0 was the 0 in the complex numbers and now this 0, is the 0 vector in R^2.
+
+44
+00:04:46,286 --> 00:04:52,723
+However using the identification C with R^2, you could say they are exactly the same.
+
+45
+00:04:53,500 --> 00:04:59,800
+Therefore a natural question here would be: where exactly is the difference between both notions here?
+
+46
+00:05:00,500 --> 00:05:04,329
+So i would say lets try to spot all the differences.
+
+47
+00:05:05,343 --> 00:05:13,694
+First this might be obvious, in the second case we see when we use the division here, we need the length of the vector.
+
+48
+00:05:14,543 --> 00:05:17,585
+This is what you know, we can't divide vectors.
+
+49
+00:05:18,514 --> 00:05:26,071
+However in the complex numbers we don't have this problem, we simply can divide one complex number by another one.
+
+50
+00:05:26,871 --> 00:05:34,610
+Now, maybe this is not a crucial difference, because both things just explain that the error term goes to 0.
+
+51
+00:05:35,571 --> 00:05:39,895
+and of course if we wanted, we also could use the absolute value here.
+
+52
+00:05:40,743 --> 00:05:44,486
+Indeed this wouldn't change anything for the linear approximation here.
+
+53
+00:05:45,300 --> 00:05:50,424
+Therefore we have to look at the linear approximations to see the differences.
+
+54
+00:05:51,443 --> 00:05:56,977
+Since we immediately see that the constant terms fit, we look at the linear terms here.
+
+55
+00:05:57,800 --> 00:06:04,043
+and there you see, this dot here stands for the multiplication in the complex numbers C.
+
+56
+00:06:04,943 --> 00:06:10,080
+and that's the difference because this multiplication does not exist here.
+
+57
+00:06:10,743 --> 00:06:15,231
+Indeed what we find here is a matrix-vector multiplication.
+
+58
+00:06:16,229 --> 00:06:22,157
+Now exactly this does not translate in general to the multiplication in C.
+
+59
+00:06:22,771 --> 00:06:31,714
+Therefore the conclusion is immediately this definition here, complex differentiability is much stricter than this definition there.
+
+60
+00:06:32,586 --> 00:06:40,921
+and now in order to get a translationfrom the complex definition to the one in R^2, we have to answer one question.
+
+61
+00:06:41,786 --> 00:06:49,812
+Namely in which cases does a matrix-vector multiplication represent a multiplication in the complex numbers.
+
+62
+00:06:50,829 --> 00:06:57,609
+Now, because we know how to calculate with complex numbers, we can answer this question without any problem.
+
+63
+00:06:58,586 --> 00:07:02,932
+Just lets check how the multiplication in the complex numbers looks like.
+
+64
+00:07:03,814 --> 00:07:08,497
+So we take 2 complex numbers. w and z, and multiply them.
+
+65
+00:07:09,271 --> 00:07:15,062
+Of course here w and z have a real part and an imaginary part respectively.
+
+66
+00:07:15,786 --> 00:07:22,438
+Therefore we say w = (a + ib) and z = (x + iy).
+
+67
+00:07:23,443 --> 00:07:28,495
+and now we just do the multiplication, where we use that i^2 is -1.
+
+68
+00:07:29,071 --> 00:07:36,209
+Then we get: a times x - b times y + the imaginary part.
+
+69
+00:07:37,043 --> 00:07:40,568
+Which is b times x + a times y.
+
+70
+00:07:41,386 --> 00:07:46,793
+Of course this was not hard at all, because you know how to calculate with complex numbers.
+
+71
+00:07:47,686 --> 00:07:52,514
+However now we want to rewrite this as a matrix-vector multiplication.
+
+72
+00:07:53,014 --> 00:07:59,516
+and the vector should represent the complex number z. Which means we have x and y as the coordinates.
+
+73
+00:08:00,314 --> 00:08:05,601
+and on the left of it, we have a 2x2 matrix where the numbers a and b should occur.
+
+74
+00:08:06,486 --> 00:08:10,566
+and indeed how the entries exactly look like we have to figure out now.
+
+75
+00:08:11,571 --> 00:08:15,889
+and of course this is no problem for us, because we already know the result.
+
+76
+00:08:16,771 --> 00:08:20,155
+The first component should just be the real part here.
+
+77
+00:08:20,814 --> 00:08:24,285
+and then the second component is just the imaginary part.
+
+78
+00:08:25,286 --> 00:08:30,302
+and now the question is: Which 2x2 matrix brings us to this result?
+
+79
+00:08:31,071 --> 00:08:35,835
+Now the first row we see immediately, because it should be "a" and -b.
+
+80
+00:08:36,657 --> 00:08:41,982
+Of course in the same way we also see the second row. Which be b and a.
+
+81
+00:08:42,571 --> 00:08:48,656
+and indeed that's it. This is the matrix that represents the multiplication of complex numbers.
+
+82
+00:08:49,514 --> 00:08:58,084
+Therefore our conclusion here is, if we want complex differentiability we need that the Jacobian matrix here has this form.
+
+83
+00:08:59,014 --> 00:09:03,505
+So i would say lets fix this important result with a theorem.
+
+84
+00:09:04,400 --> 00:09:09,014
+In fact in this theorem we will now find the Cauchy-Riemann equations.
+
+85
+00:09:09,814 --> 00:09:14,381
+Ok in order to get everything together lets start with a complex function.
+
+86
+00:09:14,414 --> 00:09:18,457
+That should be complex differentiable at a given point z_0.
+
+87
+00:09:19,357 --> 00:09:23,571
+and now we can just split this point into a real and an imaginary part.
+
+88
+00:09:24,414 --> 00:09:28,901
+and as before we call them x_0 and y_0 respectively.
+
+89
+00:09:29,729 --> 00:09:34,722
+So with the reasoning from above we know that this statement here is equivalent to
+
+90
+00:09:35,743 --> 00:09:44,798
+The statement that the corresponding real function f_R from R^2 to R^2 is totally differentiable at the point (x_0, y_0)
+
+91
+00:09:45,157 --> 00:09:52,043
+and that the Jacobian matrix at the point (x_0, y_0) has the symmetric form from above.
+
+92
+00:09:53,143 --> 00:09:58,571
+So there you see this is our final connection between both notions of differentiability.
+
+93
+00:09:59,600 --> 00:10:04,437
+and exactly this connection now leads us to the Cauchy-Riemann equations.
+
+94
+00:10:05,343 --> 00:10:12,501
+We simply get another equivalence when we use the fact that the Jacobian matrix has partial derivatives as entries.
+
+95
+00:10:13,329 --> 00:10:19,543
+However in order to do this we have to introduce new names for the components of the function f_R.
+
+96
+00:10:20,357 --> 00:10:24,214
+That's no problem at all, because we know we just have 2 components.
+
+97
+00:10:25,229 --> 00:10:29,036
+The first one we simply call u and the second one v.
+
+98
+00:10:30,071 --> 00:10:33,963
+Now both components depend on the 2 variables x and y.
+
+99
+00:10:34,557 --> 00:10:38,491
+Therefore we simply write u(x, y) and v(x, y).
+
+100
+00:10:39,529 --> 00:10:45,015
+In other words here we have 2 new maps that send R^2 to R.
+
+101
+00:10:45,971 --> 00:10:49,118
+So please don't forget, here we just have real functions.
+
+102
+00:10:49,914 --> 00:10:58,291
+Ok and now we know from the last video that in the top left corner for example we find the partial derivative of u with respect to x.
+
+103
+00:10:59,257 --> 00:11:04,807
+and now you see, with the partial derivatives in the Jacobian matrix we find a connection.
+
+104
+00:11:05,729 --> 00:11:10,069
+And exactly this connection is what we call the Cauchy-Riemann equations.
+
+105
+00:11:11,057 --> 00:11:15,141
+There are just 2 partial equations for u and v.
+
+106
+00:11:15,871 --> 00:11:24,154
+In particular the first one is simply that du/dx = dv/dy.
+
+107
+00:11:25,300 --> 00:11:32,454
+So here you see this equation just represents that we have the same number in the top left corner and in the bottom right corner.
+
+108
+00:11:33,200 --> 00:11:38,438
+Ok and then you might already see it. The number b here gives us the second equation.
+
+109
+00:11:39,186 --> 00:11:44,211
+Which is du/dy = dv/dx.
+
+110
+00:11:45,014 --> 00:11:50,604
+and of course both equations have to be fulfilled at the given point (x_0, y_0).
+
+111
+00:11:51,414 --> 00:11:59,050
+Ok now you know that we have these 2 equivalences to describe complex differentiability at a given point.
+
+112
+00:11:59,743 --> 00:12:06,205
+and of course then we can extend that to a whole open subset. We talk about holomorphic functions.
+
+113
+00:12:06,986 --> 00:12:13,468
+In other words a holomorphic function has to fulfill the Cauchy-Riemann equations at all the points.
+
+114
+00:12:14,114 --> 00:12:16,514
+Ok then i think it's good enough for today.
+
+115
+00:12:16,613 --> 00:12:19,745
+Lets talk about examples in the next video.
+
+116
+00:12:20,343 --> 00:12:24,211
+Therefore i hope i see you there and have a nice day. Bye!
+

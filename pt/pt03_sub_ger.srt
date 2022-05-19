@@ -1,0 +1,476 @@
+1
+00:00:00,314 --> 00:00:03,586
+Hallo und willkommen zurück zu Wahrscheinlichkeitstheorie.
+
+2
+00:00:04,500 --> 00:00:08,114
+ und als erstes möchte ich all den netten Leuten danken, die mich auf Steady oder Paypal unterstützen.
+
+3
+00:00:08,714 --> 00:00:14,543
+Im heutigen Teil 3, werden wir über zwei wichtige Fälle sprechen, die in Wahrscheinlichkeitsproblemen auftreten können.
+
+4
+00:00:15,200 --> 00:00:21,740
+Zur Erinnerung wir haben bereits mehrere Begriffe eingeführt und haben mit dem allgemeinen Ergebnisraum Omega gestartet. 
+
+5
+00:00:22,571 --> 00:00:27,772
+Danach können wir auf gewählte Teilmengen von Omega schauen, welche ein Sigma Algebra bilden.
+
+6
+00:00:28,443 --> 00:00:31,474
+und genau diese Teilmengen nennen wir Ereignisse.
+
+7
+00:00:32,186 --> 00:00:36,266
+Im nächsten Schritt wollten wir die Wahrscheinlichkeit eines solchen Ereignis messen
+
+8
+00:00:36,757 --> 00:00:40,800
+und dies führte zum allgemeinen Wahrscheinlichkeitsmaß, welches wir "P" nennen.
+
+9
+00:00:41,600 --> 00:00:48,371
+ Jetzt kann ich euch sagen, dass es möglich ist mit diesen Objekten im abstrakten Sinne umzugehen und somit bekommen wir eine allgemeine Theorie.
+
+10
+00:00:48,900 --> 00:00:54,628
+In vielen Anwendungen sind zwei spezielle Fälle sehr wichtig.
+
+11
+00:00:55,214 --> 00:00:59,886
+Daher unterscheiden wir jetzt zwischen den diskreten und dem stetigen Fall.
+
+12
+00:01:00,600 --> 00:01:05,400
+Um etwas genauer zu sein, werde ich vom absolut stetigen Fall reden.
+
+13
+00:01:06,143 --> 00:01:12,814
+Für dieses Video werden wir erstmal alle anderen Möglichkeiten, die wir nicht einen dieser zwei Boxen zuweisen können, ignorieren.
+
+14
+00:01:13,329 --> 00:01:18,671
+Oftmals fokussiert man sich erstmal auf diskrete Probleme, wenn man mit Wahrscheinlichkeitstheorie anfängt.
+
+15
+00:01:19,300 --> 00:01:23,029
+ Sie sind einfach zu verstehen, wenn wir nur endliche Ergebnisse haben.
+
+16
+00:01:23,743 --> 00:01:29,057
+Jedoch würde ich auch sagen, dass wir ein diskretes Problem haben, wenn es unendlich viele Ergebnisse sind,
+
+17
+00:01:29,257 --> 00:01:32,700
+solange diese abzählbar sind, wie bspw. die natürlichen Zahlen.
+
+18
+00:01:33,471 --> 00:01:41,471
+Z.B könnten wir einen Würfel unendlich oft werfen und zählen wann man die erste 6 bekommt.
+
+19
+00:01:42,057 --> 00:01:46,943
+Dann sind wir trotzdem noch im diskreten Fall, da wir alle möglichen Ergebnisse zählen können.
+
+20
+00:01:47,567 --> 00:01:54,200
+Auf der anderen Seite haben wir im absolut stetigen Fall unendlich viele Ergebnisse, die nicht zählbar sind.
+
+21
+00:01:54,667 --> 00:01:58,733
+Ein typisches Beispiel wäre eine Dartscheibe auf der wir einen Dartpfeil werfen.
+
+22
+00:01:59,500 --> 00:02:03,083
+in diesem Fall sind alle Werte auf der Scheibe mögliche Ergebnisse.
+
+23
+00:02:03,533 --> 00:02:09,999
+Ok, dass waren die ungefähren Ideen zu den zwei speziellen Fällen. Nun würde ich sagen, dass wir in die Details gehen.
+
+24
+00:02:10,950 --> 00:02:16,567
+Lasst uns dafür eine Tabelle machen, um den diskreten und absolut stetigen Fall zu vergleichen.
+
+25
+00:02:17,133 --> 00:02:19,617
+Als erstes starten wir mit dem Ergebnisraum Omega.
+
+26
+00:02:19,650 --> 00:02:23,017
+ Was, im diskreten Fall, eine endliche oder abzählbare Menge ist.
+
+27
+00:02:23,500 --> 00:02:27,650
+ Z.B wenn du eine Münze würfelst, wäre Omega eine Menge mit 2 Elemente.
+
+28
+00:02:28,267 --> 00:02:32,300
+ oder um ein unendliches Beispiel zu geben, könnte Omega die natürlichen Zahlen sein.
+
+29
+00:02:33,050 --> 00:02:38,150
+Auf der anderen Seite sollte der Ergebnisraum Omega, im stetigen Fall, eine unzählbare Menge sein.
+
+30
+00:02:38,717 --> 00:02:41,983
+und normalerweise wählt dafür man eine Teilmenge aus "R^n"
+
+31
+00:02:43,100 --> 00:02:46,850
+Um etwas genauer zu sein, Omega sollte eine Borel Menge sein.
+
+32
+00:02:47,833 --> 00:02:51,467
+Es ist also ein Element aus dem Borel Sigma Algebra von "R^n"
+
+33
+00:02:52,033 --> 00:02:56,717
+Macht euch keine sorgen, falls ihr nicht wisst, was eine Borel Sigma Algebra ist. Ich habe ein ganzes Video darüber gemacht.
+
+34
+00:02:57,317 --> 00:03:01,617
+Es ist jedoch für dieses Video nicht das Wichtigste zu wissen.
+
+35
+00:03:02,450 --> 00:03:06,233
+Denkt an ein einfaches Beispiel. Omega könnte das Einheitsintervall sein.
+
+36
+00:03:06,900 --> 00:03:09,317
+Ich wähle es hier als abgeschlossen, aber es könnte auch offen sein.
+
+37
+00:03:10,017 --> 00:03:13,417
+Ok, dass ist alles was ihr über mögliche Ergebnisräume wissen solltet.
+
+38
+00:03:14,583 --> 00:03:17,650
+Im nächsten Schritt, werden wir über das Sigma Algebra reden.
+
+39
+00:03:18,583 --> 00:03:22,883
+Im diskreten Fall ist es sehr einfach. Man kann einfach die gesamte Potenzmenge von Omega nehmen.
+
+40
+00:03:23,333 --> 00:03:30,200
+Natürlich kann man je nach Problem auch ein kleineres auswählen, aber es gibt keine Einschränkung dafür, denn größten zu wählen.
+
+41
+00:03:30,850 --> 00:03:35,467
+Daher müssen wir uns im diskreten Fall keine Gedanken um das Sigma Algebra machen.
+
+42
+00:03:36,217 --> 00:03:41,683
+Jedoch brauchen wir unbedingt eine Vorstellung vom Sigma Algebra für den stetigen Fall.
+
+43
+00:03:42,233 --> 00:03:48,533
+ Normalerweise gibt es hier nicht die Möglichkeit die Potenzmenge zu wählen, aber man kann immer die Borel Sigma Algebra nehmen.
+
+44
+00:03:49,400 --> 00:03:53,967
+Bedeutet wir haben nicht alle Teilmengen von Omega, aber trotzdem viele davon.
+
+45
+00:03:54,550 --> 00:03:59,267
+ Daher kann unser Wahrscheinlichkeitsmaß trotzdem noch die Wahrscheinlichkeit von vielen Ereignisse bestimmen. 
+
+46
+00:03:59,850 --> 00:04:04,517
+ Wo wir gerade beim Wahrscheinlichkeitsmaß sind, lasst uns als nächstes das für beide Fälle vergleichen.
+
+47
+00:04:05,183 --> 00:04:10,783
+Im diskreten Fall ist eine Einelementige Menge sehr hilfreich,
+
+48
+00:04:11,433 --> 00:04:18,750
+ weil wenn ihr die Werte für alle kleinen Omegas im Ergebnisraum Omega kennt, dann kennt ihr auch das gesamte Wahrscheinlichkeitsmaß. 
+
+49
+00:04:19,733 --> 00:04:23,583
+Das folgt sofort aus der Sigma Additivität vom Wahrscheinlichkeitsmaß. 
+
+50
+00:04:24,550 --> 00:04:28,667
+ als kleine Erinnerung, dass war eine Eigenschaft, die wir im letzten Video besprochen haben.
+
+51
+00:04:29,450 --> 00:04:38,117
+ Wegen dieser Eigenschaft können wir im diskreten Fall eine Wahrscheinlichkeitsfunktion anstelle eines Wahrscheinlichkeitsmaß schreiben.
+
+52
+00:04:38,868 --> 00:04:43,750
+ Normalerweise stellt man das mithilfe eines kleinen "p" und einem Index Omega dar.
+
+53
+00:04:44,417 --> 00:04:50,500
+Natürlich sollte es am Ende die Selbe Bedeutung haben, wie die Wahrscheinlichkeit, aber jetzt ist diese Funktion unser Startpunkt.
+
+54
+00:04:51,200 --> 00:04:54,467
+Ich sage Funktion, aber normalerweise schreiben wir es als eine Folge.
+
+55
+00:04:54,900 --> 00:04:59,322
+abhängig von unserem Omega, ist unser Ergebnisraum eine endliche oder abzählbare Folge .
+
+56
+00:05:00,044 --> 00:05:05,383
+ Da wir das für Wahrscheinlichkeiten verwenden wollen, behaupten wir, dass diese Zahl immer nicht-negativ ist.
+
+57
+00:05:06,250 --> 00:05:10,867
+Außerdem sollte die Reihe oder Summe über alle Omegas immer 1 ergeben.
+
+58
+00:05:11,567 --> 00:05:16,899
+Wenn wir eine Folge haben, die diese zwei Eigenschaften erfüllt, nennen wir sie eine Wahrscheinlichkeitsfunktion
+
+59
+00:05:17,517 --> 00:05:20,500
+und damit können wir das Wahrscheinlichkeitsmaß definieren.
+
+60
+00:05:21,367 --> 00:05:29,917
+ Für irgendein Ereignis "A", können wir P(A) als die Summe oder Reihe über "p_omega" setzten. Wobei Omega durch alle Elemente aus "A" geht. 
+
+61
+00:05:30,650 --> 00:05:37,383
+ Hier seht ihr den großen Vorteil vom diskreten Fall. Wir haben nur zählbare Zahlen und eine Summe. 
+
+62
+00:05:38,367 --> 00:05:41,100
+ Also kann jede Wahrscheinlichkeit als Summe dargestellt werden.
+
+63
+00:05:41,817 --> 00:05:45,617
+Dies ist aber nicht möglich im absolut stetigen Fall.
+
+64
+00:05:46,133 --> 00:05:49,609
+ Jedoch haben wir etwas ähnliches für das Wahrscheinlichkeitsmaß,
+
+65
+00:05:50,500 --> 00:05:56,383
+weil, wie im unseren Beispiel mit der Dart Scheibe, ist die Wahrscheinlichkeit für einen einzigen Punkt gleich 0.
+
+66
+00:05:57,083 --> 00:06:01,383
+Es existieren einfach zu viele Punkte um eine Wahrscheinlichkeit von ungleich 0 für genau einen einzigen Punkt zu haben.
+
+67
+00:06:02,217 --> 00:06:05,633
+Jedoch können wir etwas über die Dichte der Wahrscheinlichkeiten sagen
+
+68
+00:06:06,450 --> 00:06:12,667
+ Mit anderen Worten, es ist kein Problem die Wahrscheinlichkeit eines gesamten Bereiches, statt eines einzelnen Punktes, zu messen.
+
+69
+00:06:13,617 --> 00:06:18,767
+Diese Wahrscheinlichkeitsdichtefunktion nennen wir einfach "f" und ist definiert für den gesamten Ergebnisraum Omega.
+
+70
+00:06:19,383 --> 00:06:24,517
+und da wir Wahrscheinlichkeiten messen wollen, haben wir die Selben zwei Eigenschaften, wie auf der linken Seite. 
+
+71
+00:06:25,350 --> 00:06:29,067
+Als erstes haben wir in allen Punkten eine nicht-negative Zahl
+
+72
+00:06:29,533 --> 00:06:35,133
+ und da in diesem Fall Omega eine Teilmenge von "R^n" ist, benutzen wir normalerweise das Symbol "x"
+
+73
+00:06:36,017 --> 00:06:38,767
+Jedoch ist "x" hier immer noch ein Element von Omega.
+
+74
+00:06:39,550 --> 00:06:44,633
+Ok, für die zweite Eigenschaft müssen wir die Summe in einen stetigen Fall übersetzten.
+
+75
+00:06:45,150 --> 00:06:49,900
+Das bedeutet, dass wir ein Integral über die Funktion "f" haben wollen, die gleich 1 ist.
+
+76
+00:06:50,733 --> 00:06:54,167
+Es ist das Integral, welches wir über die gesamte Definitionsmenge Omega integrieren
+
+77
+00:06:55,083 --> 00:07:01,400
+Denkt daran, dass wir in unserem einfachen Beispiel ein eindimensionales Integral haben, aber generell haben wir n-dimensionale Integrale.
+
+78
+00:07:02,100 --> 00:07:05,950
+Aber ihr seht, das ist ganz ähnlich zu dem was wir für den diskreten Fall wollten.
+
+79
+00:07:06,683 --> 00:07:12,883
+ Daher kann das Wahrscheinlichkeitsmaß auf gleicherweise definiert werden. Wo P(A) ein Integral ist und "A" unsere Definitionsmenge.
+
+80
+00:07:13,950 --> 00:07:17,760
+ ok und damit seht ihr, dass ist unsere Übersetzung zwischen den beiden Fällen.
+
+81
+00:07:18,633 --> 00:07:25,533
+ Um ehrlich zu sein, habe ich ein formales Detail, auf der rechten Seite, weggelassen. Weil wir da mit Sigma Algebras zu tun haben.
+
+82
+00:07:26,150 --> 00:07:30,550
+Aus diesem Grund muss die Dichtefunktion "f" Messbar sein.
+
+83
+00:07:31,533 --> 00:07:35,050
+ Es ist eine Eigenschaft, die wir brauchen, damit das Integral Sinn macht.
+
+84
+00:07:35,783 --> 00:07:40,217
+ Macht euch keine sorgen, wenn ihr den Begriff Messbar noch nicht kennt. Wir sprechen später noch darüber.
+
+85
+00:07:41,083 --> 00:07:45,467
+Momentan reicht es, wenn ihr wisst, dass wir hier ein formales Detail brauchen. 
+
+86
+00:07:46,233 --> 00:07:51,333
+Ok, ich glaube das ist erstmal genug Theorie. Lasst uns über praktische Beispiele reden.
+
+87
+00:07:52,317 --> 00:07:56,333
+schauen wir für den diskreten Fall wieder auf das Beispiel mit dem werfen eines Würfels.
+
+88
+00:07:57,100 --> 00:08:00,133
+Lasst uns dieses mal einen gezinkten Würfel betrachten.
+
+89
+00:08:00,983 --> 00:08:05,083
+Bedeutet wir haben verschiedene Wahrscheinlichkeiten in der Wahrscheinlichkeitsfunktion.
+
+90
+00:08:05,683 --> 00:08:10,917
+Wir können verschiedene nicht-negative Wahrscheinlichkeiten hier einbringen, aber die Summe von allen muss 1 sein.
+
+91
+00:08:11,800 --> 00:08:18,950
+z.B. Können wir die Wahrscheinlichkeiten für die Zahlen 1 bis 5 auf ein Zehntel setzten. Somit ist die für die 6 ein halb.
+
+92
+00:08:19,700 --> 00:08:25,550
+ Lasst uns als Test die Wahrscheinlichkeit berechnen, dass wir keine 6 bekommen.
+
+93
+00:08:26,367 --> 00:08:34,683
+Per Definition würde dies die Summe über "p_omega" sein, wobei Omega durch alle Zahlen von 1 bis 5 geht.
+
+94
+00:08:35,400 --> 00:08:43,883
+ In unserem Fall wäre es 1 Zehntel für jedes der Omegas. Somit bekommen wir, wie erwartet, ein halb raus. 
+
+95
+00:08:44,950 --> 00:08:48,450
+ok, lasst uns nun auf ein stetiges Beispiel schauen.
+
+96
+00:08:49,133 --> 00:08:52,633
+Ok, lasst uns das Intervall von 0 bis 2 betrachten.
+
+97
+00:08:53,350 --> 00:08:56,850
+Ihr seht, unsere Dartscheibe von eben ist nun eindimensional.
+
+98
+00:08:57,533 --> 00:09:00,850
+ Wir werfen zufällig auf einen Punkt in diesem Intervall.
+
+99
+00:09:01,567 --> 00:09:05,617
+Die Frage ist nun: was ist unsere Wahrscheinlichkeitsdichtefunktion "f".
+
+100
+00:09:06,583 --> 00:09:11,817
+Da wir hier eine einheitliche Wahrscheinlichkeit haben wollen, müssen wir eine Konstante Funktion haben.
+
+101
+00:09:12,483 --> 00:09:17,333
+und weil wir die zwei Eigenschaften erfüllen müssen, gibt es nur eine vernünftige Option.
+
+102
+00:09:18,233 --> 00:09:21,150
+Wir setzten die Konstante Funktion zu ein halb.
+
+103
+00:09:21,967 --> 00:09:29,167
+Lasst uns schauen ob die Integral Eigenschaft wirklich erfüllt ist. Wir haben also das Integral 0 bis 2 von f(x).
+
+104
+00:09:30,083 --> 00:09:35,583
+Wir können hier die Konstante ein halb raus ziehen und somit verbleibt nur die Länge des Intervalls.
+
+105
+00:09:36,217 --> 00:09:39,100
+was natürlich 2 ist, womit wir insgesamt eine 1 raus bekommen.
+
+106
+00:09:39,917 --> 00:09:45,233
+Ok, die letzte Frage hier wäre, könnte man hier auch die Wahrscheinlichkeit von einer Teilmenge von "A" berechnen?
+
+107
+00:09:45,950 --> 00:09:50,967
+Wie wir wissen, ist die Wahrscheinlichkeit definiert als das Integral, wo wir über die Menge "A" integrieren.
+
+108
+00:09:51,833 --> 00:09:56,883
+Wir können wieder die Konstante rausziehen und nur das simple Integral bleibt übrig.
+
+109
+00:09:58,017 --> 00:10:05,667
+Das ist was wir im allgemeinen als das Volumen von "A" bezeichnen. Bzw. da wir in diesem Fall im eindimensionalen sind, kann man es auch die Länge von "A" nennen.
+
+110
+00:10:06,700 --> 00:10:09,842
+ oder wir nennen es einfach das Lebesgue-Maß von "A".
+
+111
+00:10:11,383 --> 00:10:16,805
+ Das hört sich nun komplizierter an als es eigentlich ist, weil für Intervalle können wir es sofort ausrechnen.
+
+112
+00:10:17,633 --> 00:10:24,763
+ z.B. wenn wir das Intervall [a, b] haben, dann rechnen wir, dass es 0.5*(b - a)
+
+113
+00:10:25,317 --> 00:10:30,784
+Ihr könntet also für dieses Beispiel sagen, dass wir die Längen berechnen und dann normalisieren müssen.
+
+114
+00:10:31,400 --> 00:10:34,309
+bedeutet wir teilen durch die gesamte Länge, was gleich 2 ist.
+
+115
+00:10:35,133 --> 00:10:37,142
+und tatsächlich bekommen wir dann eine Wahrscheinlichkeit.
+
+116
+00:10:38,083 --> 00:10:43,340
+Ok, ich hoffe ihr wisst nun wie ihr zwischen diskreten und stetigen Fällen unterscheiden könnt.
+
+117
+00:10:44,250 --> 00:10:48,185
+Dies sind tatsächlich die typischen Beispiele, die auftauchen. Daher ist es gut sie zu kennen.
+
+118
+00:10:48,800 --> 00:10:52,479
+Im nächsten Video werden wir auf kompliziertere Beispiele schauen.
+
+119
+00:10:52,983 --> 00:10:56,333
+Ich hoffe, ich sehe euch dann und habt noch einen schönen Tag. Bye!
+

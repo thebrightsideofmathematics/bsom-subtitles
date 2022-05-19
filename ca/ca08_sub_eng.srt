@@ -1,0 +1,332 @@
+1
+00:00:00,543 --> 00:00:03,958
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,671 --> 00:00:11,221
+and as always, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:12,014 --> 00:00:20,171
+Today in part 8 we will continue talking about the Cauchy-Riemann equations and i will also explain what Wirtinger derivatives are.
+
+4
+00:00:20,786 --> 00:00:27,890
+For this as often, we consider a complex function f, that is holomorphic on an open domain U.
+
+5
+00:00:28,771 --> 00:00:36,862
+and for such a function we will define a new differential operator as a partial derivative with respect to the variable z.
+
+6
+00:00:37,614 --> 00:00:45,449
+Then when we apply this to the function f and look at a given point z_0, this is often called the Wirtinger derivative.
+
+7
+00:00:46,414 --> 00:00:51,694
+However, this is not quite correct, because there is also another Wirtinger derivative.
+
+8
+00:00:52,371 --> 00:00:59,075
+This one is a little bit strange, because it's written as the partial derivative with respect to z bar.
+
+9
+00:00:59,700 --> 00:01:06,654
+However it turns out that both things here are well defined and indeed usefull for our theory.
+
+10
+00:01:07,214 --> 00:01:15,197
+For example: for a holomorphic function f this one here should give us the complex derivative of f at the point z_0.
+
+11
+00:01:15,771 --> 00:01:20,477
+With this in mind, we will be able to define this new differential operator.
+
+12
+00:01:21,543 --> 00:01:28,172
+Also, then we will see that for a holomorphic function, the other Wirtinger derivative should be 0.
+
+13
+00:01:28,986 --> 00:01:35,027
+Therefore lets first concentrate at the Wirtinger derivative on the left hand side. df/dz.
+
+14
+00:01:35,614 --> 00:01:42,105
+Now, to make our life a little bit easier lets write (x + iy) instead of the point z_0.
+
+15
+00:01:42,771 --> 00:01:47,621
+So this means, this is the complex derivative of f at the given point.
+
+16
+00:01:47,821 --> 00:01:53,388
+Hence it's just another complex number, which we can write as (a + ib).
+
+17
+00:01:54,571 --> 00:02:02,194
+and now this is what we have learned in the last videos. The real part and the imaginary part can be written as partial derivatives.
+
+18
+00:02:03,229 --> 00:02:10,960
+This works when we take the real part of the function f as a function u and the imaginary part of f as a function v.
+
+19
+00:02:11,900 --> 00:02:18,438
+and then this "a" here is du/dx and b is dv/dx.
+
+20
+00:02:19,743 --> 00:02:26,191
+Of course both partial derivatives here are to be evaluated at the given point (x, y).
+
+21
+00:02:26,391 --> 00:02:32,450
+However in the upcoming calculation we will omit this point to make everything clearer.
+
+22
+00:02:33,357 --> 00:02:38,070
+Of course now in the next step here we want to use the Cauchy-Riemann equations.
+
+23
+00:02:39,271 --> 00:02:45,297
+and in order to include them correctly the best thing we can do is to double this complex number here.
+
+24
+00:02:45,943 --> 00:02:51,519
+So you see, we add the same number again, but then we have to divide everything by 2.
+
+25
+00:02:52,700 --> 00:02:57,994
+and now the idea is, that here in the second part we apply the Cauchy-Riemann equations.
+
+26
+00:02:58,971 --> 00:03:03,171
+So instead of du/dx we can write dv/dy.
+
+27
+00:03:03,671 --> 00:03:09,396
+and on the other hand dv/dx can be writen as -du/dy.
+
+28
+00:03:10,271 --> 00:03:18,933
+Ok, what you now should see is that some symmetry is involved. We have 2 partial derivatives with respect to x and 2 with respect to y.
+
+29
+00:03:19,771 --> 00:03:27,665
+and this is what we can apply to our knowledge that u is the real part of the function f and v the imaginary part.
+
+30
+00:03:28,429 --> 00:03:35,661
+Or in other words we can also look at the map that has (x, y) as an input, but a complex number as an output.
+
+31
+00:03:36,314 --> 00:03:40,795
+Namely f at the point (x + iy) should be the output.
+
+32
+00:03:41,243 --> 00:03:47,834
+So you see as the map f_R this carries exactly the same information as the map f.
+
+33
+00:03:48,657 --> 00:03:51,139
+It's just again another point of u.
+
+34
+00:03:51,686 --> 00:03:57,282
+and this helps us, because this function we can write as u + iv.
+
+35
+00:03:57,482 --> 00:04:02,848
+and now you might already see, on the left hand side we use exactly this.
+
+36
+00:04:03,343 --> 00:04:10,580
+Here the first part we can write as the partial derivative with respect to x of u + iv.
+
+37
+00:04:10,971 --> 00:04:17,043
+and now in order to get this in the second part as well you see we have to pull out a -i
+
+38
+00:04:17,671 --> 00:04:25,499
+and when we do this, you see we also have the partial derivative now with respect to y of u + iv.
+
+39
+00:04:26,871 --> 00:04:31,038
+Ok, so this is the result for f' you really should remember.
+
+40
+00:04:31,614 --> 00:04:38,208
+Indeed it's easier to remember when we use that (u + iv) are essentially the function f.
+
+41
+00:04:38,814 --> 00:04:43,110
+Hence we can just define 2 new differentiale operators.
+
+42
+00:04:44,143 --> 00:04:49,773
+Namely we just call the first one df/dx and the second one df/dy.
+
+43
+00:04:50,343 --> 00:04:57,966
+and indeed this makes sense. This one is the partial derivative with respect to x, when you see f as this map here.
+
+44
+00:04:58,729 --> 00:05:04,143
+Ok, soon i will show you an example and then these 2 operations should be clear.
+
+45
+00:05:04,771 --> 00:05:12,456
+However first i want to define the Wirtinger derivatives, because with this calculation here we already know how to do this.
+
+46
+00:05:13,071 --> 00:05:18,456
+We can just use combinations of the partial derivatives with respect to x and y.
+
+47
+00:05:19,257 --> 00:05:29,814
+Firstly, now when we write d/dz. This should stand for 1/2 times d/dx - i*d/dy.
+
+48
+00:05:30,786 --> 00:05:34,514
+So you see, this is exactly what we have learned above.
+
+49
+00:05:35,171 --> 00:05:41,471
+The definition makes sense and for a holomorphic function f it gives us the complex derivative of f.
+
+50
+00:05:42,357 --> 00:05:47,022
+Ok, now in a similar way we will define d/dz(bar).
+
+51
+00:05:48,357 --> 00:05:56,244
+and indeed this should look very similarly. So we also take 1/2 times, and now d/dx + i d/dy.
+
+52
+00:05:56,943 --> 00:06:06,232
+We do this, because you see by the Cauchy-Riemann equations, we get 0 when we apply this operation to a holomorphic function f.
+
+53
+00:06:07,243 --> 00:06:11,469
+and here please recall. This fits to our motivation from the beginning.
+
+54
+00:06:11,929 --> 00:06:15,627
+Ok, then as promised lets look at an example.
+
+55
+00:06:16,071 --> 00:06:19,976
+It shouldn't be a complicated one. So lets look at a polynomial.
+
+56
+00:06:20,671 --> 00:06:24,550
+Namely we just look at a quadratic function z^2.
+
+57
+00:06:24,957 --> 00:06:29,848
+Which means using x and y, we have (x + iy)^2.
+
+58
+00:06:30,500 --> 00:06:41,763
+Hence, lets just exapand the square. Which means we have x^2 - y^2 + i2xy.
+
+59
+00:06:42,986 --> 00:06:48,463
+Therefore this first part here is our function u and this part is our function v.
+
+60
+00:06:49,029 --> 00:06:57,384
+With this we can immediately calculate df/dx, which is here 2x + i2y.
+
+61
+00:06:58,014 --> 00:07:06,883
+and similarly we can calculate df/dy, which is here -2y + i2x.
+
+62
+00:07:07,629 --> 00:07:15,551
+Now, both things can be simplified when we just use the fact, that (x+iy) is the complex number z.
+
+63
+00:07:16,243 --> 00:07:20,939
+Hence, df/dx is simply 2 times z.
+
+64
+00:07:21,857 --> 00:07:27,434
+and in a similar way you see for df/dy we have 2 times i times z.
+
+65
+00:07:28,086 --> 00:07:31,638
+So we can always use that i^2 is -1.
+
+66
+00:07:32,714 --> 00:07:39,054
+Now, with these 2 nice short expressions we should be able to calculate with 2 Wirtinger derivatives.
+
+67
+00:07:40,043 --> 00:07:43,993
+So lets start with the second one, df/dz(bar).
+
+68
+00:07:44,314 --> 00:07:51,736
+It's 1/2 (2z + i times 2iz).
+
+69
+00:07:52,571 --> 00:07:57,384
+Again, we know i^2 is -1. So we get 0 here.
+
+70
+00:07:58,229 --> 00:08:02,568
+This is what we expected, because the polynomial is a holomorphic function.
+
+71
+00:08:03,300 --> 00:08:07,491
+Ok, then in the next step it's not hard to calculate df/dz.
+
+72
+00:08:07,800 --> 00:08:11,955
+It's the same calculation as before, but now with a minus sign here.
+
+73
+00:08:12,700 --> 00:08:21,545
+Therefore in this case, in the parentheses we have (2z + 2z) divided by 1/2, gives us back 2z.
+
+74
+00:08:22,643 --> 00:08:29,352
+Also here the result is not so surprising, because it should give us the complex derivative of f.
+
+75
+00:08:29,552 --> 00:08:36,384
+Ok, then i would say lets summarize the video by stating the important fact we have proven here.
+
+76
+00:08:36,886 --> 00:08:40,505
+Indeed, this is something one can nicely remember.
+
+77
+00:08:41,486 --> 00:08:53,967
+Namely, a complex function f defined on an open domain U is holomorphic if and only if df/dz(bar) is equal to 0 at all points.
+
+78
+00:08:54,471 --> 00:09:01,291
+Indeed, this equivalence you already know, because here we simply have hidden the Cauchy-Riemann equations.
+
+79
+00:09:02,214 --> 00:09:10,338
+and then in this case as we have proven above the other Wirtinger derivative gives us the complex derivative of f.
+
+80
+00:09:11,071 --> 00:09:15,370
+So f' can be calculated by using df/dz.
+
+81
+00:09:16,100 --> 00:09:22,701
+Ok, with this you now know a lot of different differentiale operators we can use in complex analysis.
+
+82
+00:09:23,714 --> 00:09:28,420
+Then i hope that i see you in the next video, where we will talk about power series.
+
+83
+00:09:29,557 --> 00:09:31,594
+Have a nice day! Bye!
+

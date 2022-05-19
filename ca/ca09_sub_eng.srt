@@ -1,0 +1,396 @@
+1
+00:00:00,743 --> 00:00:04,213
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,914 --> 00:00:11,503
+and first many, many thanks to all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:12,214 --> 00:00:17,441
+Please don't forget, as an supporter you get a PDF version and a quiz for this video.
+
+4
+00:00:18,300 --> 00:00:21,671
+Now, todays part 9 will be about power series.
+
+5
+00:00:22,471 --> 00:00:26,872
+Indeed, this is a very important topic in a complex analysis course.
+
+6
+00:00:27,586 --> 00:00:33,385
+In the case you have watched my real analysis course, you already know a lot about power series.
+
+7
+00:00:34,543 --> 00:00:41,147
+Now it turns out, for this concept in the complex numbers, we can do exactly the same as in the real numbers.
+
+8
+00:00:41,771 --> 00:00:48,785
+Moreover by working with complex numbers we will find the true nature of the behaviour of some power series.
+
+9
+00:00:49,829 --> 00:00:55,419
+Hence you need to work in the complex realm to understand power series completely.
+
+10
+00:00:55,871 --> 00:01:00,172
+and why this is important, i can immediately show you with an example.
+
+11
+00:01:00,700 --> 00:01:05,916
+Namely one of the most important functions is given by a power series.
+
+12
+00:01:07,043 --> 00:01:11,196
+This is the exponantial function denoted by exp(z).
+
+13
+00:01:11,743 --> 00:01:16,634
+and now you know the value of the function is defined by an infinite sum.
+
+14
+00:01:16,834 --> 00:01:21,188
+There we have z^k divided by k!.
+
+15
+00:01:22,286 --> 00:01:25,832
+Now, this definition you should know for real numbers,
+
+16
+00:01:26,486 --> 00:01:32,483
+but then we don't have any problems also putting complex numbers into the formula.
+
+17
+00:01:32,857 --> 00:01:37,037
+Of course then in general the outcome is also a complex number.
+
+18
+00:01:37,886 --> 00:01:43,114
+Here please don't forget, this symbol infinity means there is a limit involved.
+
+19
+00:01:43,843 --> 00:01:52,949
+This means we have a limit of complex numbers and because you know how to measure distances in a complex plane, you don't have any problem with this.
+
+20
+00:01:53,857 --> 00:01:58,254
+Regarding this there is simply not much difference to the real counterpart.
+
+21
+00:01:59,414 --> 00:02:06,387
+Now with this philosophy we can also talk about the general definition of a power series in the complex field.
+
+22
+00:02:06,900 --> 00:02:12,953
+In other words if you know the definition for real numbers, you know exactly what comes now.
+
+23
+00:02:13,300 --> 00:02:20,572
+Of course the starting point should be the coefficients we have in the infinite series and are now complex numbers.
+
+24
+00:02:21,257 --> 00:02:25,255
+and a fitting name is just a_0, a_1, a_2 and so on.
+
+25
+00:02:25,686 --> 00:02:31,350
+Ok, then for these numbers we can define a complex function, we can call f.
+
+26
+00:02:31,986 --> 00:02:37,129
+Moreover the domain we call D. So we have a function from D into C.
+
+27
+00:02:38,257 --> 00:02:48,919
+Then this map is defined by sending z to the infinite series of the coefficient a_k times z^k.
+
+28
+00:02:49,543 --> 00:02:58,530
+However, since later it will be important that we can shift the whole function by a fixed number z_0, i already introduce it here.
+
+29
+00:02:59,171 --> 00:03:02,671
+So we simply have (z - z_0)^k.
+
+30
+00:03:03,257 --> 00:03:08,469
+and i can already tell you this z_0 is often called the expansion point.
+
+31
+00:03:09,600 --> 00:03:15,134
+Of course what is still missing here is the explizit definition of the domain D.
+
+32
+00:03:15,671 --> 00:03:21,755
+However you might already know this, because here in the definition of the map there is a limit involved.
+
+33
+00:03:22,643 --> 00:03:28,183
+And maybe this limit does not exist for all complex numbers z we can choose.
+
+34
+00:03:28,771 --> 00:03:34,135
+Hence this restriction is now what we have to put into the definition of D.
+
+35
+00:03:34,600 --> 00:03:39,652
+So we can say: we have all the complex numbers z, where this limit exists.
+
+36
+00:03:40,386 --> 00:03:44,101
+Or in other words we simply say the series is convergent.
+
+37
+00:03:45,314 --> 00:03:54,198
+Ok, then you see we have a well defined function. Maybe the domain is very small, but still we always call this function a power series.
+
+38
+00:03:55,186 --> 00:03:58,585
+With this knowledge i would say we look at an example.
+
+39
+00:03:59,600 --> 00:04:03,661
+This is an important one and you already know it from real analysis.
+
+40
+00:04:04,457 --> 00:04:07,066
+It's the famous geometric series.
+
+41
+00:04:08,029 --> 00:04:12,603
+It's not complicated at all, because all coefficients are just 1.
+
+42
+00:04:13,014 --> 00:04:18,190
+Therefore we have the series that start with k=0 of z^k.
+
+43
+00:04:19,357 --> 00:04:29,450
+Now, in fact by using exactly the same proof as in real analysis, we can show that this series has the value 1/(1-z).
+
+44
+00:04:30,214 --> 00:04:36,917
+However you might already know, this proof only works if the absolute value of z is less than 1.
+
+45
+00:04:37,600 --> 00:04:43,629
+Indeed if the absolute value of z is greater or equal than 1, then this series does not converge.
+
+46
+00:04:44,543 --> 00:04:50,695
+In other words the domain D here is the ball around 0 with radius 1.
+
+47
+00:04:51,457 --> 00:04:58,070
+and this is such an important fact, that you really should remember it, because we can use it a lot in the future.
+
+48
+00:04:58,643 --> 00:05:02,614
+Moreover please recall the notation we use for the epsilon ball.
+
+49
+00:05:02,657 --> 00:05:09,871
+So it's the open ball, so we call it B and the radius is 1. So we have an index 1 and the middle point is just 0.
+
+50
+00:05:11,057 --> 00:05:21,230
+Ok, so what you see here in the complex plane: we have a circle and inside we have convergence and outside we have divergence.
+
+51
+00:05:22,300 --> 00:05:29,387
+Now it turns out that for any power series this situation is not essentialy more difficult.
+
+52
+00:05:29,729 --> 00:05:33,905
+Indeed the following fact follows from the geometric series.
+
+53
+00:05:34,629 --> 00:05:41,355
+It simply tells us that for a given power series, there is a maximal radius r for this circle here.
+
+54
+00:05:41,986 --> 00:05:48,201
+Or to say it more concretely, the open ball with radius r lies completely in D.
+
+55
+00:05:49,014 --> 00:05:56,446
+So you see the only difference from before is that we don't need equality and also the middle point should be z_0 now.
+
+56
+00:05:56,957 --> 00:06:04,786
+So here you see the worst case for r would be to be 0, which means there is only 1 point in D, z_0.
+
+57
+00:06:05,600 --> 00:06:09,464
+and the best case scenario would be that r is infinity.
+
+58
+00:06:09,529 --> 00:06:12,476
+Which means D is just the whole complex plane.
+
+59
+00:06:12,986 --> 00:06:24,310
+So by using formulas we would write: r comes from the interval 0 to infinity. However, also infinity should be included as a symbol.
+
+60
+00:06:24,857 --> 00:06:29,238
+Therefore to be precise we would distinguish between 2 cases here.
+
+61
+00:06:30,343 --> 00:06:35,232
+Of course i told you before, the second case is just that D is the whole complex plane.
+
+62
+00:06:35,786 --> 00:06:40,545
+This is the best case, because there the power series converges everywhere.
+
+63
+00:06:41,186 --> 00:06:49,149
+In the other case please note that we know, that somewhere on the boundary or outside of the ball, we have divergence.
+
+64
+00:06:49,700 --> 00:06:57,705
+Indeed, because this r is chosen maximally, the result is that everywhere outside we have divergence.
+
+65
+00:06:58,657 --> 00:07:01,798
+Therefore the general picture looks like this.
+
+66
+00:07:02,571 --> 00:07:13,149
+In the complex plane we have this ball with z_0 in the middle and with radius r and in the inside of this ball convergence is quaranteed.
+
+67
+00:07:13,929 --> 00:07:18,307
+Moreover in the outside of this ball, divergence is quaranteed.
+
+68
+00:07:18,943 --> 00:07:23,040
+The only thing we don't know in general is what happens at the boundary.
+
+69
+00:07:23,986 --> 00:07:28,171
+Indeed, depending on the power series different things could happen there.
+
+70
+00:07:29,171 --> 00:07:34,137
+For example for the geometric series the boundary was completely divergent as well.
+
+71
+00:07:35,214 --> 00:07:40,328
+However, for a different power series you could have convergence or both cases mixed.
+
+72
+00:07:40,886 --> 00:07:45,569
+Ok, then lets state the divergence part here also with a formula.
+
+73
+00:07:46,286 --> 00:07:52,104
+Now, the outside in this complex plane here, could be described as this set difference.
+
+74
+00:07:52,657 --> 00:07:56,914
+So it simply means that z is not an element of this ball.
+
+75
+00:07:57,314 --> 00:08:02,790
+However, then the boundary would be included so we have to exclude this as well.
+
+76
+00:08:03,514 --> 00:08:07,582
+We can simply do this by taking the closure of this ball.
+
+77
+00:08:08,157 --> 00:08:12,835
+So this notation simply means: this is the set including the boundary.
+
+78
+00:08:13,543 --> 00:08:17,434
+So in this case it's not the open ball, it's the closed ball.
+
+79
+00:08:18,329 --> 00:08:24,769
+Now, for points that are not in this closed ball we know that the power series here is divergent.
+
+80
+00:08:25,529 --> 00:08:32,806
+So in summary you should see this here is a very nice result, we can use a lot when we deal with power series.
+
+81
+00:08:33,543 --> 00:08:42,093
+Indeed, it's not hard to prove. We can just use the root criterion from real analysis and combine it with the geometric series here.
+
+82
+00:08:43,071 --> 00:08:48,112
+Ok, if you are interested in seeing this prove, please let me know in the comments.
+
+83
+00:08:48,729 --> 00:08:54,714
+Now, for the end here i can tell you, often it's sufficient to know that there exists such an r,
+
+84
+00:08:54,829 --> 00:08:58,429
+but sometimes it would be nice to have an explizit formula for it.
+
+85
+00:08:59,157 --> 00:09:02,674
+Then we would be able to calculate this value of r.
+
+86
+00:09:03,371 --> 00:09:08,992
+Probably you already know this formula. It's often called the Cauchy-Hadamard theorem.
+
+87
+00:09:09,771 --> 00:09:15,386
+In fact this is what we have discussed in my real analysis course in part 33.
+
+88
+00:09:16,071 --> 00:09:21,622
+and it tells you that 1/r can be calculated by a lim sup.
+
+89
+00:09:22,457 --> 00:09:31,101
+Namely we look at the coefficient a_k in the absolute value and then we take the k-th root of this real number.
+
+90
+00:09:32,114 --> 00:09:37,782
+Then we take the lim sup k to infinity and we know this always exists.
+
+91
+00:09:38,329 --> 00:09:43,537
+It's either a real number between 0 and infinity or this symbol infinity.
+
+92
+00:09:44,543 --> 00:09:49,308
+and then simply the inverse of this number gives us our maximal r.
+
+93
+00:09:49,757 --> 00:09:56,027
+There of course you should know, inverses with 0 and infinity are here defined by this formula.
+
+94
+00:09:56,700 --> 00:10:01,844
+Hence the best case scenario is: in this lim sup is 0.
+
+95
+00:10:02,514 --> 00:10:11,727
+Ok, the last important thing i should tell you is that this maximal r is often called the radius of convergence for the power series.
+
+96
+00:10:12,500 --> 00:10:19,729
+and i would say it's a good exercise for you to calculate the radius of convergence for the exponential function from above.
+
+97
+00:10:20,486 --> 00:10:25,984
+Ok, then i hope i see you next time, when we start talking about the uniform convergence.
+
+98
+00:10:26,686 --> 00:10:28,827
+So have a nice day and see you there.
+
+99
+00:10:28,828 --> 00:10:29,700
+Bye!
+

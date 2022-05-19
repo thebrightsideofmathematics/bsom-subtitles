@@ -1,0 +1,260 @@
+1
+00:00:00,586 --> 00:00:03,843
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,714 --> 00:00:11,081
+and before we start i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:12,057 --> 00:00:15,895
+Now, here you see we've already reached part 10 in this series.
+
+4
+00:00:16,557 --> 00:00:22,443
+Therefore it's time to start talking about the important concept of uniform convergence.
+
+5
+00:00:22,829 --> 00:00:28,057
+The definition for this convergence is indeed exactly the same as in real analysis.
+
+6
+00:00:28,786 --> 00:00:34,984
+Moreover you will also see that in complex analysis we can immediately apply it to the power series.
+
+7
+00:00:35,614 --> 00:00:39,334
+However lets first start with the formal definition.
+
+8
+00:00:39,534 --> 00:00:46,134
+So what we need is a sequence of functions. Now they are complex functions with the same domain U.
+
+9
+00:00:46,629 --> 00:00:50,668
+This means for each natural number n we have a function f_n here.
+
+10
+00:00:51,643 --> 00:00:56,052
+Additionally we need another function f, which should be our limit.
+
+11
+00:00:56,443 --> 00:01:03,178
+Hence we say: the sequence of functions f_n is uniformly convergent to another function f,
+
+12
+00:01:03,771 --> 00:01:11,065
+if the supremum norm of (f_n - f) goes to 0 when n goes to infinity.
+
+13
+00:01:11,614 --> 00:01:16,642
+and as usual the supremum norm is denoted with an infinity symbol in the index.
+
+14
+00:01:17,429 --> 00:01:22,307
+Now in the case that you have never seen the supremum norm, lets quickly define it.
+
+15
+00:01:23,086 --> 00:01:28,721
+In fact the only thing we need is that the values of the functions that are involved are numbers.
+
+16
+00:01:29,357 --> 00:01:35,743
+Then it does not matter if we have real or complex numbers, because we can always take the absolute value.
+
+17
+00:01:36,571 --> 00:01:41,500
+and then we are just interested in the largest value that can come out or more precisely
+
+18
+00:01:41,529 --> 00:01:44,829
+we look at the supremum where we go through all numbers z.
+
+19
+00:01:45,857 --> 00:01:53,308
+and now what we want for the uniform convergence is that this supremum goes to 0, when n increases to infinity.
+
+20
+00:01:54,200 --> 00:02:02,130
+So please note, we don't just fixed the point z and look at the convergence, we look at all points at the same time in the limit.
+
+21
+00:02:02,586 --> 00:02:06,640
+and exaclty this makes the convergence here uniform.
+
+22
+00:02:07,357 --> 00:02:12,170
+Ok, now this notion helps us a lot when we deal with power series.
+
+23
+00:02:13,086 --> 00:02:18,107
+In fact this is such an important result that we can use it a lot in complex analysis.
+
+24
+00:02:19,129 --> 00:02:24,160
+Essentially it tells us that all power series are holomorphic functions.
+
+25
+00:02:24,829 --> 00:02:29,974
+Later we will see that in some sense the reverse implication is also true.
+
+26
+00:02:30,586 --> 00:02:36,065
+However lets first start with the statement here, which holds in general for all power series.
+
+27
+00:02:36,686 --> 00:02:42,600
+So you see what we have is a power series with coefficients a_k and expansion point z_0.
+
+28
+00:02:43,529 --> 00:02:48,583
+Now, the only thing we put in is that the radius of convergence is greater than 0.
+
+29
+00:02:49,300 --> 00:02:52,165
+It could be infinity, but it's not 0.
+
+30
+00:02:52,614 --> 00:02:58,337
+To say it differently the power series here is convergent at a different point than z_0.
+
+31
+00:02:58,971 --> 00:03:04,299
+Therefore we can define this function on the whole open ball B_r(z_0).
+
+32
+00:03:04,957 --> 00:03:10,551
+I always call it ball, but you now, in the 2-dimensional complex plane it's a disk.
+
+33
+00:03:11,114 --> 00:03:15,137
+Therefore sometimes i speak of the open disk around z_0.
+
+34
+00:03:15,971 --> 00:03:24,362
+Now, from the last video you know inside this open disk we have convergence, but now we see, we also have uniform convergence.
+
+35
+00:03:25,371 --> 00:03:33,659
+In fact we have this for this power series here, when we see it as a function defined on B_c(z_0).
+
+36
+00:03:34,414 --> 00:03:39,886
+So we have a number c as a radius involved, which is smaller than the radius of convergence.
+
+37
+00:03:40,914 --> 00:03:47,854
+and this is very important, because we don't know if we have convergence on the boundary of this disk here.
+
+38
+00:03:48,486 --> 00:03:56,115
+However, if we make our ball a little bit smaller, now we know we have also convergence on the boundary, on the circle.
+
+39
+00:03:57,343 --> 00:04:01,508
+Therefore we can also include the boundary in this statement here.
+
+40
+00:04:02,329 --> 00:04:06,199
+and there you know, the closed ball is denoted with this line here.
+
+41
+00:04:07,071 --> 00:04:14,674
+Ok, if you are not used to working with series and power series, here you see an alternative formulation of this statement.
+
+42
+00:04:15,286 --> 00:04:22,228
+I simply give you the explizit definition of sequence of functions f_n, we need for the uniform convergence.
+
+43
+00:04:22,871 --> 00:04:26,470
+and you see, it's defined by using partial sums.
+
+44
+00:04:27,329 --> 00:04:33,211
+and now this sequence of functions converges uniformly to the function f.
+
+45
+00:04:33,411 --> 00:04:38,714
+However, only when we restrict f_n to the closed ball B_c(z_0).
+
+46
+00:04:39,686 --> 00:04:47,772
+Ok, so this is the first statement and the next 2 will tell us that the power series is indeed a holomorphic function.
+
+47
+00:04:48,643 --> 00:04:52,806
+In order to show this we have to look at the formal complex derivative here.
+
+48
+00:04:53,757 --> 00:04:58,165
+So the power k comes in front and we reduce the exponend by 1.
+
+49
+00:04:58,800 --> 00:05:06,514
+We already know this works for polynomials. So when we have an end index here, but we don't know if this also works for power series.
+
+50
+00:05:07,386 --> 00:05:11,404
+But you will believe me, this is exactly what we want to proof now.
+
+51
+00:05:11,857 --> 00:05:19,541
+The first step for this is that similarly to before we also get an uniform convergence for this new power series here.
+
+52
+00:05:20,300 --> 00:05:29,276
+More precisely here we can also say, we have a sequence of functions f_n' that converge uniformly to this function here.
+
+53
+00:05:29,814 --> 00:05:36,924
+Indeed here the name f_n' is justified, because it's the complex derivative of this polynomial here.
+
+54
+00:05:37,929 --> 00:05:46,080
+Of course in the end this is what we want when we have the derivative of f. We want to approximate it with these derivatives here.
+
+55
+00:05:46,714 --> 00:05:51,463
+and obviously exactly this should be our last statement, three.
+
+56
+00:05:51,914 --> 00:05:58,856
+Hence we can write: the function f is complex differentiable and the derivative is given by this formula.
+
+57
+00:05:59,471 --> 00:06:05,264
+So maybe this is not such a big surprise, but still it's a very nice result for us.
+
+58
+00:06:06,029 --> 00:06:12,843
+and here please recall f is defined on an open domain and complex differentiable at all points.
+
+59
+00:06:13,043 --> 00:06:17,748
+Hence, the power series gives us immediately a holomorphic function.
+
+60
+00:06:18,557 --> 00:06:23,544
+So with this result we immediately get a lot of examples for holomorphic functions.
+
+61
+00:06:24,271 --> 00:06:31,181
+In summary, in order to understand complex analysis, you really should remember this whole result here.
+
+62
+00:06:32,129 --> 00:06:40,602
+In a few words we could say this result tells us that each power series is holomorphic on its open disk of convergence.
+
+63
+00:06:41,743 --> 00:06:46,201
+Of course if you really to believe this result, we should prove it.
+
+64
+00:06:46,957 --> 00:06:50,777
+However this will take some time. So lets do this in the next video.
+
+65
+00:06:51,286 --> 00:06:55,143
+Therefore i hope i see you there and have a nice day. Bye!
+

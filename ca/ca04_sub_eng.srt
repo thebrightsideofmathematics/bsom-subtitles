@@ -1,0 +1,352 @@
+1
+00:00:00,629 --> 00:00:03,945
+Hello and welcome back to complex analysis.
+
+2
+00:00:05,000 --> 00:00:11,565
+and as always, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:12,457 --> 00:00:16,621
+Now, this part 4 is about holomorphic and entire functions.
+
+4
+00:00:17,257 --> 00:00:24,467
+So you see, we are still at the beginning of this interesting field such that we first have to fix the manner of speaking here.
+
+5
+00:00:25,343 --> 00:00:30,692
+In fact the definition of a holomorphic function is what we need throughout this course.
+
+6
+00:00:31,586 --> 00:00:33,755
+Therefore lets immediately start with this.
+
+7
+00:00:33,955 --> 00:00:37,243
+So we consider a function f with domain U.
+
+8
+00:00:38,057 --> 00:00:41,329
+and of course this should be a complex valued function.
+
+9
+00:00:42,500 --> 00:00:48,715
+Now, we have talked about this before. The domain U should always be an open subset of the complex numbers.
+
+10
+00:00:49,771 --> 00:00:55,967
+So it does not matter how it looks like in the complex plane. The important thing is, it's an open set.
+
+11
+00:00:56,786 --> 00:01:01,429
+However later we will see that often we have a very nice looking domain.
+
+12
+00:01:02,657 --> 00:01:08,820
+Nevertheless, still it's very helpful to introduce holomorphic functions in this general sense.
+
+13
+00:01:09,743 --> 00:01:11,471
+Hence lets immediately do this.
+
+14
+00:01:11,829 --> 00:01:19,334
+So a function f is called holomorphic, if f is complex differentiable at all points.
+
+15
+00:01:19,986 --> 00:01:23,571
+So you see it's not a complicated definition at all.
+
+16
+00:01:23,644 --> 00:01:29,386
+It just tells us that the complex derivative makes sense no matter which point z_0 we choose.
+
+17
+00:01:30,429 --> 00:01:34,671
+Therefore sometimes it can be helpful to emphasis the domain again.
+
+18
+00:01:34,943 --> 00:01:37,475
+So we would say holomorphic on U.
+
+19
+00:01:38,357 --> 00:01:39,971
+So what you should remember is
+
+20
+00:01:40,114 --> 00:01:47,900
+a holomorphic function is just a complex valued function that is differentiable at all points of an open set.
+
+21
+00:01:48,414 --> 00:01:53,214
+Now in the literature also see that other names than holomorphic are used.
+
+22
+00:01:54,243 --> 00:01:57,886
+For example some people speak of regular functions.
+
+23
+00:01:58,600 --> 00:02:04,343
+Moreover you also sometimes see the term complex analystic used for this definition here.
+
+24
+00:02:05,257 --> 00:02:09,608
+However later i will tell you what this term should actually mean.
+
+25
+00:02:10,300 --> 00:02:12,930
+It has something to do with power series.
+
+26
+00:02:13,857 --> 00:02:21,091
+Ok, now there is another special name for holomorphic functions, whose domain is the whole complex plane.
+
+27
+00:02:22,157 --> 00:02:27,998
+For this largest possible domain the holomorphic function is then called an entire function.
+
+28
+00:02:29,100 --> 00:02:33,743
+So in other words, entire just means holomorphic on C.
+
+29
+00:02:34,357 --> 00:02:40,022
+Ok, by knowing this we can now talk about some basic properties of holomorphic functions.
+
+30
+00:02:40,800 --> 00:02:45,818
+Lets start with the properties we can immediately adapt from the real valued counterparts.
+
+31
+00:02:47,014 --> 00:02:52,004
+First we know the proof that differentiability implies continuity.
+
+32
+00:02:53,029 --> 00:02:59,392
+Hence in complex analysis this means that a holomorphic function is always a continuous function.
+
+33
+00:03:00,257 --> 00:03:05,874
+Indeed for showing this fact we can exactly redo the proof we did in real analysis.
+
+34
+00:03:06,829 --> 00:03:10,289
+and this is what we can do for a lot of basic facts here.
+
+35
+00:03:11,014 --> 00:03:17,484
+For example we still have our sum and product rule for derivatives, when we consider 2 functions.
+
+36
+00:03:18,457 --> 00:03:26,890
+Therefore this implies, if f and g are holomorphic functions, the sum and the product are also holomorphic functions.
+
+37
+00:03:27,943 --> 00:03:32,335
+Of course this is a fact, we will naturally use a lot in calculations.
+
+38
+00:03:33,571 --> 00:03:40,043
+Ok, now besides the sum and the product rule, you also now the chain and quotient rule for derivatives.
+
+39
+00:03:40,857 --> 00:03:45,166
+and also for them we can just redo the proof from real analysis.
+
+40
+00:03:46,171 --> 00:03:52,056
+Therefore we can just state sum, product, quotient and chain rule still hold.
+
+41
+00:03:52,586 --> 00:03:58,784
+For example you can check my video about the chain rule for real functions and when you see the proof,
+
+42
+00:03:58,786 --> 00:04:05,146
+you will see that you can do the same steps, when you consider complex numbers instead of real numbers.
+
+43
+00:04:05,971 --> 00:04:12,429
+Ok, by knowing this i think we are ready to talk about some important examples of holomorphic functions.
+
+44
+00:04:13,443 --> 00:04:19,755
+Now, by simply using the rules from above we immediately see that polynomials are entire functions.
+
+45
+00:04:20,329 --> 00:04:26,586
+More precisely this means that we have a function f, where the domain is the whole complex plane
+
+46
+00:04:26,976 --> 00:04:31,777
+and where f(z) is given as a sum with fixed coefficient "a".
+
+47
+00:04:32,486 --> 00:04:35,186
+So we have a_m times z to the power m
+
+48
+00:04:35,243 --> 00:04:39,773
++ a_(m-1) times z to the power (m-1)
+
+49
+00:04:39,973 --> 00:04:41,150
++ and so on
+
+50
+00:04:41,200 --> 00:04:44,721
+until we reach the constant term. The coefficient a_0.
+
+51
+00:04:45,371 --> 00:04:50,284
+However here please keep in mind, the coefficients are fixed complex numbers.
+
+52
+00:04:51,443 --> 00:04:55,391
+Now such a function here we call a complex polynomial.
+
+53
+00:04:55,591 --> 00:05:00,293
+and if a_m is nonzero, we call m the dregree of the polynomial.
+
+54
+00:05:01,043 --> 00:05:08,104
+Of course here its not hard to see, using our sum and product rule, that a polynomial is a holomorphic function.
+
+55
+00:05:08,886 --> 00:05:13,595
+and because there is no restriction in the domain, it's also an entire function.
+
+56
+00:05:14,529 --> 00:05:21,129
+Indeed just by using induction, you can calculate the derivative f' for every point z.
+
+57
+00:05:21,729 --> 00:05:23,786
+and now it might not surprise you
+
+58
+00:05:23,843 --> 00:05:29,329
+this is m times a_m times z to the power (m-1)
+
+59
+00:05:30,171 --> 00:05:37,704
++ (m-1) times a_(m-1) times z to the power (m-2)
+
+60
+00:05:38,357 --> 00:05:45,008
++ and so on, until we reach 2 times a_2 times z to the power 1.
+
+61
+00:05:45,486 --> 00:05:49,387
+and finally + the new constant term, a_1.
+
+62
+00:05:50,400 --> 00:05:53,625
+So you see, this is what you really should remember.
+
+63
+00:05:53,825 --> 00:05:57,786
+More precisely, when you want to calculate the derivative of such a term
+
+64
+00:05:57,829 --> 00:06:02,886
+it just means you bring the exponent in front and reduce the exponent by 1.
+
+65
+00:06:03,857 --> 00:06:08,609
+Hence the polynomial is still a nice function in the complex numbers.
+
+66
+00:06:09,400 --> 00:06:12,294
+In fact the same holds for rational functions. 
+
+67
+00:06:12,371 --> 00:06:15,129
+Where we simply divide two polynomials 
+
+68
+00:06:15,542 --> 00:06:21,353
+However, because we have a denominator there, the domain can't be the whole complex plane.
+
+69
+00:06:22,243 --> 00:06:26,052
+This means that we have to exclude the zeros of the denominator.
+
+70
+00:06:26,957 --> 00:06:32,891
+For example in the case that we consider the function f(z) is given by 1 over z.
+
+71
+00:06:33,586 --> 00:06:40,008
+Then we are not allowed to divide by 0. Therefore we have to exclude 0 from the domain.
+
+72
+00:06:40,700 --> 00:06:47,231
+Now the important thing to note here is, in the case we exclude finitely many points from the complex plane,
+
+73
+00:06:47,243 --> 00:06:49,242
+we still get an open set.
+
+74
+00:06:50,214 --> 00:06:57,466
+Therefore we can combine this fact with the quotient rule and conclude that this function is also holomorphic.
+
+75
+00:06:58,429 --> 00:07:03,730
+Now, obviously this whole argumentation also works for any rational function.
+
+76
+00:07:04,800 --> 00:07:09,374
+So in summary a rational function is also a holomorphic function.
+
+77
+00:07:10,157 --> 00:07:18,379
+Now as a reminder the definition of a rational function is simply given as one polynomial p divided by another one, q.
+
+78
+00:07:19,000 --> 00:07:22,516
+So f(z) = p(z) divided by q(z).
+
+79
+00:07:23,200 --> 00:07:29,374
+Then the finite set S, we have to exclude here, is simply given by the zeros of q.
+
+80
+00:07:30,071 --> 00:07:34,141
+Hence all points z in C, where q(z) = 0.
+
+81
+00:07:35,086 --> 00:07:38,548
+Now such rational functions often occur in applications.
+
+82
+00:07:38,748 --> 00:07:42,116
+Therefore it's good to know that they are also holomorphic.
+
+83
+00:07:42,914 --> 00:07:47,357
+However please keep in mind. In general they are not entire functions.
+
+84
+00:07:48,543 --> 00:07:55,654
+Ok, with this we have some examples we can work with and of course later we will talk about other examples as well.
+
+85
+00:07:56,129 --> 00:08:00,814
+But first, in the next video we will talk about the Cauchy–Riemann equations.
+
+86
+00:08:01,643 --> 00:08:06,977
+In fact these equations will explain why complex analysis is so interesting.
+
+87
+00:08:07,571 --> 00:08:11,136
+Therefore i really hope that i see you in the next video.
+
+88
+00:08:11,336 --> 00:08:12,171
+Bye!
+

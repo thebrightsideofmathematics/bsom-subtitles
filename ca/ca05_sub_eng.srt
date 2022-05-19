@@ -1,0 +1,528 @@
+1
+00:00:00,600 --> 00:00:03,823
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,914 --> 00:00:12,403
+and of course as always, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:13,157 --> 00:00:19,630
+Now in todays part 5 we go into the direction of the Cauchy-Riemann equations of complex analysis.
+
+4
+00:00:20,586 --> 00:00:26,690
+In order to understand them, we first have to talk about differentiability in higher dimensions.
+
+5
+00:00:27,343 --> 00:00:34,404
+In particular we need to know the notion of total differentiability from functions from R^2 into R^2.
+
+6
+00:00:34,929 --> 00:00:41,646
+The reason for that you immediately recognize, when we visualize the complex numbers as the complex plane.
+
+7
+00:00:42,329 --> 00:00:47,254
+So you know, a complex number has a real part and an imaginary part.
+
+8
+00:00:48,229 --> 00:00:56,035
+Therefore the natural question you could ask here is: is there any difference between this and the vector space R^2?
+
+9
+00:00:56,700 --> 00:00:59,700
+At first glance both totally look the same.
+
+10
+00:01:00,429 --> 00:01:06,597
+and even the operation how we add vectors and add complex numbers is actually the same.
+
+11
+00:01:07,200 --> 00:01:12,445
+In fact if you know the construction of the complex numbers, this is no surprise for you.
+
+12
+00:01:13,243 --> 00:01:18,829
+For this we know that C is R^2, but it carries one more operation.
+
+13
+00:01:19,857 --> 00:01:24,933
+and this is the multiplication we have to add to the vector space to get the complex numbers.
+
+14
+00:01:25,629 --> 00:01:34,929
+This all is important to know, because it means, when we define a map from C to C, it's the same as defining a map from R^2 to R^2.
+
+15
+00:01:35,957 --> 00:01:41,112
+Therefore it's important to understand how we can switch between both cases.
+
+16
+00:01:41,543 --> 00:01:46,714
+So lets remember the fact that each complex function induces a real function.
+
+17
+00:01:47,629 --> 00:01:54,699
+More precisely, if we have a map f from C to C, we can also define a map from R^2 to R^2.
+
+18
+00:01:55,286 --> 00:02:00,703
+and maybe for the moment lets call this map on the right hand side f with an index R.
+
+19
+00:02:01,714 --> 00:02:04,757
+Ok, of course this also works the other way around.
+
+20
+00:02:04,837 --> 00:02:10,935
+So if you start with a map f_R here, we can define a map f from C to C.
+
+21
+00:02:11,586 --> 00:02:18,637
+Now, how we exactly do this, we could formally write down, but maybe it's better to just look at an example.
+
+22
+00:02:19,471 --> 00:02:23,171
+I really think after seeing this example, everything is clear.
+
+23
+00:02:24,157 --> 00:02:28,126
+Therefore the function we consider now shouldn't be too complicated.
+
+24
+00:02:29,500 --> 00:02:34,652
+Indeed just lets look at a quadratic function, which sends z to z^2.
+
+25
+00:02:35,529 --> 00:02:39,167
+Now, squaring a complex number is not so hard.
+
+26
+00:02:39,757 --> 00:02:44,431
+In order to get a visualisation for the function, lets draw the complex plane again.
+
+27
+00:02:45,443 --> 00:02:50,727
+Now, the function f maps the complex plane from the left hand side to the right hand side.
+
+28
+00:02:51,857 --> 00:02:55,771
+For example if you consider the point "i" here one the left.
+
+29
+00:02:56,629 --> 00:03:01,129
+Then it simply gets squared and we find it as -1 on the right.
+
+30
+00:03:02,286 --> 00:03:07,238
+In the same way, you could take any other point to visualize how it gets mapped.
+
+31
+00:03:08,314 --> 00:03:15,229
+Now, on the calculation side of the problem, you could take the real and the imaginary part of z and calculate with them.
+
+32
+00:03:16,129 --> 00:03:24,064
+Hence we could say x + iy is mapped to (x + iy)^2.
+
+33
+00:03:25,043 --> 00:03:28,897
+and then, without a problem we can just expand this expression.
+
+34
+00:03:29,857 --> 00:03:37,998
+So we get x^2 + 2ixy - y^2.
+
+35
+00:03:38,814 --> 00:03:47,435
+Of course this now looks more complicated than just z^2, but it now tells us how we can define the map f_R.
+
+36
+00:03:47,971 --> 00:03:54,510
+We simply know and use that the real part is the first coordinate and the imaginary part is the second coordinate.
+
+37
+00:03:55,443 --> 00:04:02,275
+More precisely we write f_R from R^2 into R^2 and we start with a vector with 2 coordinates.
+
+38
+00:04:03,000 --> 00:04:07,080
+As we said, the first one is x and the second one is y.
+
+39
+00:04:07,700 --> 00:04:11,896
+and this vector now gets mapped to a new vector with 2 components.
+
+40
+00:04:13,014 --> 00:04:19,092
+Now, the first component should be the real part of this. Which means x^2 - y^2.
+
+41
+00:04:19,971 --> 00:04:26,001
+In the same way, the second component should be the imaginary part. Which means everything with an "i".
+
+42
+00:04:27,000 --> 00:04:32,471
+Ok, now we have the map f_R. Which carries exactly the same information as f.
+
+43
+00:04:33,500 --> 00:04:38,029
+Indeed we can simply check that with the same example we have given with the picture.
+
+44
+00:04:39,086 --> 00:04:44,597
+Hence, here we would put in the vector (0, 1). Which represents this point.
+
+45
+00:04:45,529 --> 00:04:55,082
+Now, using our definition of f_R, we can calculate and get in the first component -1 and in the second component 0.
+
+46
+00:04:55,971 --> 00:05:00,896
+and by seeing this you know, this vector is to be found here.
+
+47
+00:05:01,914 --> 00:05:08,300
+Ok, in summary this shows us, that if we want to analyse a complex function f,
+
+48
+00:05:08,500 --> 00:05:13,759
+we can equivalently analyse a real function from R^2 into R^2.
+
+49
+00:05:14,571 --> 00:05:19,996
+However in this connection it's not clear at all what differentiability means.
+
+50
+00:05:20,614 --> 00:05:27,056
+We have a definition for complex functions, which means we also need one for such functions here.
+
+51
+00:05:28,286 --> 00:05:36,467
+Indeed you might already know that differentiability makes totally sense for functions between R^n and R^m.
+
+52
+00:05:37,171 --> 00:05:45,327
+So you see the exact dimensions for the vector spaces here and there are not important for the definition of differentiability.
+
+53
+00:05:45,800 --> 00:05:50,843
+and exactly for this reason the notion for differentiability for these functions
+
+54
+00:05:51,114 --> 00:05:55,200
+is different from the one we already know for complex functions.
+
+55
+00:05:56,114 --> 00:06:01,185
+Therefore our task here is to form the connection between both notions.
+
+56
+00:06:01,986 --> 00:06:10,201
+However before we can do that i should first explain to you how we define the derivative for functions between vector spaces.
+
+57
+00:06:11,200 --> 00:06:16,331
+Of course for us it's sufficient to only consider maps between R^2 and R^2.
+
+58
+00:06:16,743 --> 00:06:22,778
+Nevertheless you will see this definition works, no matter which R^n and R^m we choose.
+
+59
+00:06:23,543 --> 00:06:29,455
+Now, the correct notion we now introduce for such maps is also called differentiable.
+
+60
+00:06:30,329 --> 00:06:35,306
+However sometimes it's needed to distinguish it from all the other differentiability notions
+
+61
+00:06:35,506 --> 00:06:39,142
+and therefore it's often called totally differentiable.
+
+62
+00:06:40,186 --> 00:06:43,200
+Ok, so the idea here is the same as always.
+
+63
+00:06:43,400 --> 00:06:46,917
+We want a linear approximation around a given point.
+
+64
+00:06:47,886 --> 00:06:55,869
+Therefore we have to fix a point in R^2. So maybe lets simply call it (x_0, y_0).
+
+65
+00:06:56,786 --> 00:07:04,057
+and now you should know, a linear map in R^2 for the linear approximation can be described by a 2x2 matrix.
+
+66
+00:07:05,200 --> 00:07:08,500
+and this matrix we want to call J.
+
+67
+00:07:09,100 --> 00:07:15,646
+Of course everything is real here. So the entries of the matrix J are also real numbers.
+
+68
+00:07:16,429 --> 00:07:21,381
+Ok, with this we are ready to write down what we mean by linear approximation here.
+
+69
+00:07:22,543 --> 00:07:30,630
+The function f_R at any point (x, y) can be written as a constant + a linear term + an error term.
+
+70
+00:07:31,429 --> 00:07:37,232
+and indeed this error term should be small, when (x, y) is close to (x_0, y_0).
+
+71
+00:07:38,214 --> 00:07:45,100
+So more concretely first the constant is the value of f_R at the position (x_0, y_0)
+
+72
+00:07:46,171 --> 00:07:49,799
+and then comes the linear map. Which is given by the matrix J.
+
+73
+00:07:50,714 --> 00:07:57,621
+To get a linear map, this matrix is multiplied from the right hand side by the difference of the 2 vectors.
+
+74
+00:07:58,486 --> 00:08:01,825
+So we have (x, y) - (x_0, y_0).
+
+75
+00:08:02,514 --> 00:08:07,240
+and with this we already have what we call the linear approximation.
+
+76
+00:08:08,214 --> 00:08:14,942
+Therefore the only thing we have append now is the error term. Which measures how good this approximation is.
+
+77
+00:08:15,986 --> 00:08:19,358
+and this one is given by a map we call phi.
+
+78
+00:08:20,143 --> 00:08:25,729
+Of course here the input and the output space should be the same as for f_R.
+
+79
+00:08:26,657 --> 00:08:34,977
+Now, the important claim here is that this error term gets smaller and smaller, when (x, y) gets to our point (x_0, y_0).
+
+80
+00:08:35,671 --> 00:08:40,836
+Indeed then the term should go to 0 and faster than linearly.
+
+81
+00:08:41,671 --> 00:08:47,786
+Namely this means when we look at phi(x, y) and divide it by the length of the difference vector
+
+82
+00:08:47,929 --> 00:08:51,552
+So the vector (x, y) - (x_0, y_0)
+
+83
+00:08:52,186 --> 00:08:57,455
+Then this expression should go to 0 when (x, y) goes to (x_0, y_0).
+
+84
+00:08:58,414 --> 00:09:02,836
+Ok so this is what we need, but maybe i should explain some details here.
+
+85
+00:09:03,686 --> 00:09:08,852
+First this double line here we use for the notation of a norm in a vector space.
+
+86
+00:09:09,743 --> 00:09:13,743
+Therefore with such a norm we just measure the length of a vector.
+
+87
+00:09:14,529 --> 00:09:19,350
+and most of the time in R^2 this is just the standard euclidean norm.
+
+88
+00:09:20,214 --> 00:09:25,101
+and this one you should know. It's simply the square root of x^2 + y^2.
+
+89
+00:09:26,043 --> 00:09:31,980
+Now, in addition when we can measure lengths in the vector space, we can also measure distances.
+
+90
+00:09:32,886 --> 00:09:37,774
+Therefore it makes sense that we say that one vector converges to another vector.
+
+91
+00:09:38,871 --> 00:09:43,246
+It simply means that the length of the difference vector goes to 0.
+
+92
+00:09:44,157 --> 00:09:49,729
+Therefore you see this whole definition also makes sense when we are in another vector space
+
+93
+00:09:49,771 --> 00:09:54,071
+like R^3, R^4 or just the vector space where we can measure lengths.
+
+94
+00:09:55,057 --> 00:09:58,071
+and exactly for this reason and please keep that in mind,
+
+95
+00:09:58,357 --> 00:10:03,914
+this definition is not the same as the differentiability definition for the complex numbers.
+
+96
+00:10:05,043 --> 00:10:13,670
+However maybe you are very familiar with this definition here and in this case i can tell you, this matrix J has special name.
+
+97
+00:10:14,257 --> 00:10:18,004
+Most of the time it's simply called the Jacobian matrix.
+
+98
+00:10:18,843 --> 00:10:25,323
+and more precisely we would say, Jacobian matrix of f_R at the position (x_0, y_0).
+
+99
+00:10:26,443 --> 00:10:33,399
+Now, if you are used to partial derivatives, you might also know that the Jacobian matrix has a very nice representation.
+
+100
+00:10:34,414 --> 00:10:39,525
+Please recall, in our case it's a 2x2 matrix. So it has 4 entries.
+
+101
+00:10:40,514 --> 00:10:48,206
+Now, in the first column you find the partial derivative of f_R with respect to the first variable. Which is x.
+
+102
+00:10:49,171 --> 00:10:52,442
+Here please don't forget, this is a vector with 2 components.
+
+103
+00:10:53,586 --> 00:10:56,985
+So in fact, we have 2 entries of the matrix here.
+
+104
+00:10:57,871 --> 00:11:06,568
+Ok and maybe not a surprise for you, the second column is given by the partial derivative of f_R with respect to the second coordinate.
+
+105
+00:11:07,857 --> 00:11:11,887
+So in other words we have the partial derivative with respect to y.
+
+106
+00:11:12,943 --> 00:11:17,074
+and again this is a whole vector. So we get 2 entries of the matrix.
+
+107
+00:11:18,186 --> 00:11:24,524
+Now of course in our case here, you would evaluate these partial derivatives at the point (x_0, y_0).
+
+108
+00:11:25,629 --> 00:11:30,182
+and then we just have a 2x2 matrix, where the entries are real numbers.
+
+109
+00:11:31,529 --> 00:11:38,869
+Ok, now in the case you have never seen this and this is all confusing for you, i really think an example can help.
+
+110
+00:11:39,429 --> 00:11:43,121
+With this example you should see, it's not so complicated after all.
+
+111
+00:11:44,271 --> 00:11:48,283
+and for consistency lets reconsider the example from above.
+
+112
+00:11:49,286 --> 00:11:56,048
+So this is a nice function. We have x and y as the input and the output has 2 components as well.
+
+113
+00:11:56,814 --> 00:12:03,950
+Then in the next step we can just calculate this Jacobian matrix J and show that we indeed have a linear approximation.
+
+114
+00:12:04,814 --> 00:12:09,686
+Indeed the result will be this function here is differentiable at all points.
+
+115
+00:12:11,014 --> 00:12:14,151
+Therefore lets simply look at the partial derivatives here.
+
+116
+00:12:15,343 --> 00:12:22,388
+So first we just form the partial derivative with respect to x. Which means here y is just a constant.
+
+117
+00:12:23,414 --> 00:12:30,387
+Therefore in the first component we get 2 times x + 0, because y is a constant.
+
+118
+00:12:31,286 --> 00:12:35,012
+and then in the second component we get 2 times y,
+
+119
+00:12:35,229 --> 00:12:39,398
+because y is still a constant and the derivative of x is simply 1.
+
+120
+00:12:40,443 --> 00:12:43,414
+Ok then for the second column lets switch the roles.
+
+121
+00:12:43,486 --> 00:12:47,102
+ Now we form the partial derivative with respect to y.
+
+122
+00:12:47,957 --> 00:12:50,608
+Or in other words, now x is a constant.
+
+123
+00:12:51,671 --> 00:12:56,967
+For this reason the first component tells us, now we have -2 times y.
+
+124
+00:12:58,057 --> 00:13:03,699
+So, this was just this part here and now the last step is just considering this function here.
+
+125
+00:13:04,814 --> 00:13:09,619
+and the derivative with respect to y just gives us 2 times x.
+
+126
+00:13:10,343 --> 00:13:14,681
+Ok so this is the Jacobian matrix of the function f_R.
+
+127
+00:13:15,714 --> 00:13:23,362
+and here please recall, this function f_R represents a complex function f, which was complex differentiable.
+
+128
+00:13:24,029 --> 00:13:28,376
+and now maybe you recognize some symmetries in this matrix here.
+
+129
+00:13:29,429 --> 00:13:33,363
+Indeed you see this is a very special matrix we get out.
+
+130
+00:13:34,557 --> 00:13:43,090
+With this i would say lets use the next video to explain why this structure of the matrix is so important for complex analysis.
+
+131
+00:13:43,986 --> 00:13:46,968
+Therefore i hope i see you there and have a nice day.
+
+132
+00:13:47,168 --> 00:13:47,943
+Bye!
+

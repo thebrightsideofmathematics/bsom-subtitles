@@ -1,0 +1,504 @@
+1
+00:00:00,600 --> 00:00:04,035
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,886 --> 00:00:11,628
+and as always first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:12,543 --> 00:00:17,617
+Now, today in part 3 we continue talking about complex differentiability.
+
+4
+00:00:18,071 --> 00:00:25,610
+More precisely we introduce the complex derivative and i'll explain to you why this gives us a linear approximation.
+
+5
+00:00:26,186 --> 00:00:30,358
+and finally at the end of the video, i show you concrete examples.
+
+6
+00:00:31,100 --> 00:00:38,708
+However first please recall that the domain of the function we consider is always an open set, we call U.
+
+7
+00:00:39,114 --> 00:00:44,086
+Moreover from this set U we always fix a point z_0.
+
+8
+00:00:45,186 --> 00:00:50,018
+Now, because this set is open, z_0 is always an inner point.
+
+9
+00:00:50,471 --> 00:00:55,518
+Which means that there are a lot of points around it, such that limits makes sense.
+
+10
+00:00:56,571 --> 00:01:03,200
+Indeed this is what we need, when we want to define that the function f is differentiable at the point z_0.
+
+11
+00:01:04,057 --> 00:01:10,810
+and if we want to make it clear that we have a complex function here, we say complex differentiable at z_0.
+
+12
+00:01:11,829 --> 00:01:18,339
+Now, we have seen in the last video that this definition here looks exactly the same as for real functions.
+
+13
+00:01:18,539 --> 00:01:21,069
+Namely, that the following limit exists.
+
+14
+00:01:21,943 --> 00:01:26,298
+Indeed this is the slope of the function at a given point.
+
+15
+00:01:26,498 --> 00:01:29,670
+and often it is called the differentiable quotient.
+
+16
+00:01:30,457 --> 00:01:36,021
+Now since this describes the slope, we can refomulate it to a linear approximation.
+
+17
+00:01:36,529 --> 00:01:42,243
+The only problem is that the visualisation is not so good when we deal with complex numbers.
+
+18
+00:01:43,214 --> 00:01:48,130
+Here i mean that for a real valued function, you can simply draw the graph of the function.
+
+19
+00:01:48,771 --> 00:01:50,856
+So maybe it could look like this.
+
+20
+00:01:51,714 --> 00:01:58,258
+However for a complex function the input is the complex plane and the output is the complex plane.
+
+21
+00:01:58,757 --> 00:02:04,119
+Hence the corret visualisation of the graph of the function should live in 4 dimensions.
+
+22
+00:02:04,943 --> 00:02:08,598
+So you see there is no way i can correctly draw this here.
+
+23
+00:02:09,414 --> 00:02:15,719
+Hence we just take an abstract picture then, where the x-axis represents the whole complex plane C.
+
+24
+00:02:16,557 --> 00:02:22,157
+and in the same way the output, the y-axis also represents the whole complex plane.
+
+25
+00:02:22,637 --> 00:02:25,429
+So you see we lose a lot of information here.
+
+26
+00:02:25,443 --> 00:02:29,457
+It's not the best picture at all, but we can see the linear approximation then.
+
+27
+00:02:30,529 --> 00:02:36,540
+In other words we approximate the function f around this point z_0 with a linear function.
+
+28
+00:02:37,314 --> 00:02:41,847
+Therefore you recognize, this works exactly as for real valued functions.
+
+29
+00:02:42,700 --> 00:02:48,979
+So we get a statement that is equivalent to our definition of being differentiable at the point z_0.
+
+30
+00:02:49,557 --> 00:02:54,644
+Namely we just have to give this expression a new name and we call it a function delta.
+
+31
+00:02:55,543 --> 00:03:00,982
+and this delta gets an index, where we write the function f and the point z_0.
+
+32
+00:03:01,643 --> 00:03:07,598
+Then you see z could be any point from U, so we have a function from U to C.
+
+33
+00:03:08,171 --> 00:03:16,182
+Ok and now we can just reformulate this expression here and we get the property the function delta_f,z_0 should have.
+
+34
+00:03:16,543 --> 00:03:23,858
+Namely f(z) can be written as the constant f(z_0), so the value at the point z_0
+
+35
+00:03:24,714 --> 00:03:28,098
++ a linear term times the delta function.
+
+36
+00:03:28,757 --> 00:03:35,181
+Of course this property here holds for every function f. So we need one more ingredient here.
+
+37
+00:03:35,971 --> 00:03:39,610
+and here please recall, we want that this limit exists.
+
+38
+00:03:40,557 --> 00:03:47,084
+Hence this means that the function delta_f,z_0 is continuous at the point z_0.
+
+39
+00:03:47,743 --> 00:03:53,945
+Hence this continuity property is really what we need and this one makes the differentiability.
+
+40
+00:03:55,000 --> 00:04:02,114
+Now, with this linear part here you might already see why we call this a linear approximation of the function f.
+
+41
+00:04:02,886 --> 00:04:09,509
+If you have never seen this, you can watch my real analysis course, where i talk a lot about linear approximations.
+
+42
+00:04:10,371 --> 00:04:14,666
+However here, we finally should define the derivative of the function f.
+
+43
+00:04:15,400 --> 00:04:19,177
+This not so complicated, because now we have everything.
+
+44
+00:04:19,729 --> 00:04:24,698
+Moreover you might already know the derivative is denoted with f'.
+
+45
+00:04:25,114 --> 00:04:28,671
+and then in parentheses we write the point z_0.
+
+46
+00:04:29,386 --> 00:04:38,002
+and now by definition the value of the derivative is simply the output of the delta function we get, when we put z_0 into it.
+
+47
+00:04:38,614 --> 00:04:46,865
+and now because delta_f,z_0 is a continuous function at the point z_0, we can calculate this number with a limit.
+
+48
+00:04:47,529 --> 00:04:49,623
+Namely, simply this limit here.
+
+49
+00:04:50,629 --> 00:04:53,712
+Or in other words, it's simply the same thing.
+
+50
+00:04:54,314 --> 00:05:00,074
+and now this complex number we call the derivative of f at the point z_0.
+
+51
+00:05:00,829 --> 00:05:09,533
+and again if you want to make it clear that we work with complex functions, you speak of the complex derivative of f at z_0.
+
+52
+00:05:10,100 --> 00:05:18,363
+So you see the definition is not complicated at all, but please always keep in mind: f'(z_0) is a complex number.
+
+53
+00:05:19,200 --> 00:05:23,186
+Ok, then i think we are ready to look at 2 simple examples.
+
+54
+00:05:24,357 --> 00:05:30,183
+The first one we consider should always be the linear polynomial, but now the complex valued one.
+
+55
+00:05:30,943 --> 00:05:36,643
+So we have a function f, where the domain U can be chosen as the whole complex plane C.
+
+56
+00:05:36,971 --> 00:05:41,475
+and the definiton of this complex function would be f(z)
+
+57
+00:05:42,343 --> 00:05:48,419
+is equal to a complex number m times z + another complex number c.
+
+58
+00:05:49,214 --> 00:05:54,092
+So this is simply the common linear polynomial, but now complex valued.
+
+59
+00:05:54,986 --> 00:06:00,800
+There, because the function is already linear, a linear approximation will not change  so much.
+
+60
+00:06:01,357 --> 00:06:07,418
+However lets try for a given z_0 to rewrite the function in this form.
+
+61
+00:06:07,957 --> 00:06:11,043
+Hence first we need f(z_0).
+
+62
+00:06:11,614 --> 00:06:16,087
+Which is not so complicated, because it's simply m times z_0 + c.
+
+63
+00:06:16,943 --> 00:06:22,037
+and then we want to add (z - z_0) times something.
+
+64
+00:06:22,529 --> 00:06:26,559
+Now of course this something we now can figure out.
+
+65
+00:06:27,400 --> 00:06:31,029
+What we want to get in the end here is m times z + c
+
+66
+00:06:31,471 --> 00:06:35,757
+The c we have already got, so we have to get rid of this term here.
+
+67
+00:06:36,986 --> 00:06:41,393
+Of course this is no problem for us, because we can multiply this term by m.
+
+68
+00:06:42,300 --> 00:06:48,284
+Then z_0 times m will cancel out and the only thing that remains is z times m.
+
+69
+00:06:48,484 --> 00:06:52,214
+Or in other words, now we have rewritten the function.
+
+70
+00:06:52,800 --> 00:06:58,659
+The first term is f(z_0) and this part here is our function delta.
+
+71
+00:06:59,214 --> 00:07:05,329
+The function is constant. It's equal to m, so we don't have any problem putting z_0 into it.
+
+72
+00:07:06,371 --> 00:07:10,855
+Hence we know the derivative, no matter which point z_0 we choose.
+
+73
+00:07:11,329 --> 00:07:14,489
+The derivative is always equal to m.
+
+74
+00:07:15,157 --> 00:07:20,370
+This shouldn't be a surprise to you, because the m stands for the slope of the linear function here.
+
+75
+00:07:21,143 --> 00:07:26,819
+However still now we have proven that this function is indeed complex differentiable.
+
+76
+00:07:27,019 --> 00:07:30,814
+and indeed no matter which point z_0 we consider.
+
+77
+00:07:31,786 --> 00:07:36,752
+Ok, for the next part lets look at an example that a function is not differentiable.
+
+78
+00:07:37,371 --> 00:07:41,057
+Again lets take the domain as the whole complex plane.
+
+79
+00:07:41,529 --> 00:07:47,355
+and now the definition of the function should be that z is send to the complex conjugate of z.
+
+80
+00:07:47,929 --> 00:07:51,480
+So with our notation we would right z bar.
+
+81
+00:07:52,514 --> 00:07:56,041
+So you see this is not a complicated function at all.
+
+82
+00:07:56,557 --> 00:08:01,966
+To see what the function does, lets draw the input space here and the output space here.
+
+83
+00:08:02,657 --> 00:08:06,425
+So our function f maps from the left hand side to the right hand side.
+
+84
+00:08:07,286 --> 00:08:16,270
+Now lets take any point z from the domain and then the function f just flips this point with respect to the x-axis.
+
+85
+00:08:17,000 --> 00:08:22,164
+The real part of the numbers stays the same, but the imaginary part gets a different sign.
+
+86
+00:08:22,986 --> 00:08:27,257
+So you see this reflection is all the function f does.
+
+87
+00:08:27,914 --> 00:08:33,041
+Therefore it's not hard to show that this function is indeed a continuous function.
+
+88
+00:08:33,857 --> 00:08:40,364
+However it turns out that it's not differentiable. No matter at which point z_0 we look.
+
+89
+00:08:41,029 --> 00:08:48,452
+and this is immediately interesting, because in real analysis it's not so simple to find such a strange function.
+
+90
+00:08:49,543 --> 00:08:53,671
+Indeed in complex analysis this property is not strange at all.
+
+91
+00:08:54,557 --> 00:09:02,080
+In order to see this i would suggest that we try calculating the derivative at the point z_0 = 0.
+
+92
+00:09:02,771 --> 00:09:06,646
+Indeed all the other points will work exactly the same.
+
+93
+00:09:07,443 --> 00:09:14,265
+Now by definition, if the derivative exists f'(0) is given by our limit.
+
+94
+00:09:14,743 --> 00:09:20,289
+So we have f(z) - f(0) divided by (z - 0).
+
+95
+00:09:20,914 --> 00:09:26,537
+So we can immediately simplify this, because when we when we flip 0, we don't change anything.
+
+96
+00:09:27,243 --> 00:09:32,276
+Hence we have the limit z to 0 of z bar divided by z.
+
+97
+00:09:32,943 --> 00:09:38,141
+Ok and now it turns out that exactly this limit does not exist.
+
+98
+00:09:39,157 --> 00:09:47,343
+In order to see this please recall that z to 0 here means that in a complex plane we have a lot of possibilities.
+
+99
+00:09:48,257 --> 00:09:51,600
+So we can go from different directions into 0.
+
+100
+00:09:52,329 --> 00:09:58,049
+For example we could use the real number line to go from the right hand side into 0.
+
+101
+00:09:58,543 --> 00:10:03,758
+For example with the sequence z_n = 1 over n.
+
+102
+00:10:04,643 --> 00:10:10,071
+Hence there the question is: what is z_n bar divided by z_n?
+
+103
+00:10:10,486 --> 00:10:16,302
+Of course this is not so hard to see. This is 1 over n divided by 1 over n.
+
+104
+00:10:17,086 --> 00:10:21,532
+Or in other words, it does not depend on n. It's always the same number, 1.
+
+105
+00:10:22,214 --> 00:10:26,754
+Therefore also in the limit n to infinity, we get out 1.
+
+106
+00:10:27,429 --> 00:10:32,111
+So the conclusion is, if this limit exists it has to be 1.
+
+107
+00:10:32,686 --> 00:10:36,750
+That this can't be true we see, when we look in another direction.
+
+108
+00:10:37,943 --> 00:10:42,882
+Now lets use the imaginary axis and one from the bottom to 0.
+
+109
+00:10:43,386 --> 00:10:50,652
+For example this can be done with the sequence z_n is equal to -i divided by n.
+
+110
+00:10:51,429 --> 00:10:57,343
+So again we have the same question. What is z_n bar divided by z_n?
+
+111
+00:10:57,877 --> 00:11:02,026
+So now in the numerator we actually have a flip.
+
+112
+00:11:03,029 --> 00:11:09,246
+It's simply +i divided by n divided -i divided by n.
+
+113
+00:11:10,814 --> 00:11:15,508
+Therefore we can cancel everything and the only thing that remains is the - sign.
+
+114
+00:11:15,708 --> 00:11:17,155
+So we get out -1.
+
+115
+00:11:17,900 --> 00:11:22,282
+So we see, also in the limit n to infinity this is -1.
+
+116
+00:11:23,557 --> 00:11:28,225
+Which is of course not the same as before. So this is not equal.
+
+117
+00:11:28,971 --> 00:11:33,841
+Therefore the conclusion is: The limit from before does not exist.
+
+118
+00:11:34,857 --> 00:11:40,778
+In other words f is not differentiable at the point z_0 = 0.
+
+119
+00:11:41,271 --> 00:11:46,008
+Accordingly we immediately have a counterexample for differentiability.
+
+120
+00:11:46,957 --> 00:11:52,956
+Here please recall i already told you, you can do the same prove for every other point z_0.
+
+121
+00:11:53,629 --> 00:11:58,646
+So the conclusion is indeed, the function is nowhere complex differentiable.
+
+122
+00:11:59,043 --> 00:12:05,779
+At first this might be surprising, because the function is continuous and indeed a very simple function.
+
+123
+00:12:06,743 --> 00:12:14,586
+In fact we can reformulate this and say that differentiability for complex functions is a very strong property.
+
+124
+00:12:15,429 --> 00:12:18,787
+and i can promise you, this will get very apparent soon.
+
+125
+00:12:19,543 --> 00:12:22,830
+and with this i hope i see you in the next video.
+
+126
+00:12:23,030 --> 00:12:23,957
+Bye!
+

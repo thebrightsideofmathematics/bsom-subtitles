@@ -1,0 +1,292 @@
+1
+00:00:00,571 --> 00:00:03,935
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,729 --> 00:00:11,186
+and first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:12,029 --> 00:00:19,157
+Now, in todays part 2 we will talk abot the complex differentiability of functions from C to C.
+
+4
+00:00:19,986 --> 00:00:26,007
+This means that the input and the output of the function f is given by complex numbers.
+
+5
+00:00:26,957 --> 00:00:32,900
+Now you might recall from real analysis, that first differentiability is a local property.
+
+6
+00:00:33,929 --> 00:00:39,871
+This means when we ask the question, if the function f is differentiable at a given point z_0
+
+7
+00:00:39,986 --> 00:00:43,608
+it only matters what happens around this point z_0.
+
+8
+00:00:44,186 --> 00:00:50,013
+and for that reason the domain of the function f does not have to be the whole complex plane.
+
+9
+00:00:50,586 --> 00:00:54,622
+It can be any open set U in the complex plane.
+
+10
+00:00:55,386 --> 00:01:01,100
+Hence if you visualize the complex plane like this, you can just mark any region here.
+
+11
+00:01:01,829 --> 00:01:06,938
+For example our domain U for the function f could be this set here.
+
+12
+00:01:07,614 --> 00:01:13,350
+It could look as strange as you want. The only important thing we need is that it's an open set.
+
+13
+00:01:14,271 --> 00:01:20,095
+Now of course the natural question now should be: what is an open set for the complex numbers.
+
+14
+00:01:21,229 --> 00:01:27,514
+Hence this is the first thing we now want to define before we talk about the definition of differentiability.
+
+15
+00:01:28,343 --> 00:01:32,921
+Now i can tell you this definition is the same for all metric spaces.
+
+16
+00:01:33,121 --> 00:01:37,741
+and please recall a metric space is a set, where you can measure distances.
+
+17
+00:01:38,571 --> 00:01:45,183
+In C, the complex numbers, we can do this and of course we can also do this in R, the real numbers.
+
+18
+00:01:45,771 --> 00:01:51,324
+Therefore this definition is exactly the same as i showed you in my real analysis course.
+
+19
+00:01:52,029 --> 00:01:58,160
+Nevertheless it's good to refresh your memory, because this notion is used throughout this course.
+
+20
+00:01:59,129 --> 00:02:02,333
+Indeed openness is not complicated at all.
+
+21
+00:02:02,486 --> 00:02:06,222
+and to get an idea lets take our set U from before.
+
+22
+00:02:06,771 --> 00:02:15,680
+Visually speaking this set should be an open set, if these boundary points you can see here, are not part of the set U itself.
+
+23
+00:02:16,343 --> 00:02:25,245
+In other words if you are a point in the set, then around you, you only see points of the set U.
+
+24
+00:02:26,014 --> 00:02:31,913
+To put it more precisely; a whole epsilon-ball around z lies in the set U.
+
+25
+00:02:32,571 --> 00:02:37,505
+and if this works for every point from the set U, we call U open.
+
+26
+00:02:38,257 --> 00:02:42,796
+So formally we would write: for all z in U,
+
+27
+00:02:43,471 --> 00:02:46,324
+there exists an epsilon-ball
+
+28
+00:02:46,929 --> 00:02:52,956
+and here you already know from the last video, the epsilon-ball is denonted by B_epsilon(z).
+
+29
+00:02:53,929 --> 00:02:59,529
+and now our claim here is, this epsilon-ball lies completely inside the set U.
+
+30
+00:03:00,500 --> 00:03:05,244
+Ok, so this is openness for subsets of the complex numbers.
+
+31
+00:03:05,900 --> 00:03:10,124
+One important example is of course the complex plane itself.
+
+32
+00:03:10,943 --> 00:03:16,627
+Also it's easy to show, that every epsilon-ball is open with this definition.
+
+33
+00:03:17,614 --> 00:03:22,236
+Ok, other useful and and important examples we will see later.
+
+34
+00:03:22,971 --> 00:03:27,416
+Here first as promised we want to talk about differentiability.
+
+35
+00:03:28,400 --> 00:03:33,003
+However now the function f we consider has a domain we call U.
+
+36
+00:03:33,829 --> 00:03:38,679
+So it's still a complex function, but now with a general open domain U.
+
+37
+00:03:39,914 --> 00:03:46,886
+and now to write down the definition of differentiable at a given point, we have to fix this given point.
+
+38
+00:03:47,571 --> 00:03:51,211
+So we have z_0 as a point in U.
+
+39
+00:03:51,957 --> 00:03:58,658
+Hence, then we are able to define what it means that the function f is differentiable at z_0.
+
+40
+00:03:59,529 --> 00:04:07,398
+and often to make it clear that we are talking about complex functions here, we say that the function is complex differentiable at the point.
+
+41
+00:04:08,386 --> 00:04:12,643
+However the meaning is exactly the same as for real functions.
+
+42
+00:04:13,643 --> 00:04:17,191
+We just want a linear approximation around this point.
+
+43
+00:04:17,391 --> 00:04:20,958
+Which means the slope at this point should exists.
+
+44
+00:04:21,586 --> 00:04:26,029
+and of course a slope we usually calculate with a difference quotient.
+
+45
+00:04:27,014 --> 00:04:32,214
+So we have the difference in the output devided by the difference in the input.
+
+46
+00:04:33,014 --> 00:04:37,248
+In other words what you see here is the slope of a secant.
+
+47
+00:04:38,029 --> 00:04:42,436
+and in order to get the slope of the tangent, we have to consider the limit.
+
+48
+00:04:42,871 --> 00:04:47,308
+Hence, z goes to z_0 and this limit should exist.
+
+49
+00:04:47,886 --> 00:04:54,094
+and in fact this is the whole definition of complex differentiability at a given point z_0.
+
+50
+00:04:54,857 --> 00:04:58,971
+However i think i should say a few words what this limit means here.
+
+51
+00:04:59,800 --> 00:05:04,300
+Of course as often the formal definition is the same as for real numbers.
+
+52
+00:05:05,043 --> 00:05:10,136
+However, we immediately find different consequences when we deal with complex numbers.
+
+53
+00:05:11,000 --> 00:05:14,594
+Before we disuss them lets first look at the definition here.
+
+54
+00:05:15,543 --> 00:05:23,147
+The definition of the limit means that we consider all sequences z_n in the set U, but they shouldn't take the value z_0.
+
+55
+00:05:23,829 --> 00:05:27,684
+However they all should converge to the point z_0.
+
+56
+00:05:28,343 --> 00:05:33,251
+Now, for each of the sequences z_n, we get a new sequence here.
+
+57
+00:05:33,771 --> 00:05:39,100
+and of course the claim here is that this new sequence here also converges.
+
+58
+00:05:39,417 --> 00:05:45,326
+and also the limit we get out here does not depend on the chosen sequence z_n.
+
+59
+00:05:45,526 --> 00:05:47,909
+We always get the same number out.
+
+60
+00:05:48,957 --> 00:05:53,275
+So please remember this is just the meaning of this symbol here.
+
+61
+00:05:53,886 --> 00:05:58,174
+Indeed in real analysis we have exactly the same definition.
+
+62
+00:05:58,843 --> 00:06:02,526
+However there you can split the limit into two parts.
+
+63
+00:06:03,286 --> 00:06:07,749
+You could approximate this from the right hand side or the left hand side,
+
+64
+00:06:08,343 --> 00:06:12,351
+because in R, in the real numbers, we have an order.
+
+65
+00:06:12,551 --> 00:06:16,168
+and you already know we don't have an order in C.
+
+66
+00:06:17,043 --> 00:06:22,594
+Indeed, if you want to converge into this point z_0, we have a lot of directions.
+
+67
+00:06:23,343 --> 00:06:33,822
+So you immediately see, with all these directions this limit here is more complicated than the real differentiability, we have in real analysis.
+
+68
+00:06:34,729 --> 00:06:39,771
+So it looks the same, but here we immediately have a 2 dimensional problem.
+
+69
+00:06:40,757 --> 00:06:47,569
+Ok, i would say, how all this is related to the linear approximation as we have it for real functions,
+
+70
+00:06:47,769 --> 00:06:49,843
+we will discuss in the next video.
+
+71
+00:06:50,243 --> 00:06:56,711
+and then we also look at examples and then you will see why complex analysis is so interesting.
+
+72
+00:06:57,571 --> 00:07:00,059
+Therefore i hope i see you there and have a nice day.
+
+73
+00:07:00,259 --> 00:07:01,100
+Bye!
+

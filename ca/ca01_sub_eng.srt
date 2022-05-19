@@ -1,0 +1,368 @@
+1
+00:00:00,400 --> 00:00:05,029
+Hello and welcome to a new series about complex analysis
+
+2
+00:00:06,000 --> 00:00:11,855
+and before we start i really want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:12,571 --> 00:00:19,058
+Now this is part 1 in this series and we just start with a short introduction and some basic definitions.
+
+4
+00:00:20,029 --> 00:00:26,510
+So the topic is called complex analysis, because it deals with functions defined on the complex plane.
+
+5
+00:00:27,243 --> 00:00:33,279
+More concretely we consider differentiable functions f with domain C and codomain C.
+
+6
+00:00:34,471 --> 00:00:42,178
+So you see it's different from our real analysis course, where we have the real number line R as domain and codomain.
+
+7
+00:00:43,057 --> 00:00:49,322
+Now soon we will see that this makes a major difference in the definition of differentiability
+
+8
+00:00:50,114 --> 00:00:55,972
+and from that a lot of strong theorems will follow. Which indeed don't hold in real analysis.
+
+9
+00:00:57,114 --> 00:01:07,971
+However since the real number line R is a subset of the complex plane C, we can often apply these theorems even if we just consider some real functions.
+
+10
+00:01:08,943 --> 00:01:17,128
+For example a real problem, where complex analysis can be really helpful is calculating an improper Riemann integral.
+
+11
+00:01:18,371 --> 00:01:26,994
+This could be the integral from - infinity to infinity of the function: (x * sin(x)) / (1 + x^2).
+
+12
+00:01:27,971 --> 00:01:33,442
+Now indeed finding an antinderivative of this function is really, really hard.
+
+13
+00:01:34,471 --> 00:01:40,823
+However just calculating the whole integral with complex analysis is surprisingly simple.
+
+14
+00:01:41,671 --> 00:01:49,196
+Indeed the result we find is a number slightly larger than 1. Namely it's pi divided by e.
+
+15
+00:01:50,143 --> 00:01:54,382
+How to do this simple calculation here, we will learn in this course.
+
+16
+00:01:55,129 --> 00:01:59,057
+However of course first we have to start with the basics.
+
+17
+00:01:59,686 --> 00:02:05,981
+and i already told you in contrast to real analysis we immediately start with differentiability.
+
+18
+00:02:06,700 --> 00:02:10,100
+The definition first looks the same as in real analysis,
+
+19
+00:02:10,194 --> 00:02:13,039
+but it's way more powerful as we will see.
+
+20
+00:02:14,171 --> 00:02:19,229
+Now in order to understand this new definition, you will need to know some basic facts.
+
+21
+00:02:20,386 --> 00:02:27,386
+First you need to know how to work with sets and of course you also need to know how to calculate with complex numbers.
+
+22
+00:02:28,357 --> 00:02:34,067
+If you have problems there, you find everything you need in my "start learning mathematics" series.
+
+23
+00:02:34,771 --> 00:02:39,764
+This is the whole playlist that covers all the basics you need for this course here.
+
+24
+00:02:40,414 --> 00:02:46,771
+In addition, it's also good if you already have a basic knowledge of some topics of real analysis.
+
+25
+00:02:47,471 --> 00:02:53,793
+For example you should know what a continuous or a differentiable function from R to R is.
+
+26
+00:02:54,400 --> 00:02:59,629
+Also could be very helpful for you, if you already know what a power series is.
+
+27
+00:03:00,800 --> 00:03:05,455
+For all these topics of course my real analysis series can help you.
+
+28
+00:03:06,214 --> 00:03:11,893
+However you don't need to watch the whole course. Some videos about these topics might be sufficient.
+
+29
+00:03:13,243 --> 00:03:17,500
+Ok, by knowing this i now thing we can start with the course.
+
+30
+00:03:18,343 --> 00:03:23,800
+The first part will be about some definitions we will definitely need throughout the course.
+
+31
+00:03:24,971 --> 00:03:30,316
+First i can tell you, the complex numbers form a set with the distant function.
+
+32
+00:03:31,114 --> 00:03:34,694
+Formally we call such a construction a metric space,
+
+33
+00:03:34,894 --> 00:03:37,793
+but don't worry it's not complicated at all.
+
+34
+00:03:38,643 --> 00:03:43,087
+It just means that the distance between two elements of the set make sense.
+
+35
+00:03:44,200 --> 00:03:48,103
+and of course we can immediately visualize this in the complex plane.
+
+36
+00:03:49,014 --> 00:03:53,556
+This means that a complex number z can be found in this plane.
+
+37
+00:03:54,214 --> 00:03:59,743
+and on the x-axis we find the real part of z and on the y-axis the imaginary part.
+
+38
+00:04:00,643 --> 00:04:05,478
+Now you can imagine that we have a second complex number here, we call w.
+
+39
+00:04:06,657 --> 00:04:11,296
+and now what we want to do is to measure the distance between both points.
+
+40
+00:04:12,400 --> 00:04:16,311
+Indeed this is what we calculate with the absolute value in C.
+
+41
+00:04:17,671 --> 00:04:22,833
+and what we need is the absolute value of the complex number (z - w).
+
+42
+00:04:24,029 --> 00:04:32,977
+Now such a notion of a distance is important, because with a distance we can say: what a convergent sequence is, what limits are and so on.
+
+43
+00:04:33,814 --> 00:04:39,220
+Otherwise we wouldn't be able to say that a sequence gets closer and closer to a given point.
+
+44
+00:04:40,043 --> 00:04:42,761
+Indeed we have to measure this closeness.
+
+45
+00:04:43,800 --> 00:04:49,464
+Hence, now we are able to talk about sequences of complex numbers and convergent sequences.
+
+46
+00:04:50,429 --> 00:04:57,253
+So a sequence of complex numbers is denoted by z_n, where n goes through all natural numbers.
+
+47
+00:04:58,071 --> 00:05:04,143
+So formally we just have a map that goes from the natural numbers into the complex numbers C.
+
+48
+00:05:04,535 --> 00:05:08,160
+However we will always write the sequence in this form.
+
+49
+00:05:08,929 --> 00:05:16,339
+and now we are able to define what it means that this sequence is convergent to a fixed complex number "a".
+
+50
+00:05:17,314 --> 00:05:26,035
+It just means that the distance, we can measure between z_n and "a" gets smaller and smaller until it reaches 0 in the limit.
+
+51
+00:05:26,886 --> 00:05:30,829
+This means that we can just look at a sequence of real numbers.
+
+52
+00:05:31,486 --> 00:05:36,114
+Namely the sequence of the absolute value of (z_n - a).
+
+53
+00:05:37,171 --> 00:05:41,092
+This is but a definition of the absolute value, a sequence of real numbers.
+
+54
+00:05:41,292 --> 00:05:43,414
+Of non-negative real numbers.
+
+55
+00:05:44,543 --> 00:05:49,343
+and now in the case that this sequence of real numbers goes to the limit 0,
+
+56
+00:05:49,443 --> 00:05:54,157
+we call the sequence of complex numbers z_n convergent to "a".
+
+57
+00:05:54,829 --> 00:06:00,947
+Now if you don't remember the definition of convergence for real numbers, lets recall it.
+
+58
+00:06:01,600 --> 00:06:10,768
+So we find that for all positive numbers we can call epsilon, there exists an index, we can call capital N
+
+59
+00:06:11,957 --> 00:06:18,017
+such that for all indices afterwards, so n is greater or equal than capital N,
+
+60
+00:06:18,943 --> 00:06:24,916
+we get that the distance between z_n and the point "a" is less than epsilon.
+
+61
+00:06:25,614 --> 00:06:30,442
+So you see this is exactly the definition we learned in real analysis.
+
+62
+00:06:31,400 --> 00:06:35,380
+However now we can visualize it in the complex plane.
+
+63
+00:06:36,229 --> 00:06:44,086
+Now, this formular with the distance less than epsilon means that we can draw a circle around "a" with radius epsilon.
+
+64
+00:06:44,957 --> 00:06:51,167
+With this we get that eventually the sequence member z_n lie inside this circle.
+
+65
+00:06:52,257 --> 00:06:55,302
+So only finitely many can lie outside.
+
+66
+00:06:56,257 --> 00:07:02,876
+and because this whole picture here is so important, we call the inside of the circle an epsilon ball.
+
+67
+00:07:03,757 --> 00:07:08,162
+and for the notation we use a capital B with index epsilon.
+
+68
+00:07:09,286 --> 00:07:14,055
+Moreover the middle point "a" here, we put into parentheses afterwards.
+
+69
+00:07:14,671 --> 00:07:20,314
+Now by definition this is the set of all the complex numbers w, with the property:
+
+70
+00:07:20,750 --> 00:07:25,555
+|w - a| is less than epsilon.
+
+71
+00:07:26,614 --> 00:07:31,098
+So this is the definition of an epsilon-ball in the complex plane.
+
+72
+00:07:31,829 --> 00:07:36,813
+Ok, because you now know what a convergent sequence in the complex numbers is,
+
+73
+00:07:37,186 --> 00:07:42,296
+you also know what a continuous function between C and C is.
+
+74
+00:07:43,000 --> 00:07:47,200
+In fact it has exactly the same meaning as for real functions.
+
+75
+00:07:48,229 --> 00:07:55,722
+Hence small deviations, small errors in the input should be translated into small errrors in the output.
+
+76
+00:07:56,457 --> 00:07:59,734
+Indeed this can be formulated with sequences.
+
+77
+00:08:00,829 --> 00:08:06,643
+Therefore we say a function is continuous at the point z_0 in C
+
+78
+00:08:07,243 --> 00:08:12,400
+if for all sequences of complex numbers called z_n, we have
+
+79
+00:08:12,930 --> 00:08:18,314
+that if z_n is convergent to the point z_0, then also
+
+80
+00:08:18,986 --> 00:08:24,951
+the images f(z_n) are convergent with limit f(z_0)
+
+81
+00:08:25,543 --> 00:08:31,834
+Of course here we use a common notation that tells us that a sequence is convergent to a given point.
+
+82
+00:08:32,629 --> 00:08:43,525
+No matter which notation we use, you should remember continuous at a given point just means that convergence in the input implies convergent in the output.
+
+83
+00:08:44,486 --> 00:08:49,446
+Ok, so with this we have the definition of continuity for complex functions.
+
+84
+00:08:50,500 --> 00:08:55,907
+Therefore the next thing we need to define is the important notion of differentiability.
+
+85
+00:08:56,614 --> 00:09:01,879
+This is what we will do in the next video, where we actually start with complex analysis.
+
+86
+00:09:02,214 --> 00:09:08,971
+Now if you have any problems with these definitions in this video here, please check out my real analysis course.
+
+87
+00:09:09,771 --> 00:09:13,414
+There i talk a lot about these definitions for real functions.
+
+88
+00:09:14,214 --> 00:09:19,009
+However if you understand it, you can immediately translate this to complex functions.
+
+89
+00:09:19,986 --> 00:09:25,373
+Ok, please also note the pdf version of this video, you can find in the description.
+
+90
+00:09:25,573 --> 00:09:27,875
+as well as a quiz about this topic.
+
+91
+00:09:28,486 --> 00:09:30,257
+Then i hope i see you next time.
+
+92
+00:09:30,369 --> 00:09:31,243
+Bye!
+

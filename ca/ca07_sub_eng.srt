@@ -1,0 +1,356 @@
+1
+00:00:00,457 --> 00:00:03,626
+Hello and welcome back to complex analysis.
+
+2
+00:00:04,586 --> 00:00:10,827
+and first i want to thank all the very nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:11,743 --> 00:00:17,131
+Now, in todays part 7 i show you examples for the famous Cauchy-Riemann equations.
+
+4
+00:00:18,100 --> 00:00:22,444
+For this lets first recall the important theorem from the last video.
+
+5
+00:00:22,800 --> 00:00:28,554
+There we introduced the Cauchy-Riemann equations with respect to the complex differentiability.
+
+6
+00:00:29,343 --> 00:00:33,884
+Hence we can immediately reformulate the theorem for holomorphic functions.
+
+7
+00:00:34,700 --> 00:00:39,798
+and as always for this we have to choose an open subset capital U in C.
+
+8
+00:00:40,400 --> 00:00:47,649
+and now you should already know the complex function can be equivalently described as a function from R^2 into R^2.
+
+9
+00:00:48,200 --> 00:00:54,424
+However in this case for the new function the domain should also be an open subset of R^2.
+
+10
+00:00:55,014 --> 00:00:57,625
+So maybe lets simply call it U_R.
+
+11
+00:00:58,686 --> 00:01:04,217
+Obviously when you visualize U and U_R in the plane, they look exactly the same.
+
+12
+00:01:04,971 --> 00:01:09,476
+In other words the open domain here does not make any problems at all.
+
+13
+00:01:10,300 --> 00:01:17,689
+Ok, now in the last video we have learned that we can split up the function f into a real and an imaginary part.
+
+14
+00:01:18,343 --> 00:01:24,493
+and both we can see as a function from U_R as a subset of R^2 into R.
+
+15
+00:01:24,886 --> 00:01:29,903
+In particular the real part function here, we denote by a lower case u.
+
+16
+00:01:30,414 --> 00:01:34,057
+So please recall this u is a real valued function.
+
+17
+00:01:34,971 --> 00:01:41,053
+and then exactly in the same way, the imaginary part of f gives us a function we call v.
+
+18
+00:01:41,414 --> 00:01:46,513
+So also here we have a function with domain U_R and codomain R.
+
+19
+00:01:47,443 --> 00:01:53,299
+Hence you see, the whole information of the function f is now translated into these 2 functions.
+
+20
+00:01:54,071 --> 00:02:02,086
+Indeed the property that f is holomorphic translates into the fact that u and v fulfil the Cauchy-Riemann equations.
+
+21
+00:02:03,014 --> 00:02:07,826
+These are not complicated at all. There are just 2 partial differential equations.
+
+22
+00:02:08,557 --> 00:02:17,597
+The first one simply says that the partial derivative of u with respect to x is the same as the partial derivative of v with respect to y.
+
+23
+00:02:18,100 --> 00:02:23,286
+and then in the second equation you see, when you switch the roles there is a minus sign included.
+
+24
+00:02:24,386 --> 00:02:32,388
+In summary what we need for a holomorphic function is that these 2 equations are fulfilled at each point in the set U_R.
+
+25
+00:02:33,457 --> 00:02:37,523
+In fact this equivalence here, we have discussed in the last video.
+
+26
+00:02:38,043 --> 00:02:41,611
+Now in this video i want to show you concrete examples.
+
+27
+00:02:42,400 --> 00:02:46,033
+and i would say, lets immediately start with a very simple one.
+
+28
+00:02:46,986 --> 00:02:53,767
+So lets take the complex function f from C to C. Given as the identity.
+
+29
+00:02:54,671 --> 00:02:57,951
+Which means the number z is simply mapped to z again.
+
+30
+00:02:59,014 --> 00:03:06,656
+Now, because we want to deal with the partial derivatives with respect to x and y, we have to write z as (x + iy).
+
+31
+00:03:07,786 --> 00:03:11,431
+Hence we do this change on the left hand side and on the right hand side.
+
+32
+00:03:12,314 --> 00:03:19,045
+and then you see, here the real part is our function u and the imaginary part is our function v.
+
+33
+00:03:19,929 --> 00:03:23,830
+So you see in this case it's not complicated at all.
+
+34
+00:03:24,500 --> 00:03:28,929
+and now we just want to check if the Cauchy-Riemann equations are satisfied.
+
+35
+00:03:29,957 --> 00:03:32,489
+So lets write down the partial derivatives.
+
+36
+00:03:33,300 --> 00:03:37,928
+First we have du/dx. Which is in this case simply 1.
+
+37
+00:03:38,729 --> 00:03:47,597
+In the same way we also see that dv/dy is very easy to calculate, because this is a simple function and the derivative is just 1 again.
+
+38
+00:03:48,771 --> 00:03:53,901
+Hence we immediately see that the first equation is satisfied at all points.
+
+39
+00:03:54,271 --> 00:03:58,434
+So lets go to the second equation, where we have du/dy.
+
+40
+00:03:59,514 --> 00:04:03,578
+There we see, there is no y in u. Therefore we get 0.
+
+41
+00:04:04,271 --> 00:04:08,837
+In fact the same holds for dv/dx, because there is no x in v.
+
+42
+00:04:09,371 --> 00:04:12,459
+and also of course, the minus sign does not change anything.
+
+43
+00:04:13,600 --> 00:04:17,681
+In summary, both Cauchy-Riemann equations are fulfilled.
+
+44
+00:04:18,486 --> 00:04:22,290
+From that we then can conclude that the function f is holomorphic.
+
+45
+00:04:23,429 --> 00:04:26,046
+Of course this is a fact we have already known.
+
+46
+00:04:26,857 --> 00:04:33,745
+Therefore i would say in the next example, lets look at a function where we already know that it is not holomorphic.
+
+47
+00:04:34,571 --> 00:04:37,996
+Indeed this was simply the complex conjugation.
+
+48
+00:04:38,814 --> 00:04:40,470
+So f(z) is z bar.
+
+49
+00:04:41,500 --> 00:04:47,868
+Now as before, in order to apply the Cauchy-Riemann equations we have to rewrite that with x and y.
+
+50
+00:04:48,586 --> 00:04:53,698
+Of course this is not so complicated. The imaginary part just gets a minus sign.
+
+51
+00:04:54,743 --> 00:04:59,862
+and then as before, the real part is u and the imaginary part here is v.
+
+52
+00:05:00,471 --> 00:05:05,664
+So you see it's different from before and it will change the Cauchy-Riemann equation.
+
+53
+00:05:06,771 --> 00:05:13,054
+Of course here du/dx is still 1, but dv/dy is now -1.
+
+54
+00:05:13,914 --> 00:05:17,401
+Therefore we can conclude: this is not the same.
+
+55
+00:05:18,057 --> 00:05:20,301
+Indeed no matter which point we put in.
+
+56
+00:05:21,043 --> 00:05:26,498
+In conclusion we get the result, we've expected. Namely f is not holomorphic.
+
+57
+00:05:27,500 --> 00:05:33,013
+Here you see, showing this was very simple by just using the Cauchy-Riemann equations.
+
+58
+00:05:33,943 --> 00:05:38,022
+However maybe we should also look at a more complicated example.
+
+59
+00:05:39,014 --> 00:05:42,099
+So lets take another complex function f.
+
+60
+00:05:42,814 --> 00:05:47,326
+and now i want to look at it as z^2 + iz.
+
+61
+00:05:47,871 --> 00:05:54,400
+To be honest. You already know that this is a holomorphic function, because it is a complex polynomial.
+
+62
+00:05:55,200 --> 00:06:01,485
+Indeed we already know how to calcualte the complex derivative for such a complex polynomial.
+
+63
+00:06:02,257 --> 00:06:05,101
+Here it should be 2 times z + i.
+
+64
+00:06:05,543 --> 00:06:09,531
+Still it's helpful to check it with the Cauchy-Riemann equations.
+
+65
+00:06:10,586 --> 00:06:16,479
+Now, by writing x + iy instead of z, we actually have something to do now,
+
+66
+00:06:17,057 --> 00:06:23,119
+because in this expression here, we don't see immediately the real and imaginary part.
+
+67
+00:06:24,100 --> 00:06:26,876
+We first have to calculate a little bit.
+
+68
+00:06:27,500 --> 00:06:32,139
+However that's not so complicated, we simply can do the whole calculation here.
+
+69
+00:06:32,614 --> 00:06:42,871
+So we have x^2 + i2xy - y^2 from the binomial + ix and -y.
+
+70
+00:06:43,729 --> 00:06:48,299
+Now lets put the real part to the left and the imaginary part to the right.
+
+71
+00:06:49,014 --> 00:06:55,322
+So the real part is everything without an "i" and for the imaginary part i factor out one "i".
+
+72
+00:06:56,457 --> 00:06:59,190
+and then we have the result we wanted,
+
+73
+00:07:00,057 --> 00:07:05,038
+because again, here we have our function u and there we have the function v.
+
+74
+00:07:05,986 --> 00:07:10,214
+Now with these 2 functions we can check the Cauchy-Riemann equations again.
+
+75
+00:07:11,386 --> 00:07:15,814
+First du/dx, not hard to see, is simply 2 times x
+
+76
+00:07:16,800 --> 00:07:23,738
+Then the second partial derivative we want to calculate is dv/dy, which is also 2x.
+
+77
+00:07:24,857 --> 00:07:28,398
+Hence our first equation is actually fulfilled.
+
+78
+00:07:29,000 --> 00:07:37,122
+Going to the second one, you see we have to do a little bit more, because this derivative is -2y - 1
+
+79
+00:07:37,714 --> 00:07:44,592
+Ok, then the last derivative we want to calculate would be the partial derivative of v with respect to x.
+
+80
+00:07:45,457 --> 00:07:48,741
+and there you see, it's 2y + 1
+
+81
+00:07:49,543 --> 00:07:53,746
+and then for our equation we just have to put a minus in front.
+
+82
+00:07:54,229 --> 00:07:58,317
+and then we recognize this is the same as du/dy.
+
+83
+00:07:59,071 --> 00:08:04,858
+Therefore also here both equations are fulfilled. So the function f is holomorphic.
+
+84
+00:08:05,514 --> 00:08:08,421
+I already told you, this is not a surprise for us.
+
+85
+00:08:09,429 --> 00:08:14,871
+However with this example you have learned how you can apply the Cauchy-Riemann equations,
+
+86
+00:08:14,914 --> 00:08:18,857
+when the function f is given as a real and an imaginary part.
+
+87
+00:08:19,820 --> 00:08:25,952
+and in fact you also get the complex derivative of f from these partial derivatives here,
+
+88
+00:08:26,757 --> 00:08:30,069
+but i think this is a good topic for the next video.
+
+89
+00:08:30,757 --> 00:08:36,457
+Therefore i really hope that i see you there. Have a nice day and bye!
+
