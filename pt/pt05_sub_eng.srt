@@ -1,0 +1,504 @@
+1
+00:00:00,371 --> 00:00:03,487
+Hello and welcome back to probability theory.
+
+2
+00:00:03,857 --> 00:00:08,940
+and as always, first i want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,671 --> 00:00:13,558
+and in todays part 5 we will talk about the so called product case.
+
+4
+00:00:14,114 --> 00:00:20,343
+More precisely we will talk about product spaces, product sigma algebras and product probability measures.
+
+5
+00:00:20,585 --> 00:00:26,831
+Now before we can define this product case, we first have to talk about the definition of a probability space.
+
+6
+00:00:27,143 --> 00:00:31,769
+Indeed this is not so complicated, because we already have all we need for this.
+
+7
+00:00:32,029 --> 00:00:38,043
+We just need a sample space Omega, a sigma algebra "A" and a probability measure "P".
+
+8
+00:00:38,386 --> 00:00:43,505
+Of course they all should fit together, which means the sigma algebra is a sigma algebra for Omega.
+
+9
+00:00:44,014 --> 00:00:48,096
+and also the probability measure is defined on the sigma algebra.
+
+10
+00:00:48,586 --> 00:00:54,435
+Then in this case all these 3 things together, which we call a triple, is called a probability space.
+
+11
+00:00:55,000 --> 00:00:59,780
+So the meaning here is, we have an abstract space, where we can calculate with probabilities.
+
+12
+00:01:00,243 --> 00:01:04,586
+Now the product case occurs when we want to combine multiple probability spaces.
+
+13
+00:01:05,086 --> 00:01:08,452
+In this case we can simply introduce an index "n".
+
+14
+00:01:08,786 --> 00:01:14,371
+Depending on the context here we could have 2, 3 or even infinitely many probability spaces.
+
+15
+00:01:15,014 --> 00:01:20,212
+However i want to stay at countable many, so we choose the natural numbers as the index set.
+
+16
+00:01:20,643 --> 00:01:25,886
+Now this whole idea seems very so i would suggest that we first look at an example.
+
+17
+00:01:26,257 --> 00:01:30,220
+To keep it simple lets combine two random experiments we already know.
+
+18
+00:01:30,571 --> 00:01:34,634
+First lets take a discrete case, where we just look at the throw of a die.
+
+19
+00:01:35,243 --> 00:01:39,877
+and then lets do a continuous case, where we throw a point into this interval.
+
+20
+00:01:40,543 --> 00:01:43,530
+In other words here we have an one dimentional dart game.
+
+21
+00:01:44,229 --> 00:01:47,410
+and we can hit real numbers between -1 and 1.
+
+22
+00:01:47,829 --> 00:01:54,070
+Now because we have an order here, we first do the one experiment, then the other, our outcome would be a tuple.
+
+23
+00:01:54,071 --> 00:01:57,121
+Which is in this case is just a pair of two numbers.
+
+24
+00:01:57,729 --> 00:02:01,206
+For example 3, 0.25 would be a possible outcome. 
+
+25
+00:02:01,800 --> 00:02:06,704
+Now the overall question would be how can we calculate probabilities in this scenario
+
+26
+00:02:07,343 --> 00:02:12,082
+In order to answer this we first have to write down the corresponding probability spaces. 
+
+27
+00:02:12,514 --> 00:02:15,982
+Now for the first probability space we take the index 1.
+
+28
+00:02:16,443 --> 00:02:22,066
+Of course we already know for throwing a die the corresponding sample space would be the numbers 1 to 6.
+
+29
+00:02:22,700 --> 00:02:26,173
+and then the sigma algebra can be chosen as the power set.
+
+30
+00:02:26,800 --> 00:02:31,468
+Moreover we also know what the probability measure "P_1" should be in this case.
+
+31
+00:02:31,929 --> 00:02:35,634
+The probability mass function is just given by 1 over 6.
+
+32
+00:02:36,200 --> 00:02:40,346
+Now in the same way we can also say what the second probability space should be.
+
+33
+00:02:40,786 --> 00:02:43,539
+Of course here lets take the index 2.
+
+34
+00:02:43,943 --> 00:02:49,252
+Of course now we already know the sample space should be the full intervall from -1 to 1.
+
+35
+00:02:49,729 --> 00:02:53,964
+and consequently in the continuous case we have the Borel sigma algebra.
+
+36
+00:02:54,586 --> 00:02:58,510
+and then the probability measure "P_2" can be written as an integral.
+
+37
+00:02:59,114 --> 00:03:02,745
+Where the probability density function is given by 0.5.
+
+38
+00:03:03,186 --> 00:03:08,661
+Ok the only thing we have to do now is to combine both probability spaces into a new one..
+
+39
+00:03:09,271 --> 00:03:16,344
+Since you already know, the possible outcomes are given by pairs, we know that the new sample space should be the cartesian product.
+
+40
+00:03:16,671 --> 00:03:22,532
+This means that in an abstract sense, we have Omega_1 on the x-axis and Omega_2 on the y-axis.
+
+41
+00:03:22,957 --> 00:03:28,914
+and now possible events where we want to measure probabilities are just given by subsets in this plane.
+
+42
+00:03:29,400 --> 00:03:32,919
+Therefore we already know what the new probability space should be.
+
+43
+00:03:33,486 --> 00:03:36,924
+First the sample space should be given by this cartesian product.
+
+44
+00:03:37,671 --> 00:03:41,511
+This means that we have an order here. First we throw the die and then the dart. 
+
+45
+00:03:42,429 --> 00:03:47,146
+and now the sigma algebra we need here is what we usually call the product sigma algebra.
+
+46
+00:03:47,700 --> 00:03:51,962
+To define this we take the cartesian product of the two sigma algebras and then say 
+
+47
+00:03:52,162 --> 00:03:55,213
+use the sigma algebra that is generated by this set.
+
+48
+00:03:55,843 --> 00:04:00,774
+Maybe we shouldn't focus here on the sigma algebra, because it can distract from the overall idea.
+
+49
+00:04:01,486 --> 00:04:04,396
+However later i will tell you a little bit more about this construction.
+
+50
+00:04:04,786 --> 00:04:10,202
+If you want to know more details you can look at my measure theory series. It's part 17.
+
+51
+00:04:10,986 --> 00:04:15,597
+There i also explained how we can define the probability measure, we just call "P" now.
+
+52
+00:04:16,171 --> 00:04:20,586
+It's a well defined probability measure and we just call it the product measure.
+
+53
+00:04:20,991 --> 00:04:27,267
+For us now it's not important to know the whole construction, but only one important property this measure has.
+
+54
+00:04:27,843 --> 00:04:35,540
+For this lets look at two events. The first we call "A_1" from the first sigma algebra and the other one "A_2" from the second sigma algebra.
+
+55
+00:04:35,971 --> 00:04:41,686
+and then we want to calculate the probability of the cartesian product, which is a subset in the plane here.
+
+56
+00:04:42,429 --> 00:04:49,192
+Now, the nice property of the product measure is that this is exactly the product of the two single probabilities.
+
+57
+00:04:49,486 --> 00:04:55,106
+This means, if we know these two probabilities, we can immediately calculate this probability.
+
+58
+00:04:55,414 --> 00:04:58,373
+Hence lets look what we get in our example here.
+
+59
+00:04:58,957 --> 00:05:03,171
+Here i want to caluclate the probability that we first throw a 2 or a 3
+
+60
+00:05:03,686 --> 00:05:05,043
+Of course with the die.
+
+61
+00:05:05,089 --> 00:05:08,171
+and then with the dart we want to hit the first half.
+
+62
+00:05:08,871 --> 00:05:12,280
+Hence the event we want to measure is this cartesian product.
+
+63
+00:05:13,000 --> 00:05:17,223
+and by our formula for our product measure this is simply this product.
+
+64
+00:05:17,900 --> 00:05:21,657
+Hence first we use "P_1" here and then "P_2".
+
+65
+00:05:22,034 --> 00:05:26,142
+and it's not hart to see that we first have "1/3" times 0.5.
+
+66
+00:05:26,757 --> 00:05:30,745
+So the probability of this event is exactly 1 over 6.
+
+67
+00:05:31,414 --> 00:05:38,171
+Ok, so what you should see with this example is that the product case is very natural and also very important for calculations.
+
+68
+00:05:38,757 --> 00:05:41,749
+Therefore now lets write down the general definition.
+
+69
+00:05:42,457 --> 00:05:46,663
+Instead of two we now look at infinitely many probability spaces.
+
+70
+00:05:47,114 --> 00:05:51,391
+Lets denote them as before, where we choose the index set as the natural numbers.
+
+71
+00:05:52,057 --> 00:05:56,596
+To define the product space we use the same symbols, but now without an index. 
+
+72
+00:05:56,957 --> 00:06:00,671
+At this point we already have a rough idea, what this space should be.
+
+73
+00:06:01,014 --> 00:06:06,127
+The sample space Omega is just the cartesian product as before, but now an infinite one.
+
+74
+00:06:06,829 --> 00:06:09,966
+Indeed one often denotes that with a product sign.
+
+75
+00:06:10,457 --> 00:06:17,357
+Now the important thing to note here is that elements of this sample space, are not just tuples now, but sequences.
+
+76
+00:06:17,971 --> 00:06:24,066
+and they have the property, like in this example, the lower case Omega_3 comes from the sample space Omega_3.
+
+77
+00:06:24,729 --> 00:06:27,729
+So you see the sample space is not complicated at all.
+
+78
+00:06:28,329 --> 00:06:32,271
+However the sigma algebra "A" is much harder to write down.
+
+79
+00:06:32,574 --> 00:06:36,650
+Usually we just say in short it's generated by cylinder sets.
+
+80
+00:06:37,400 --> 00:06:40,871
+and in this case we denote that as before with a sigma at front.
+
+81
+00:06:41,443 --> 00:06:46,936
+Now the idea here is that we first consider special subsets of this infinite cartesian product.
+
+82
+00:06:47,429 --> 00:06:52,610
+Namely they look like this. Where we have the whole space, where we only change one sample space.
+
+83
+00:06:53,229 --> 00:06:56,544
+So infinitely many are still at Omega_j.
+
+84
+00:06:57,157 --> 00:07:00,854
+Indeed this is the important thing. So this would be another example.
+
+85
+00:07:01,571 --> 00:07:06,239
+and then we look at the smallest sigma algebra that contains all these subsets.
+
+86
+00:07:06,800 --> 00:07:10,299
+and with this we have the thing, we call the product sigma algebra.
+
+87
+00:07:10,829 --> 00:07:15,704
+So you see it's just a generalisation of the part we had before with only two factors.
+
+88
+00:07:16,186 --> 00:07:18,935
+and exactly the same holds for the product measure.
+
+89
+00:07:19,514 --> 00:07:23,533
+Here please recall, we want to be able to measure probabilities like this one.
+
+90
+00:07:24,186 --> 00:07:27,500
+However now in our case we have an infinite cartesian product.
+
+91
+00:07:28,129 --> 00:07:33,844
+For the cylinder sets we already discussed the idea, that we only want to change finitely many sets here.
+
+92
+00:07:34,786 --> 00:07:39,682
+This means that after we reach the index "m" only Omegas will follow.
+
+93
+00:07:40,114 --> 00:07:44,148
+We do this, because in this case we have a similar formula as before.
+
+94
+00:07:44,900 --> 00:07:48,115
+We have the finite product of the single probabilities.
+
+95
+00:07:48,529 --> 00:07:53,741
+This is important, because as before it means we can immediately calculate such a probability.
+
+96
+00:07:54,300 --> 00:07:59,264
+Ok, so this whole thing is the abstract definition of the product space you really should remember.
+
+97
+00:07:59,914 --> 00:08:03,190
+and maybe it's easier to understand it, if we look at an example.
+
+98
+00:08:03,871 --> 00:08:07,758
+So maybe we keep it simple here and stay with our ordinary die.
+
+99
+00:08:08,071 --> 00:08:12,300
+Now lets throw this die very often. Indeed infinitely many times. 
+
+100
+00:08:12,857 --> 00:08:18,892
+Now the big advantage here you immediately see is that each of these Omegas in the cartesian product is the same.
+
+101
+00:08:19,186 --> 00:08:24,306
+Of course for every throw we have the same die. Therefore we don't have to distinguish the indices here.
+
+102
+00:08:25,143 --> 00:08:29,243
+Hence lets keep it simple and lets use the index 0 each time.
+
+103
+00:08:29,700 --> 00:08:34,750
+and of course we already know this is the probability space, where we throw the die only once.
+
+104
+00:08:35,443 --> 00:08:39,214
+Accordingly we can immediately write down the corresponding product space.
+
+105
+00:08:39,757 --> 00:08:45,349
+The sample space Omega is just the infinite cartesian product, where at each step we have Omega_0.
+
+106
+00:08:46,000 --> 00:08:52,157
+and of course the product sigma algebra "A" and the product measure "P" are immediately given by the definition above.
+
+107
+00:08:52,671 --> 00:08:57,857
+Ok, now in order to make our example more concrete lets calculate the probability of a given event.
+
+108
+00:08:58,529 --> 00:09:00,256
+So lets simply call the event "A".
+
+109
+00:09:00,971 --> 00:09:05,970
+Here the event should be given as at the 100-th throw we get a 6 for the first time.
+
+110
+00:09:06,686 --> 00:09:09,927
+Therefore the first step is always to put that into a formula.
+
+111
+00:09:10,814 --> 00:09:14,413
+So what we have here is that at the first throw we don't get a 6.
+
+112
+00:09:15,071 --> 00:09:18,525
+So it would be the complement of the set that only contains 6.
+
+113
+00:09:19,014 --> 00:09:22,829
+The notation i use for this is simply a "c" as an upper index.
+
+114
+00:09:23,343 --> 00:09:26,714
+In fact we need this set 99 times.
+
+115
+00:09:27,198 --> 00:09:32,795
+After this comes the 100-th throw, which means now we have the set that only contains 6.
+
+116
+00:09:33,529 --> 00:09:37,320
+Now the good thing is that we also know that afterwards it does not matter what happens.
+
+117
+00:09:38,057 --> 00:09:41,882
+Therefore here only Omega_0 occurs in the cartesian product.
+
+118
+00:09:42,171 --> 00:09:47,731
+Ok, now because we have the formula from above we can immediately calculate the probability of "A".
+
+119
+00:09:48,057 --> 00:09:52,434
+We just have to put "P_0" in front of these sets and multiply them.
+
+120
+00:09:52,871 --> 00:09:55,389
+Therefore we get this nice formula here.
+
+121
+00:09:55,843 --> 00:10:00,358
+In fact it's the one probability to the power of 99 times the other one.
+
+122
+00:10:00,943 --> 00:10:07,149
+Hence it's not hard to calculate we have 5 over 6 to the power 99 times 1 over 6.
+
+123
+00:10:07,771 --> 00:10:11,137
+Therefore this is the probability of our event "A".
+
+124
+00:10:11,829 --> 00:10:14,978
+and of course i can tell you it's very, very small.
+
+125
+00:10:15,271 --> 00:10:19,588
+Ok, with this i now hope that you can work with product spaces more easily.
+
+126
+00:10:20,143 --> 00:10:23,068
+and then i see you in the next video. Bye!
+

@@ -1,0 +1,784 @@
+1
+00:00:00,250 --> 00:00:03,719
+Hallo und willkommen zurück zu Wahrscheinlichkeitstheorie. 
+
+2
+00:00:04,263 --> 00:00:09,554
+und als erstes möchte ich, wie immer, all den netten Menschen danken, die mich auf Steady oder Paypal unterstützen.
+
+3
+00:00:10,375 --> 00:00:14,063
+Im heutigen Teil 4, werden wir über die Binomialverteilung reden.
+
+4
+00:00:14,775 --> 00:00:18,886
+Es ist ein fundamentales Wahrscheinlichkeitsmaß, was häufig in diskreten Modellen erscheint.
+
+5
+00:00:19,800 --> 00:00:22,486
+Wir haben es zum Beispiel, wenn wir eine Münze werfen.
+
+6
+00:00:22,938 --> 00:00:27,241
+ Dann würden wir sagen, dass wir nur zwei mögliche Ergebnisse haben. Kopf oder Zahl.
+
+7
+00:00:27,829 --> 00:00:34,239
+Wenn wir keine faire, sondern eine gezinkte Münze haben, benutzen wir "p" für die Wahrscheinlichkeit für Kopf.
+
+8
+00:00:34,629 --> 00:00:40,001
+Für dieses Video nehmen wir an, dass "p" eine rationale Zahl zwischen 0 und 1 ist.
+
+9
+00:00:40,886 --> 00:00:44,971
+ Das macht alles etwas einfacher, weil wir dann "p" als einen Bruch darstellen können.
+
+10
+00:00:45,314 --> 00:00:48,786
+Z.B. könnten wir es als "a" geteilt durch "a + b" darstellen.
+
+11
+00:00:49,443 --> 00:00:53,286
+Hier sind "a" und "b" natürliche Zahlen inklusive der 0.
+
+12
+00:00:53,871 --> 00:00:59,572
+Wenn wir also z.B. einen faire, also normale Münze haben, dann sollte die Wahrscheinlichkeit "p" gleich 0.5 sein.
+
+13
+00:01:00,157 --> 00:01:03,547
+Bedeutet "a" und "b" sind beide jeweils 1.
+
+14
+00:01:04,214 --> 00:01:08,714
+Wenn wir das haben, können wir das Zufallsexperiment in einem anderen Licht sehen.
+
+15
+00:01:09,144 --> 00:01:13,122
+Um genauer zu sein ist dies, was wir normalerweise ein Urnenmodell nennen.
+
+16
+00:01:13,943 --> 00:01:18,557
+Solche Urnen sind Behälter, wo wir verschiedene Arten von Bällen rein tuen können.
+
+17
+00:01:19,128 --> 00:01:24,100
+ Im unserem Fall stehen die grünen Bälle für Kopf und die roten für Zahl.
+
+18
+00:01:24,520 --> 00:01:28,379
+Die Anzahl an Bällen für Kopf sollte hier "a" sein.
+
+19
+00:01:28,579 --> 00:01:30,400
+und die für Zahl ist "b" .
+
+20
+00:01:31,014 --> 00:01:36,616
+Somit ziehen wir, für unseren Zufallsexperiment, zufällig einen Ball.
+
+21
+00:01:36,971 --> 00:01:41,657
+und die Wahrscheinlichkeit um einen grünen Kopf Ball zu ziehen ist "p".
+
+22
+00:01:42,029 --> 00:01:47,429
+ Es ist einfach das Verhältnis zwischen der Anzahl an grünen Bällen und allen Bällen, in der Urne.
+
+23
+00:01:47,943 --> 00:01:51,886
+Daher haben wir in beiden Fällen dasselbe Wahrscheinlichkeitsmaß.
+
+24
+00:01:52,371 --> 00:01:56,398
+ Das Ergebnisraum Omega besteht in diesem Fall aus eine Menge mit zwei Elementen.
+
+25
+00:01:56,957 --> 00:02:01,729
+Im unserem Fall nennen wir sie "H" und "T", aber natürlich sind die Namen hier nicht so wichtig.
+
+26
+00:02:02,229 --> 00:02:05,706
+Häufig sieht man auch die Beschreibung 0 und 1 für die zwei Elemente.
+
+27
+00:02:05,986 --> 00:02:12,681
+Hier haben wir einen diskreten Fall. Deswegen kann das Wahrscheinlichkeitsmaß mithilfe einer Wahrscheinlichkeitsfunktion definiert werden.
+
+28
+00:02:13,371 --> 00:02:18,221
+In anderen Worten, wir müssen nur sagen was die Wahrscheinlichkeit für einzelne Ereignisse sind.
+
+29
+00:02:18,643 --> 00:02:24,410
+Für Kopf haben wir "a" geteilt durch "a + b" und für Zahl, "b" geteilt durch "a + b".
+
+30
+00:02:24,700 --> 00:02:28,055
+und dann seht ihr, die Summe von beiden ergibt 1.
+
+31
+00:02:28,586 --> 00:02:34,815
+Daher nennen wir normalerweise eine Wahrscheinlichkeit "p" und die andere "1 - p"
+
+32
+00:02:35,071 --> 00:02:40,414
+Ok, wenn wir das alles kennen, können wir anfangen über die Binomialverteilung zu sprechen.
+
+33
+00:02:41,043 --> 00:02:45,105
+Im diesem Fall werfen wir nicht einmal die Münze, sondern n-mal.
+
+34
+00:02:45,700 --> 00:02:49,331
+Nach n Würfen zählen wir, wie oft wir Kopf bekommen haben.
+
+35
+00:02:49,814 --> 00:02:54,231
+Wichtig hierbei ist, dass es uns nicht interessiert in welcher Reihenfolge wir Kopf oder Zahl bekommen haben.
+
+36
+00:02:54,700 --> 00:02:59,569
+Mittlerweile wisst ihr, dass wir das Ganze auch mit n Urnen beschreiben könnten.
+
+37
+00:03:00,200 --> 00:03:05,049
+Wir ziehen einfach einen Ball pro Urne und zählen dann die Anzahl von Kopf.
+
+38
+00:03:05,343 --> 00:03:10,347
+Natürlich ist das Ganze etwas verschwenderisch, da wir auch nicht so viele Urnen dafür brauchen.
+
+39
+00:03:10,571 --> 00:03:15,040
+Wir nehmen einfach eine Urne und ziehen n Bälle mit zurücklegen.
+
+40
+00:03:15,614 --> 00:03:20,922
+Das Bedeutet wir ziehen den ersten Ball, notieren das Ergebnis und packen den Ball zurück in die Urne.
+
+41
+00:03:21,222 --> 00:03:26,361
+Somit haben wir im zweitem Zug das Gleiche Verhältnis an Bällen in der Urne.
+
+42
+00:03:26,814 --> 00:03:31,479
+Zusammengefasst gibt es 3 Dinge die ihr euch für die Binomialverteilung merken sollt.
+
+43
+00:03:32,014 --> 00:03:33,757
+die Stichprobengröße ist "n".
+
+44
+00:03:33,814 --> 00:03:36,289
+Sie ist ungeordnet und ohne zurücklegen.
+
+45
+00:03:36,786 --> 00:03:42,596
+Da wir nur an der Häufigkeit von Kopf interessiert sind, kennt ihr schon das zugehörige Ergebnisraum.
+
+46
+00:03:43,414 --> 00:03:46,959
+Der kleinste Fall wäre wenn wir kein Kopf bekommen haben.
+
+47
+00:03:47,159 --> 00:03:49,949
+und der größte Fall ist wenn wir "n" mal Kopf geworfen haben.
+
+48
+00:03:50,529 --> 00:03:53,114
+Wie schon gesagt, dies ist ein diskretes Modell.
+
+49
+00:03:53,257 --> 00:03:57,369
+Daher ist unser Wahrscheinlichkeitsmaß gegeben als eine Wahrscheinlichkeitsfunktion.
+
+50
+00:03:57,843 --> 00:04:01,925
+So ist es ausreichend, wenn wir definieren, was die Wahrscheinlichkeit ist, "k" mal Kopf zu bekommen.
+
+51
+00:04:02,425 --> 00:04:06,940
+Ok, vielleicht gebe ich euch erstmal die Definition und dann reden wir darüber, warum sie Sinn ergibt.
+
+52
+00:04:07,471 --> 00:04:10,086
+Hier haben wir den Binomialkoeffizient "n über k".
+
+53
+00:04:10,529 --> 00:04:15,169
+Dann haben wir "p" hoch "k" mal (1 - p) hoch (n - k).
+
+54
+00:04:15,829 --> 00:04:20,500
+Was ihr als sofort sehen solltet ist, dass wir für die Binomialverteilung 2 Parameter haben.
+
+55
+00:04:21,043 --> 00:04:23,114
+Die Größe "n" und die Wahrscheinlichkeit "p".
+
+56
+00:04:23,971 --> 00:04:27,642
+Nun erinnert euch daran, dass "p" die Wahrscheinlichkeit für nur einen Wurf war.
+
+57
+00:04:28,286 --> 00:04:32,317
+und mit diesem Wissen können wir jetzt diese Formel erklären.
+
+58
+00:04:32,517 --> 00:04:36,117
+Ok, lasst uns die Würfe mithilfe eines Baumes visualisieren.
+
+59
+00:04:36,317 --> 00:04:42,277
+Für den ersten Wurf haben wir die Wahrscheinlichkeit "p" für Kopf und "1 - p" für Zahl.
+
+60
+00:04:42,800 --> 00:04:46,595
+ und natürlich bekommen wir dasselbe Bild für den zweiten Wurf.
+
+61
+00:04:46,795 --> 00:04:51,099
+Das Ganze wiederholt sich nun solange, bis wir die n-te Stufe erreicht haben.
+
+62
+00:04:51,686 --> 00:04:58,942
+Ok, für die Wahrscheinlichkeit "P({k})" müssen wir über alle Möglichkeiten gehen, für die wir genau "k" mal Kopf bekommen.
+
+63
+00:04:59,600 --> 00:05:03,157
+Wenn wir bspw. genau 2 mal Kopf bekommen wollen, können wir hier rüber gehen.
+
+64
+00:05:03,186 --> 00:05:08,329
+Dann treffen wir diesen hier. Danach gehen treffen wir diesen, aber dann müssen wir eine Zahl bekommen.
+
+65
+00:05:08,800 --> 00:05:14,331
+Somit haben wir für diesen Weg eine Wahrscheinlichkeit von "p" mal "p" mal "1 - p"
+
+66
+00:05:14,929 --> 00:05:18,800
+In anderen Worten der Exponent von "p" gibt uns an, wie oft wir Kopf geworfen haben.
+
+67
+00:05:18,1000 --> 00:05:23,157
+und der Exponent von "1 - p", wie oft Zahl fiel.
+
+68
+00:05:23,651 --> 00:05:27,971
+Jedoch seht ihr schon es gibt mehr Möglichkeiten um genau 2 mal Kopf zu bekommen.
+
+69
+00:05:28,729 --> 00:05:34,465
+Z.B gibt uns dieser weg auch genau 2 mal Kopf, mit derselben Wahrscheinlichkeit, wie der Weg davor.
+
+70
+00:05:34,665 --> 00:05:37,690
+Auf der Rechten Seite finden wir auch noch diesen Weg hier.
+
+71
+00:05:38,429 --> 00:05:43,587
+Somit müssen wir die Wahrscheinlichkeit hier mit 3 oder "3 über 2" multiplizieren.
+
+72
+00:05:44,171 --> 00:05:50,767
+In der Tat ist es eine gute Übung zu zeigen, dass die Anzahl an Möglichkeiten genau "n über k" sind.
+
+73
+00:05:51,457 --> 00:05:58,334
+ Alles in allem zeigt dieses Bild nun warum die Definition für das Wahrscheinlichkeitsmaß der Binomialverteilung funktioniert.
+
+74
+00:05:58,971 --> 00:06:04,229
+Außerdem gibt es viele verschiedene Notationen für dieses Wahrscheinlichkeitsmaß.
+
+75
+00:06:04,795 --> 00:06:09,326
+z.B. schreiben manche Leute "B" mit den beiden Parametern "n" and "p".
+
+76
+00:06:09,999 --> 00:06:13,837
+Zusätzlich gib es die etwas längere Variante "Bin"
+
+77
+00:06:14,329 --> 00:06:22,015
+Unabhängig davon welche Notation benutzt wird, solltet ihr jedoch immer wissen, was die Definition der Wahrscheinlichkeitsfunktion ist und was "n" und "p" jeweils bedeuten.
+
+78
+00:06:22,729 --> 00:06:26,657
+ Wenn ihr es mal vergisst, könnte euch die Programmiersprache "R" helfen.
+
+79
+00:06:26,943 --> 00:06:30,129
+Daher lasst uns im nächsten Schritt RStudio öffnen.
+
+80
+00:06:30,743 --> 00:06:33,416
+Jetzt seht ihr hier wieder die 4 Fenster.
+
+81
+00:06:34,471 --> 00:06:39,702
+und wir können sofort zur Konsole gehen und "R" nach der Binomialverteilung fragen.
+
+82
+00:06:40,257 --> 00:06:46,810
+Deshalb schreiben wir ?rbinom, drücken Enter und hier sehen wir dann die Hilfsfunktion.
+
+83
+00:06:47,010 --> 00:06:49,871
+Es erzählt euch ein bisschen über die Binomialverteilung.
+
+84
+00:06:50,044 --> 00:06:55,512
+Z.B. seine Interpretation und zeigt euch die Befehle, um es in "R" zu benutzen.
+
+85
+00:06:56,143 --> 00:07:01,715
+ Wir benutzen nur den Befehl rbinom hier, wo die Argumente danach erklärt sind.
+
+86
+00:07:02,514 --> 00:07:09,729
+Am wichtigsten ist es, dass ihr erstmal überprüft, dass die Größe wirklich unser "n" von eben ist und "p" unsere Wahrscheinlichkeit.
+
+87
+00:07:10,786 --> 00:07:13,151
+Selbstverständlich ist es das was ihr hier finden werdet.
+
+88
+00:07:13,914 --> 00:07:18,856
+Ihr seht die Anzahl an Versuchen und die Wahrscheinlichkeit für einen Erfolg im jeden Versuch.
+
+89
+00:07:19,743 --> 00:07:25,692
+Wenn wir ein bisschen weiter gehen, seht ihr die Wahrscheinlichkeitsfunktionen ist hier auch nochmal beschrieben.
+
+90
+00:07:26,057 --> 00:07:29,840
+ und ihr seht, sie benutzen auch "n" und "p" wie wir.
+
+91
+00:07:30,529 --> 00:07:35,361
+Der einzige Unterschied ist, dass sie "x" benutzen, was wir vorher "k" genannt hatten
+
+92
+00:07:36,157 --> 00:07:42,523
+Ok, somit seht ihr, dass es sehr schön ist, dass "R" mit einem Handbuch über die Wahrscheinlichkeitstheorie kommt.
+
+93
+00:07:43,271 --> 00:07:46,300
+Ok, dann lasst uns mal den Befehl benutzen, wie wir in unserem Bild hatten.
+
+94
+00:07:47,043 --> 00:07:53,447
+Tippt rbinom, 1, dann die Größe 3 und die Wahrscheinlichkeit 0.5.
+
+95
+00:07:54,571 --> 00:07:57,971
+Das bedeutet wir machen unser Zufallsexperiment und bekommen eine Anzahl von Kopf.
+
+96
+00:07:58,990 --> 00:08:02,328
+ Ihr seht in diesem Fall haben wir nur einmal Kopf geworfen.
+
+97
+00:08:02,786 --> 00:08:05,207
+ Ich würde sagen, wir werfen nochmal.
+
+98
+00:08:06,286 --> 00:08:09,795
+ Jetzt haben wir 2 mal Kopf, wie im unserem Bild von eben.
+
+99
+00:08:10,586 --> 00:08:14,959
+natürlich können wir das nun nochmal und nochmal werfen und vielleicht bekommen wir verschiedene Ergebnisse.
+
+100
+00:08:15,386 --> 00:08:21,084
+In diesem Fall wäre 0 die kleinste und 3 die Größte Zahl die rauskommen könnte.
+
+101
+00:08:22,086 --> 00:08:25,636
+Ok, an diesem Punkt können wir über diese 1 reden.
+
+102
+00:08:26,429 --> 00:08:31,168
+Was wir eben Manuell gemacht haben, können wir "R" mit dieser Zahl sagen.
+
+103
+00:08:31,368 --> 00:08:35,950
+Wenn ich hier eine 10 eingebe, bekommen wir 10 Werte raus.
+
+104
+00:08:37,000 --> 00:08:41,115
+Wir sagen also "R", dass es das Zufallsexperiment 10 mal wiederholen soll.
+
+105
+00:08:41,315 --> 00:08:47,580
+Somit seht ihr, dass wir ohne viel Arbeit, sofort alle Werte haben können die wir wollen.
+
+106
+00:08:47,943 --> 00:08:51,922
+Wenn ihr z.B. 100 Ergebnisse haben wollt, ist dies kein Problem.
+
+107
+00:08:52,814 --> 00:08:56,999
+Wenn ihr das nun visualisieren wollt könnt ihr den Histogramm Befehl nutzen.
+
+108
+00:08:57,329 --> 00:09:01,664
+Schreibt einfach den rbinom Befehl in das Histogramm Befehl.
+
+109
+00:09:02,714 --> 00:09:05,871
+und wir bekommen sofort dieses schöne Bild.
+
+110
+00:09:06,629 --> 00:09:11,637
+ Da wir nur 4 mögliche Ergebnisse haben, sehen wir hier offensichtlich nicht so viel.
+
+111
+00:09:11,837 --> 00:09:16,725
+ Jedoch sehen wir schon, dass 0 und 3 als Ergebnis eher unwahrscheinlich ist.
+
+112
+00:09:17,757 --> 00:09:22,843
+Daher lasst uns mal sehen was passiert, wenn wir die Größe unseres Zufallsexperimentes erhöhen.
+
+113
+00:09:23,414 --> 00:09:26,543
+Das ist unser "n" in der Formel. So werfen wir mehr Münzen.
+
+114
+00:09:27,029 --> 00:09:29,103
+Lasst es uns auf 30 erhöhen.
+
+115
+00:09:29,471 --> 00:09:32,423
+Dann drücken wir Enter und sehen das neue Histogramm.
+
+116
+00:09:33,371 --> 00:09:38,936
+Außerdem sehen wir hier, dass die Ereignisse in der Mitte eine höhere Wahrscheinlichkeit als die in den Extrema haben.
+
+117
+00:09:39,743 --> 00:09:44,329
+Ok, für unseren nächsten Schritt würde ich unsere Urne in "R" darstellen.
+
+118
+00:09:44,686 --> 00:09:47,860
+Zur Erinnerung wir hatten 2 Zahlen für unsere Urne.
+
+119
+00:09:48,614 --> 00:09:52,752
+Eine Nummer "a" und eine Nummer "b" für jeweils Kopf und Zahl.
+
+120
+00:09:53,300 --> 00:09:56,368
+Lasst uns versuchen, dass in RStudio zu packen.
+
+121
+00:09:56,829 --> 00:09:59,609
+Lasst uns dafür das Skript in der oberen linken Ecke nutzen.
+
+122
+00:10:00,486 --> 00:10:03,070
+Deshalb suchen wir uns eine Zahl für "a" aus. Z.B die 5.
+
+123
+00:10:03,270 --> 00:10:05,978
+und fügen einen Kommentar mit dem # Symbol hinzu.
+
+124
+00:10:06,486 --> 00:10:09,732
+Für uns ist das die Anzahl von Kopf in der Urne.
+
+125
+00:10:09,932 --> 00:10:14,197
+Dann machen wir dasselbe für die Nummer "b". Nehmen wir bspw. die 7.
+
+126
+00:10:14,614 --> 00:10:17,884
+ und dann die Anzahl an Zahl in der Urne.
+
+127
+00:10:18,671 --> 00:10:24,114
+Da es einfacher ist mit Zahlen zu rechnen, sagen wir mal, dass Kopf durch die 1 repräsentiert wird.
+
+128
+00:10:24,457 --> 00:10:26,487
+und Zahl wird durch eine 0 repräsentiert.
+
+129
+00:10:26,900 --> 00:10:32,370
+Ok, wenn ihr jetzt Steuerung, Alt und "r" drückt, lässt ihr das Gesamte Skript laufen.
+
+130
+00:10:32,886 --> 00:10:36,996
+Hier seht, alles ist in der Konsole und die Werte sind gespeichert.
+
+131
+00:10:37,386 --> 00:10:41,521
+ok, ihr wisst wir wollen eine Urne mit Einsen und Nullen definieren.
+
+132
+00:10:42,014 --> 00:10:46,186
+ Ihr bereits wisst könnt ihr Zahlen mit dem c Befehl zusammen tun.
+
+133
+00:10:46,443 --> 00:10:52,343
+In diesem Fall seht ihr, dass wir eine Urne haben mit genauer einem 1-Ball und einem 0-Ball.
+
+134
+00:10:52,871 --> 00:10:56,640
+Das ist natürlich nicht das was wir haben wollten. Wir wollen mehr Bälle haben.
+
+135
+00:10:57,214 --> 00:10:59,681
+Daher müssen wir sowas wie das hier tippen.
+
+136
+00:10:59,943 --> 00:11:04,007
+Ihr seht wir haben hier 12 Bälle mit dem korrekten Verhältnis zueinander.
+
+137
+00:11:04,657 --> 00:11:11,078
+Das ist offensichtlich nicht das was wir haben wollen, weil wir somit die Zahlen "a" und "b" vom Anfang nicht mehr ändern können.
+
+138
+00:11:11,529 --> 00:11:14,214
+Tatsächlich benutzen wir hierfür den Befehl replicate (replizieren).
+
+139
+00:11:14,671 --> 00:11:17,727
+Wir schreiben urn = rep,
+
+140
+00:11:17,927 --> 00:11:23,351
+Dann tuen wir die gewollten Arten von Bällen rein. In diesem Fall 1 und 0.
+
+141
+00:11:23,971 --> 00:11:27,821
+Dann kommt ein Komma und danach wie viele wir davon haben wollen.
+
+142
+00:11:28,021 --> 00:11:30,471
+In diesem Fall sind es einfach "a" und "b".
+
+143
+00:11:30,886 --> 00:11:33,485
+Jetzt lasst uns das Skript ausführen und schauen was passiert.
+
+144
+00:11:34,271 --> 00:11:38,747
+und ihr seht, dass ist genau die Urne die wir wollten.
+
+145
+00:11:38,947 --> 00:11:43,386
+und natürlich könnt ihr jetzt überprüfen, ob sich die Urne ändert, wenn wir die Zahlen hier ändern.
+
+146
+00:11:44,214 --> 00:11:49,068
+Ok, dann lasst uns zurück in den Befehl Fenster gehen und eine Probe (sample) aus der Urne nehmen.
+
+147
+00:11:49,614 --> 00:11:52,350
+Mit diesem Befehl ziehen wir einen Ball aus der Urne.
+
+148
+00:11:52,729 --> 00:11:55,846
+Das war eine 1, aber natürlich können wir das Ganze wiederholen.
+
+149
+00:11:56,229 --> 00:12:01,536
+Ok, das ist schön. Es funktioniert, aber lasst uns nun vielleicht 10 Bälle aus der Urne nehmen.
+
+150
+00:12:02,071 --> 00:12:05,100
+Ok und ihr seht jetzt hier unsere Probe.
+
+151
+00:12:05,786 --> 00:12:09,526
+Lasst es uns nochmal versuchen und ihr seht man kann es wieder und wieder tun.
+
+152
+00:12:10,786 --> 00:12:13,977
+und ihr solltet sehen, dass die Anzahl an Einsen immer 3 ist.
+
+153
+00:12:14,514 --> 00:12:17,153
+Das ist jedoch nicht das was wir für unser Beispiel haben wollten,
+
+154
+00:12:17,353 --> 00:12:22,474
+weil es bedeuten würde, dass wir die Bälle aus der Urne nehmen ohne sie wieder zurückzulegen.
+
+155
+00:12:22,786 --> 00:12:29,186
+Ihr könnt das hier leicht überprüfen, weil nach dem zehnten mal ziehen die Urne Leer ist und somit 11 nicht funktionieren wird. 
+
+156
+00:12:29,686 --> 00:12:32,249
+und genau das sagt uns "R" auch.
+
+157
+00:12:33,100 --> 00:12:37,258
+Die Lösung ist, dass wir das Argument fürs zurücklegen hinzufügen.
+
+158
+00:12:37,886 --> 00:12:40,729
+Wir setzten dafür replace = TRUE.
+
+159
+00:12:41,300 --> 00:12:45,179
+Ok, lasst uns nachschauen was nun rauskommt.
+
+160
+00:12:45,543 --> 00:12:48,614
+Vielleicht wiederholen wir es nochmal um zu sehen, wie viele Einsen wir haben können.
+
+161
+00:12:49,629 --> 00:12:52,044
+Ok, an diesem Punkt solltet ihr sehen, dass es funktioniert.
+
+162
+00:12:52,557 --> 00:12:55,043
+Erinnert euch nun zurück an unseren Zufallsexperiment.
+
+163
+00:12:55,400 --> 00:13:00,376
+Wir sind nicht an der Reihenfolge interessiert, sondern nur an den Anzahl von Einsen.
+
+164
+00:13:00,743 --> 00:13:05,605
+Daher ist jetzt die Frage, wie wir die leicht in "R" zählen können.
+
+165
+00:13:06,114 --> 00:13:12,055
+Vielleicht seht ihr es schon. Wir können die Einsen zählen, indem wir einfach alle Zahlen, die wir gezogen haben, zusammen addieren.
+
+166
+00:13:12,800 --> 00:13:16,300
+und der richtige Befehl, in "R", dafür ist "sum".
+
+167
+00:13:17,157 --> 00:13:20,672
+Lasst uns nun das ganze hier rein tun und schauen was raus kommt.
+
+168
+00:13:20,872 --> 00:13:23,476
+In diesem Fall eine 0, also lasst es uns wiederholen.
+
+169
+00:13:24,086 --> 00:13:26,363
+und ihr seht es funktioniert ohne Probleme.
+
+170
+00:13:26,563 --> 00:13:32,181
+Lasst uns das ganze in unseren Skript kopieren, aber ersetzten die 11 mit "n".
+
+171
+00:13:32,786 --> 00:13:36,760
+Denn dieses "n" ist genau dasselbe, was wir auch in unserer Binomialverteilung hatten.
+
+172
+00:13:37,571 --> 00:13:42,545
+Damit funktioniert nun unser Skript, da es beim jeden Durchlauf, die Anzahl an Köpfen nennt.
+
+173
+00:13:43,414 --> 00:13:47,568
+und wie zuvor auch, können wir das ganze wiederholen um andere Zahlen zu bekommen.
+
+174
+00:13:48,214 --> 00:13:53,807
+Daher wäre jetzt die Frage, ob wir dieses Experiment "m" mal wiederholen können.
+
+175
+00:13:54,114 --> 00:13:57,005
+Vielleicht nehmen wir den Fall m=1000.
+
+176
+00:13:57,957 --> 00:14:02,543
+und natürlich hat "R" auch dafür eine schöne Funktion zum replizieren.
+
+177
+00:14:02,986 --> 00:14:11,315
+Wir setzten einfach den Befehl "replicate" vor das Ganze und davor noch die Nummer, wie oft es repliziert werden soll.
+
+178
+00:14:11,543 --> 00:14:14,674
+Jetzt einfach die Klammern schließen und wir sind fertig.
+
+179
+00:14:15,329 --> 00:14:17,559
+Jetzt führen wir das aus, um zu sehen was rauskommt.
+
+180
+00:14:18,671 --> 00:14:22,948
+und ihr seht wir haben 1000 Zahlen für unser Zufallsexperiment.
+
+181
+00:14:23,814 --> 00:14:27,937
+Um unser Leben ein bisschen einfacher zu machen, geben wir dieser Liste noch einen Namen.
+
+182
+00:14:28,137 --> 00:14:30,461
+Nennen wir es observations (Beobachtungen).
+
+183
+00:14:31,743 --> 00:14:36,631
+und als nächstes würde ich die List mit einem Histogramm visualisieren.
+
+184
+00:14:37,214 --> 00:14:39,871
+und diesen Befehl kennt ihr schon. Es ist einfach "hist".
+
+185
+00:14:40,443 --> 00:14:44,879
+Ok, wenn wir jetzt das Skript laufen lassen, sollten wir das Histogramm von (observations) sehen.
+
+186
+00:14:45,657 --> 00:14:48,977
+Vielleicht wiederholen wir es nochmal um zu sehen, ob sich etwas ändert.
+
+187
+00:14:49,786 --> 00:14:54,826
+Wenn wir jetzt diese 2 Pfeile hier benutzen, sehen wir, dass sie nicht wirklich verschieden sind.
+
+188
+00:14:55,914 --> 00:15:02,200
+Die letzte Frage ist nun, in wie weit lässt es sich mit der Binomialverteilung in "R" vergleichen?
+
+189
+00:15:02,629 --> 00:15:05,757
+Also lasst uns das Histogramm für rbinom ansehen.
+
+190
+00:15:06,471 --> 00:15:11,013
+und hier tuen wir "m , n" und "p" rein.
+
+191
+00:15:11,100 --> 00:15:15,029
+und in diesem Fall ist "p" 3 geteilt durch 10.
+
+192
+00:15:15,471 --> 00:15:20,129
+Also lasst es uns hier reinschreiben und schauen wie das Histogramm nun aussieht.
+
+193
+00:15:20,971 --> 00:15:24,166
+In der Tat sehen wir, dass es die Selbe Verteilung ist.
+
+194
+00:15:24,657 --> 00:15:29,758
+Das hat man natürlich, nach diesem langem Video über die Binomialverteilung, auch erwartet.
+
+195
+00:15:30,500 --> 00:15:34,273
+Somit würde ich sagen, dass es reicht für heute. Wir sehen uns im nächsten Video.
+
+196
+00:15:35,000 --> 00:15:36,675
+Habt einen schönen Tag. Bye!
+
