@@ -1,0 +1,909 @@
+1
+00:00:00,120 --> 00:00:03,419
+Bienvenidos de nuevo a la Teoría de la Medida
+
+2
+00:00:03,419 --> 00:00:05,879
+Hoy veremos la parte 2, y todavía tenemos
+
+3
+00:00:05,879 --> 00:00:09,269
+que hablar un poco sobre las sigma álgebras.
+
+4
+00:00:09,269 --> 00:00:12,330
+Aquí podéis ver su definición, tal como hicimos en el vídeo anterior.
+
+5
+00:00:12,330 --> 00:00:14,280
+En resumen, una sigma álgebra
+
+6
+00:00:14,280 --> 00:00:18,510
+es simplemente una familia de subconjuntos de un conjunto X,
+
+7
+00:00:18,510 --> 00:00:22,070
+que cumple las siguientes tres normas.
+
+8
+00:00:22,070 --> 00:00:25,109
+1) Que tanto el conjunto vacío como el conjunto total
+
+9
+00:00:25,109 --> 00:00:28,189
+están siempre dentro de la sigma álgebra,
+
+10
+00:00:28,189 --> 00:00:31,590
+y 2) que para cada conjunto de la sigma álgebra, el complementario
+
+11
+00:00:31,590 --> 00:00:33,930
+también está en la sigma álgebra,
+
+12
+00:00:33,930 --> 00:00:37,290
+y 3) que podemos formar uniones arbitrarias numerables
+
+13
+00:00:37,290 --> 00:00:40,710
+dentro de la sigma álgebra.
+
+14
+00:00:40,710 --> 00:00:42,870
+Y todos los conjuntos que sean elementos en
+
+15
+00:00:42,870 --> 00:00:46,219
+la sigma álgebra se llaman CONJUNTOS MEDIBLES.
+
+16
+00:00:46,219 --> 00:00:48,750
+Vale, eso ha sido suficiente para recordar un poco.
+
+17
+00:00:48,750 --> 00:00:52,260
+Ahora os puedo contar que es fácil mostrar
+
+18
+00:00:52,260 --> 00:00:55,140
+lo siguiente: imaginad que tenéis un montón de
+
+19
+00:00:55,140 --> 00:00:57,780
+sigma álgebras diferentes en el conjunto dado X.
+
+20
+00:00:57,780 --> 00:01:03,600
+Vamos a llamarlos A_i, donde la i
+
+21
+00:01:03,600 --> 00:01:06,840
+es de un conjunto de índices arbitario.
+
+22
+00:01:06,840 --> 00:01:09,030
+Aquí no importa si el conjunto de índices es numerable o no.
+
+23
+00:01:09,030 --> 00:01:12,930
+Lo que podemos hacer entonces es mirar a todas
+
+24
+00:01:12,930 --> 00:01:16,009
+las intersecciones de estas sigma álgebras.
+
+25
+00:01:16,009 --> 00:01:18,659
+Eso lo escribimos de esta manera.
+
+26
+00:01:18,659 --> 00:01:21,210
+Ponemos esto de esta forma, poniendo los elementos del conjunto índice
+
+27
+00:01:21,210 --> 00:01:25,229
+y la intersección de los elementos.
+
+28
+00:01:25,229 --> 00:01:27,990
+Como dije antes, esto es fácil de mostrar y os recomiendo
+
+29
+00:01:27,990 --> 00:01:30,869
+(intentad hacerlo vosotros mismos) que esta misma intersección
+
+30
+00:01:30,869 --> 00:01:34,770
+también nos da una sigma álgebra.
+
+31
+00:01:34,770 --> 00:01:36,659
+Así que no importa si solamente miramos
+
+32
+00:01:36,659 --> 00:01:38,759
+a la intersección de dos sigma álgebras
+
+33
+00:01:38,759 --> 00:01:41,430
+o a la intersección de muchas sigma álgebras:
+
+34
+00:01:41,430 --> 00:01:44,250
+siempre llegaremos al mismo resultado
+
+35
+00:01:44,250 --> 00:01:48,649
+de obtener una sigma álgebra más pequeña con la intersección en el conjunto X.
+
+36
+00:01:48,649 --> 00:01:52,290
+Esto resulta muy útil si queremos
+
+37
+00:01:52,290 --> 00:01:54,420
+tener muchas de las propiedades que
+
+38
+00:01:54,420 --> 00:01:57,360
+deberían tener nuestros conjuntos medibles.
+
+39
+00:01:57,360 --> 00:02:01,350
+Entonces, podríamos poner las propiedades en A_i's diferentes,
+
+40
+00:02:01,350 --> 00:02:04,829
+y después simplemente rehacer su intersección
+
+41
+00:02:04,829 --> 00:02:07,110
+para obtener una sigma álgebra en la que
+
+42
+00:02:07,110 --> 00:02:09,119
+todos los conjuntos medibles tengan todas esas propiedades.
+
+43
+00:02:09,119 --> 00:02:13,020
+En resumen, este resultado nos ayuda un montón,
+
+44
+00:02:13,569 --> 00:02:16,060
+si queremos definir una sigma álgebra a nuestro gusto para nuestro problema.
+
+45
+00:02:16,060 --> 00:02:18,639
+Y esto da lugar a
+
+46
+00:02:18,639 --> 00:02:23,459
+la siguiente definición,
+
+47
+00:02:23,459 --> 00:02:26,950
+fijemos una familia de subconjuntos, de forma que tenemos un
+
+48
+00:02:26,950 --> 00:02:30,579
+subconjunto del conjunto de las partes de un conjunto dado,
+
+49
+00:02:30,579 --> 00:02:33,489
+en otras palabras, la colección de algunos
+
+50
+00:02:33,489 --> 00:02:36,459
+subconjuntos, que no tienen por qué
+
+51
+00:02:36,459 --> 00:02:40,060
+formar una sigma álgebra todavía. Sin embargo;
+
+52
+00:02:40,060 --> 00:02:42,549
+resulta que podemos formar una sigma álgebra
+
+53
+00:02:42,549 --> 00:02:45,939
+a partir de esta M. Y también podemos elegir
+
+54
+00:02:45,939 --> 00:02:50,849
+la sigma álgebra más pequeña (más pequeña respecto a la inclusión de conjuntos)
+
+55
+00:02:50,799 --> 00:02:54,790
+que contenga al conjunto M.
+
+56
+00:02:54,790 --> 00:02:56,949
+Lo interesante es que ahora,
+
+57
+00:02:56,949 --> 00:02:59,409
+ya sabemos cómo formar una sigma álgebra tan pequeña.
+
+58
+00:02:59,409 --> 00:03:01,540
+Miramos de nuevo a la
+
+59
+00:03:01,540 --> 00:03:04,299
+intersección y entonces simplemente ponemos
+
+60
+00:03:04,299 --> 00:03:07,900
+Sigma álgebra A, sabiendo que nuestra
+
+61
+00:03:07,900 --> 00:03:11,199
+Sigma algebra tiene que ser más grande que
+
+62
+00:03:11,199 --> 00:03:15,340
+el conjunto M. Tengamos en cuenta que estamos
+
+63
+00:03:15,340 --> 00:03:18,250
+trabajando dentro de conjuntos de partes, por lo que
+
+64
+00:03:18,250 --> 00:03:21,970
+estamos trabajando con conjuntos de subconjuntos, lo que podría ser
+
+65
+00:03:21,970 --> 00:03:24,280
+confuso, pero aún así no importa en
+
+66
+00:03:24,280 --> 00:03:28,180
+nuestra construcción de conjuntos.
+
+67
+00:03:28,180 --> 00:03:36,040
+En mente que nuestro conjunto A tiene que ser una sigma álgebra,
+
+68
+00:03:36,040 --> 00:03:37,900
+ponemos partes más grandes, y
+
+69
+00:03:37,900 --> 00:03:40,449
+usamos intersecciones de manera que cuando calculemos la intersección,
+
+70
+00:03:40,449 --> 00:03:42,720
+el resultado siga siendo una sigma álgebra.
+
+71
+00:03:42,720 --> 00:03:45,639
+Y como es una intersección,
+
+72
+00:03:45,639 --> 00:03:47,229
+los más pequeños también siguen esta propiedad,
+
+73
+00:03:47,229 --> 00:03:49,419
+y por lo tanto, también el conjunto más pequeño que contenga a M.
+
+74
+00:03:49,419 --> 00:03:52,419
+Sin embargo; véis que esto es
+
+75
+00:03:52,419 --> 00:03:55,329
+una expresión larga para escribir, por lo que
+
+76
+00:03:55,329 --> 00:03:58,090
+la notación habitual que alguien usa no es más que
+
+77
+00:03:58,090 --> 00:04:03,250
+"sigma del conjunto m" como la definición de dicha intersección.
+
+78
+00:04:03,250 --> 00:04:06,699
+Otro nombre para esta
+
+79
+00:04:06,699 --> 00:04:09,459
+Sigma algebra puede ser "sigma algebrada
+
+80
+00:04:09,459 --> 00:04:14,079
+generada por M" Tengamos en cuenta que
+
+81
+00:04:14,079 --> 00:04:16,750
+no es problema encontrar una Sigma algebra que
+
+82
+00:04:16,750 --> 00:04:19,509
+contenga a M, podemos usar simplemente el conjunto de las partes,
+
+83
+00:04:19,509 --> 00:04:22,240
+si queremos.
+
+84
+00:04:22,240 --> 00:04:25,240
+El tema al final es entonces encontrar la sigma álgebra
+
+85
+00:04:25,240 --> 00:04:26,660
+más eficiente,
+
+86
+00:04:26,660 --> 00:04:29,090
+ver dónde tenemos que añadir la menor cantidad
+
+87
+00:04:29,090 --> 00:04:31,790
+de conjuntos para obtener una Sigma álgebra
+
+88
+00:04:31,790 --> 00:04:35,960
+y, es de hecho, Sigma (M).
+
+89
+00:04:35,960 --> 00:04:38,510
+Para acostumbrarnos a esta definición, veamos
+
+90
+00:04:38,510 --> 00:04:41,840
+un ejemplo fácil, cojamos un conjunto con
+
+91
+00:04:41,840 --> 00:04:45,500
+cuatro elementos, llamémoslos a,b,c,d.
+
+92
+00:04:45,500 --> 00:04:51,680
+Y luego definimos el conjunto
+
+93
+00:04:51,680 --> 00:04:53,950
+de subconjuntos, por ejemplo elegiré...
+
+94
+00:04:53,950 --> 00:04:57,140
+conjuntos unitarios; este subconjunto contiene
+
+95
+00:04:57,140 --> 00:04:59,750
+únicamente a "a", y un
+
+96
+00:04:59,750 --> 00:05:02,870
+subconjunto que contiene solo a b,
+
+97
+00:05:02,870 --> 00:05:05,090
+ya tengo el conjunto M completo, esta es mi familia de subconjuntos.
+
+98
+00:05:05,090 --> 00:05:08,930
+Lo primero que hay que destacar es que esto No es
+
+99
+00:05:08,930 --> 00:05:12,080
+una sigma álgebra todavía, así que hagamos ahora
+
+100
+00:05:12,080 --> 00:05:15,110
+Sigma(M), que debería ser la sigma álgebra
+
+101
+00:05:15,110 --> 00:05:18,230
+más pequeña que contenga a esta familia de subconjuntos.
+
+102
+00:05:18,230 --> 00:05:20,690
+Inmediatamente sabemos dos
+
+103
+00:05:20,690 --> 00:05:23,510
+cosas, la primera es que sabemos que sigma(M) es una
+
+104
+00:05:23,510 --> 00:05:26,330
+sigma álgebra, por lo que contiene al conjunto vacío,
+
+105
+00:05:26,330 --> 00:05:30,860
+y al conjunto total X.
+
+106
+00:05:30,860 --> 00:05:34,340
+Esta es la primera propiedad de una sigma álgebra.
+
+107
+00:05:34,340 --> 00:05:36,590
+Lo siguiente que sabemos es que la sigma álgebra
+
+108
+00:05:36,590 --> 00:05:39,500
+contiene a nuestro conjunto M,
+
+109
+00:05:39,500 --> 00:05:45,170
+por lo que también los conjuntos {a} y {b}
+
+110
+00:05:45,170 --> 00:05:49,370
+tienen que estar dentro de sigma(M).
+
+111
+00:05:49,370 --> 00:05:51,080
+Ahora si pensamos sobre las otras propiedades de
+
+112
+00:05:51,080 --> 00:05:54,350
+la sigma álgebra, recordamos que sabemos
+
+113
+00:05:54,350 --> 00:05:55,850
+que todas las uniones,
+
+114
+00:05:55,850 --> 00:05:58,730
+uniones numerables, están dentro de la sigma álgebra.
+
+115
+00:05:59,300 --> 00:06:01,670
+Uniones numerables como la unión de estos
+
+116
+00:06:01,670 --> 00:06:06,200
+dos conjuntos, luego {a,b} también debería estar dentro
+
+117
+00:06:06,200 --> 00:06:09,890
+de la sigma álgebra.
+
+118
+00:06:09,890 --> 00:06:11,930
+Todo el resto de uniones que podamos formar con estos cuatro conjuntos,
+
+119
+00:06:11,930 --> 00:06:14,870
+no cambian nada, seguimos quedando en
+
+120
+00:06:14,870 --> 00:06:18,290
+X, o el conjunto vacío, o a o b,
+
+121
+00:06:18,290 --> 00:06:21,170
+por lo que estas son todas las uniones que podemos formar
+
+122
+00:06:21,170 --> 00:06:24,290
+a partir de estos cuatro conjuntos.
+
+123
+00:06:24,290 --> 00:06:26,450
+Vayamos a la última propiedad que nos queda de una sigma-álgebra,
+
+124
+00:06:26,450 --> 00:06:29,240
+que dice que todos los complementarios
+
+125
+00:06:29,240 --> 00:06:32,180
+están también dentro de la sigma álgebra,
+
+126
+00:06:32,180 --> 00:06:37,370
+El complementario de {a} es {b,c,d},
+
+127
+00:06:37,370 --> 00:06:40,009
+que tiene que estar dentro de la sigma álgebra,
+
+128
+00:06:40,009 --> 00:06:44,830
+y el complementario de {b} que es {a,c,d}.
+
+129
+00:06:44,830 --> 00:06:47,689
+También tenemos que añadir luego el complementario
+
+130
+00:06:47,689 --> 00:06:53,210
+de {a,b}, que es {c,d}.
+
+131
+00:06:53,210 --> 00:06:56,029
+Cada paso que hemos tomado para llegar hasta aquí
+
+132
+00:06:56,029 --> 00:06:58,879
+eran necesarios para lograr una sigma álgebra.
+
+133
+00:06:58,879 --> 00:07:01,460
+No hay otra opción que unir todos
+
+134
+00:07:01,460 --> 00:07:03,879
+estos elementos. La pregunta sigue siendo
+
+135
+00:07:03,879 --> 00:07:07,129
+¿ha sido suficiente?
+
+136
+00:07:07,129 --> 00:07:10,099
+¿ya tenemos entonces una sigma-álgebra?
+
+137
+00:07:10,099 --> 00:07:13,460
+Vamos a comprobarlo inmediatamente,
+
+138
+00:07:13,460 --> 00:07:15,529
+la primera regla se cumple, el conjunto vacío y el conjunto total están los dos dentro.
+
+139
+00:07:15,529 --> 00:07:18,589
+Todos los complementarios están también dentro,
+
+140
+00:07:18,589 --> 00:07:20,360
+luego, si miramos a los componentes aquí y aquí,
+
+141
+00:07:20,360 --> 00:07:24,469
+vemos que están todos ahí. Vale, ¿qué pasa con las uniones?
+
+142
+00:07:24,469 --> 00:07:27,139
+Sabemos que la unión,
+
+143
+00:07:27,139 --> 00:07:29,599
+aquí y aquí, todo encaja conjuntamente,
+
+144
+00:07:29,599 --> 00:07:33,169
+y ¿qué hay de las uniones aquí? Comprobemos
+
+145
+00:07:33,169 --> 00:07:36,139
+todas las uniones posibles y después vemos que todo lo
+
+146
+00:07:36,139 --> 00:07:39,709
+que necesitamos para que sea estable
+
+147
+00:07:39,709 --> 00:07:42,159
+bajo las operaciones de unión y complementarios, están ahí.
+
+148
+00:07:42,159 --> 00:07:45,379
+Esto significa, que esto
+
+149
+00:07:45,379 --> 00:07:47,719
+de aquí es una sigma-algebra
+
+150
+00:07:47,719 --> 00:07:51,589
+Y por la construcción, era la sigma álgebra más pequeña
+
+151
+00:07:51,589 --> 00:07:54,709
+posible de obterner a partir de M, para efectivamente
+
+152
+00:07:54,709 --> 00:07:55,249
+tener una sigma álgebra
+
+153
+00:07:55,249 --> 00:07:58,969
+Esto efectivamente es entonces, sigma(M)
+
+154
+00:07:58,969 --> 00:08:03,349
+Bueno, lo que habéis visto aquí es que no es muy difícil llegar
+
+155
+00:08:03,349 --> 00:08:05,300
+hasta una sigma álgebra si empezamos por
+
+156
+00:08:05,300 --> 00:08:07,969
+un conjunto finito. Por eso, si tenemos una cantidad finita
+
+157
+00:08:07,969 --> 00:08:10,459
+de elementos, podemos hacer todas
+
+158
+00:08:10,459 --> 00:08:13,189
+las operaciones para acabar en nuestra
+
+159
+00:08:13,189 --> 00:08:16,639
+Sigma álgebra.
+
+160
+00:08:16,639 --> 00:08:19,099
+Obviamente, esto tiene que ser mucho más duro si empezamos por
+
+161
+00:08:19,099 --> 00:08:21,680
+un conjunto infinito, porque entonces, tenemos que
+
+162
+00:08:21,680 --> 00:08:24,949
+hacer un número de pasos infinito hasta que alcancemos
+
+163
+00:08:24,949 --> 00:08:28,580
+la Sigma algebra, y esto ahora nos lleva a
+
+164
+00:08:28,580 --> 00:08:31,759
+a la Sigma álgebra más importante,
+
+165
+00:08:31,759 --> 00:08:36,440
+que voy a definir aquí.
+
+166
+00:08:36,440 --> 00:08:41,089
+Esto funciona si nuestro conjunto X es un espacio topológico,
+
+167
+00:08:41,089 --> 00:08:43,159
+si no sabéis lo que es un espacio topológico,
+
+168
+00:08:43,159 --> 00:08:46,339
+podéis seguir trabajando de la misma manera,
+
+169
+00:08:46,339 --> 00:08:50,089
+como si X fuera un espacio métrico.
+
+170
+00:08:50,089 --> 00:08:52,370
+Si tampoco sabéis lo que es un espacio métrico,
+
+171
+00:08:52,370 --> 00:08:53,250
+entonces podéis elegir X más completamente
+
+172
+00:08:53,250 --> 00:08:56,610
+como R^n, si queréis.
+
+173
+00:08:56,610 --> 00:08:59,850
+Todos estos caminos funcionan de la misma manera porque
+
+174
+00:08:59,850 --> 00:09:01,980
+el único ingrediente que necesitamos aquí es
+
+175
+00:09:01,980 --> 00:09:05,490
+saber qué son los conjuntos abiertos.
+
+176
+00:09:05,490 --> 00:09:08,790
+Podrías saber lo que queremos hacer, queremos tener
+
+177
+00:09:08,790 --> 00:09:12,470
+todos estos conjuntos abiertos en nuestra sigma-algebra.
+
+178
+00:09:12,470 --> 00:09:15,600
+Lo que significa que miraremos a nuestra sigma álgebra,
+
+179
+00:09:15,600 --> 00:09:19,160
+que generan los conjuntos abiertos y
+
+180
+00:09:19,160 --> 00:09:22,770
+esta es la sigma-álgebra de Borel,
+
+181
+00:09:22,770 --> 00:09:27,750
+denotada por B(X). Esta es la sigma álgebra
+
+182
+00:09:27,750 --> 00:09:32,280
+generada por conjuntos abiertos.
+
+183
+00:09:32,280 --> 00:09:34,530
+Si estamos trabajando en un espacio topológico,
+
+184
+00:09:34,530 --> 00:09:36,540
+Diríamos, vale tengo mi
+
+185
+00:09:36,540 --> 00:09:40,140
+conjunto X junto a una topología, así que esto
+
+186
+00:09:40,140 --> 00:09:42,690
+podría ser mi T y llamaría a esto
+
+187
+00:09:42,690 --> 00:09:46,140
+espacio topológico, y la topología es
+
+188
+00:09:46,140 --> 00:09:49,110
+simplemente los conjuntos abiertos, lo que significa,
+
+189
+00:09:49,110 --> 00:09:51,630
+por nuestra definición anterior, que nuestra sigma álgebra Borel,
+
+190
+00:09:51,630 --> 00:09:55,290
+no es más que sigma
+
+191
+00:09:55,290 --> 00:10:00,390
+sobre esta topología. Y esta es la sigma álgebra de Borel.
+
+192
+00:10:00,390 --> 00:10:02,790
+Para ser más concretos,
+
+193
+00:10:02,790 --> 00:10:07,140
+se le dice Sigma Álgebra de Borel sobre X.
+
+194
+00:10:07,140 --> 00:10:10,170
+Deberíamos notar que en nuestra notación, la
+
+195
+00:10:10,170 --> 00:10:13,020
+topología desaparece, no hay mención
+
+196
+00:10:13,020 --> 00:10:17,250
+a la topología dentro de este B(x) porque
+
+197
+00:10:17,250 --> 00:10:20,010
+la mayoría de las veces, la topología es obvia.
+
+198
+00:10:20,010 --> 00:10:23,520
+Es obvio qué topología o métrica usamos.
+
+199
+00:10:23,520 --> 00:10:27,690
+Por ejemplo, en R^n, usamos
+
+200
+00:10:27,690 --> 00:10:30,300
+la topología usual, por lo que sabemos
+
+201
+00:10:30,300 --> 00:10:33,210
+cuáles son los conjuntos abiertos en R^n, y entonces
+
+202
+00:10:33,210 --> 00:10:35,370
+inmediatamente sabemos cuál es la sigma álgebra de Borel
+
+203
+00:10:35,370 --> 00:10:39,420
+de R^n. Por lo que realmente
+
+204
+00:10:39,420 --> 00:10:41,250
+deberíamos tener en cuenta que por la definición
+
+205
+00:10:41,250 --> 00:10:44,339
+de sigma álgebra de Borel, esta incluye
+
+206
+00:10:44,339 --> 00:10:48,120
+la estructura topológica, así que contiene
+
+207
+00:10:48,120 --> 00:10:51,450
+el significado de "vacío" en el interior de la sigma álgebra.
+
+208
+00:10:51,450 --> 00:10:54,930
+Y en el caso de R^n, esto es realmente  una
+
+209
+00:10:54,930 --> 00:10:57,150
+Sigma algebra muy  grande, pero no es un conjunto de partes.
+
+210
+00:10:57,150 --> 00:10:59,370
+Por lo que no es la sigma álgebra más grande posible,
+
+211
+00:10:59,370 --> 00:11:02,580
+pero es la sigma álgebra más adecuada
+
+212
+00:11:02,580 --> 00:11:05,550
+en nuestro contexto, porque
+
+213
+00:11:05,550 --> 00:11:06,840
+contiene todos los conjuntos
+
+214
+00:11:06,840 --> 00:11:09,810
+que queremos medir, y eso es lo que
+
+215
+00:11:09,810 --> 00:11:12,240
+haremos en el próximo vídeo, en el que quiero
+
+216
+00:11:12,240 --> 00:11:15,330
+definir qué es una medida, y ahí,
+
+217
+00:11:15,330 --> 00:11:18,780
+veremos que en el caso de R^n, necesitamos
+
+218
+00:11:18,780 --> 00:11:22,230
+necesitamos esta Sigma algebra de Borel y no podemos
+
+219
+00:11:22,230 --> 00:11:25,440
+usar el conjunto de las partes porque nuestra medida
+
+220
+00:11:25,440 --> 00:11:28,700
+debería cumplir algunas reglas significativas,
+
+221
+00:11:28,700 --> 00:11:31,890
+y estas reglas no se pueden cumplir con
+
+222
+00:11:31,890 --> 00:11:34,530
+el conjunto de las partes completo, pero las cumple la sigma álgebra de Borel.
+
+223
+00:11:34,530 --> 00:11:36,240
+Y la sigma álgebra de Borel, es
+
+224
+00:11:36,240 --> 00:11:38,610
+bastante, tiene muchos conjuntos
+
+225
+00:11:38,610 --> 00:11:41,250
+dentro, de hecho están todos los
+
+226
+00:11:41,250 --> 00:11:44,370
+que queremos medir. Gracias!
+
+227
+00:11:44,370 --> 00:11:49,000
+THE BRIGHT SIDE OF MATHEMATICS MEASURE THEORY PT.2
+TRADUCCION JORGE IBÁÑEZ
+

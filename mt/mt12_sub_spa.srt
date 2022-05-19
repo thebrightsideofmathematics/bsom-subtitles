@@ -1,0 +1,570 @@
+1
+00:00:00,514 --> 00:00:04,431
+Hola y bienvenidos a un nuevo vídeo sobre Teoría de la Medida
+
+2
+00:00:04,465 --> 00:00:10,296
+Primero permitidme dar las gracias a toda la gente fantástica que me apoya en Steady.
+
+3
+00:00:10,600 --> 00:00:15,326
+El vídeo de hoy trata el teorema de Extensión de Carathéodory
+
+4
+00:00:15,629 --> 00:00:20,156
+Ok, este es un vídeo de mi serie sobre Teoría de la Medida, pero
+
+5
+00:00:20,257 --> 00:00:22,257
+no es necesario haber visto todos los videos.
+
+6
+00:00:23,417 --> 00:00:32,166
+Para entender el Teorema de Extensión de Carathéodory es suficiente que sepamos qué es una medida y qué es una sigma álgebra.
+
+7
+00:00:32,569 --> 00:00:36,696
+El resto de conceptos que necesitaremos los explicaré aquí hoy.
+
+8
+00:00:37,097 --> 00:00:42,928
+Vale, empecemos inmediatamente con el teorema: como siempre tenemos un conjunto X,
+
+9
+00:00:43,229 --> 00:00:46,749
+Y también miramos a los subconjuntos del conjunto X.
+
+10
+00:00:46,951 --> 00:00:52,284
+Miraremos esta colección de subconjuntos y la denotaremos con esta A curvada.
+
+11
+00:00:52,592 --> 00:01:00,136
+En general, esto no es una sigma álgebra todavía, solo es un semianillo
+
+12
+00:01:01,724 --> 00:01:09,067
+Para ser más específico voy a llamarlo semianillo de conjuntos. Entonces sabemos que estamos hablando de una colección de conjuntos.
+
+13
+00:01:09,089 --> 00:01:13,519
+La definición explícita de semianillo os la daré más adelante.
+
+14
+00:01:14,021 --> 00:01:20,560
+Sin embargo, de la misma manera que con las sigma álgebras, también tenemos una aplicación que llamamos μ.
+
+15
+00:01:20,862 --> 00:01:26,499
+definida en la colección completa de subconjuntos de este semianillo.
+
+16
+00:01:26,915 --> 00:01:33,851
+Y esta aplicación nos lleva a los números reales no negativos, donde incluimos el infinito como símbolo.
+
+17
+00:01:34,152 --> 00:01:44,414
+Ok, en el caso que A no sea una sigma Álgebra, esto no puede ser una medida, hay otro nombre para tal cosa, que llamamos premedida.
+
+18
+00:01:44,614 --> 00:01:53,067
+Por supuesto, este nombre nos dice mucho: es una aplicación que definimos antes de poder definir la medida real.
+
+19
+00:01:53,369 --> 00:01:59,237
+Ok, os contaré más sobre esto más adelante. Primero vamos a centrarnos en el teorema.
+
+20
+00:01:59,538 --> 00:02:04,361
+La primera proposición es obviamente que tenemos una extensión:
+
+21
+00:02:04,561 --> 00:02:19,446
+luego μ tiene una extension. Y llamamos a esta extension  μ̃, y de hecho esta es una medida ordinaria, como ya sabemos.
+
+22
+00:02:19,748 --> 00:02:28,297
+Necesita una sigma álgebra como dominio, así que llamamos a esto σ(A)
+
+23
+00:02:28,599 --> 00:02:38,148
+Por favor recordad que esta es solamente una notación breve para una sigma álgebra que es generada por los subconjuntos que son elementos en A.
+
+24
+00:02:38,449 --> 00:02:44,892
+Y la imagen debe ser por supuesto [0, ∞] donde incluimos ∞
+
+25
+00:02:45,509 --> 00:02:53,754
+Luego, la idea del teorema es: si tenemos estas cosas, obtendremos una medida natural.
+
+26
+00:02:53,969 --> 00:03:02,716
+"Extensión" significa que si miramos a los subconjuntos originales en A, no importa si los medimos con μ o μ̃
+
+27
+00:03:02,841 --> 00:03:13,604
+Así, la nueva medida nes más grande o mejor que la premedida de antes, pero no cambia los valores originales.
+
+28
+00:03:14,008 --> 00:03:22,755
+Bueno esta fue la parte a), que nos cuenta que hay una extensión de manera que esto es un resultado de existencia
+
+29
+00:03:23,164 --> 00:03:27,186
+Sin embargo; también estaría bien tener también algún resultado de unicidad
+
+30
+00:03:27,487 --> 00:03:34,426
+Y eso es lo que tendremos en la parte b), ahora necesitamos una condición adicional aquí.
+
+31
+00:03:34,728 --> 00:03:45,186
+Esta condición se suele llamar sigma finita. Significa que si encontramos una sucesión de subconjuntos, llamémosla (Sj)
+
+32
+00:03:45,500 --> 00:03:55,959
+Tal que Sj está en nuestro semianillo, en A, esto también debería cubrir el conjunto entero, así que la unión
+
+33
+00:03:56,261 --> 00:04:04,914
+que empieza con j igual a uno y va hacia infinito, es igual a X.
+
+34
+00:04:05,217 --> 00:04:11,155
+Y adicionalmente, todos los conjuntos deberían tener una premedida finita.
+
+35
+00:04:11,756 --> 00:04:19,811
+Eso significa que si ponemos el conjunto en la función μ, obtenemos un número finito, no la infinidad
+
+36
+00:04:19,916 --> 00:04:29,464
+Ahora que tenemos todo esto, la conclusión aquí es que esta extensión también es única.
+
+37
+00:04:29,967 --> 00:04:35,096
+Eso significa que podemos resumir el teorema de extensión de Carathéodory de la siguiente manera:
+
+38
+00:04:35,397 --> 00:04:40,118
+Si tenemos una premedida que cumple esta condición aquí
+
+39
+00:04:40,559 --> 00:04:49,024
+entonces hay exactamente una extensión a la Sigma Álgebra que está generada por el semianillo.
+
+40
+00:04:49,453 --> 00:04:57,795
+Así que exactamente una medida. Además esta propiedad también se cumple para nuestro  μ̃
+
+41
+00:04:57,996 --> 00:05:01,520
+μ̃ es también sigma finito.
+
+42
+00:05:02,025 --> 00:05:08,362
+Si nunca antes escuchasteis este concepto de sigma finito, no hay problema, tenemos definiciones aquí.
+
+43
+00:05:08,163 --> 00:05:12,182
+Y lo deberíamos de ver cómo una generalización de una medida finita.
+
+44
+00:05:12,792 --> 00:05:19,022
+Para una medida finita, la medida de X, sería finita, y esto se sigue cumpliendo.
+
+45
+00:05:19,223 --> 00:05:29,379
+Pero si no es finito, entonces sigma finito nos dice que podemos aproximar el conjunto entero con conjuntos de medida finitos.
+
+46
+00:05:29,895 --> 00:05:33,715
+Y sólo necesitamos una cantidad numerable de ellos.
+
+47
+00:05:34,121 --> 00:05:40,053
+Sin embargo; no os preocupéis, veréis en otros vídeos que esto será importante más adelante.
+
+48
+00:05:40,556 --> 00:05:45,583
+Bueno, ahí lo tenéis, este es el teorema de extensión de Carathéodory.
+
+49
+00:05:45,500 --> 00:05:48,822
+Es posible que hayan otras variantes de este teorema,
+
+50
+00:05:49,223 --> 00:05:51,943
+pero esta es la versión que personalmente prefiero.
+
+51
+00:05:52,748 --> 00:05:58,884
+Ahora, como prometí, os daré todas las explicaciones de los conceptos dados.
+
+52
+00:05:59,186 --> 00:06:04,919
+Después de esto, os daré un ejemplo y también una aplicación de este teorema.
+
+53
+00:06:05,622 --> 00:06:09,441
+Pero primero, vamos a empezar con el semianillo.
+
+54
+00:06:09,846 --> 00:06:19,907
+Lo llamo el semianillo de conjuntos para recordaros que consideramos un subconjunto en el conjunto de las partes de X.
+
+55
+00:06:20,510 --> 00:06:26,043
+Ahora necesitamos 3 propiedades de manera que lo podamos llamar semianillo.
+
+56
+00:06:26,445 --> 00:06:32,680
+La primera propiedad es que el conjunto vacío no está en todos los casos en la colección.
+
+57
+00:06:33,989 --> 00:06:41,632
+Si recordais las sigma algebras, reconoceréis que esto es lo mismo que queríamos para la sigma álgebra al principio.
+
+58
+00:06:42,039 --> 00:06:51,900
+La segunda propiedad es que podemos formar intersecciones. Eso significa que la intersección de dos conjuntos en A también está en A.
+
+59
+00:06:52,402 --> 00:07:00,858
+Recordad también que esto de hecho se cumple para las sigma álgebras: no es una definición, pero viene de la definición.
+
+60
+00:07:00,963 --> 00:07:06,393
+Sin embargo; tened en cuenta que no diremos nada sobre las uniones o complementarios aquí.
+
+61
+00:07:06,695 --> 00:07:11,923
+Así que, debilitamos el concepto de la sigma álgebra con el concepto de semianillo.
+
+62
+00:07:12,425 --> 00:07:17,454
+Pero nos queda una tercera propiedad, donde veremos un poco de complementarios y uniones.
+
+63
+00:07:17,976 --> 00:07:27,231
+Nos dice que para conjuntos arbitrarios A,B en A, podemos mirar a la diferencia de los conjuntos ( A \ B )
+
+64
+00:07:27,414 --> 00:07:34,760
+Esto no es el complementario porque no sabemos si el conjunto X está dentro de nuestro semianillo.
+
+65
+00:07:35,176 --> 00:07:37,389
+Esto no emana de estas dos propiedades.
+
+66
+00:07:37,791 --> 00:07:46,643
+Igualmente, no queremos que está diferencia vuelva a estar en A, simplemente queremos poder encontrar una unión de conjuntos de A
+
+67
+00:07:46,945 --> 00:07:55,492
+que sea dada por la definición. Más concretamente, esto significa
+
+68
+00:07:51,658 --> 00:08:02,516
+que existen conjuntos disjuntos dos a dos, y sean de S₁ to Sₙ, una cantidad finita.
+
+69
+00:08:02,919 --> 00:08:14,587
+Y esto debería estar en nuestro semianillo A, tal que podemos escribir esta diferencia como la unión de estos conjuntos disjuntos dos a dos.
+
+70
+00:08:15,191 --> 00:08:19,914
+Y esto es pues lo que llamamos semianillo de conjuntos.
+
+71
+00:08:20,518 --> 00:08:28,460
+Cuando vemos esto la primera vez, puede parecer un poco extraño, pero veréis más adelante que esto es exactamente lo que nos hace falta.
+
+72
+00:08:29,063 --> 00:08:38,018
+Para que resulte un  poco más intuitivo, veamos un ejemplo: lo que creo que es el ejemplo más importante.
+
+73
+00:08:38,621 --> 00:08:53,201
+Este es un ejemplo en R, la recta real, y miramos a los intervalos finitos dados por [a,b)
+
+74
+00:08:53,160 --> 00:08:59,200
+Y para que sea un buen intervalo, quiero que a ≤ b
+
+75
+00:08:59,702 --> 00:09:03,926
+Obviamente esto no es una sigma álgebra.
+
+76
+00:09:04,231 --> 00:09:15,290
+Podemos ver esto inmediatamente porque sólo los intervalos finitos están en A. En particular R por si no está en A.
+
+77
+00:09:15,692 --> 00:09:22,730
+Pero tenemos que remarcar que A genera una sigma álgebra bien conocida.
+
+78
+00:09:23,031 --> 00:09:35,001
+Se trata de la sigma Álgebra de Borel, escribimos σ(A)=B(R)
+
+79
+00:09:35,405 --> 00:09:42,343
+Esto es, si queremos describir la sigma Álgebra de Borel, es suficiente usar estos intervalos finitos.
+
+80
+00:09:42,645 --> 00:09:47,274
+Y lo maravilloso es que forman un semianillo.
+
+81
+00:09:47,575 --> 00:09:52,904
+Lo que significa que nos pueden ayudar con el teorema de extensión de Carathéodory.
+
+82
+00:09:52,983 --> 00:09:57,407
+Comprobemoslo, veamos las tres propiedades.
+
+83
+00:09:57,809 --> 00:10:03,842
+Por supuesto, el conjunto vacío no es problema, está dado formalmente en esta definición.
+
+84
+00:10:04,446 --> 00:10:11,687
+Pero siempre podríamos ponerlo dentro, pero aquí para a = b tenemos el conjunto vacío, porque no hay punto en el intervalo.
+
+85
+00:10:11,888 --> 00:10:23,758
+Veamos la segunda propiedad, sobre la intersección, elijamos dos intervalos, [a,b) y también [c,d)
+
+86
+00:10:24,361 --> 00:10:29,695
+Es fácil ver cuál es la intersección si hacemos un paqueño esquema:
+
+87
+00:10:30,299 --> 00:10:40,059
+Aquí está el primer intervalo [a,b) y quizás el segundo esté ahora aquí [c,d)
+
+88
+00:10:40,762 --> 00:10:46,497
+Luego, si estas son las posiciones de los intervalos, inmediatamente obtenemos el conjunto vacío.
+
+89
+00:10:46,815 --> 00:10:54,766
+Y vemos que esto ocurre en el caso que b ≤ c , o de otra forma,
+
+90
+00:10:54,967 --> 00:10:58,688
+sería cuando   d ≤ a
+
+91
+00:10:59,290 --> 00:11:10,750
+Por supuesto esto no resulta demasiado excitante: más interesante sería si los intervalos estuvieran solapados, quizás si lo desplazamos...
+
+92
+00:11:11,053 --> 00:11:21,511
+...aquí lo tenemos: ahora el intervalo empieza en c y termina en b.
+
+93
+00:11:21,918 --> 00:11:35,093
+Pongámoslo aquí, tenemos [c,b) en el caso que c esté en [a,b) pero no d.
+
+94
+00:11:34,861 --> 00:11:36,973
+Lo podría escribir de esa manera.
+
+95
+00:11:37,778 --> 00:11:43,511
+Créedme que ahora obtenemos el mismo resultado o uno similar si miramos al caso simétrico.
+
+96
+00:11:43,813 --> 00:11:47,235
+Tenemos el intervalo azul en la derecha y el verde en la izquierda.
+
+97
+00:11:47,736 --> 00:11:54,979
+así que ningún problema con ello, también obtenemos un intervalo si el intervalo está completamente dentro del otro.
+
+98
+00:11:55,440 --> 00:12:06,402
+No voy a escribirlo porque ya lo sabéis, que siempre obtenemos un intervalo así, luego en el intervalo A se cumple esta propiedad.
+
+99
+00:12:06,719 --> 00:12:14,058
+y (1) se cumple. Veamos la propiedad de las diferencias (3)
+
+100
+00:12:14,158 --> 00:12:15,658
+Ahora vemos [a,b) sin el conjunto [c,d)
+
+101
+00:12:22,702 --> 00:12:35,477
+De nuevo, veamos aquí algunos casos, quizás el de antes, de forma que no hay intersección, luego la diferencia está clara, no substraemos nada, el intervalo [a,b) se mantiene.
+
+102
+00:12:35,779 --> 00:12:45,738
+Ahora en este caso de aquí vemos que esta es la intersección, luego lo que se mantiene es el intervalo de a a c.
+
+103
+00:12:46,040 --> 00:12:52,477
+Escribamos [a,c), con c no incluido
+
+104
+00:12:52,779 --> 00:13:02,230
+Podemos ignorar el caso simétrico, cuando el intervalo azul está en la derecha, el intervalo se mantiene, en el lado derecho.
+
+105
+00:13:02,632 --> 00:13:09,977
+Otro caso  más interesante sería, cuando [c,d) dentro de [a,b).
+
+106
+00:13:10,280 --> 00:13:15,610
+Por supuesto, para la intersección era muy aburrido, pero algo ocurre aquí ahora:
+
+107
+00:13:16,426 --> 00:13:26,583
+Substraemos la parte del medio, de forma que lo quede sea esta parte y esta parte.
+
+108
+00:13:27,086 --> 00:13:39,258
+En otras palabras, esta es la unión de 2 intervalos, [a,c) union [d,b)
+
+109
+00:13:39,784 --> 00:13:48,235
+Pero esto está bien para el semianillo: sabemos que podemos obtener la unión a partir de elementos de A.
+
+110
+00:13:48,537 --> 00:13:57,188
+Ok, obviando renombrar estas letras de aquí, sabemos que estos son todos los casos que pueden ocurrir.
+
+111
+00:13:57,890 --> 00:13:59,700
+Estamos seguros de que esto es un semianillo.
+
+112
+00:14:00,736 --> 00:14:09,591
+Okay, espero que esto os ayude un poco con los semianillos, ahora podemos hablar sobre el siguiente concepto que es la premedida.
+
+113
+00:14:09,993 --> 00:14:20,784
+Una premedida es casi una medida, esa es la idea, salvo que no está definida en una sigma álgebra, sino en un seminanillo A.
+
+114
+00:14:21,327 --> 00:14:32,598
+Obviando esto, la definición es casi la misma, luego, tenemos dos condiciones, y la primera es sobre la premedida del conjunto vacío.
+
+115
+00:14:32,803 --> 00:14:37,026
+La premedida del conjunto vacío siempre debe ser 0.
+
+116
+00:14:37,336 --> 00:14:42,772
+La segunda propiedad es la sigma aditividad.
+
+117
+00:14:43,074 --> 00:15:00,471
+Esto es lo que podemos escribir como μ de una union, una unión numerable, luego j de 1 al Infinito de conjuntos Aj es igual a una serie
+
+118
+00:14:59,172 --> 00:15:06,005
+que también empieza por 1 y va al infinito, donde tenemos dentro las premedidas de Aj
+
+119
+00:15:06,514 --> 00:15:18,279
+Ahora lo que necesitamos son conjuntos Aj de nuestra A, de nuestro semianillo, de otra manera esto no tendría sentido.
+
+120
+00:15:18,613 --> 00:15:31,291
+Y esto debería ser disjunto, lo que significa que la intersección de Ai con Aj es el conjunto vacío si i distinto de j
+
+121
+00:15:31,609 --> 00:15:37,139
+Esta es la definición de la sigma aditividad para una medida ordinaria.
+
+122
+00:15:37,358 --> 00:15:48,932
+Sin embargo, esto no puede ser cierto porque tenemos la unión de conjuntos de A. Para una sigma álgebra esto no es un problema porque
+
+123
+00:15:49,050 --> 00:16:00,720
+en la definición de sigma álgebra ya sabemos que esto ya está en A. Sin embargo  para un seminanillo no sabemos esto, no sabemos si esta unión está también dentro de A.
+
+124
+00:16:01,029 --> 00:16:06,360
+Pero necesitamos esto si queremos poner esto en la aplicación μ
+
+125
+00:16:06,373 --> 00:16:17,333
+Y por lo tanto tenemos que añadir esta condición de aquí, añadimos que la unión también está en A.
+
+126
+00:16:17,841 --> 00:16:28,808
+Significa que debería ser así para todos los conjuntos Aj, tenemos que esta y esta se cumplen, y esta también.
+
+127
+00:16:29,218 --> 00:16:33,040
+Y así podemos llamar a la aplicación μ una premedida.
+
+128
+00:16:33,446 --> 00:16:44,002
+Ahora, para finalizar este video, quiero daros una aplicación importante del teorema de extensión de Carathéodory.
+
+129
+00:16:44,327 --> 00:16:56,399
+Ya hemos visto que los intervalos finitos para encontrar como [a, b) donde b está excluido forman un semianillo de conjuntos
+
+130
+00:16:56,720 --> 00:17:06,069
+Ahora no tenemos ningún problema en definir una premedida, denominada μ y que se define en estos intervalos finitos.
+
+131
+00:17:06,492 --> 00:17:17,957
+Lo que podemos hacer es mirar la longitud del intervalo, lo que significa que nuestra premedida se define como la diferencia entre b y a
+
+132
+00:17:18,406 --> 00:17:26,960
+Ahora no es difícil ver que esto es de hecho una premedida según esta definición, se verifican inmediatamente estas 2 propiedades aquí.
+
+133
+00:17:27,380 --> 00:17:38,645
+Y ahora podemos aplicar el teorema de extensión de Carathéodory y saber que hay exactamente una extensión para esta premedida
+
+134
+00:17:39,389 --> 00:17:47,770
+Y esta medida ahora está en la sigma álgebra generada por A, es decir, generada por los intervalos finitos aquí
+
+135
+00:17:47,857 --> 00:17:53,392
+y ya conocemos la sigma álgebra, es la sigma álgebra de Borel.
+
+136
+00:17:53,895 --> 00:17:58,220
+De hecho, esta es la medida que se conoce como "medida de Lebesgue"
+
+137
+00:17:59,325 --> 00:18:06,769
+Y aquí vemos por qué el teorema de Carathéodory es tan importante: porque la medida de Lebesgue es tan importante
+
+138
+00:18:07,071 --> 00:18:14,520
+y ahora probando este teorema de extensión, probamos la existencia y la unicidad de la medida de Lebesgue
+
+139
+00:18:14,820 --> 00:18:21,260
+Está bien, ahí lo tenemos. Este fue el teorema de extensión de Carathéodory
+
+140
+00:18:21,561 --> 00:18:25,887
+Realmente espero que esto te ayude un poco a entenderlo.
+
+141
+00:18:26,190 --> 00:18:36,749
+Por supuesto, en otros videos en el futuro seguirán aplicaciones para este teorema, y ​​tal vez también hablemos de la demostración más adelante.
+
+142
+00:18:37,258 --> 00:18:43,692
+Bueno, muchas gracias por escuchar, hasta la próxima!
+Traducción: Jorge Ibáñez
+The bright side of mathematics: Carathéodory's extension theorem.
+

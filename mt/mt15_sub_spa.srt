@@ -1,0 +1,629 @@
+1
+00:00:00,000 --> 00:00:04,393
+Hola y bienvenido al nuevo video sobre la teoría de la medida.
+
+2
+00:00:04,794 --> 00:00:07,625
+Primero, quiero agradecer a todas las amables personas
+
+3
+00:00:07,832 --> 00:00:09,442
+de Steady que apoyan este canal.
+
+4
+00:00:09,744 --> 00:00:14,671
+El tema de hoy es la medida imagen y la fórmula de sustitución.
+
+5
+00:00:15,074 --> 00:00:19,400
+De acuerdo, estos son los 2 nombres que uso todo el tiempo para estas 2 cosas,
+
+6
+00:00:19,745 --> 00:00:22,586
+pero tal vez también debería decirte algunos nombres alternativos.
+
+7
+00:00:23,089 --> 00:00:26,425
+La medida imagen a menudo se denomina medida de avance.
+
+8
+00:00:26,726 --> 00:00:31,656
+Y la fórmula de sustitución a menudo se llama fórmula de cambio de variable.
+
+9
+00:00:31,956 --> 00:00:34,570
+Sin embargo, no importa cómo los llames,
+
+10
+00:00:34,771 --> 00:00:38,191
+ambas cosas son muy importantes y se usan con mucha frecuencia.
+
+11
+00:00:38,393 --> 00:00:41,224
+Bien, entonces comencemos con la medida imagen.
+
+12
+00:00:41,432 --> 00:00:44,854
+Para explicarlo necesitaremos un breve boceto,
+
+13
+00:00:44,963 --> 00:00:50,521
+se tiene un espacio medible a la izquierda y otro aquí a la derecha.
+
+14
+00:00:51,134 --> 00:00:55,158
+Por lo tanto, esto significa que tenemos un conjunto X
+
+15
+00:00:55,360 --> 00:00:59,179
+junto con una σ-álgebra que llamo Ꭿ, en el lado izquierdo,
+
+16
+00:00:59,481 --> 00:01:07,449
+y tenemos un conjunto Y con otra σ-álgebra que ahora llamo C en el lado derecho.
+
+17
+00:01:07,952 --> 00:01:13,985
+En este punto ya sabes cuál es la aplicación de medida entre 2 espacios mensurables,
+
+18
+00:01:14,286 --> 00:01:16,400
+y eso es lo que también necesitamos aquí.
+
+19
+00:01:16,803 --> 00:01:20,336
+Aquí este mapa se denota con h.
+
+20
+00:01:20,837 --> 00:01:26,469
+Supongo que ya habrás notado que aún no hemos introducido medidas,
+
+21
+00:01:26,670 --> 00:01:31,700
+pero comenzaremos con esto ahora y la idea general es que
+
+22
+00:01:31,901 --> 00:01:35,841
+solo tenemos una medida en el lado izquierdo y no en el lado derecho.
+
+23
+00:01:36,043 --> 00:01:39,870
+Esta medida en X la denotaremos por μ.
+
+24
+00:01:40,173 --> 00:01:43,997
+Esto significa que ahora podemos medir subconjuntos
+
+25
+00:01:44,299 --> 00:01:47,029
+aquí en el lado izquierdo siempre que se encuentren en
+
+26
+00:01:47,239 --> 00:01:50,356
+el σ-álgebra con la ayuda de esta medida μ.
+
+27
+00:01:51,061 --> 00:01:54,981
+La pregunta ahora es ¿podemos también medir un subconjunto
+
+28
+00:01:55,182 --> 00:01:59,725
+aquí en el lado derecho, que deberíamos llamar C?
+
+29
+00:02:00,135 --> 00:02:03,456
+Por supuesto, esta C debería estar en el σ-álgebra.
+
+30
+00:02:03,959 --> 00:02:09,997
+O en otras palabras, ¿podemos encontrar otra medida μ̃, aquí en el lado derecho?
+
+31
+00:02:10,400 --> 00:02:13,736
+Ahora, si observa el panorama completo aquí,
+
+32
+00:02:13,938 --> 00:02:17,961
+verá que podría haber una respuesta natural para esta pregunta.
+
+33
+00:02:18,363 --> 00:02:21,484
+Porque en lugar del conjunto C aquí,
+
+34
+00:02:21,786 --> 00:02:27,140
+podría usar la aplicación de medida e ir a la izquierda y mirar aquí la preimagen.
+
+35
+00:02:27,442 --> 00:02:32,572
+Puede verse así, pero siempre lo llamaremos h inverso de C.
+
+36
+00:02:34,685 --> 00:02:38,825
+Lo hermoso ahora es que este conjunto lo podemos medir.
+
+37
+00:02:39,227 --> 00:02:41,943
+Simplemente porque tenemos todo lo que necesitamos,
+
+38
+00:02:42,245 --> 00:02:44,860
+tenemos un aplicación mensurable, por lo que sabemos que
+
+39
+00:02:45,062 --> 00:02:47,476
+la preimagen está nuevamente en el σ-álgebra
+
+40
+00:02:47,778 --> 00:02:49,892
+Y tenemos una medida μ aquí a la izquierda,
+
+41
+00:02:50,092 --> 00:02:52,020
+por lo que ahora podemos medir este conjunto.
+
+42
+00:02:52,335 --> 00:03:00,285
+Bien, pongámoslo en una fórmula. μ̃ (C) es igual a,
+
+43
+00:03:00,587 --> 00:03:06,439
+y ahora medimos la preimagen que tenemos aquí con la medida C, por lo que se ve así.
+
+44
+00:03:06,741 --> 00:03:11,969
+Y esto funciona para todos los conjuntos C que provienen del σ-álgebra aquí,
+
+45
+00:03:12,170 --> 00:03:16,596
+lo que significa que ahora tenemos que encontrar una medida en el lado derecho.
+
+46
+00:03:16,797 --> 00:03:20,539
+Y esto es exactamente lo que llamamos una medida imagen.
+
+47
+00:03:20,840 --> 00:03:26,980
+Los 2 ingredientes esenciales aquí son una medida a la izquierda y una aplicación de medida.
+
+48
+00:03:27,181 --> 00:03:31,535
+Y esta aplicación empuja la medida hacia la derecha.
+
+49
+00:03:31,837 --> 00:03:37,072
+Por lo tanto, esta nueva medida aquí también se llama la medida de avance.
+
+50
+00:03:37,373 --> 00:03:42,200
+Dado que la aplicación h es un ingrediente imprescindible aquí,
+
+51
+00:03:42,423 --> 00:03:46,344
+no deberíamos usar una notación tan simple como μ̃.
+
+52
+00:03:46,675 --> 00:03:51,719
+Algunas notaciones mejores, son, por ejemplo, si usa h con una estrella,
+
+53
+00:03:51,947 --> 00:03:57,778
+y luego viene la medida μ, o simplemente se escribe
+
+54
+00:03:57,879 --> 00:04:03,145
+μ composición con h inversa, con la preimagen.
+
+55
+00:04:03,626 --> 00:04:07,651
+Con esta notación, puede ver la definición de inmediato y,
+
+56
+00:04:07,752 --> 00:04:11,673
+sin embargo, debe reconocer que se empujó la medida hacia la derecha.
+
+57
+00:04:12,075 --> 00:04:15,597
+Siempre tenga en cuenta que lo que obtenemos aquí
+
+58
+00:04:15,799 --> 00:04:20,347
+es una medida en el lado derecho, entonces una medida en Y.
+
+59
+00:04:20,547 --> 00:04:25,981
+Bueno, al conocer la medida imagen podemos pasar a un segundo tema,
+
+60
+00:04:26,182 --> 00:04:29,300
+la fórmula de sustitución, que necesita la medida imagen.
+
+61
+00:04:29,728 --> 00:04:34,775
+Entonces, veamos una función en el lado derecho, por lo que está definida en Y,
+
+62
+00:04:34,976 --> 00:04:39,322
+y tal vez la llamemos g. Y tiene valores en R.
+
+63
+00:04:39,834 --> 00:04:44,062
+Esta función ahora debería ser integrable con respecto a
+
+64
+00:04:44,263 --> 00:04:46,980
+nuestra medida de imagen aquí. Esto significa que la integral
+
+65
+00:04:47,282 --> 00:04:54,240
+que podemos escribir para  g d (h * μ) está bien definida.
+
+66
+00:04:54,581 --> 00:05:00,040
+Este símbolo tiene sentido. La fórmula de sustitución ahora nos dice
+
+67
+00:05:00,242 --> 00:05:03,568
+que podemos ir a la izquierda e integrar aquí.
+
+68
+00:05:03,870 --> 00:05:07,794
+En otras palabras, ahora tenemos una integral sobre X,
+
+69
+00:05:07,994 --> 00:05:13,036
+y aquí tenemos la función g, pero con composición con nuestra h.
+
+70
+00:05:13,238 --> 00:05:18,974
+Y en el interior izquierdo solo tenemos la medida μ. Y esa es la fórmula completa.
+
+71
+00:05:19,176 --> 00:05:21,088
+Podrías llamarla el cambio de variables,
+
+72
+00:05:21,391 --> 00:05:26,031
+y ves que el cambio de variables ocurre aquí con una función medible h.
+
+73
+00:05:26,333 --> 00:05:30,678
+De acuerdo, realmente creo que una mejor manera de recordar
+
+74
+00:05:30,880 --> 00:05:34,100
+la fórmula de sustitución es usar esta notación aquí.
+
+75
+00:05:34,405 --> 00:05:38,642
+Entonces, escribamos esto de esta manera.
+
+76
+00:05:38,842 --> 00:05:43,873
+Integramos aquí sobre Y pero ahora uso como variable
+
+77
+00:05:44,074 --> 00:05:46,290
+una y minúscula dentro de la integral.
+
+78
+00:05:46,593 --> 00:05:49,927
+La medida sigue siendo la medida de la imagen,
+
+79
+00:05:50,028 --> 00:05:51,538
+pero ahora uso esta notación aquí.
+
+80
+00:05:52,042 --> 00:05:55,866
+Pero ahora tenemos que escribir la variable y minúscula.
+
+81
+00:05:56,305 --> 00:05:59,840
+De acuerdo, tal vez sea un poco más largo,
+
+82
+00:05:59,946 --> 00:06:02,686
+pero ahora también podemos usar un nombre de variable en el lado derecho.
+
+83
+00:06:04,279 --> 00:06:08,229
+Esto significa que ahora podemos escribir g de h de x.
+
+84
+00:06:08,739 --> 00:06:13,668
+Y ahora podemos recordar toda la fórmula con solo un cambio de variables.
+
+85
+00:06:13,969 --> 00:06:21,526
+Lo que significa ir de izquierda a derecha, sustituimos la variable y minúscula por h (x).
+
+86
+00:06:21,832 --> 00:06:29,178
+Bueno, puede ver que podemos poner y aquí con h (x), y aquí y éste sale inmediatamente.
+
+87
+00:06:29,480 --> 00:06:32,600
+Por tanto, es una forma sencilla de recordar toda la fórmula.
+
+88
+00:06:32,900 --> 00:06:38,050
+Y aquí lo tienes, esta es la fórmula de sustitución general.
+
+89
+00:06:38,250 --> 00:06:41,269
+Parece muy simple y también es muy útil.
+
+90
+00:06:41,471 --> 00:06:46,398
+Y tenga en cuenta que funciona en este contexto general completo.
+
+91
+00:06:46,599 --> 00:06:50,942
+Tenemos espacios abstractos medibles y en la integración
+
+92
+00:06:51,143 --> 00:06:53,964
+podemos cambiar entre ellos usando esta fórmula.
+
+93
+00:06:54,265 --> 00:06:59,195
+Por tanto, quiero cerrar este vídeo con un ejemplo muy concreto.
+
+94
+00:06:59,496 --> 00:07:04,036
+Bien, dibujemos de nuevo el lado izquierdo y el derecho.
+
+95
+00:07:04,344 --> 00:07:10,988
+Y en el medio, quiero tener una nueva aplicación mensurable, a la que llamaré F.
+
+96
+00:07:11,189 --> 00:07:15,233
+Está bien, queremos ser concretos, así que quiero tener
+
+97
+00:07:15,440 --> 00:07:18,255
+los números reales aquí con el σ-álgebra de Borel.
+
+98
+00:07:18,557 --> 00:07:21,479
+Y de hecho lo mismo en el lado derecho
+
+99
+00:07:21,781 --> 00:07:28,136
+La función F entre R y R debe ser estrictamente monótona creciente
+
+100
+00:07:28,338 --> 00:07:30,158
+y continuamente diferenciable.
+
+101
+00:07:30,459 --> 00:07:33,174
+En otras palabras, una función muy bonita.
+
+102
+00:07:33,476 --> 00:07:39,425
+La medida μ en el lado izquierdo que ahora quiero llamar μ índice F,
+
+103
+00:07:39,629 --> 00:07:43,065
+y debería definirse mediante la siguiente fórmula.
+
+104
+00:07:43,266 --> 00:07:48,818
+La medida del conjunto A viene dada por la integral sobre la derivada de F.
+
+105
+00:07:49,034 --> 00:07:52,755
+Entonces, esta es la medida normal de Lebesgue.
+
+106
+00:07:52,989 --> 00:07:57,730
+Tal vez te acuerdes, en otro video hablamos de Lebesgue ??? medidas,
+
+107
+00:07:58,032 --> 00:08:00,244
+y este es solo un caso especial de ellas.
+
+108
+00:08:00,647 --> 00:08:03,864
+Bien, la primera pregunta que queremos responder es
+
+109
+00:08:04,167 --> 00:08:08,292
+cuál es la medida de imagen asociada aquí en el lado derecho.
+
+110
+00:08:08,554 --> 00:08:13,887
+En otras palabras, cuál es la medida F * μF.
+
+111
+00:08:14,390 --> 00:08:20,747
+Entonces, tal vez mire la medida de los intervalos porque sabemos que esto es suficiente.
+
+112
+00:08:21,048 --> 00:08:25,172
+Ahora, por definición, esta es exactamente la medida
+
+113
+00:08:25,474 --> 00:08:28,292
+de la preimagen de este intervalo.
+
+114
+00:08:28,593 --> 00:08:32,131
+Ahora todo se vuelve más fácil si podemos escribir
+
+115
+00:08:32,343 --> 00:08:35,058
+las preimágenes como una auténtica función inversa.
+
+116
+00:08:35,460 --> 00:08:37,871
+No tenemos un problema de inyectividad,
+
+117
+00:08:38,072 --> 00:08:41,696
+pero quizás también debería agregar que necesitamos un ??? F.
+
+118
+00:08:41,999 --> 00:08:46,147
+Y ahora, debido a que también aumenta estrictamente de manera monotóna,
+
+119
+00:08:46,348 --> 00:08:49,366
+podemos reescribir esta preimagen como
+
+120
+00:08:49,567 --> 00:08:54,797
+el intervalo donde el lado izquierdo es el inverso de a.
+
+121
+00:08:55,099 --> 00:08:56,929
+Entonces, esta es de hecho ahora la función inversa.
+
+122
+00:08:57,131 --> 00:09:00,268
+Y, por supuesto, lo mismo en el lado derecho.
+
+123
+00:09:01,058 --> 00:09:05,396
+Ahora, el siguiente paso es simplemente usar la definición de nuestra medida μF,
+
+124
+00:09:05,900 --> 00:09:09,734
+donde podríamos escribirla como una integral de Riemann normal,
+
+125
+00:09:10,036 --> 00:09:11,746
+entre el límite superior y el inferior.
+
+126
+00:09:12,148 --> 00:09:14,964
+Y tenemos que integrar la derivada.
+
+127
+00:09:15,266 --> 00:09:19,289
+Y aquí hemos alcanzado un nivel elemental porque eso es
+
+128
+00:09:19,491 --> 00:09:24,337
+una integral de Riemann normal donde podemos usar la regla habitual de sustitución.
+
+129
+00:09:24,739 --> 00:09:35,431
+Por ejemplo, podría ser y=F(x) y dy=F'(x) dx.
+
+130
+00:09:35,736 --> 00:09:38,249
+Y luego ponemos todo adentro.
+
+131
+00:09:38,551 --> 00:09:44,083
+Y luego sacamos la integral desde a hasta b, sobre la función dy.
+
+132
+00:09:44,384 --> 00:09:51,447
+En otras palabras, obtenemos la medida de Lebesgue normal del intervalo dado.
+
+133
+00:09:51,924 --> 00:09:55,245
+De acuerdo, esto funciona para todos los intervalos y,
+
+134
+00:09:55,547 --> 00:09:57,861
+por lo tanto, también funciona para todos los conjuntos de Borel,
+
+135
+00:09:58,162 --> 00:10:01,178
+lo que simplemente significa que la medida de nuestra imagen
+
+136
+00:10:01,379 --> 00:10:03,391
+es igual a la medida de Lebesgue.
+
+137
+00:10:04,177 --> 00:10:09,425
+Y ahora quiero aplicar nuestra regla de sustitución general para este caso especial.
+
+138
+00:10:09,828 --> 00:10:13,556
+Bien, entonces esta es la fórmula general, aquí tenemos integración
+
+139
+00:10:13,757 --> 00:10:19,893
+sobre y con la medida de la imagen, y aquí integración sobre X con la medida habitual μ.
+
+140
+00:10:20,195 --> 00:10:25,445
+Bien, ahora en este caso especial podemos poner todo lo que ya sabemos.
+
+141
+00:10:25,746 --> 00:10:30,470
+Por ejemplo, Y es igual a R, por lo que la integración sobre R, se conoce g,
+
+142
+00:10:30,671 --> 00:10:35,094
+con una variable y, y esta medida imagen es solo la medida de Lebesgue,
+
+143
+00:10:35,497 --> 00:10:37,417
+por lo que podemos escribir dy.
+
+144
+00:10:37,723 --> 00:10:41,350
+Por otro lado, también podemos reescribir esto como
+
+145
+00:10:41,551 --> 00:10:47,888
+una integración sobre R, pero ahora ponemos F (x) en g.
+
+146
+00:10:48,190 --> 00:10:53,034
+Y ahora viene la integración con respecto a nuestra medida μ.
+
+147
+00:10:53,339 --> 00:10:57,062
+Pero ya sabemos que tiene una densidad de F ',
+
+148
+00:10:57,364 --> 00:11:01,997
+por lo que podemos escribir aquí F' (x) dx.
+
+149
+00:11:02,700 --> 00:11:09,054
+Y ahí lo tienes, este es la bien conocida, la común regla de sustitución unidimensional.
+
+150
+00:11:09,455 --> 00:11:14,082
+Esta es la fórmula que debe aprender cuando comience con el análisis y la integración.
+
+151
+00:11:14,587 --> 00:11:19,033
+En otras palabras, nuestra regla de sustitución abstracta
+
+152
+00:11:19,234 --> 00:11:23,460
+muy general contiene este caso muy especial e importante.
+
+153
+00:11:23,963 --> 00:11:26,981
+Bueno, creo que eso es suficiente por hoy,
+
+154
+00:11:27,182 --> 00:11:33,334
+Se verá en otros videos que usaremos la sustitución y la medida imagen muy a menudo.
+
+155
+00:11:33,635 --> 00:11:37,156
+Tal vez también podamos hablar de la prueba más adelante,
+
+156
+00:11:37,358 --> 00:11:39,786
+pero verá que es muy simple.
+
+157
+00:11:40,189 --> 00:11:46,129
+De acuerdo, espero verte en el próximo video y adiós.
+IMAGE MEASURE AND SUBSTITUTION FORMULA-TRADUCIDO JORGE IBÁÑEZ
+

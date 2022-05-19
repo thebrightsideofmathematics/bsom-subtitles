@@ -1,0 +1,254 @@
+1
+00:00:00,467 --> 00:00:04,691
+Hola y bienvenidos de nuevo al nuevo video sobre la teoría de la medida.
+
+2
+00:00:04,902 --> 00:00:09,458
+Y primero quiero dar las gracias a todos los buenos seguidores en el estudio
+
+3
+00:00:09,966 --> 00:00:16,473
+Extendiendo el último video quiero mostrarles aquí un ejemplo del principio de Cavalieri
+
+4
+00:00:17,185 --> 00:00:24,388
+Este debería ser un ejemplo comprensible y por lo tanto nos centramos en el volumen normal en R3
+
+5
+00:00:24,687 --> 00:00:27,659
+El ejemplo típico puede verse así
+
+6
+00:00:27,591 --> 00:00:31,763
+calcular el volumen de la pirámide con las siguientes esquinas
+
+7
+00:00:32,259 --> 00:00:37,900
+La palabra volumen aquí significa la medida de Lebesgue en R3
+
+8
+00:00:37,557 --> 00:00:49,459
+Y lo que también aprendiste en el último video es que obtienes esta medida de Lebesgue en R3 por una construcción de medida de producto que comienza con la medida de Lebesgue en R
+
+9
+00:00:49,486 --> 00:00:55,882
+Sin embargo, antes de hablar de esto, comencemos por visualizar la pirámide con un breve boceto
+
+10
+00:00:56,360 --> 00:01:03,091
+Aquí no es difícil ver que exactamente este punto (0,0,1) es la cima de la pirámide
+
+11
+00:01:03,392 --> 00:01:08,978
+y todos los otros puntos forman la base, este cuadrado de la pirámide
+
+12
+00:01:09,075 --> 00:01:16,884
+De una manera formal la pirámide se da como un subconjunto y se llama K ⊂ R³
+
+13
+00:01:16,778 --> 00:01:25,496
+Mirando nuestro boceto somos capaces de escribir una definición formal del conjunto K.
+
+14
+00:01:26,193 --> 00:01:32,996
+Es el conjunto de todos los puntos (x y z) en R³ cumpliendo las siguientes condiciones
+
+15
+00:01:34,762 --> 00:01:45,484
+Lo primero que vemos inmediatamente es que z se encuentra entre 0 y 1,por lo que podemos escribir 0 ≤ z ≤ 1
+
+16
+00:01:45,471 --> 00:01:52,497
+También podemos ver que los valores posibles para x, y dependen de este x.
+
+17
+00:01:52,899 --> 00:01:59,691
+Ahora bien, si pensamos acerca de, qué funciones describen estos planos aquí entonces usted encuentra
+
+18
+00:01:59,792 --> 00:02:08,589
+que la formulación está dada por el valor absoluto, esto |x| ≤ 1-z y lo mismo para y
+
+19
+00:02:08,686 --> 00:02:17,379
+Bien creo que aquí también otra visualización es apropiada, echemos un vistazo a la pirámide desde la parte superior
+
+20
+00:02:17,680 --> 00:02:23,774
+Luego podemos ver lo que sucede con los valores x e y, y para el valor z usamos diferentes colores
+
+21
+00:02:24,083 --> 00:02:32,500
+Por ejemplo aquí tenemos este cuadrado para la parte inferior que corresponde al valor z = 0
+
+22
+00:02:33,057 --> 00:02:40,761
+Esto es lo que llamamos curva de nivel. Sin embargo, si nos fijamos en una montaña real y el mapa, se llama  línea de contorno
+
+23
+00:02:41,167 --> 00:02:51,281
+Podemos hacer esto para diferentes niveles por ejemplo z = 1/4 sería esta línea aquí o este cuadrado, z = 1/2 sería este cuadrado
+
+24
+00:02:55,074 --> 00:03:07,096
+Y esta imagen en la parte superior de la pirámide es justo este punto que corresponde a z=1. Esta bonita foto nos muestra ahora qué hacer.
+
+25
+00:03:07,499 --> 00:03:15,299
+Porque sabemos cómo calcular la medida de los cuadrados aquí, lo que es el área de los cuadrados
+
+26
+00:03:15,501 --> 00:03:25,568
+y entonces el Principio de Cavalieri nos dice que tenemos que integrar todas estas medidas para obtener el volumen de la pirámide aquí
+
+27
+00:03:25,659 --> 00:03:32,164
+O en otras palabras, si llamamos a nuestra medida de Lebesgue en R³, μ
+
+28
+00:03:32,465 --> 00:03:40,371
+Entonces podemos utilizar nuestra construcción de la medida de los productos para ensanchar s. La medida del producto de μ1 y μ2
+
+29
+00:03:40,982 --> 00:03:47,465
+Aquí μ1 es la medida de Lebesgue en R,  la coordenada z
+
+30
+00:03:47,969 --> 00:03:55,568
+Y μ2 es la medida de Lebesgue en R2, coordenadas X e y juntas
+
+31
+00:03:56,274 --> 00:04:00,095
+En este punto podemos utilizar el principio de Cavalieri
+
+32
+00:04:00,297 --> 00:04:05,585
+que nos dice que el volumen de la pirámide, μ (K)
+
+33
+00:04:05,990 --> 00:04:10,374
+es igual a la integral sobre R
+
+34
+00:04:10,475 --> 00:04:16,469
+Este es el espacio donde vive μ1, por lo que integraremos con respecto a μ1
+
+35
+00:04:16,892 --> 00:04:20,283
+E integramos las medidas de estos cuadrados
+
+36
+00:04:20,605 --> 00:04:27,664
+lo que significa μ2 de los cuadrados y los llamamos M con índice z0
+
+37
+00:04:28,089 --> 00:04:32,267
+y por lo tanto integramos sobre la variable z0
+
+38
+00:04:32,093 --> 00:04:37,386
+Ahora si vuelves al último video donde expliqué el principio de Cavalieri
+
+39
+00:04:37,587 --> 00:04:45,889
+vemos que M z₀ son conjuntos que se definen en el espacio donde vive μ₂
+
+40
+00:04:46,194 --> 00:04:54,565
+Esto significa que en este caso solo tenemos ahora puntos con 2 variables x e y en R²
+
+41
+00:04:55,087 --> 00:05:05,864
+Estas son las secciones a través de la pirámide donde z se fija como  z₀ , por lo tanto, solo tenemos estas 2 condiciones aquí con  z₀ a la derecha
+
+42
+00:05:06,268 --> 00:05:10,795
+Y así es como tenemos nuestra M  z₀
+
+43
+00:05:11,197 --> 00:05:17,196
+Ahora deberíamos reconocer que estos son exactamente los cuadrados de antes
+
+44
+00:05:17,499 --> 00:05:24,591
+Por lo tanto no es ningún problema para nosotros calcular el área de tal cuadrado
+
+45
+00:05:24,993 --> 00:05:30,681
+La longitud de un lado está dada por 2 veces (1-z₀)
+
+46
+00:05:31,089 --> 00:05:40,396
+esta es exactamente la longitud que tenemos en la dirección x, y, por supuesto, es la misma en la dirección y, por lo tanto, podemos escribir esto como un cuadrado
+
+47
+00:05:40,698 --> 00:05:52,580
+Obviamente, esto solo tiene sentido si nuestra z₀ se elige entre 0 y 1, por lo que se encuentra en [0,1]
+
+48
+00:05:53,082 --> 00:06:01,596
+Por supuesto, esto se da en la definición de la pirámide: un punto se encuentra en la pirámide si el valor z se encuentra entre 0 y 1
+
+49
+00:06:01,999 --> 00:06:08,998
+y esto también es cómo se debe leer esta igualdad, solo tiene sentido para z entre 0 y 1
+
+50
+00:06:09,199 --> 00:06:13,571
+de lo contrario, deberíamos definir M Z as como el conjunto vacío
+
+51
+00:06:13,975 --> 00:06:19,762
+Está bien, así que no hay confusión aquí lo que normalmente haríamos es simplemente escribir
+
+52
+00:06:20,370 --> 00:06:24,868
+La integral restringida al intervalo [0,1]
+
+53
+00:06:24,954 --> 00:06:36,987
+Y entonces podemos copiar a la función aquí que es 4 (1-z) 2 . Y aquí μ1 z0.
+
+54
+00:06:37,672 --> 00:06:45,575
+Debido a que esto es sólo una integral unidimensional normal que esperamos a la medida de Lebesgue, podemos utilizar una notación más corta
+
+55
+00:06:46,079 --> 00:06:57,200
+Escribimos integral de 0 a 1, Copiamos de nuevo la función, y luego omitimos la medida μ y simplemente escribimos dz₀
+
+56
+00:06:57,758 --> 00:07:11,698
+Para calcular esta integral solo necesitamos integrar 4 ( -1/3 (1-z₀)³)
+
+57
+00:07:12,200 --> 00:07:15,975
+Y los límites son 0 y 1
+
+58
+00:07:17,088 --> 00:07:27,499
+La parte superior da 0 y la parte inferior, 0 aquí, da menos y menos, así que + 4/3
+
+59
+00:07:28,054 --> 00:07:34,967
+Y así es como se aplica el principio de Cavalieri para calcular el volumen de un cuerpo
+
+60
+00:07:35,678 --> 00:07:43,878
+Solo lo miramos y luego pensamos en cómo seccionarlo, de modo que podamos obtener una integral que podamos resolver
+
+61
+00:07:44,482 --> 00:07:53,579
+Un buen ejercicio sería ahora hacer exactamente lo mismo y calcular el volumen de la esfera en R3
+
+62
+00:07:53,981 --> 00:08:02,097
+Así que por favor intenten esto y después de ello estaréis preparado para usar el principio de Cavalieri también en otras situaciones
+
+63
+00:08:02,664 --> 00:08:08,261
+Bueno, entonces gracias por escuchar y nos vemos la próxima vez. ¡Adiós!
+Traducción y subtitulado: Jorge Ibáñez
+Vídeo: The Bright Side of Mathematics
+

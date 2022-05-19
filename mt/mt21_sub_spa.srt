@@ -1,0 +1,582 @@
+1
+00:00:00,000 --> 00:00:03,779
+Hola y bienvenidos de nuevo a la teoría de la medida.
+
+2
+00:00:03,389 --> 00:00:07,298
+Como siempre, quiero agradecer a todos los buenos seguidores que me apoyan en Steady.
+
+3
+00:00:07,549 --> 00:00:11,784
+Hoy continuamos con las medidas externas, a saber, la parte 2.
+
+4
+00:00:12,151 --> 00:00:14,416
+quiero mostraros algunos ejemplos
+
+5
+00:00:14,799 --> 00:00:20,328
+Tal vez sea una buena idea para empezar reformular las propiedades de una medida externa
+
+6
+00:00:20,260 --> 00:00:27,052
+Siempre llamamos φ a la aplicación y parte del conjunto de partes de un conjunto dado X
+
+7
+00:00:27,333 --> 00:00:33,170
+y los valores eran los números no negativos, donde incluimos un símbolo infinito como siempre.
+
+8
+00:00:33,703 --> 00:00:40,894
+Dicha aplicación φ se denomina medida exterior si satisface estas 3 propiedades, a saber
+
+9
+00:00:41,156 --> 00:00:46,078
+envía el conjunto vacío a 0, es monótono y σ-subaditivo
+
+10
+00:00:46,231 --> 00:00:51,175
+Lo discutimos la última vez, así que podemos comenzar de inmediato con los ejemplos.
+
+11
+00:00:51,534 --> 00:00:57,507
+Quiero mostraros aquí 3 ejemplos, donde el último es el importante.
+
+12
+00:00:57,744 --> 00:00:59,843
+pero comencemos con 2 ejemplos simples
+
+13
+00:01:00,113 --> 00:01:05,551
+Un buen punto de partida sería elegir los números reales como nuestro conjunto X
+
+14
+00:01:05,523 --> 00:01:10,958
+Y luego definamos una medida exterior, donde establecemos la primera propiedad inmediatamente
+
+15
+00:01:10,989 --> 00:01:16,896
+lo que significa que lo definimos como 0 si el conjunto A es el conjunto vacío
+
+16
+00:01:16,996 --> 00:01:23,983
+Y en el caso de que A no sea el conjunto vacío, decimos que es uno
+
+17
+00:01:23,983 --> 00:01:28,677
+Esta simple definición nos da inmediatamente una medida externa.
+
+18
+00:01:29,075 --> 00:01:36,549
+Podéis ver que las 3 propiedades se cumplen. En el primero del que ya hablamos, la monotonía no es problema
+
+19
+00:01:36,916 --> 00:01:45,288
+porque siempre sacas uno, entonces si tienes subconjuntos también sacas uno en ambos lados, entonces la desigualdad se cumple
+
+20
+00:01:45,418 --> 00:01:50,115
+y lo mismo para la σ-subaditividad, si miramos el lado izquierdo
+
+21
+00:01:50,283 --> 00:01:56,401
+tenemos el uno, y en el lado derecho, los unos sumarían, por lo que se cumple la desigualdad.
+
+22
+00:01:56,668 --> 00:02:05,172
+Este es un ejemplo simple pero bueno, porque obtenemos una medida externa que no es una medida ordinaria.
+
+23
+00:02:06,101 --> 00:02:12,489
+Este también se ve de inmediato, no tenemos la σ-aditividad, así que sin suma
+
+24
+00:02:12,855 --> 00:02:19,376
+Con el mismo razonamiento que antes, en el lado derecho sumamos unos, y en el lado izquierdo no los sumamos
+
+25
+00:02:19,525 --> 00:02:23,790
+y sin la σ-aditividad, no tenemos una medida
+
+26
+00:02:24,156 --> 00:02:32,865
+Ahora, el siguiente ejemplo tampoco es difícil, ahora usemos en lugar de A los números naturales como conjunto X.
+
+27
+00:02:33,135 --> 00:02:43,831
+La definición ahora es la siguiente:en el caso de que A sea un conjunto finito quiero contar los elementos y lo denoto con las barras
+
+28
+00:02:44,201 --> 00:02:48,365
+Esto es lo que llamamos cardinalidad del conjunto.
+
+29
+00:02:48,690 --> 00:02:56,340
+Y ahora, en el caso de que el conjunto A no sea finito, usamos, por supuesto, nuestro bonito símbolo ∞
+
+30
+00:02:56,874 --> 00:03:03,105
+Y esto nos da nuevamente una medida externa. Eso no es difícil de comprobar porque
+
+31
+00:03:03,105 --> 00:03:07,539
+solo contamos elementos para que todas las cosas aquí se cumplan de inmediato.
+
+32
+00:03:07,971 --> 00:03:14,309
+De hecho, también reconocemos que esta aplicación es σ-aditiva, por lo que en realidad es una medida ordinaria
+
+33
+00:03:14,577 --> 00:03:19,154
+Esto es importante porque esta aplicación es la famosa medida de conteo.
+
+34
+00:03:19,425 --> 00:03:25,611
+El nombre dice qué hacer: contar elementos. Y de hecho este es muy importante
+
+35
+00:03:25,976 --> 00:03:31,386
+porque la integración con respecto a esta medida te da sumas de series y medidas normales
+
+36
+00:03:31,719 --> 00:03:39,840
+De acuerdo, no queremos hablar de medidas ordinarias aquí, así que vayamos a nuestro importante ejemplo 3.
+
+37
+00:03:40,076 --> 00:03:45,051
+Quizás ya lo adivinásteis: debería tener algo que ver con la medida de Lebesgue.
+
+38
+00:03:45,425 --> 00:03:53,386
+El mejor punto de partida para eso es la medida de Lebesgue unidimensional, la medida que usamos para medir longitudes normales
+
+39
+00:03:53,407 --> 00:03:58,002
+Ya lo sabeis, para los intervalos podemos anotar la longitud inmediatamente.
+
+40
+00:03:58,136 --> 00:04:02,773
+por lo tanto, consideramos aquí el conjunto de todos estos intervalos acotados
+
+41
+00:04:03,020 --> 00:04:09,426
+Quiero usar un buen nombre para este conjunto, por lo que elijo esta I cursiva.
+
+42
+00:04:09,809 --> 00:04:20,637
+Para la longitud de dicho intervalo, simplemente usamos una función que llamamos μ, por lo que μ de tal intervalo está dado por b - a
+
+43
+00:04:21,098 --> 00:04:25,433
+Por supuesto, esto es lo que llamamos "longitud normal" de un intervalo.
+
+44
+00:04:25,867 --> 00:04:34,969
+Ahora, si miramos el teorema de extensión de Carathéodory, vemos que esto es lo que llamábamos un semianillo de conjuntos
+
+45
+00:04:35,198 --> 00:04:37,906
+y la función μ era una premedida
+
+46
+00:04:38,289 --> 00:04:43,843
+Además, también recuerda que queremos medir más conjuntos que solo intervalos.
+
+47
+00:04:43,973 --> 00:04:50,395
+y si queremos medir todos los conjuntos, esto nos lleva al conjunto de partes del conjunto y, por tanto, a la medida exterior
+
+48
+00:04:50,526 --> 00:04:56,547
+Por lo tanto, definimos nuestro φ en el conjunto de partes de R
+
+49
+00:04:56,790 --> 00:05:01,250
+Sin embargo, este es un poco más complicado que antes.
+
+50
+00:05:01,518 --> 00:05:10,832
+Si ahora queremos definir una longitud unidimensional para un subconjunto arbitrario de R al que llamamos A, podemos usar nuestros intervalos
+
+51
+00:05:10,810 --> 00:05:18,118
+Más concretamente, para un conjunto A podemos elegir intervalos, llamémoslos Ij
+
+52
+00:05:18,384 --> 00:05:24,310
+y ahora podemos cubrir todo el conjunto observando la unión de todos estos intervalos
+
+53
+00:05:24,667 --> 00:05:29,838
+Así es como cubrimos el conjunto con los intervalos, por lo que aquí tenemos una relación de subconjunto.
+
+54
+00:05:30,215 --> 00:05:37,437
+Entonces, tal vez una pequeña imagen para esto, así que imagina el conjunto verde como A, por lo que es un subconjunto de la recta real.
+
+55
+00:05:37,674 --> 00:05:49,913
+y ahora podemos elegir algunos intervalos, por lo que aquí sería I1, y aquí podría elegir I2 ... y así sucesivamente hasta llegar aquí a  I6.
+
+56
+00:05:50,144 --> 00:05:56,111
+En este ejemplo cubrimos todo el conjunto A con solo 6 intervalos.
+
+57
+00:05:56,501 --> 00:06:06,171
+por lo tanto, completaríamos I7, I8 ... y así sucesivamente con el conjunto vacío, por lo que solo elegimos el intervalo vacío de estos conjuntos.
+
+58
+00:06:06,440 --> 00:06:11,348
+Y luego todavía podemos escribir esto como esta unión contable de intervalos
+
+59
+00:06:11,838 --> 00:06:20,659
+Sin embargo, puede imaginarse, en el caso de que A se extienda hasta el infinito, realmente necesitamos una cantidad infinita de intervalos para cubrir A
+
+60
+00:06:21,358 --> 00:06:25,383
+Aún así, la parte importante es que solo elegimos muchos intervalos contables
+
+61
+00:06:25,768 --> 00:06:33,519
+Ahora, para obtener la longitud de A, podríamos sumar todas las longitudes de estos intervalos.
+
+62
+00:06:33,786 --> 00:06:42,537
+Tened en cuenta que podemos poner Ij en la función μ, pero en general, no podemos hacer eso para A.
+
+63
+00:06:42,803 --> 00:06:50,720
+Por lo tanto, esta es una buena sustitución de la longitud de A, solo porque en la imagen que vemos nos da
+
+64
+00:06:51,581 --> 00:06:54,601
+un límite superior para algo que llamaríamos la longitud real de A
+
+65
+00:06:55,235 --> 00:07:01,963
+Por supuesto, una idea sería mirar todos los intervalos que cubren A, y luego calcular esta longitud
+
+66
+00:07:01,984 --> 00:07:07,010
+En otras palabras, miramos el conjunto de todos los valores posibles.
+
+67
+00:07:07,750 --> 00:07:16,134
+Por lo tanto, la condición aquí es que elegimos intervalos Ij donde j va de uno a infinito, desde nuestra curva I
+
+68
+00:07:16,398 --> 00:07:21,300
+Y, por supuesto, la propiedad de que estos intervalos cubren la totalidad de A
+
+69
+00:07:21,543 --> 00:07:32,538
+Ahora tenemos todo este conjunto de números y ya sabemos que este número se hace cada vez más pequeño si elegimos intervalos que se ajustan mejor y mejor a nuestro conjunto A
+
+70
+00:07:32,766 --> 00:07:38,924
+Y en este proceso de límite llegamos a un número que llamaríamos longitud de A
+
+71
+00:07:39,188 --> 00:07:43,559
+y por supuesto llegamos a ese número usando el infimo.
+
+72
+00:07:43,792 --> 00:07:48,119
+Y esa es ahora toda la definición completa de φ (A)
+
+73
+00:07:48,349 --> 00:07:58,222
+Y ahora se ve de dónde viene el nombre de medida exterior, porque en la imagen y en la definición esto es claramente una aproximación desde el exterior.
+
+74
+00:07:58,582 --> 00:08:06,750
+Elegimos conjuntos más grandes que podemos medir desde el exterior y los encogemos para obtener un número para A
+
+75
+00:08:06,974 --> 00:08:12,625
+Nuestro resultado aquí es que ahora también este φ es una medida externa
+
+76
+00:08:12,855 --> 00:08:19,277
+Esto lo podemos ver de inmediato, usaré el resto de este video para mostrar exactamente esto
+
+77
+00:08:19,404 --> 00:08:27,757
+Hacemos esto con todo detalle porque, como puede ver, todo va en la dirección del teorema de extensión de Carathéodory
+
+78
+00:08:28,093 --> 00:08:36,525
+Entonces, comencemos aquí verificando las 3 propiedades de una medida externa, y las llamamos (a), (b), (c), así que comencemos con (a)
+
+79
+00:08:36,900 --> 00:08:42,114
+Este dice que el conjunto vacío se asigna a 0.
+
+80
+00:08:42,474 --> 00:08:50,582
+Aquí no tenemos que escribir nada porque se ve inmediatamente, podemos elegir intervalos vacíos como nuestro cubrimiento.
+
+81
+00:08:50,717 --> 00:08:57,087
+O elegimos un intervalo y lo reducimos a un punto y se obtiene longitud 0
+
+82
+00:08:57,357 --> 00:09:02,306
+Mucho más interesante ver la segunda propiedad la monotonicidad (b)
+
+83
+00:09:02,543 --> 00:09:07,155
+aquí elegimos dos conjuntos, donde uno es un subconjunto del otro.
+
+84
+00:09:07,402 --> 00:09:17,162
+Aquí he escrito la definición de φ(B), es nuevamente el ínfimo de estas longitudes, donde elegimos intervalos que cubren ahora el conjunto B
+
+85
+00:09:17,523 --> 00:09:23,085
+sin embargo, sabemos que B es más grande que A, un superconjunto de A
+
+86
+00:09:23,317 --> 00:09:29,096
+Lo que significa que estos intervalos también cubrien el conjunto A
+
+87
+00:09:29,896 --> 00:09:38,621
+Esto significa que si miramos todos los intervalos posibles que cubren A, entonces sabemos que tenemos más intervalos aquí que aquí.
+
+88
+00:09:38,871 --> 00:09:47,794
+Y debido a que aquí solo agregamos intervalos, sabemos que el ínfimo no puede aumentar: solo se hace más pequeño o permanece igual
+
+89
+00:09:48,199 --> 00:09:55,320
+Y con esto tenemos todo lo que queremos, porque aquí tenemos la definición de φ(A)
+
+90
+00:09:55,569 --> 00:10:02,081
+Y luego vemos la monotonicidad: φ(B) es de hecho mayor o igual que φ(A)
+
+91
+00:10:02,345 --> 00:10:07,592
+De acuerdo, eso fue la parte (b), ahora vayamos a la σ-subaditividad.
+
+92
+00:10:08,092 --> 00:10:15,225
+Ahora llamamos a lo que queremos mostrar como φ de la unión de algunos subconjuntos An
+
+93
+00:10:15,295 --> 00:10:22,112
+esto es menor o igual que si miramos la serie de suma de φ (An)
+
+94
+00:10:22,454 --> 00:10:25,813
+Inmediatamente vemos 2 casos diferentes aquí.
+
+95
+00:10:26,046 --> 00:10:31,056
+el primer caso sería que al menos uno de estos φ(An) es infinito.
+
+96
+00:10:31,551 --> 00:10:35,512
+Lo que significa que tenemos una longitud infinita de uno de los conjuntos.
+
+97
+00:10:36,031 --> 00:10:42,215
+Sin embargo, esto simplemente significa que en el lado derecho siempre tenemos infinito y luego
+
+98
+00:10:42,349 --> 00:10:45,888
+la desigualdad siempre se cumple, no tenemos que mostrar nada entonces
+
+99
+00:10:46,289 --> 00:10:53,184
+Por lo tanto, el único caso en el que realmente tenemos que trabajar es el caso en el que todos estos φ(An) son finitos
+
+100
+00:10:53,685 --> 00:11:00,677
+El único problema que veo como prueba aquí es el ínfimo en la definición de φ(B)
+
+101
+00:11:00,923 --> 00:11:05,679
+podemos deshacernos de esto si usamos un número arbitrariamente pequeño épsilon (ε)
+
+102
+00:11:06,185 --> 00:11:13,218
+Y para deshacernos de todos los ínfimos aquí tenemos que elegir un εn y para todos los diferentes An aquí.
+
+103
+00:11:13,693 --> 00:11:21,311
+Y quiero elegirlos tan pequeños que la suma de todos los εn nos devuelva nuestro ε
+
+104
+00:11:21,561 --> 00:11:29,348
+Por supuesto, esto es razonable y también siempre posible, pero la razón por la que es importante la veremos más adelante en la prueba.
+
+105
+00:11:29,730 --> 00:11:33,132
+Entonces veamos la longitud de un An
+
+106
+00:11:33,488 --> 00:11:39,087
+Sabemos que podemos aproximarnos a eso con la longitud de los intervalos
+
+107
+00:11:38,459 --> 00:11:45,830
+Lo que significa que podemos elegir algunos intervalos aquí, pero, por supuesto, ahora tenemos An diferentes, por lo que necesitamos
+
+108
+00:11:45,958 --> 00:11:50,985
+un segundo índice, así que lo llamaría Ij,n en el índice
+
+109
+00:11:51,220 --> 00:12:02,683
+Aproximación desde el exterior ahora significa que esta es la suma de las longitudes de estos intervalos, así que tengamos en cuenta que aquí "n" es fijo.
+
+110
+00:12:03,187 --> 00:12:10,402
+Ahora espero que hayais visto que esto no puede ser del todo correcto, no tenemos un signo de igualdad aquí.
+
+111
+00:12:10,654 --> 00:12:21,015
+Simplemente porque, por definición, la longitud de An viene dada por el ínfimo, por lo que el lado izquierdo sería, en general, más pequeño que el lado derecho.
+
+112
+00:12:21,414 --> 00:12:25,415
+Sin embargo, lo que sabemos es que podemos acercarnos tanto como queramos
+
+113
+00:12:26,639 --> 00:12:35,755
+lo que significa que ahora entra nuestro ε, entonces -εn nos lleva a algo más pequeño en el lado derecho, por lo que tenemos esta desigualdad
+
+114
+00:12:36,119 --> 00:12:41,810
+Esto viene dado simplemente por la propiedad de que el ínfimo es la cota inferior más grande
+
+115
+00:12:42,083 --> 00:12:48,147
+Bueno, y por supuesto, queremos la otro cosa de los intervalos para cubrir todo el conjunto An
+
+116
+00:12:48,374 --> 00:12:56,399
+Ahora tenemos todo lo que necesitamos de la definición de φ(An) tal que ahora podemos mirar la unión en el lado izquierdo
+
+117
+00:12:56,655 --> 00:13:02,987
+Para la unión de los An también tenemos un cubrimiento porque la tenemos para cada An
+
+118
+00:13:03,125 --> 00:13:09,095
+En el lado derecho aquí podeis ver una unión numerable de intervalos
+
+119
+00:13:09,029 --> 00:13:10,892
+No es un problema si ponemos los dos índices aquí.
+
+120
+00:13:11,121 --> 00:13:14,552
+Por ejemplo, de forma breve, podríamos escribirlo así
+
+121
+00:13:14,689 --> 00:13:21,448
+Así que, por favor, no olvideis lo que queremos mostrar, queremos mostrar la desigualdad aquí, así que tenemos que mirar φ de esta unión.
+
+122
+00:13:21,716 --> 00:13:26,719
+Por supuesto que podemos usar lo que ya hemos mostrado, es decir, la monotonicidad
+
+123
+00:13:26,948 --> 00:13:39,679
+Aquí podeis ver que tenemos un superconjunto de la unión, por lo tanto, la monotonicidad nos dice que podemos usar la desigualdad y escribir en el lado derecho φ de este conjunto.
+
+124
+00:13:39,780 --> 00:13:44,756
+Y luego ahora tenemos la medida exterior de la unión de intervalos
+
+125
+00:13:44,981 --> 00:13:50,509
+En otras palabras, nos aproximamos desde los intervalos exteriores con intervalos.
+
+126
+00:13:50,768 --> 00:13:57,672
+Por lo tanto, ya sabemos que sacamos aquí la suma de las longitudes de estos intervalos.
+
+127
+00:13:57,938 --> 00:14:04,797
+Sin embargo, no sabemos si esto es realmente el ínfimo porque podrían ser mejores intervalos.
+
+128
+00:14:04,556 --> 00:14:10,165
+si hay alguna superposición, podeis imaginar que podría elegir otros intervalos que se aproximen mejor a las longitudes
+
+129
+00:14:10,322 --> 00:14:14,848
+pero esto no es un problema porque sabemos que tenemos al menos desigualdad
+
+130
+00:14:15,000 --> 00:14:27,196
+Ahora en el lado derecho tenemos que sumar con 2 índices, yo diría que los separamos nuevamente, así que en el exterior la suma sobre n, y en el interior sobre j
+
+131
+00:14:27,464 --> 00:14:35,970
+Hacemos esto porque para la suma interna ya tenemos una estimación desde el principio, así es como hemos elegido los intervalos.
+
+132
+00:14:36,084 --> 00:14:42,930
+En realidad, esta es la razón por la que hemos introducido el εn, porque tenemos este cálculo aquí.
+
+133
+00:14:43,161 --> 00:14:51,012
+Ahora, con nuestra desigualdad aquí, obtenemos la suma interna φ(An) + εn
+
+134
+00:14:51,278 --> 00:15:00,799
+Ahora casi hemos terminado, porque lo que tenemos en el lado derecho aquí es la suma sobre el φ(An)
+
+135
+00:15:00,913 --> 00:15:06,194
+más la suma sobre el εn, y sabemos que hemos elegido el εn de tal manera
+
+136
+00:15:06,352 --> 00:15:11,159
+que suman ε, por lo que tenemos aquí el ε restante
+
+137
+00:15:11,271 --> 00:15:21,155
+Ahora, si leeis esto, veis que nuestra desigualdad que queríamos mostrar, se mantiene con la excepción de un pequeño error ε
+
+138
+00:15:21,275 --> 00:15:26,642
+Sin embargo, este ε se eligió arbitrariamente desde el principio.
+
+139
+00:15:26,753 --> 00:15:37,124
+Esto significa que podemos elegir el error tan pequeño como queramos, y entonces no queda ninguna otra posibilidad de que la desigualdad se mantenga con nuestro error.
+
+140
+00:15:37,265 --> 00:15:43,853
+Y con esto la demostración está terminada, hemos demostrado que φ es de hecho una medida externa.
+
+141
+00:15:44,082 --> 00:15:55,604
+Además puedo deciros que en el caso de que no querais calcular solo las longitudes, sino las áreas de agua, o en general, los volúmenes n-dimensionales,
+
+142
+00:15:55,609 --> 00:16:00,710
+Podeis usar una definición similar para φ y hacer también una demostración similar de esta manera.
+
+143
+00:16:00,963 --> 00:16:07,493
+Y aquí se puede ver que estamos en camino para la construcción de la medida de Lebesgue n-dimensional.
+
+144
+00:16:07,611 --> 00:16:12,430
+De acuerdo, eso es suficiente por hoy, continuaremos nuestro viaje en el próximo video
+
+145
+00:16:12,552 --> 00:16:16,333
+así que gracias por escucharnos y nos vemos la próxima vez. ¡Adiós!
+Traducción Jorge Ibáñez
+The Bright Side of Mathematics Part 2 Examples Measure Theory Part21
+

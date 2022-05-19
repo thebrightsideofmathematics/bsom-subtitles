@@ -1,0 +1,371 @@
+1
+00:00:00,260 --> 00:00:06,029
+Hola y bienvenido a un nuevo video sobre la teoría de la medida, y como siempre quiero empezar
+
+2
+00:00:06,029 --> 00:00:11,820
+por agradecer a todas las personas que apoyan este canal en Steady.
+
+3
+00:00:11,820 --> 00:00:17,010
+El tema de hoy es el muy importante teorema de Fubini, este es probablemente una de las 
+4
+00:00:17,010 --> 00:00:22,340
+herramientas más usadas cuando tratamos con integrales o cuando deseamos calcular integrales.
+
+4
+00:00:22,340 --> 00:00:27,570
+De hecho, es una generalización del principio de Cavalieri, que ya discutimos en otros vídeos.
+
+5
+00:00:27,570 --> 00:00:33,780
+Por lo tanto, recuerda lo que ya consideramos entonces, teníamos
+
+6
+00:00:33,780 --> 00:00:39,989
+dos espacios de medida X1 y X2 y luego formábamos un nuevo espacio de medida con el producto cartesiano.
+
+7
+00:00:39,989 --> 00:00:47,039
+Y la medida μ aquí se llama nuestra medida producto.
+
+8
+00:00:47,039 --> 00:00:51,539
+Ahora, si vuelve a mirar el esbozo de nuevo, recuerda que la medida producto cumple
+
+9
+00:00:51,539 --> 00:00:57,390
+la siguiente regla, y recuerda también que hay exactamente una medida
+
+10
+00:00:57,390 --> 00:01:06,479
+con esta regla si las dos medidas μ1, μ2 son σ-finitas.
+
+11
+00:01:06,479 --> 00:01:11,760
+Sabiendo esto, puedes formular inmediatamente el teorema de Fubini. Comencemos con las suposiciones
+
+12
+00:01:11,760 --> 00:01:16,530
+como prometimos, nuestras medidas deben ser σ-finitas y la medida del producto es
+
+13
+00:01:16,530 --> 00:01:23,880
+denotada por μ y ahora también consideramos una función f dentro de este producto cartesiano.
+
+14
+00:01:23,880 --> 00:01:29,790
+Como siempre, comenzamos por considerar funciones no negativas, donde
+
+15
+00:01:29,790 --> 00:01:36,270
+también permitimos el símbolo infinito. Naturalmente, esta aplicación debe ser medible
+
+16
+00:01:36,270 --> 00:01:43,170
+con respecto a esta σ-álgebra aquí y la σ-álgebra de Borel aquí en la derecha.
+
+17
+00:01:43,170 --> 00:01:50,060
+Entonces podemos mirar la integral de esta función y encontrar lo siguiente.
+
+18
+00:01:50,060 --> 00:01:55,770
+Es decir, podemos calcular la integral con respecto al producto cartesiano aquí de manera iterativa.
+
+19
+00:01:55,770 --> 00:02:02,070
+Esto significa que primero calculamos una integral
+
+20
+00:02:02,070 --> 00:02:08,340
+con respecto a la medida μ1, por lo tanto, tenemos una integral con x1 y aquí
+
+21
+00:02:08,340 --> 00:02:13,440
+tengo la función f pero ahora necesitamos variables, así que elijo una x minúscula
+
+22
+00:02:13,440 --> 00:02:20,040
+y una y minúscula, de manera que es una integral con respecto a μ1 y la primera variable x minúscula.
+
+23
+00:02:20,040 --> 00:02:26,820
+En otras palabras, esto es una integral aquí en el espacio verde.
+
+24
+00:02:26,820 --> 00:02:33,600
+Siguiente paso, sumamos todas las posibles integrales de esta forma en la dirección roja.
+
+25
+00:02:33,600 --> 00:02:39,600
+Lo que ahora significa que tenemos dos integrales con respecto a x2 de
+
+26
+00:02:39,600 --> 00:02:46,500
+todas estas integrales y también con respecto a nuestra medida 2 y con
+
+27
+00:02:46,500 --> 00:02:52,950
+respecto a la y minúscula además, en el otro
+
+28
+00:02:52,950 --> 00:02:58,590
+orden da el mismo resultado, lo que significa que primero en la parte interior
+
+29
+00:02:58,590 --> 00:03:06,710
+integramos con respecto a x2 y luego integramos con respecto a x1 μ1.
+
+30
+00:03:06,710 --> 00:03:15,570
+Eso es  el teorema de Fubini. Esencialmente nos dice que calcular una integral
+
+31
+00:03:15,570 --> 00:03:20,580
+con respecto a la medida producto no es más difícil que calcular
+
+32
+00:03:20,580 --> 00:03:25,739
+integrales con respecto a las medidas originales, así que ahora tal vez también estés
+
+33
+00:03:25,739 --> 00:03:31,440
+interesado en calcular integrales de funciones además de las no negativas.
+
+34
+00:03:31,440 --> 00:03:37,050
+Y de hecho, este teorema también es válido para funciones que son
+
+35
+00:03:37,050 --> 00:03:42,570
+integrables con respecto a la medida del producto, esto significa que el símbolo aquí
+
+36
+00:03:42,570 --> 00:03:50,160
+está bien definido y tiene un valor finito o, en otras palabras, nuestra f se encuentra en la curva L¹,
+
+37
+00:03:50,160 --> 00:03:58,019
+una de nuestras medidas producto. En este caso uno tiene que definir estas integrales aquí
+
+38
+00:03:58,019 --> 00:04:02,160
+de la manera correcta, pero básicamente todo parece
+
+39
+00:04:02,160 --> 00:04:07,800
+lo mismo y funciona igual, naturalmente, ahora quiero darte una aplicación
+
+40
+00:04:07,800 --> 00:04:14,190
+y un ejemplo sencillo del teorema de Fubini. Aquí quiero que μ sea
+
+41
+00:04:14,190 --> 00:04:20,100
+la medida de Lebesgue bidimensional, lo que significa que es la medida producto de
+
+42
+00:04:20,100 --> 00:04:24,330
+dos medidas de Lebesgue de una dimensión. Ahora queremos calcular
+
+43
+00:04:24,330 --> 00:04:33,419
+una integral en dos dimensiones para el conjunto A y una función f. Aquí A debería ser un subconjunto
+
+44
+00:04:33,419 --> 00:04:39,300
+de R² y, de hecho, quería ser un subconjunto del cuadrado unitario
+
+45
+00:04:39,300 --> 00:04:45,900
+además, quiero la propiedad de que Y siempre está entre x y x^2.
+
+46
+00:04:45,900 --> 00:04:51,060
+Ahí les puedo dar una linda foto en dos dimensiones, aquí tenemos la línea X
+
+47
+00:04:51,060 --> 00:04:57,870
+y luego tenemos la parábola x al cuadrado, queremos todos los puntos intermedios, así que
+
+48
+00:04:57,870 --> 00:05:04,350
+este es nuestro conjunto A, y para la función f, elijo una función fácil que podría
+
+49
+00:05:04,350 --> 00:05:12,770
+ser tan sólo 2·x·y, y ahora estamos listos para comenzar el cálculo.
+
+50
+00:05:12,770 --> 00:05:19,410
+La integral que nos interesa aquí la podemos reescribir como una integral sobre R², cuando
+
+51
+00:05:19,410 --> 00:05:25,139
+ponemos la función característica de A en el interior de la integral, por lo que esto es solo
+
+52
+00:05:25,139 --> 00:05:29,729
+la característica o la función indicadora. Lo que obtenemos ahora es una
+
+53
+00:05:29,729 --> 00:05:35,850
+función no negativa y R² aquí, por lo que podemos aplicar el teorema de Fubini.
+
+54
+00:05:35,850 --> 00:05:41,729
+Nos dice que podemos escribir esto como dos integrales unidimensionales y
+
+55
+00:05:41,729 --> 00:05:46,800
+vemos inmediatamente la ventaja de esto, porque ya sabemos cómo calcular integrales de una dimensión.
+
+56
+00:05:46,800 --> 00:05:52,740
+La única pregunta que queda es cuál es el mejor orden que podemos
+
+57
+00:05:52,740 --> 00:05:57,810
+elegir para el teorema de Fubini, y pronto veremos que es mejor primero
+
+58
+00:05:57,810 --> 00:06:03,060
+integrar con respecto a Y, y como no tenemos otros espacios de medida que no sean el de Lebesgue,
+
+59
+00:06:03,060 --> 00:06:08,160
+entonces no hay confusión aquí y luego
+
+60
+00:06:08,160 --> 00:06:16,289
+ya integramos sobre X. Y la única función que permanece dentro es solo 2·x·y y
+
+61
+00:06:16,289 --> 00:06:23,120
+luego integramos con respecto a Y y luego la parte exterior con respecto a X.
+
+62
+00:06:23,389 --> 00:06:29,270
+Ahora, si miras a A, ves que podemos elegir X y luego tenemos
+
+63
+00:06:29,270 --> 00:06:35,909
+una correspondencia para y, sin embargo, esto simplemente significa que podemos elegir X como queramos
+
+64
+00:06:35,909 --> 00:06:40,889
+es decir, entre 0 y 1, por lo que tenemos el intervalo 0, 1 aquí, pero
+
+65
+00:06:40,889 --> 00:06:47,909
+eso lo podemos escribir como 0,1 en la integral. Como ahora sabemos que y tiene que estar entre x²
+
+66
+00:06:47,909 --> 00:06:54,419
+y x, se encuentra en el intervalo x²,x. Entonces podemos escribir aquí x² y allí x.
+
+67
+00:06:54,419 --> 00:07:01,319
+Y aquí ves por qué fue útil elegir este orden aquí porque
+
+68
+00:07:01,319 --> 00:07:09,150
+la correspondencia para Y ya estaba aquí, dado X ya sabíamos qué
+
+69
+00:07:09,150 --> 00:07:14,270
+valores podría tener y. De al revés, primero tenemos que calcular,
+
+70
+00:07:14,270 --> 00:07:19,919
+por lo tanto, elegimos este orden. Ahora para el cálculo, lo que siempre se debe
+
+71
+00:07:19,919 --> 00:07:25,020
+hacer es extraer todos los factores, por lo que tenemos aquí el factor 2, pero en el interior
+
+72
+00:07:25,020 --> 00:07:32,009
+de la integral también el factor x, por lo que lo que queda dentro es solo integral para la
+
+73
+00:07:32,009 --> 00:07:40,169
+función y dy. Y aquí dx. Y ahora llegamos al objetivo, porque aquí hay solo una
+
+74
+00:07:40,169 --> 00:07:45,409
+integral normal unidimensional que podemos resolver usando una antiderivada.
+
+75
+00:07:45,409 --> 00:07:52,560
+Es solo 1/2 *y² y luego puedes poner los límites, esto no es tan difícil
+
+76
+00:07:52,560 --> 00:07:57,509
+y luego lo que queda es solo la integral que tenemos que resolver al final.
+
+77
+00:07:57,509 --> 00:08:06,779
+que está aquí, (x³-x⁵)dx, por supuesto, lo resuelves
+
+78
+00:08:06,779 --> 00:08:10,949
+de la misma manera, elijo una antiderivada y luego pongo los límites por lo que lo que obtengo
+
+79
+00:08:10,949 --> 00:08:18,930
+es 1/12.
+
+80
+00:08:18,930 --> 00:08:25,139
+Y eso es todo para este ejemplo que muestra el Teorema de Fubini en acción.
+
+81
+00:08:25,139 --> 00:08:32,159
+Sin embargo; por favor recuerda que Fubini nos dice que estas dos formas de aquí son posibles, por lo tanto
+
+82
+00:08:32,159 --> 00:08:36,089
+para todos los problemas con los que tenga que lidiar o donde tenga que
+
+83
+00:08:36,089 --> 00:08:42,120
+calcular integrales, siempre mira cuál es el mejor camino.
+
+84
+00:08:42,120 --> 00:08:47,329
+Puede suceder que no tengas ninguna posibilidad de una forma, pero que  la otra forma sea muy simple.
+
+85
+00:08:47,329 --> 00:08:52,800
+Lo que también se ve aquí es que se puede aplicar el Teorema de Fubini tan a menudo como
+
+86
+00:08:52,800 --> 00:08:56,640
+que desee, por ejemplo, puede calcular una integral en cuatro dimensiones también,
+
+87
+00:08:56,640 --> 00:09:02,580
+en este caso se obtienen 4 integrales unidimensionales,
+
+88
+00:09:02,580 --> 00:09:07,110
+y por supuesto, también es importante que elija el orden correcto con el que empezar.
+
+89
+00:09:07,110 --> 00:09:15,000
+Por lo tanto siempre piensa en eso al comienzo. Bueno espero que
+
+90
+00:09:15,000 --> 00:09:19,550
+ahora sepas qué es el teorema de Fubini y que también hayas aprendido algo hoy
+
+91
+00:09:19,550 --> 00:09:23,310
+Gracias por escuchar y hasta la proxima, adiós.
+
+92
+00:09:23,310 --> 00:09:26,120
+The Bright Side of Mathematics-Fubini's Theorem, Measure Theory Pt19, TRADUCCIÓN: Jorge Ibáñez.
+

@@ -1,0 +1,468 @@
+1
+00:00:00,120 --> 00:00:06,390
+Welcome to measure theory! This is part 1 of a 
+series where I want to give you an introduction  
+
+2
+00:00:06,390 --> 00:00:13,890
+into measures and integrals  and where we will 
+prove some interesting results, in the end, which  
+
+3
+00:00:13,890 --> 00:00:20,520
+are used very often in mathematical topics.
+The motivation is indeed the famous Lebesgue  
+
+4
+00:00:20,520 --> 00:00:28,140
+integral. And to define the Lebesgue integral, we 
+need a meaningful notion of a measure. So let's  
+
+5
+00:00:28,140 --> 00:00:36,720
+start here with the real line. Now we can look at 
+subsets on the real line and ask how to measure  
+
+6
+00:00:36,720 --> 00:00:45,990
+this subset. Or in other words what is the measure 
+of this subset? And this is what Measure Theory is  
+
+7
+00:00:45,990 --> 00:00:52,860
+about: we want to give the subsets a meaningful 
+measure or, in other words, a generalized volume.
+
+8
+00:00:52,860 --> 00:01:00,360
+Or, in this case of the real line, a generalized 
+length. The notion of length is what you know  
+
+9
+00:01:00,360 --> 00:01:07,290
+from the real line if you look at intervals.
+If you have an interval in the real line from a to b,
+
+10
+00:01:07,290 --> 00:01:15,750
+(you would write it as a to b, and the whole subset 
+is this), then you would say this has a length of  
+
+11
+00:01:15,750 --> 00:01:23,670
+b minus a. The natural question is now: what do we do 
+if the subset looks more complicated than such an  
+
+12
+00:01:23,670 --> 00:01:29,940
+easy interval? How can we then calculate the length?
+There immediately, the Measure Theory comes in.
+
+13
+00:01:29,940 --> 00:01:36,960
+And maybe we also want to deal with different 
+notion of lengths. So we want to generalize this  
+
+14
+00:01:36,960 --> 00:01:43,440
+natural length. So maybe depending on the problem,
+we want to choose different lengths or different  
+
+15
+00:01:43,440 --> 00:01:49,500
+definitions of the length, so giving some weights 
+at different parts to make our problem easier.
+
+16
+00:01:49,500 --> 00:01:55,680
+Here you immediately see, the real line 
+gives us a lot of motivation why you want to  
+
+17
+00:01:55,680 --> 00:02:01,470
+measure subsets of the real line. But obviously, we 
+don't want to stop there, we also want to measure  
+
+18
+00:02:01,470 --> 00:02:09,360
+areas, so in R^2, or even higher dimensional volumes,
+for example, normal volumes in three dimensions, and  
+
+19
+00:02:09,360 --> 00:02:17,560
+so on. So therefore it makes sense to immediately 
+start an abstract measure theory, which now means we  
+
+20
+00:02:17,560 --> 00:02:26,860
+just look at an abstract set, and we call it just 
+X. So X is just set. And for the set, we want to  
+
+21
+00:02:26,860 --> 00:02:34,090
+measure the volume, the generalized volume, of the 
+subsets. So we will define a map which we will  
+
+22
+00:02:34,090 --> 00:02:40,270
+call later just a "measure". Of course, this map 
+should fulfill some rules but I will talk about  
+
+23
+00:02:40,270 --> 00:02:48,220
+this later. First let us start on the set level.
+Because we want to measure the subsets of X, it's  
+
+24
+00:02:48,220 --> 00:02:56,200
+good to start with the power set of X.
+The power set is just the set of all subsets of X.
+
+25
+00:02:56,200 --> 00:03:03,460
+And to give you a short reminder, let's do an example.
+If we have the set with two elements (so let's call  
+
+26
+00:03:03,460 --> 00:03:12,220
+the elements just lowercase a and b), then we can 
+write down the power set. The empty set is always  
+
+27
+00:03:12,220 --> 00:03:19,180
+a subset of the set so, we always have the empty 
+set in the power set. And the set itself is also  
+
+28
+00:03:19,180 --> 00:03:27,310
+a trivial subset. So X is in the power set. Now we 
+have only two elements in the set. So we can't form so  
+
+29
+00:03:27,310 --> 00:03:35,320
+many subsets, so the only possible way would be:
+okay choose one element, so a, and form a subset,
+
+30
+00:03:35,320 --> 00:03:43,180
+and choose the other one. And in fact, these are 
+all the subsets, so we now have defined the whole  
+
+31
+00:03:43,180 --> 00:03:50,920
+power set. So this is what you have to know.
+You have to know how to form subsets of a given set.
+
+32
+00:03:50,920 --> 00:03:59,740
+And now we can give the definition for measurable 
+sets. When I say "measurable set", you may recognize  
+
+33
+00:03:59,740 --> 00:04:07,930
+immediately the idea that, maybe, we don't have to 
+measure all the subsets we can form but only some. 
+
+34
+00:04:07,930 --> 00:04:15,040
+If we have quite an amount of subsets we can and 
+want to measure, maybe that's good enough for our  
+
+35
+00:04:15,040 --> 00:04:22,660
+theory. And therefore we call such sets "measurable".
+We will later see that we indeed have to do that  
+
+36
+00:04:22,660 --> 00:04:31,030
+because if we want to generalize even this easy 
+measure, given by the length, to all the subsets,
+
+37
+00:04:31,030 --> 00:04:39,700
+it's not possible. Yeah, it's only possible if we 
+choose good sets as subsets. For these sets,
+
+38
+00:04:39,700 --> 00:04:49,480
+we can generalize this length in a meaningful way.
+In the sense, we now look at a subset of the power  
+
+39
+00:04:49,480 --> 00:04:56,980
+set. So we look at a family of subsets that could 
+be the whole power set (so there could be equality here)
+
+40
+00:04:56,980 --> 00:05:06,040
+but, in general, we would have a smaller 
+family of such subsets of X. So keep in mind  
+
+41
+00:05:06,040 --> 00:05:14,710
+this fancy A has as elements subsets of X. And 
+such a collection is called a "Sigma algebra"  
+
+42
+00:05:14,710 --> 00:05:22,840
+if it fulfills the following rules. And these
+will be three rules. Please keep in mind that  
+
+43
+00:05:22,840 --> 00:05:28,540
+this notion of a Sigma algebra is indeed the 
+important definition in the whole measure theory.
+
+44
+00:05:28,540 --> 00:05:35,830
+and therefore we start with this here. 
+The elements in the Sigma algebra will be called the "measurable sets".
+
+45
+00:05:35,830 --> 00:05:43,060
+So these are the sets we can measure in the 
+end. Therefore, we immediately have the first rule  
+
+46
+00:05:43,060 --> 00:05:50,620
+here because we want to measure the easiest sets,
+which will be the empty set (also here in the  
+
+47
+00:05:50,620 --> 00:05:58,450
+power set given) and the whole set itself. So we 
+want these two sets as elements in our Sigma algebra  
+
+48
+00:05:58,450 --> 00:06:06,220
+because we want these sets to be measurable. 
+In the same sense, we get out the next rule:  
+
+49
+00:06:06,220 --> 00:06:14,470
+So what happens if we know we can measure a set A? 
+So A in this curly A. Then we want to be able  
+
+50
+00:06:14,470 --> 00:06:25,090
+to also measure the complement of the set.
+And I denote the complement by A^c, so A^c means X without  A itself.
+
+51
+00:06:25,090 --> 00:06:33,580
+So this should also be a measurable set,
+so in the Sigma algebra A. To visualize this maybe  
+
+52
+00:06:33,580 --> 00:06:46,040
+a short sketch. So we have here an arbitrary set X 
+and inside also some subset A. Measurable now means  
+
+53
+00:06:46,040 --> 00:06:54,650
+we know we can give a sensible generalized volume 
+to the set A. If we know this generalized volume, we  
+
+54
+00:06:54,650 --> 00:07:02,540
+should also know the generalized volume outside.
+But this means, the complement so A^c should also  
+
+55
+00:07:02,540 --> 00:07:11,810
+be a measurable set. Therefore this rule (b) totally 
+makes sense. This is what we naturally need.
+
+56
+00:07:11,810 --> 00:07:17,900
+In the same sense, the third tool comes in.
+One could say that this third rule comes in from a  
+
+57
+00:07:17,900 --> 00:07:26,570
+measure process point of view. And it also gives the "Sigma" in the Sigma algebra a meaning. However, maybe,
+
+58
+00:07:26,570 --> 00:07:34,040
+I first tell you what the rule says and then we can 
+discuss where it comes from. So we start here with  
+
+59
+00:07:34,040 --> 00:07:40,760
+countably many subsets, which means we have A_i
+where the index i goes through all natural numbers.
+
+60
+00:07:40,760 --> 00:07:47,180
+We could repeat the same set here, so 
+then we only have finitely many subsets chosen,
+
+61
+00:07:47,180 --> 00:07:54,500
+but the important thing is, if we have infinitely 
+many, they are countable. Then we can look at the
+
+62
+00:07:54,500 --> 00:08:01,550
+union of all the sets. So I can write the union 
+symbol going from 1 to infinity. This defines us  
+
+63
+00:08:01,550 --> 00:08:09,800
+again a subset of X. And the claim is now: this 
+is also in our Sigma algebra. This means that we  
+
+64
+00:08:09,800 --> 00:08:17,300
+can't leave the Sigma algebra by using the normal 
+union, so union of two sets and even not if we use 
+
+65
+00:08:17,300 --> 00:08:26,360
+a countable union of infinitely many sets. Maybe 
+we visualize that again in a short picture. This
+
+66
+00:08:26,360 --> 00:08:38,120
+is again our set X and we have a subset A inside.
+Now assume we have measurable sets inside (so given  
+
+67
+00:08:38,120 --> 00:08:48,950
+as these squares or rectangles, so this would be A_1 and then we have here A_2 and so on). The idea  
+
+68
+00:08:48,950 --> 00:08:58,650
+would be now that we can form the set A out of 
+a countable union of the smaller sets A_i. If the  
+
+69
+00:08:58,650 --> 00:09:05,400
+blue sets are measurable, which means they have 
+generalized volume, then the generalized volume  
+
+70
+00:09:05,400 --> 00:09:12,960
+of A should be the limit of the sum of all these 
+generalized volumes. Or speaking of areas: if you  
+
+71
+00:09:12,960 --> 00:09:20,850
+add up all the areas inside we can form, then you 
+should get out the area of A. And in order to speak  
+
+72
+00:09:20,850 --> 00:09:29,160
+of an area or a generalized volume of A, we need that the 
+set A is measurable. So it should be an element in  
+
+73
+00:09:29,160 --> 00:09:35,160
+a Sigma algebra. So this countable union should 
+also be an element in a Sigma algebra. And these  
+
+74
+00:09:35,160 --> 00:09:42,630
+are all the rules. All systems of subsets with 
+these three rules now are called Sigma algebras.  
+
+75
+00:09:42,630 --> 00:09:50,400
+To close the definition I now write down 
+what I told you the whole time: An element in  
+
+76
+00:09:50,400 --> 00:09:57,870
+the Sigma algebra is called a measurable set.
+So "Sigma algebra" and "measurable" are important  
+
+77
+00:09:57,870 --> 00:10:04,380
+notions in this Measure Theory, here. "Measurable" 
+is given with respect to a given Sigma algebra,
+
+78
+00:10:04,380 --> 00:10:13,290
+therefore sometimes also A is in the definition 
+of "measurable" so it's called "A-measurable" if we  
+
+79
+00:10:13,290 --> 00:10:22,650
+should emphasize which Sigma algebra is used here.
+So now, of course, we need some examples.
+
+80
+00:10:22,650 --> 00:10:30,300
+We know that a Sigma algebra needs at least two 
+elements, namely the empty set and set X itself.
+
+81
+00:10:30,300 --> 00:10:37,410
+And this is always smallest possible Sigma 
+algebra. So A defined with these two elements  
+
+82
+00:10:37,410 --> 00:10:45,510
+is a Sigma algebra because (b) and (c) in the rules 
+are trivially fulfilled. The complements are in  
+
+83
+00:10:45,510 --> 00:10:53,430
+and also all possible unions you can form with 
+these two elements are also in. Hence, this is the  
+
+84
+00:10:53,430 --> 00:11:00,210
+smallest possible Sigma algebra. The question is 
+now what is the largest one but this is also easy  
+
+85
+00:11:00,210 --> 00:11:08,490
+to see because the power set itself fulfills, also trivially,
+all these rules. Because by definition,
+
+86
+00:11:08,490 --> 00:11:14,190
+all possible subsets are immediately in the 
+powerset. So you can't leave it with the complements,  
+
+87
+00:11:14,190 --> 00:11:20,430
+and also not with the unions. No matter if they 
+countable and uncountable. Therefore this would  
+
+88
+00:11:20,430 --> 00:11:27,900
+be the best case scenario that we can measure all 
+possible subsets. However I already told you for  
+
+89
+00:11:27,900 --> 00:11:34,530
+important examples we can't fulfill this. And 
+therefore our sigma-algebra will lie between  
+
+90
+00:11:34,530 --> 00:11:42,150
+these two extrema. Of course, it would be nice 
+to have a lot of measurable sets therefore the  
+
+91
+00:11:42,150 --> 00:11:49,110
+rule would be to get as close as possible to the 
+second case, to the power set. But this is what we  
+
+92
+00:11:49,110 --> 00:11:55,290
+will do in later videos here in this series. So 
+maybe that's good enough for the introduction here.  
+
+93
+00:11:55,290 --> 00:12:01,530
+Now you know what a sigma algebra is.
+And next time we will talk more about measures and  
+
+94
+00:12:01,530 --> 00:12:08,130
+define what a measure is. Therefore thank you 
+very much for listening and see you next time.
+

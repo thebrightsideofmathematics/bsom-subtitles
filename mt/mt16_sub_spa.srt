@@ -1,0 +1,725 @@
+1
+00:00:00,319 --> 00:00:04,609
+Hola y bienvenidos de nuevo a la teoría de la medida.
+
+2
+00:00:04,609 --> 00:00:07,020
+Como siempre quiero agradecer a toda la gente amable
+
+3
+00:00:07,020 --> 00:00:09,150
+que apoya este canal en Steady.
+
+4
+00:00:09,150 --> 00:00:12,240
+Este video es una continuación del vídeo anterior,
+
+5
+00:00:12,240 --> 00:00:15,420
+y trata sobre la demostración de
+
+6
+00:00:15,420 --> 00:00:18,480
+la regla de sustitución. Así, de una manera aproximada
+
+7
+00:00:18,480 --> 00:00:20,430
+podemos decir que la regla de sustitución
+
+8
+00:00:20,430 --> 00:00:22,980
+describe la transformación
+
+9
+00:00:22,980 --> 00:00:25,820
+de la integración entre dos espacios de medida.
+
+10
+00:00:25,820 --> 00:00:28,859
+El ingrediente importante es, por lo tanto, un
+
+11
+00:00:28,859 --> 00:00:33,030
+mapa mensurable entre X e Y, que son
+
+12
+00:00:33,030 --> 00:00:36,840
+nuestros espacios de medida. En este caso X
+
+13
+00:00:36,840 --> 00:00:39,710
+lleva nuestra medida μ y Y es la
+
+14
+00:00:39,710 --> 00:00:42,450
+medida imagen correspondiente. Y con
+
+15
+00:00:42,450 --> 00:00:44,844
+esto hemos considerado una función mensurable
+
+16
+00:00:44,940 --> 00:00:48,510
+definida en Y y llamada g, entonces
+
+17
+00:00:48,510 --> 00:00:51,570
+con valores en R, que también debe ser
+
+18
+00:00:51,570 --> 00:00:53,699
+integrable con respecto a nuestra medida
+
+19
+00:00:53,699 --> 00:00:56,309
+imágen aquí. Y con esto tenemos la
+
+20
+00:00:56,309 --> 00:00:59,460
+siguiente fórmula de sustitución. Nos dice
+
+21
+00:00:59,460 --> 00:01:01,500
+que en lugar de calcular la
+
+22
+00:01:01,500 --> 00:01:04,709
+integral de g podemos integrar la función
+
+23
+00:01:04,709 --> 00:01:08,280
+g • h sobre el espacio
+
+24
+00:01:08,280 --> 00:01:12,180
+de medida X. La fórmula siempre es válida si
+
+25
+00:01:12,180 --> 00:01:14,700
+sabemos que una de las dos integrales aquí
+
+26
+00:01:14,700 --> 00:01:17,909
+existe. Y eso es todo lo que
+
+27
+00:01:17,909 --> 00:01:20,759
+quiero probar ahora. Comencemos por un
+
+28
+00:01:20,759 --> 00:01:23,549
+caso simple para tal función g, a saber,
+
+29
+00:01:23,549 --> 00:01:26,000
+la función característica. Por supuesto
+
+30
+00:01:26,340 --> 00:01:28,979
+nuestra función g debe ser mensurable y
+
+31
+00:01:28,979 --> 00:01:31,710
+por lo tanto tomamos un elemento C del
+
+32
+00:01:31,710 --> 00:01:34,950
+σ-algebra. Y ahora para este caso fácil
+
+33
+00:01:34,950 --> 00:01:37,530
+podemos calcular ambos lados de nuestra
+
+34
+00:01:37,530 --> 00:01:38,490
+fórmula aquí.
+
+35
+00:01:38,490 --> 00:01:40,829
+En el lado izquierdo tenemos la
+
+36
+00:01:40,829 --> 00:01:45,899
+integraciónde χc sobre Y. Sin embargo la
+
+37
+00:01:45,899 --> 00:01:48,479
+integración de una función característica
+
+38
+00:01:48,479 --> 00:01:50,880
+es siempre la medida del
+
+39
+00:01:50,880 --> 00:01:53,700
+conjunto correspondiente, y por supuesto aquí tenemos
+
+40
+00:01:53,700 --> 00:01:58,979
+la medida imagen (h* μ).  Y ahora
+
+41
+00:01:58,979 --> 00:02:01,259
+cuando recuerdes la definición de
+
+42
+00:02:01,259 --> 00:02:04,259
+medida imagen, verás que se mide
+
+43
+00:02:04,259 --> 00:02:09,690
+en μ exactamente la pre imagen de C usando
+
+44
+00:02:09,690 --> 00:02:13,230
+h. Bien, así que este era el lado izquierdo
+
+45
+00:02:13,230 --> 00:02:13,980
+y ahora
+
+46
+00:02:13,980 --> 00:02:16,379
+veamos el lado derecho.
+
+47
+00:02:16,379 --> 00:02:18,239
+Aquí tenemos la integral con respecto a X
+
+48
+00:02:18,239 --> 00:02:21,959
+de la composición. Ahora porque tenemos una composición,
+
+49
+00:02:21,959 --> 00:02:24,569
+puede ser más fácil usar un
+
+50
+00:02:24,569 --> 00:02:27,180
+nombre de variable. Por supuesto uso una
+
+51
+00:02:27,180 --> 00:02:29,459
+x minúscula y ahí tenemos nuestra
+
+52
+00:02:29,459 --> 00:02:32,730
+integral. En este punto es algo bueno
+
+53
+00:02:32,730 --> 00:02:35,340
+notar lo que esta función
+
+54
+00:02:35,340 --> 00:02:38,040
+característica realmente es. Por supuesto, sabemos
+
+55
+00:02:38,040 --> 00:02:42,290
+que solo tenemos dos valores 1 y 0.
+
+56
+00:02:42,290 --> 00:02:46,440
+Y también sabemos que esto es solo 1 en el caso de
+
+57
+00:02:46,440 --> 00:02:51,180
+que h(x) se encuentre en el conjunto C.
+
+58
+00:02:51,180 --> 00:02:54,054
+Pero podemos rescribir esto de manera que x se
+
+59
+00:02:54,480 --> 00:02:58,980
+encuentre en la preimagen de c.  Esto es
+
+60
+00:02:58,980 --> 00:03:01,739
+exactamente lo mismo, y lo mismo aquí para 0,
+
+61
+00:03:01,739 --> 00:03:06,900
+no está en la preimagen de c.  Esto es
+
+62
+00:03:06,900 --> 00:03:09,660
+muy útil porque vemos que esto es
+
+63
+00:03:09,660 --> 00:03:12,120
+nuevamente una función característica usando
+
+64
+00:03:12,120 --> 00:03:15,599
+la preimagen. O en otras palabras aquí
+
+65
+00:03:15,599 --> 00:03:18,060
+tienen la integral de la función
+
+66
+00:03:18,060 --> 00:03:21,239
+característica Chi donde tienes la preimagen
+
+67
+00:03:21,239 --> 00:03:27,359
+de c dμ. Sin embargo, ahora ves que esto es
+
+68
+00:03:27,359 --> 00:03:33,060
+exactamente, de nuevo, la medida de este conjunto.
+
+69
+00:03:33,060 --> 00:03:35,609
+En otras palabras, el lado izquierdo
+
+70
+00:03:35,609 --> 00:03:37,350
+es igual al lado derecho
+
+71
+00:03:37,350 --> 00:03:40,709
+para este caso simple de
+
+72
+00:03:40,709 --> 00:03:43,920
+función g. Ahora hemos probado la
+
+73
+00:03:43,920 --> 00:03:46,019
+regla de sustitución para funciones
+
+74
+00:03:46,019 --> 00:03:49,139
+características. Y en el segundo caso vamos
+
+75
+00:03:49,139 --> 00:03:52,709
+a funciones simples. Esto significa que
+
+76
+00:03:52,709 --> 00:03:55,230
+nuestra función g es ahora combinación
+
+77
+00:03:55,230 --> 00:03:58,160
+lineal de funciones características.
+
+78
+00:03:58,160 --> 00:04:02,970
+Por lo tanto podemos escribirlo como suma i=1 a n,
+
+79
+00:04:03,070 --> 00:04:04,570
+donde tenemos coeficientes λi y
+
+80
+00:04:06,569 --> 00:04:12,389
+y nuevos conjuntos Ci. Bien, así que en este caso puedes
+
+81
+00:04:12,389 --> 00:04:15,359
+inmediatamente ver que podemos usar el
+
+82
+00:04:15,359 --> 00:04:17,820
+primer caso y la linealidad de la
+
+83
+00:04:17,820 --> 00:04:20,010
+integral. Sin embargo,
+
+84
+00:04:20,010 --> 00:04:23,520
+por completitud, escribamoslo. De modo que
+
+85
+00:04:23,520 --> 00:04:25,830
+este es el lado izquierdo,
+
+86
+00:04:25,830 --> 00:04:27,063
+podemos sacar la suma completa
+
+87
+00:04:27,639 --> 00:04:31,930
+y también los coeficientes λi. Esto
+
+88
+00:04:31,930 --> 00:04:35,110
+es solo la linealidad de la integral
+
+89
+00:04:35,110 --> 00:04:38,379
+de Lebesgue. Y para esta integral aquí
+
+90
+00:04:38,379 --> 00:04:41,830
+podemos usar nuestro primer caso (1). Esto significa
+
+91
+00:04:41,830 --> 00:04:43,599
+que tenemos la integración sobre X
+
+92
+00:04:43,599 --> 00:04:45,870
+y la función característica,
+
+93
+00:04:45,870 --> 00:04:51,789
+en composición con h, así h(x) y luego dμ(x)
+
+94
+00:04:51,789 --> 00:04:56,319
+Y por supuesto, ahora queremos empujar la
+
+95
+00:04:56,319 --> 00:05:00,849
+suma dentro de la integral nuevamente. Y aquí
+
+96
+00:05:00,849 --> 00:05:04,210
+quiero usar paréntesis y decir, ok, nosotros
+
+97
+00:05:04,210 --> 00:05:09,029
+pusimos h(x) y aquí tenemos dμ(x).
+
+98
+00:05:09,029 --> 00:05:12,669
+Sin embargo, ahora ves que este es exactamente nuestro
+
+99
+00:05:12,669 --> 00:05:16,120
+lado derecho porque esto es solo g,
+
+100
+00:05:16,120 --> 00:05:18,580
+nuestra función simple, y la composición
+
+101
+00:05:18,580 --> 00:05:23,889
+con h sobre X y la medida μ. Y por
+
+102
+00:05:23,889 --> 00:05:26,050
+supuesto en el lado izquierdo comenzamos
+
+103
+00:05:26,050 --> 00:05:30,069
+con la función g. Y con esto
+
+104
+00:05:30,069 --> 00:05:32,169
+hemos probado la regla de sustitución para
+
+105
+00:05:32,169 --> 00:05:35,139
+todas las funciones simples. Obviamente, queremos
+
+106
+00:05:35,139 --> 00:05:37,469
+generalizar aún más y simplemente
+
+107
+00:05:37,469 --> 00:05:41,830
+usar de una función mensurable g. Sin embargo es
+
+108
+00:05:41,830 --> 00:05:44,580
+más fácil escribirlo primero para
+
+109
+00:05:44,580 --> 00:05:48,430
+funciones no negativas. En este punto
+
+110
+00:05:48,430 --> 00:05:50,439
+por favor recuerde la definición de la
+
+111
+00:05:50,439 --> 00:05:52,750
+integral de Lebesgue, que solo necesita
+
+112
+00:05:52,750 --> 00:05:56,110
+funciones simples. La integral de la función
+
+113
+00:05:56,110 --> 00:05:59,680
+g viene dada por el
+
+114
+00:05:59,680 --> 00:06:03,003
+supremo de las integrales de algunas
+
+115
+00:06:03,339 --> 00:06:06,669
+funciones simples escogidas. Tal vez aquí sea
+
+116
+00:06:06,669 --> 00:06:09,189
+útil para denotar las funciones simples
+
+117
+00:06:09,189 --> 00:06:13,539
+como ŝ. Por lo tanto, escribimos ŝ como
+
+118
+00:06:13,539 --> 00:06:15,969
+una función simple no negativa
+
+119
+00:06:15,969 --> 00:06:20,110
+y debería situarse punto a punto por debajo de nuestra función g.
+
+120
+00:06:20,110 --> 00:06:24,819
+Ok, por favor reconozca la
+
+121
+00:06:24,819 --> 00:06:26,830
+definición de la integral de Lebesgue.
+
+122
+00:06:26,830 --> 00:06:30,370
+Y ahora quiero ver la última parte aquí.
+
+123
+00:06:30,370 --> 00:06:34,960
+Esto solo significa para todo y en Y tenemos
+
+124
+00:06:34,960 --> 00:06:40,190
+que ŝ(y) ≤ g(y)
+
+125
+00:06:40,190 --> 00:06:43,220
+Sin embargo puesto que tenemos aquí
+
+126
+00:06:43,220 --> 00:06:45,910
+la medida imagen podemos debilitarla un poco:
+
+127
+00:06:45,794 --> 00:06:50,169
+En lugar de Y podemos simplemente escribir la
+
+128
+00:06:50,400 --> 00:06:54,900
+imagen de x bajo h. Sin embargo esto es
+
+129
+00:06:56,460 --> 00:07:01,063
+equivalente a decir que para todos x en X
+
+130
+00:07:01,300 --> 00:07:09,653
+tenemos que ŝ(h(x)) ≤ g(h(x))
+
+131
+00:07:09,957 --> 00:07:11,480
+Esto significa que en
+
+132
+00:07:11,480 --> 00:07:14,030
+el lado derecho tenemos la función
+
+133
+00:07:14,030 --> 00:07:19,910
+g∙h en el punto x
+
+134
+00:07:19,910 --> 00:07:21,860
+Y en lado izquierdo tenemos la
+
+135
+00:07:21,860 --> 00:07:25,640
+función ŝ∙h.  Y ahora
+
+136
+00:07:25,640 --> 00:07:27,650
+por favor recuerde el comienzo de este
+
+137
+00:07:27,650 --> 00:07:28,280
+video
+
+138
+00:07:28,280 --> 00:07:30,170
+hemos demostrado que este es nuevamente una
+
+139
+00:07:30,170 --> 00:07:34,570
+función simple, pero ahora en el conjunto X.
+
+140
+00:07:34,570 --> 00:07:37,460
+Y con esto hemos ganado
+
+141
+00:07:37,460 --> 00:07:41,270
+algo. Aún tenemos el supremo aquí,
+
+142
+00:07:41,270 --> 00:07:45,000
+pero dentro sabemos que la regla de sustitución
+
+143
+00:07:45,230 --> 00:07:48,350
+es válida para funciones simples, lo que
+
+144
+00:07:48,350 --> 00:07:50,900
+significa que ahora tenemos la integración sobre X
+
+145
+00:07:51,577 --> 00:07:56,083
+y aquí:  ŝ∙h dμ
+
+146
+00:07:56,790 --> 00:07:59,762
+Y detrás ahora podemos escribir
+
+147
+00:07:59,965 --> 00:08:05,852
+ŝ∙h ≤ g∙h
+
+148
+00:08:06,560 --> 00:08:08,784
+Y ahora podemos
+
+149
+00:08:08,574 --> 00:08:12,254
+reescribir esto porque sabemos que esto es
+
+150
+00:08:12,470 --> 00:08:15,230
+sólo una función simple de X. Por tanto,
+
+151
+00:08:15,230 --> 00:08:17,510
+podríamos llamar a este nueva función simple solo
+
+152
+00:08:17,510 --> 00:08:22,460
+s. Ves que esto es más corto y es
+
+153
+00:08:22,460 --> 00:08:24,710
+más fácil porque ahora miramos
+
+154
+00:08:24,710 --> 00:08:28,850
+funciones simples en el conjunto X. Sin embargo
+
+155
+00:08:28,850 --> 00:08:31,730
+tenga en cuenta que ahora miramos todas las
+
+156
+00:08:31,730 --> 00:08:34,280
+funciones simples en X, no solo las que se
+
+157
+00:08:34,280 --> 00:08:37,880
+parecen a esta composición aquí. Sin embargo
+
+158
+00:08:37,880 --> 00:08:41,090
+no cambiamos el supremo agregando
+
+159
+00:08:41,090 --> 00:08:43,130
+estas funciones simples que no vienen
+
+160
+00:08:43,130 --> 00:08:47,300
+dadas por esto composición aquí. Esto no
+
+161
+00:08:47,300 --> 00:08:49,640
+es difícil de demostrar, pero voy a omitir esto aqui.
+
+162
+00:08:50,140 --> 00:08:53,030
+Usando este hecho, estamos
+
+163
+00:08:53,030 --> 00:08:53,930
+terminado
+
+164
+00:08:53,930 --> 00:08:56,630
+porque lo que ves aquí es solo
+
+165
+00:08:56,630 --> 00:08:59,570
+definición de la integral de la
+
+166
+00:08:59,570 --> 00:09:04,970
+función g∙h  , y ahora
+
+167
+00:09:04,970 --> 00:09:08,090
+ves que nuestra regla de sustitución también se
+
+168
+00:09:08,090 --> 00:09:10,700
+cumple para tales funciones mensurables
+
+169
+00:09:10,700 --> 00:09:13,520
+porque el lado izquierdo aquí es igual
+
+170
+00:09:13,520 --> 00:09:15,098
+al lado derecho de aquí.
+
+171
+00:09:15,980 --> 00:09:18,740
+También ves que si se tiene una función arbitraria
+
+172
+00:09:18,740 --> 00:09:21,770
+mensurable g, entonces se puede dividir
+
+173
+00:09:21,770 --> 00:09:23,720
+en una parte positiva y negativa
+
+174
+00:09:23,720 --> 00:09:27,290
+y luego usar la regla de sustitución
+
+175
+00:09:27,290 --> 00:09:31,040
+aquí para ambas partes. Y luego tenemos nuestro
+
+176
+00:09:31,040 --> 00:09:31,610
+resultado:
+
+177
+00:09:31,610 --> 00:09:34,700
+si uno integral existe también la otra.
+
+178
+00:09:34,700 --> 00:09:37,670
+Bien, creo que eso es
+
+179
+00:09:37,670 --> 00:09:40,100
+suficiente por hoy. Espero que te haya ayudado
+
+180
+00:09:40,100 --> 00:09:42,830
+un poquito, luego nos vemos la próxima vez
+
+181
+00:09:42,830 --> 00:09:45,610
+¡adiós!
+SUBSTITUTION RULE PROFF-THE BRIGHT SIDE OF MATHEMATICS, TRADUCCIÓn JORGE IBÁÑEz
+

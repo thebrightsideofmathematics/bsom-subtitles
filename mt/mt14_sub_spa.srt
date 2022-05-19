@@ -1,0 +1,493 @@
+1
+00:00:00,722 --> 00:00:02,343
+¡Hola y bienvenidos de nuevo!
+
+2
+00:00:02,645 --> 00:00:05,662
+Primero, permítanme agradecimiento a todos los seguidores  que apoyan este canal en Steady.
+
+3
+00:00:06,064 --> 00:00:11,098
+El tema de hoy trata sobre dos teoremas importantes en la teoría de la medida.
+
+4
+00:00:11,400 --> 00:00:16,832
+A saber, el teorema de Radon-Nikodym y el teorema de descomposición de Lebesgue.
+
+5
+00:00:17,233 --> 00:00:22,365
+Ambos se encuentran en la teoría de la medida pero también en muchas aplicaciones.
+
+6
+00:00:22,667 --> 00:00:28,302
+Por este motivo quiero ofrecerles aquí un breve resumen de ellos.
+
+7
+00:00:28,704 --> 00:00:32,629
+Se pueden formular ambos teoremas en un sentido muy general
+
+8
+00:00:32,935 --> 00:00:37,662
+simplemente usando un espacio de medida tal como lo conocemos, de modo que tenga un conjunto X,
+
+9
+00:00:37,864 --> 00:00:40,282
+un σ-álgebra Ꭿ y una medida μ.
+
+10
+00:00:40,588 --> 00:00:45,616
+Sin embargo, aquí quiero comenzar con el caso especial más importante primero,
+
+11
+00:00:45,918 --> 00:00:49,235
+que es la medida de Lebesgue en la recta numérica real.
+
+12
+00:00:49,436 --> 00:00:58,403
+Esto significa que ahora X es de hecho R, Ꭿ es el σ-álgebra de Borel para R,
+
+13
+00:00:58,605 --> 00:01:03,943
+y μ es la medida de Lebesgue y lo denotaré con λ.
+
+14
+00:01:04,351 --> 00:01:15,222
+Por favor, recuerde que la medida de Lebesgue es la única medida de este, tal que la longitud de un intervalo es su longitud normal,  b-a.
+
+15
+00:01:15,724 --> 00:01:21,058
+Antes de que podamos formular ambos teoremas, primero necesitamos dos definiciones.
+
+16
+00:01:21,359 --> 00:01:29,604
+Para esto necesito otra medida y la llamaré μ, porque μ está disponible,
+
+17
+00:01:29,805 --> 00:01:37,257
+porque aquí no usamos μ, entonces en otras palabras, podría decir que hubo una λ desde el principio.
+
+18
+00:01:37,761 --> 00:01:43,194
+Simplemente hace que toda la notación sea más fácil, por lo que μ es otra medida,
+
+19
+00:01:43,464 --> 00:01:50,813
+así definida en el σ-álgebra de Borel, y luego va a [0, ∞] ambos incluidos.
+
+20
+00:01:51,618 --> 00:01:56,145
+Para todo lo que sigue a continuación, siempre es bueno pensar de la siguiente manera,
+
+21
+00:01:56,447 --> 00:02:00,269
+μ es la medida real que nos interesa
+
+22
+00:02:00,470 --> 00:02:04,798
+y λ, la medida de Lebesgue, esta solo es la medida de referencia.
+
+23
+00:02:05,199 --> 00:02:12,850
+Esto significa que observamos cómo actúa la medida μ con respecto a lo que esperamos de la medida de Lebesgue dada.
+
+24
+00:02:13,151 --> 00:02:16,977
+Y ahí encontramos ahora dos definiciones importantes:
+
+25
+00:02:17,379 --> 00:02:29,150
+llamamos μ absolutamente continuo si la medida con μ no es más fina que la medida con la medida de Lebesgue.
+
+26
+00:02:29,213 --> 00:02:39,700
+Lo que quiero decir con eso es lo siguiente: si mides un conjunto A con λ y obtienes que este conjunto tiene una longitud de 0
+
+27
+00:02:40,002 --> 00:02:46,761
+entonces también obtienes que la medida con respecto a μ también es 0.
+
+28
+00:02:47,264 --> 00:02:56,923
+En resumen, conjuntos con λ medidas 0 también tienen μ medida 0. Por supuesto, queremos que esta implicación sea válida
+
+29
+00:02:57,023 --> 00:03:04,391
+para todos los conjuntos, así que debo agregar aquí que esto es válido para todos los conjuntos en el σ-álgebra de Borel.
+
+30
+00:03:05,195 --> 00:03:07,508
+La cuál es nuestra σ-álgebra escogida aquí.
+
+31
+00:03:08,513 --> 00:03:13,345
+Sin embargo, como dije al principio, aquí puedes generalizar todo
+
+32
+00:03:13,747 --> 00:03:19,484
+si eliges otra medida en lugar de la medida de Lebesgue, como medida de referencia.
+
+33
+00:03:20,087 --> 00:03:25,518
+Para no ser ambiguo, debería añadir aquí con respecto a la medida de Lebesgue.
+
+34
+00:03:25,921 --> 00:03:34,172
+De acuerdo, el término absolutamente continuo siempre debe entenderse con respecto a una medida de referencia dada.
+
+35
+00:03:34,677 --> 00:03:40,214
+Solo en este caso cuando tenemos la medida de Lebesgue como medida de referencia, podemos omitir esto.
+
+36
+00:03:40,717 --> 00:03:46,550
+Recuerde ahora, una nueva medida  μ  se llama absolutamente continua cuando
+
+37
+00:03:46,768 --> 00:03:56,532
+todos los conjuntos que la medida de referencia van a 0, y también van a 0 por nuestra nueva medida μ.
+
+38
+00:03:57,253 --> 00:04:02,888
+Sin embargo, por supuesto, también se permite que μ envíe a más de estos conjuntos a 0.
+
+39
+00:04:03,195 --> 00:04:11,843
+Ahora existe esta breve notación para esto: uno escribe generalmente  μ y aquí λ.
+
+40
+00:04:12,664 --> 00:04:19,310
+Entonces, si ve este símbolo para medidas, sabrá qué significa absolutamente continuo.
+
+41
+00:04:19,720 --> 00:04:28,492
+Una forma de recordar el sentido de la flecha aquí en la definición es que va de la misma manera que la flecha aquí en el símbolo.
+
+42
+00:04:28,811 --> 00:04:33,235
+Ahora puede pensar inmediatamente en algunos ejemplos aquí.
+
+43
+00:04:33,541 --> 00:04:40,481
+Podrías usar  μ como λ en sí mismo. Entonces esta implicación obviamente se cumple,
+
+44
+00:04:40,786 --> 00:04:46,219
+por lo que puede decir que λ es absolutamente continua con respecto a λ:
+
+45
+00:04:46,548 --> 00:04:49,163
+Sin sorpresas aquí.
+
+46
+00:04:49,372 --> 00:04:51,887
+La medida de Lebesgue es absolutamente continua.
+
+47
+00:04:52,298 --> 00:04:55,417
+Otro ejemplo sencillo sería solo la medida 0.
+
+48
+00:04:55,727 --> 00:05:00,260
+Entonces esto también se cumple, por lo que la medida 0 también es absolutamente continua.
+
+49
+00:05:00,667 --> 00:05:08,412
+Bien, y ahora la segunda definición: y esta es la noción de medida singular.
+
+50
+00:05:09,103 --> 00:05:17,555
+Nos dice que la medida  μ  y la medida de referencia, que es la medida de Lebesgue, son en cierto sentido disjuntas.
+
+51
+00:05:17,958 --> 00:05:23,189
+Más concretamente, significa que encontramos un conjunto medible N,
+
+52
+00:05:23,492 --> 00:05:34,058
+con N en el σ-álgebra de Borel, tal que la medida de Lebesgue del conjunto es 0,
+
+53
+00:05:34,662 --> 00:05:41,300
+por lo que tiene la longitud de 0, y la longitud del complemento de N,
+
+54
+00:05:41,500 --> 00:05:45,624
+medido con la nueva medida  μ  también es 0.
+
+55
+00:05:46,228 --> 00:05:54,787
+Recuerde que el complemento siempre se establece X sin N, por lo que aquí nuestro conjunto R sin N
+
+56
+00:05:55,290 --> 00:06:00,825
+De la misma manera, como para absolutamente continuo, inmediatamente se reconoce que
+
+57
+00:06:01,025 --> 00:06:06,361
+también el término singular tiene algo que ver con conjuntos con medida 0.
+
+58
+00:06:06,663 --> 00:06:13,300
+También puede ver que podríamos generalizar esta noción usando otra medida de referencia,
+
+59
+00:06:13,503 --> 00:06:17,029
+pero entonces tenemos que agregar esto a la definición.
+
+60
+00:06:17,241 --> 00:06:22,071
+Por lo tanto, diríamos que la medida es singular con respecto a λ.
+
+61
+00:06:22,277 --> 00:06:27,005
+Sin embargo, como mencioné antes, normalmente omitiremos esto
+
+62
+00:06:27,225 --> 00:06:30,441
+cuando tratemos con la medida de Lebesgue como medida de referencia.
+
+63
+00:06:30,760 --> 00:06:35,085
+También aquí usamos un símbolo para denotar una medida singular
+
+64
+00:06:35,291 --> 00:06:40,418
+y usamos el símbolo ortogonal (⊥), por lo que  μ  sería ortogonal a λ.
+
+65
+00:06:40,827 --> 00:06:44,348
+y por ello entendemos, ser singular con respecto a λ.
+
+66
+00:06:44,665 --> 00:06:52,915
+Ahora, aquí ya conoce un buen ejemplo, a saber, la medida de Dirac en el punto 0,
+
+67
+00:06:53,425 --> 00:07:01,173
+lo que significa que envía el conjunto que solo contiene un elemento 0, va a 1.
+
+68
+00:07:02,078 --> 00:07:08,416
+Y también todos los demás conjuntos que contienen 0 se envían a la medida uno.
+
+69
+00:07:08,717 --> 00:07:13,042
+Sin embargo, si este conjunto no contiene 0, se envía a 0.
+
+70
+00:07:13,344 --> 00:07:22,400
+Por lo tanto, aquí vemos inmediatamente que la medida de Dirac en 0 es singular con respecto a nuestra medida de Lebesgue.
+
+71
+00:07:22,609 --> 00:07:27,338
+Para mostrarnos que solo tenemos 2, elija tal N, y verá
+
+72
+00:07:27,440 --> 00:07:32,168
+que una buena opción sería nuevamente el conjunto que contiene solamente 0.
+
+73
+00:07:32,772 --> 00:07:42,327
+Obviamente, la medida de Lebesgue aquí es 0, y también el complemento medido en  μ que ahora es δ₀ es también 0.
+
+74
+00:07:42,830 --> 00:07:48,967
+Ahora, con estas dos nociones en mente, ahora podemos formular para enunciar
+
+75
+00:07:49,068 --> 00:07:52,017
+los dos teoremas que prometí al principio.
+
+76
+00:07:52,532 --> 00:08:00,379
+Aún así, consideramos el tamaño de la medida de Lebesgue otra medida definida en el σ-álgebra de Borel de R.
+
+77
+00:08:00,681 --> 00:08:06,818
+Ahora la parte (a) nos dice que para este μ encontramos que hay dos medidas relacionadas.
+
+78
+00:08:07,021 --> 00:08:10,646
+Además, están determinadas de forma única por lo siguiente
+
+79
+00:08:10,952 --> 00:08:18,706
+Primero, los nombres se eligen adecuadamente. La primera se llama  μ  con índice ac,
+
+80
+00:08:18,909 --> 00:08:22,539
+y la segunda se llama  μ  con índice s.
+
+81
+00:08:22,839 --> 00:08:28,175
+Ambas viven en la misma σ-álgebra, que aquí se elige como σ-álgebra de Borel.
+
+82
+00:08:28,477 --> 00:08:32,903
+De acuerdo, tenemos las medidas, por lo tanto, siguen las propiedades
+
+83
+00:08:33,205 --> 00:08:38,742
+La primera es  μ  viene dada como la suma de ambas medidas,
+
+84
+00:08:39,145 --> 00:08:45,182
+donde  μac es absolutamente continuo y  μs es singular.
+
+85
+00:08:45,697 --> 00:08:49,917
+Esa es la razón por la que elegimos los índices dados con esos nombres.
+
+86
+00:08:50,235 --> 00:08:55,872
+Por lo tanto, este teorema nos dice ahora que si tenemos una medida  μ dada,
+
+87
+00:08:56,088 --> 00:09:02,722
+podemos descomponerla de manera única en una medida absolutamente continua y una medida singular
+
+88
+00:09:03,131 --> 00:09:08,864
+Siempre encontramos estas 2 partes de la medida y siempre podemos descomponerla.
+
+89
+00:09:09,070 --> 00:09:13,499
+Por lo tanto, esto se conoce como el teorema de descomposición de Lebesgue.
+
+90
+00:09:13,806 --> 00:09:20,551
+Y la segunda parte de nuestro teorema aquí será ahora, obviamente, el teorema Radon-Nikodym.
+
+91
+00:09:20,853 --> 00:09:28,500
+Sin embargo sólo tiene sentido con la primera parte porque la relacionamos con la parte que es absolutamente continua.
+
+92
+00:09:28,813 --> 00:09:34,547
+El teorema ahora establece que hay una aplicación medible que llamamos h.
+
+93
+00:09:34,768 --> 00:09:40,299
+Como siempre, el dominio debería ser el conjunto X, que aquí se muestra como los números reales.
+
+94
+00:09:40,516 --> 00:09:43,836
+Y tiene correspondencia con los números no negativos.
+
+95
+00:09:44,136 --> 00:09:52,990
+Y ahora las propiedades que podemos reescribir, la parte absolutamente continua de (a)
+
+96
+00:09:53,306 --> 00:09:58,939
+usando una integral para la medida lebesgue λ
+
+97
+00:09:59,744 --> 00:10:05,192
+Dentro de nuestra integral tenemos nuestra función h, y ahí tenemos un conjunto de Borel A
+
+98
+00:10:05,696 --> 00:10:10,223
+Y por supuesto esto debería ser válido para todos los conjuntos de Borel A.
+
+99
+00:10:10,934 --> 00:10:16,767
+Y ese es el teorema Radon-Nikodym. Es muy bonito porque te dice que
+
+100
+00:10:16,969 --> 00:10:22,404
+si tienes una medida absolutamente continua siempre puedes reescribirla como
+
+101
+00:10:22,706 --> 00:10:24,719
+integral habitual con respecto a la medida de Lebesgue.
+
+102
+00:10:25,222 --> 00:10:30,452
+Porque siempre encontramos una función h para reescribir esto en una integral.
+
+103
+00:10:30,754 --> 00:10:35,886
+Por lo tanto, la medida es inmediatamente mucho más fácil porque puede manejarla
+
+104
+00:10:36,087 --> 00:10:40,209
+mirando la función normal h en lugar de la medida abstracta.
+
+105
+00:10:40,516 --> 00:10:47,763
+En otras palabras, dar tal función h es tan bueno como dar una medida absolutamente continua.
+
+106
+00:10:48,265 --> 00:10:52,995
+Y por esta razón llamamos a esta función h “de densidad”.
+
+107
+00:10:53,399 --> 00:11:00,443
+De acuerdo, tal vez eso sea lo suficientemente bueno para este resumen rápido del teorema de Radon-Nikodym y el teorema de descomposición de Lebesgue.
+
+108
+00:11:00,852 --> 00:11:05,084
+Sin embargo, si ya conocía estos 2 teoremas antes
+
+109
+00:11:05,284 --> 00:11:08,907
+debería haber notado que omití un detalle importante aquí.
+
+110
+00:11:09,108 --> 00:11:14,539
+Es decir, no se le permite elegir la medida  μ  en total generalidad.
+
+111
+00:11:14,839 --> 00:11:20,676
+Tenemos que elegir una medida que sea como la medida de Lebesgue al menos σ-finita.
+
+112
+00:11:20,980 --> 00:11:25,806
+De acuerdo, la definición de σ-finito que di en otros vídeos antes,
+
+113
+00:11:26,109 --> 00:11:29,230
+pero volveré sobre esto en los próximos videos.
+
+114
+00:11:29,531 --> 00:11:35,970
+Aquí debe recordar que necesitamos la σ-finitud para nuestra medida  μ,
+
+115
+00:11:36,171 --> 00:11:38,283
+pero también para la medida de referencia.
+
+116
+00:11:38,491 --> 00:11:41,725
+Lo cual, por supuesto, se cumple para la medida de Lebesgue.
+
+117
+00:11:42,047 --> 00:11:46,773
+Sin embargo, si desea generalizar ambos teoremas con otra medida de referencia,
+
+118
+00:11:46,995 --> 00:11:50,109
+se debe elegir una que también sea σ-finita.
+
+119
+00:11:50,531 --> 00:11:55,962
+Bien, en los próximos videos volveré a ambos teoremas,
+
+120
+00:11:56,166 --> 00:12:03,202
+hablaremos de las demostraciones y también les daré algunos ejemplos y algunas aplicaciones.
+
+121
+00:12:03,532 --> 00:12:09,178
+Ya te puedo decir que tenemos muchas aplicaciones para esto.
+
+122
+00:12:09,479 --> 00:12:13,618
+Eso es cierto para las dos nociones que definimos y para ambos teoremas.
+
+123
+00:12:14,803 --> 00:12:20,948
+Por eso espero que nos volvamos a encontrar en los próximos videos. Que tengas un buen día, adiós.THE BRIGHT SIDE OF MATHEMATICS RADON-NYKODIM THEOREM,
+TRADUCIDO POR JORGE IBÁÑEZ
+

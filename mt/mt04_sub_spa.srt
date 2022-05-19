@@ -1,0 +1,1620 @@
+1
+00:00:00,140 --> 00:00:03,470
+Hola y bienvenidos de nuevo a la teoría de la medida.
+
+2
+00:00:03,470 --> 00:00:06,450
+Esta es la parte 4 de nuestra serie
+
+3
+00:00:06,450 --> 00:00:10,019
+y hoy finalmente os explicaré
+
+4
+00:00:10,019 --> 00:00:12,660
+por qué motivos no podemos definir la medida de Lebesgue en
+
+5
+00:00:12,660 --> 00:00:15,330
+el conjunto de partes completo, y esto os debería de dar
+
+6
+00:00:15,330 --> 00:00:18,029
+al menos una motivación acerca de por qué es
+
+7
+00:00:18,029 --> 00:00:20,900
+tan importante estudiar la teoría de la medida.
+
+8
+00:00:20,900 --> 00:00:24,090
+Para empezar aquí, declaremos
+
+9
+00:00:24,090 --> 00:00:27,180
+el problema de medidas de nuevo. Buscamos una medida µ
+
+10
+00:00:27,180 --> 00:00:31,080
+en el conjunto de las partes de R. Podemos ver,
+
+11
+00:00:31,080 --> 00:00:34,170
+que esto sería el caso 1-dimensional, por lo que
+
+12
+00:00:34,170 --> 00:00:36,510
+primero tratamos con la recta real
+
+13
+00:00:36,510 --> 00:00:40,170
+antes de avanzar a dimensiones mayores.
+
+14
+00:00:40,170 --> 00:00:42,719
+Llamamos a esto problema de medida
+
+15
+00:00:42,719 --> 00:00:45,719
+porque queremos ahora 2 propiedades naturales
+
+16
+00:00:45,719 --> 00:00:49,649
+que sean cumplidas por esta medida.
+
+17
+00:00:49,649 --> 00:00:52,500
+Primero, la medida de un intervalo normal debería ser
+
+18
+00:00:52,500 --> 00:00:54,480
+sólo la longitud de este intervalo.
+
+19
+00:00:54,480 --> 00:00:59,250
+Por lo tanto, sólo b menos a, donde digamos que b es
+
+20
+00:00:59,250 --> 00:01:03,239
+por supuesto más grande que a.
+
+21
+00:01:03,239 --> 00:01:05,970
+Por supuesto esto es lo que queremos, queremos generalizar
+
+22
+00:01:05,970 --> 00:01:09,630
+la medición de la longitud y ahora la segunda
+
+23
+00:01:09,630 --> 00:01:12,479
+propiedad natural es que tenemos algunos
+
+24
+00:01:12,479 --> 00:01:16,110
+que recuerdan la invariancia en traslaciones.
+
+25
+00:01:16,110 --> 00:01:19,140
+Es decir, que si tenemos un conjunto A y lo desplazamos
+
+26
+00:01:19,140 --> 00:01:22,590
+con un vector fijo X, no cambiamos
+
+27
+00:01:22,590 --> 00:01:25,280
+la longitud o la medida de este conjunto.
+
+28
+00:01:25,280 --> 00:01:29,310
+Esto significa que obtenemos µ(A) en
+
+29
+00:01:29,310 --> 00:01:32,100
+el lado derecho.
+
+30
+00:01:32,100 --> 00:01:34,500
+Ahí lo tenemos, que es lo que llamamos nuestro
+
+31
+00:01:34,500 --> 00:01:37,860
+problema de medida y tal medida µ haría
+
+32
+00:01:37,860 --> 00:01:41,189
+realmente generalizar la longitud de la medida de intervalos.
+
+33
+00:01:41,189 --> 00:01:44,850
+Sin embargo; por más de 100
+
+34
+00:01:44,850 --> 00:01:47,220
+años se sabe que este problema de medida
+
+35
+00:01:47,220 --> 00:01:49,860
+tiene el problema que no se puede resolver,
+
+36
+00:01:49,860 --> 00:01:52,110
+así que no podemos definir tal medida µ en el conjunto completo
+
+37
+00:01:52,110 --> 00:01:55,290
+de las partes fijado en R.
+
+38
+00:01:55,290 --> 00:01:57,840
+Entonces, tiene sentido construir toda la teoría de la medida
+
+39
+00:01:57,840 --> 00:02:01,170
+con Sigma álgebras.
+
+40
+00:02:01,170 --> 00:02:03,420
+Al final veremos que podemos elegir un
+
+41
+00:02:03,420 --> 00:02:06,119
+Sigma álgebra adecuado en el que podamos resolver
+
+42
+00:02:06,119 --> 00:02:09,119
+este problema de medida. Sin embargo; en este
+
+43
+00:02:09,119 --> 00:02:12,480
+video empiezo demostrando que el problema de medidas
+
+44
+00:02:12,480 --> 00:02:13,680
+en el conjunto de las partes
+
+45
+00:02:13,680 --> 00:02:16,890
+no tiene una solución.
+
+46
+00:02:16,890 --> 00:02:20,219
+La proposición que probaré ahora es la siguiente.
+
+47
+00:02:20,219 --> 00:02:22,469
+Sea µ una medida en el conjunto de las partes con
+
+48
+00:02:22,469 --> 00:02:24,959
+las propiedades uno y dos pero
+
+49
+00:02:24,959 --> 00:02:27,959
+debilitaré la propiedad uno un poco.
+
+50
+00:02:27,959 --> 00:02:31,500
+Solo quiero que la medida de la unidad
+
+51
+00:02:31,500 --> 00:02:36,750
+intervalo, sea finita (no infinito)
+
+52
+00:02:36,750 --> 00:02:39,329
+Esto por supuesto, se cumple cuando la propiedad uno
+
+53
+00:02:39,329 --> 00:02:43,349
+se cumple y por qué excluí cero y
+
+54
+00:02:43,349 --> 00:02:46,379
+este intervalo aquí lo veremos más adelante.
+
+55
+00:02:46,379 --> 00:02:48,750
+En adición, µ también debe cumplir
+
+56
+00:02:48,750 --> 00:02:51,299
+la propiedad dos, lo que significa
+
+57
+00:02:51,299 --> 00:02:54,569
+que debe ser invariante por traslaciones.
+
+58
+00:02:54,569 --> 00:02:57,120
+El resultado es ahora que solo hay una medida que
+
+59
+00:02:57,120 --> 00:03:01,409
+satisface esto y ella es la medida cero
+
+60
+00:03:01,409 --> 00:03:04,650
+y, por supuesto,
+
+61
+00:03:04,650 --> 00:03:06,599
+la medida trivial no es lo que queremos,
+
+62
+00:03:06,599 --> 00:03:08,879
+la medida trivial no cumple la propiedad uno
+
+63
+00:03:08,879 --> 00:03:10,889
+en nuestro problema de medida, así que esto explica
+
+64
+00:03:10,889 --> 00:03:15,389
+esta implicación de aquí.
+
+65
+00:03:15,389 --> 00:03:18,540
+El vídeo entero va ahora sobre probar esta proposición y de hecho
+
+66
+00:03:18,540 --> 00:03:21,540
+este es un ejercicio típico que se encuentra en
+
+67
+00:03:21,540 --> 00:03:24,209
+clases de teoría de la medida.
+
+68
+00:03:24,209 --> 00:03:27,060
+Por lo tanto os recomiendo que lo intentéis por vosotros mismos primero,
+
+69
+00:03:27,060 --> 00:03:29,939
+y luego tal vez rellenar los detalles que falten
+
+70
+00:03:29,939 --> 00:03:32,970
+usando este video.
+
+71
+00:03:32,970 --> 00:03:35,129
+Si no estáis interesados en
+
+72
+00:03:35,129 --> 00:03:37,650
+detalles técnicos, entonces podéis saltaros este video sin problemas
+
+73
+00:03:37,650 --> 00:03:41,729
+e ir al siguiente en la serie.
+
+74
+00:03:41,729 --> 00:03:45,209
+Para todos los demás ahora viene la prueba.
+
+75
+00:03:45,209 --> 00:03:47,310
+Empezaré por estructurarlo un poco así que empiezo
+
+76
+00:03:47,310 --> 00:03:50,759
+con a) dando algunas definiciones
+
+77
+00:03:50,759 --> 00:03:52,829
+Estudiaremos el intervalo donde sabemos
+
+78
+00:03:52,829 --> 00:03:54,959
+que la medida es finita por lo que esto es
+
+79
+00:03:54,959 --> 00:03:58,590
+lo que yo llamo I mayúscula, es decir,
+
+80
+00:03:58,590 --> 00:04:01,409
+el intervalo unidad donde excluimos el 0
+
+81
+00:04:01,409 --> 00:04:06,150
+e incluimos al 1.
+
+82
+00:04:06,150 --> 00:04:08,970
+En I ahora defino una relación de equivalencia.
+
+83
+00:04:08,970 --> 00:04:11,220
+Y esta relación de equivalencia debe ignorar
+
+84
+00:04:11,220 --> 00:04:13,709
+números racionales dentro del intervalo.
+
+85
+00:04:13,709 --> 00:04:17,549
+Defino x, y
+
+86
+00:04:17,549 --> 00:04:21,359
+como equivalentes si y solo si
+
+87
+00:04:21,359 --> 00:04:25,770
+lo siguiente se cumple.
+
+88
+00:04:25,770 --> 00:04:27,639
+La diferencia entre ellos es solo un
+
+89
+00:04:27,639 --> 00:04:35,860
+número racional, así que x menos y está en Q.
+
+90
+00:04:35,860 --> 00:04:38,050
+No queremos distinguir
+
+91
+00:04:38,050 --> 00:04:40,719
+números que solo difieren por un número racional.
+
+92
+00:04:40,719 --> 00:04:42,580
+Queremos tratar con estos
+
+93
+00:04:42,580 --> 00:04:45,580
+números como si fueran el mismo.
+
+94
+00:04:45,580 --> 00:04:48,039
+La clase de equivalencia de tal x
+
+95
+00:04:48,039 --> 00:04:51,400
+puede escribirse como x más todos los números racionales "r".
+
+96
+00:04:51,400 --> 00:04:54,909
+Así que ponemos todos estos números en una
+
+97
+00:04:54,909 --> 00:04:58,499
+caja y la llamamos x con corchetes
+
+98
+00:04:58,499 --> 00:05:01,060
+Sin embargo; tengamos en cuenta que definimos la
+
+99
+00:05:01,060 --> 00:05:04,569
+relación de equivalencia en nuestro conjunto I, así que ahora
+
+100
+00:05:04,569 --> 00:05:06,759
+sólo estamos en el intervalo unidad,
+
+101
+00:05:06,759 --> 00:05:09,490
+por lo tanto, estos números también deben estar
+
+102
+00:05:09,490 --> 00:05:12,370
+en el intervalo unidad.
+
+103
+00:05:12,370 --> 00:05:16,539
+Luego, tengo que añadir aquí que también x+r
+
+104
+00:05:16,539 --> 00:05:20,169
+continúan estando en el Intervalo, así que no puedo añadir
+
+105
+00:05:20,169 --> 00:05:21,669
+números racionales grandes porque entonces
+
+106
+00:05:21,669 --> 00:05:24,250
+dejaría de estar aquí.
+
+107
+00:05:24,250 --> 00:05:28,060
+De otra manera, llegamos a todos los números.
+
+108
+00:05:28,060 --> 00:05:29,620
+Aquí tenemos la relación
+
+109
+00:05:29,620 --> 00:05:31,389
+de equivalencia bien definida
+
+110
+00:05:31,389 --> 00:05:34,029
+con sus clases de equivalencia.
+
+111
+00:05:34,029 --> 00:05:36,879
+Para una visualización, dibujaré estas cajitas.
+
+112
+00:05:39,879 --> 00:05:44,949
+Son conjuntos con elementos por lo que podría llamar a esto x1,
+
+113
+00:05:44,949 --> 00:05:49,300
+en una caja aquí y luego tengo otra,
+
+114
+00:05:49,300 --> 00:05:56,529
+esto sería x2,x3,x4
+
+115
+00:05:56,529 --> 00:06:00,310
+y por supuesto, esta imagen continúa avanzando infinitamente.
+
+116
+00:06:00,310 --> 00:06:02,710
+No sabemos si tenemos
+
+117
+00:06:02,710 --> 00:06:05,199
+un número contable de cajas como la imagen
+
+118
+00:06:05,199 --> 00:06:07,870
+sugiere aquí, así que por favor tened cuidado,
+
+119
+00:06:07,870 --> 00:06:09,810
+pero sí sabemos que tenemos una
+
+120
+00:06:09,810 --> 00:06:13,149
+descomposición disjunta del intervalo unidad.
+
+121
+00:06:13,149 --> 00:06:16,509
+Esto es lo que siempre tenemos si definimos
+
+122
+00:06:16,509 --> 00:06:20,169
+una relación de equivalencia.
+
+123
+00:06:20,169 --> 00:06:22,949
+Ahora ya hemos llegado a la parte esencial de la prueba
+
+124
+00:06:22,949 --> 00:06:27,990
+Como definimos un conjunto A en I que
+
+125
+00:06:27,990 --> 00:06:31,779
+describe todas estas cajas,
+
+126
+00:06:31,779 --> 00:06:34,599
+cada elemento de A describe
+
+127
+00:06:34,599 --> 00:06:38,069
+o representa exactamente una de estas cajas.
+
+128
+00:06:38,069 --> 00:06:41,230
+Entonces esta imagen se vería como...
+
+129
+00:06:41,230 --> 00:06:43,900
+Elijo un elemento aquí,
+
+130
+00:06:43,900 --> 00:06:47,440
+lo llamo A1 y luego voy a la siguiente caja, donde escojo
+
+131
+00:06:47,440 --> 00:06:50,770
+un elemento A2,
+
+132
+00:06:50,770 --> 00:06:54,520
+aquí un A3, un A4 y así sucesivamente,
+
+133
+00:06:54,520 --> 00:06:58,600
+y luego pongo todos estos elementos en un conjunto.
+
+134
+00:06:58,600 --> 00:07:03,000
+Y esto es lo que yo voy a llamar conjunto A
+
+135
+00:07:03,000 --> 00:07:06,610
+Esto parece bonito ahora, pero tened en cuenta,
+
+136
+00:07:06,610 --> 00:07:09,040
+si tenemos una cantidad no numerable de cajas,
+
+137
+00:07:09,040 --> 00:07:11,350
+esta imagen no es la manera correcta
+
+138
+00:07:11,350 --> 00:07:13,570
+de representar esto y por lo tanto necesitamos
+
+139
+00:07:13,570 --> 00:07:16,600
+otra definición para nuestro conjunto A.
+
+140
+00:07:16,600 --> 00:07:19,710
+Por supuesto, hay  exactamente la misma idea detrás.
+
+141
+00:07:19,710 --> 00:07:22,870
+La primera propiedad es por lo tanto,
+
+142
+00:07:22,870 --> 00:07:23,650
+para cada caja,
+
+143
+00:07:23,650 --> 00:07:26,200
+para cada clase de equivalencia de x,
+
+144
+00:07:26,200 --> 00:07:30,730
+encuentro tal a en A.
+
+145
+00:07:30,730 --> 00:07:33,490
+Es decir, sacamos un elemento fuera de cada caja.
+
+146
+00:07:33,490 --> 00:07:36,220
+La segunda propiedad,
+
+147
+00:07:36,220 --> 00:07:39,280
+nos indica que este elemento es único,
+
+148
+00:07:39,280 --> 00:07:43,600
+por lo que sólamente elijo un elemento de cada caja.
+
+149
+00:07:43,600 --> 00:07:47,590
+Para todo A B en A tenemos la propiedad que
+
+150
+00:07:47,590 --> 00:07:53,380
+si A y B salen de la misma caja x
+
+151
+00:07:53,380 --> 00:07:58,780
+entonces eso implica que A es igual a B.
+
+152
+00:07:58,780 --> 00:08:01,810
+La definición nos dice que el conjunto A tiene
+
+153
+00:08:01,810 --> 00:08:05,410
+exactamente un representante de cada una
+
+154
+00:08:05,410 --> 00:08:08,500
+de las cajas. Las clases de equivalencia son
+
+155
+00:08:08,500 --> 00:08:11,350
+por lo tanto perfectamente representados por el conjunto A.
+
+156
+00:08:11,350 --> 00:08:14,920
+Sin embargo; no está claro cómo hacer
+
+157
+00:08:14,920 --> 00:08:18,750
+esta representación, no encontramos
+
+158
+00:08:18,750 --> 00:08:21,880
+una construcción sobre cómo podemos encontrar el conjunto A.
+
+159
+00:08:21,880 --> 00:08:24,250
+Se ve muy bien en la imagen y
+
+160
+00:08:24,250 --> 00:08:26,230
+se ve que tenemos un montón
+
+161
+00:08:26,230 --> 00:08:29,890
+de posibilidades de definir tal conjunto.
+
+162
+00:08:29,890 --> 00:08:31,660
+Pero tengamos en cuenta que si estamos
+
+163
+00:08:31,660 --> 00:08:34,780
+con un dibujo no numerable, podríamos no saber
+
+164
+00:08:34,780 --> 00:08:39,220
+si tal conjunto A realmente existe.
+
+165
+00:08:39,220 --> 00:08:42,060
+Por ello,esta justificación es muy fuerte aquí.
+
+166
+00:08:42,060 --> 00:08:45,370
+lLo que necesitamos aquí es de hecho
+
+167
+00:08:45,370 --> 00:08:48,720
+el axioma de elección, que se da en teoría de conjuntos.
+
+168
+00:08:48,720 --> 00:08:51,670
+Es un axioma que garantiza
+
+169
+00:08:51,670 --> 00:08:54,160
+la existencia de tal conjunto A
+
+170
+00:08:54,160 --> 00:08:57,730
+con exactamente estas dos propiedades.
+
+171
+00:08:57,730 --> 00:08:59,649
+Vale, esto ha sido mucho, pero todavía
+
+172
+00:08:59,649 --> 00:09:02,649
+hemos terminado con todas las definiciones que quiero dar.
+
+173
+00:09:02,649 --> 00:09:05,740
+Ahora hemos fijado un conjunto A y ahora
+
+174
+00:09:05,740 --> 00:09:07,810
+quiero desplazarlo un poco, así que
+
+175
+00:09:07,810 --> 00:09:10,389
+lo traslado mediante un número racional,
+
+176
+00:09:10,389 --> 00:09:13,449
+así que voy a definir An. Esto sería
+
+177
+00:09:13,449 --> 00:09:18,459
+rn más el conjunto A, y nuestro n es
+
+178
+00:09:18,459 --> 00:09:21,160
+un número racional, más concretamente quiero
+
+179
+00:09:21,160 --> 00:09:24,160
+una sucesión rn, así que esto va
+
+180
+00:09:24,160 --> 00:09:27,639
+por los números naturales que enumeran todos
+
+181
+00:09:27,639 --> 00:09:30,279
+los números racionales.
+
+182
+00:09:30,279 --> 00:09:33,160
+Esto no es completamente correcto, solo quiero una enumeración de
+
+183
+00:09:33,160 --> 00:09:35,800
+los números racionales intersecados con
+
+184
+00:09:35,800 --> 00:09:41,620
+el intervalo real de -1 hasta 1.
+
+185
+00:09:41,620 --> 00:09:43,480
+Por supuesto es lo que quiero que veais
+
+186
+00:09:43,480 --> 00:09:44,430
+más adelante.
+
+187
+00:09:44,430 --> 00:09:47,500
+Sin embargo, podemos ver que podemos utilizar
+
+188
+00:09:47,500 --> 00:09:49,480
+que los números racionales son numerables
+
+189
+00:09:49,480 --> 00:09:51,730
+cuando queremos aplicar la Sigma aditividad
+
+190
+00:09:51,730 --> 00:09:55,449
+más adelante. Ahora podemos finalmente
+
+191
+00:09:55,449 --> 00:09:59,769
+ir a la parte B de mi demostración.
+
+192
+00:09:59,769 --> 00:10:02,199
+Primero vemos que los conjuntos están definidos aquí
+
+193
+00:10:02,199 --> 00:10:06,300
+de hecho tenemos una intersección, tenemos una An
+
+194
+00:10:06,300 --> 00:10:09,699
+intersecada con una Am y esto nos da
+
+195
+00:10:09,699 --> 00:10:14,970
+el conjunto vacío si y n es distinto de m.
+
+196
+00:10:14,970 --> 00:10:18,370
+La demostración se hace fácilmente mediante un contraposición.
+
+197
+00:10:18,370 --> 00:10:20,740
+Podríamos leer esto
+
+198
+00:10:20,740 --> 00:10:23,829
+aquí como una implicación de forma que, si n es
+
+199
+00:10:23,829 --> 00:10:28,720
+desigual a m esto significa
+
+200
+00:10:28,720 --> 00:10:29,680
+que estos conjuntos son disjuntos.
+
+201
+00:10:29,680 --> 00:10:32,529
+Ahora contraposición es,
+
+202
+00:10:32,529 --> 00:10:34,779
+suponemos que no son disjuntos y esto implica n=m.
+
+203
+00:10:34,779 --> 00:10:38,759
+Por lo que esto es lógicamente equivalente.
+
+204
+00:10:38,759 --> 00:10:41,649
+Sin embargo; no ser disjuntos significa que hay
+
+205
+00:10:41,649 --> 00:10:44,380
+un elemento que podemos elegir de esta
+
+206
+00:10:44,380 --> 00:10:48,670
+intersección, así que cogemos x.
+
+207
+00:10:48,670 --> 00:10:52,059
+Esto implica inmediatamente dos propiedades.
+
+208
+00:10:52,059 --> 00:10:57,100
+Estar en An significa que puedo escribir x=rn
+
+209
+00:10:57,100 --> 00:11:01,480
+y sumarle un a de A
+
+210
+00:11:01,480 --> 00:11:05,470
+Y estar en Am significa que puedo
+
+211
+00:11:05,470 --> 00:11:07,630
+escribirlo como x=rm+a.
+
+212
+00:11:07,630 --> 00:11:11,259
+Pero por supuesto, estas podrían ser
+
+213
+00:11:11,259 --> 00:11:14,350
+dos a's diferentes, así que pongo
+
+214
+00:11:14,350 --> 00:11:19,120
+estos índices para indicarlo aquí.
+
+215
+00:11:19,120 --> 00:11:21,639
+Igualmente, la x es la misma en el lado izquierdo, así que puedo  igualarlas.
+
+216
+00:11:21,639 --> 00:11:25,480
+Esto significa que tengo rn+an
+
+217
+00:11:25,480 --> 00:11:32,410
+igual a rm+am.
+
+218
+00:11:32,410 --> 00:11:35,800
+Y aquí podemos ver lo que puedo hacer, puedo poner todas las a's
+
+219
+00:11:35,800 --> 00:11:37,630
+por un lado y todas las erres por el otro lado.
+
+220
+00:11:37,630 --> 00:11:40,810
+Y ahora a la derecha restamos
+
+221
+00:11:40,810 --> 00:11:43,300
+dos números racionales, que sabemos
+
+222
+00:11:43,300 --> 00:11:45,930
+que el resutado de esa resta es un número racional.
+
+223
+00:11:45,930 --> 00:11:49,300
+Ahora recordemos que hemos definido una
+
+224
+00:11:49,300 --> 00:11:52,209
+relación de equivalencia exactamente cuando
+
+225
+00:11:52,209 --> 00:11:54,220
+la diferencia de dos números es un número racional.
+
+226
+00:11:54,220 --> 00:11:57,160
+En otras palabras an, am
+
+227
+00:11:57,160 --> 00:12:00,819
+son equivalentes.
+
+228
+00:12:00,819 --> 00:12:04,959
+En otras palabras también podríamos decir que nuestra an está
+
+229
+00:12:04,959 --> 00:12:08,649
+en la clase de equivalencia que presentamos por am.
+
+230
+00:12:08,649 --> 00:12:12,310
+También podemos añadir
+
+231
+00:12:12,310 --> 00:12:15,699
+am aquí, así que por supuesto am
+
+232
+00:12:15,699 --> 00:12:17,800
+está también en la clase de equivalencia aquí
+
+233
+00:12:17,800 --> 00:12:21,670
+y entonces vemos que se cumple la propiedad 2 para nuestro
+
+234
+00:12:21,670 --> 00:12:24,420
+conjunto A y decimos si dos elementos
+
+235
+00:12:24,420 --> 00:12:27,279
+salen de la misma caja o de la misma
+
+236
+00:12:27,279 --> 00:12:29,050
+clase de equivalencia entonces, son iguales.
+
+237
+00:12:29,050 --> 00:12:32,199
+La conclusión aquí es an es
+
+238
+00:12:32,199 --> 00:12:37,300
+igual a am. Esto nos dice
+
+239
+00:12:37,300 --> 00:12:40,389
+que el lado izquierdo aquí es cero, pero luego
+
+240
+00:12:40,389 --> 00:12:42,100
+también el lado derecho es cero y
+
+241
+00:12:42,100 --> 00:12:46,420
+por lo tanto, de nuevo podemos dar a entender que también
+
+242
+00:12:46,420 --> 00:12:48,069
+los números racionales aquí son el mismo,
+
+243
+00:12:48,069 --> 00:12:52,480
+así que nuestra rn es igual a rm.
+
+244
+00:12:52,480 --> 00:12:55,269
+Pero nuestros rn fueron elegidos como una enumeración de los
+
+245
+00:12:55,269 --> 00:12:57,519
+números racionales y por lo tanto aquí también
+
+246
+00:12:57,519 --> 00:13:01,720
+tienen que coincidir los índices, n=m.
+
+247
+00:13:01,720 --> 00:13:04,380
+Esto demuestra la proposición por contraposición.
+
+248
+00:13:04,380 --> 00:13:07,449
+Muy bien, ahora quiero ir a la siguiente parte.
+
+249
+00:13:07,449 --> 00:13:11,019
+En la Parte C) quiero ver
+
+250
+00:13:11,019 --> 00:13:16,180
+la unión de estos conjuntos disjuntos.
+
+251
+00:13:16,180 --> 00:13:20,620
+Tengo aquí unión n en N.
+
+252
+00:13:20,620 --> 00:13:22,730
+Bien, ahora tengamos en mente cúal era
+
+253
+00:13:22,730 --> 00:13:24,920
+la definición de An y era
+
+254
+00:13:24,920 --> 00:13:27,770
+definida por nuestro conjunto A, contenido
+
+255
+00:13:27,770 --> 00:13:30,260
+en el intervalo unidad desplazado por números racional
+
+256
+00:13:30,260 --> 00:13:34,550
+contenidos en -1,1.
+
+257
+00:13:34,550 --> 00:13:37,370
+Esto significa que usando la unión todavía
+
+258
+00:13:37,370 --> 00:13:40,040
+no debería ser capaz de salir del intervalo que
+
+259
+00:13:40,040 --> 00:13:44,630
+está dado por -1, y ahora desplazo 1
+
+260
+00:13:44,630 --> 00:13:50,120
+con máximo 1, así que aquí tengo 2: (-1,2].
+
+261
+00:13:50,120 --> 00:13:52,220
+Y en el otro lado podemos utilizar cómo
+
+262
+00:13:52,220 --> 00:13:56,060
+habíamos definido A por lo que esta era la representación de
+
+263
+00:13:56,060 --> 00:13:58,310
+todas las clases de equivalencia, y donde
+
+264
+00:13:58,310 --> 00:14:00,830
+las clases de equivalencia fueron definidas por
+
+265
+00:14:00,830 --> 00:14:02,840
+las diferencias de números racionales.
+
+266
+00:14:02,840 --> 00:14:06,650
+Y ahora añado todos
+
+267
+00:14:06,650 --> 00:14:10,460
+los números racionales, así que debería conseguir al menos el
+
+268
+00:14:10,460 --> 00:14:14,420
+intervalo unidad otra vez. Bien ésta
+
+269
+00:14:14,420 --> 00:14:17,270
+la proposición que ahora queremos probar aquí en la parte C.
+
+270
+00:14:17,270 --> 00:14:21,440
+Sin embargo; ya dijimos la mayoría de
+
+271
+00:14:21,440 --> 00:14:24,440
+cosas que necesitamos, por lo tanto creo que
+
+272
+00:14:24,440 --> 00:14:26,240
+no es difícil que hagáis la demostración
+
+273
+00:14:26,640 --> 00:14:31,430
+por vosotros mismos, la demostración es ejercicio para vosotros.
+
+274
+00:14:31,430 --> 00:14:36,020
+Poned todas las ideas que os di en fórmulas.
+
+275
+00:14:36,020 --> 00:14:39,050
+Vale, con todo esto en mente, ahora podemos ir
+
+276
+00:14:39,050 --> 00:14:43,640
+a la demostración central. Supongamos que
+
+277
+00:14:43,640 --> 00:14:45,740
+tenemos una medida en todo el conjunto de partes de
+
+278
+00:14:45,740 --> 00:14:48,410
+la recta real y también la medida debe cumplir
+
+279
+00:14:48,410 --> 00:14:51,200
+las dos propiedades que hemos dado
+
+280
+00:14:51,200 --> 00:14:54,680
+en la proposición. Ahora podemos usar todas las cosas
+
+281
+00:14:54,680 --> 00:14:58,340
+de arriba, por ejemplo, por nuestra
+
+282
+00:14:58,340 --> 00:15:02,360
+invariancia en la traslación (2), podemos escribir que
+
+283
+00:15:02,360 --> 00:15:08,210
+la medida µ(rn+A)
+
+284
+00:15:08,210 --> 00:15:12,890
+es la misma que µ(A), y esto se cumple
+
+285
+00:15:12,890 --> 00:15:17,210
+para todos los números naturales n.
+
+286
+00:15:17,210 --> 00:15:20,210
+Ahora usamos C aquí, inmediatamente sabemos que
+
+287
+00:15:20,210 --> 00:15:23,690
+la medida es siempre monótona, lo que significa
+
+288
+00:15:23,690 --> 00:15:27,230
+que la medida de este conjunto es menor o igual
+
+289
+00:15:27,230 --> 00:15:29,660
+que la medida de este conjunto y esta es
+
+290
+00:15:29,660 --> 00:15:31,420
+menor o igual que la medida de este conjunto.
+
+291
+00:15:31,420 --> 00:15:35,209
+Así que tenemos exactamente esta
+
+292
+00:15:36,130 --> 00:15:42,180
+desigualdad aquí. Vamos a necesitarla más adelante, así que la voy a marcar con *.
+
+293
+00:15:42,180 --> 00:15:45,269
+Además usemos ahora nuestra segunda
+
+294
+00:15:45,269 --> 00:15:47,820
+condición aquí, que la medida del
+
+295
+00:15:47,820 --> 00:15:51,420
+intervalo unidad es al menos finito.
+
+296
+00:15:51,420 --> 00:15:53,670
+Vamos a dar a este número un nombre,
+
+297
+00:15:53,670 --> 00:15:58,350
+µ((0,1]):=C
+
+298
+00:15:58,350 --> 00:16:02,009
+llamo a esto C mayúscula.
+
+299
+00:16:02,009 --> 00:16:05,430
+Con esto se puede calcular la medida aquí.
+
+300
+00:16:05,430 --> 00:16:06,899
+Podemos usar las propiedades de una medida
+
+301
+00:16:06,899 --> 00:16:10,860
+a saber, la Sigma aditividad. Luego, dividamos el conjunto
+
+302
+00:16:10,860 --> 00:16:14,579
+en intervalos de unidad o unidad desplazada.
+
+303
+00:16:14,579 --> 00:16:17,970
+Aquí voy a 0, incluido
+
+304
+00:16:17,970 --> 00:16:20,550
+y luego tenemos una unión disjunta cuando
+
+305
+00:16:20,550 --> 00:16:24,560
+excluimos al 0 aquí y vamos a 1 incluido,
+
+306
+00:16:24,560 --> 00:16:31,730
+de nuevo unión 1 y 2.
+
+307
+00:16:31,730 --> 00:16:34,500
+Ok, aquí ahora podemos usar la Sigma aditividad.
+
+308
+00:16:34,500 --> 00:16:36,839
+Ahora podemos escribir esto como
+
+309
+00:16:36,839 --> 00:16:38,819
+medida de este conjunto más
+
+310
+00:16:38,819 --> 00:16:41,880
+más medida de este conjunto más medida de este conjunto, y mediante el uso de
+
+311
+00:16:41,880 --> 00:16:44,639
+la invariancia de la traslación,
+
+312
+00:16:44,639 --> 00:16:47,430
+que toda esta medida tiene el mismo valor, a saber C.
+
+313
+00:16:47,430 --> 00:16:51,329
+Por lo tanto tenemos C+C+C,
+
+314
+00:16:51,329 --> 00:16:56,550
+así que tenemos 3C.
+
+315
+00:16:56,550 --> 00:16:59,670
+Ahora quiero usar esta desigualdad,
+
+316
+00:16:59,670 --> 00:17:06,030
+que llamé antes estrella, así que esto es lo que
+
+317
+00:17:06,030 --> 00:17:07,679
+deberíamos ver inmediatamente,
+
+318
+00:17:07,679 --> 00:17:10,319
+en la izquierda tenemos C en sí, pero en la
+
+319
+00:17:10,319 --> 00:17:13,409
+derecha ahora teníamos calculado 3C, así que vamos a
+
+320
+00:17:13,409 --> 00:17:16,079
+escribirlo, C es menor o igual que
+
+321
+00:17:16,079 --> 00:17:18,929
+y ahora puedo usar la Sigma aditividad
+
+322
+00:17:18,929 --> 00:17:22,319
+como siempre porque ésta
+
+323
+00:17:22,319 --> 00:17:25,650
+es disjunta. Ahora, esta era la parte b de
+
+324
+00:17:25,650 --> 00:17:29,250
+antes, así que ahora tengo aquí la suma o la
+
+325
+00:17:29,250 --> 00:17:36,720
+serie de 1 a infinito de μ(A_n)
+
+326
+00:17:36,720 --> 00:17:40,200
+y esto es menor o igual que 3C.
+
+327
+00:17:40,200 --> 00:17:44,490
+Y ahora también sabemos que podemos conseguir
+
+328
+00:17:44,490 --> 00:17:47,940
+deshacernos de la n aquí porque aquí
+
+329
+00:17:47,940 --> 00:17:52,320
+vemos que esto es An,
+
+330
+00:17:52,320 --> 00:17:54,720
+la versión trasladada de A.
+
+331
+00:17:54,720 --> 00:17:56,159
+Pero por invariancia en la traslación, sabemos que la medida es
+
+332
+00:17:56,159 --> 00:17:59,370
+la misma, así que podemos escribir μ(A) en este
+
+333
+00:17:59,370 --> 00:18:02,580
+caso y quiero escribir esto como
+
+334
+00:18:02,580 --> 00:18:06,210
+una desigualdad importante aquí.
+
+335
+00:18:06,210 --> 00:18:09,240
+C menor igual a la serie de μ(A) y menor o
+
+336
+00:18:09,240 --> 00:18:12,299
+igual que 3C, así que por favor mirad
+
+337
+00:18:12,299 --> 00:18:15,990
+de cerca esta desigualdad, se ve un
+
+338
+00:18:15,990 --> 00:18:18,960
+número fijo μ(A) en el medio y
+
+339
+00:18:18,960 --> 00:18:20,210
+en esta serie.
+
+340
+00:18:20,210 --> 00:18:23,100
+Entonces sabemos que la serie "explotará",
+
+341
+00:18:23,100 --> 00:18:26,789
+te da infinito si se crea μ(A)
+
+342
+00:18:26,789 --> 00:18:30,210
+en cero, por lo que el único caso posible cuando
+
+343
+00:18:30,210 --> 00:18:33,539
+esto es finito, es que se necesita que µ(A) sea
+
+344
+00:18:33,539 --> 00:18:35,940
+cero y este es el caso porque
+
+345
+00:18:35,940 --> 00:18:39,990
+sabemos que C es menor que infinito, por lo que la
+
+346
+00:18:39,990 --> 00:18:43,529
+serie tiene que ser convergente.
+
+347
+00:18:43,529 --> 00:18:46,500
+Por este cálculo ahora podemos concluir que la
+
+348
+00:18:46,500 --> 00:18:50,960
+medida de nuestro conjunto A tiene que ser cero.
+
+349
+00:18:50,960 --> 00:18:54,120
+Sin embargo, esto significa ahora que el valor de la
+
+350
+00:18:54,120 --> 00:18:57,210
+la serie es 0 así que tenemos 0 en el medio
+
+351
+00:18:57,210 --> 00:19:00,690
+y en la izquierda y derecha tenemos C y 3C, así que
+
+352
+00:19:00,690 --> 00:19:03,059
+tampoco hay otra manera posible,
+
+353
+00:19:03,059 --> 00:19:08,279
+que no sea que C sea 0. Recordemos sin embargo;
+
+354
+00:19:08,279 --> 00:19:10,679
+que C era sólo una corta
+
+355
+00:19:10,679 --> 00:19:12,690
+notación para la medida del intervalo unidad.
+
+356
+00:19:13,429 --> 00:19:20,039
+Por lo tanto, esta medida también es solo 0 y
+
+357
+00:19:20,039 --> 00:19:24,090
+de hecho, esto nos ayuda ahora a calcular la
+
+358
+00:19:24,090 --> 00:19:27,179
+medida de toda la recta real.
+
+359
+00:19:27,179 --> 00:19:29,279
+Dado que tengo invariancia de traslación
+
+360
+00:19:29,279 --> 00:19:33,029
+y Sigma aditividad, por lo que dividimos la
+
+361
+00:19:33,029 --> 00:19:36,090
+recta real en intervalos unidad y los desplazamos,
+
+362
+00:19:36,090 --> 00:19:38,970
+así que lo que podemos hacer es usar un
+
+363
+00:19:38,970 --> 00:19:41,419
+intervalo que comienza con un entero m y
+
+364
+00:19:41,419 --> 00:19:45,450
+luego vamos a m+1 y si uso la
+
+365
+00:19:45,450 --> 00:19:47,970
+unión aquí que es entonces su unión conjunta
+
+366
+00:19:47,970 --> 00:19:51,659
+donde m va sobre todos los enteros, tenemos lo que queremos.
+
+367
+00:19:51,659 --> 00:19:53,909
+Ahora uso la Sigma aditividad
+
+368
+00:19:53,909 --> 00:19:56,519
+y entonces por la invariancia de la traslación,
+
+369
+00:19:56,519 --> 00:19:59,850
+también me sale todo suma de ceros
+
+370
+00:19:59,850 --> 00:20:01,360
+por lo que esto es 0.
+
+371
+00:20:01,360 --> 00:20:04,640
+Esto ahora significa que el volumen o la longitud
+
+372
+00:20:04,640 --> 00:20:07,520
+de toda la recta real medida en μ es sólo cero.
+
+373
+00:20:07,520 --> 00:20:10,820
+Por lo que estamos tratando con
+
+374
+00:20:10,820 --> 00:20:14,290
+la medida trivial, la medida 0.
+
+375
+00:20:14,290 --> 00:20:18,220
+De hecho, esto es lo que queríamos demostrar.
+
+376
+00:20:18,220 --> 00:20:23,360
+Y ahí lo tenemos, la prueba completa de cómo
+
+377
+00:20:23,360 --> 00:20:26,330
+ver que este problema de medida no es
+
+378
+00:20:26,330 --> 00:20:30,350
+solucionable, sé que fue un largo PUFFF con
+
+379
+00:20:30,350 --> 00:20:32,630
+muchos detalles técnicos pero espero
+
+380
+00:20:32,630 --> 00:20:35,900
+que hayáis aprendido algo aquí y tal vez yo
+
+381
+00:20:35,900 --> 00:20:38,840
+deba cerrar esta demostración con un
+
+382
+00:20:38,840 --> 00:20:41,600
+poco de interpretación de todo este asunto.
+
+383
+00:20:41,600 --> 00:20:44,200
+habéis visto que es posible construir
+
+384
+00:20:44,200 --> 00:20:48,260
+tal conjunto A donde no podemos tener una
+
+385
+00:20:48,260 --> 00:20:51,560
+longitud o medida razonable.
+
+386
+00:20:51,560 --> 00:20:54,020
+Obtendríamos contradicciones si no estamos tratando
+
+387
+00:20:54,020 --> 00:20:57,650
+con la medida cero, la medida trivial, por lo que la
+
+388
+00:20:57,650 --> 00:21:00,860
+única posibilidad de tratar con tales conjuntos
+
+389
+00:21:00,860 --> 00:21:03,740
+que se comportan tan extrañamente que podemos
+
+390
+00:21:03,740 --> 00:21:06,440
+medirlos es excluirlos del principio.
+
+391
+00:21:06,440 --> 00:21:09,620
+Queremos medir todos los subconjuntos posibles.
+
+392
+00:21:09,620 --> 00:21:12,980
+Sólo tratar con conjuntos que
+
+393
+00:21:12,980 --> 00:21:16,310
+llamamos los conjuntos medibles. Ahora estos son
+
+394
+00:21:16,310 --> 00:21:20,060
+los conjuntos que se comportan adecuadamente, tales
+
+395
+00:21:20,060 --> 00:21:23,120
+que podemos resolver el problema en
+
+396
+00:21:23,120 --> 00:21:25,610
+esta Sigma Algebra.
+
+397
+00:21:25,610 --> 00:21:29,120
+De hecho, la Sigma Álgebra de Borel que
+
+398
+00:21:29,120 --> 00:21:31,610
+aprendísteis en la parte 2 de la serie es
+
+399
+00:21:31,610 --> 00:21:34,310
+una elección correcta para resolver
+
+400
+00:21:34,310 --> 00:21:37,670
+el problema de medida. Entraremos en detalles sobre
+
+401
+00:21:37,670 --> 00:21:40,130
+esto en el futuro pero primero en próximos
+
+402
+00:21:40,130 --> 00:21:43,250
+videos quiero hablar de funciones que
+
+403
+00:21:43,250 --> 00:21:45,950
+preservan nuestra estructura medible aquí.
+
+404
+00:21:45,950 --> 00:21:49,000
+Estas son las llamadas aplicaciones medibles
+
+405
+00:21:49,000 --> 00:21:53,000
+Bueno, entonces nos vemos en el siguiente video, adiós
+

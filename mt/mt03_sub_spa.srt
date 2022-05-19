@@ -1,0 +1,818 @@
+1
+00:00:00,654 --> 00:00:03,472
+Bienvenidos de nuevo a la teoría de la medida.
+
+2
+00:00:04,577 --> 00:00:09,929
+Esta es la tercera parte, y hoy, finalmente empezaremos a hablar sobre lo que es la medida.
+
+3
+00:00:10,845 --> 00:00:15,476
+Voy a empezar hablando sobre la definición, y luego os explicaré los detalles.
+
+4
+00:00:16,382 --> 00:00:19,829
+Después os podré dar algunos ejemplos de medidas.
+
+5
+00:00:20,744 --> 00:00:24,880
+En resumen, en este vídeo la pregunta es: ¿qué es una medida?
+
+6
+00:00:25,687 --> 00:00:29,837
+Para responder a esta pregunta vamos a empezar por la definición:
+
+7
+00:00:30,446 --> 00:00:35,777
+Lo que necesitamos es un conjunto X y una sigma álgebra en el conjunto X,
+
+8
+00:00:36,179 --> 00:00:38,492
+y vamos a llamar a esta sigma álgebra solamente A.
+
+9
+00:00:38,994 --> 00:00:42,739
+Y tal par es entonces llamado espacio medible.
+
+10
+00:00:43,447 --> 00:00:46,469
+Así que nada especial, simplemente significa que tenemos un conjunto X
+
+11
+00:00:46,772 --> 00:00:49,597
+y fijamos una sigma álgebra a este conjunto.
+
+12
+00:00:50,285 --> 00:00:57,386
+Y por ahora, ya sabéis que una sigma álgebra es una colección especial de subconjuntos de este conjunto X.
+
+13
+00:00:57,486 --> 00:01:03,826
+Ahora vamos a empezar a ver aplicaciones especiales que podemos definir sobre la sigma álgebra A.
+
+14
+00:01:05,034 --> 00:01:09,564
+Y tales aplicaciones, la denotamos siempre en minúsculas μ.
+
+15
+00:01:10,268 --> 00:01:15,600
+Empezamos con una en la sigma álgebra A que va a los números reales positivos.
+
+16
+00:01:16,709 --> 00:01:19,526
+Sin embargo; vamos a incluir algún pequeño detalle:
+
+17
+00:01:19,930 --> 00:01:23,854
+por un lado, incluimos al 0, luego, el 0 está permitido,
+
+18
+00:01:24,358 --> 00:01:27,483
+y luego vamos al infinito ∞, asi que este será nuestro intervalo normal.
+
+19
+00:01:27,784 --> 00:01:31,708
+Así que ahora simplemente miraríamos a la recta real positiva incluyendo el 0.
+
+20
+00:01:32,210 --> 00:01:35,330
+Pero aquí, en la teoría de la medida, vamos a cambiar esto un poquito:
+
+21
+00:01:35,733 --> 00:01:37,845
+también incluiremos ∞.
+
+22
+00:01:38,649 --> 00:01:41,266
+Vale, esto puede parecer un poco extraño, y lo es,
+
+23
+00:01:41,786 --> 00:01:45,116
+porque justo acabamos de incluir un nuevo símbolo.
+
+24
+00:01:45,534 --> 00:01:50,967
+OK, tenemos nuestra recta real positiva donde incluimos al 0, esto es normal,
+
+25
+00:01:51,571 --> 00:01:56,199
+Pero también incluimos un nuevo símbolo, y lo llamamos ∞.
+
+26
+00:01:57,314 --> 00:02:03,049
+Y para acortar esta notación, simplemente escribimos acá también que ∞ está en el intervalo.
+
+27
+00:02:03,978 --> 00:02:08,403
+Esto es, simplemente una notación breve para indicar
+
+28
+00:02:07,715 --> 00:02:10,826
+que también tenemos a ∞ jugando un papel.
+
+29
+00:02:11,338 --> 00:02:14,967
+Sobre cómo calcular con este símbolo, ya os contaré más adelante.
+
+30
+00:02:15,675 --> 00:02:19,100
+Primero, os quiero contar cómo se llama una aplicación como esta.
+
+31
+00:02:20,106 --> 00:02:23,930
+No será sorprendente, pero tal aplicación se llama medida.
+
+32
+00:02:24,635 --> 00:02:28,862
+Pero se le llama medida si las siguientes dos condiciones se cumplen:
+
+33
+00:02:29,564 --> 00:02:32,178
+Para ver cuáles son
+
+34
+00:02:32,379 --> 00:02:34,313
+vamos a usar la que queramos
+
+35
+00:02:35,018 --> 00:02:39,146
+Queremos medir subconjuntos de este conjunto X,
+
+36
+00:02:39,449 --> 00:02:42,969
+es decir, queremos darle un volumen a cada subconjunto.
+
+37
+00:02:43,472 --> 00:02:46,993
+En resumen, una longitud o volumen generalizados.
+
+38
+00:02:47,500 --> 00:02:52,847
+Entonces, tiene totalmente sentido restringirnos a los números reales positivos,
+
+39
+00:02:53,266 --> 00:02:56,285
+donde también incluimos al 0 y al ∞.
+
+40
+00:02:56,687 --> 00:02:59,405
+Esto significa que también podríamos tener un volumen de 0,
+
+41
+00:02:59,738 --> 00:03:02,152
+y quizás también un volumen de ∞.
+
+42
+00:03:02,471 --> 00:03:06,198
+Pero todo el resto de volúmenes debería ser números positivos.
+
+43
+00:03:06,900 --> 00:03:10,119
+De esto, inmediatamente llegamos a nuestra primera propiedad,
+
+44
+00:03:10,522 --> 00:03:17,460
+dado que sabemos que el conjunto vacío es un subconjunto de X.
+
+45
+00:03:17,863 --> 00:03:22,699
+Luego queremos medir el conjunto vacío, o darle un volumen,
+
+46
+00:03:23,000 --> 00:03:27,726
+pero el único volumen lógico que le podemos dar al conjunto vacío es el 0,
+
+47
+00:03:28,328 --> 00:03:34,666
+Si no hay elementos en juego, su volumen generalizado debería ser 0.
+
+48
+00:03:35,069 --> 00:03:39,895
+OK, así de entrada, no tan complicado, vamos con la segunda propiedad.
+
+49
+00:03:40,198 --> 00:03:47,643
+Esta propiedad debería fijarnos la idea de que podemos sumar volúmenes.
+
+50
+00:03:47,947 --> 00:03:53,280
+En otras palabras, si tenemos un subconjunto dado, por ejemplo en este rectángulo,
+
+51
+00:03:53,582 --> 00:04:00,122
+entonces podríamos partirlo en subconjuntos, luego, quizás de esta manera,
+
+52
+00:04:00,323 --> 00:04:03,942
+aquí una línea, y aquí otra...
+
+53
+00:04:04,143 --> 00:04:11,391
+Llamaría a esto A1, esto A2, esto A3, esto A4 y A5.
+
+54
+00:04:11,701 --> 00:04:18,442
+Ahora, si sumamos todos estos volúmenes que van por separado, deberíamos obtener el volumen original.
+
+55
+00:04:18,677 --> 00:04:21,491
+Esta es la condición que voy a escribir.
+
+56
+00:04:21,710 --> 00:04:28,247
+Luego, añadimos todos los volúmenes en los que empezamos con i=1 y terminamos en i=5 
+
+57
+00:04:28,468 --> 00:04:31,590
+o para generalizar, decimos que terminamos en n.
+
+58
+00:04:31,991 --> 00:04:37,421
+Luego, estamos sumando los volúmenes, lo que significa que estoy sumando μ(Ai),
+
+59
+00:04:37,622 --> 00:04:42,265
+y de la forma que elegimos los conjuntos, son disjuntos dos a dos,
+
+60
+00:04:42,466 --> 00:04:48,309
+porque queremos una descomposición de nuestro conjunto original.
+
+61
+00:04:48,509 --> 00:04:57,465
+Disjuntos dos a dos se refiere a que Ai∩Aj es igual al vacío siempre que los dos índices i,j no coincidan.
+
+62
+00:04:58,068 --> 00:05:00,784
+es decir, que i!=j.
+
+63
+00:05:01,086 --> 00:05:04,005
+Ahora vemos que algo falta en nuestra condición,
+
+64
+00:05:04,307 --> 00:05:06,519
+pero lo podemos arreglar rápidamente,
+
+65
+00:05:06,721 --> 00:05:10,246
+porque sabemos que esto debería ser el volumen original.
+
+66
+00:05:10,449 --> 00:05:16,499
+Entonces, puedo escribir esto como el volumen de la unión de todos estos conjuntos.
+
+67
+00:05:16,700 --> 00:05:24,243
+Así que escribo aquí i=1 hacia n, y aquí tengo mi Ai.
+
+68
+00:05:24,444 --> 00:05:29,878
+Esta es de hecho la unión que nos da nuestro conjunto original.
+
+69
+00:05:30,081 --> 00:05:35,633
+Y esta condición debería ser satisfecha sin importar qué conjuntos elijamos,
+
+70
+00:05:35,834 --> 00:05:41,773
+y luego esto debería cumplirse para todos los Ai de nuestra sigma algebra
+
+71
+00:05:42,076 --> 00:05:46,499
+y esta es la propiedad que conocemos como aditiva.
+
+72
+00:05:47,347 --> 00:05:53,992
+Nos cuenta que si tenemos una unión finita, la podemos separar en una suma finita de sus volúmenes.
+
+73
+00:05:54,494 --> 00:05:58,624
+Os debo contar que esta no es toda la historia:
+
+74
+00:05:58,926 --> 00:06:04,359
+También queremos incluir nuestra intuición de que podemos aproximar volúmenes.
+
+75
+00:06:04,661 --> 00:06:10,600
+Lo voy a explicar de nuevo en un dibujo, si queremos calcular el volumen de este rectángulo
+
+76
+00:06:10,801 --> 00:06:14,032
+lo podemos separar de nuevo en subconjuntos.
+
+77
+00:06:14,333 --> 00:06:21,274
+Este es mi conjunto A1, y escojo también un A2 aquí y un A3 aquí.
+
+78
+00:06:21,474 --> 00:06:27,914
+Y luego, continúo, este sería mi A4 y este mi A5.
+
+79
+00:06:28,116 --> 00:06:30,732
+y vemos que es cada vez más pequeño.
+
+80
+00:06:30,933 --> 00:06:38,977
+Pero se ve que de nuevo obtengo la descomposición de mi conjunto original en subconjuntos disjuntos.
+
+81
+00:06:39,280 --> 00:06:43,810
+Sin embargo; tengo infinitos subconjuntos ahora, pero son numerables,
+
+82
+00:06:44,012 --> 00:06:47,347
+lo que significa que tengo una sucesión de subconjuntos.
+
+83
+00:06:47,548 --> 00:06:51,869
+Ahora sabéis que sigo pudiendo formar la unión de todos los subconjuntos
+
+84
+00:06:52,150 --> 00:06:55,872
+para obtener el conjunto original, lo que es,
+
+85
+00:06:56,074 --> 00:07:01,403
+pongo aquí un símbolo de ∞ para denotar esta unión,
+
+86
+00:07:01,809 --> 00:07:05,835
+y si sumo infinitamente muchas uniones,
+
+87
+00:07:06,138 --> 00:07:09,156
+también debería de alcanzar el volumen original.
+
+88
+00:07:09,470 --> 00:07:13,700
+Luego, en vez de una suma finita, ahora tengo una serie.
+
+89
+00:07:13,913 --> 00:07:16,655
+Pero es una serie de números no negativos,
+
+90
+00:07:16,866 --> 00:07:21,596
+por lo que para denotar esta regla aditiva numerable infinita,
+
+91
+00:07:21,796 --> 00:07:24,209
+la solemos llamar sigma aditiva.
+
+92
+00:07:24,527 --> 00:07:30,667
+Y recordad que teníamos la misma idea y definición de sigma álgebra.
+
+93
+00:07:30,986 --> 00:07:36,823
+Queremos que esta unión, esta unión infinita numerable, también este en la sigma álgebra
+
+94
+00:07:37,042 --> 00:07:43,082
+y por lo tanto esto está también bien definida, por lo que elegimos elementos de la sigma álgebra.
+
+95
+00:07:43,420 --> 00:07:46,737
+También sabemos ahora que está unión numerable está en una sigma álgebra,
+
+96
+00:07:46,959 --> 00:07:49,696
+por lo que ahora podemos calcular su μ.
+
+97
+00:07:49,901 --> 00:07:54,138
+Y ahora que la tenemos, esta es la definición de medida.
+
+98
+00:07:54,357 --> 00:08:00,299
+Vamos a resumir: una medida tiene que estar en una sigma álgebra,
+
+99
+00:08:00,600 --> 00:08:04,019
+no tiene por qué ser el conjunto de las partes completo, pero podría serlo,
+
+100
+00:08:04,348 --> 00:08:07,967
+Pero en general, veremos que no lo podemos hacer con el conjunto completo de las partes.
+
+101
+00:08:08,185 --> 00:08:13,918
+Esto significa que queremos medir algunos subconjuntos significativos de nuestro conjuntos X.
+
+102
+00:08:14,321 --> 00:08:18,648
+Medir subconjuntos significa darles un volumen generalizado,
+
+103
+00:08:18,960 --> 00:08:23,384
+de manera que tenga sentido darles un volumen en los números no negativos,
+
+104
+00:08:23,588 --> 00:08:31,130
+donde también incluimos el ∞, y también las dos propiedades generalizan las ideas de una medida de volumen.
+
+105
+00:08:31,352 --> 00:08:35,795
+La primera nos dice que nada debería tener un volumen 0,
+
+106
+00:08:35,910 --> 00:08:42,951
+y la segunda nos dice que podemos calcular el volumen de un conjunto, separándolo en muchos subconjuntos numerables.
+
+107
+00:08:43,270 --> 00:08:47,092
+Ahora, supongamos que tenemos una medida elegida,
+
+108
+00:08:47,397 --> 00:08:50,711
+también podemos fijar eso en nuestra información conocida.
+
+109
+00:08:50,913 --> 00:08:58,561
+Escribiríamos X con la sigma álgebra A, y nuestra medida de la sigma álgebra A, μ;
+
+110
+00:08:58,863 --> 00:09:01,879
+y esto sería lo que llamamos espacio de medida.
+
+111
+00:09:02,184 --> 00:09:05,508
+Esto es por supuesto un concepto muy importante porque,
+
+112
+00:09:05,816 --> 00:09:08,635
+el espacio de medida es el espacio en el que vamos a trabajar.
+
+113
+00:09:09,439 --> 00:09:13,261
+Muy bien, ahora que habéis aprendido qué es un espacio general de medida,
+
+114
+00:09:13,562 --> 00:09:17,287
+ya podemos hablar de algunos ejemplos sencillos.
+
+115
+00:09:17,790 --> 00:09:25,739
+Fijemos para todos los ejemplos, un conjunto arbitrario X y una sigma álgebra en el conjunto X.
+
+116
+00:09:26,040 --> 00:09:32,279
+Vamos a empezar con la mejor situación, en la que podríamos elegir el conjunto de las partes de X como sigma álgebra.
+
+117
+00:09:32,581 --> 00:09:39,531
+La primera medida es muy importante y muy sencilla, se la llama medida de conteo.
+
+118
+00:09:39,731 --> 00:09:44,158
+No importa cual sea el conjunto X, siempre podemos definir esta medida de conteo.
+
+119
+00:09:44,359 --> 00:09:51,509
+Simplemente estableciendo que la medida de un subconjunto arbitrario A se define de la siguiente manera.
+
+120
+00:09:51,812 --> 00:09:54,326
+Consideramos dos casos aquí:
+
+121
+00:09:54,526 --> 00:09:59,456
+El primer caso sería que A tenga un número finito de elementos.
+
+122
+00:09:59,557 --> 00:10:04,892
+En este caso, quiero que la medida sea este número, por lo que puedo escribir
+
+123
+00:10:04,993 --> 00:10:08,311
+el número de elementos sólamente con un número,
+
+124
+00:10:08,512 --> 00:10:12,056
+luego, esto será un número natural bien definido o el 0.
+
+125
+00:10:12,266 --> 00:10:15,689
+así que no tenemos ningún problema definiendo exactamente esto.
+
+126
+00:10:15,907 --> 00:10:22,749
+Ok. Para el segundo caso, lo coloco en ∞, lo que significa que si A no tiene un número finito de elementos,
+
+127
+00:10:22,953 --> 00:10:26,273
+decimos que tiene un número infinito de elementos.
+
+128
+00:10:26,471 --> 00:10:32,108
+Entonces, vemos que tiene sentido usar el símbolo ∞. Lo que ahora podemos mostrar 
+
+129
+00:10:32,309 --> 00:10:36,533
+es que esto realmente define una medida. Esto cumple las 2 condicones y
+
+130
+00:10:36,735 --> 00:10:43,681
+también que el conjunto entero se pone en 0 está inmediatamente claro porque el conjunto vacío tiene un número finito de elementos,
+
+131
+00:10:43,885 --> 00:10:47,505
+pero el número de elementos es 0, así que ningún problema aquí.
+
+132
+00:10:47,941 --> 00:10:53,874
+También la aditividad en sigma la podemos comprobar si trabajamos con conjuntos finitos.
+
+133
+00:10:53,974 --> 00:10:57,495
+Si trabajamos con conjuntos infinitos, también es fácil demostrarlo,
+
+134
+00:10:57,613 --> 00:11:03,655
+pero entonces tenemos que saber qué otros cálculos con las reglas usar al tener ∞.
+
+135
+00:11:04,365 --> 00:11:06,175
+Y esto es lo que ahora os quiero enseñar:
+
+136
+00:11:06,581 --> 00:11:09,983
+Las reglas de cálculo básicas.
+
+137
+00:11:11,009 --> 00:11:13,221
+La idea es por supuesto pensar en los volúmenes,
+
+138
+00:11:13,526 --> 00:11:17,749
+luego, si tenemos un volumen X, y luego sumamos un volumen infinito,
+
+139
+00:11:18,050 --> 00:11:23,079
+entonces tendríamos ∞ de nuevo.
+
+140
+00:11:23,279 --> 00:11:29,738
+Esto se debería cumplir para todo x en nuestro conjunto,  y también para ∞,
+
+141
+00:11:29,831 --> 00:11:33,652
+en otras palabras, ∞ + ∞ se siempre ∞.
+
+142
+00:11:33,954 --> 00:11:43,209
+De la misma manera, podemos hacer esto para la multiplicación: x por ∞ también se define como ∞.
+
+143
+00:11:43,511 --> 00:11:47,636
+Tengamos cuidado ahora: Quiero excluir al 0,
+
+144
+00:11:47,926 --> 00:11:55,190
+luego, si multiplico un número positivo por ∞, obtenemos ∞ de nuevo, pero eso no ocurre con el 0.
+
+145
+00:11:55,391 --> 00:12:00,318
+Para el caso especial de 0 por ∞, hay convenciones diferentes.
+
+146
+00:12:00,521 --> 00:12:05,451
+En general diríamos: esto está indefinido porque podría significar cualquier cosa.
+
+147
+00:12:05,552 --> 00:12:13,327
+Sin embargo; en la mayoría de casos en la teoría de la medida, también está bien tener una definición para esta combinación de los símbolos,
+
+148
+00:12:13,528 --> 00:12:15,539
+por lo que definimos ∞ por 0 como 0.
+
+149
+00:12:15,840 --> 00:12:20,367
+Sin embargo; tengamos en cuenta que esto no es siempre aplicable,
+
+150
+00:12:20,569 --> 00:12:23,386
+y fuera de la toería de la medida podría estar completamente mal.
+
+151
+00:12:23,690 --> 00:12:27,618
+Esto suele ocurrir si queremos multiplicar dos volúmenes.
+
+152
+00:12:27,820 --> 00:12:34,859
+Bueno, vayamos entonces con el siguiente ejemplo, este es llamado medida de Dirac.
+
+153
+00:12:34,989 --> 00:12:38,512
+Visualicemos para este ejemplo nuestro conjunto X aquí,
+
+154
+00:12:39,237 --> 00:12:46,183
+y escojamos un punto fijo, por ejemplo este punto P dentro del conjunto X.
+
+155
+00:12:46,788 --> 00:12:51,722
+Y ahora queremos que toda la medida esté concentrada en este punto.
+
+156
+00:12:52,125 --> 00:12:56,150
+La notación usual que uno elige para esta medida es una delta,
+
+157
+00:12:56,351 --> 00:12:58,564
+donde usamos un índice P para denotar el punto.
+
+158
+00:12:58,765 --> 00:13:04,302
+Ahora, para un subconjunto A dado, también lo definimos con dos casos:
+
+159
+00:13:04,605 --> 00:13:07,936
+Es o bien 0 o bien 1.
+
+160
+00:13:08,136 --> 00:13:14,377
+La idea sería pues hacer un sketch, de forma que si este es nuestro conjunto A,
+
+161
+00:13:14,578 --> 00:13:21,417
+vemos que P está dentro del conjunto A, y si queremos que el volumen esté concentrado en el punto P,
+
+162
+00:13:21,618 --> 00:13:24,735
+entonces diríamos que este conjunto tiene medida 1.
+
+163
+00:13:24,836 --> 00:13:32,683
+Luego, no importa cómo de pequeño sea el conjunto A mientras el punto P especial esté dentro.
+
+164
+00:13:32,884 --> 00:13:36,913
+Pero si el punto P no está dentro del conjunto A, entonces tiene medida 0.
+
+165
+00:13:37,115 --> 00:13:42,449
+Una buena visualización sería pensar de este punto como una carga puntual.
+
+166
+00:13:42,550 --> 00:13:47,281
+Toda la carga se concentra en el punto, pero si miramos a su entorno,
+
+167
+00:13:47,483 --> 00:13:51,006
+entonces todo el entorno tendría exactamente esa carga.
+
+168
+00:13:51,107 --> 00:13:55,948
+OK. Estas son dos medidas que trabajan en todo conjunto X.
+
+169
+00:13:56,149 --> 00:14:00,978
+Luego, en particular, para nuestro caso especial R^n.
+
+170
+00:14:01,179 --> 00:14:09,329
+En otras palabras, estas medidas no miden el volumen normal que tendríamos por ejemplo, en R^3,
+
+171
+00:14:09,530 --> 00:14:12,244
+son medidas generalizadas.
+
+172
+00:14:12,345 --> 00:14:17,480
+Pero sabemos que también queremos tener esta medida normal del volumen en R^n.
+
+173
+00:14:17,682 --> 00:14:23,818
+Luego, el ejercicio para la teoría de la medida es en particular encontrar
+
+174
+00:14:23,919 --> 00:14:28,347
+una medida en X=R^n que tenga buenas propiedades.
+
+175
+00:14:28,551 --> 00:14:33,583
+La primera propiedad fijaría que medimos el volumen normal,
+
+176
+00:14:33,784 --> 00:14:38,015
+esto significa que si pongo dentro la unidad cúbica en la medida,
+
+177
+00:14:38,242 --> 00:14:41,960
+es decir, un cubo de longitud 1 en todas direcciones,
+
+178
+00:14:42,171 --> 00:14:46,091
+entonces, quiero obtener también un volumen 1.
+
+179
+00:14:46,329 --> 00:14:52,767
+Y la segunda propiedad indica que no importa dónde midamos el volumen en el espacio,
+
+180
+00:14:53,076 --> 00:14:57,501
+es decir, la medida es invariante bajo traslaciones.
+
+181
+00:14:57,716 --> 00:15:06,078
+Luego, puedo escribir que como μ(x+A) es igual al volumen, μ(A)
+
+182
+00:15:06,299 --> 00:15:11,230
+y esto sucede para todo vector de traslación x en R^n,
+
+183
+00:15:11,331 --> 00:15:15,655
+Visualicemos esta propiedad siempre.
+
+184
+00:15:15,873 --> 00:15:21,000
+Si tenemos un volumen aquí, este conjunto A por ejemplo,
+
+185
+00:15:21,118 --> 00:15:26,054
+y ahora traslado todos los puntos con un vector fijo x,
+
+186
+00:15:26,154 --> 00:15:32,991
+entonces obtengo el nuevo conjunto x+A,
+
+187
+00:15:33,213 --> 00:15:38,146
+y este nuevo conjunto debería tener el mismo volumen en nuestro entorno.
+
+188
+00:15:38,464 --> 00:15:43,900
+Por supuesto, esto no es cierto para una medida generalizada abstracta como antes,
+
+189
+00:15:44,120 --> 00:15:47,739
+pero será verdadera para la medida que queremos encontrar,
+
+190
+00:15:47,960 --> 00:15:50,876
+que quede generalizado la medida de volumen normal en R^n. 
+
+191
+00:15:51,307 --> 00:15:56,338
+Sin embargo; tened en cuenta que sólo sabemos cómo medir dichos ortoedros o cubos,
+
+192
+00:15:56,451 --> 00:16:00,776
+pero no cómo medir un subconjunto arbitrario.
+
+193
+00:16:00,876 --> 00:16:04,193
+Y esa es la idea: extender a esas situaciones este concepto
+
+194
+00:16:04,294 --> 00:16:07,008
+preservando estas dos propiedades.
+
+195
+00:16:07,129 --> 00:16:12,562
+Luego veremos que podemos definir una medida con estas dos propiedades,
+
+196
+00:16:12,773 --> 00:16:15,389
+y eso es lo que entonces llamaremos medida de Lebesgue.
+
+197
+00:16:15,591 --> 00:16:22,037
+Y en el siguiente vídeo veremos que no podemos elegir el conjunto de las partes de X como un sigma álgebra,
+
+198
+00:16:22,251 --> 00:16:28,186
+tenemos que escoger un conjunto más pequeño de forma que podamos preservar estas dos propiedades.
+
+199
+00:16:28,291 --> 00:16:33,421
+Y ahí veremos que podemos trabajar fácilmente con la sigma álgebra de Borel.
+
+200
+00:16:33,441 --> 00:16:37,373
+¡Muy bien! Eso es todo lo que os quería contar hoy,
+
+201
+00:16:37,574 --> 00:16:40,086
+y espero que os haya ayudado un poco.
+
+202
+00:16:40,288 --> 00:16:44,718
+Para los próximos vídeos, empezaremos a sentir lo que es realmente una medida
+
+203
+00:16:44,818 --> 00:16:49,148
+dado que ya manejamos los conceptos de medida y espacios de medida.
+Muchas gracias, hasta la próxima
+
+204
+00:16:49,360 --> 00:16:53,486
+THE BRIGHT SIDE OF MATHEMATICS, MEASURE THEORY PT.3
+Traducción: Jorge Ibáñez
+

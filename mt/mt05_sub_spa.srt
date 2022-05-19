@@ -1,0 +1,408 @@
+1
+00:00:00,000 --> 00:00:04,152
+Hola y bienvenido de nuevo a la teoría de la medida
+
+2
+00:00:04,056 --> 00:00:10,697
+Hemos llegado aquí a la parte 5 de nuestra serie, y hoy quiero hablar sobre aplicaciones medibles
+
+3
+00:00:11,100 --> 00:00:15,043
+Ahora comencemos inmediatamente con la definición.
+
+4
+00:00:15,345 --> 00:00:19,968
+por supuesto hablaremos de la aplicación habitual entre 2 conjuntos
+
+5
+00:00:20,271 --> 00:00:26,223
+denotemos la aplicación por f, y los 2 conjuntos por Ω₁ y Ω₂
+
+6
+00:00:26,544 --> 00:00:31,977
+Además, ambos conjuntos también deben comprender una σ-álgebra, respectivamente.
+
+7
+00:00:32,278 --> 00:00:39,248
+notemos la primera σ-álgebra como A₁ y la segunda como A₂
+
+8
+00:00:39,550 --> 00:00:49,146
+A estas alturas ya sabeis que un par como tal que consta de un conjunto con la σ-álgebra correspondiente, se llama espacio medible
+
+9
+00:00:49,557 --> 00:00:55,391
+y también vamos a fijarnos en que necesitamos tal espacio medible para definirlo y medirlo.
+
+10
+00:00:55,592 --> 00:01:02,964
+Sin embargo, tened en cuenta que no necesitamos la medida aquí, solo necesitamos los conjuntos y las σ-álgebras, nada más
+
+11
+00:01:03,165 --> 00:01:09,126
+Ahora f se llama medible si se cumple lo siguiente:
+
+12
+00:01:09,446 --> 00:01:25,071
+La preimagen de un conjunto procedente de la σ-álgebra A₂, es decir, A₂ es un elemento en A₂, es un elemento de la σ-álgebra A₁
+
+13
+00:01:25,476 --> 00:01:31,446
+Y esto es válido para todos los conjuntos de la σ-álgebra A₂
+
+14
+00:01:32,860 --> 00:01:38,188
+Si recordamos que también llamamos a los elementos de un σ-álgebra medibles
+
+15
+00:01:38,591 --> 00:01:46,973
+entonces podemos decir que la aplicación se llama medible si las preimágenes de conjuntos medibles son nuevamente medibles
+
+16
+00:01:47,073 --> 00:01:52,573
+y, por supuesto, esto podría ser confuso si hay muchas σ-álgebras diferentes involucradas
+
+17
+00:01:53,247 --> 00:01:59,484
+por lo tanto, también incluiremos las σ-álgebras en la definición de  medible
+
+18
+00:01:59,585 --> 00:02:05,151
+por lo que la aplicación f es aquí medible con respecto a las 2 σ-álgebras
+
+19
+00:02:05,355 --> 00:02:13,635
+Bien, entonces este concepto parece significativo porque conecta las 2 σ-álgebras aquí en la definición
+
+20
+00:02:13,939 --> 00:02:22,794
+sin embargo, por supuesto, podemos preguntarnos por qué necesitamos esto y por qué lo necesitamos exactamente de esta manera con las preimágenes.
+
+21
+00:02:22,996 --> 00:02:32,375
+Podemos explicar fácilmente que cuando recordamos por qué hacemos teoría de la  medida y cómo podríamos definir una integral al final
+
+22
+00:02:32,677 --> 00:02:40,141
+Veamos una función fácil como las que veiamos en la escuela, una función unidimensional, que se puede representar en una gráfica.
+
+23
+00:02:40,474 --> 00:02:46,645
+Bien, aquí la función tiene el valor 0 y aquí el valor 1
+
+24
+00:02:46,979 --> 00:02:54,752
+Ahora, la integral de esta función debe ser exactamente el volumen del conjunto que se envía a 1
+
+25
+00:02:54,772 --> 00:02:57,540
+podemos imaginarlo de esta manera.
+
+26
+00:02:57,855 --> 00:03:02,683
+Ahí está el conjunto y ya está lo que queremos medir en nuestra medida
+
+27
+00:03:02,886 --> 00:03:09,667
+Así que este conjunto aquí en el eje X es la preimagen del valor 1
+
+28
+00:03:09,994 --> 00:03:13,357
+exactamente este conjunto aquí.
+
+29
+00:03:13,679 --> 00:03:19,026
+Y lo que necesitamos a la mitad para el eje X es solo un espacio de medida
+
+30
+00:03:19,357 --> 00:03:25,189
+Tenemos, conjunto, σ-álgebra y la medida, μ
+
+31
+00:03:25,545 --> 00:03:32,681
+Así que ese es nuestro espacio de medida, es suficiente, y luego podemos medir el volumen de este conjunto aquí.
+
+32
+00:03:33,011 --> 00:03:40,087
+Por lo tanto, para la integral significativa queremos medir conjuntos con esta forma
+
+33
+00:03:40,293 --> 00:03:46,672
+Sin embargo, la medida μ solo se está definida en la σ-álgebra, por lo que lo que realmente necesitamos es que
+
+34
+00:03:46,905 --> 00:03:53,271
+éste sea un elemento en la σ-álgebra Ω, lo que aquí es nuestra A
+
+35
+00:03:55,324 --> 00:03:58,665
+Y aquí está la razón por la que necesitamos la preimagen en la definición.
+
+36
+00:03:58,866 --> 00:04:03,594
+queremos garantizar que si tenemos un conjunto medible en el eje Y
+
+37
+00:04:03,794 --> 00:04:07,349
+también obtenemos el conjunto medible en el eje X.
+
+38
+00:04:07,651 --> 00:04:14,081
+Y el conjunto en el eje X lo obtenemos con la preimagen, y eso es lo que queremos poner en la medida al final
+
+39
+00:04:14,282 --> 00:04:22,157
+O, para decirlo en pocas palabras, la definición de aplicaciones mensurables resuelve el problema que vendría después.
+
+40
+00:04:22,359 --> 00:04:26,986
+Bien, hablemos ahora de algunos ejemplos.
+
+41
+00:04:27,288 --> 00:04:33,357
+Comencemos con un espacio medible abstracto entonces (Ω, A)
+
+42
+00:04:33,564 --> 00:04:40,642
+y también la recta real R con σ-álgebra de Borel, B(R)
+
+43
+00:04:40,952 --> 00:04:50,343
+Ahora, uno puede mirar la función característica común, a veces también llamada función indicadora.
+
+44
+00:04:50,649 --> 00:04:59,798
+Y siempre usaré la letra griega Chi χ para denotar esta función característica
+
+45
+00:05:00,201 --> 00:05:05,669
+Es decir, χ con un índice A, donde A es solo el conjunto en Ω
+
+46
+00:05:05,869 --> 00:05:13,337
+Entonces la aplicación va de Ω a los números reales y está definida por los siguientes 2 casos:
+
+47
+00:05:13,851 --> 00:05:19,177
+Por cierto, quiero que usemos omega en minúsculas (ω) para denotar la variable aquí.
+
+48
+00:05:19,580 --> 00:05:25,045
+Entonces, los 2 casos son 1 o 0, dependiendo de si nuestra ω minúscula proviene de A o no
+
+49
+00:05:27,583 --> 00:05:34,562
+entonces ω en A es 1, ω no en A es 0
+
+50
+00:05:35,064 --> 00:05:42,640
+A partir de ahí, ahora podemos concluir que para todos los conjuntos medibles,
+
+51
+00:05:42,843 --> 00:05:49,986
+es decir A en nuestra σ-álgebra A, la función característica χA es un aplicación medible
+
+52
+00:05:51,104 --> 00:05:54,159
+para probar esto solo tenemos que mirar todas las preimágenes
+
+53
+00:05:54,588 --> 00:06:01,157
+Y debido a que solo tenemos 2 valores para la función, no hay tantas preimágenes que podríamos tener
+
+54
+00:06:01,375 --> 00:06:08,237
+por ejemplo, si miramos la preimagen del conjunto vacío, y luego, por supuesto, obtengo el conjunto vacío
+
+55
+00:06:08,556 --> 00:06:15,595
+y en el otro caso buscaría preimágenes de todos los números la recta real
+
+56
+00:06:15,927 --> 00:06:22,373
+y, por supuesto, lo que obtienes es lo que pones, por lo que la preimagen aquí es Ω en sí
+
+57
+00:06:22,677 --> 00:06:26,756
+por supuesto, esto es lo que tenemos para todas las aplicaciones de esta forma.
+
+58
+00:06:26,980 --> 00:06:32,272
+Así que veamos casos más interesantes para que la preimagen de ...
+
+59
+00:06:32,503 --> 00:06:37,064
+.... por ejemplo, el conjunto que contiene solamente el 1
+
+60
+00:06:38,268 --> 00:06:44,482
+y luego sabemos que todo el conjunto A se envía a 1, por lo que la preimagen aquí es exactamente A
+
+61
+00:06:44,882 --> 00:06:50,245
+Por otro lado, si miramos la preimagen del conjunto que solo contiene 0
+
+62
+00:06:50,446 --> 00:06:57,492
+luego sacamos todo lo demás, es decir, no A, lo que significa que este es el complemento de A
+
+63
+00:06:57,692 --> 00:07:05,971
+Y, de hecho, estas son todas las preimágenes que podemos sacar, por lo que si se elige otro conjunto aquí, obtienes uno de estos 4 conjuntos.
+
+64
+00:07:06,172 --> 00:07:13,540
+Y es importante remarcar que, por supuesto, un conjunto vacío, Ω está en la σ-álgebra
+
+65
+00:07:13,640 --> 00:07:23,840
+y como asumimos, nuestra A también está en la σ-álgebra, pero luego, por la definición de σ-álgebra, también sabemos que el complemento también está en la σ-álgebra
+
+66
+00:07:24,051 --> 00:07:29,087
+y recordemos que eso es exactamente la definición de un aplicación mensurable
+
+67
+00:07:29,291 --> 00:07:36,169
+Como se puede ver, una función característica o indicadora es un ejemplo típico de un aplicación medible.
+
+68
+00:07:36,371 --> 00:07:43,844
+Y de hecho una importante, porque si miramos la imagen aquí de nuevo, estas son aplicaciones que
+
+69
+00:07:43,947 --> 00:07:49,582
+podríamos integrar fácilmente ahora, si tenemos conocimientos de integración, así que eso es lo que haremos en los próximos videos más adelante.
+
+70
+00:07:49,784 --> 00:07:53,736
+Sin embargo, aquí primero deberíamos continuar con el siguiente ejemplo.
+
+71
+00:07:53,940 --> 00:07:57,879
+Usemos aquí 3 espacios medibles
+
+72
+00:07:58,080 --> 00:08:03,039
+Hacemos esto porque quiero ver las composiciones de aplicaciones medibles
+
+73
+00:08:03,186 --> 00:08:10,259
+en otras palabras, comenzamos con el conjunto Ω₁ entrando Ω₂ y luego en Ω₃
+
+74
+00:08:10,507 --> 00:08:17,074
+Entonces llamemos al aplicación aquí como f y este debería ser el aplicación g
+
+75
+00:08:17,283 --> 00:08:19,742
+entonces podemos hacer la composición
+
+76
+00:08:19,867 --> 00:08:26,138
+Sea una aplicación que va de Ω₁ directamente a Ω₃
+
+77
+00:08:26,362 --> 00:08:31,934
+y esto luego se define como g o f, la composición de ambas aplicaciones.
+
+78
+00:08:32,268 --> 00:08:46,782
+La afirmación es que ahora, si componemos 2 aplicaciones mensurables, la composición también es mensurable, por lo que, en pocas palabras, esto implica ser mensurable.
+
+79
+00:08:47,086 --> 00:08:52,443
+De hecho, esto es muy fácil de ver si miramos de nuevo las preimágenes
+
+80
+00:08:52,684 --> 00:09:03,175
+entonces la preimagen de g compuesta con f, del conjunto que viene de la σ-álgebra A₃, así que llamémosla A₃
+
+81
+00:09:03,380 --> 00:09:16,285
+es igual a ... y ahora podemos ir paso a paso, por lo que tenemos la preimagen de g primero de A₃, entonces este paso, y luego la preimagen de este.
+
+82
+00:09:16,503 --> 00:09:23,681
+Entonces, esta igualdad es válida para todas las aplicaciones, pero ahora podemos poner lo que sabemos de f y g
+
+83
+00:09:23,903 --> 00:09:31,888
+primero vemos que g es medible, entonces sabemos que este es un elemento en la σ-álgebra A₂
+
+84
+00:09:32,114 --> 00:09:41,998
+pero ahora sabemos que f también es medible, por lo que sabemos que todo esto ahora se encuentra en la σ-álgebra Ω A₁
+
+85
+00:09:42,220 --> 00:09:52,933
+O, en otras palabras, no importa qué elemento de la σ-álgebra A₃, que está aquí, la preimagen siempre se encuentra en la σ-álgebra A₁
+
+86
+00:09:53,158 --> 00:09:57,393
+Y esto es, de hecho, lo que se encuentra en las aplicaciones medibles.
+
+87
+00:09:57,607 --> 00:10:03,979
+Bueno, terminemos este video con algunos datos importantes sobre las funciones medibles.
+
+88
+00:10:04,196 --> 00:10:10,071
+y cuando digo función, me refiero a un aplicación que se asigna a la recta numérica real
+
+89
+00:10:10,296 --> 00:10:19,180
+Esto significa que ahora tenemos dos espacios medibles, y uno de ellos es solo la recta numérica real con la σ-álgebra de Borel
+
+90
+00:10:19,699 --> 00:10:30,695
+Ahora veamos 2 aplicaciones, solo funciones, comencemos con Ω y terminan en la recta numérica real
+
+91
+00:10:30,953 --> 00:10:36,986
+y, por supuesto, esto ahora debería ser medible con respecto a estas 2 σ-álgebras
+
+92
+00:10:37,306 --> 00:10:45,082
+Debido a que tenemos la estructura completa de los números reales, ahora podemos ver combinaciones de estas 2 funciones
+
+93
+00:10:45,186 --> 00:10:55,496
+Por ejemplo, f + g  y  f - g nuevamente definirán funciones y los resultados aquí aún son medibles
+
+94
+00:10:55,706 --> 00:11:05,294
+De la misma manera, podemos ver la multiplicación de las 2 funciones, simplemente multiplicando los valores y definiendo nuevas funciones como siempre.
+
+95
+00:11:05,515 --> 00:11:09,167
+y esta nueva función vuelve a ser medible
+
+96
+00:11:09,391 --> 00:11:21,400
+Y también muy importante, si ignoramos los valores negativos, haciéndolos positivos, de modo que obtengamos el valor absoluto como una función, este también es medible.
+
+97
+00:11:21,516 --> 00:11:28,990
+También hay otras combinaciones importantes que se tienen en cuenta, y las veremos más adelante si las necesitamos.
+
+98
+00:11:29,090 --> 00:11:36,590
+Sin embargo, la idea es siempre la misma, por lo que podemos probar esto en general y usarlo todo el tiempo en la teoría de la medida.
+
+99
+00:11:36,813 --> 00:11:43,984
+De acuerdo, creo que eso es suficiente por hoy, así que ya aprendisteis lo que es un aplicación medible
+
+100
+00:11:44,209 --> 00:11:51,384
+Y como prometí antes, necesitaréis esta definición cuando consideremos la teoría de la integración.
+
+101
+00:11:51,608 --> 00:11:57,869
+Y eso es lo que veréiss en el siguiente vídeo cuando efectivamente comencemos con la integral de Lebesgue.
+
+102
+00:11:58,093 --> 00:12:02,252
+Entonces, nos vemos la próxima vez allí, ¡adiós!
+

@@ -1,0 +1,360 @@
+1
+00:00:00,199 --> 00:00:05,129
+Hola y bienvenidos de nuevo a un nuevo vídeo sobre la teoría de la medida
+
+2
+00:00:05,129 --> 00:00:10,449
+Como siempre, quiero empezar dando las gracias a toda la gente maravillosa que me apoya en Steady.
+
+3
+00:00:10,449 --> 00:00:15,949
+En este vídeo y en los siguientes vídeos quiero hablar de las llamadas medidas exterior.
+
+4
+00:00:15,949 --> 00:00:21,949
+Y es a través de este tema que volvemos a las fundaciones de la teoría de la medida.
+
+5
+00:00:21,949 --> 00:00:29,949
+De hecho, después de haber usado el teorema de extensión de Caratheodory tantas veces, ahora queremos demostrarlo realmente.
+
+6
+00:00:29,949 --> 00:00:32,949
+Para poder hacer eso necesitamos algunas herramientas adecuadas. 
+
+7
+00:00:32,949 --> 00:00:38,349
+Y nos damos cuenta de que las medidas exteriores son de hecho esas herramientas.
+
+8
+00:00:38,349 --> 00:00:43,992
+Por este motivo os puedo contar que para entender la idea de la teoría de la medida, 
+
+9
+00:00:43,992 --> 00:00:46,992
+realmente no necesitamos para nada las medidas exteriores.
+
+10
+00:00:46,992 --> 00:00:51,992
+Pero si queréis profundizar con los detalles técnicos, por ejemplo para poder demostrar algún teorema, 
+
+11
+00:00:51,992 --> 00:00:55,992
+entonces no podéis saltaros este video sobre medidas exteriores.
+
+12
+00:00:55,992 --> 00:01:01,492
+El nombre de medida exterior viene de la idea de que nosotros queremos aproximar el tamaño de un conjunto desde su exterior.
+
+13
+00:01:01,492 --> 00:01:03,142
+Pero hablaremos sobre esto más adelante.
+
+14
+00:01:03,142 --> 00:01:08,542
+Sin embargo; en este contexto debería enfatizar que ambas palabras aquí están conectadas
+
+15
+00:01:08,542 --> 00:01:11,642
+La medida exterior es de hecho un nuevo concepto.
+
+16
+00:01:11,642 --> 00:01:17,542
+Lo que os quiero contar aquí es que exterior no es un atributo de la medida. 
+
+17
+00:01:17,542 --> 00:01:25,542
+En particular es importante denotar que las medidas exteriores deben ser medidas en el sentido usual.
+
+18
+00:01:25,542 --> 00:01:35,000
+Con esta introducción os puedo decir que la construcción de medidas exteriores no es para nada complicada
+
+19
+00:01:35,000 --> 00:01:43,500
+Incluso diría que es más fácil de hacer que para las medidas usuales que usábamos antes, por qué no necesitamos ninguna sigma álgebra para empezar.
+
+20
+00:01:43,500 --> 00:01:51,500
+OK no quiero mantener el suspense más tiempo, así que voy a empezar ya con la definición.
+
+21
+00:01:51,500 --> 00:02:02,400
+No tan sorprendentemente es que para empezar una medida exterior es también simplemente una aplicación definida en algunos subconjuntos de un conjunto fijo X.
+
+22
+00:02:02,400 --> 00:02:07,400
+Podemos elegir todos los subconjuntos de X como admisibles, 
+
+23
+00:02:07,400 --> 00:02:10,400
+motivo por el cual podemos escribir aquí el conjunto de las partes, 
+
+24
+00:02:10,400 --> 00:02:16,800
+y para los valores ya estamos acostumbrados a usar los números no negativos desde el cero al infinito (incluyéndolo).
+
+25
+00:02:16,800 --> 00:02:21,500
+Ahora, dicha aplicación que denotamos por φ, 
+
+26
+00:02:21,500 --> 00:02:25,500
+para distinguirla de una medida normal que denotaríamos por μ, 
+
+27
+00:02:25,500 --> 00:02:30,000
+es una medida exterior si se cumplen las siguientes tres condiciones.
+
+28
+00:02:30,000 --> 00:02:39,000
+Así que por favor no olvidéis que siempre queremos generalizar o abstraer cómo funcionaría medir volúmenes normales en el espacio.
+
+29
+00:02:39,000 --> 00:02:44,700
+Por esto nunca vamos a pedirle a esta función que cumpla ninguna propiedad loca
+
+30
+00:02:44,700 --> 00:02:48,500
+La primera propiedad ya la conocéis, si ponemos 
+
+31
+00:02:48,500 --> 00:02:55,000
+el conjunto vacío en la aplicación debemos obtener cero como medida exterior, 
+
+32
+00:02:55,000 --> 00:02:57,000
+es decir, el conjunto vacío no debe tener ningún volumen
+
+33
+00:02:55,000 --> 00:03:05,000
+La siguiente propiedad tiene sentido en esta imagen si miramos a un subconjunto A dentro de un de un conjunto B.
+
+34
+00:03:05,000 --> 00:03:08,000
+Vamos a empezar visualizando esto en este dibujo. 
+
+35
+00:03:08,000 --> 00:03:16,600
+Tenemos el conjunto X tenemos el subconjunto B, dentro del conjunto X. Y también tenemos el subconjunto A dentro de B.
+
+36
+00:03:16,600 --> 00:03:20,000
+¿Qué significa esto para los volúmenes?
+
+37
+00:03:20,000 --> 00:03:26,360
+Está claro que el volumen de A debería ser menor que el volumen de B, o en el mejor de los casos, ser igual.
+
+38
+00:03:26,360 --> 00:03:35,360
+Por lo tanto tenemos esta desigualdad y esto es lo que llamamos monotonía de la medida exterior.
+
+39
+00:03:35,360 --> 00:03:40,360
+Por favor notemos que esta condición también la teníamos como propiedad en la medida normal, 
+
+40
+00:03:40,360 --> 00:03:46,360
+pero era algo que no pedíamos en la definición de medida normal porque emanaba como corolario a partir de otras propiedades.
+
+41
+00:03:46,360 --> 00:03:51,360
+Y ahora, la tercera propiedad también es algo que quizás reconozcáis. 
+
+42
+00:03:51,360 --> 00:03:57,560
+Tomemos una sucesión de subconjuntos, llamémosla A1, A2, etc... 
+
+43
+00:03:57,560 --> 00:04:00,560
+dentro del conjunto de las partes de X.
+
+44
+00:04:00,560 --> 00:04:07,560
+Entonces para esta sucesión se cumple que la medida de su unión usando nuestra aplicación φ, 
+
+45
+00:04:07,560 --> 00:04:15,560
+es menor o igual que sumar todos los volúmenes uno a uno de forma separada
+
+46
+00:04:15,560 --> 00:04:20,560
+Esto es algo que también podemos visualizar fácilmente en esta imagen aquí, 
+
+47
+00:04:20,560 --> 00:04:28,560
+entonces si formamos la unión de A1 y A2, calculamos el área aquí que es por supuesto, 
+
+48
+00:04:28,560 --> 00:04:36,000
+menor que simplemente medir el área del primer conjunto y sumarle el área del segundo conjunto, 
+
+49
+00:04:36,000 --> 00:04:39,500
+simplemente porque sumamos la intersección dos veces.
+
+50
+00:04:39,500 --> 00:04:51,500
+Vemos que estos otros conjuntos de aquí también lo cumplen, luego tendremos las sumas de sus intersecciones también, y tendremos una desigualdad aquí en general.
+
+51
+00:04:51,500 --> 00:04:58,500
+Y como teníamos una cantidad de subconjuntos numerable, tenemos un índice n en los números naturales aquí, 
+
+52
+00:04:58,500 --> 00:05:01,500
+lo llamamos sigma subaditividad. 
+
+53
+00:05:01,500 --> 00:05:05,500
+Esto es todo lo que necesitamos para obtener una medida exterior.
+
+54
+00:05:01,500 --> 00:05:14,700
+Cuando vemos estas propiedades es posible que pensemos que esta es de hecho una buena sustitución o abstracción para medir volúmenes normales. 
+
+55
+00:05:14,700 --> 00:05:23,000
+Sin embargo; ya sabemos que esto no puede funcionar para el conjunto completo de las partes sino tomamos en cuenta la medida de Lebesgue.
+
+56
+00:05:23,000 --> 00:05:31,000
+Y también vemos aquí en la parte c), que no tenemos la igualdad si consideramos conjuntos disjuntos dos a dos,
+
+57
+00:05:31,000 --> 00:05:33,500
+algo que normalmente llamamos sigma aditividad
+
+58
+00:05:33,500 --> 00:05:36,700
+Luego, hago una pregunta natural que nos vamos a hacer aquí es: 
+
+59
+00:05:36,700 --> 00:05:41,700
+Si empiezo con una medida exterior φ, ¿cómo llego a una medida μ ordinaria?
+
+60
+00:05:41,700 --> 00:05:47,700
+En otras palabras, como obtengo para una aplicación φ, la sigma aditividad.
+
+61
+00:05:47,700 --> 00:05:51,700
+Y ya sabemos que esto no va a funcionar para el conjunto completo de las partes.
+
+62
+00:05:51,700 --> 00:05:57,700
+Así que la primera cosa que deberíamos hacer, es restringir los conjuntos que consideramos.
+
+63
+00:05:57,700 --> 00:06:00,900
+Esto nos lleva a nuestra siguiente definición.
+
+64
+00:06:00,900 --> 00:06:08,900
+Solamente queremos mirar algunos buenos conjuntos que podamos medir y finalmente formarán de nuevo una sigma álgebra.
+
+65
+00:06:08,900 --> 00:06:15,400
+Y el nombre para dicho buen conjunto es φ medible. 
+
+66
+00:06:15,400 --> 00:06:23,700
+Usamos ese nombre si para todo el resto de subconjuntos, sea Q otro subconjunto, 
+
+67
+00:06:23,700 --> 00:06:27,700
+tenemos la siguiente regla de aditividad.
+
+68
+00:06:27,700 --> 00:06:35,200
+Lo mejor otra vez es visualizar esto en una imagen aquí tenemos un conjunto A, y aquí tenemos otro conjunto Q.
+
+69
+00:06:35,700 --> 00:06:45,200
+El conjunto A parte este conjunto Q en dos partes, uno dentro de A y otro fuera de A.
+
+70
+00:06:45,200 --> 00:06:47,800
+O usando fórmulas, 
+
+71
+00:06:47,800 --> 00:06:56,000
+aquí tenemos la parte dentro de A y aquí la parte fuera de A.
+
+72
+00:06:51,800 --> 00:06:56,400
+Ahora medimos ambos conjuntos usando nuestra aplicación φ, 
+
+73
+00:06:56,400 --> 00:07:05,000
+y las sumamos. Y decimos que esta medida es útil, si obtenemos la medida de Q.
+
+74
+00:07:05,000 --> 00:07:15,000
+Llamamos al conjunto A φ-medible si es tan bueno que divide a cualquier otro conjunto Q en dos partes 
+
+75
+00:07:15,000 --> 00:07:20,000
+tal que nuestra aplicación φ es aditiva.
+
+76
+00:07:20,000 --> 00:07:25,200
+Este es el primer paso hacia la sigma aditividad que queremos.
+
+77
+00:07:25,200 --> 00:07:33,200
+Lo que debería indicar aquí es que en algunos libros veréis esto como mayor o igual. 
+
+78
+00:07:33,200 --> 00:07:42,500
+El motivo de esto es que para la medida exterior tenemos la otra desigualdad en la definición, así que no hay diferencia.
+
+79
+00:07:42,500 --> 00:07:47,700
+Entonces, lo podríamos definir en este sentido más débil, pero significaría lo mismo igualmente.
+
+80
+00:07:47,700 --> 00:07:54,700
+Bueno, vamos a terminar este vídeo con una proposición, ya entraremos en más detalle en otro vídeo.
+
+81
+00:07:54,700 --> 00:08:03,200
+La proposición importante aquí se escribe de esta manera, si tenemos una medida exterior en el conjunto X, 
+
+82
+00:08:03,200 --> 00:08:14,200
+entonces la colección de todos estos conjuntos de aquí, que llamamos A_φ, forma una sigma álgebra.
+
+83
+00:08:14,200 --> 00:08:18,200
+Esto hace a nuestros conjuntos buenos incluso mejores. 
+
+84
+00:08:18,200 --> 00:08:21,900
+Como esta es la primera parte que necesitamos cualquier medida.
+
+85
+00:08:21,900 --> 00:08:44,900
+De hecho, si definimos una aplicación μ en una sigma álgebra A_φ, la definimos μ y fácilmente, solo usamos nuestro φ de antes, ponemos μ(A)=φ(A), el resultado es una hermosa medida.
+
+86
+00:08:44,900 --> 00:08:49,900
+Vemos que este es de hecho un fantástico resultado.
+
+87
+00:08:49,900 --> 00:08:57,900
+En el próximo vídeo os enseñaré algunos ejemplos de medidas exterior, y veréis que no es para nada difícil construirlas.
+
+88
+00:08:57,900 --> 00:09:09,500
+Esta proposición nos ayudará a alcanzar una medida ordinaria.
+
+89
+00:09:03,500 --> 00:09:09,500
+Si os interesa, también la demostraremos.
+
+90
+00:09:09,500 --> 00:09:13,500
+OK, gracias por escuchar, nos vemos la próxima vez, hasta luego.
+

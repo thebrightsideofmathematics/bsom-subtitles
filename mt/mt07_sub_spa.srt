@@ -1,0 +1,708 @@
+1
+00:00:00,469 --> 00:00:06,420
+¡Hola y bienvenidos de nuevo! Quiero agradecer a todas las personas fantásticas que apoyan
+
+2
+00:00:06,420 --> 00:00:13,440
+este canal en Steady. Continuamos nuestra serie de la teoría de la medida, y hoy
+
+3
+00:00:13,440 --> 00:00:19,949
+veremos la parte 7. El tema más importante de hoy será el teorema
+
+4
+00:00:19,949 --> 00:00:25,800
+de la convergencia monótona. Antes de explicar este importante teorema de convergencia,
+
+5
+00:00:25,800 --> 00:00:31,050
+quiero comenzar mostrándo algunas propiedades esenciales de la intergral
+
+6
+00:00:31,050 --> 00:00:37,260
+de Lebesgue. Recordemos, hemos introducido la integral de Lebesgue para funciones
+
+7
+00:00:37,260 --> 00:00:44,550
+funciones mensurables no negativas, definidas en algún espacio de medida X. Para tales funciones
+
+8
+00:00:44,550 --> 00:00:49,620
+sabemos que la integral de Lebesgue está bien definida y la notación que hemos
+
+9
+00:00:49,620 --> 00:00:54,449
+elegido es este símbolo integral donde ponemos el espacio de medida X aquí,
+
+10
+00:00:54,449 --> 00:00:59,969
+la función f aquí y la medida en sí va como  donde dμ, donde μ es la
+
+11
+00:00:59,969 --> 00:01:06,689
+medida definida en X. La integral está bien definida, por lo que esta expresión
+
+12
+00:01:06,689 --> 00:01:13,409
+es un número entre 0 e ∞, y en el peor de los casos podría ser ∞.
+
+13
+00:01:13,409 --> 00:01:21,210
+También recordemos, esta expresión fue definida por un supremo sobre todas las
+
+14
+00:01:21,210 --> 00:01:28,500
+funciones escalonadas que están por debajo de f. Ok, ahora quiero recopilar algunas propiedades
+
+15
+00:01:28,500 --> 00:01:34,320
+que se derivan inmediatamente de esta definición. Así que elijamos dos de estas
+
+16
+00:01:34,320 --> 00:01:41,490
+funciones, que no serán negativas, pero sí medibles. Ahora
+
+17
+00:01:41,490 --> 00:01:48,780
+tenemos lo siguiente: lo primero sería que si ambas funciones coinciden, entonces también
+
+18
+00:01:48,780 --> 00:01:55,820
+las integrales coinciden. Sin embargo, por supuesto, esto se cumple trivialmente
+
+19
+00:01:55,820 --> 00:02:01,170
+por lo tanto, quiero reescribir el lado izquierdo un poco. Aquí quiero que
+
+20
+00:02:01,170 --> 00:02:04,790
+la funciones sean iguales a  mu-casi-en-todas-partes
+
+21
+00:02:04,790 --> 00:02:13,520
+La abreviatura que uno elige aquí siempre es "ae" así que μ-ae significa
+
+22
+00:02:13,520 --> 00:02:20,420
+mu-casi-en-todas-partes: esto es que las funciones no tienen que ser iguales, pero
+
+23
+00:02:20,420 --> 00:02:26,810
+deberían ser igual en casi todas partes con respecto a la medida μ.
+
+24
+00:02:26,810 --> 00:02:33,070
+Concretamente, toda esta propiedad aquí significa que si miras el conjunto de todos
+
+25
+00:02:33,070 --> 00:02:41,390
+x minúsculas en nuestra X, para los que esta propiedad no se cumple, por lo que tenemos f(x)
+
+26
+00:02:41,390 --> 00:02:50,420
+no igual a g(x), entonces todo este conjunto debe ser de medida 0 con respecto a
+
+27
+00:02:50,420 --> 00:02:56,060
+nuestra medida μ. En otras palabras, si ponemos todo el conjunto en la medida se obtiene 0.
+
+28
+00:02:56,060 --> 00:03:03,050
+Esto significa que la integral de Lebesgue no puede ver las cosas que suceden
+
+29
+00:03:03,050 --> 00:03:09,260
+en conjuntos de medida cero. Tal vez para la visualización sea bueno recordar lo que
+
+30
+00:03:09,260 --> 00:03:15,620
+teníamos para la integral de Riemann. Si se integra una función continua con nuestra
+
+31
+00:03:15,620 --> 00:03:22,610
+integral de Riemann clásica se obtiene el área entre la función y
+
+32
+00:03:22,610 --> 00:03:29,420
+el eje x. Y ahora, si cambia la función en un punto, tal que el resultado es una
+
+33
+00:03:29,420 --> 00:03:35,930
+función no continua, entonces, por supuesto, no cambia el área aquí en absoluto.
+
+34
+00:03:35,930 --> 00:03:42,800
+Lo cual significa que la integral es la misma. Para la integral de Lebesgue esto
+
+35
+00:03:42,800 --> 00:03:48,560
+funciona en un sentido abstracto, lo que significa que puedes cambiar la función tanto
+
+36
+00:03:48,560 --> 00:03:56,000
+como quieras, siempre que el conjunto de todos estos cambios tenga una medida cero. Hablaré
+
+37
+00:03:56,000 --> 00:04:01,070
+de esto más adelante en otro video cuando os haya muostrado muchos más ejemplos.
+
+38
+00:04:01,070 --> 00:04:06,410
+Quiero continuar con la segunda propiedad que es la monotonicidad. Viene
+
+39
+00:04:06,410 --> 00:04:11,720
+dada descriptivamente diciendo que si una función es más grande que otra, entonces
+
+40
+00:04:11,720 --> 00:04:17,750
+también el área aquí debería ser más grande. Sin embargo, como antes, necesitamos el signo
+
+41
+00:04:17,750 --> 00:04:23,690
+menor o igual en casi todas partes. Y luego podemos concluir que la integral
+
+42
+00:04:23,690 --> 00:04:30,870
+de f es menor o igual que la integral de g. Y ahora su última
+
+43
+00:04:30,870 --> 00:04:37,020
+propiedad, que está relacionada con la primera. Quiero que mi función f sea cero y
+
+44
+00:04:37,020 --> 00:04:45,030
+también μ-casi-en-todas-partes. Ahora usando un (a) que la integral de f es
+
+45
+00:04:45,030 --> 00:04:50,940
+por consiguiente también cero, porque la integral de la función cero es cero. Sin embargo
+
+46
+00:04:50,940 --> 00:04:55,710
+aquí quiero enfatizar otra dirección: si la función tiene una
+
+47
+00:04:55,710 --> 00:05:01,020
+integral de cero, entonces ya sabemos que la función tiene que ser cero
+
+48
+00:05:01,020 --> 00:05:06,150
+μ-casi-en-todas-partes. No olvideis que solo consideramos funciones
+
+49
+00:05:06,150 --> 00:05:11,160
+no negativas aquí, por lo que todas las áreas que consideramos están por encima del eje x,
+
+50
+00:05:11,160 --> 00:05:16,560
+y, por lo tanto, son positivas. Por lo tanto, no hay cancelación alguna con áreas
+
+51
+00:05:16,560 --> 00:05:23,340
+positivas y negativas aquí. Ahora podría decir que las tres propiedades son fáciles de
+
+52
+00:05:23,340 --> 00:05:29,040
+demostrar, podríais hacerlo vosotros mismos. Sin embargo, también quiero que aprendais algunos
+
+53
+00:05:29,040 --> 00:05:35,700
+pasos técnicos aquí y, por lo tanto, haré la prueba de (b). Después de ver esta
+
+54
+00:05:35,700 --> 00:05:40,950
+prueba, creo que sereis capaces de hacer la prueba de (a) y (c) por vosotros mismos.
+
+55
+00:05:40,950 --> 00:05:49,350
+Si no, preguntad en los comentarios. Para comenzar la prueba, usemos una simple
+
+56
+00:05:49,350 --> 00:05:55,350
+función h. Esto significa que tenemos una representación con funciones
+
+57
+00:05:55,350 --> 00:06:03,390
+características. Sabemos que podemos escribirlo como suma finita, tal vez terminemos con n y
+
+58
+00:06:03,390 --> 00:06:09,510
+tienen constantes ci y también conjuntos Ai que ponemos en la función
+
+59
+00:06:09,510 --> 00:06:16,080
+característica. Los conjuntos correspondientes aquí deben ser medibles y, por lo tanto, las
+
+60
+00:06:16,080 --> 00:06:21,720
+funciones simples siempre medibles. Y la otra propiedad de una función simple
+
+61
+00:06:21,720 --> 00:06:29,910
+es que solo tiene un número finito de valores, por lo que siempre hay una forma canónica
+
+62
+00:06:29,910 --> 00:06:35,190
+para escribir una representación de una función simple, formando la suma
+
+63
+00:06:35,190 --> 00:06:40,570
+sobre todos los valores, por lo que tiene t, y ahora viene el
+
+64
+00:06:40,570 --> 00:06:48,040
+de la función simple y escribo que como h(X), entonces en lugar de c tenemos
+
+65
+00:06:48,040 --> 00:06:55,590
+este t, y luego viene la función característica de un conjunto que ahora describiré
+
+66
+00:06:55,590 --> 00:07:03,190
+Ahí tenemos todos los puntos X que cumplen que si pongo este punto en
+
+67
+00:07:03,190 --> 00:07:11,110
+mi función saco esta "t" especial. Esta es una representación que
+
+68
+00:07:11,110 --> 00:07:16,810
+está permitida y, a menudo, es muy útil elegir este especial, porque
+
+69
+00:07:16,810 --> 00:07:21,190
+no hay que definir n, ni estos ci ni los Ai, simplemente escribimos esta
+
+70
+00:07:21,190 --> 00:07:29,980
+representación. Y también la integral se puede escribir fácilmente. Como siempre
+
+71
+00:07:29,980 --> 00:07:37,930
+está definida como nuestra suma, y ahora la suma va sobre t en la imagen de h, y luego
+
+72
+00:07:37,930 --> 00:07:44,800
+simplemente t multiplicado por la medida de este conjunto, por lo que tenemos μ del conjunto completo donde
+
+73
+00:07:44,800 --> 00:07:52,930
+están todas las x que cumplen que h(x) es igual a esta t. Y para hacerlo un poco
+
+74
+00:07:52,930 --> 00:07:58,570
+más fácil, siempre se puede ignorar el 0.  Puedo omitir el 0 como un elemento en la
+
+75
+00:07:58,570 --> 00:08:02,950
+imagen porque no cambia nada en la integral, el multiplicar aquí
+
+76
+00:08:02,950 --> 00:08:11,110
+por 0. La pregunta es ahora qué sucede si cambiamos la función simple
+
+77
+00:08:11,110 --> 00:08:18,640
+en un conjunto que tiene medida 0. Para investigar esto necesito espacio, así
+
+78
+00:08:18,640 --> 00:08:25,780
+que empujamos esta hacia abajo... tal vez un boceto rápido sea útil aquí... esto es
+
+79
+00:08:25,780 --> 00:08:32,200
+todo el espacio de medida X, y ahora dividámoslo en los dos conjuntos: para que esto
+
+80
+00:08:32,200 --> 00:08:39,250
+sea X̃ y, por supuesto, el complemento de X̃, que es
+
+81
+00:08:39,250 --> 00:08:45,880
+es X̃c, el complemento de X̃. Esto significa que nuestra X está ahora
+
+82
+00:08:45,880 --> 00:08:54,260
+dividida en dos conjuntos, donde quiero que X̃c
+
+83
+00:08:54,260 --> 00:09:02,270
+tenga medida 0. Y con respecto a este conjunto con medida 0 quiero cambiar nuestra
+
+84
+00:09:02,270 --> 00:09:08,930
+función simple y, por supuesto, la llamo h̃ y la encuentro usando dos casos:
+
+85
+00:09:08,930 --> 00:09:17,450
+el primer caso sería como antes, por lo que h̃(x) es igual a h(x) para todo x en X̃
+
+86
+00:09:17,450 --> 00:09:24,290
+Así que nada cambia en el conjunto verde. Pero en el conjunto gris pondré un
+
+87
+00:09:24,290 --> 00:09:31,310
+nuevo valor, y solo elijo una a, así que esto es para todos los x en X̃c
+
+88
+00:09:31,310 --> 00:09:39,170
+Y a es solamente un número positivo elegido arbitrariamente, desde 0 hasta ∞ .
+
+89
+00:09:39,170 --> 00:09:45,080
+Por definición, esto es, por supuesto, nuevamente una función simple porque el conjunto X̃,
+
+90
+00:09:45,080 --> 00:09:49,340
+no lo dije, pero por supuesto, debería estar en el σ-algebra, por lo que debería ser
+
+91
+00:09:49,340 --> 00:09:55,640
+medible. Y luego podemos escribir nuevamente una representación para esta
+
+92
+00:09:55,640 --> 00:10:00,260
+función simple o escalonada. Puedo usar la representación de antes, así que ahora vamos a
+
+93
+00:10:00,260 --> 00:10:06,800
+repasar todos los valores de la función original h, y ahora sé
+
+94
+00:10:06,800 --> 00:10:13,880
+que solamente ocurre para x en X̃, así que escribo t por la función característica y ahora
+
+95
+00:10:13,880 --> 00:10:20,360
+pongo solo las x de X̃ en esta función característica.
+
+96
+00:10:20,360 --> 00:10:24,920
+No incluido en la suma es lo que sucede fuera de X̃ y, por lo tanto, agregamos
+
+97
+00:10:24,920 --> 00:10:30,620
+esto como a por la función característica y ahora tenemos
+
+98
+00:10:30,620 --> 00:10:39,890
+toda los x en X donde h̃=a , pero esto es simplemente X̃c,
+
+99
+00:10:39,890 --> 00:10:48,080
+por lo que podamos escribir solo esta X̃c aquí. Bien, tengo explícitamente
+
+100
+00:10:48,080 --> 00:10:53,450
+escrita la representación, porque entonces podemos escribir la integral también.
+
+101
+00:10:53,450 --> 00:11:00,380
+Ahora I(h̃) es igual a la suma
+
+102
+00:11:00,380 --> 00:11:07,760
+con t sobre h(X), y aquí tenemos t por la medida
+
+103
+00:11:07,760 --> 00:11:17,210
+de este conjunto, mas a por la medida de este conjunto que es de nuevo X̃c.
+
+104
+00:11:17,210 --> 00:11:24,110
+Sin embargo ya sabeis que la medida de X̃c es cero, así que
+
+105
+00:11:24,110 --> 00:11:30,950
+todo esto aquí a la derecha sigue siendo cero, lo que simplemente significa que podemos
+
+106
+00:11:30,950 --> 00:11:37,100
+omitirlo. Y ahora deberíamos ver que las diferencias arriba y abajo no son tan
+
+107
+00:11:37,100 --> 00:11:42,620
+grandes, la única diferencia real es la tilde aquí, porque el cero no supone
+
+108
+00:11:42,620 --> 00:11:49,120
+ninguna diferencia, como dije antes. Nuestra tarea ahora es completar aquí:
+
+109
+00:11:49,120 --> 00:11:54,410
+ahora depende de lo que resulte más fácil, así que tal vez vengamos de abajo y solo
+
+110
+00:11:54,410 --> 00:12:03,440
+usamos lo que sabemos, tenemos μ de todo el X, y ahora solamente dividimos
+
+111
+00:12:03,440 --> 00:12:13,010
+en tilde X donde se cumple la condición, unión y aquí tenemos
+
+112
+00:12:13,010 --> 00:12:22,280
+X̃c. Obviamente, esto es lo mismo que la parte inferior y sabemos que es
+
+113
+00:12:22,280 --> 00:12:28,660
+esta unión conjunta, lo que significa que podemos usar fácilmente la σ aditividad aquí.
+
+114
+00:12:28,660 --> 00:12:35,780
+Por lo tanto, paréntesis aquí y aquí un signo más, o tal vez mejor
+
+115
+00:12:35,780 --> 00:12:46,840
+paréntesis aquí también, por lo que esto sería negro, y luego más μ de este conjunto
+
+116
+00:12:46,840 --> 00:12:54,200
+Sin embargo, ya sabemos que X̃c es un conjunto con medida 0, con
+
+117
+00:12:54,200 --> 00:12:57,950
+o sin esta condición. Solo se vuelve más pequeño con la condición
+
+118
+00:12:57,950 --> 00:13:05,150
+lo que significa que esto sigue siendo un conjunto con medida 0. Y ahora tenemos todas las
+
+119
+00:13:05,150 --> 00:13:09,590
+Igualdades aquí, solo agregamos un 0 aquí, por lo que esto es igual y esto es igual
+
+120
+00:13:09,590 --> 00:13:14,810
+todo es igual, lo que significa que la integral de h̃ es igual a la
+
+121
+00:13:14,810 --> 00:13:19,670
+integral de h. Esto significa que ahora podemos cambiar la función simple en un
+
+122
+00:13:19,670 --> 00:13:25,100
+conjunto con medida cero tanto como queramos. De hecho, este es un
+
+123
+00:13:25,100 --> 00:13:30,980
+resultado muy importante y puede usarlo para probar algunas de estas partes aquí, pero
+
+124
+00:13:30,980 --> 00:13:36,500
+queríamos probar la parte (b). Allí, tenemos dos
+
+125
+00:13:36,500 --> 00:13:41,770
+funciones donde una es más grande que la otra en casi todas partes
+
+126
+00:13:41,770 --> 00:13:50,540
+por lo tanto, ahora sabemos cómo elegir nuestra X̃: simplemente debería ser el conjunto de
+
+127
+00:13:50,540 --> 00:14:02,930
+todo x donde f(x) es menor o igual que g(x). Entonces por suposición también sabemos
+
+128
+00:14:02,930 --> 00:14:09,920
+que X̃c tiene medida 0. Entonces veamos la integral de
+
+129
+00:14:09,920 --> 00:14:18,590
+f: por definición es el supremo de todas las integrales de funciones escalonadas y nosotros
+
+130
+00:14:18,590 --> 00:14:24,980
+denotamos por S+, donde la función escalonada o simple es menor
+
+131
+00:14:24,980 --> 00:14:32,750
+o igual que f. Ahora por los resultados de antes, sabemos que no cambiamos el
+
+132
+00:14:32,750 --> 00:14:38,350
+valor de la integral cuando cambiamos la función escalonada en un conjunto con medida cero.
+
+133
+00:14:38,350 --> 00:14:43,940
+Por lo tanto, un supremo debe hacer lo mismo cuando lo ponga en nuestras funciones escalonadas, donde
+
+134
+00:14:43,940 --> 00:14:54,950
+tengo h̃ menor que f pero solo en X̃. Ese es todo el asunto:
+
+135
+00:14:54,950 --> 00:15:01,790
+si cambiamos algo fuera de X̃, podemos cambiar I(h̃), así que todo
+
+136
+00:15:01,790 --> 00:15:05,140
+supremo es el mismo que el supremo aquí a la izquierda
+
+137
+00:15:05,140 --> 00:15:14,000
+Muy bien. Y ahora podemos usar lo que sabemos de f y g. En X̃, g es siempre
+
+138
+00:15:14,000 --> 00:15:20,750
+más grande que f, así que aquí siempre tenemos esta desigualdad. Por lo tanto, si escribimos
+
+139
+00:15:20,750 --> 00:15:28,400
+lo mismo otra vez, pero ahora con g en lugar de f, entonces este conjunto se hace más grande
+
+140
+00:15:28,400 --> 00:15:33,370
+que este conjunto, porque nuestras demás funciones escalonadas pueden estar dentro de este conjunto,
+
+141
+00:15:33,370 --> 00:15:40,610
+por lo tanto tenemos desigualdad en este punto. Ahora con el
+
+142
+00:15:40,610 --> 00:15:47,750
+mismo razonamiento que antes, el supremo es igual al supremo donde ignoro X̃
+
+143
+00:15:47,750 --> 00:15:55,670
+y las funciones escalonadas en todo el conjunto X. Y esta es exactamente la
+
+144
+00:15:55,670 --> 00:16:02,360
+definición de la integral de nuestra función g. Y si ponemos todo
+
+145
+00:16:02,360 --> 00:16:08,930
+junto así, esta la desigualdad, hemos probado nuestra afirmación.
+
+146
+00:16:08,930 --> 00:16:14,240
+y la propiedad de monotonicidad de la integral de Lebesgue donde solo necesitamos
+
+147
+00:16:14,240 --> 00:16:21,200
+esta desigualdad en casi todas partes. Ok, esta fue una prueba larga y yo
+
+148
+00:16:21,200 --> 00:16:26,870
+mostré todos los detalles técnicos porque los necesitamos nuevamente cuando demostramos
+
+149
+00:16:26,870 --> 00:16:33,290
+el teorema de la convergencia monótona. Sin embargo, tal vez primero establezcamos el teorema
+
+150
+00:16:33,290 --> 00:16:38,750
+de convergencia monótona. Recuerde que este era nuestro objetivo desde el
+
+151
+00:16:38,750 --> 00:16:45,350
+comienzo del video. La primera condición es que tengamos un espacio
+
+152
+00:16:45,350 --> 00:16:51,589
+de medida, así que establezcamos X, σ-algebra Ꭿ, y una medida μ, y también tenemos algunas
+
+153
+00:16:51,589 --> 00:17:03,890
+funciones mensurables no negativas: fn y f, con X de 0 hasta ∞.
+
+154
+00:17:03,890 --> 00:17:13,520
+y es medible para todo n en N. Además satisfacen dos
+
+155
+00:17:13,520 --> 00:17:21,559
+propiedades: primero, aumentan monótonamente, por lo que tenemos f1 menor o igual
+
+156
+00:17:21,559 --> 00:17:29,780
+que f2 menor o igual que f3 y así sucesivamente, y esto se mantiene en casi todas partes, por lo que
+
+157
+00:17:29,780 --> 00:17:36,559
+μ-casi-en-todas-partes. Esto siempre significa que los puntos X donde esta condición
+
+158
+00:17:36,559 --> 00:17:44,240
+no se satisface forman un conjunto con medida 0. Y la segunda condición es que el
+
+159
+00:17:44,240 --> 00:17:48,620
+límite puntual de la secuencia de funciones
+
+160
+00:17:48,620 --> 00:18:01,610
+es igual a f(x), también μ-casi-en-todas-partes para x en X bien. Aquí hay ahora un
+
+161
+00:18:01,610 --> 00:18:07,070
+X y decimos que se cumple en casi todas partes, lo que significa que hay un conjunto X̃
+
+162
+00:18:07,070 --> 00:18:12,590
+donde este se mantiene y un complemento de X̃ tiene medida 0.
+
+163
+00:18:12,590 --> 00:18:18,259
+Y esto es solo una abreviatura común de esto, así que decimos x en X
+
+164
+00:18:18,259 --> 00:18:23,779
+μ-casi-en-todas-partes, y luego todo el mundo sabe lo que queremos decir. Y ahora el teorema
+
+165
+00:18:23,779 --> 00:18:31,249
+de convergencia monótona establece que podemos llevar el límite dentro de la integral,
+
+166
+00:18:31,249 --> 00:18:40,720
+por lo tanto, el límite de las integrales fn dμ es igual a, limite dentro significa
+
+167
+00:18:40,720 --> 00:18:48,080
+integral sobre X y el límite interior es solo la función f μ-en-casi-todas-partes
+
+168
+00:18:48,080 --> 00:18:54,649
+así que podemos poner dμ aquí. Y este es el teorema de convergencia, ahora sabeis
+
+169
+00:18:54,649 --> 00:19:00,289
+cuándo podeis mover el límite dentro de la integral cuando tienes una
+
+170
+00:19:00,289 --> 00:19:07,190
+secuencia monótona de funciones. De hecho, tales teoremas de convergencia en su mayoría las mejores
+
+171
+00:19:07,190 --> 00:19:13,249
+ventajas que la integral de Lebesgue tiene sobre la integral de Riemann y, por lo tanto,
+
+172
+00:19:13,249 --> 00:19:18,610
+realmente quiero mostrar la prueba de este teorema de convergencia monótona.
+
+173
+00:19:18,610 --> 00:19:23,840
+Sin embargo, esto es algo que haremos en el siguiente video porque este video es
+
+174
+00:19:23,840 --> 00:19:32,179
+ya es muy largo y es bueno hacer un pequeño descanso tal vez ahora llamemos a todo
+
+175
+00:19:32,179 --> 00:19:38,029
+lo hicimos aquí en este video y luego tal vez podrás pasar al siguiente video donde
+
+176
+00:19:38,029 --> 00:19:43,549
+haremos la prueba del teorema de la convergencia monótona. Realmente espero que vernos allí.
+
+177
+00:19:43,549 --> 00:19:47,830
+¡Nos vemos la próxima vez!
+

@@ -1,0 +1,485 @@
+1
+00:00:00,260 --> 00:00:06,660
+Hola y bienvenidos al siguiente video de esta serie. Quiero agredecer a todas
+
+2
+00:00:06,660 --> 00:00:12,900
+las personas que apoyan este canal en Steady. Esta es la parte 8 de mi serie sobre la
+
+3
+00:00:12,900 --> 00:00:18,720
+teoría de la medida y hoy continuaremos hablando del teorema de convergencia monótona pero hoy
+
+4
+00:00:18,720 --> 00:00:25,320
+quiero mostrarles principalmente la demostración de este teorema. Para comenzar este video
+
+5
+00:00:25,320 --> 00:00:30,840
+podría ser útil dar un resumen de lo que es el teorema de convergencia monótono.
+
+6
+00:00:30,840 --> 00:00:38,340
+Como ingredientes necesitamos un espacio de medida y funciones medibles.
+
+7
+00:00:38,340 --> 00:00:43,260
+Como siempre, son no negativos y tenemos una sucesión completa de tales funciones mensurables.
+
+8
+00:00:43,260 --> 00:00:48,719
+Además, también tenemos que limitar dónde llamamos a esto simplemente f sin un
+
+9
+00:00:48,719 --> 00:00:54,420
+subíndice. Ok, dado que el teorema se llama teorema de convergencia monótona, necesitamos dos
+
+10
+00:00:54,420 --> 00:01:00,120
+cosas: primero una propiedad monótona y también una propiedad convergente. Lo primero
+
+11
+00:01:00,120 --> 00:01:06,030
+es, por lo tanto, que la secuencia aumenta monótonamente, pero solamente
+
+12
+00:01:06,030 --> 00:01:11,490
+casi-en-todas-partes con respecto a nuestra medida μ. Y la segunda propiedad,
+
+13
+00:01:11,490 --> 00:01:17,100
+como comenté, f debería ser el límite de fn. Y el límite debe ser en el sentido
+
+14
+00:01:17,100 --> 00:01:22,290
+punto a punto, lo que significa que fijo el punto x, y tengo un límite normal de números
+
+15
+00:01:22,290 --> 00:01:26,159
+reales. Sin embargo, como antes, esta propiedad tiene
+
+16
+00:01:26,159 --> 00:01:32,400
+que cumplirse casi-en-todas-partes. Suficiente como premisa, ahora hablemos sobre la
+
+17
+00:01:32,400 --> 00:01:39,210
+conclusión: el teorema nos dice que podemos meter el límite en la integral
+
+18
+00:01:39,210 --> 00:01:44,579
+esto significa que la sucesión de integrales converge a una integral donde
+
+19
+00:01:44,579 --> 00:01:53,040
+en la integral existe el límite de la sucesión y, por supuesto, esto es simplemente
+
+20
+00:01:53,040 --> 00:02:00,899
+nuestra f aquí. Ahora tenemos de nuevo nuestro teorema de convergencia monótono, sin embargo,
+
+21
+00:02:00,899 --> 00:02:05,820
+debería decir que hay una formulación alternativa de este teorema que es
+
+22
+00:02:05,820 --> 00:02:11,910
+un poco más general. Lo que haces es que también incluyes funciones que
+
+23
+00:02:11,910 --> 00:02:17,719
+tienen infinito como resultado. Por supuesto, entonces tienes que
+
+24
+00:02:17,719 --> 00:02:23,209
+extender la σ-algebra de Borel a través de este nuevo conjunto más grande y también
+
+25
+00:02:23,209 --> 00:02:29,150
+ampliar la noción de medible y, de hecho, eso no es un problema en absoluto.
+
+26
+00:02:29,150 --> 00:02:32,959
+De la misma manera, la definición de la integral tampoco cambia en absoluto
+
+27
+00:02:32,959 --> 00:02:38,510
+porque en el peor de los casos, como siempre, podría ser infinito. La ventaja de
+
+28
+00:02:38,510 --> 00:02:44,120
+esta formulación es ahora que puedes deshacerse de la f por completo, por lo que no necesitamos
+
+29
+00:02:44,120 --> 00:02:51,439
+esto ni esto. Simplemente porque todo deriva de la
+
+30
+00:02:51,439 --> 00:02:56,060
+propiedad monotónica aquí. Tenemos funciones mensurables y conocemos los
+
+31
+00:02:56,060 --> 00:03:01,340
+supremos, también son medibles y aumentan monótonamente, por lo que sabemos que
+
+32
+00:03:01,340 --> 00:03:06,769
+el supremo viene dado casi-en-todas-partes como el límite. Y vemos que esto es solo una
+
+33
+00:03:06,769 --> 00:03:11,659
+formulación más compacta del teorema, y como dije antes, en el peor de los
+
+34
+00:03:11,659 --> 00:03:19,459
+casos nos queda infinito a derecha e izquierda en la conclusión aquí. Bueno, esta fue la
+
+35
+00:03:19,459 --> 00:03:28,129
+Introducción, ahora veamos la prueba. Por supuesto, usamos lo que sabemos, tenemos una
+
+36
+00:03:28,129 --> 00:03:35,659
+sucesión de funciones monótonamente creciente. Esta propiedad se cumple
+
+37
+00:03:35,659 --> 00:03:40,729
+casi-en-todas-partes, y si recordamos lo que hicimos en el último video, sabemos que
+
+38
+00:03:40,729 --> 00:03:45,470
+tienen la propiedad de monotonicidad de la integral de Lebesgue. Esto significa que la
+
+39
+00:03:45,470 --> 00:03:50,500
+integral conserva estas desigualdades.
+
+40
+00:03:52,060 --> 00:03:57,379
+Ahora tenemos una sucesión monótona creciente de números reales, y también tenemos que
+
+41
+00:03:57,379 --> 00:04:03,680
+puede salir infinito. En el mismo sentido, podemos escribir la desigualdad para todo n,
+
+42
+00:04:03,680 --> 00:04:10,699
+así sabemos que el límite es siempre mayor o igual que fn para todo n
+
+43
+00:04:10,699 --> 00:04:16,759
+y casi-en-todas-partes, simplemente porque el límite es casi-en-todas-partes el supremo.
+
+44
+00:04:16,759 --> 00:04:22,610
+Y debido a que esto es válido casi-en-todas-partes, sabemos que se aplica también a la integral.
+
+45
+00:04:22,610 --> 00:04:27,470
+Y ahí vemos ya que tenemos una parte de
+
+46
+00:04:27,470 --> 00:04:33,680
+la Igualdad que queremos mostrar, así que llamemos a esto (*) como referencia y
+
+47
+00:04:33,680 --> 00:04:40,250
+vamos a mostrar la desigualdad para el límite en ambos lados aquí, por supuesto
+
+48
+00:04:40,250 --> 00:04:44,000
+no cambiamos la desigualdad aquí y no tenemos límite en el lado derecho
+
+49
+00:04:44,000 --> 00:04:50,540
+porque no hay n involucrado y por lo tanto esto es la desigualdad, y esto es
+
+50
+00:04:50,540 --> 00:04:57,740
+exactamente una parte de nuestra igualdad (*) anterior. Observad que esto no fue tan difícil.
+
+51
+00:04:57,740 --> 00:05:03,140
+Esta parte viene de inmediato, pero para la otra parte necesitamos usar la definición
+
+52
+00:05:03,140 --> 00:05:08,780
+de la integral de Lebesgue. Y esto siempre significa que volvemos a funciones
+
+53
+00:05:08,780 --> 00:05:14,840
+simples o escalonadas. Por lo tanto, sea h una función simple elegida arbitrariamente que se encuentra debajo
+
+54
+00:05:14,840 --> 00:05:25,100
+de nuestra función f. Y también un cierto ε fijo. En este punto, creo que un
+
+55
+00:05:25,100 --> 00:05:32,060
+breve boceto es muy útil para pillar la idea: aquí está nuestra función f y esta
+
+56
+00:05:32,060 --> 00:05:39,200
+debería ser la función escalonada h, así que tal vez se vea así. Ok, esto sería
+
+57
+00:05:39,200 --> 00:05:45,320
+la idea general. Sabemos que tenemos convergencia puntual en esta sucesión
+
+58
+00:05:45,320 --> 00:05:52,970
+de funciones a f, por lo que tal vez podamos elegir alguna fn que se encuentre muy cerca de f, que
+
+59
+00:05:52,970 --> 00:06:00,470
+tal vez esta sea nuestra fn elegida, la idea del ε es ahora que siempre podemos
+
+60
+00:06:00,470 --> 00:06:05,270
+empujar hacia abajo la función escalonada con este ε, esto sería ε,
+
+61
+00:06:05,270 --> 00:06:10,070
+y entonces la nueva función escalonada se ve así, y esto siempre debería ser una
+
+62
+00:06:10,070 --> 00:06:19,669
+función escalonada que se encuentra por debajo de fn. Por lo tanto, defino ahora conjuntos Xn, están colocados en
+
+63
+00:06:19,669 --> 00:06:27,680
+puntos x donde fn(x) es más grande que esta función escalonada desplazada.
+
+64
+00:06:27,680 --> 00:06:35,240
+Y la función escalonada desplazada es  (1-ε)h(x). Dado que tenemos
+
+65
+00:06:35,240 --> 00:06:40,910
+nuestra convergencia de la secuencia fn a f casi-en-todas-partes, sabemos
+
+66
+00:06:40,910 --> 00:06:49,820
+que casi todas las x en X se encuentran en al menos uno de estos Xn: en otras palabras,
+
+67
+00:06:49,820 --> 00:06:57,410
+podemos ver la unión de todos estos Xn y llamémoslo X̃, entonces sabemos
+
+68
+00:06:57,410 --> 00:07:05,900
+que el complemento de X̃ es un conjunto con medida 0. Sabiendo esto ahora podemos
+
+69
+00:07:05,900 --> 00:07:11,990
+mirar la integral de nuevo. Ahora comenzamos aquí con el lado izquierdo, así que quiero
+
+70
+00:07:11,990 --> 00:07:19,430
+mirar la integral de fn. Esta integral no aumenta si cambio el
+
+71
+00:07:19,430 --> 00:07:28,160
+conjunto a otro más pequeño, así que aquí quiero elegir Xn, fn dμ. Ahora dentro del conjunto Xn
+
+72
+00:07:28,160 --> 00:07:33,700
+tenemos esta desigualdad y podemos usar la monotonicidad normal de la integral.
+
+73
+00:07:33,700 --> 00:07:38,600
+Por lo tanto tenemos la misma desigualdad aquí y una nueva función dentro de la integral
+
+74
+00:07:38,600 --> 00:07:46,010
+que ahora es (1-ε)h dμ , y por supuesto, queremos ver el límite
+
+75
+00:07:46,010 --> 00:07:55,060
+así que ponemos el límite aquí en ambos lados. Luego tenemos el límite de las integrales y
+
+76
+00:07:55,060 --> 00:08:02,900
+en el lado derecho tenemos el límite de estas integrales. Ok, en este punto
+
+77
+00:08:02,900 --> 00:08:07,040
+quiero omitir algunos detalles, porque de lo contrario perderíamos nuestro enfoque
+
+78
+00:08:07,040 --> 00:08:14,780
+completamente. Lo que podemos mostrar ahora es que esto es, de hecho, la integral sobre X̃
+
+79
+00:08:14,780 --> 00:08:21,890
+y no cambiamos la función en absoluto, y lo que necesitamos es ver que
+
+80
+00:08:21,890 --> 00:08:26,540
+esto es una función escalonada, por lo que la integral es muy fácil, esencialmente es solo la
+
+81
+00:08:26,540 --> 00:08:34,070
+suma de nuestras medidas, y sabemos que los conjuntos aquí están aumentando.
+
+82
+00:08:34,070 --> 00:08:38,200
+Hay que encontrar los conjuntos de forma adecuada, pero entonces notamos que la secuencia de conjuntos
+
+83
+00:08:38,200 --> 00:08:44,630
+tiene monotonía creciente. Ok, en resumen, dejo los detalles aquí
+
+84
+00:08:44,630 --> 00:08:49,820
+pero recordad que podemos hacer esto porque esto es una función escalonada, y la integral
+
+85
+00:08:49,820 --> 00:08:54,760
+es muy fácil. Ok, pero después de esto vemos que no hay
+
+86
+00:08:54,760 --> 00:08:59,770
+diferencia entre elegir X̃ aquí o X, porque para la integral no
+
+87
+00:08:59,770 --> 00:09:05,530
+importa lo que suceda en un conjunto con medida cero. En el último video
+
+88
+00:09:05,530 --> 00:09:11,250
+lo mostré explícitamente para las funciones escalonadas. Bien, ahora tenemos una desigualdad
+
+89
+00:09:11,250 --> 00:09:17,470
+que es válida para todos los ε aquí en el lado derecho. Esto significa ahora que
+
+90
+00:09:17,470 --> 00:09:24,250
+podemos elegir el ε tan pequeño como queramos, y por lo tanto tenemos un límite
+
+91
+00:09:24,250 --> 00:09:29,860
+para el ε  y aún tendríamos la desigualdad si estableciésemos ε
+
+92
+00:09:29,860 --> 00:09:36,340
+a cero, por lo que esto significa que aquí tenemos dos integrales mayores o iguales que la
+
+93
+00:09:36,340 --> 00:09:44,800
+integral, y aquí solo h permanece. Ahora en el mismo sentido que este h fue arbitrariamente
+
+94
+00:09:44,800 --> 00:09:51,910
+elegida, era una función escalonada que se encuentra debajo de nuestra función f. Esto significa
+
+95
+00:09:51,910 --> 00:09:57,400
+como sabemos que podemos ir al supremo de todas estas funciones escalonadas y luego
+
+96
+00:09:57,400 --> 00:10:02,200
+obtenemos en el lado derecho la integral de f. Y ahí lo tienes, esta
+
+97
+00:10:02,200 --> 00:10:08,470
+es la segunda parte de nuestra igualdad (*). Ambas cosas juntas nos dan la prueba
+
+98
+00:10:08,470 --> 00:10:14,680
+del teorema de la convergencia monótona. Para el final del video quiero mostrar
+
+99
+00:10:14,680 --> 00:10:19,740
+una aplicación de este importante teorema de convergencia monótona.
+
+100
+00:10:19,740 --> 00:10:27,550
+Siempre se puede usar esto para series. Si tienes cualquier secuencia de funciones y
+
+101
+00:10:27,550 --> 00:10:34,570
+ahora uso la letra g, que no sea negativa y también medible, entonces se puede aplicar
+
+102
+00:10:34,570 --> 00:10:40,330
+el teorema de la convergencia monótona, por lo que aquí se usa también también la suma ∞ para las
+
+103
+00:10:40,330 --> 00:10:48,370
+funciones, y medibles. por lo que no necesitamos un comportamiento monótono aquí. Entonces
+
+104
+00:10:48,370 --> 00:10:55,570
+puedo decir que esta serie que ahora va del 1 al infinito es también una
+
+105
+00:10:55,570 --> 00:11:00,370
+función bien definida y también medible. El truco ahora es, por supuesto
+
+106
+00:11:00,370 --> 00:11:05,170
+que las sumas parciales forman una secuencia monotónicamente creciente de
+
+107
+00:11:05,170 --> 00:11:09,100
+funciones. Por lo tanto, podemos escribir la integral
+
+108
+00:11:09,100 --> 00:11:19,420
+de la serie, por lo que va al infinito,  gn dμ, es igual poniendo la serie fuera
+
+109
+00:11:19,420 --> 00:11:28,270
+de la integral, así que aquí está la serie de las integrales, así, gn dμ, Esto significa
+
+110
+00:11:28,270 --> 00:11:34,620
+que el teorema de la convergencia monótona nos permite cambiar entre integrales y series.
+
+111
+00:11:34,620 --> 00:11:39,610
+Lo único que tenemos que agregar es que tengamos funciones mensurables no negativas.
+
+112
+00:11:39,610 --> 00:11:45,520
+Y no necesitamos ninguna otra suposicion en absoluto. Ahí se ve el
+
+113
+00:11:45,520 --> 00:11:50,820
+poder de este teorema. Te da inmediatamente una propiedad tan agradable como esta.
+
+114
+00:11:50,820 --> 00:11:55,360
+Muy bien, eso es todo lo que quería decir sobre el teorema de
+
+115
+00:11:55,360 --> 00:12:01,150
+convergencia monótona, y espero que hayais aprendido cómo se puede probar y, lo que es más importante,
+
+116
+00:12:01,150 --> 00:12:06,910
+que ahora sepais cuándo aplicarlo. Se necesita una sucesion de funciones que
+
+117
+00:12:06,910 --> 00:12:13,330
+aumente monótonamente, que no sean negativas. Más adelante veremos cómo podemos debilitar un poco
+
+118
+00:12:13,330 --> 00:12:18,970
+esta suposición. Sin embargo, por el momento, esta versión aquí es lo suficientemente
+
+119
+00:12:18,970 --> 00:12:25,450
+buena. En los siguientes videos siguientes hablaremos sobre teoremas de convergencia de errores,
+
+120
+00:12:25,450 --> 00:12:29,350
+que tambien son muy importantes. Espero vernos alli.
+
+121
+00:12:29,350 --> 00:12:34,560
+Y por supuesto os deseo un buen dia ¡adiós!
+TRADUCCIÓN: JORGE IBÁÑEZ PUERTAS, THE BRIGHT SIDE OF MATHEMATICS, MEASURE THEORY PT.8
+

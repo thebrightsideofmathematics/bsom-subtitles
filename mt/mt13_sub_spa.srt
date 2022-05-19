@@ -1,0 +1,306 @@
+1
+00:00:00,860 --> 00:00:08,639
+Bienvenido a un nuevo vídeo sobre la Toería de la Medida. Me gustaría empezar por agradecer a toda la gente amable que
+
+2
+00:00:08,639 --> 00:00:16,770
+apoya este canal en Steady. El tema de hoy será la Medida de Lebesgue-Stieljes.
+
+3
+00:00:16,770 --> 00:00:34,550
+Suena a algo diferente y distinto a la medida normal, pero no lo es. Es solamente una manera de construir una medida ordinaria.
+Y de esta manera podemos empezar, vamos a construir ahora una medida. Lo único que necesitamos aquí es
+
+4
+00:00:34,550 --> 00:00:50,399
+una función monótona creciente en la recta Real. Y cuando digo monótonamente creciente, me refiero a no decreciente.
+En otras palabras, una función constante también sería monótonamente creciente. La mejor manera para verlo
+
+5
+00:00:50,399 --> 00:01:11,810
+es por supuesto dibujar una gráfica de tal función.
+Supongamos que la función es creciente aquí, después, es constante, y luego quizás tengamos una discontinuidad de salto finito en este punto.
+El valor está aquí. Y luego después de eso, vuelve a ser creciente hasta este punto de salto finito a otra función creciente, que luego se hace constante.
+
+6
+00:01:22,080 --> 00:01:54,509
+Vale, este es el típico ejemplo de función monótona creciente. En particular, esta función es constante en algunas partes.
+También hay puntos en que la función no es continua, tenemos saltos hacia arriba.
+Con tal función, queremos medir la longitud de intervalos.
+
+7
+00:01:54,509 --> 00:02:05,210
+Primero quiero medir las longitudes de intervalos del tipo [a,b).
+
+8
+00:02:06,560 --> 00:02:09,560
+Para una mejor visualización, puedo poner el intervalo en la gráfica.
+
+9
+00:02:12,890 --> 00:02:24,209
+Aquí tendríamos a, y aquí tendríamos b. Por supuesto, el concepto normal de medida sería simplemente b-a.
+Pero aquí, f como función no sigue la longitud del intervalo.
+
+10
+00:02:24,209 --> 00:02:30,390
+esto significa que la longitud debería ser más larga,
+
+11
+00:02:30,390 --> 00:02:37,650
+donde la tasa de creciemiento de la función es mayor. Por esto, tenemos que fijarnos en qué hace la función con el intervalo.
+
+12
+00:02:37,650 --> 00:02:45,330
+Miramos la imagen del intervalo con la función f.
+
+13
+00:02:45,330 --> 00:03:08,640
+En el dibujo, esto aproximadamente se vería así, tenemos un punto f(b) aquí, y f(a) aquí.
+Escalar la longitud del intervalo en la función f, simplemente significa que nos fijamos en el eje Y de aquí.
+Es decir, la longitud de este nuevo intervalo que es solamente f(b)-f(a).
+
+14
+00:03:08,640 --> 00:03:22,560
+Bueno, ahora espero que reconozcáis un error aquí de manera inmediata.
+b no es un punto de nuestro intervalo,
+
+15
+00:03:22,560 --> 00:03:30,120
+por lo que no sería correcto usar f(b), deberíamos usar en su lugar este punto de aquí.
+
+16
+00:03:30,120 --> 00:03:38,910
+Este punto es el que describe correctamente la cota superior de la imagen del intervalo [a,b).
+
+17
+00:03:38,910 --> 00:03:45,329
+En el eje y también tenemos este punto de aquí, el importante, y lo llamamos f(b⁻).
+
+18
+00:03:45,329 --> 00:03:51,690
+También me gustaría incluir aquí el punto de la derecha, para calcular la longitud del intervalo.
+
+19
+00:03:51,690 --> 00:04:02,120
+Ahora se debería de ver que tenemos el mismo problema aquí, tenemos el mismo problema en el lado izquierdo con el punto a.
+
+20
+00:04:02,120 --> 00:04:08,160
+Se ve que a está incluida dentro de nuestro intervalo, por lo que deberíamos incluir todo este salto en el cálculo de la
+longitud de este intervalo.
+
+21
+00:04:11,160 --> 00:04:16,579
+En el lado derecho podemos ignorar el salto completo porque, están dentro del intervalo.
+
+22
+00:04:17,570 --> 00:04:36,870
+Ahora, b no está en el intervalo, y por lo tanto, deberíamos añadir el salto a nuestro cálculo.
+Se ve inmediatamente, si movemos este punto, por ejemplo aquí al centro, entonces cambiaríamos el cálculo
+completo de la longitud, pero no cambiaríamos el salto completo.
+
+23
+00:04:36,970 --> 00:04:55,470
+Luego, la única forma realmente significativa de escoger un punto aquí, sería escoger el punto del valor de aquí abajo.
+Y como antes, llamaré a esto resumidamente f(a⁻), y luego incluimos el '-' aquí también.
+Esta cosa es ahora nuestro nuevo concepto de longitud de un intervalo.
+
+24
+00:04:53,870 --> 00:05:05,870
+Por supuesto, tendré que darle un nombre, y lo llamo μ_f([a,b)).
+
+25
+00:05:05,970 --> 00:05:21,470
+Para ser más preciso también doy la definición de f(b⁻) y de f(a⁻).
+Como podéis ver, f(b⁻) es el límite por la izquierda, nos acercamos más y más al punto, partiendo por la izquierda.
+
+26
+00:05:21,570 --> 00:05:46,030
+Podemos escribir esto como un ε que va a 0⁺, lo que significa que es un absoluto, mayor que 0, que le restamos a a.
+Y entoncemos nos damos cuenta que volvemos a puntos que ya teníamos dibujados en nuestro dibujo de aquí.
+
+27
+00:05:46,130 --> 00:05:55,630
+En estos momentos, os podéis preguntar qué sucede si nos acercamos por el lado de la derecha en vez de por el lado
+de la izquierda. Lo que obtenemos es una forma alternativa a lo que ya hemos hecho.
+
+28
+00:05:55,730 --> 00:06:18,230
+Tenemos f(b⁺)-f(a⁺), donde f(a⁺), f(b⁺) no es más que el límite por la derecha.
+Si volvemos a la gráfica, vemos que describimos otro intervalo, no éste, porque ahora ignoramos este salto,
+y en su lugar añadimos este salto en la derecha.
+
+29
+00:06:18,300 --> 00:06:35,620
+Esto significa que hemos cambiado las cotas aquí, ahora tenmos un intervalo en el que
+no se incluye a a, pero b sí está incluido. Luego,si queremos trabajar con estos intervalos,
+hay que consuderar el límite del lado derecho.
+
+30
+00:06:38,210 --> 00:06:42,550
+Personalmente quiero trabajar con estos intervalos, por lo que no necesitamos esta forma alternativa.
+
+31
+00:06:42,650 --> 00:06:56,150
+De todas formas, es muy importante saber que si miramos por los puntos en los que f no es continua,entoces no importa para nada
+donde esté el valor de la función para este punto.
+
+32
+00:06:56,250 --> 00:07:02,750
+Sólo importa saber cuáles son los límites por la izquierda, y cuáles son los límites por la derecha.
+
+33
+00:07:02,850 --> 00:07:18,850
+Eso es porque estos dos puntos describen, cómo de grande es el salto.
+Vale como se dijo antes, quiero trabajar con estos intervalos de aquí, porque de otro vídeo sabemos
+que forman un semianillo.
+
+34
+00:07:18,950 --> 00:07:36,450
+Esto es lo que os expliqué ya en el vídeo que iba sobre el Teorema de Extensión de Carathéodory.
+Podemos usar este teorema para concluir en que, podemos extender esta definición a una medida definida completamente en la σ-álgebra Boreliana de A.
+
+35
+00:07:36,550 --> 00:07:55,050
+Esto significa que hay exactamente una medida definida en ℬ(R)->[0,∞],
+con la propiedad que tenemos aquí. Llamemos a esta propiedad *.
+
+36
+00:07:55,150 --> 00:08:05,650
+Es útil llamar a esta medida única dada, μf de nuevo.
+
+37
+00:08:05,750 --> 00:08:22,250
+Si construimos una medida de esta manera, la llamamos medida de Lebesgue-Stieljes.
+Para ser más concreto, la llamamos medida de Lebesgue-Stieljes para una función f.
+
+38
+00:08:22,350 --> 00:08:34,850
+Aquí vemos cómo de fuerte es realmente el Teorema de Extensión de Carathéodory, sólo tienes que definir
+una medida para los intervalos, y entonces obtenemos exactamente una medida para todo conjunto de Borel.
+
+39
+00:08:34,950 --> 00:08:42,450
+OK, ahora sabe cómo funciona esta construcción, y sugiero que ahora veamos ejemplos.
+
+40
+00:08:43,550 --> 00:09:01,440
+Escogemos por supuesto de ejemplo una función monótona creciente F, y luego vemos cuál es la medida asociada de Lebesgue-Stieljes.
+Quizás el ejemplo más sencillo sea la medida de Lebesgue en sí.
+
+41
+00:09:01,440 --> 00:09:09,450
+Para ello escogemos simplemente la identidad: f(x)=x. No cambiamos la medida normal de longitudes de intervalos,
+
+42
+00:09:09,450 --> 00:09:31,339
+por lo que como antes, obtenemos b-a. Luego, obtenemos nuestra medida de Lebesgue ordinaria.
+Otro ejemplo muy sencillo de otra función monótona creciente es una función constante.
+
+43
+00:09:31,550 --> 00:09:51,250
+Sea f(x)=1 para todo x. Obviamente, en este caso, medir la longitud de intervalos, es aburrido porque siempre obtenemos 0.
+Luego, obtenemos una medida 0.
+
+44
+00:09:51,350 --> 00:10:09,850
+Más interesante sería el caso en el que tenemos dos diferentes valores para la función.
+Función constante con la excepción de un salto. Elegimos por ejemplo:
+
+45
+00:10:10,250 --> 00:10:22,920
+Por favor, recuerda, que no importa dónde esté aquí la desigualdad. A la medida le da igual,
+la medida no puede ver ese punto de ahí.
+
+46
+00:10:22,920 --> 00:10:33,630
+Obviamente ahora tenemos el mismo resultado de antes, para todos los intervalos que esten completamente a la
+izquierda de 0 o completamente la derecha de 0. Obtenemos la medida 0.
+
+47
+00:10:33,630 --> 00:10:48,730
+Un caso interesante sería aquél en el que 0 estuviera dentro del intervalo.Por ejemplo, sea μ_f([-ε,ε)), donde por supuesto, ε>0.
+
+48
+00:10:48,830 --> 00:10:57,330
+Ahora, ¿qué obtenemos? En el lado derecho tenemos 1, en el izquierdo 0, luego: 1-0=1.
+
+49
+00:10:57,430 --> 00:11:03,930
+Y por favor, notemos, que esto es así para todo ε.
+Ya conocemos una medida que haga esto.
+
+50
+00:11:04,079 --> 00:11:14,839
+Es la medida de Dirac en 0. Por el resultado de unicidad, sabemos que la extensión debe ser esta medida de Dirac.
+
+51
+00:11:15,959 --> 00:11:20,649
+Vemos que podemos usar este resultado fuerte muy a menudo.
+
+52
+00:11:21,279 --> 00:11:31,689
+Para terminar el vídeo, veamos el ejemplo más general.
+Escojamos una función general monótona creciente f.
+
+53
+00:11:31,689 --> 00:11:44,829
+Pero además debe ser continuamente derivable.
+Las dos cosas a la vez nos indican que la derivada es continua, y tiene valores en los números no-negativos.
+
+54
+00:11:44,829 --> 00:11:52,209
+Por otro lado, f también es por supuesto continua, por lo que no hay saltos.
+
+55
+00:11:52,209 --> 00:11:58,449
+Esto significa que no tenemos el problema con los límites por la derecha e izquierda de antes,
+
+56
+00:11:58,449 --> 00:12:09,379
+para esta función continua podemos simplemente usar los valores de la función. Eso es, la longitud del intervalo no es más que F(a)-F(b).
+
+57
+00:12:09,379 --> 00:12:20,729
+Si estudias cálculo, deberías reconocer esta inmediatamente.
+A saber, puedes usar aquí el Teorema Fundamental del Cálculo.
+
+58
+00:12:20,729 --> 00:12:33,729
+que nos dice, que esto es la integral de la derivada de f, denotando la medida normal de Lebesgue aquí.
+
+59
+00:12:33,729 --> 00:12:40,689
+Esto es todo lo que necesitamos, porque me creeréis que podemos definir una nueva medida,
+tal que para cualquier conjunto de Borel A,
+
+60
+00:12:40,689 --> 00:12:49,470
+definimos la medida como esta integral, mandamos el conjunto Boreliano A a este número de aquí.
+
+61
+00:12:49,470 --> 00:12:58,419
+Esto nos define una medida, en la σ-álgebra Boreliana de A.
+Ahora aplicamos el resultado de unicidad del Teorema de Extensión de Carathéodory.
+
+62
+00:13:01,440 --> 00:13:14,350
+Obtenemos que nuestra medida μ_F, es igual que esta.
+Sabemos que es como esta para todo intervalo, por lo que debería tener este aspecto para cada conjunto de Borel.
+
+63
+00:13:14,350 --> 00:13:30,140
+Ok, aquí tenemos un resultado muy general para tales medidas Lebesgue-Stieltjes, y esto de quí dentro,
+se suele llamar función de densidad.
+
+64
+00:13:30,140 --> 00:13:39,360
+Eso es sin embargo; una cosa que podremos discutir más tarde en otro vídeo.
+Espero que hayáis aprendido algo, y que lo podáis aplicar todo en otros problemas.
+
+65
+00:13:39,360 --> 00:13:54,120
+Si ves una función monótona creciente, ya puedes construir la medida de Lebesgue-Stieltjes para esa función.
+Gracias, hasta la próxima!
+TRADUCCIÓN: JORGE IBÁÑEZ
+

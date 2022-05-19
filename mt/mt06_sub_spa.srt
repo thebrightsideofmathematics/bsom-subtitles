@@ -1,0 +1,833 @@
+1
+00:00:00,319 --> 00:00:06,180
+Hola y bienvenidos de nuevo. Primero permítanme agradecer a todas las personas que apoyan
+
+2
+00:00:06,180 --> 00:00:12,599
+este canal en Steady. Y ahora continuemos con la Teoría de la medida, ahora seguimos por
+
+3
+00:00:12,599 --> 00:00:20,189
+la parte 6. Finalmente en este vídeo hablaremos de la integral de Lebesgue, pero antes
+
+4
+00:00:20,189 --> 00:00:26,580
+hablaremos sobre la integral de Lebesgue de las llamadas funciones escalonadas, por lo que aprenderemos a
+
+5
+00:00:26,580 --> 00:00:33,660
+integrar funciones que se definen en un espacio de medida abstracto. Como una corta
+
+6
+00:00:33,660 --> 00:00:38,329
+recapitulación, un espacio de medida no es más que una terna
+
+7
+00:00:38,329 --> 00:00:46,920
+donde tenemos un conjunto X, una σ-algebra Ꭿ y también una medida μ: esto significa que X
+
+8
+00:00:46,920 --> 00:00:54,930
+podría ser cualquier conjunto, pero Ꭿ es una colección especial de subconjuntos de X, y el tercer
+
+9
+00:00:54,930 --> 00:01:01,559
+ingrediente, la medida μ en sí, es de hecho una función donde el dominio es el
+
+10
+00:01:01,559 --> 00:01:09,299
+σ-algebra Ꭿ, y el codominio es el intervalo, incluido el 0 y también incluido
+
+11
+00:01:09,299 --> 00:01:16,799
+el símbolo ∞. Ahora, con respecto a este espacio de medida abstracta, queremos
+
+12
+00:01:16,799 --> 00:01:23,909
+integrar algunas funciones especiales. De hecho lo que necesitamos son funciones mensurables definidas
+
+13
+00:01:23,909 --> 00:01:30,840
+en el último video. Usaré la letra F para tales funciones, que comienzan con X y van
+
+14
+00:01:30,840 --> 00:01:37,259
+en a la recta numérica real. Ahora no debemos olvidar que tenemos una σ-algebra
+
+15
+00:01:37,259 --> 00:01:45,450
+a la izquierda, es decir Ꭿ, y también una σ-algebra a la derecha y allí tenemos la σ-algebra de Borel (ℬ)
+
+16
+00:01:45,650 --> 00:01:51,750
+También recordemos que mensurable significa que todas las imágenes previas
+
+17
+00:01:51,750 --> 00:01:58,979
+de elementos del σ-algebra aquí se encuentran en el σ-algebra Ꭿ.
+
+18
+00:01:58,979 --> 00:02:09,690
+En otras palabras, la preimagen de un conjunto E está en Ꭿ para todos los conjuntos de Borel E ⊆ R
+
+19
+00:02:09,690 --> 00:02:13,780
+Ok, estas son las funciones que queremos poder integrar
+
+20
+00:02:13,780 --> 00:02:19,720
+al final. Sin embargo, en este momento pueden ser demasiado complicados, así que comenzamos con
+
+21
+00:02:19,720 --> 00:02:24,819
+funciones que ya conocemos, por ejemplo, ya sabemos que
+
+22
+00:02:24,819 --> 00:02:32,260
+la función característica es una función medible si elegimos un conjunto medible.
+
+23
+00:02:32,260 --> 00:02:38,950
+Esto significa que A ∈ Ꭿ .  Ya sabemos cómo dibujar esta función.
+
+24
+00:02:38,950 --> 00:02:47,320
+Si tenemos nuestra X abstracta aquí en la línea y tal vez esto sea el conjunto A,
+
+25
+00:02:47,320 --> 00:02:55,290
+estas dos cosas juntas, entonces podemos esbozar la gráfica de nuestra función característica
+
+26
+00:02:55,290 --> 00:03:02,890
+será 0 aquí ,  y el valor 1 donde está A, así que aquí está
+
+27
+00:03:02,890 --> 00:03:10,660
+y aquí 0 y también aquí. Para la visualización de la integral
+
+28
+00:03:10,660 --> 00:03:18,000
+siempre es bueno ver la integral como el área debajo del gráfico y el eje X.
+
+29
+00:03:18,000 --> 00:03:29,709
+Aquí esto significaría que miramos esta área aquí y el área aquí. Y como
+
+30
+00:03:29,709 --> 00:03:34,570
+el valor de la función es simplemente 1, no importa cuán abstracto sea este
+
+31
+00:03:34,570 --> 00:03:40,420
+espacio de medida: esta área debe ser exactamente la misma que el volumen, la
+
+32
+00:03:40,420 --> 00:03:47,170
+medida del conjunto A. O, en otras palabras, una noción significativa de integral,
+
+33
+00:03:47,170 --> 00:03:52,630
+llamémosla simplemente I mayúscula, de esta función característica, siempre debería
+
+34
+00:03:52,630 --> 00:04:00,910
+cumplir que esta integral es la medida del conjunto A. Ahora tenemos un nuevo
+
+35
+00:04:00,910 --> 00:04:06,400
+símbolo a la izquierda, I de una función, por lo que esto se debería leer como
+
+36
+00:04:06,400 --> 00:04:13,930
+definición. Esto significa que ahora sabemos cómo integrar funciones características.
+
+37
+00:04:13,930 --> 00:04:19,269
+De hecho, hay otras funciones donde podemos definir la integral también de
+
+38
+00:04:19,269 --> 00:04:25,570
+esta simple manera, y se llaman funciones simples. También hay muchos otros
+
+39
+00:04:25,570 --> 00:04:30,860
+nombres que se usan para tales funciones simples, por ejemplo,
+
+40
+00:04:30,860 --> 00:04:39,520
+funciones escalonadas, como hice en el título de este video y también funciones escalonadas y
+
+41
+00:04:39,520 --> 00:04:47,120
+también otros nombres. Veamos que el nombre no es lo importante, solo tienes que
+
+42
+00:04:47,120 --> 00:04:54,020
+saber qué son las funciones simples. Brevemente, una función simple f es solo una
+
+43
+00:04:54,020 --> 00:04:59,360
+combinación lineal de tales funciones características. Esto significa que
+
+44
+00:04:59,360 --> 00:05:07,790
+podemos escribir f(x) como la suma, comenzamos con 1 y vamos a una n fija, donde
+
+45
+00:05:07,790 --> 00:05:14,080
+tienen números Ci y funciones características correspondientes a algún
+
+46
+00:05:14,080 --> 00:05:23,210
+conjunto medible Ai. En otras palabras, una función f se llama simple si se pueden
+
+47
+00:05:23,210 --> 00:05:32,360
+encontrar conjuntos medibles A₁ ... An y números reales C₁ ... Cn de modo que se pueda
+
+48
+00:05:32,360 --> 00:05:37,730
+escribir la función en esta forma. Puesto que sabemos que las funciones
+
+49
+00:05:37,730 --> 00:05:43,490
+características son medibles y también que las sumas de funciones de medida son medibles
+
+50
+00:05:43,490 --> 00:05:51,980
+sabemos que la función simple es, por lo tanto, medible. También aquí
+
+51
+00:05:51,980 --> 00:05:57,440
+digamos que, para obtener algo de visualización, vamos a esbozar el gráfico de tal
+
+52
+00:05:57,440 --> 00:06:04,730
+función simple. Esto es la mismo que antes, así que tenemos X aquí y R tal vez
+
+53
+00:06:04,730 --> 00:06:13,250
+aquí. Ahora tenemos aquí el conjunto A₁ y aquí tenemos A₂, y vamos a elegir el conjunto dividido A₃ aquí.
+
+54
+00:06:13,250 --> 00:06:22,400
+Y para estos conjuntos ahora podemos elegir una cierta constante Ci, por lo que tenemos
+
+55
+00:06:22,400 --> 00:06:28,100
+para la gráfica de la función algún valor aquí sobre A₁ , y otro sobre A₂ aquí,
+
+56
+00:06:28,100 --> 00:06:37,280
+y tal vez uno más bajo aquí para A₃. Y fuera de estos conjuntos estamos simplemente
+
+57
+00:06:37,280 --> 00:06:43,099
+en cero. Si ahora volvemos a nuestra visualización de la integral, sabemos que está
+
+58
+00:06:43,099 --> 00:06:51,289
+dado por rectángulos, por ejemplo, aquí tenemos un rectángulo con una longitud dada por A₁
+
+59
+00:06:51,289 --> 00:06:58,520
+y la altura dada por C₁ . Por lo tanto, este rectángulo aquí solo
+
+60
+00:06:58,520 --> 00:07:05,150
+representa la parte de la integral que está dada por C₁ multiplicada por la medida de A₁
+
+61
+00:07:05,150 --> 00:07:12,349
+y la contribución a la integral dada por el conjunto A₂ es este
+
+62
+00:07:12,349 --> 00:07:21,589
+rectángulo aquí. Y por supuesto dado por C₂ por la medida de A₂. Y luego
+
+63
+00:07:21,589 --> 00:07:26,960
+la última parte proviene de A₃ que consta de tres partes, pero en la
+
+64
+00:07:26,960 --> 00:07:34,639
+suma, por supuesto, esto también es C₃ por la medida de A₃ . Y ahora debería ver
+
+65
+00:07:34,639 --> 00:07:40,279
+que solo tenemos que sumar todas estas contribuciones para obtener la integral completa,
+
+66
+00:07:40,279 --> 00:07:46,849
+para obtener el área completa en esta imagen. Por lo tanto, nuevamente para una definición
+
+67
+00:07:46,849 --> 00:07:55,459
+significativa de integral, necesitamos una suma de todas estas partes, por lo que I(f) viene dada por una suma
+
+68
+00:07:55,459 --> 00:08:02,719
+y ahí tengo el mismo Ci que antes, pero ahora no es la función característica
+
+69
+00:08:02,719 --> 00:08:10,610
+sino las correspondientes medidas de los conjuntos. Y de hecho esta será nuestra
+
+70
+00:08:10,610 --> 00:08:18,139
+integral para funciones simples: sin embargo, en este momento debería ver
+
+71
+00:08:18,139 --> 00:08:24,469
+inmediatamente un problema de esta definición ¿qué sucede si tenemos un conjunto
+
+72
+00:08:24,469 --> 00:08:31,849
+con volumen infinito, es decir, que este número aquí sea el símbolo infinito?
+
+73
+00:08:31,849 --> 00:08:39,769
+Podría tener, por ejemplo, 3 como C multiplicado por infinito, tal vez eso no sea un problema
+
+74
+00:08:39,769 --> 00:08:44,510
+porque es el infinito en sí mismo, pero entonces, ¿qué pasa si el próximo
+
+75
+00:08:44,510 --> 00:08:51,829
+C aquí es menos 2 y también mide infinito? Y, por supuesto, esto no es
+
+76
+00:08:51,829 --> 00:08:58,140
+simplemente 1 infinito, no está definido en este momento, De hecho,
+
+77
+00:08:58,140 --> 00:09:03,440
+tenemos un problema con la definición en general. Para resolver este problema
+
+78
+00:09:03,440 --> 00:09:09,960
+hay esencialmente dos formas en que ir ahora. Por un lado, se puede restringir
+
+79
+00:09:09,960 --> 00:09:15,930
+uno mismo a tales funciones simples donde los correspondientes Ai sólo tienen
+
+80
+00:09:15,930 --> 00:09:21,720
+medida finita. Obviamente, entonces no hay problema con tales infinitos porque
+
+81
+00:09:21,720 --> 00:09:27,000
+no hay un simple infinito involucrado en la suma completa. Y, por otro lado, uno
+
+82
+00:09:27,000 --> 00:09:33,330
+puede exigir que estas constantes sean positivas: entonces podrían haber infinitos
+
+83
+00:09:33,330 --> 00:09:38,460
+en la suma pero solo con el mismo signo, entonces por supuesto, no tenemos un
+
+84
+00:09:38,460 --> 00:09:44,040
+problema al sumar infinitos positivos. Y exactamente esta segunda
+
+85
+00:09:44,040 --> 00:09:51,660
+posibilidad es la forma en que quiero ir. Finalmente podemos poner la integral en
+
+86
+00:09:51,660 --> 00:09:59,430
+una definición. Para esto, consideraremos ahora solo funciones definidas en X. Como
+
+87
+00:09:59,430 --> 00:10:03,740
+antes, deberían ser funciones simples o escalonadas
+
+88
+00:10:03,740 --> 00:10:09,810
+Además, queremos ahora considerar sólo las positivas, o más concretamente, las
+
+89
+00:10:09,810 --> 00:10:17,850
+no negativas. El conjunto completo de tales funciones ahora se denota por una curva S+
+
+90
+00:10:17,850 --> 00:10:26,250
+y este S+ ahora es casi un espacio vectorial en el
+
+91
+00:10:26,250 --> 00:10:31,230
+sentido de que podemos sumar funciones como queramos, pero no podemos escalarlas como queramos
+
+92
+00:10:31,230 --> 00:10:36,390
+porque solo se permiten escalares positivos, de lo contrario dejaríamos este
+
+93
+00:10:36,390 --> 00:10:42,959
+espacio. Por ello debería imaginar esto como un semi espacio. Si ahora volvemos a nuestra
+
+94
+00:10:42,959 --> 00:10:48,330
+definición de función simple, inmediatamente se reconoce que esta
+
+95
+00:10:48,330 --> 00:10:53,400
+representación aquí no es única para la función f. Por ejemplo, podríamos
+
+96
+00:10:53,400 --> 00:11:00,270
+dividir el conjunto A₂ en dos partes, y luego tenemos un término adicional en la
+
+97
+00:11:00,270 --> 00:11:05,700
+suma aquí. Pero no cambia la función f en sí misma, por lo que en el gráfico
+
+98
+00:11:05,700 --> 00:11:11,020
+sigue siendo el mismo, solamente esta suma es diferente. Por lo tanto, otra
+
+99
+00:11:11,020 --> 00:11:16,180
+descripción que es independiente de esta representación para una función simple sería
+
+100
+00:11:16,180 --> 00:11:24,940
+que tengo una función medible y solo toma un número finito de valores.
+
+101
+00:11:24,940 --> 00:11:30,640
+En este caso siempre se puede encontrar una representación así. La idea es ahora:
+
+102
+00:11:30,640 --> 00:11:37,570
+elegir siempre una presentación adecuada para la función simple f. En nuestro caso
+
+103
+00:11:37,570 --> 00:11:46,780
+aquí, si f proviene de nuestro S+, elegimos la representación como siempre, así
+
+104
+00:11:46,780 --> 00:11:53,530
+podemos escribirlo como una suma, pero ahora donde los Ci también son no negativos.
+
+105
+00:11:53,530 --> 00:11:59,530
+Por supuesto, si la función no es negativa, siempre podemos elegir tal
+
+106
+00:11:59,530 --> 00:12:06,940
+representación. Y ahora es muy fácil definir la integral de Lebesgue. Así que esta
+
+107
+00:12:06,940 --> 00:12:13,270
+es nuestra nueva noción y, por supuesto, a menudo ignoraremos el Lebesgue y simplemente hablaremos
+
+108
+00:12:13,270 --> 00:12:19,300
+de "integral", porque esta es la integral que definimos aquí. Y para ser más
+
+109
+00:12:19,300 --> 00:12:26,170
+concretos, diríamos también con respecto a nuestra medida dada μ , y esta
+
+110
+00:12:26,170 --> 00:12:33,610
+integral ahora se da como ya sabemos y también se denota por I(f) donde simplemente
+
+111
+00:12:33,610 --> 00:12:40,390
+sumamos las medidas de los conjuntos Ai escalados por los
+
+112
+00:12:40,390 --> 00:12:49,380
+coeficientes Ci, por lo que tenemos Ci multiplicado por la medida de Ai. Y puesto que los Ci son
+
+113
+00:12:49,380 --> 00:12:54,160
+no negativos y la medida en sí no es negativa o el peor de los casos simplemente
+
+114
+00:12:54,160 --> 00:13:01,390
+infinito, sabemos que esta integral está también en el intervalo 0 al infinito, donde
+
+115
+00:13:01,390 --> 00:13:07,960
+incluimos ambas partes. Un hecho que puedo dar inmediatamente, esta definición de integral
+
+116
+00:13:07,960 --> 00:13:14,860
+está bien definida: esto significa que no
+
+117
+00:13:14,860 --> 00:13:20,410
+depende de la representación elegida para nuestra función simple f, así que si eligimos
+
+118
+00:13:20,410 --> 00:13:24,160
+otra presentación con esta propiedad obtenemos lo mismo.
+
+119
+00:13:24,160 --> 00:13:31,030
+Tal vez esto sea algo que podríamos intentar probar, pero, por supuesto, la
+
+120
+00:13:31,030 --> 00:13:35,200
+visualización debe ser lo importante, por lo que no importa cómo
+
+121
+00:13:35,200 --> 00:13:41,140
+se dividan estos rectángulos aquí, la suma o la suma de las áreas debe ser
+
+122
+00:13:41,140 --> 00:13:46,930
+siempre lo mismo, no importa cómo divida estos conjuntos aquí en el eje x o si
+
+123
+00:13:46,930 --> 00:13:53,590
+dividimos los valores de C en el eje y. En otras palabras, tiene sentido que esta
+
+124
+00:13:53,590 --> 00:14:00,010
+integral aquí esté, de hecho, bien definida. Y finalmente puedo dar la
+
+125
+00:14:00,010 --> 00:14:06,400
+notación habitual que se usa para la integral. Por supuesto, un signo de integral: ponemos el conjunto X
+
+126
+00:14:06,400 --> 00:14:16,600
+aquí entonces viene la función f y luego la medida μ como dμ. A veces también
+
+127
+00:14:16,600 --> 00:14:21,550
+se necesita una variable y la notación se ve casi igual, por lo que solo
+
+128
+00:14:21,550 --> 00:14:31,360
+se incluiye un nombre de variable para la función, por lo que hay una x minúscula aquí, y luego dμ(x)
+
+129
+00:14:31,360 --> 00:14:37,810
+Esta es la integral de Lebesgue para funciones escalonadas o simples. La idea es ahora que
+
+130
+00:14:37,810 --> 00:14:43,120
+ampliamos esta definición de modo que también podamos integrar funciones más
+
+131
+00:14:43,120 --> 00:14:48,550
+complicadas. Pero antes de hacer eso, primero veamos algunas propiedades que
+
+132
+00:14:48,550 --> 00:14:56,740
+esta integral tiene: en primer lugar es casi lineal. Ya te dije que casi tenemos un
+
+133
+00:14:56,740 --> 00:15:03,880
+espacio vectorial para nuestro S+, y este es lineal, solo tenemos que restringir el
+
+134
+00:15:03,880 --> 00:15:09,580
+los escalares a números no negativos, y luego podemos sacar el signo de suma
+
+135
+00:15:09,580 --> 00:15:15,820
+y también los escalares, por lo tanto, esta igualdad se aplica a todas las
+
+136
+00:15:15,820 --> 00:15:23,650
+funciones f g y para todos los escalares alfa beta mayor o igual que cero.
+
+137
+00:15:23,650 --> 00:15:30,760
+Por supuesto, esto viene inmediatamente de esta suma aquí.  También mediante (a) ahora podemos mostrar
+
+138
+00:15:30,760 --> 00:15:34,490
+que si tenemos una función escalonada o función simple que
+
+139
+00:15:34,490 --> 00:15:40,220
+siempre más grande que otra, por lo que tenemos f menor o igual que g, entonces también
+
+140
+00:15:40,220 --> 00:15:46,310
+el área entre la curva y el eje x debe ser mayor para g que para f
+
+141
+00:15:46,310 --> 00:15:52,730
+y por supuesto esto es lo que nos dice la integral. Entonces I(f) también es menor o igual
+
+142
+00:15:52,730 --> 00:16:01,250
+que I(g). Y esto es lo que se llama monotonía, de hecho este comportamiento
+
+143
+00:16:01,250 --> 00:16:07,160
+monotónico es lo que ahora podemos utilizar para ampliar nuestra definición, a
+
+144
+00:16:07,160 --> 00:16:13,960
+funciones medibles generales. Para obtener una visualización, dibujemos nuevamente un gráfico.
+
+145
+00:16:13,960 --> 00:16:20,150
+Ahora este es el gráfico de alguna función medible que no es una función simple como
+
+146
+00:16:20,150 --> 00:16:26,780
+puede ver. Ahora la integral debería ser representada por el área bajo
+
+147
+00:16:26,780 --> 00:16:33,290
+el gráfico y el eje x. Sin embargo, solo tenemos esta noción por el momento para las
+
+148
+00:16:33,290 --> 00:16:39,170
+funciones simples y, como ya sabe, una función simple tiene solo un número finito
+
+149
+00:16:39,170 --> 00:16:45,680
+de valores y este gráfico azul aquí muestra que son infinitos valores
+
+150
+00:16:45,680 --> 00:16:50,690
+La idea completa de la integración de Lebesgue es ahora aproximar la función por
+
+151
+00:16:50,690 --> 00:16:57,740
+un número finito de valores, así que solo elijo algunos valores aquí en el eje y de modo que
+
+152
+00:16:57,740 --> 00:17:05,290
+toda la curva está cubierta en cierto sentido. Y ahora la idea es definir una
+
+153
+00:17:05,290 --> 00:17:12,709
+función simple adecuada. Por lo tanto, sea este intervalo aquí, y veamos lo que sucede
+
+154
+00:17:12,709 --> 00:17:18,859
+a los valores de la función: y ahora se ve que tenemos dos partes que
+
+155
+00:17:18,859 --> 00:17:25,939
+se asignan a este intervalo aquí. Para el eje x, esto se ve así, por lo que tenemos
+
+156
+00:17:25,940 --> 00:17:34,400
+esta parte aquí que termina aquí, y tenemos esta parte que comienza aquí y también
+
+157
+00:17:34,400 --> 00:17:42,160
+termina aquí, esto significa que tenemos una parte de nuestro conjunto aquí y la otra parte aquí.
+
+158
+00:17:42,160 --> 00:17:47,400
+Y por supuesto, este debería ser nuestro conjunto al que normalmente llamamos
+
+159
+00:17:47,400 --> 00:17:54,720
+Ai. Así que este es un Ai y la correspondiente ci que encuentras aquí, así que
+
+160
+00:17:54,720 --> 00:18:01,170
+este sería nuestro Ci. Elegí la parte inferior del intervalo porque
+
+161
+00:18:01,170 --> 00:18:07,110
+nuestra función escalonada también está debajo del gráfico de la función, por lo que esto sería
+
+162
+00:18:07,110 --> 00:18:13,170
+el valor de nuestra función escalonada. Y ahora veremos que todos los demás valores en el
+
+163
+00:18:13,170 --> 00:18:20,820
+eje y nos dan el resto de ci y también las correspondiente Ai, por lo tanto, con
+
+164
+00:18:20,820 --> 00:18:26,040
+esta descomposición del eje y obtenemos la función escalonada del usuario. Tal vez tengamos
+
+165
+00:18:26,040 --> 00:18:32,040
+nuestras Ci aquí, y las Ai donde tenemos que conocer la función
+
+166
+00:18:32,040 --> 00:18:37,670
+característica aquí, así que esta es una nueva función simple que debería llamar h.
+
+167
+00:18:37,670 --> 00:18:46,350
+Y la parte importante es que h en sí se encuentra siempre debajo de f, por lo que siempre está debajo del gráfico
+
+168
+00:18:46,350 --> 00:18:52,410
+que es azul aquí. Por lo tanto, si queremos contener la monotonía en la
+
+169
+00:18:52,410 --> 00:18:57,780
+integral general, tenemos una estimación del valor integral real de la
+
+170
+00:18:57,780 --> 00:19:03,120
+función f. Sabemos que la integral de esta función escalonada es menor que la
+
+171
+00:19:03,120 --> 00:19:09,960
+integral real. Y esto da lugar ahora a la siguiente definición, por lo que elegimos
+
+172
+00:19:09,960 --> 00:19:15,690
+una función positiva o beta f, no negativa, definida en nuestro
+
+173
+00:19:15,690 --> 00:19:22,260
+espacio de medida X y, por supuesto, debería ser medible. Y ahora para cada
+
+174
+00:19:22,260 --> 00:19:28,020
+descomposición del eje y podemos elegir tal función escalonada o una simple h
+
+175
+00:19:28,020 --> 00:19:33,480
+de la función que se encuentra punto a punto debajo de la gráfica de la función f
+
+176
+00:19:33,480 --> 00:19:40,620
+Y si usamos la función h fuera de la función escalonada que es positiva, o
+
+177
+00:19:40,620 --> 00:19:48,420
+no negativa, S+, para que sepamos que podemos mirar la integral de esta h. Lo que
+
+178
+00:19:48,420 --> 00:19:53,460
+ha hecho un conjunto completo de valores integrales donde la única condición es que
+
+179
+00:19:53,460 --> 00:20:00,390
+nuestra función escalonada siempre está por debajo de la función real f
+
+180
+00:20:00,390 --> 00:20:05,920
+La idea general ahora es que este valor de la integral para la función
+
+181
+00:20:05,920 --> 00:20:11,470
+escalonada es siempre menor que el valor integral real de la función f
+
+182
+00:20:11,470 --> 00:20:16,960
+y deberíamos acercarnos cada vez más a este valor si escogemos cada vez
+
+183
+00:20:16,960 --> 00:20:23,440
+una descomposición más fina del eje y. Por lo que aproximamos algo con el conjunto aquí
+
+184
+00:20:23,440 --> 00:20:29,380
+y, por supuesto, esto debería ser el supremo del conjunto. De hecho, esto es lo que
+
+185
+00:20:29,380 --> 00:20:36,250
+elegimos como la definición de la integral para una función f, por lo que tenemos f dμ
+
+186
+00:20:36,250 --> 00:20:43,090
+y también este es nuestro espacio de medida X, por lo que la integral de una función medible
+
+187
+00:20:43,090 --> 00:20:50,950
+no negativa f viene dada por el supremo de todos los valores integrales de la
+
+188
+00:20:50,950 --> 00:20:58,030
+funcion escalonada que se encuentran debajo de la función f. Y ahora viene la definición de la
+
+189
+00:20:58,030 --> 00:21:05,200
+integral de Lebesgue. Y también vemos que esto está bien definido, el supremo de un conjunto en
+
+190
+00:21:05,200 --> 00:21:10,230
+los números reales siempre existe, en el peor de los casos sería infinito.
+
+191
+00:21:10,230 --> 00:21:17,530
+Por lo tanto, además, también tenemos otra definición, f se llama μ-integrable
+
+192
+00:21:17,530 --> 00:21:28,450
+si la integral es finita, es decir, no es el símbolo infinito. Y ahi está,
+
+193
+00:21:28,450 --> 00:21:31,000
+Lo tenemos: este es nuestro resultado para hoy.
+
+194
+00:21:31,000 --> 00:21:36,910
+La integral de Lebesgue completamente general, porque se ve lo único que necesitábamos
+
+195
+00:21:36,910 --> 00:21:43,570
+aquí era un espacio de medida X, por lo que solo necesitamos saber cómo medir los volúmenes
+
+196
+00:21:43,570 --> 00:21:50,290
+de estos conjuntos en el eje x. Sin embargo, lo que usamos es que mapeamos en los
+
+197
+00:21:50,290 --> 00:21:55,660
+números reales, así que aquí tenemos R en el eje y, por lo tanto, podemos hacer esta
+
+198
+00:21:55,660 --> 00:21:59,320
+descomposición. No podemos hacer esta descomposición en el eje x porque
+
+199
+00:21:59,320 --> 00:22:05,230
+no hay órdenes, nada más que la medida, pero en el eje y
+
+200
+00:22:05,230 --> 00:22:10,390
+podemos hacerlo. Ahora siempre se debe tener en cuenta que la integral de Lebesgue es solamente
+
+201
+00:22:10,390 --> 00:22:15,920
+definida con un supremo donde se utilizan funciones simples para definir la
+
+202
+00:22:15,920 --> 00:22:22,160
+integral primero. Bien, este fue un video largo hoy y espero que hayais aprendido algo
+
+203
+00:22:22,160 --> 00:22:29,180
+aquí. Por supuesto, tuvimos que definir muchas cosas, pero al final visteis que es solo
+
+204
+00:22:29,180 --> 00:22:33,410
+una función simple donde podemos escribir la integral inmediatamente y luego
+
+205
+00:22:33,410 --> 00:22:39,860
+la integral general es solo un concepto de aproximación. En el siguiente video
+
+206
+00:22:39,860 --> 00:22:45,020
+continuaré con la integral de Lebesgue y también hableré de muchas
+
+207
+00:22:45,020 --> 00:22:51,680
+propiedades que tenemos para ella. Luego finalmente vereis por qué la integral
+
+208
+00:22:51,680 --> 00:23:00,640
+de Lebesgue es tan poderosa. Que tengais un buen día y hasta la próxima, adiós.
+THE BRIGHT SIDE OF MATHEMATICS-MEASURE THEORY PART 6, TRADUCCION JORGE IBAÑEZ
+

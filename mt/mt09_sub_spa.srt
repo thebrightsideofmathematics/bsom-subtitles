@@ -1,0 +1,273 @@
+1
+00:00:00,319 --> 00:00:10,969
+Hola y bienvenidos de nuevo a la teoría de la medida. Primero agradecer el apoyo de nuestros seguidores en Steady. Hemos llegado lejos en la serie
+
+2
+00:00:10,969 --> 00:00:19,109
+y llegamos a la parte 9. Hemos hablado de teoremas de convergencia muy importantes y ahora quiero hablar
+
+3
+00:00:19,109 --> 00:00:26,460
+sobre el lema de Fatou: es mucho más importante de lo que aparenta, sin embargo
+
+4
+00:00:26,460 --> 00:00:33,600
+no es propiamente un lema de convergencia, sino más o menos medio teorema de convergencia.
+
+5
+00:00:31,600 --> 00:00:42,329
+Pero es tan general que se puede aplicar muy a menudo. Ok, déjame contarte qué dice el lema. Como siempre tenemos
+
+6
+00:00:42,329 --> 00:00:49,050
+un espacio de medida que consiste en un conjunto, un σ-algebra y una medida, y también tenemos
+
+7
+00:00:49,050 --> 00:00:56,160
+una sucesión de funciones mensurables. Ok, aquí quiero escribir el codominio de las funciones
+
+8
+00:00:56,160 --> 00:01:05,610
+y tengo que decirte que hay diferentes posibilidades, que llevan a diferentes variaciones del lema de Fatou.
+
+9
+00:01:05,610 --> 00:01:12,720
+La mejor manera de describirlo es, de nuevo, usando funciones no negativas. Cuando digo no negativas
+
+10
+00:01:12,720 --> 00:01:18,680
+está claro que se incluye el cero pero no si se incluye ∞.
+
+11
+00:01:18,680 --> 00:01:26,780
+Pero aquí no hay problema, podemos incluirlo. Y ahora vamos con la afirmación de este lema.
+
+12
+00:01:26,780 --> 00:01:32,070
+Dado que estamos en el dominio de los teoremas de convergencia, la cuestión sería de nuevo,
+
+13
+00:01:32,070 --> 00:01:42,030
+Ok, tengo la integral sobre X, y el límite dentro, puedo extraer este límite.
+
+14
+00:01:42,030 --> 00:01:48,329
+Sin embargo el lema de Fatou es un poco más específico, no mira al límite, sino al límite inferior.
+
+15
+00:01:48,329 --> 00:01:54,899
+El lema de Fatou afirma que si miras al límite inferior de nuestra
+
+16
+00:01:54,899 --> 00:02:02,219
+sucesión de funciones fn, aquí es dμ, entonces puedo sacar el límite
+
+17
+00:02:02,219 --> 00:02:07,860
+inferior, y entonces tengo aquí el límite inferior de los números dados por las
+
+18
+00:02:07,860 --> 00:02:12,360
+integrales de fn. Pero no tenemos un signo de igualdad aquí,
+
+19
+00:02:12,360 --> 00:02:16,680
+sino un signo de desigualdad. Y Fatou nos dice que
+
+20
+00:02:16,680 --> 00:02:25,940
+el lado izquierdo no puede ser mayor que el lado derecho. Se ve que el lema no es tan fuerte como un teorema de convergencia,
+
+21
+00:02:25,940 --> 00:02:35,360
+pero observa que nuestros requerimientos son más bien débiles: solamente necesitamos aplicaciones medibles no negativas, nada más.
+
+22
+00:02:35,360 --> 00:02:40,310
+El teorema de convergencia real al que sigue a esta afirmación es el teorema de Lebesgue,
+
+23
+00:02:40,310 --> 00:02:45,990
+que consideraremos en el siguiente video. Antes de mostrar la prueba de este bonito lema,
+
+24
+00:02:45,990 --> 00:02:52,130
+permíteme explicar primero qué es en realidad este nuevo límite inferior de la sucesión de funciones.
+
+25
+00:02:52,130 --> 00:03:00,900
+Por supuesto, es una función, lo que significa que está definido en X y aplica también
+
+26
+00:03:00,900 --> 00:03:09,000
+sobre los números no negativos, incluido ∞. Y ahora quiero dar la definición:
+
+27
+00:03:09,000 --> 00:03:20,060
+se define para todas las x minúsculas, y ahora usamos lo que sabemos del límite inferior, que viene dado por el límite del ínfimo.
+
+28
+00:03:20,060 --> 00:03:28,220
+pero cortado al comienzo, así que vamos desde n hasta ∞. Y entonces vemos que
+
+29
+00:03:28,220 --> 00:03:35,250
+cuando n tiende a ∞.  Esa es la definición de límite inferior para una sucesión de
+
+30
+00:03:35,250 --> 00:03:44,840
+números, y aquí solo tenemos números porque miramos a fk(x). Y aquí se ve que nivel mas bajo que el ínfimo puede tener
+
+31
+00:03:44,840 --> 00:03:54,450
+sería cero, pero en el límite, por supuesto podría tender a ∞, así que tenemos que incluir ∞
+
+32
+00:03:54,450 --> 00:04:00,080
+incluso en el caso de que excluyésemos ∞ aquí, porque en el límite podría ocurrir.
+
+33
+00:03:59,467 --> 00:04:05,434
+y dado que necesitamos el infinito para esta función, podemos simplemente añadirlo desde el principio.
+
+34
+00:04:05,869 --> 00:04:08,839
+Y por supuesto, esto hace la afirmación más fuerte.
+
+35
+00:04:09,936 --> 00:04:14,990
+Lo bonito de esto es que sabemos que el límite inferior también es mensurable
+
+36
+00:04:15,596 --> 00:04:20,218
+simplemente porque se ve fácilmente que si introduces funciones mensurables
+
+37
+00:04:20,520 --> 00:04:27,361
+los ínfimos son mensurables, y también los límites de funciones mensurables son mensurables.
+
+38
+00:04:28,314 --> 00:04:34,420
+Para la prueba completa ahora tiene sentido usar algunas abreviaturas: llamemos al límite inferior
+
+39
+00:04:34,420 --> 00:04:41,580
+g(x), de manera que tenemos la función g, y también estas funciones aquí
+
+40
+00:04:41,580 --> 00:04:51,510
+dados por los ínfimos, llamémoslas gn(x). Y por supuesto todas estas funciones son mensurables.
+
+41
+00:04:51,660 --> 00:05:08,710
+Y de aquí obtenemos otra información: estas funciones de aquí se incrementan monótonamente, así que g1≤g2≤g3...esto se deduce de la definición de
+
+42
+00:05:08,710 --> 00:05:15,190
+ínfimo, porque si movemos el punto de corte a la derecha, el ínfimo solamente puede hacerse
+
+43
+00:05:15,190 --> 00:05:23,010
+mayor, no menor. Ok, así que obtenemos una sucesión que es monotónamente creciente
+
+44
+00:05:23,010 --> 00:05:31,230
+y por supuesto esto nos viene bien para la prueba, porque podemos usar nuestro teorema de convergencia que ya sabemos,
+
+45
+00:05:31,230 --> 00:05:37,240
+que como sabes es el teorema de convergencia monótona, y esta prueba no es demasiado larga.
+
+46
+00:05:37,240 --> 00:05:46,080
+dejamos dentro el límite inferior y ahora lo escribo como el límite de nuestros gn. En efecto,
+
+47
+00:05:47,440 --> 00:05:57,400
+es nuestro límite inferior aquí. Y ahora queremos sacar el límite aquí, y sabemos que está permitido por nuestro
+
+48
+00:05:57,424 --> 00:06:01,967
+teorema de convergencia. Y también tenemos la igualdad aquí.
+
+49
+00:06:02,370 --> 00:06:09,013
+Por favor, comprueba con los últimos videos que hemos satisfecho todos los requerimientos del teorema.
+
+50
+00:06:09,071 --> 00:06:14,502
+Ahora, en el siguiente paso, sustituyo el límite por el límite inferior
+
+51
+00:06:14,906 --> 00:06:19,731
+simplemente porque es de lo que queremos hablar en el lema de Fatou.
+
+52
+00:06:20,236 --> 00:06:25,271
+Y por supuesto, aquí es lo mismo: no hay ninguna diferencia.
+
+53
+00:06:25,842 --> 00:06:35,789
+Sin embargo al final queremos fn, y no gn en la integral de aquí.
+
+54
+00:06:30,594 --> 00:06:35,828
+Por consiguiente puedes preguntarte cuál es la conexión entre gn y fn,
+
+55
+00:06:35,889 --> 00:06:47,000
+y mirando a la definición ves que gn está definido sobre todo fk donde k>n, y entonces escoges el ínfimo,
+
+56
+00:06:47,000 --> 00:06:54,370
+el más pequeño posible valor. En consecuencia, siempre gn ≤ fn, al ser el ínfimo. Lo escribimos como que sabemos que
+
+57
+00:06:58,960 --> 00:07:07,760
+gn ≤ fn para cualquier n. Y ahora queremos usar la monotonicidad de la integral, que es una propiedad muy bonita de la
+
+58
+00:07:07,760 --> 00:07:17,000
+integral de Lebesgue. así que si tienes la desigualdad aquí entonces también se cumple para la integral.
+
+59
+00:07:16,400 --> 00:07:21,669
+Ok, esta desigualdad la queremos usar aquí a la derecha.
+
+60
+00:07:22,600 --> 00:07:33,979
+así que déjame resumir lo que tenemos aquí: a la izquierda es límite inferior dentro de la integral, y a la derecha
+
+61
+00:07:33,464 --> 00:07:38,700
+podemos usar esta desigualdad, el límite inferior conserva esta desigualdad,
+
+62
+00:07:39,003 --> 00:07:53,503
+lo que significa que aquí tenemos ≤ límite inferior fuera, fn dμ. Aquí lo tenemos, es el lema de Fatou.
+
+63
+00:07:53,805 --> 00:07:58,846
+la prueba no fue demasiado larga ni compleja
+
+64
+00:07:59,463 --> 00:08:02,884
+porque usamos aquí nuestro teorema de convergencia monótona.
+
+65
+00:08:03,387 --> 00:08:06,713
+Ok, espero que hayas aprendido algo hoy.
+
+66
+00:08:06,914 --> 00:08:10,754
+Veremos en un próximo video cómo podemos aplicar el lema de Fatou.
+
+67
+00:08:10,956 --> 00:08:16,490
+Y entonces, finalmente, podremos probar uno de mis teoremas favoritos.
+
+68
+00:08:16,895 --> 00:08:21,419
+Os deseo un buen día ¡hasta la próxima
+MEASURE THEORY PT9 FATOU'S LEMMA, TRADUCCIÓN: JORGE IBÁÑEZ
+

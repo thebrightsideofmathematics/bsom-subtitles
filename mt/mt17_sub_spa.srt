@@ -1,0 +1,373 @@
+1
+00:00:00,319 --> 00:00:06,540
+Hola y bienvenido de nuevo a otro vídeo sobre la teoría de la medida. Como siempre, quiero agradecer a todas las grandes
+
+2
+00:00:06,540 --> 00:00:12,420
+personas que apoyan este canal en Steady.
+
+3
+00:00:12,420 --> 00:00:18,090
+Los temas de hoy son la medida producto y el Principio de Cavalieri, ambos temas están conectados y son muy
+
+4
+00:00:18,090 --> 00:00:24,480
+importantes, incluso en el caso de simplemente integrar en R^2 o R³.
+
+5
+00:00:24,480 --> 00:00:29,820
+Es por esta razón por lo que quiero mostrarles aquí el marco general.
+
+6
+00:00:29,820 --> 00:00:36,230
+Si ahora comenzamos con la medida producto, el caso más fácil sería tomar dos espacios de medida.
+
+7
+00:00:36,230 --> 00:00:43,350
+Por lo tanto, hemos establecido X aquí, una σ álgebra Ꭿ, y una medida μ.
+
+8
+00:00:43,350 --> 00:00:48,840
+Como se dijo antes, necesitamos un segundo espacio de medida y, por lo tanto, tomo aquí un índice 1,
+
+9
+00:00:48,840 --> 00:00:56,010
+y de la misma manera tomamos el otro espacio de medida con un índice 2.
+
+10
+00:00:56,010 --> 00:01:04,290
+Ahora, lo que podemos hacer es visualizar este conjunto x1 como una línea verde y establecer x2 como esta
+
+11
+00:01:04,290 --> 00:01:11,010
+línea roja, y ahora para encontrar la medida producto necesitamos crear un nuevo
+
+12
+00:01:11,010 --> 00:01:16,700
+espacio de medida dentro del producto cartesiano de x1 con x2.
+
+13
+00:01:16,700 --> 00:01:22,860
+Por lo tanto, necesitamos una nueva σ-álgebra que ahora podemos llamar solamente Ꭿ,
+
+14
+00:01:22,860 --> 00:01:29,430
+y una medida que también podemos simplemente llamar μ. Y este μ es entonces nuestra llamada medida producto.
+
+15
+00:01:29,430 --> 00:01:33,840
+Ahora visualicemos lo que queremos
+
+16
+00:01:33,840 --> 00:01:39,659
+medir con esta nueva medida μ. Aquí ves el producto cartesiano.
+
+17
+00:01:39,659 --> 00:01:46,649
+Por lo tanto, el subconjunto del queremos saber el volumen está en este sistema de coordenadas.
+
+18
+00:01:46,649 --> 00:01:52,170
+El caso más fácil sería tal rectángulo y tal rectángulo está definido por un
+
+19
+00:01:52,170 --> 00:02:00,240
+subconjunto en x1 y otro en x2, por lo tanto, podemos llamar a este aquí por A1
+
+20
+00:02:00,240 --> 00:02:09,508
+y el otro por A2, por lo tanto, el rectángulo ahora está dado por A1xA2.
+
+21
+00:02:09,508 --> 00:02:17,860
+Y a partir de esto queremos saber el volumen. Sin embargo, si ahora miramos hacia atrás
+
+22
+00:02:17,860 --> 00:02:23,409
+en la imagen sabemos que la longitud del rectángulo debe ser exactamente la
+
+23
+00:02:23,409 --> 00:02:29,860
+medida de este conjunto A1 y de la misma manera el ancho del rectángulo debe ser
+
+24
+00:02:29,860 --> 00:02:35,620
+la medida de A2 y ahora puede decir que la medida significativa del producto debe
+
+25
+00:02:35,620 --> 00:02:42,069
+medir un rectángulo solo por la longitud por el ancho, esto significa para nuestra fórmula aquí
+
+26
+00:02:42,069 --> 00:02:51,489
+que la medida de A1 multiplicado por A2 es exactamente la medida de A1 multiplicado por
+
+27
+00:02:51,489 --> 00:02:59,049
+la medida de A2 - está bien, entonces esto es lo que queremos para la medida producto.
+
+28
+00:02:59,049 --> 00:03:06,280
+Se cumple esta fórmula para todos los rectángulos formados por un conjunto medible en X1 y 1
+
+29
+00:03:06,280 --> 00:03:12,940
+en X2. Sin embargo; todavía no hemos hablado de otro ingrediente aquí que
+
+30
+00:03:12,940 --> 00:03:19,329
+es la σ álgebra de aquí. Y esto es lo que podemos hacer ahora y, por supuesto, se
+
+31
+00:03:19,329 --> 00:03:23,620
+llama al σ-álgebra producto. Lo primero que pudimos probar
+
+32
+00:03:23,620 --> 00:03:30,970
+es considerar todos los rectángulos posibles aquí y denotamos este conjunto como Ꭿ1xᎯ2
+
+33
+00:03:30,970 --> 00:03:39,370
+Por lo que tenemos el producto cartesiano de ambas σ álgebras. Bien, este es
+
+34
+00:03:39,370 --> 00:03:45,040
+solo un conjunto de todos los rectángulos posibles en este sentido.
+
+35
+00:03:45,040 --> 00:03:52,180
+Aquí tenemos un breve borrador, por lo que tomamos un conjunto medible A1 de este σ álgebra y otro A2
+
+36
+00:03:52,180 --> 00:03:58,690
+por la otra σ álgebra. Sin embargo; inmediatamente vemos que
+
+37
+00:03:58,690 --> 00:04:04,150
+los rectángulos no forman una σ álgebra, porque podemos tomar otra
+
+38
+00:04:04,150 --> 00:04:11,560
+aquí con conjuntos medibles diferentes A1, A2 y luego vemos que la unión no es
+
+39
+00:04:11,560 --> 00:04:16,720
+un rectángulo, por lo tanto, no tenemos una σ-álgebra
+
+40
+00:04:16,720 --> 00:04:24,130
+pero aún así tenemos un semianillo de conjuntos, así que eso es lo que podríamos usar más tarde.
+
+41
+00:04:24,130 --> 00:04:29,740
+Ahora, para definir la σ álgebra producto, sabemos qué hacer, podemos simplemente tomar el
+
+42
+00:04:29,740 --> 00:04:34,290
+σ-álgebra que es generada por los rectángulos aquí.
+
+43
+00:04:34,290 --> 00:04:40,780
+Para que vea, esto es muy fácil, ahora tenemos nuestra σ álgebra producto.
+
+44
+00:04:40,780 --> 00:04:48,760
+Y luego podemostambién definir formalmente nuestra medida producto, simplemente podemos decir definir μ de tal manera que
+
+45
+00:04:48,760 --> 00:04:54,760
+cumple nuestra regla para el producto en los rectángulos, en otras palabras, tenemos esto
+
+46
+00:04:54,760 --> 00:05:04,390
+como producto del rectángulo dado por A1xA2 y en este punto ahora
+
+47
+00:05:04,390 --> 00:05:10,000
+puedo usar el teorema de extensión de Caratheodory.
+
+48
+00:05:10,000 --> 00:05:16,300
+Hablando de ese teorema tengo otro video y en él aprendimos que si podemos definir una medida en un semianillo podemos
+
+49
+00:05:16,300 --> 00:05:22,360
+extender esa definición a todo el σ álgebra  que es generada por este semianillo.
+
+50
+00:05:22,360 --> 00:05:30,070
+Con este procedimiento obtenemos nuestro producto medida.
+
+51
+00:05:30,070 --> 00:05:34,330
+Sin embargo; también aprendimos en el video sobre el teorema de extensión de Carathéodory que
+
+52
+00:05:34,330 --> 00:05:41,560
+esta definición no es única, esto significa que, en general, podríamos tener múltiples
+
+53
+00:05:41,560 --> 00:05:47,410
+medidas producto que cumplan bien esta regla para los rectángulos.
+
+54
+00:05:47,410 --> 00:05:53,740
+Ahora quiero terminar este video con el caso en el que, de hecho, tenemos unicidad, así que
+
+55
+00:05:53,740 --> 00:06:00,130
+escribamos eso como una proposición, de hecho, lo que es útil es el caso cuando las dos
+
+56
+00:06:00,130 --> 00:06:06,130
+medidas son σ finitas y recuerda,que en el caso de la medida normal de Lebesgue en R^n
+
+57
+00:06:06,130 --> 00:06:12,940
+sabemos que éste es σ finito y ahora en este caso
+
+58
+00:06:12,940 --> 00:06:19,330
+encontramos exactamente una medida con la propiedad deseada pero, por supuesto, es mucho más
+
+59
+00:06:19,330 --> 00:06:25,020
+interesante saber qué hace la medida en subconjuntos que no son rectangulares.
+
+60
+00:06:25,020 --> 00:06:31,300
+Así que aquí ves un ejemplo de un subconjunto que de hecho no es rectangular, es un triángulo.
+
+61
+00:06:31,300 --> 00:06:38,980
+Sin embargo; en general, solo queremos medir un subconjunto arbitrario M en este
+
+62
+00:06:38,980 --> 00:06:44,530
+producto cartesiano siempre que se encuentre en este σ-álgebra.
+
+63
+00:06:44,530 --> 00:06:50,170
+Para obtener esta bonita fórmula aquí, podemos mirar el eje y aquí y tomar un
+
+64
+00:06:50,170 --> 00:06:57,520
+punto y tal vez llamemos a este punto ahora y. Ahora quiero ver la sección aquí
+
+65
+00:06:57,520 --> 00:07:04,630
+en un conjunto M, exactamente esta línea y quiero tomar los valores correspondientes X1.
+
+66
+00:07:04,630 --> 00:07:16,180
+Y exactamente este conjunto aquí, quiero llamarlos M con índice Y, por supuesto que puedo
+
+67
+00:07:16,180 --> 00:07:23,140
+también escribir la definición formal que sería todo x1 minúscula en X1 mayúscula,
+
+68
+00:07:23,140 --> 00:07:34,900
+con la propiedad de que X1 e Y es un par que se encuentra en M.
+
+69
+00:07:34,900 --> 00:07:40,630
+Creo que este dibujo de aquí es más útil para visualizar lo que sucede.
+
+70
+00:07:40,630 --> 00:07:47,140
+Ahora la fórmula le dice que está bien, solo mida la longitud de esta línea, por lo que medimos esto
+
+71
+00:07:47,140 --> 00:07:57,010
+en la medida μ1 y X1, lo que significa μ1(My). Ok, hemos elegido una Y aquí pero
+
+72
+00:07:57,010 --> 00:08:01,060
+por supuesto, esto fue arbitrario, también podríamos haber elegido este
+
+73
+00:08:01,060 --> 00:08:06,640
+por ejemplo y luego habríamos obtenido esta línea aquí, así que lo que realmente queremos es
+
+74
+00:08:06,640 --> 00:08:12,820
+tomar todas las Y a la vez y luego simplemente construir todo el conjunto con estas líneas rojas de aquí.
+
+75
+00:08:12,820 --> 00:08:20,020
+En la fórmula, esto solo significa que integramos sobre X2, por lo que
+
+76
+00:08:20,020 --> 00:08:28,800
+integramos sobre todas las Y posibles, lo que significa que tenemos aquí dμ2(Y).
+
+77
+00:08:28,800 --> 00:08:35,440
+Y esto ahora le da el volumen del subconjunto M medido con la medida producto.
+
+78
+00:08:35,440 --> 00:08:40,780
+Y ya te dije que la visualización debería ser que tengas muchas
+
+79
+00:08:40,780 --> 00:08:47,260
+líneas aquí y las sume todas, pero esta suma se da como una integral.
+
+80
+00:08:47,260 --> 00:08:53,880
+Ok y ahora lo único que falta aquí es que tienes
+
+81
+00:08:53,880 --> 00:09:00,000
+la misma fórmula pero solo con lados intercambiados. En la visualización, esto significa que puede dibujar
+
+82
+00:09:00,000 --> 00:09:06,390
+la línea paralela al eje y o este eje y luego sumarlos
+
+83
+00:09:06,390 --> 00:09:13,200
+en la integración y entonces cambias los lados y obtenemos la fórmula aquí con X1,
+
+84
+00:09:13,200 --> 00:09:23,580
+μ2(Mx)dμ1(x). De la misma manera que antes, ahora podemos definir Mx
+
+85
+00:09:23,580 --> 00:09:33,260
+que es todos los puntos que se encuentran en el eje y, por lo que x2 está en X2, cumpliendo (x,x2) - está en M.
+
+86
+00:09:33,260 --> 00:09:44,880
+Lo que has visto ahora es calcular el volumen de un
+
+87
+00:09:44,880 --> 00:09:51,360
+conjunto M que no es un rectángulo simple usando 1 integración y ambas medidas M1, M2
+
+88
+00:09:51,360 --> 00:09:58,050
+esto se llama Principio de Cavalieri y la visualización debería ser
+
+89
+00:09:58,050 --> 00:10:02,220
+siempre en este sentido para que tenga secciones en una dirección
+
+90
+00:10:02,220 --> 00:10:07,530
+y luego integras en la otra dirección pero, por supuesto, esto es mucho
+
+91
+00:10:07,530 --> 00:10:13,320
+más fácil de entender si ve algunos ejemplos, por lo tanto, en un próximo video
+
+92
+00:10:13,320 --> 00:10:19,260
+mostraré algunos ejemplos y ahí se verá el cálculo bien.
+
+93
+00:10:19,260 --> 00:10:26,480
+Esto ha sido suficientemente por hoy, así que gracias por escucharnos y hasta la próxima, adiós.
+THE BRIGH SIDE OF MATHEMATICS, MEDIDA PRODUCTO Y EL PRINCIPIO DE CAVALIERI- TRADUCCIÓN DE JORGE IBÁÑEZ
+
