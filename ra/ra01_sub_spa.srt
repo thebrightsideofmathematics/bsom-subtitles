@@ -1,0 +1,287 @@
+1
+00:00:00,000 --> 00:00:04,000
+Hola y bienvenidos a análisis real
+
+2
+00:00:04,200 --> 00:00:09,200
+y primero quiero agradecer a todos los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,399 --> 00:00:11,399
+Esta es la parte 1 de un curso nuevo
+
+4
+00:00:11,599 --> 00:00:15,590
+donde hablaremos acerca del análisis que podemos hacer con los números reales.
+
+5
+00:00:15,790 --> 00:00:17,790
+Antes de comenzar quiero decirles
+
+6
+00:00:17,990 --> 00:00:21,980
+que siempre encontraran los PDF de estos videos y los quiz
+
+7
+00:00:22,000 --> 00:00:24,680
+con los que puedan probar su comprensión de los tópicos 
+
+8
+00:00:24,700 --> 00:00:26,700
+en la descripción abajo.
+
+9
+00:00:26,790 --> 00:00:30,890
+Ahora, el tópico de análisis real también es conocido como cálculo.
+
+10
+00:00:31,090 --> 00:00:33,090
+Pero también tiene otros nombres.
+
+11
+00:00:33,090 --> 00:00:37,290
+Por ejemplo, simplemente análisis o cálculo infinitesimal.
+
+12
+00:00:37,490 --> 00:00:39,490
+Así podrán reconocer lo que estan estudiando,
+
+13
+00:00:39,490 --> 00:00:41,690
+pero, por supuesto, el nombre no es importante.
+
+14
+00:00:41,890 --> 00:00:43,890
+El objetivo del curso es el importante.
+
+15
+00:00:44,090 --> 00:00:50,090
+Que finalmente será comprender el cálculo diferencial e integral.
+
+16
+00:00:50,290 --> 00:00:54,280
+Por lo que podrán entender todo
+
+17
+00:00:54,280 --> 00:00:56,480
+acerca del símbolo "df/dx"
+
+18
+00:00:56,680 --> 00:01:00,670
+y sobre del símbolo integral "f dx".
+
+19
+00:01:00,870 --> 00:01:05,170
+Dicho esto ya pueden tener una idea de los tópicos que trataremos.
+
+20
+00:01:05,370 --> 00:01:08,370
+Primero veremos secuencias de números reales
+
+21
+00:01:08,570 --> 00:01:10,570
+y definiremos que son los límites.
+
+22
+00:01:10,870 --> 00:01:15,360
+Después hablaremos de funciones que son continuas.
+
+23
+00:01:15,560 --> 00:01:19,560
+Y luego será mas fácil hablar de derivadas.
+
+24
+00:01:20,760 --> 00:01:24,760
+Y nuestro curso de análisis real cerrará con integrales.
+
+25
+00:01:24,960 --> 00:01:26,960
+Así que como pueden ver hay mucho que tratar acá.
+
+26
+00:01:27,160 --> 00:01:31,150
+Entonces les diré los requisitos para este curso.
+
+27
+00:01:31,350 --> 00:01:34,000
+De verdad, es muy fácil decirlo.
+
+28
+00:01:34,000 --> 00:01:36,000
+Puedo decirlo en dos palabras.
+
+29
+00:01:36,000 --> 00:01:38,200
+Solo tienen que conocer los números reales.
+
+30
+00:01:38,400 --> 00:01:40,200
+No necesitan mucho mas,
+
+31
+00:01:40,200 --> 00:01:43,400
+si saben como calcular en los números reales "R",
+
+32
+00:01:43,400 --> 00:01:46,000
+saben todo lo necesario para seguir este curso.
+
+33
+00:01:46,200 --> 00:01:48,400
+Ahora, en el caso que no conozcan los números reales.
+
+34
+00:01:48,410 --> 00:01:52,400
+No hay problema, porque tengo todo un curso en video acerca de ellos.
+
+35
+00:01:52,600 --> 00:01:56,600
+En "Start Learning Mathematics" encontraran to lo necesario.
+
+36
+00:01:56,600 --> 00:02:00,000
+donde los videos importantes son aquellos sobre los números reales.
+
+37
+00:02:00,200 --> 00:02:04,200
+Así que puede ser suficiente que vean "Start Learning Reals".
+
+38
+00:02:04,880 --> 00:02:08,400
+Acá, tomaremos los axiomas de los números reales
+
+39
+00:02:08,600 --> 00:02:10,389
+como nuestros fundamentos.
+
+40
+00:02:10,590 --> 00:02:12,590
+De verdad, no son muy complicados.
+
+41
+00:02:12,590 --> 00:02:14,790
+Simplemente tenemos un conjunto con dos operaciones:
+
+42
+00:02:14,780 --> 00:02:16,990
+adición (suma) y multiplicación
+
+43
+00:02:17,190 --> 00:02:22,000
+y un orden para tener estas propiedades.
+
+44
+00:02:23,000 --> 00:02:25,480
+Que básicamente nos dice que tenemos un campo (cuerpo) de números
+
+45
+00:02:25,570 --> 00:02:27,680
+que está bien ordenado.
+
+46
+00:02:27,880 --> 00:02:33,000
+lo que simplemente significa que podemos visualizar los números reales en la recta numérica.
+
+47
+00:02:33,200 --> 00:02:36,480
+y la última propiedad aquí es el axioma de completitud,
+
+48
+00:02:36,680 --> 00:02:38,680
+que se refiere a secuencias.
+
+49
+00:02:38,880 --> 00:02:42,170
+Pero no se preocupen. Pronto hablaremos bastante sobre secuencias.
+
+50
+00:02:42,370 --> 00:02:45,370
+Así que finalmente entenderán este axioma.
+
+51
+00:02:46,060 --> 00:02:48,660
+Sin embargo, los que necesitamos inmediatamente desde el comienzo
+
+52
+00:02:48,760 --> 00:02:52,000
+es el llamado "valor absoluto" de un número real.
+
+53
+00:02:52,200 --> 00:02:56,190
+Como ven, siempre nos da un número positivo o cero.
+
+54
+00:02:57,000 --> 00:03:02,000
+En otras palabras, mide la distancia de 0 al punto x.
+
+55
+00:03:03,000 --> 00:03:07,190
+Pronto veremos que es muy importante que podamos medir distancias 
+
+56
+00:03:07,190 --> 00:03:08,760
+para hacer análisis real.
+
+57
+00:03:09,000 --> 00:03:11,580
+Es lo que la definición de límite
+
+58
+00:03:11,580 --> 00:03:14,000
+o la definición de derivadas requiere.
+
+59
+00:03:14,390 --> 00:03:17,190
+Ahora, lo que realmente deben saber es, que hacer
+
+60
+00:03:17,180 --> 00:03:19,480
+cuando tienen dos números en valor absoluto.
+
+61
+00:03:20,000 --> 00:03:23,580
+De manera que puedan ser combinados mediante multiplicación y adición.
+
+62
+00:03:24,000 --> 00:03:26,770
+Para la multiplicación nada especial ocurre.
+
+63
+00:03:26,860 --> 00:03:29,960
+La pueden separar en los dos valores absolutos.
+
+64
+00:03:30,000 --> 00:03:32,740
+Sin embargo, para la adición esto no es verdadero.
+
+65
+00:03:32,900 --> 00:03:35,050
+Ahí solo tenemos una desigualdad.
+
+66
+00:03:35,250 --> 00:03:38,250
+y esta se llama "desigualdad triangular".
+
+67
+00:03:38,450 --> 00:03:40,450
+y la vamos a usar mucho.
+
+68
+00:03:40,650 --> 00:03:43,640
+Ok! Yo pienso que esto es suficiente como introducción.
+
+69
+00:03:43,839 --> 00:03:47,200
+En el próximo video comenzaremos nuestro curso de análisis real
+
+70
+00:03:47,190 --> 00:03:49,400
+hablando de secuencias.
+
+71
+00:03:49,600 --> 00:03:52,490
+Así que espero verlos ahí y que tengan un buen día.
+
+72
+00:03:52,500 --> 00:03:53,380
+Hasta luego!
