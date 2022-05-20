@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:04,000
+Hallo und willkommen zu Reelle Analysis
+
+2
+00:00:04,200 --> 00:00:09,200
+Und zu allererst möchte ich all Leuten danken, die diesen Kanal auf Steady oder Paypal unterstützen.
+
+3
+00:00:09,399 --> 00:00:11,399
+Das ist Teil 1 eines neuen Kurses,
+
+4
+00:00:11,599 --> 00:00:15,590
+in welchem wir über Analysis mit reellen Zahlen sprechen
+
+5
+00:00:15,790 --> 00:00:17,790
+Bevor wir  damit starten, kann ich erzählen,
+
+6
+00:00:17,990 --> 00:00:21,980
+dass PDF-Versionen und Quizzes,
+
+7
+00:00:22,000 --> 00:00:24,680
+mit welchen man sein Wissen der Themen testen kann,
+
+8
+00:00:24,700 --> 00:00:26,700
+immer in der Info unter zu finden sind.
+
+9
+00:00:26,790 --> 00:00:30,890
+Nun, das Thema is Reelle Analysis, auch bekannt als Calculus.
+
+10
+00:00:31,090 --> 00:00:33,090
+Es gibt jedoch auch viele andere Namen.
+
+11
+00:00:33,090 --> 00:00:37,290
+Zum Beispiel einfach nur "Analysis" oder "Infinitesimalrechnung".
+
+12
+00:00:37,490 --> 00:00:39,490
+Deswegen könnte dein Vorlesungsname zu dem Thema anders sein.
+
+13
+00:00:39,490 --> 00:00:41,690
+Natürlich ist der Name aber nicht so wichtig.
+
+14
+00:00:41,890 --> 00:00:43,890
+Das Ziel dieses Kurses ist wichtig!
+
+15
+00:00:44,090 --> 00:00:50,090
+Und das sollte das Verstehen der Differential- und Integralrechnung sein.
+
+16
+00:00:50,290 --> 00:00:54,280
+Deswegen solltest du am Ende in der Lage sein,
+
+17
+00:00:54,280 --> 00:00:56,480
+das Symbol "df/dx"
+
+18
+00:00:56,680 --> 00:01:00,670
+und das Symbol "Integral f dx" zu verstehen.
+
+19
+00:01:00,870 --> 00:01:05,170
+Mit dem Wissen, kannst du schon erraten, welche Themen wir hier behandeln werden.
+
+20
+00:01:05,370 --> 00:01:08,370
+Zuerst, werden wir auf Folgen von reellen Zahlen schauen.
+
+21
+00:01:08,570 --> 00:01:10,570
+Und dann definieren wir, was Grenzwerte genau sind.
+
+22
+00:01:10,870 --> 00:01:15,360
+Danach werden wir über stetige Funktionen sprechen.
+
+23
+00:01:15,560 --> 00:01:19,560
+Dann überlicherweise wird es einfacher, wenn wir über Ableitungen reden.
+
+24
+00:01:20,760 --> 00:01:24,760
+Am Ende werden wir über Integrale sprechen und den Analysis-Kurs abschließen.
+
+25
+00:01:24,960 --> 00:01:26,960
+Also, man sieht, wir haben hier viel zu behandeln.
+
+26
+00:01:27,160 --> 00:01:31,150
+Deswegen sollte ich direkt die Voraussetzungen des Kurses mitteilen.
+
+27
+00:01:31,350 --> 00:01:34,000
+Tatsächlich ist dies leicht zusammenzufassen.
+
+28
+00:01:34,000 --> 00:01:36,000
+Ich kann dies in zwei Worten sagen:
+
+29
+00:01:36,000 --> 00:01:38,200
+Reelle Zahlen. Die musst du kennen.
+
+30
+00:01:38,400 --> 00:01:40,200
+Ansonsten brauchen man nicht sehr viel.
+
+31
+00:01:40,200 --> 00:01:43,400
+Wenn du weißt wie man mit den reellen Zahlen "R" rechnent,
+
+32
+00:01:43,400 --> 00:01:46,000
+dann weißt du alles, um diesem Kurs zu folgen.
+
+33
+00:01:46,200 --> 00:01:48,400
+In dem, dass du die reellen Zahlen nicht kennst,
+
+34
+00:01:48,410 --> 00:01:52,400
+ist es auch kein Problem, denn darüber habe ich einen ganzen Videokurs.
+
+35
+00:01:52,600 --> 00:01:56,600
+In "Start Learning Mathematics" findest du alles, was du brauchst.
+
+36
+00:01:56,600 --> 00:02:00,000
+Die wichtigen Videos sind die über die reellen Zahlen.
+
+37
+00:02:00,200 --> 00:02:04,200
+Deswegen ist es wahrscheinlich ausreichend nur "Start Learning Reals" anzuschauen. 
+
+38
+00:02:04,880 --> 00:02:08,400
+Für uns hier brauchen wir nur die Axiome der reellen Zahlen.
+
+39
+00:02:08,600 --> 00:02:10,389
+Nämlich als unser Fundament.
+
+40
+00:02:10,590 --> 00:02:12,590
+Tatsächlich sind diese nicht so kompliziert.
+
+41
+00:02:12,590 --> 00:02:14,790
+Wir haben einfach nur eine Menge mit zwei Operationen.
+
+42
+00:02:14,780 --> 00:02:16,990
+Addition und Multiplikation.
+
+43
+00:02:17,190 --> 00:02:22,000
+Und auch mit einer Ordnungsrelation in der Art, dass wir alle diese Eigenschaften hier haben.
+
+44
+00:02:23,000 --> 00:02:25,480
+Grob sagen diese uns, dass wir einen Körper haben. 
+
+45
+00:02:25,570 --> 00:02:27,680
+Und dieser ist noch sehr schön angeordnet.
+
+46
+00:02:27,880 --> 00:02:33,000
+Dies meint einfach, dass wir uns die reellen Zahlen als eine Zahlengerade vorstellen können.
+
+47
+00:02:33,200 --> 00:02:36,480
+Und die letzte Eigenschaft ist das Vollständigkeitsaxiom.
+
+48
+00:02:36,680 --> 00:02:38,680
+Dieses sagt etwas über Folgen aus.
+
+49
+00:02:38,880 --> 00:02:42,170
+Aber keine Sorge: Wir werden noch genug über Folgen sprechen.
+
+50
+00:02:42,370 --> 00:02:45,370
+Deswegen wird es am Ende kein Problem sein, dieses Axiom zu verstehen.
+
+51
+00:02:46,060 --> 00:02:48,660
+Was wir allerdings direkt von Beginn an benötigen
+
+52
+00:02:48,760 --> 00:02:52,000
+ist der sogenannte "Betrag" einer reellen Zahl.
+
+53
+00:02:52,200 --> 00:02:56,190
+Hier siehst du, der Betrag gibt uns immer eine positive Zahl oder Null zurück.
+
+54
+00:02:57,000 --> 00:03:02,000
+In anderen Worten: Der Betrag misst den Abstand von 0 zu dem Punkt x.
+
+55
+00:03:03,000 --> 00:03:07,190
+Wir werden bald sehen, es ist sehr wichtig, Abstände zu messen,
+
+56
+00:03:07,190 --> 00:03:08,760
+um Analysis zu betreiben.
+
+57
+00:03:09,000 --> 00:03:11,580
+Das ist genau das, was die Definition eines Grenzwertes
+
+58
+00:03:11,580 --> 00:03:14,000
+oder die Definition der Ableitung benötigt.
+
+59
+00:03:14,390 --> 00:03:17,190
+Nun was man wirklich wissen sollte, ist was man tut
+
+60
+00:03:17,180 --> 00:03:19,480
+wenn man zwei reellen Zahlen im Betrag hat.
+
+61
+00:03:20,000 --> 00:03:23,580
+Die Zahlen könnten mit der Multiplikation oder der Addition verknüpft sein.
+
+62
+00:03:24,000 --> 00:03:26,770
+Für die Multiplikation passiert nichts besonderes.
+
+63
+00:03:26,860 --> 00:03:29,960
+Man kann den Betrag einfach in zwei Beträge aufspalten.
+
+64
+00:03:30,000 --> 00:03:32,740
+Allerdings stimmt dies nicht mehr für die Addition.
+
+65
+00:03:32,900 --> 00:03:35,050
+Dort haben wir eine Ungleichung.
+
+66
+00:03:35,250 --> 00:03:38,250
+Und diese nennen wir die Dreiecksungleichung.
+
+67
+00:03:38,450 --> 00:03:40,450
+Und diese werden wir sehr oft nutzen.
+
+68
+00:03:40,650 --> 00:03:43,640
+Ok! Ich glaube, das reicht nun für eine kurze Einführung hier.
+
+69
+00:03:43,839 --> 00:03:47,200
+Im nächsten Video werden wir über den Beginn unseres Analysis-Kurses sprechen.
+
+70
+00:03:47,190 --> 00:03:49,400
+Und zwar starten wir mit Folgen.
+
+71
+00:03:49,600 --> 00:03:52,490
+Deswegen hoffe ich, dass wir uns dort wiedersehen.
+
+72
+00:03:52,500 --> 00:03:53,380
+Bye!
+
