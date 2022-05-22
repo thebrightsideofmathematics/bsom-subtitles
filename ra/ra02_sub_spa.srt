@@ -1,0 +1,759 @@
+1
+00:00:00,600 --> 00:00:03,500
+Hola y bienvenidos de nuevo a análisis real
+
+2
+00:00:04,100 --> 00:00:08,700
+y como siempre quiero agradecer a todos los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,890 --> 00:00:12,400
+Ahora, realmente empezamos nuestro curso de análisis real
+
+4
+00:00:12,500 --> 00:00:15,000
+hablando de secuencias y limites.
+
+5
+00:00:16,000 --> 00:00:19,500
+Entonces, empecemos definiendo que es una secuencia.
+
+6
+00:00:20,290 --> 00:00:24,000
+Concretamente diremos que tenemos una secuencia de números reales,
+
+7
+00:00:24,500 --> 00:00:28,190
+cuando hay un mapa de los números naturales a "R".
+
+8
+00:00:28,600 --> 00:00:32,090
+la mayor parte del tiempo ese mapa tendrá el nombre "a"
+
+9
+00:00:32,600 --> 00:00:36,700
+De la misma manera "a" también puede ser una mapa de "N0" a "R"
+
+10
+00:00:36,700 --> 00:00:37,900
+que se llama secuencia.
+
+11
+00:00:38,900 --> 00:00:42,100
+Por favor recuerden. Aquí en los números naturales no incluímos el 0,
+
+12
+00:00:42,300 --> 00:00:44,300
+pero en "N0" si.
+
+13
+00:00:45,000 --> 00:00:47,400
+Así que vean, la elección depende
+
+14
+00:00:47,400 --> 00:00:50,400
+de si quieren partir contando desde 1 o desde 0.
+
+15
+00:00:50,600 --> 00:00:54,600
+Ahora, cuando tratamos con secuencias rara vez escribimos el mapa,
+
+16
+00:00:54,600 --> 00:00:57,480
+mas bien una lista infinita de números.
+
+17
+00:00:57,680 --> 00:01:02,350
+En otras palabras, cuando ponemos 1 en la función obtenemos "a1".
+
+18
+00:01:02,550 --> 00:01:05,099
+y ponemos 1 en el índice.
+
+19
+00:01:05,590 --> 00:01:09,290
+y luego a2, a3 etc.
+
+20
+00:01:09,490 --> 00:01:11,280
+Luego por favor recuerden.
+
+21
+00:01:11,289 --> 00:01:15,000
+Formalmente una secuencia es una mapa, pero nosotros usaremos notaciones mas breves.
+
+22
+00:01:15,900 --> 00:01:20,200
+Por ejemplo lo que ustedes a menudo verán es simplemente "(an)".
+
+23
+00:01:20,600 --> 00:01:23,590
+y para recordarles que se trata de una lista infinita
+
+24
+00:01:23,590 --> 00:01:26,590
+ponemos "n en N" en el índice aquí.
+
+25
+00:01:26,790 --> 00:01:32,000
+Por supuesto, si queremos partir con 0 pondremos "N0" en el índice acá.
+
+26
+00:01:32,200 --> 00:01:38,150
+Alternativamente, también podríamos indicar el número inicial como n=1
+
+27
+00:01:38,200 --> 00:01:40,600
+y recordemos de nuevo que se trata de una lista infinita,
+
+28
+00:01:40,650 --> 00:01:42,600
+así que ponemos "infinito" arriba.
+
+29
+00:01:42,900 --> 00:01:46,080
+Ahora si del contexto el número inicial es evidente
+
+30
+00:01:46,090 --> 00:01:49,200
+podemos omitir todo eso y simnplemente usar paréntesis.
+
+31
+00:01:49,700 --> 00:01:52,200
+Ok. Creo que es suficiente acerca de las notaciones.
+
+32
+00:01:52,300 --> 00:01:54,590
+Veamos inmediatamente algunos ejemplos.
+
+33
+00:01:55,000 --> 00:01:58,970
+La mejor manera de describir una secuencia es simplemente dar un regla
+
+34
+00:01:58,990 --> 00:02:01,200
+para todos los elementos de la secuencia "an"
+
+35
+00:02:01,600 --> 00:02:07,000
+Por ejemplo podríamos decir que "an" = -1 elevado a n.
+
+36
+00:02:07,600 --> 00:02:11,400
+y luego podemos usar los paréntesis para denotar la secuencia completa.
+
+37
+00:02:11,600 --> 00:02:14,400
+Así como ven, esta es una secuencia muy simple,
+
+38
+00:02:14,430 --> 00:02:17,500
+ya que el primer número es simplemente -1
+
+39
+00:02:17,890 --> 00:02:19,890
+y luego el próximo es 1
+
+40
+00:02:20,530 --> 00:02:25,100
+y -1 nuevamente, y luego 1 de nuevo etc.
+
+41
+00:02:26,010 --> 00:02:29,000
+Entonces su quieren visualizar esto en la recta numérica
+
+42
+00:02:29,150 --> 00:02:31,150
+empezaríamos en -1
+
+43
+00:02:31,350 --> 00:02:34,640
+y luego en el siguiente paso saltamos (brincamos) a 1.
+
+44
+00:02:35,470 --> 00:02:38,700
+Luego en el siguiente paso saltamos de vuelta a -1.
+
+45
+00:02:39,340 --> 00:02:43,000
+y ya sabemos que todo este proceso continúa sin fin.
+
+46
+00:02:43,650 --> 00:02:45,050
+Aquí pueden recordar
+
+47
+00:02:45,060 --> 00:02:49,460
+que esta es siempre una buena forma de visualizar una secuencia en la recta numérica.
+
+48
+00:02:49,990 --> 00:02:52,790
+De manera que se vea que la secuencia tiene pasos
+
+49
+00:02:52,800 --> 00:02:56,200
+donde en cada paso llegamos a un número en la recta numérica.
+
+50
+00:02:57,030 --> 00:03:00,880
+Sin embargo esta no es la única manera de visualizar una secuencia
+
+51
+00:03:00,900 --> 00:03:03,970
+porque, desde ya sabemos que es simplemente un mapa.
+
+52
+00:03:04,170 --> 00:03:07,800
+Así que simplemente podrían dibujar el gráfico del mapa.
+
+53
+00:03:08,530 --> 00:03:12,080
+En otras palabras tenemos un conjunto en este sistema coordenado,
+
+54
+00:03:12,090 --> 00:03:16,770
+pero recuerden siempre que el dominio es los números naturales,
+
+55
+00:03:16,900 --> 00:03:19,150
+y el codominio los números reales.
+
+56
+00:03:19,160 --> 00:03:22,020
+Entonces en el eje-y tenemos "R".
+
+57
+00:03:22,990 --> 00:03:26,990
+Así que no tenemos una línea en este plano. Solamente puntos.
+
+58
+00:03:27,040 --> 00:03:31,030
+Por ejemplo para 1 tenemos -1. Luego un punto acá.
+
+59
+00:03:31,630 --> 00:03:36,420
+Ahora esto es importante. -1 es el valor de este mapa.
+
+60
+00:03:37,000 --> 00:03:42,329
+De la misma manera decimos que obtenemos 1 como valor cuando ponemos 2 en el mapa.
+
+61
+00:03:43,000 --> 00:03:47,500
+y luego podemos continuar con 3, 4, 5 etc.
+
+62
+00:03:47,700 --> 00:03:52,380
+Ahora. Los saltos que veíamos antes los apreciamos al avanzar hacia la derecha.
+
+63
+00:03:53,010 --> 00:03:57,680
+De hecho estamos interesados en lo que ocurre con los valores de esta secuencia
+
+64
+00:03:57,700 --> 00:04:00,380
+cuando seguimos aquí en la línea.
+
+65
+00:04:00,880 --> 00:04:05,770
+De manera simple, ¿Que ocurre con la secuencia cuando n va al infinito?
+
+66
+00:04:06,220 --> 00:04:09,200
+En este ejemplo se ve que no pasa nada especial,
+
+67
+00:04:09,210 --> 00:04:12,200
+porque seguimos saltando entre -1 y 1.
+
+68
+00:04:13,030 --> 00:04:15,530
+Sin importar cuan grande sea nuestro n.
+
+69
+00:04:15,560 --> 00:04:17,620
+Los saltos son siempre los mismos.
+
+70
+00:04:18,089 --> 00:04:21,300
+Por esta razón veamos otro ejemplo.
+
+71
+00:04:22,000 --> 00:04:26,550
+Acá nuestra secuencia debiera ser definida por la regla "1 sobre n".
+
+72
+00:04:27,750 --> 00:04:30,390
+Ahora ustedes ven que esta es mucho mas interesante,
+
+73
+00:04:30,400 --> 00:04:32,400
+porque obtenemos números diferentes.
+
+74
+00:04:33,020 --> 00:04:38,000
+El primer número es simplemente 1, pero luego tenemos 1/2 y 1/3...
+
+75
+00:04:38,280 --> 00:04:40,870
+y luego una gran cantidad de fracciones diferentes,
+
+76
+00:04:40,880 --> 00:04:43,920
+porque el denominador se hace cada vez mas grande.
+
+77
+00:04:44,410 --> 00:04:48,000
+Esta secuencia también podemos visualizarla en un gráfico.
+
+78
+00:04:48,460 --> 00:04:50,750
+Ahí partimos con el valor 1.
+
+79
+00:04:50,770 --> 00:04:56,750
+Luego 1/2, 1/3, 1/4 etc.
+
+80
+00:04:56,760 --> 00:05:01,000
+Acá de hecho, algo ocurre cuando aumentamos,
+
+81
+00:05:01,220 --> 00:05:04,700
+porque lo ven, nos acercamos mas y mas a 0.
+
+82
+00:05:05,010 --> 00:05:09,900
+y esto es lo que pronto definiremos como el límite de la secuencia.
+
+83
+00:05:10,100 --> 00:05:14,500
+Entonces acá reconocemos que esta secuencia tiene una propiedad buena,
+
+84
+00:05:15,020 --> 00:05:18,700
+que la secuencia anterior no tiene.
+
+85
+00:05:19,490 --> 00:05:23,230
+Sin embargo, antes de definir el límite como una propiedad de una secuencia
+
+86
+00:05:23,260 --> 00:05:25,260
+veamos otro ejemplo.
+
+87
+00:05:25,650 --> 00:05:29,730
+En este caso yo quiero tener los números dados por potencias de 2.
+
+88
+00:05:30,150 --> 00:05:35,000
+En otras palabras tenemos 2, 4, 8, 16 etc.
+
+89
+00:05:36,030 --> 00:05:38,300
+Y claro, esta es una secuencia muy buena,
+
+90
+00:05:38,300 --> 00:05:42,130
+pero ahora queremos ver que ocurre cuando incrementamos n
+
+91
+00:05:42,150 --> 00:05:44,050
+es decir haciéndola mas grande y mas grande.
+
+92
+00:05:44,380 --> 00:05:49,170
+Entonces, los valores obtenidos también se hacen cada vez mas grandes.
+
+93
+00:05:49,980 --> 00:05:53,240
+y desde luego, no hay una cota superior para los elementos de esta secuencia
+
+94
+00:05:53,260 --> 00:05:56,350
+así que podríamos decir que este límite debería ser infinito.
+
+95
+00:05:56,920 --> 00:06:00,100
+Claro que todavía no sabemos el significado exacto de esto
+
+96
+00:06:00,110 --> 00:06:02,400
+así que tenemos que aclarar esto también.
+
+97
+00:06:03,050 --> 00:06:06,350
+Para hacerlo, vamos a nuestra próxima definición.
+
+98
+00:06:07,130 --> 00:06:11,700
+Acá definiremos la noción de una secuencia convergente de numeros reales.
+
+99
+00:06:12,270 --> 00:06:17,750
+Decimos que una secuencia "an" es convergente a un número dado "a"
+
+100
+00:06:17,780 --> 00:06:23,200
+si los elementos de la secuencia "an" se encuentran arbitrariamente cerca de "a" eventualmente.
+
+101
+00:06:23,750 --> 00:06:25,990
+Ahora, antes de dar una definición formal
+
+102
+00:06:26,000 --> 00:06:29,450
+visualicemos esta idea en la recta numérica.
+
+103
+00:06:29,660 --> 00:06:31,660
+Entonces acá tenemos el punto "a"
+
+104
+00:06:31,670 --> 00:06:34,670
+y en verde tenemos la vecindad-epsilon de "a".
+
+105
+00:06:35,170 --> 00:06:38,100
+Esto significa que para un número positivo dado epsilon
+
+106
+00:06:38,100 --> 00:06:43,000
+podemos ubicar los numeros "a + epsilon" y "a - epsilon".
+
+107
+00:06:43,230 --> 00:06:47,650
+y a toda la región en verde la llamamos "la vecindad-epsilon de a"
+
+108
+00:06:48,390 --> 00:06:51,600
+Por favor noten que "a" ya no denota a la secuencia,
+
+109
+00:06:51,610 --> 00:06:53,000
+sino que simplemente otro número.
+
+110
+00:06:53,000 --> 00:06:54,600
+Esta es sencillamente una notación común.
+
+111
+00:06:55,560 --> 00:06:59,460
+Ahora si queremos que "a" sea en cierto sentido el límite de la secuencia
+
+112
+00:06:59,480 --> 00:07:04,050
+necesitamos acercarnos más y más a "a" con los elementos de la secuencia.
+
+113
+00:07:04,140 --> 00:07:06,300
+O en otras palabras... eventualmente
+
+114
+00:07:06,300 --> 00:07:10,000
+todos los elementos de la secuencia tienen que estar en la vecindad-epsilon de a.
+
+115
+00:07:10,950 --> 00:07:13,450
+Y sólo un número finito fuera de ella.
+
+116
+00:07:14,270 --> 00:07:16,500
+Por ejemplo acá podríamos tener "a1"
+
+117
+00:07:16,550 --> 00:07:18,000
+y ahí "a2",
+
+118
+00:07:18,510 --> 00:07:22,640
+pero en cierto punto encontraremos un índice "N" tal que
+
+119
+00:07:22,650 --> 00:07:27,100
+todos los elementos (de la secuencia) después, estén en la vecindad-epsilon.
+
+120
+00:07:27,970 --> 00:07:30,600
+Entonces ustedes debieran ver que esto es realmente necesario
+
+121
+00:07:30,600 --> 00:07:32,980
+si desean que tenga sentido la frase
+
+122
+00:07:32,990 --> 00:07:35,990
+"an" se acerca más y más al punto "a".
+
+123
+00:07:36,880 --> 00:07:39,130
+Luego de manera formal ahora diríamos
+
+124
+00:07:39,140 --> 00:07:46,040
+Existe un "N" tal que para todo "n >= N"
+
+125
+00:07:46,140 --> 00:07:51,500
+se tiene que la distancia entre "an" y "a" es menor que epsilon.
+
+126
+00:07:52,300 --> 00:07:55,400
+y esta distancia la podemos medir con el valor absoluto.
+
+127
+00:07:56,150 --> 00:07:58,900
+Y noten que esto es lo mismo que decir
+
+128
+00:07:58,920 --> 00:08:01,620
+"an" se encuentra en la vecindad-epsilon de a.
+
+129
+00:08:02,080 --> 00:08:04,080
+Sin embargo tienen que darse cuenta que,
+
+130
+00:08:04,080 --> 00:08:10,070
+esto solo describe la convergencia al punto "a" si es válido para cualquier epsilon.
+
+131
+00:08:10,690 --> 00:08:14,580
+Esto deberá ser válido sin importar cuán pequeño sea el epsilon.
+
+132
+00:08:15,000 --> 00:08:17,300
+Por supuesto si elegimos un epsilon menor
+
+133
+00:08:17,350 --> 00:08:19,850
+podemos tener que elegir un "N" mayor.
+
+134
+00:08:20,310 --> 00:08:22,000
+Al final esto no importa,
+
+135
+00:08:22,030 --> 00:08:27,020
+porque aún tenemos infinitos elementos de la secuencia en la vecindad-epsilon
+
+136
+00:08:27,030 --> 00:08:29,220
+y solo un número finito afuera.
+
+137
+00:08:29,980 --> 00:08:33,679
+y con esto tienen la definción completa de convergencia.
+
+138
+00:08:34,320 --> 00:08:38,100
+Ahora, al opuesto de esto le decimos divergencia.
+
+139
+00:08:38,820 --> 00:08:42,900
+Porque en ese caso no encontramos un púnto límite "a" con la propiedad anterior.
+
+140
+00:08:42,919 --> 00:08:45,100
+Y decimos que la secuencia es divergente.
+
+141
+00:08:45,650 --> 00:08:47,650
+Ya hemos visto 2 ejemplos,
+
+142
+00:08:47,660 --> 00:08:50,800
+donde es obvio que no podemos encontrar ese "a".
+
+143
+00:08:51,380 --> 00:08:55,000
+Sin embargo debieran escribir una prueba correcta para eso.
+
+144
+00:08:55,750 --> 00:08:59,990
+Sin embargo, por ahora es mas interesante ver un ejemplo positivo.
+
+145
+00:09:00,660 --> 00:09:05,500
+O en otras palabras. La secuencia 1/n que es convergente a 0.
+
+146
+00:09:06,220 --> 00:09:09,050
+Así que nuestro "a" de antes ahora es simplmente 0.
+
+147
+00:09:09,580 --> 00:09:13,400
+Ya hemos hablado de esto. Intuitivamente tiene sentido.
+
+148
+00:09:13,870 --> 00:09:17,870
+Pero ahora podemos escribir una prueba formal de este enunciado.
+
+149
+00:09:18,550 --> 00:09:23,000
+Primero noten, que dado que tenemos que demostrar este enunciado para todo epsilon
+
+150
+00:09:23,020 --> 00:09:26,010
+tenemos que elegir un epsilon arbitrario al comienzo.
+
+151
+00:09:26,480 --> 00:09:28,480
+Entonces el primer enunciado debiera decir
+
+152
+00:09:28,510 --> 00:09:32,500
+Sea epsilon un número real mayor que 0.
+
+153
+00:09:32,990 --> 00:09:36,990
+y ya sabemos lo que el final del enunciado de la prueba debiera decir.
+
+154
+00:09:37,790 --> 00:09:43,500
+Esencialmente que la distancia de "an" a 0, este caso, es menor que epsilon.
+
+155
+00:09:43,970 --> 00:09:49,500
+y esto debiera ser válido para todos los indices "n >= N".
+
+156
+00:09:50,460 --> 00:09:54,940
+Ahora vean, lo único que falta acá es la definición de "N"
+
+157
+00:09:54,950 --> 00:09:57,880
+y el cálculo para obtener el resultado.
+
+158
+00:09:58,300 --> 00:10:01,260
+Pero por supuesto ya podemos incorporar algunos detalles,
+
+159
+00:10:01,280 --> 00:10:03,570
+porque conocemos la secuencia "an".
+
+160
+00:10:04,210 --> 00:10:07,130
+Primero, sustraer 0 no cambia nada
+
+161
+00:10:07,150 --> 00:10:09,540
+así que tenemos el valor absoluto de "an".
+
+162
+00:10:10,160 --> 00:10:13,150
+que por supuesto es simplemente 1/n.
+
+163
+00:10:13,730 --> 00:10:15,630
+Ahora en este punto ustedes debieran notar que,
+
+164
+00:10:15,650 --> 00:10:20,640
+como tenemos esta desigualdad a su vez tenemos la desigualdad para los recíprocos
+
+165
+00:10:21,330 --> 00:10:26,330
+O simplmente "1/n" es menor o igual que "1/N".
+
+166
+00:10:27,520 --> 00:10:29,520
+Ok. Con esto hemos expresado el cálculo
+
+167
+00:10:30,280 --> 00:10:35,150
+y lo único faltante es que 1/N es realmente menor que epsilon.
+
+168
+00:10:36,030 --> 00:10:40,750
+Desde luego podemos definir "N" como queramos así que elijamosla tan grande
+
+169
+00:10:40,750 --> 00:10:43,400
+tal que "N" veces epsilon sea mayor que 1.
+
+170
+00:10:44,080 --> 00:10:48,080
+Entonces solo tienen que preguntarse "¿Es esto realmente posible?".
+
+171
+00:10:48,790 --> 00:10:50,480
+y la respuesta es sí.
+
+172
+00:10:50,490 --> 00:10:54,090
+Y esta es exactamente la propiedad Arquimedeana de nuestros axiomas.
+
+173
+00:10:54,700 --> 00:10:58,940
+Simplemente nos dice que sin importar cuán pequeño sea el epsilon
+
+174
+00:10:58,940 --> 00:11:02,040
+siempre podemos exceder cualquier número que queramos.
+
+175
+00:11:02,420 --> 00:11:06,050
+Simplemente sumando el número una cantidad finita de veces.
+
+176
+00:11:06,630 --> 00:11:10,000
+Entonces ya tenemos un "N" apropiado acá.
+
+177
+00:11:10,950 --> 00:11:14,880
+Ahora, teniendo esto podemos finalmente leer la prueba de izquierda a derecha.
+
+178
+00:11:14,900 --> 00:11:16,350
+y ahora todo tiene sentido.
+
+179
+00:11:16,830 --> 00:11:19,930
+y también nuestro enunciado completo ha sido probado.
+
+180
+00:11:20,880 --> 00:11:26,300
+Ok. Acá han visto cuál debiera ser su proceso mental cuando quieran resolver un problema como este.
+
+181
+00:11:26,370 --> 00:11:29,270
+Parten con las cosas que hay que incluir
+
+182
+00:11:29,290 --> 00:11:31,800
+y al final las cosas que quieren probar.
+
+183
+00:11:32,390 --> 00:11:34,850
+y tratan de llenar todos los vacíos
+
+184
+00:11:34,910 --> 00:11:38,550
+de manera que al final puedan leer el enunciado de izquierda a derecha.
+
+185
+00:11:39,120 --> 00:11:42,550
+Esto significa que a veces es necesario cambiar las cosas un poco
+
+186
+00:11:42,570 --> 00:11:44,570
+para obtener el resultado al final.
+
+187
+00:11:45,000 --> 00:11:46,900
+Ok. Pienso que es suficiente por hoy.
+
+188
+00:11:46,900 --> 00:11:48,640
+Espero verlos en el próximo video,
+
+189
+00:11:48,660 --> 00:11:52,000
+cuando hablemos de las propiedades de una secuencia convergente.
+
+190
+00:11:52,390 --> 00:11:55,380
+Así que buen día y nos vemos. ¡Adiós!
