@@ -1,0 +1,412 @@
+1
+00:00:00,400 --> 00:00:03,694
+Hello and welcome back to probability theory.
+
+2
+00:00:04,243 --> 00:00:09,247
+and as always first i want to thank all the nice people that support this channel on Steady or Paypal. 
+
+3
+00:00:09,657 --> 00:00:14,013
+Now, in todays part 10 we will talk about so called random variables.
+
+4
+00:00:14,443 --> 00:00:19,114
+First they might sound complicated, but actually they are very simple and natural.
+
+5
+00:00:19,857 --> 00:00:25,286
+We just want to put all the relevant information of a random experiment into one object.
+
+6
+00:00:25,800 --> 00:00:31,080
+and usually for such objects we use capital letters. For example capital X.
+
+7
+00:00:31,600 --> 00:00:39,273
+Now soon we will see that this capital X is just a map defined on a sample space Omega with some special properties.
+
+8
+00:00:39,473 --> 00:00:44,808
+Indeed often here the codomain is simply given by the real number lin R.
+
+9
+00:00:45,600 --> 00:00:51,168
+However in a moment i will show you how we can naturally generalize this to another set of values.
+
+10
+00:00:51,614 --> 00:00:56,143
+and of course we will also discuss the properties we need for such a map.
+
+11
+00:00:56,343 --> 00:01:00,249
+But before we do this lets first discuss a simple example.
+
+12
+00:01:01,343 --> 00:01:07,478
+So what we could do is, as often, throwing 2 dice and maybe we have a red one and a green one.
+
+13
+00:01:07,914 --> 00:01:13,863
+Hence we can distinguish the dice, which means this is the same as throwing one die twice.
+
+14
+00:01:14,414 --> 00:01:22,058
+Therefore you should immediately be able to write down the probability space, because this is exactly what we discussed in the last video.
+
+15
+00:01:22,258 --> 00:01:30,249
+So the sample space Omega is the cartesian product of 1 to 6 with itself and the sigma algebra A is just the power set.
+
+16
+00:01:30,449 --> 00:01:37,379
+and then without writing down the explicit definition, we can simply say, P is given by the uniform distribution.
+
+17
+00:01:37,579 --> 00:01:44,533
+Ok there you see, with this probability space we have the whole information of this random experiment.
+
+18
+00:01:44,733 --> 00:01:48,979
+So all the possible outcomes with the probabilities are given here.
+
+19
+00:01:49,514 --> 00:01:56,267
+However maybe we are in the situation where we are only interested in the sum of the two numbers the dice show.
+
+20
+00:01:56,771 --> 00:02:03,152
+For example we could be in a game where this is important and the colours of the two dice don't matter at all.
+
+21
+00:02:03,629 --> 00:02:08,082
+Then exactly in such a case we would define a random variable.
+
+22
+00:02:08,629 --> 00:02:12,189
+and as i told you before, we would simply call it X.
+
+23
+00:02:12,871 --> 00:02:20,771
+Ok, so here we have a map from the sample space Omega, which has all the possible outcomes of the 2 dice, to the real numbers.
+
+24
+00:02:21,457 --> 00:02:26,176
+So what X should do we already know. It should give us the sum of the 2 numbers.
+
+25
+00:02:26,643 --> 00:02:34,475
+Hence a sample given by (omega_1, omega_2) is mapped to the sum omega_1 + omega_2.
+
+26
+00:02:34,675 --> 00:02:37,729
+So you see, this is not a complicated map at all.
+
+27
+00:02:38,657 --> 00:02:44,535
+What we can remember in this case is that the input is a sample and the output is a number.
+
+28
+00:02:44,735 --> 00:02:52,945
+Ok, so this is a typical example of a random variable, where you see it's simply extracts the information we are interested in.
+
+29
+00:02:53,514 --> 00:02:57,136
+Therefore later we will work with a lot of random variables.
+
+30
+00:02:57,743 --> 00:03:01,800
+However first i would say we have to give the correct definition now.
+
+31
+00:03:02,471 --> 00:03:07,250
+and as promised, this is the general definition one uses in probability theory.
+
+32
+00:03:07,614 --> 00:03:13,187
+Ok, so what we need are 2 spaces we call measurable spaces or event spaces.
+
+33
+00:03:13,771 --> 00:03:19,657
+The first one should be given by a set. A sample space Omega with a corresponding sigma algebra A
+
+34
+00:03:20,271 --> 00:03:26,075
+and then the second one is given by a set Omega tilde with a corresponding sigma algebra A tilde.
+
+35
+00:03:26,657 --> 00:03:32,610
+So you could say we have here probability spaces, where the probability measure P is not fixed yet.
+
+36
+00:03:33,157 --> 00:03:40,485
+Hence we are just interested in the events, the elements of a sigma algebra and therefore we talk of events spaces.
+
+37
+00:03:40,685 --> 00:03:46,102
+However in measure theory we would call these spaces measurable spaces
+
+38
+00:03:46,302 --> 00:03:51,756
+and in fact the random variable we define now, we would call a measurable map.
+
+39
+00:03:51,956 --> 00:03:57,681
+Nevertheless as often in probability theory, we use some special names for these objects.
+
+40
+00:03:57,881 --> 00:04:05,334
+Ok, now we consider a map we call capital X from one sample space Omega into the other one, Omega tilde
+
+41
+00:04:05,757 --> 00:04:12,009
+and then this map is called a random variable if it is a measurable map in the measure theoretical sence.
+
+42
+00:04:12,486 --> 00:04:18,519
+Which means we have to look at all the pre-images of the events in the second sample space, Omega tilde.
+
+43
+00:04:18,886 --> 00:04:24,141
+Here lets denote an element of curved A tilde, just with a normal A tilde.
+
+44
+00:04:24,629 --> 00:04:29,491
+and then we know, this pre-image of A tilde is the subset of Omega.
+
+45
+00:04:29,691 --> 00:04:35,971
+However in the end, when we have a probability measure P we want to measure these sets here.
+
+46
+00:04:36,529 --> 00:04:43,536
+Hence it's necessary that this is not just a subset of Omega, but also an element of the sigma algebra A.
+
+47
+00:04:43,736 --> 00:04:49,425
+Therefore this is exactly the right condition we need here for all A tilde.
+
+48
+00:04:49,625 --> 00:04:54,065
+OK, there we have it. This is the whole definition of a random variable.
+
+49
+00:04:54,114 --> 00:04:56,141
+A concept we will need a lot.
+
+50
+00:04:56,341 --> 00:05:00,011
+Therefore i would say lets immediately look at some examples.
+
+51
+00:05:00,600 --> 00:05:05,057
+So maybe for the start lets discuss the details of the random variable from above.
+
+52
+00:05:05,607 --> 00:05:09,329
+There the first event space was given by (Omega, A).
+
+53
+00:05:09,529 --> 00:05:15,386
+Where Omega is the sample space given by 1 to 6, squared and A is just the power set.
+
+54
+00:05:15,943 --> 00:05:20,244
+Moreover the second event space was given by the real number line.
+
+55
+00:05:20,929 --> 00:05:23,486
+Hence this would be Omega tilde.
+
+56
+00:05:24,192 --> 00:05:27,812
+However now we should ask: What is A tilde?
+
+57
+00:05:28,257 --> 00:05:31,657
+In the end i can already tell you it will not matter at all,
+
+58
+00:05:31,857 --> 00:05:36,543
+but usually when we have the real number line, we would take the Borel sigma algebra.
+
+59
+00:05:37,057 --> 00:05:39,743
+Therefore we also do this here
+
+60
+00:05:40,250 --> 00:05:47,103
+and now i can ask you: is this map from before, this X, actually a random variable?
+
+61
+00:05:47,729 --> 00:05:53,886
+At first glance it seems to be that we have to check a lot, because we need to check all the pre-images here.
+
+62
+00:05:54,386 --> 00:05:59,253
+However please recall the sigma algebra A here is the whole power set.
+
+63
+00:05:59,886 --> 00:06:08,586
+Hence the condition we have to satisfy just tells us that the pre-image of any Borel set A tilde is a subset of Omega.
+
+64
+00:06:09,025 --> 00:06:11,714
+Which is of course trivially fulfilled.
+
+65
+00:06:12,167 --> 00:06:19,866
+This means that the definition of X does not matter at all, when we have on the left hand side the whole power set as the sigma algebra.
+
+66
+00:06:20,371 --> 00:06:25,232
+So in this case we can easily conclude that the map X is a random variable.
+
+67
+00:06:25,432 --> 00:06:30,740
+Indeed most of the time we won't have any problems at all fulfilling this condition here
+
+68
+00:06:30,940 --> 00:06:35,463
+or to put it in other words counter examples are always very artificial.
+
+69
+00:06:35,829 --> 00:06:43,822
+For example you could take the same case again, but now we will change the power set here. So we take another sigma algebra A.
+
+70
+00:06:44,022 --> 00:06:48,100
+Hence instead of the largest one, the power set, we take the smallest one.
+
+71
+00:06:49,057 --> 00:06:54,294
+So the only events we have in our sigma algebra A are the empty set and Omega itself.
+
+72
+00:06:55,229 --> 00:07:01,386
+When of course we immediately find a counter example. You just have to look at the pre-image of the singleton 2.
+
+73
+00:07:01,986 --> 00:07:06,820
+In words this means the sum of the 2 numbers of the dice is exactly 2.
+
+74
+00:07:07,200 --> 00:07:11,944
+So there is only one dice throw possible. The 2 dice show both one.
+
+75
+00:07:12,271 --> 00:07:16,681
+Therefore this pre-image is just a set with only one element.
+
+76
+00:07:17,257 --> 00:07:21,489
+and that's the reason i chose 2 here, because then i don't have to write so much
+
+77
+00:07:21,689 --> 00:07:23,801
+and of course you immediately see the result.
+
+78
+00:07:24,001 --> 00:07:28,498
+This set is neither the empty set nor the whole set Omega.
+
+79
+00:07:29,157 --> 00:07:32,583
+So it's not an element in the sigma algebra A.
+
+80
+00:07:32,783 --> 00:07:37,272
+and then we can conclude, in this case X is not a random variable.
+
+81
+00:07:37,986 --> 00:07:43,479
+Ok, now in summary what you should see here is: random variables are not complicated at all.
+
+82
+00:07:43,814 --> 00:07:48,811
+and indeed most of the time the fact that we have a random variable is immediately given.
+
+83
+00:07:49,011 --> 00:07:53,030
+Ok now i want to close this video with an important notation.
+
+84
+00:07:53,614 --> 00:07:58,741
+Assume again, that we have 2 measurable spaces also called event spaces.
+
+85
+00:07:59,257 --> 00:08:01,829
+Moreover lets also fix two other things.
+
+86
+00:08:02,060 --> 00:08:05,329
+First we have a random variable X as before
+
+87
+00:08:05,720 --> 00:08:09,519
+and secondly maybe not so surprising, we have a probability measure P.
+
+88
+00:08:09,719 --> 00:08:13,036
+Defined on the first event space on the left.
+
+89
+00:08:13,236 --> 00:08:18,461
+This means when we take any set A tilde from the sigma algebra A tilde
+
+90
+00:08:18,661 --> 00:08:23,931
+and look at the pre-image under X, then we can calculate the probability of this event.
+
+91
+00:08:24,486 --> 00:08:31,326
+Simply because we know by the definition of a random variable that this set lies in the sigma algebra A.
+
+92
+00:08:32,071 --> 00:08:34,867
+Hence P of this set makes sense.
+
+93
+00:08:35,300 --> 00:08:39,571
+Therefore one usually uses a shorter, but strange notation for this.
+
+94
+00:08:40,486 --> 00:08:44,849
+One simply writes P of X in A tilde.
+
+95
+00:08:45,429 --> 00:08:50,563
+First it looks a little bit odd, but you will see this a lot in probability theory
+
+96
+00:08:51,071 --> 00:08:55,714
+and indeed it makes a little bit more sense when we use the definition of a pre-image.
+
+97
+00:08:56,057 --> 00:09:00,344
+Which is simply the set of all lower case omega in capital Omega
+
+98
+00:09:01,029 --> 00:09:05,491
+with the property that X of lower case omega lies in A tilde.
+
+99
+00:09:06,043 --> 00:09:11,309
+Hence you can see the left hand side as a shortcut for writing this whole set.
+
+100
+00:09:11,509 --> 00:09:19,076
+The important thing you should remember here is that this literally does not make sense, but it stands for a whole set in Omega.
+
+101
+00:09:19,276 --> 00:09:24,193
+Please note in the same sense also other shortcuts as this are used as well.
+
+102
+00:09:24,686 --> 00:09:28,149
+In more detail we will discuss this in the next video.
+
+103
+00:09:28,349 --> 00:09:32,043
+Therefore i hope i see there and have a nice day. Bye!
+
