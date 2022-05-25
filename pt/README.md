@@ -1,4 +1,4 @@
 # Probability Theory 
 
-- English (09/xx)
+- English (10/xx)
 - German (04/xx)
