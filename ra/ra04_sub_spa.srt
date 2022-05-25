@@ -1,0 +1,431 @@
+1
+00:00:00,470 --> 00:00:03,170
+Hola y bienvenidos a análisis real.
+
+2
+00:00:03,770 --> 00:00:09,150
+y como siempre quiero agradecer a todos los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,780 --> 00:00:13,700
+En la parte 4 de hoy hablaremos de los llamados teoremas de límites.
+
+4
+00:00:14,340 --> 00:00:17,820
+De verdad, cuando se trata de secuencias, estos se usan todo el tiempo.
+
+5
+00:00:18,640 --> 00:00:20,040
+Para esto por favor recuerden.
+
+6
+00:00:20,060 --> 00:00:24,350
+Así es como denotamos una secuencia de números reales: "an"
+
+7
+00:00:25,110 --> 00:00:28,200
+y si la secuencia es convergente al punto "a"
+
+8
+00:00:28,450 --> 00:00:30,490
+tenemos una notación para este límite.
+
+9
+00:00:31,180 --> 00:00:33,180
+Una posibilidad es escribir
+
+10
+00:00:33,190 --> 00:00:37,180
+el límite "n al infinito" de "an" es igual a "a"
+
+11
+00:00:38,250 --> 00:00:41,350
+y otra posibilidad es simplemente usar una flecha,
+
+12
+00:00:41,370 --> 00:00:45,450
+donde escribimos "n al infinito" y luego esta apunta a "a"
+
+13
+00:00:46,370 --> 00:00:48,370
+Ambas cosas significan exactamente lo mismo
+
+14
+00:00:48,380 --> 00:00:51,180
+Es decir, la definición que dimos de convergencia.
+
+15
+00:00:51,760 --> 00:00:53,710
+En esta figura lo ven de nuevo.
+
+16
+00:00:53,730 --> 00:00:59,450
+Para todo epsilon los elementos de la secuencia están en la vecindad-epsilon de "a" eventualmente.
+
+17
+00:01:00,340 --> 00:01:03,750
+y ahora vamos a hablar lo que ocurre con la convergencia
+
+18
+00:01:03,770 --> 00:01:06,510
+cuando combinamos dos secuencias convergentes.
+
+19
+00:01:07,070 --> 00:01:10,460
+y entonces también tenemos algunas reglas para tratar los límites.
+
+20
+00:01:11,300 --> 00:01:14,480
+Todo esto lo podemos expresar en un buen teorema.
+
+21
+00:01:15,770 --> 00:01:18,460
+Llamémoslo simplemente el Teorema de límites.
+
+22
+00:01:19,020 --> 00:01:20,060
+Esto quiere decir
+
+23
+00:01:20,080 --> 00:01:23,760
+que existe un límite único "a" para esta secuencia
+
+24
+00:01:23,780 --> 00:01:27,280
+y un límite único "b" para esta otra secuencia.
+
+25
+00:01:27,850 --> 00:01:31,380
+Ok, visualicemos estas secuencias mediante un gráfico.
+
+26
+00:01:32,140 --> 00:01:35,740
+Entonces acá dibujamos la secuencia "an".
+
+27
+00:01:35,770 --> 00:01:39,900
+De manera que este es a1, a2, a3, a4 etc.
+
+28
+00:01:40,350 --> 00:01:42,840
+y hacemos lo mismo con "bn"
+
+29
+00:01:42,860 --> 00:01:45,340
+Así que b1, b2 y demás.
+
+30
+00:01:45,870 --> 00:01:48,950
+y entonces pueden ver que podemos fácilmente generar un nueva secuencia
+
+31
+00:01:48,970 --> 00:01:52,250
+simplemente combinando ambas secuencias en cada punto.
+
+32
+00:01:53,050 --> 00:01:55,420
+Por ejemplo, podríamos simplemente sumar los valores
+
+33
+00:01:55,450 --> 00:01:57,300
+y obtenemos una nueva secuencia
+
+34
+00:01:57,310 --> 00:01:58,610
+que podríamos llamar la suma.
+
+35
+00:01:59,190 --> 00:02:01,280
+Ahora, por supuesto, la pregunta natural es
+
+36
+00:02:01,290 --> 00:02:03,390
+¿Que ocurre cuando "n" va al infinito?
+
+37
+00:02:03,930 --> 00:02:07,920
+Ya que sabemos de antemano que tenemos convergencia para "an" y "bn"
+
+38
+00:02:08,389 --> 00:02:13,270
+Y sería bueno tenerla para "an + bn", la nueva secuencia, también.
+
+39
+00:02:13,980 --> 00:02:16,660
+y de hecho, este es nuestro primer resultado:
+
+40
+00:02:17,210 --> 00:02:22,110
+Tenemos que la nueva secuencia "an + bn" es convergente.
+
+41
+00:02:22,280 --> 00:02:24,680
+Así que este límite está definido de manera única.
+
+42
+00:02:25,070 --> 00:02:26,550
+Pero tenemos aún mas.
+
+43
+00:02:26,560 --> 00:02:28,329
+Podemos calcularlo inmediatamente.
+
+44
+00:02:28,890 --> 00:02:32,270
+Es simplemente la suma de los dos límites que ya conocemos.
+
+45
+00:02:33,030 --> 00:02:36,790
+En otras palabras, tratándose de una suma podemos colocar el límite adentro.
+
+46
+00:02:37,240 --> 00:02:40,740
+Siempre que estos dos límites existan.
+
+47
+00:02:41,440 --> 00:02:43,630
+Por supuesto esto lo podemos emplear muchas veces
+
+48
+00:02:43,640 --> 00:02:47,310
+cuando queremos calcular un límite y tenemos una suma involucrada.
+
+49
+00:02:47,730 --> 00:02:52,350
+Ahora, lo bueno es que esto funciona de la misma manera cuando tenemos una multiplicación
+
+50
+00:02:53,060 --> 00:02:56,660
+Acá también podemos colocar el límite al interior del producto.
+
+51
+00:02:57,110 --> 00:03:01,020
+En otras palabras, esta nueva secuencia también es convergente,
+
+52
+00:03:01,030 --> 00:03:03,600
+cuando la dos secuencias son convergentes.
+
+53
+00:03:04,400 --> 00:03:09,100
+Ok. les puedo decir que lo mismo es válido para las operaciones inversas
+
+54
+00:03:09,160 --> 00:03:11,350
+es decir la sustracción y la división.
+
+55
+00:03:11,950 --> 00:03:15,900
+Escribamos esto para la nueva secuencia dada por esta fracción.
+
+56
+00:03:16,560 --> 00:03:20,500
+Y claro, tenemos que indicar que el denominador nunca puede ser 0
+
+57
+00:03:20,520 --> 00:03:22,990
+de manera que toda fracción completa esté bien definida.
+
+58
+00:03:23,570 --> 00:03:28,079
+Pero entonces podemos llevar el límite al numerador y al denominador
+
+59
+00:03:28,090 --> 00:03:31,490
+indicando que este límite tampoco puede ser 0.
+
+60
+00:03:31,970 --> 00:03:36,560
+Y con estos dos supuestos tenemos el resultado de la misma manera que para el producto.
+
+61
+00:03:37,440 --> 00:03:40,730
+Ok, con este tenemos los 3 teoremas importantes de límites.
+
+62
+00:03:40,980 --> 00:03:42,170
+que debieran recordar.
+
+63
+00:03:42,700 --> 00:03:47,180
+Podemos probarlos fácilmente usando nuestra definición epsilon-"N" como siempre.
+
+64
+00:03:47,960 --> 00:03:51,860
+Ya que la prueba se hace de manera similar a las que hemos hecho antes
+
+65
+00:03:51,890 --> 00:03:53,280
+sencillamente me la puedo saltar.
+
+66
+00:03:53,840 --> 00:03:58,040
+Y como no es difícil mejor usemos este tiempo para un ejemplo típico.
+
+67
+00:03:58,740 --> 00:04:03,060
+Entonces tomemos esta nueva secuencia "Cn" dada por esta fracción para todo "n"
+
+68
+00:04:03,480 --> 00:04:04,750
+y preguntémonos
+
+69
+00:04:04,770 --> 00:04:07,150
+¿Es esta secuencia convergente?
+
+70
+00:04:07,760 --> 00:04:09,850
+Y si lo es, ¿Cuál es el límite?
+
+71
+00:04:10,310 --> 00:04:12,740
+Esto no es nada claro a primera vista,
+
+72
+00:04:12,750 --> 00:04:15,000
+porque no está en la forma anterior.
+
+73
+00:04:15,130 --> 00:04:17,720
+No tenemos un secuencia convergente ni aquí ni acá.
+
+74
+00:04:18,459 --> 00:04:22,740
+Desde luego si "n" aumenta este número se hace más y más grande
+
+75
+00:04:22,990 --> 00:04:26,250
+Sin embargo lo que debieran ver es que el término con "n^2"
+
+76
+00:04:26,270 --> 00:04:28,850
+cumple la parte más importante en su aumento.
+
+77
+00:04:29,460 --> 00:04:31,820
+En otras palabras si "n" es muy grande
+
+78
+00:04:31,840 --> 00:04:35,350
+solo estas dos partes acá son importantes para el cálculo.
+
+79
+00:04:35,760 --> 00:04:37,400
+Y la pregunta se mantiene
+
+80
+00:04:37,409 --> 00:04:39,780
+como tratar este caso de la manera correcta.
+
+81
+00:04:40,400 --> 00:04:42,400
+De hecho esto siempre funciona de una manera 
+
+82
+00:04:42,409 --> 00:04:46,320
+solo tenemos que expandir la fracción completa en términos de su potencia mayor.
+
+83
+00:04:46,770 --> 00:04:52,850
+En este caso simplemente multiplicar el numerador y denominador por 1 sobre "n^2"
+
+84
+00:04:53,600 --> 00:04:55,800
+Entonces, lo ven, todo se cancela  
+
+85
+00:04:55,830 --> 00:04:58,600
+y obtenemos secuencias que ya conocemos.
+
+86
+00:04:59,070 --> 00:05:00,860
+Acá la constante 2 
+
+87
+00:05:00,870 --> 00:05:02,800
+luego 5 sobre "n" y 
+
+88
+00:05:02,810 --> 00:05:04,310
+-1 sobre "n^2"
+
+89
+00:05:04,830 --> 00:05:07,370
+y de manera similar en el denominador.
+
+90
+00:05:08,050 --> 00:05:13,150
+Ahora recuerden que ya demostramos que 1 sobre "n" tiende a 0.
+
+91
+00:05:13,670 --> 00:05:16,270
+Así que es convergente con límite 0.
+
+92
+00:05:16,820 --> 00:05:19,690
+Luego usando el teorema de límites parte b 
+
+93
+00:05:19,710 --> 00:05:22,950
+también sabemos que 1 sobre "n^2" tiende a 0.
+
+94
+00:05:23,680 --> 00:05:26,340
+Y así, combinando todos los teoremas de límites
+
+95
+00:05:26,400 --> 00:05:29,890
+vemos que todas estas partes aquí tienden a 0.
+
+96
+00:05:29,980 --> 00:05:34,400
+y lo único que permanece en el límite es 2 dividido por -5.
+
+97
+00:05:35,010 --> 00:05:40,440
+Más concretamente, acá después del límite tenemos 2 + 0 - 0
+
+98
+00:05:40,460 --> 00:05:44,050
+y aquí -5 + 0 + 0.
+
+99
+00:05:44,760 --> 00:05:48,950
+Luego -2 sobre 5 es el límite de "Cn"
+
+100
+00:05:49,800 --> 00:05:54,260
+En otras palabras hemos probado que esta secuencia es realmente convergente.
+
+101
+00:05:54,280 --> 00:05:57,659
+sin usar la definición epsilon-"N".
+
+102
+00:05:58,640 --> 00:06:02,220
+Y así pueden ver que los teoremas de límites les hacen la vida mas fácil aquí.
+
+103
+00:06:02,920 --> 00:06:05,020
+Ahora aparte de todas estas propiedades 
+
+104
+00:06:05,030 --> 00:06:08,110
+el límite también cumple con la propiedad de monoticidad
+
+105
+00:06:08,490 --> 00:06:12,360
+y esto también es útil para calcular límites.
+
+106
+00:06:12,840 --> 00:06:17,320
+Les demostraré eso en el próximo video y luego veremos más ejemplos.
+
+107
+00:06:17,890 --> 00:06:20,470
+Así que espero verlos ahí y que tengan un buen día.
+
+108
+00:06:20,890 --> 00:06:21,370
+¡Hasta pronto!
