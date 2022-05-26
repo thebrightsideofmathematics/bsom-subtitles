@@ -1,0 +1,408 @@
+1
+00:00:00,429 --> 00:00:03,234
+Hello and welcome back to real analysis
+
+2
+00:00:03,814 --> 00:00:08,720
+and as always i want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,071 --> 00:00:13,526
+Todays part 7 is about Cauchy sequences and completeness.
+
+4
+00:00:14,071 --> 00:00:19,972
+For starting this topic lets recall what we already considered sequences with a special property.
+
+5
+00:00:20,529 --> 00:00:22,818
+Namely convergent sequences.
+
+6
+00:00:23,314 --> 00:00:31,157
+Which means there is a number "a" such that the sequence members here get arbitrarly close to this number "a" eventually.
+
+7
+00:00:31,671 --> 00:00:34,514
+You already know the formal way to say this. Which is:
+
+8
+00:00:34,771 --> 00:00:40,538
+for all epsilon there exists a capital N such that for all indices n greater than this N,
+
+9
+00:00:40,738 --> 00:00:44,911
+the distance between "a" and "a_n" is less than the given epsilon.
+
+10
+00:00:45,111 --> 00:00:50,161
+Now the problem with this definition is that you need to know the limit to show convergence.
+
+11
+00:00:50,543 --> 00:00:54,236
+Simply because we measure the distance to this "a".
+
+12
+00:00:54,436 --> 00:01:01,547
+Hence there is a different idea or a different property a sequence can have, which does not need such a number "a" in definition.
+
+13
+00:01:01,747 --> 00:01:06,185
+For this lets look at a number line again and at a sequence which should converge.
+
+14
+00:01:06,957 --> 00:01:10,475
+So here we have a_1, a_2, a_3 and so on
+
+15
+00:01:10,743 --> 00:01:14,678
+and the sequence members accumulate here, so there should be a limit here.
+
+16
+00:01:15,300 --> 00:01:19,169
+However we don't want to use this limit to describe what happens here.
+
+17
+00:01:19,557 --> 00:01:24,829
+Indeed what happens here is that the sequence members themselves get closer and closer to each other.
+
+18
+00:01:25,886 --> 00:01:31,488
+Hence what we want is that the sequence members lie arbitraily close to each other eventually.
+
+19
+00:01:31,771 --> 00:01:36,996
+So everything is about the distance you can measure between 2 sequence members here.
+
+20
+00:01:37,196 --> 00:01:40,751
+Which is the absolute value of "a_n - a_m".
+
+21
+00:01:41,271 --> 00:01:44,663
+and then they should be less than epsilon, we choose at the beginning.
+
+22
+00:01:45,414 --> 00:01:49,591
+Therefore the formal way then reads: For all epsilon greater 0,
+
+23
+00:01:50,057 --> 00:01:56,578
+we find a capital N such that for all indices called n and m afterwards,
+
+24
+00:01:57,043 --> 00:02:01,296
+we have that the distance between the sequence members is less than epsilon.
+
+25
+00:02:02,143 --> 00:02:06,035
+and now a sequence with this property we call a Cauchy sequence.
+
+26
+00:02:06,571 --> 00:02:09,666
+Ok, so lets put that into a definition.
+
+27
+00:02:10,200 --> 00:02:15,586
+This is exactly the definition you might have already seen in my "start learning reals" series.
+
+28
+00:02:16,229 --> 00:02:21,250
+There i also showed you the important fact that for a sequence of real numbers
+
+29
+00:02:21,786 --> 00:02:27,289
+we have that being a Cauchy sequence is equivalent to being a convergent sequence.
+
+30
+00:02:28,143 --> 00:02:31,900
+The prove of this direction you can see in part 2 of the course
+
+31
+00:02:32,537 --> 00:02:35,758
+and the other one is exactly the completeness axiom.
+
+32
+00:02:36,657 --> 00:02:41,995
+So the completeness axiom tells us that there are no holes in our complete real number line.
+
+33
+00:02:42,986 --> 00:02:46,671
+Now, what you really should remember is when we work in the real numbers,
+
+34
+00:02:46,743 --> 00:02:51,100
+we don't have to distinguish Cauchy sequences and convergent sequences.
+
+35
+00:02:52,086 --> 00:02:56,270
+They have different definitions, but for the real numbers they mean the same thing.
+
+36
+00:02:56,914 --> 00:03:02,721
+Therefore we are able to use the one or the other definition, depending what is usefull in our context
+
+37
+00:03:03,343 --> 00:03:08,455
+and soon we will see that the definition of the Cauchy sequences make a lot of things easier.
+
+38
+00:03:08,655 --> 00:03:13,512
+However before we apply this in examples lets discuss another important property.
+
+39
+00:03:14,186 --> 00:03:18,967
+It's called Dedekind completeness and the property for subsets of the real numbers.
+
+40
+00:03:19,457 --> 00:03:25,600
+If M is such a set and also bounded from above, then we know the supremum exists.
+
+41
+00:03:25,900 --> 00:03:29,591
+So there is at least upper bound as a number in R.
+
+42
+00:03:29,791 --> 00:03:33,632
+Please recall that we defined the supremum in the last video.
+
+43
+00:03:34,129 --> 00:03:38,413
+and maybe not so surprising, we have the same thing for the infimum as well.
+
+44
+00:03:38,414 --> 00:03:43,367
+So if we have a set that is bounded from below, then the infimum exists as a real number.
+
+45
+00:03:44,014 --> 00:03:46,777
+Ok, let me explain how we can prove this statement.
+
+46
+00:03:47,229 --> 00:03:51,653
+and i thing it's enough to give you the idea, how to do it for the supremum.
+
+47
+00:03:52,257 --> 00:03:56,218
+For this lets consider the number line and the set M on it.
+
+48
+00:03:56,418 --> 00:04:02,058
+Then we know we find an upper bound for the set M. So lets choose one and call it b_1.
+
+49
+00:04:02,900 --> 00:04:06,439
+On the other hand lets choose any element in the set M
+
+50
+00:04:06,771 --> 00:04:09,351
+and this one we call just a_1.
+
+51
+00:04:09,771 --> 00:04:15,125
+Now the idea is that we then go to the point that is exactly in the middle of these 2 points.
+
+52
+00:04:15,829 --> 00:04:19,130
+and this one of course i now call c_1.
+
+53
+00:04:19,500 --> 00:04:22,980
+So we just calculate the sum and then we divide by 2.
+
+54
+00:04:23,343 --> 00:04:26,888
+So in this case we find this mittle point somewhere here.
+
+55
+00:04:27,557 --> 00:04:34,143
+Of course the idea is that by doing this calculation we get closer to this point. Which is the supremum of M in the picture.
+
+56
+00:04:34,629 --> 00:04:40,571
+Therefore now i explain how we get the whole sequence. Which gives us an approximation of the supremum.
+
+57
+00:04:41,014 --> 00:04:44,743
+Ok, you might have already seen, we can have 2 cases for c_1.
+
+58
+00:04:44,971 --> 00:04:48,400
+Either it's still an upper bound like b_1 or not.
+
+59
+00:04:48,930 --> 00:04:55,071
+In the first case we just have a smaller upper bound. So a better one. So we can just substitute b_1.
+
+60
+00:04:55,500 --> 00:05:00,793
+Or to put it to other words, we introduce b2 to be the new upper bound given by c_1.
+
+61
+00:05:01,214 --> 00:05:05,707
+On the other hand the left hand side we don't have to change. We just stay at a_1
+
+62
+00:05:06,443 --> 00:05:12,710
+and then afterwards we do the same thing again now with a_2 and b_2, define the middel point as c_2.
+
+63
+00:05:13,443 --> 00:05:18,668
+In this case you then would to see that the middle point lies left to some points of M.
+
+64
+00:05:18,868 --> 00:05:22,041
+Therefore then we have to think what we do in the second case.
+
+65
+00:05:22,986 --> 00:05:29,100
+Now, as i said here it's possible to find a point x in M, which is larger than c_1.
+
+66
+00:05:29,943 --> 00:05:33,865
+Then of course this new larger point should be our new a_2.
+
+67
+00:05:34,314 --> 00:05:37,607
+So with this we shifted the left point to the right
+
+68
+00:05:37,943 --> 00:05:41,386
+and that we don't need to change the right hand side with b_1.
+
+69
+00:05:42,600 --> 00:05:47,055
+Now having this we have the whole procedure how we can form the sequences.
+
+70
+00:05:47,786 --> 00:05:55,803
+So in general when we have a_n, b_n, we define cn and then as before we just define the 2 next numbers here.
+
+71
+00:05:56,386 --> 00:06:02,399
+So this is a recursive definition, which gives us 2 sequences, an and bn.
+
+72
+00:06:02,671 --> 00:06:08,731
+and the sequence members bn are always upper bounds, which approximate the supremum.
+
+73
+00:06:09,286 --> 00:06:15,229
+Therefore the only thing that remains to show is that the sequence bn is indeed a Cauchy sequence.
+
+74
+00:06:16,114 --> 00:06:20,282
+However this is not hard to see, because we have the following estimate.
+
+75
+00:06:20,914 --> 00:06:25,310
+Namely for 2 indices m and n, where m is greater than n
+
+76
+00:06:25,510 --> 00:06:29,324
+we can calculate the distance b_n to b_m.
+
+77
+00:06:29,524 --> 00:06:36,124
+I used the absolute value here, but honestly we don't need it, because b_n is greater or equal than b_m
+
+78
+00:06:36,771 --> 00:06:41,900
+and now the distance gets larger when we substitute any "a" for this b_m
+
+79
+00:06:42,319 --> 00:06:45,922
+and the best "a" we can choose would be "a" with index n.
+
+80
+00:06:46,122 --> 00:06:51,833
+Now we know by our construction with the middle point, that we always cut the distance in half.
+
+81
+00:06:52,157 --> 00:07:00,191
+Therefore we know that this is 1/2 to the power "n - 1" times the starting distance |b_1 - a_1|
+
+82
+00:07:00,529 --> 00:07:04,302
+and now this whole number here we can get arbitrarily small.
+
+83
+00:07:04,986 --> 00:07:11,214
+This is what you can show and then you can formalize the conclusion that b_n is indeed a Cauchy sequence
+
+84
+00:07:11,578 --> 00:07:17,998
+and then the last step is just using the completeness axiom to show that b_n is a convergent sequence.
+
+85
+00:07:18,814 --> 00:07:23,300
+Also the only possibility for the limit then is the supremum of M.
+
+86
+00:07:23,620 --> 00:07:26,545
+Ok, so that's the overall idea of the whole prove.
+
+87
+00:07:26,745 --> 00:07:29,016
+The missing details you can easily fit in.
+
+88
+00:07:29,216 --> 00:07:35,396
+However now knowing that the supremum and infimum always exists has an important application.
+
+89
+00:07:36,114 --> 00:07:40,359
+We immediately get a nice criterion to show convergence of a sequence.
+
+90
+00:07:40,800 --> 00:07:44,208
+If the sequence a_n is monotonically decreasing
+
+91
+00:07:44,671 --> 00:07:49,135
+which simply means that each sequence member is less or equal than the predecessor
+
+92
+00:07:50,057 --> 00:07:53,001
+and if the sequence is also bounded from below
+
+93
+00:07:53,457 --> 00:07:57,745
+which simply means that the set, given by the squence member has a lower bound.
+
+94
+00:07:58,486 --> 00:08:03,088
+Then we can finally conclude that the sequence is indeed a convergent sequence.
+
+95
+00:08:03,629 --> 00:08:08,946
+There you see, this is a very useful criterion, because you only have to check 2 properties.
+
+96
+00:08:09,657 --> 00:08:12,914
+Which could be easier to check then the definition of convergence.
+
+97
+00:08:13,614 --> 00:08:18,865
+In this formulation you might already see we used the existence of the supremum of this set.
+
+98
+00:08:19,543 --> 00:08:23,883
+However if we use the existence of the infimum we get another criterion.
+
+99
+00:08:24,543 --> 00:08:30,899
+Of course it's very similar. There we just need a monotonically increasing sequence, which is bounded from above.
+
+100
+00:08:31,586 --> 00:08:34,386
+and i then we can also conclude that we have a convergent sequence.
+
+101
+00:08:35,043 --> 00:08:39,526
+Ok and then in the next video i show you some examples for this application.
+
+102
+00:08:40,386 --> 00:08:43,686
+Therefore i hope i see you there and have a nice day. Bye!
+
