@@ -4,7 +4,7 @@ Hello and welcome back to complex analysis.
 
 2
 00:00:05,000 --> 00:00:11,565
-and as always, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+and as always, first I want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
 
 3
 00:00:12,457 --> 00:00:16,621
@@ -20,7 +20,7 @@ In fact the definition of a holomorphic function is what we need throughout this
 
 6
 00:00:31,586 --> 00:00:33,755
-Therefore lets immediately start with this.
+Therefore let's immediately start with this.
 
 7
 00:00:33,955 --> 00:00:37,243
@@ -48,7 +48,7 @@ Nevertheless, still it's very helpful to introduce holomorphic functions in this
 
 13
 00:01:09,743 --> 00:01:11,471
-Hence lets immediately do this.
+Hence let's immediately do this.
 
 14
 00:01:11,829 --> 00:01:19,334
@@ -116,7 +116,7 @@ Ok, by knowing this we can now talk about some basic properties of holomorphic f
 
 30
 00:02:40,800 --> 00:02:45,818
-Lets start with the properties we can immediately adapt from the real valued counterparts.
+Let's start with the properties we can immediately adapt from the real valued counterparts.
 
 31
 00:02:47,014 --> 00:02:52,004

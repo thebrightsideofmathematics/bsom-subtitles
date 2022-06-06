@@ -4,11 +4,11 @@ Hello and welcome back to complex analysis.
 
 2
 00:00:04,914 --> 00:00:12,403
-and of course as always, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+and of course as always, first I want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
 
 3
 00:00:13,157 --> 00:00:19,630
-Now in todays part 5 we go into the direction of the Cauchy-Riemann equations of complex analysis.
+Now in today's part 5 we go into the direction of the Cauchy-Riemann equations of complex analysis.
 
 4
 00:00:20,586 --> 00:00:26,690
@@ -60,7 +60,7 @@ Therefore it's important to understand how we can switch between both cases.
 
 16
 00:01:41,543 --> 00:01:46,714
-So lets remember the fact that each complex function induces a real function.
+So let's remember the fact that each complex function induces a real function.
 
 17
 00:01:47,629 --> 00:01:54,699
@@ -68,7 +68,7 @@ More precisely, if we have a map f from C to C, we can also define a map from R^
 
 18
 00:01:55,286 --> 00:02:00,703
-and maybe for the moment lets call this map on the right hand side f with an index R.
+and maybe for the moment let's call this map on the right-hand side f with an index R.
 
 19
 00:02:01,714 --> 00:02:04,757
@@ -92,7 +92,7 @@ Therefore the function we consider now shouldn't be too complicated.
 
 24
 00:02:29,500 --> 00:02:34,652
-Indeed just lets look at a quadratic function, which sends z to z^2.
+Indeed just let's look at a quadratic function, which sends z to z^2.
 
 25
 00:02:35,529 --> 00:02:39,167
@@ -100,11 +100,11 @@ Now, squaring a complex number is not so hard.
 
 26
 00:02:39,757 --> 00:02:44,431
-In order to get a visualisation for the function, lets draw the complex plane again.
+In order to get a visualization for the function, let's draw the complex plane again.
 
 27
 00:02:45,443 --> 00:02:50,727
-Now, the function f maps the complex plane from the left hand side to the right hand side.
+Now, the function f maps the complex plane from the left-hand side to the right-hand side.
 
 28
 00:02:51,857 --> 00:02:55,771
@@ -188,7 +188,7 @@ Ok, in summary this shows us, that if we want to analyse a complex function f,
 
 48
 00:05:08,500 --> 00:05:13,759
-we can equivalently analyse a real function from R^2 into R^2.
+we can equivalently analyze a real function from R^2 into R^2.
 
 49
 00:05:14,571 --> 00:05:19,996
@@ -220,7 +220,7 @@ Therefore our task here is to form the connection between both notions.
 
 56
 00:06:01,986 --> 00:06:10,201
-However before we can do that i should first explain to you how we define the derivative for functions between vector spaces.
+However before we can do that I should first explain to you how we define the derivative for functions between vector spaces.
 
 57
 00:06:11,200 --> 00:06:16,331
@@ -252,11 +252,11 @@ We want a linear approximation around a given point.
 
 64
 00:06:47,886 --> 00:06:55,869
-Therefore we have to fix a point in R^2. So maybe lets simply call it (x_0, y_0).
+Therefore we have to fix a point in R^2. So maybe let's simply call it (x_0, y_0).
 
 65
 00:06:56,786 --> 00:07:04,057
-and now you should know, a linear map in R^2 for the linear approximation can be described by a 2x2 matrix.
+and now you should know a linear map in R^2 for the linear approximation can be described by a 2x2 matrix.
 
 66
 00:07:05,200 --> 00:07:08,500
@@ -288,7 +288,7 @@ and then comes the linear map. Which is given by the matrix J.
 
 73
 00:07:50,714 --> 00:07:57,621
-To get a linear map, this matrix is multiplied from the right hand side by the difference of the 2 vectors.
+To get a linear map, this matrix is multiplied from the right-hand side by the difference of the 2 vectors.
 
 74
 00:07:58,486 --> 00:08:01,825
@@ -332,7 +332,7 @@ Then this expression should go to 0 when (x, y) goes to (x_0, y_0).
 
 84
 00:08:58,414 --> 00:09:02,836
-Ok so this is what we need, but maybe i should explain some details here.
+Ok so this is what we need, but maybe I should explain some details here.
 
 85
 00:09:03,686 --> 00:09:08,852
@@ -380,7 +380,7 @@ this definition is not the same as the differentiability definition for the comp
 
 96
 00:10:05,043 --> 00:10:13,670
-However maybe you are very familiar with this definition here and in this case i can tell you, this matrix J has special name.
+However maybe you are very familiar with this definition here and in this case I can tell you, this matrix J has special name.
 
 97
 00:10:14,257 --> 00:10:18,004
@@ -432,7 +432,7 @@ and then we just have a 2x2 matrix, where the entries are real numbers.
 
 109
 00:11:31,529 --> 00:11:38,869
-Ok, now in the case you have never seen this and this is all confusing for you, i really think an example can help.
+Ok, now in the case you have never seen this and this is all confusing for you, I really think an example can help.
 
 110
 00:11:39,429 --> 00:11:43,121
@@ -440,7 +440,7 @@ With this example you should see, it's not so complicated after all.
 
 111
 00:11:44,271 --> 00:11:48,283
-and for consistency lets reconsider the example from above.
+and for consistency let's reconsider the example from above.
 
 112
 00:11:49,286 --> 00:11:56,048
@@ -456,7 +456,7 @@ Indeed the result will be this function here is differentiable at all points.
 
 115
 00:12:11,014 --> 00:12:14,151
-Therefore lets simply look at the partial derivatives here.
+Therefore let's simply look at the partial derivatives here.
 
 116
 00:12:15,343 --> 00:12:22,388
@@ -476,7 +476,7 @@ because y is still a constant and the derivative of x is simply 1.
 
 120
 00:12:40,443 --> 00:12:43,414
-Ok then for the second column lets switch the roles.
+Ok then for the second column let's switch the roles.
 
 121
 00:12:43,486 --> 00:12:47,102
@@ -516,11 +516,11 @@ Indeed you see this is a very special matrix we get out.
 
 130
 00:13:34,557 --> 00:13:43,090
-With this i would say lets use the next video to explain why this structure of the matrix is so important for complex analysis.
+With this I would say let's use the next video to explain why this structure of the matrix is so important for complex analysis.
 
 131
 00:13:43,986 --> 00:13:46,968
-Therefore i hope i see you there and have a nice day.
+Therefore I hope I see you there and have a nice day.
 
 132
 00:13:47,168 --> 00:13:47,943

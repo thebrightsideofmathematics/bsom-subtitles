@@ -4,15 +4,15 @@ Hello and welcome back to complex analysis.
 
 2
 00:00:04,586 --> 00:00:10,827
-and first i want to thank all the very nice people that support this channel on Steady, via Paypal or by other means.
+and first I want to thank all the very nice people that support this channel on Steady, via Paypal or by other means.
 
 3
 00:00:11,743 --> 00:00:17,131
-Now, in todays part 7 i show you examples for the famous Cauchy-Riemann equations.
+Now, in today's part 7 I show you examples for the famous Cauchy-Riemann equations.
 
 4
 00:00:18,100 --> 00:00:22,444
-For this lets first recall the important theorem from the last video.
+For this let's first recall the important theorem from the last video.
 
 5
 00:00:22,800 --> 00:00:28,554
@@ -36,7 +36,7 @@ However in this case for the new function the domain should also be an open subs
 
 10
 00:00:55,014 --> 00:00:57,625
-So maybe lets simply call it U_R.
+So maybe let's simply call it U_R.
 
 11
 00:00:58,686 --> 00:01:04,217
@@ -60,7 +60,7 @@ In particular the real part function here, we denote by a lower case u.
 
 16
 00:01:30,414 --> 00:01:34,057
-So please recall this u is a real valued function.
+So please recall this u is a real-valued function.
 
 17
 00:01:34,971 --> 00:01:41,053
@@ -76,7 +76,7 @@ Hence you see, the whole information of the function f is now translated into th
 
 20
 00:01:54,071 --> 00:02:02,086
-Indeed the property that f is holomorphic translates into the fact that u and v fulfil the Cauchy-Riemann equations.
+Indeed the property that f is holomorphic translates into the fact that u and v fulfill the Cauchy-Riemann equations.
 
 21
 00:02:03,014 --> 00:02:07,826
@@ -100,15 +100,15 @@ In fact this equivalence here, we have discussed in the last video.
 
 26
 00:02:38,043 --> 00:02:41,611
-Now in this video i want to show you concrete examples.
+Now in this video I want to show you concrete examples.
 
 27
 00:02:42,400 --> 00:02:46,033
-and i would say, lets immediately start with a very simple one.
+and I would say, let's immediately start with a very simple one.
 
 28
 00:02:46,986 --> 00:02:53,767
-So lets take the complex function f from C to C. Given as the identity.
+So let's take the complex function f from C to C. Given as the identity.
 
 29
 00:02:54,671 --> 00:02:57,951
@@ -120,7 +120,7 @@ Now, because we want to deal with the partial derivatives with respect to x and 
 
 31
 00:03:07,786 --> 00:03:11,431
-Hence we do this change on the left hand side and on the right hand side.
+Hence we do this change on the left-hand side and on the right-hand side.
 
 32
 00:03:12,314 --> 00:03:19,045
@@ -136,7 +136,7 @@ and now we just want to check if the Cauchy-Riemann equations are satisfied.
 
 35
 00:03:29,957 --> 00:03:32,489
-So lets write down the partial derivatives.
+So let's write down the partial derivatives.
 
 36
 00:03:33,300 --> 00:03:37,928
@@ -152,7 +152,7 @@ Hence we immediately see that the first equation is satisfied at all points.
 
 39
 00:03:54,271 --> 00:03:58,434
-So lets go to the second equation, where we have du/dy.
+So let's go to the second equation, where we have du/dy.
 
 40
 00:03:59,514 --> 00:04:03,578
@@ -180,7 +180,7 @@ Of course this is a fact we have already known.
 
 46
 00:04:26,857 --> 00:04:33,745
-Therefore i would say in the next example, lets look at a function where we already know that it is not holomorphic.
+Therefore I would say in the next example, let's look at a function where we already know that it is not holomorphic.
 
 47
 00:04:34,571 --> 00:04:37,996
@@ -232,11 +232,11 @@ However maybe we should also look at a more complicated example.
 
 59
 00:05:39,014 --> 00:05:42,099
-So lets take another complex function f.
+So let's take another complex function f.
 
 60
 00:05:42,814 --> 00:05:47,326
-and now i want to look at it as z^2 + iz.
+and now I want to look at it as z^2 + iz.
 
 61
 00:05:47,871 --> 00:05:54,400
@@ -244,7 +244,7 @@ To be honest. You already know that this is a holomorphic function, because it i
 
 62
 00:05:55,200 --> 00:06:01,485
-Indeed we already know how to calcualte the complex derivative for such a complex polynomial.
+Indeed we already know how to calculate the complex derivative for such a complex polynomial.
 
 63
 00:06:02,257 --> 00:06:05,101
@@ -276,11 +276,11 @@ So we have x^2 + i2xy - y^2 from the binomial + ix and -y.
 
 70
 00:06:43,729 --> 00:06:48,299
-Now lets put the real part to the left and the imaginary part to the right.
+Now let's put the real part to the left and the imaginary part to the right.
 
 71
 00:06:49,014 --> 00:06:55,322
-So the real part is everything without an "i" and for the imaginary part i factor out one "i".
+So the real part is everything without an "i" and for the imaginary part I factor out one "i".
 
 72
 00:06:56,457 --> 00:06:59,190
@@ -348,9 +348,9 @@ and in fact you also get the complex derivative of f from these partial derivati
 
 88
 00:08:26,757 --> 00:08:30,069
-but i think this is a good topic for the next video.
+but I think this is a good topic for the next video.
 
 89
 00:08:30,757 --> 00:08:36,457
-Therefore i really hope that i see you there. Have a nice day and bye!
+Therefore I really hope that I see you there. Have a nice day and bye!
 

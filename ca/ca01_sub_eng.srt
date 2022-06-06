@@ -4,7 +4,7 @@ Hello and welcome to a new series about complex analysis
 
 2
 00:00:06,000 --> 00:00:11,855
-and before we start i really want to thank all the nice people that support this channel on Steady or Paypal.
+and before we start I really want to thank all the nice people that support this channel on Steady or Paypal.
 
 3
 00:00:12,571 --> 00:00:19,058
@@ -44,7 +44,7 @@ This could be the integral from - infinity to infinity of the function: (x * sin
 
 12
 00:01:27,971 --> 00:01:33,442
-Now indeed finding an antinderivative of this function is really, really hard.
+Now indeed finding an antiderivative of this function is really, really hard.
 
 13
 00:01:34,471 --> 00:01:40,823
@@ -64,7 +64,7 @@ However of course first we have to start with the basics.
 
 17
 00:01:59,686 --> 00:02:05,981
-and i already told you in contrast to real analysis we immediately start with differentiability.
+and I already told you in contrast to real analysis we immediately start with differentiability.
 
 18
 00:02:06,700 --> 00:02:10,100
@@ -112,7 +112,7 @@ However you don't need to watch the whole course. Some videos about these topics
 
 29
 00:03:13,243 --> 00:03:17,500
-Ok, by knowing this i now thing we can start with the course.
+Ok, by knowing this I now think we can start with the course.
 
 30
 00:03:18,343 --> 00:03:23,800
@@ -120,7 +120,7 @@ The first part will be about some definitions we will definitely need throughout
 
 31
 00:03:24,971 --> 00:03:30,316
-First i can tell you, the complex numbers form a set with the distant function.
+First I can tell you, the complex numbers form a set with the distant function.
 
 32
 00:03:31,114 --> 00:03:34,694
@@ -132,7 +132,7 @@ but don't worry it's not complicated at all.
 
 34
 00:03:38,643 --> 00:03:43,087
-It just means that the distance between two elements of the set make sense.
+It just means that the distance between two elements of the set makes sense.
 
 35
 00:03:44,200 --> 00:03:48,103
@@ -196,7 +196,7 @@ and now we are able to define what it means that this sequence is convergent to 
 
 50
 00:05:17,314 --> 00:05:26,035
-It just means that the distance, we can measure between z_n and "a" gets smaller and smaller until it reaches 0 in the limit.
+It just means that the distance we can measure between z_n and "a" gets smaller and smaller until it reaches 0 in the limit.
 
 51
 00:05:26,886 --> 00:05:30,829
@@ -224,7 +224,7 @@ we call the sequence of complex numbers z_n convergent to "a".
 
 57
 00:05:54,829 --> 00:06:00,947
-Now if you don't remember the definition of convergence for real numbers, lets recall it.
+Now if you don't remember the definition of convergence for real numbers, let's recall it.
 
 58
 00:06:01,600 --> 00:06:10,768
@@ -248,11 +248,11 @@ However now we can visualize it in the complex plane.
 
 63
 00:06:36,229 --> 00:06:44,086
-Now, this formular with the distance less than epsilon means that we can draw a circle around "a" with radius epsilon.
+Now, this formula with the distance less than epsilon means that we can draw a circle around "a" with radius epsilon.
 
 64
 00:06:44,957 --> 00:06:51,167
-With this we get that eventually the sequence member z_n lie inside this circle.
+With this we get that eventually the sequence members z_n lie inside this circle.
 
 65
 00:06:52,257 --> 00:06:55,302
@@ -344,7 +344,7 @@ Now if you have any problems with these definitions in this video here, please c
 
 87
 00:09:09,771 --> 00:09:13,414
-There i talk a lot about these definitions for real functions.
+There I talk a lot about these definitions for real functions.
 
 88
 00:09:14,214 --> 00:09:19,009
@@ -360,7 +360,7 @@ as well as a quiz about this topic.
 
 91
 00:09:28,486 --> 00:09:30,257
-Then i hope i see you next time.
+Then I hope I see you next time.
 
 92
 00:09:30,369 --> 00:09:31,243

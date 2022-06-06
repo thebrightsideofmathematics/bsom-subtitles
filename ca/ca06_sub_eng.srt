@@ -4,11 +4,11 @@ Hello and welcome back to complex analysis.
 
 2
 00:00:05,214 --> 00:00:13,547
-and you might already know, first as always i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+and you might already know, first as always I want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
 
 3
 00:00:14,500 --> 00:00:19,505
-Now, finally in todays part 6, we will talk about the Cauchy-Riemann equations.
+Now, finally in today's part 6, we will talk about the Cauchy-Riemann equations.
 
 4
 00:00:20,400 --> 00:00:28,511
@@ -24,7 +24,7 @@ This one we simply called complex differentiable at a given point z_0.
 
 7
 00:00:41,400 --> 00:00:49,303
-Now, as a reminder in other videos i already explained, the domain here doesn't have to be the whole complex plane C.
+Now, as a reminder in other videos I already explained, the domain here doesn't have to be the whole complex plane C.
 
 8
 00:00:50,043 --> 00:00:52,163
@@ -32,7 +32,7 @@ It's sufficient to have an open subset.
 
 9
 00:00:53,271 --> 00:00:59,414
-However this might be distracting for this video here. Therefore i always write C for the domain.
+However this might be distracting for this video here. Therefore I always write C for the domain.
 
 10
 00:01:00,186 --> 00:01:05,593
@@ -108,11 +108,11 @@ However to be honest it looks a little bit different than the definition we gave
 
 28
 00:02:59,786 --> 00:03:05,438
-Yet i would say it's not hard at all to get this reformulation from our definition.
+Yet I would say it's not hard at all to get this reformulation from our definition.
 
 29
 00:03:06,143 --> 00:03:09,651
-and i guess it's a good exercise for you to think about it.
+and I guess it's a good exercise for you to think about it.
 
 30
 00:03:10,114 --> 00:03:16,099
@@ -136,7 +136,7 @@ Therefore often both functions are just called by the same name, f.
 
 35
 00:03:46,426 --> 00:03:51,028
-However to distinguish them i give the last one here an index R.
+However to distinguish them I give the last one here an index R.
 
 36
 00:03:51,657 --> 00:03:57,547
@@ -144,7 +144,7 @@ Ok, now we can recall the definition of total differentiability for such functio
 
 37
 00:03:58,443 --> 00:04:03,571
-Also there we have to fix a point in the plane. So lets call it (x_0, y_0).
+Also there we have to fix a point in the plane. So let's call it (x_0, y_0).
 
 38
 00:04:04,171 --> 00:04:12,446
@@ -152,7 +152,7 @@ Then we know the function is called totally differentiable at this point, if the
 
 39
 00:04:13,014 --> 00:04:16,817
-Please note i use another variant to denote the letter Phi here.
+Please note I use another variant to denote the letter Phi here.
 
 40
 00:04:17,829 --> 00:04:23,406
@@ -180,7 +180,7 @@ Therefore a natural question here would be: where exactly is the difference betw
 
 46
 00:05:00,500 --> 00:05:04,329
-So i would say lets try to spot all the differences.
+So I would say let's try to spot all the differences.
 
 47
 00:05:05,343 --> 00:05:13,694
@@ -236,7 +236,7 @@ Therefore the conclusion is immediately this definition here, complex differenti
 
 60
 00:06:32,586 --> 00:06:40,921
-and now in order to get a translationfrom the complex definition to the one in R^2, we have to answer one question.
+and now in order to get a translation from the complex definition to the one in R^2, we have to answer one question.
 
 61
 00:06:41,786 --> 00:06:49,812
@@ -248,11 +248,11 @@ Now, because we know how to calculate with complex numbers, we can answer this q
 
 63
 00:06:58,586 --> 00:07:02,932
-Just lets check how the multiplication in the complex numbers looks like.
+Just let's check how the multiplication in the complex numbers looks like.
 
 64
 00:07:03,814 --> 00:07:08,497
-So we take 2 complex numbers. w and z, and multiply them.
+So we take 2 complex numbers w and z, and multiply them.
 
 65
 00:07:09,271 --> 00:07:15,062
@@ -328,7 +328,7 @@ Therefore our conclusion here is, if we want complex differentiability we need t
 
 83
 00:08:59,014 --> 00:09:03,505
-So i would say lets fix this important result with a theorem.
+So I would say let's fix this important result with a theorem.
 
 84
 00:09:04,400 --> 00:09:09,014
@@ -336,7 +336,7 @@ In fact in this theorem we will now find the Cauchy-Riemann equations.
 
 85
 00:09:09,814 --> 00:09:14,381
-Ok in order to get everything together lets start with a complex function.
+Ok in order to get everything together let's start with a complex function.
 
 86
 00:09:14,414 --> 00:09:18,457
@@ -456,9 +456,9 @@ Ok then i think it's good enough for today.
 
 115
 00:12:16,613 --> 00:12:19,745
-Lets talk about examples in the next video.
+Let's talk about examples in the next video.
 
 116
 00:12:20,343 --> 00:12:24,211
-Therefore i hope i see you there and have a nice day. Bye!
+Therefore I hope I see you there and have a nice day. Bye!
 
