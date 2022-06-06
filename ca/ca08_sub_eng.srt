@@ -4,11 +4,11 @@ Hello and welcome back to complex analysis.
 
 2
 00:00:04,671 --> 00:00:11,221
-and as always, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+and as always, first I want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
 
 3
 00:00:12,014 --> 00:00:20,171
-Today in part 8 we will continue talking about the Cauchy-Riemann equations and i will also explain what Wirtinger derivatives are.
+Today in part 8 we will continue talking about the Cauchy-Riemann equations and I will also explain what Wirtinger derivatives are.
 
 4
 00:00:20,786 --> 00:00:27,890
@@ -32,7 +32,7 @@ This one is a little bit strange, because it's written as the partial derivative
 
 9
 00:00:59,700 --> 00:01:06,654
-However it turns out that both things here are well defined and indeed usefull for our theory.
+However it turns out that both things here are well defined and indeed useful for our theory.
 
 10
 00:01:07,214 --> 00:01:15,197
@@ -48,11 +48,11 @@ Also, then we will see that for a holomorphic function, the other Wirtinger deri
 
 13
 00:01:28,986 --> 00:01:35,027
-Therefore lets first concentrate at the Wirtinger derivative on the left hand side. df/dz.
+Therefore let's first concentrate at the Wirtinger derivative on the left hand side. df/dz.
 
 14
 00:01:35,614 --> 00:01:42,105
-Now, to make our life a little bit easier lets write (x + iy) instead of the point z_0.
+Now, to make our life a little bit easier let's write (x + iy) instead of the point z_0.
 
 15
 00:01:42,771 --> 00:01:47,621
@@ -136,7 +136,7 @@ and this helps us, because this function we can write as u + iv.
 
 35
 00:03:57,482 --> 00:04:02,848
-and now you might already see, on the left hand side we use exactly this.
+and now you might already see, on the left-hand side we use exactly this.
 
 36
 00:04:03,343 --> 00:04:10,580
@@ -160,7 +160,7 @@ Indeed it's easier to remember when we use that (u + iv) are essentially the fun
 
 41
 00:04:38,814 --> 00:04:43,110
-Hence we can just define 2 new differentiale operators.
+Hence we can just define 2 new differential operators.
 
 42
 00:04:44,143 --> 00:04:49,773
@@ -172,11 +172,11 @@ and indeed this makes sense. This one is the partial derivative with respect to 
 
 44
 00:04:58,729 --> 00:05:04,143
-Ok, soon i will show you an example and then these 2 operations should be clear.
+Ok, soon I will show you an example and then these 2 operations should be clear.
 
 45
 00:05:04,771 --> 00:05:12,456
-However first i want to define the Wirtinger derivatives, because with this calculation here we already know how to do this.
+However first I want to define the Wirtinger derivatives, because with this calculation here we already know how to do this.
 
 46
 00:05:13,071 --> 00:05:18,456
@@ -212,11 +212,11 @@ and here please recall. This fits to our motivation from the beginning.
 
 54
 00:06:11,929 --> 00:06:15,627
-Ok, then as promised lets look at an example.
+Ok, then as promised let's look at an example.
 
 55
 00:06:16,071 --> 00:06:19,976
-It shouldn't be a complicated one. So lets look at a polynomial.
+It shouldn't be a complicated one. So let's look at a polynomial.
 
 56
 00:06:20,671 --> 00:06:24,550
@@ -228,7 +228,7 @@ Which means using x and y, we have (x + iy)^2.
 
 58
 00:06:30,500 --> 00:06:41,763
-Hence, lets just exapand the square. Which means we have x^2 - y^2 + i2xy.
+Hence, let's just expand the square. Which means we have x^2 - y^2 + i2xy.
 
 59
 00:06:42,986 --> 00:06:48,463
@@ -264,7 +264,7 @@ Now, with these 2 nice short expressions we should be able to calculate with 2 W
 
 67
 00:07:40,043 --> 00:07:43,993
-So lets start with the second one, df/dz(bar).
+So let's start with the second one, df/dz(bar).
 
 68
 00:07:44,314 --> 00:07:51,736
@@ -296,7 +296,7 @@ Also here the result is not so surprising, because it should give us the complex
 
 75
 00:08:29,552 --> 00:08:36,384
-Ok, then i would say lets summarize the video by stating the important fact we have proven here.
+Ok, then I would say let's summarize the video by stating the important fact we have proven here.
 
 76
 00:08:36,886 --> 00:08:40,505
@@ -320,11 +320,11 @@ So f' can be calculated by using df/dz.
 
 81
 00:09:16,100 --> 00:09:22,701
-Ok, with this you now know a lot of different differentiale operators we can use in complex analysis.
+Ok, with this you now know a lot of different differential operators we can use in complex analysis.
 
 82
 00:09:23,714 --> 00:09:28,420
-Then i hope that i see you in the next video, where we will talk about power series.
+Then I hope that I see you in the next video, where we will talk about power series.
 
 83
 00:09:29,557 --> 00:09:31,594

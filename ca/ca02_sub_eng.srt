@@ -8,7 +8,7 @@ and first i want to thank all the nice people that support this channel on Stead
 
 3
 00:00:12,029 --> 00:00:19,157
-Now, in todays part 2 we will talk abot the complex differentiability of functions from C to C.
+Now, in today's part 2 we will talk about the complex differentiability of functions from C to C.
 
 4
 00:00:19,986 --> 00:00:26,007
@@ -56,7 +56,7 @@ Hence this is the first thing we now want to define before we talk about the def
 
 15
 00:01:28,343 --> 00:01:32,921
-Now i can tell you this definition is the same for all metric spaces.
+Now I can tell you this definition is the same for all metric spaces.
 
 16
 00:01:33,121 --> 00:01:37,741
@@ -68,11 +68,11 @@ In C, the complex numbers, we can do this and of course we can also do this in R
 
 18
 00:01:45,771 --> 00:01:51,324
-Therefore this definition is exactly the same as i showed you in my real analysis course.
+Therefore this definition is exactly the same as I showed you in my real analysis course.
 
 19
 00:01:52,029 --> 00:01:58,160
-Nevertheless it's good to refresh your memory, because this notion is used throughout this course.
+Nevertheless it's good to refresh your memory because this notion is used throughout this course.
 
 20
 00:01:59,129 --> 00:02:02,333
@@ -80,11 +80,11 @@ Indeed openness is not complicated at all.
 
 21
 00:02:02,486 --> 00:02:06,222
-and to get an idea lets take our set U from before.
+and to get an idea let's take our set U from before.
 
 22
 00:02:06,771 --> 00:02:15,680
-Visually speaking this set should be an open set, if these boundary points you can see here, are not part of the set U itself.
+Visually speaking this set should be an open set if these boundary points you can see here are not part of the set U itself.
 
 23
 00:02:16,343 --> 00:02:25,245
@@ -108,7 +108,7 @@ there exists an epsilon-ball
 
 28
 00:02:46,929 --> 00:02:52,956
-and here you already know from the last video, the epsilon-ball is denonted by B_epsilon(z).
+and here you already know from the last video, the epsilon-ball is denoted by B_epsilon(z).
 
 29
 00:02:53,929 --> 00:02:59,529
@@ -128,7 +128,7 @@ Also it's easy to show, that every epsilon-ball is open with this definition.
 
 33
 00:03:17,614 --> 00:03:22,236
-Ok, other useful and and important examples we will see later.
+Ok, other useful and important examples we will see later.
 
 34
 00:03:22,971 --> 00:03:27,416
@@ -176,7 +176,7 @@ and of course a slope we usually calculate with a difference quotient.
 
 45
 00:04:27,014 --> 00:04:32,214
-So we have the difference in the output devided by the difference in the input.
+So we have the difference in the output divided by the difference in the input.
 
 46
 00:04:33,014 --> 00:04:37,248
@@ -196,7 +196,7 @@ and in fact this is the whole definition of complex differentiability at a given
 
 50
 00:04:54,857 --> 00:04:58,971
-However i think i should say a few words what this limit means here.
+However I think I should say a few words what this limit means here.
 
 51
 00:04:59,800 --> 00:05:04,300
@@ -208,7 +208,7 @@ However, we immediately find different consequences when we deal with complex nu
 
 53
 00:05:11,000 --> 00:05:14,594
-Before we disuss them lets first look at the definition here.
+Before we disuss them let's first look at the definition here.
 
 54
 00:05:15,543 --> 00:05:23,147
@@ -272,7 +272,7 @@ So it looks the same, but here we immediately have a 2 dimensional problem.
 
 69
 00:06:40,757 --> 00:06:47,569
-Ok, i would say, how all this is related to the linear approximation as we have it for real functions,
+Ok, I would say, how all this is related to the linear approximation as we have it for real functions,
 
 70
 00:06:47,769 --> 00:06:49,843
@@ -284,7 +284,7 @@ and then we also look at examples and then you will see why complex analysis is 
 
 72
 00:06:57,571 --> 00:07:00,059
-Therefore i hope i see you there and have a nice day.
+Therefore I hope I see you there and have a nice day.
 
 73
 00:07:00,259 --> 00:07:01,100

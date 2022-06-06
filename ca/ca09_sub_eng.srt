@@ -8,7 +8,7 @@ and first many, many thanks to all the nice people that support this channel on 
 
 3
 00:00:12,214 --> 00:00:17,441
-Please don't forget, as an supporter you get a PDF version and a quiz for this video.
+Please don't forget, as a supporter you get a PDF version and a quiz for this video.
 
 4
 00:00:18,300 --> 00:00:21,671
@@ -28,7 +28,7 @@ Now it turns out, for this concept in the complex numbers, we can do exactly the
 
 8
 00:00:41,771 --> 00:00:48,785
-Moreover by working with complex numbers we will find the true nature of the behaviour of some power series.
+Moreover by working with complex numbers we will find the true nature of the behavior of some power series.
 
 9
 00:00:49,829 --> 00:00:55,419
@@ -36,7 +36,7 @@ Hence you need to work in the complex realm to understand power series completel
 
 10
 00:00:55,871 --> 00:01:00,172
-and why this is important, i can immediately show you with an example.
+and why this is important, I can immediately show you with an example.
 
 11
 00:01:00,700 --> 00:01:05,916
@@ -44,7 +44,7 @@ Namely one of the most important functions is given by a power series.
 
 12
 00:01:07,043 --> 00:01:11,196
-This is the exponantial function denoted by exp(z).
+This is the exponential function denoted by exp(z).
 
 13
 00:01:11,743 --> 00:01:16,634
@@ -108,7 +108,7 @@ Then this map is defined by sending z to the infinite series of the coefficient 
 
 28
 00:02:49,543 --> 00:02:58,530
-However, since later it will be important that we can shift the whole function by a fixed number z_0, i already introduce it here.
+However, since later it will be important that we can shift the whole function by a fixed number z_0, I already introduce it here.
 
 29
 00:02:59,171 --> 00:03:02,671
@@ -116,11 +116,11 @@ So we simply have (z - z_0)^k.
 
 30
 00:03:03,257 --> 00:03:08,469
-and i can already tell you this z_0 is often called the expansion point.
+and I can already tell you this z_0 is often called the expansion point.
 
 31
 00:03:09,600 --> 00:03:15,134
-Of course what is still missing here is the explizit definition of the domain D.
+Of course what is still missing here is the explicit definition of the domain D.
 
 32
 00:03:15,671 --> 00:03:21,755
@@ -144,11 +144,11 @@ Or in other words we simply say the series is convergent.
 
 37
 00:03:45,314 --> 00:03:54,198
-Ok, then you see we have a well defined function. Maybe the domain is very small, but still we always call this function a power series.
+Ok, then you see we have a well-defined function. Maybe the domain is very small, but still we always call this function a power series.
 
 38
 00:03:55,186 --> 00:03:58,585
-With this knowledge i would say we look at an example.
+With this knowledge I would say we look at an example.
 
 39
 00:03:59,600 --> 00:04:03,661
@@ -200,7 +200,7 @@ Ok, so what you see here in the complex plane: we have a circle and inside we ha
 
 51
 00:05:22,300 --> 00:05:29,387
-Now it turns out that for any power series this situation is not essentialy more difficult.
+Now it turns out that for any power series this situation is not essentially more difficult.
 
 52
 00:05:29,729 --> 00:05:33,905
@@ -224,7 +224,7 @@ So here you see the worst case for r would be to be 0, which means there is only
 
 57
 00:06:05,600 --> 00:06:09,464
-and the best case scenario would be that r is infinity.
+and the best-case scenario would be that r is infinity.
 
 58
 00:06:09,529 --> 00:06:12,476
@@ -240,7 +240,7 @@ Therefore to be precise we would distinguish between 2 cases here.
 
 61
 00:06:30,343 --> 00:06:35,232
-Of course i told you before, the second case is just that D is the whole complex plane.
+Of course I told you before, the second case is just that D is the whole complex plane.
 
 62
 00:06:35,786 --> 00:06:40,545
@@ -260,11 +260,11 @@ Therefore the general picture looks like this.
 
 66
 00:07:02,571 --> 00:07:13,149
-In the complex plane we have this ball with z_0 in the middle and with radius r and in the inside of this ball convergence is quaranteed.
+In the complex plane we have this ball with z_0 in the middle and with radius r and in the inside of this ball convergence is guaranteed.
 
 67
 00:07:13,929 --> 00:07:18,307
-Moreover in the outside of this ball, divergence is quaranteed.
+Moreover in the outside of this ball, divergence is guaranteed.
 
 68
 00:07:18,943 --> 00:07:23,040
@@ -284,7 +284,7 @@ However, for a different power series you could have convergence or both cases m
 
 72
 00:07:40,886 --> 00:07:45,569
-Ok, then lets state the divergence part here also with a formula.
+Ok, then let's state the divergence part here also with a formula.
 
 73
 00:07:46,286 --> 00:07:52,104
@@ -324,15 +324,15 @@ Indeed, it's not hard to prove. We can just use the root criterion from real ana
 
 82
 00:08:43,071 --> 00:08:48,112
-Ok, if you are interested in seeing this prove, please let me know in the comments.
+Ok, if you are interested in seeing this proof, please let me know in the comments.
 
 83
 00:08:48,729 --> 00:08:54,714
-Now, for the end here i can tell you, often it's sufficient to know that there exists such an r,
+Now, for the end here I can tell you, often it's sufficient to know that there exists such an r,
 
 84
 00:08:54,829 --> 00:08:58,429
-but sometimes it would be nice to have an explizit formula for it.
+but sometimes it would be nice to have an explicit formula for it.
 
 85
 00:08:59,157 --> 00:09:02,674
@@ -372,19 +372,19 @@ There of course you should know, inverses with 0 and infinity are here defined b
 
 94
 00:09:56,700 --> 00:10:01,844
-Hence the best case scenario is: in this lim sup is 0.
+Hence the best-case scenario is: in this lim sup is 0.
 
 95
 00:10:02,514 --> 00:10:11,727
-Ok, the last important thing i should tell you is that this maximal r is often called the radius of convergence for the power series.
+Ok, the last important thing I should tell you is that this maximal r is often called the radius of convergence for the power series.
 
 96
 00:10:12,500 --> 00:10:19,729
-and i would say it's a good exercise for you to calculate the radius of convergence for the exponential function from above.
+and I would say it's a good exercise for you to calculate the radius of convergence for the exponential function from above.
 
 97
 00:10:20,486 --> 00:10:25,984
-Ok, then i hope i see you next time, when we start talking about the uniform convergence.
+Ok, then I hope I see you next time, when we start talking about the uniform convergence.
 
 98
 00:10:26,686 --> 00:10:28,827

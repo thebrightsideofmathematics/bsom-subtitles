@@ -4,7 +4,7 @@ Hello and welcome back to complex analysis.
 
 2
 00:00:04,714 --> 00:00:11,081
-and before we start i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+and before we start I want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
 
 3
 00:00:12,057 --> 00:00:15,895
@@ -24,7 +24,7 @@ Moreover you will also see that in complex analysis we can immediately apply it 
 
 7
 00:00:35,614 --> 00:00:39,334
-However lets first start with the formal definition.
+However let's first start with the formal definition.
 
 8
 00:00:39,534 --> 00:00:46,134
@@ -52,7 +52,7 @@ and as usual the supremum norm is denoted with an infinity symbol in the index.
 
 14
 00:01:17,429 --> 00:01:22,307
-Now in the case that you have never seen the supremum norm, lets quickly define it.
+Now in the case that you have never seen the supremum norm, let's quickly define it.
 
 15
 00:01:23,086 --> 00:01:28,721
@@ -100,7 +100,7 @@ Later we will see that in some sense the reverse implication is also true.
 
 26
 00:02:30,586 --> 00:02:36,065
-However lets first start with the statement here, which holds in general for all power series.
+However let's first start with the statement here, which holds in general for all power series.
 
 27
 00:02:36,686 --> 00:02:42,600
@@ -128,7 +128,7 @@ I always call it ball, but you now, in the 2-dimensional complex plane it's a di
 
 33
 00:03:11,114 --> 00:03:15,137
-Therefore sometimes i speak of the open disk around z_0.
+Therefore sometimes I speak of the open disk around z_0.
 
 34
 00:03:15,971 --> 00:03:24,362
@@ -164,7 +164,7 @@ Ok, if you are not used to working with series and power series, here you see an
 
 42
 00:04:15,286 --> 00:04:22,228
-I simply give you the explizit definition of sequence of functions f_n, we need for the uniform convergence.
+I simply give you the explicit definition of sequence of functions f_n, we need for the uniform convergence.
 
 43
 00:04:22,871 --> 00:04:26,470
@@ -188,7 +188,7 @@ In order to show this we have to look at the formal complex derivative here.
 
 48
 00:04:53,757 --> 00:04:58,165
-So the power k comes in front and we reduce the exponend by 1.
+So the power k comes in front and we reduce the exponent by 1.
 
 49
 00:04:58,800 --> 00:05:06,514
@@ -196,7 +196,7 @@ We already know this works for polynomials. So when we have an end index here, b
 
 50
 00:05:07,386 --> 00:05:11,404
-But you will believe me, this is exactly what we want to proof now.
+But you will believe me, this is exactly what we want to prove now.
 
 51
 00:05:11,857 --> 00:05:19,541
@@ -252,9 +252,9 @@ Of course if you really to believe this result, we should prove it.
 
 64
 00:06:46,957 --> 00:06:50,777
-However this will take some time. So lets do this in the next video.
+However this will take some time. So let's do this in the next video.
 
 65
 00:06:51,286 --> 00:06:55,143
-Therefore i hope i see you there and have a nice day. Bye!
+Therefore I hope I see you there and have a nice day. Bye!
 
