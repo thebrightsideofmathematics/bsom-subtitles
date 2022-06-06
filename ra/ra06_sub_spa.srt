@@ -1,0 +1,460 @@
+1
+00:00:00,420 --> 00:00:03,410
+Hola y bienvenidos nuevamente a análisis real
+
+2
+00:00:03,980 --> 00:00:08,880
+y como siempre primero quiero agradecer a todos los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,340 --> 00:00:13,170
+En la parte 6 de hoy hablaremos del supremo y el ínfimo.
+
+4
+00:00:13,800 --> 00:00:18,600
+Pero antes de partir demos una mirada a algunos subconjuntos de la recta numérica.
+
+5
+00:00:19,220 --> 00:00:25,110
+Podemos ver a los números reales como esta recta numérica porque sabemos que los reales son totalmente ordenados.
+
+6
+00:00:25,730 --> 00:00:33,220
+Entonces tiene sentido decir que comenzamos con un número "a" y luego pasamos a otro número "b" que es mayor o igual que "a"
+
+7
+00:00:34,120 --> 00:00:38,000
+y ahora quiero poner en un conjunto a todos los números entre "a" y "b".
+
+8
+00:00:38,700 --> 00:00:46,400
+Ese conjunto se llama un intervalo y usamos distintos tipos de paréntesis para indicar si los extremos están incluídos o excluídos.
+
+9
+00:00:46,830 --> 00:00:51,720
+En este caso el conjunto consiste de todos los puntos "x" que están entre "a" y "b".
+
+10
+00:00:52,510 --> 00:00:55,900
+Sin embargo, "a" no está en el conjunto, y "b" si.
+
+11
+00:00:56,590 --> 00:00:59,590
+Por supuesto pueden modificar eso simplemente cambiando los paréntesis.
+
+12
+00:01:00,050 --> 00:01:01,430
+Recuérdenlo.
+
+13
+00:01:01,460 --> 00:01:04,950
+Usamos paréntesis redondos para denotar exclusión.
+
+14
+00:01:05,600 --> 00:01:10,090
+Y pueden ver que los intervalos son simplemente subconjuntos de la recta numérica real.
+
+15
+00:01:10,470 --> 00:01:13,200
+Tomen nota de que también usamos la notación de intervalo
+
+16
+00:01:13,220 --> 00:01:15,220
+cuando un lado no tiene cota.
+
+17
+00:01:15,830 --> 00:01:22,420
+Ahí sencillamente usamos el símbolo infinito para indicar que partimos con "a", pero luego vamos tan lejos como queramos.
+
+18
+00:01:23,210 --> 00:01:27,090
+Así que este intervalo consiste en todos los puntos "x" que son mayores o iguales que "a".
+
+19
+00:01:28,010 --> 00:01:31,410
+Y de esa misma manera se usa el símbolo "menos infinito".
+
+20
+00:01:32,030 --> 00:01:38,720
+Ok, ahora ven que estos intervalos son subconjuntos de los números reales, pero desde luego no los únicos.
+
+21
+00:01:39,350 --> 00:01:44,840
+Por ejemplo podríamos considerar el conjunto M de todos los puntos de la recta numérica.
+
+22
+00:01:45,140 --> 00:01:48,140
+Es mas complicado que un simple intervalo,
+
+23
+00:01:48,150 --> 00:01:51,650
+pero a pesar de eso aún podemos hablar de buenas propiedades de ese subconjunto.
+
+24
+00:01:52,330 --> 00:01:56,250
+Por ejemplo este punto acá que es el más distante a la derecha de M
+
+25
+00:01:56,350 --> 00:01:58,100
+Lo podríamos llamar el máximo de M.
+
+26
+00:01:58,770 --> 00:02:01,100
+Abreviando podríamos simplemente escribir "max M".
+
+27
+00:02:02,030 --> 00:02:04,630
+También podríamos llamarlo una cota superior del conjunto M,
+
+28
+00:02:04,660 --> 00:02:08,650
+porque no hay otro punto en M que exceda a ese número.
+
+29
+00:02:09,150 --> 00:02:13,150
+Pero, esa propiedad es válida para todos los puntos que están a su derecha
+
+30
+00:02:14,150 --> 00:02:18,250
+Luego todo punto en esta región es llamado una cota superior de M.
+
+31
+00:02:18,800 --> 00:02:22,900
+y ya lo habrán imaginado, acá a la izquierda tenemos cotas inferiores.
+
+32
+00:02:24,130 --> 00:02:28,420
+Ahora, lo que también se ve a la izquierda es que no tenemos un elemento mínimo de M.
+
+33
+00:02:29,130 --> 00:02:33,120
+Simplemente porque el punto límite no es un elemento de M.
+
+34
+00:02:33,830 --> 00:02:35,830
+Así que si "vivimos" en el conjunto M
+
+35
+00:02:35,840 --> 00:02:39,220
+podemos dirigirnos a la izquierda, pero nunca encontraremos al elemento mas pequeño.
+
+36
+00:02:40,270 --> 00:02:43,270
+Ok, pongamos todos eso en una definción.
+
+37
+00:02:44,230 --> 00:02:49,220
+Para un sunconjunto cualquiera M decimos que un número real "b" es una cota superior de M
+
+38
+00:02:49,740 --> 00:02:53,340
+si todos los elementos de M son menores o iguales que este "b".
+
+39
+00:02:53,980 --> 00:02:56,170
+Y acá hay dos cosas importantes que debieran notar.
+
+40
+00:02:56,230 --> 00:03:00,610
+Primero, "b" es un número real. no tiene que pertenecer a M.
+
+41
+00:03:01,220 --> 00:03:05,160
+Segundo, podríamos tener muchas cotas superiores diferentes de M.
+
+42
+00:03:05,930 --> 00:03:09,130
+Luego simplemente nos referimos a UNA cota superior de M.
+
+43
+00:03:09,960 --> 00:03:14,060
+De la misma manera un número real "a" se dice una cota inferior de M
+
+44
+00:03:14,590 --> 00:03:18,590
+si para todo "x" en M. 
+"x" es mayor o igual a este "a".
+
+45
+00:03:19,260 --> 00:03:22,850
+Ahora en el caso que para un conjunto M exista una cota superior tal
+
+46
+00:03:22,920 --> 00:03:24,920
+decimos que ese conjunto es acotado por arriba.
+
+47
+00:03:25,780 --> 00:03:29,280
+y en el caso que exista una cota inferior decimos que es acotado por abajo.
+
+48
+00:03:30,120 --> 00:03:31,130
+y adivinen,
+
+49
+00:03:31,160 --> 00:03:34,250
+si tenemos las dos cosas, simplemente decimos que el conjunto es acotado
+
+50
+00:03:35,030 --> 00:03:39,930
+Ok, formalicemos las otas notaciones que usamos, es decir máximo y mínimo.
+
+51
+00:03:40,380 --> 00:03:45,250
+Esto es simple. Si tenemos una cota superior "b" para el conjunto M
+
+52
+00:03:45,270 --> 00:03:48,640
+y este "b" es un elemento de M.
+
+53
+00:03:48,650 --> 00:03:51,940
+Entonces "b" se dice un elemento máximo de M.
+
+54
+00:03:52,680 --> 00:03:57,180
+y acá podemos ver que, a lo más, podemos tener uno solo elemento máximo.
+
+55
+00:03:57,740 --> 00:04:00,840
+Así que la notación "max M" se justifica.
+
+56
+00:04:01,270 --> 00:04:04,070
+Ahora tenemos la misma definición para una cota inferior
+
+57
+00:04:04,080 --> 00:04:09,180
+que también está en el conjunto M y que llamamos un elemento mínimo.
+
+58
+00:04:09,960 --> 00:04:13,560
+y la notación que usamos en este caso es simplemente "min M"
+
+59
+00:04:14,040 --> 00:04:17,440
+Ok, para tener una idea de esto veamos un ejemplo concreto.
+
+60
+00:04:18,029 --> 00:04:23,020
+Acá el conjunto M debiera ser un intervalo que comienza en 1 y termina en 3.
+
+61
+00:04:23,460 --> 00:04:26,040
+y ambos números están incluidos en el conjunto.
+
+62
+00:04:26,760 --> 00:04:30,350
+Entonces vemos inmediatamente que el máximo de M es el número 3
+
+63
+00:04:30,590 --> 00:04:32,780
+y el mínimo 1.
+
+64
+00:04:33,260 --> 00:04:37,050
+Sin embargo, ahora consideramos el conjunto que excluye ambos números
+
+65
+00:04:37,090 --> 00:04:41,080
+y vemos que max y min no existen.
+
+66
+00:04:41,630 --> 00:04:46,520
+En este caso estos dos puntos terminales no pueden ser definidos mediante estas descripciones simples.
+
+67
+00:04:47,270 --> 00:04:52,120
+Acá necesitamos una idea nueva que nos lleva a lo del supremo y el ínfimo.
+
+68
+00:04:52,680 --> 00:04:56,870
+para definir estos dos nuevos conceptos veamos la recta numérica de nuevo.
+
+69
+00:04:57,690 --> 00:05:02,780
+Aquí ven nuestro intervalo 1, 3. Donde 1 y 3 no están incluidos.
+
+70
+00:05:03,440 --> 00:05:07,530
+Ahora sabemos que, por ejemplo, 5 es una cota superior de este conjunto.
+
+71
+00:05:08,090 --> 00:05:13,170
+Sin embargo podemos elegir una menor. Por ejemplo, 4 también es una cota superior.
+
+72
+00:05:13,790 --> 00:05:18,890
+Entonces, la idea general es empujar esta cota superior lo mas a la izquierda posible.
+
+73
+00:05:19,610 --> 00:05:24,710
+En este caso encontramos que el número 3 es la menor cota superior posible
+
+74
+00:05:25,340 --> 00:05:28,620
+y esa es exactamente lo que llamamos el supremo de M
+
+75
+00:05:29,340 --> 00:05:36,820
+y el resultado será que esto es válido para cualquier conjunto M. Es decir cualquier subconjunto de R y no solamente intervalos.
+
+76
+00:05:37,520 --> 00:05:42,200
+Pero para esto tenemos que escribir la definición correcta de mínima cota superior.
+
+77
+00:05:42,650 --> 00:05:46,430
+Así que consideremos de nuevo cualquier subconjunto M de números reales
+
+78
+00:05:46,470 --> 00:05:50,170
+y entonces el número real "s" se dice el supremo de M
+
+79
+00:05:50,470 --> 00:05:52,970
+si satisface dos propiedades.
+
+80
+00:05:53,530 --> 00:05:57,420
+La primera ya la conocen: "s" debe ser una cota superior de M.
+
+81
+00:05:58,100 --> 00:06:00,800
+Exactamente la definición anterior.
+
+82
+00:06:01,430 --> 00:06:07,120
+y con la segunda propiedad debieramos especificar que se trate de la mínima cota superior.
+
+83
+00:06:07,770 --> 00:06:13,450
+y la idea sería si sustraemos un número pequeño epsilon de este "s"
+
+84
+00:06:13,460 --> 00:06:17,450
+debieramos obtener un número que ya no es una cota superior.
+
+85
+00:06:18,070 --> 00:06:24,660
+En otras palabras, a la derecha de este número "s - epsilon" encontraremos al menos un elemento de M.
+
+86
+00:06:25,340 --> 00:06:30,330
+y si esto es válido sin importar cuan pequeño sea el epsilon elegido hemos descrito la mínima cota superior.
+
+87
+00:06:30,960 --> 00:06:33,990
+Ahora en fórmulas escribimos que existe un cierto "x tilde"
+
+88
+00:06:34,020 --> 00:06:37,440
+tal que "s - epsilon" es menor que "x tilde"
+
+89
+00:06:38,020 --> 00:06:43,390
+Noten que eso significa exactamente que "s - epsilon" no es una cota superior de M.
+
+90
+00:06:44,210 --> 00:06:48,290
+y que por supuesto esto tiene que ser válido para cualquier epsilon mayor que 0.
+
+91
+00:06:49,020 --> 00:06:54,200
+Ahora, en el caso que un "s" así exista, es decir el supremo de M, usamos la notación anterior.
+
+92
+00:06:54,840 --> 00:06:58,620
+Esto tiene sentido, porque pueden fácilmente demostrar si el supremo existe
+
+93
+00:06:58,660 --> 00:07:01,750
+ya que solo un número "s" puede satisfacer estas dos propiedades.
+
+94
+00:07:02,150 --> 00:07:06,630
+Pero queremos aún mas. Aún en el caso de que el supremo no exista
+
+95
+00:07:06,670 --> 00:07:08,870
+porque el conjunto M no tiene una cota superior
+
+96
+00:07:08,890 --> 00:07:10,870
+Queremos usar este símbolo en este caso.
+
+97
+00:07:11,390 --> 00:07:15,470
+Entonces el supremo de M será simplemente el símbolo infinito
+
+98
+00:07:16,060 --> 00:07:19,660
+Y así garantizamos que esta notación siempre tenga un significado.
+
+99
+00:07:20,330 --> 00:07:26,120
+Probablemente el único otro caso especial es cuando quieran calular el supremo del conjunto vacío.
+
+100
+00:07:27,010 --> 00:07:32,950
+Como en ese caso todos los números son cotas superiores de ese conjunto, usamos el símbolo "menos infinito".
+
+101
+00:07:33,910 --> 00:07:38,100
+Ok ahí lo tienen. Esta es la definición completa para el supremo de un conjunto M.
+
+102
+00:07:38,610 --> 00:07:42,310
+de manera similar podemos escribir la definición para el ínfimo.
+
+103
+00:07:42,950 --> 00:07:45,290
+Y desde luego es casi lo mismo
+
+104
+00:07:45,320 --> 00:07:48,909
+porque la única diferencia es que acá estamos en el lado izquierdo
+
+105
+00:07:49,020 --> 00:07:50,640
+aumentando las cotas inferiores.
+
+106
+00:07:51,500 --> 00:07:54,900
+Y este "l" debiera ser la máxima cota inferior de M.
+
+107
+00:07:55,660 --> 00:08:01,240
+Así que la única diferencia con el supremo son los sentidos de las desigualdades.
+
+108
+00:08:01,820 --> 00:08:08,510
+También tenemos una notación similar si el ínfimo existe y de lo contrario usamos el símbolo infinito.
+
+109
+00:08:09,070 --> 00:08:14,450
+Como ya se los dije, si escribimos "sup M" o "inf M", esto siempre tiene significado.
+
+110
+00:08:14,850 --> 00:08:20,050
+De hecho este es un resultado que emana del axioma de completitud de los números reales.
+
+111
+00:08:20,550 --> 00:08:24,450
+Y no sería verdadero si estuvieran trabajando solo con los números racionales.
+
+112
+00:08:24,740 --> 00:08:27,740
+Yo diría: por favor recuerden esta definición completa
+
+113
+00:08:27,820 --> 00:08:31,910
+y en el siguiente video les explicaré la conexión con el axioma de completitud.
+
+114
+00:08:32,200 --> 00:08:34,900
+y desde luego les mostraré mas ejemplos.
+
+115
+00:08:35,460 --> 00:08:38,750
+Entonces espero verlos ahí y que tengan un buen día. ¡Hasta luego!

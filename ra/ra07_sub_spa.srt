@@ -1,0 +1,407 @@
+1
+00:00:00,429 --> 00:00:03,234
+Hola y bienvenidos a análisis real 
+
+2
+00:00:03,814 --> 00:00:08,720
+y como siempre agradezco a todos los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,071 --> 00:00:13,526
+La parte 7 de hoy será acerca de secuencias de Cauchy y completitud.
+
+4
+00:00:14,071 --> 00:00:19,972
+Para empezar este tópico recordemos que ya consideramos secuencias con una propiedad especial.
+
+5
+00:00:20,529 --> 00:00:22,818
+En particular, secuencias convergentes.
+
+6
+00:00:23,314 --> 00:00:31,157
+Lo que significa que existe un número "a" al cual, eventualmente, los elementos de la secuencia se aproximan arbitrariamente.
+
+7
+00:00:31,671 --> 00:00:34,514
+Ya saben la manera formal de expresar eso:
+
+8
+00:00:34,771 --> 00:00:40,538
+para todo epsilon existe un N tal que para todos los índices n mayores que N,
+
+9
+00:00:40,738 --> 00:00:44,911
+la distancia entre "a" y "a_n" es menor que el epsilon dado.
+
+10
+00:00:45,111 --> 00:00:50,161
+El problema con esta definición es que el límite debe ser conocido para probar convergencia.
+
+11
+00:00:50,543 --> 00:00:54,236
+Simplemente porque estamos midiendo la distancia a este "a".
+
+12
+00:00:54,436 --> 00:01:01,547
+Pero, hay una propiedad diferente que puede tener una secuencia, que no requiere de ese número "a" en la definición.
+
+13
+00:01:01,747 --> 00:01:06,185
+Para esto, veamos la recta numérica de nuevo y a una secuencia que debiera converger.
+
+14
+00:01:06,957 --> 00:01:10,475
+Entonces acá tenemos a_1, a_2, a_3 etc.
+
+15
+00:01:10,743 --> 00:01:14,678
+y los elementos de la secuencia se acumulan aquí, luego debería existir un límite acá.
+
+16
+00:01:15,300 --> 00:01:19,169
+Sin embargo no queremos usar este límite para describir lo que ocurre.
+
+17
+00:01:19,557 --> 00:01:24,829
+De hecho lo que ocurre aquí es que los elementos de la secuencia están cada vez mas cercanos unos de otros.
+
+18
+00:01:25,886 --> 00:01:31,488
+Entonces lo que queremos es que los elementos de la secuencia esten arbitrariamente próximos unos de otros, eventualmente.
+
+19
+00:01:31,771 --> 00:01:36,996
+Todo se trata de la distancia que puedan medir entre dos elementos de la secuencia acá.
+
+20
+00:01:37,196 --> 00:01:40,751
+que es el valor absoluto de "a_n - a_m".
+
+21
+00:01:41,271 --> 00:01:44,663
+y que debiera ser menor que el epsilon que elegimos al comienzo.
+
+22
+00:01:45,414 --> 00:01:49,591
+Entonces, de manera formal se dice: Para todo epsilon mayor que 0,
+
+23
+00:01:50,057 --> 00:01:56,578
+existe un N tal que para todos los índices n y m posteriores,
+
+24
+00:01:57,043 --> 00:02:01,296
+tenemos que la distancia entre los elementos de la secuencia es menor que epsilon.
+
+25
+00:02:02,143 --> 00:02:06,035
+ahora, una secuencia con esta propiedad la llamamos secuencia de Cauchy.
+
+26
+00:02:06,571 --> 00:02:09,666
+Ok, pongamos esto en una definición.
+
+27
+00:02:10,200 --> 00:02:15,586
+Esta es exactamente la definición que ya pueden haber visto en mi serie "start learning reals".
+
+28
+00:02:16,229 --> 00:02:21,250
+Ahí también demostré el hecho importante para una secuencia de números reales
+
+29
+00:02:21,786 --> 00:02:27,289
+que dice que ser una secuencia de Cauchy es equivalente a ser una secuencia convergente.
+
+30
+00:02:28,143 --> 00:02:31,900
+Como probar esta dirección pueden verlo en la parte 2 del curso
+
+31
+00:02:32,537 --> 00:02:35,758
+y la otra dirección es exactamente el axioma de completitud.
+
+32
+00:02:36,657 --> 00:02:41,995
+Entonces el axioma de completitud dice que no hay huecos en la recta numérica real completa.
+
+33
+00:02:42,986 --> 00:02:46,671
+Ahora, lo que verdadermemte debieran recordar es que cuando trabajamos con números reales,
+
+34
+00:02:46,743 --> 00:02:51,100
+no tenemos que distinguir entre secuencias de Cauchy y secuencias convergentes.
+
+35
+00:02:52,086 --> 00:02:56,270
+Tienen definiciones diferentes, pero para los reales significan lo mismo.
+
+36
+00:02:56,914 --> 00:03:02,721
+Entonces podemos usar cualquiera de las dos definiciones, dependiendo de cuál es más útil en el contexto
+
+37
+00:03:03,343 --> 00:03:08,455
+y pronto veremos que la definición de secuencia de Cauchy hace las cosas más fáciles.
+
+38
+00:03:08,655 --> 00:03:13,512
+Pero antes de aplicar esto en ejemplos discutamos otra importante propiedad.
+
+39
+00:03:14,186 --> 00:03:18,967
+Se llama completitud de Dedekind y es una propiedad de subconjuntos de números reales.
+
+40
+00:03:19,457 --> 00:03:25,600
+Si M es un conjunto de ese tipo y es acotado por arriba, sabemos que el supremo existe.
+
+41
+00:03:25,900 --> 00:03:29,591
+Entonces hay una cota superior mínima que es un número en R.
+
+42
+00:03:29,791 --> 00:03:33,632
+Recuerden que definimos el supremo en el video anterior.
+
+43
+00:03:34,129 --> 00:03:38,413
+y no es soreprendente que tengamos lo mismo para el ínfimo.
+
+44
+00:03:38,414 --> 00:03:43,367
+Si tenemos un conjunto acotado por abajo, el ínfimo existe como un número real.
+
+45
+00:03:44,014 --> 00:03:46,777
+Ok, déjenme explicar como vamos a probar esto.
+
+46
+00:03:47,229 --> 00:03:51,653
+y creo que es suficiente con darles una idea sobre como hacerlo para el supremo.
+
+47
+00:03:52,257 --> 00:03:56,218
+Para esto consideren la recta númerica y pongan M en ella.
+
+48
+00:03:56,418 --> 00:04:02,058
+Luego sabemos que existe una cota superior de M. Elijamos una y llamémosla b_1.
+
+49
+00:04:02,900 --> 00:04:06,439
+Por otra lado escojamos un elemento cualquiera de M
+
+50
+00:04:06,771 --> 00:04:09,351
+y a este llamémoslo simplemente a_1.
+
+51
+00:04:09,771 --> 00:04:15,125
+Ahora la idea es que vamos al punto que está exactamente en el medio de estos 2 puntos.
+
+52
+00:04:15,829 --> 00:04:19,130
+y a este lo llamo c_1.
+
+53
+00:04:19,500 --> 00:04:22,980
+Y simplemente calculamos la suma y luego dividimos por 2.
+
+54
+00:04:23,343 --> 00:04:26,888
+En este caso encontramos el punto medio en algún lugar acá.
+
+55
+00:04:27,557 --> 00:04:34,143
+Desde luego la idea es que al hacer este cálculo nos acercamos a este punto. Que es el supremo de M en la figura.
+
+56
+00:04:34,629 --> 00:04:40,571
+Ahora explico como obtenemos la secuencia completa que nos da una aproximación del supremo.
+
+57
+00:04:41,014 --> 00:04:44,743
+Ok, seguramente se han dado cuenta, tenemos 2 casos para c_1.
+
+58
+00:04:44,971 --> 00:04:48,400
+O es una cota superior como b_1 o no.
+
+59
+00:04:48,930 --> 00:04:55,071
+En el primer caso simplemente tenemos una cota superior menor. Es decir una mejor. Así que sencillamente podemos sustituir b_1.
+
+60
+00:04:55,500 --> 00:05:00,793
+O en otras palabras, introducimos b2 como la nueva cota superior dada por c_1.
+
+61
+00:05:01,214 --> 00:05:05,707
+Por otra parte el lado izquierdo no tenemos que cambiarlo. Solo permanecemos en a_1
+
+62
+00:05:06,443 --> 00:05:12,710
+y luego hacemos de nuevo lo mismo con a_2 y b_2, definiendo el punto medio como c_2.
+
+63
+00:05:13,443 --> 00:05:18,668
+En este caso debieran ver que el punto medio está a la izquierda de algunos puntos de M.
+
+64
+00:05:18,868 --> 00:05:22,041
+Ahora tenemos que pensar que hacer en el segundo caso.
+
+65
+00:05:22,986 --> 00:05:29,100
+Ahora, como dije, acá es posible encontrar un punto x en M, que es mayor que c_1.
+
+66
+00:05:29,943 --> 00:05:33,865
+Entonces este nuevo punto mayor debiera ser nuestro nuevo a_2.
+
+67
+00:05:34,314 --> 00:05:37,607
+Con esto desplazamos el punto izquierdo hacia la derecha
+
+68
+00:05:37,943 --> 00:05:41,386
+y no tenemos que cambiar el lado derecho con b_1.
+
+69
+00:05:42,600 --> 00:05:47,055
+Y con esto tenemos el procedimiento completo para formar las secuencias.
+
+70
+00:05:47,786 --> 00:05:55,803
+En general cuando tenemos a_n, b_n, definimos cn, y como antes sencillamente definimos los 2 números siguientes acá.
+
+71
+00:05:56,386 --> 00:06:02,399
+Esta es una definición recursiva, que nos entrega 2 secuencias, an y bn.
+
+72
+00:06:02,671 --> 00:06:08,731
+y los elementos bn son siempre cotas superiores, que aproximan el supremo.
+
+73
+00:06:09,286 --> 00:06:15,229
+Entonces lo único que falta por demostrar es que la secuencia bn es una secuencia de Cauchy.
+
+74
+00:06:16,114 --> 00:06:20,282
+Esto no es difícil de ver, porque tenemos la siguiente estimación:
+
+75
+00:06:20,914 --> 00:06:25,310
+Para 2 índices m y n, donde m es mayor que n
+
+76
+00:06:25,510 --> 00:06:29,324
+podemos calcular la distancia de b_n a b_m.
+
+77
+00:06:29,524 --> 00:06:36,124
+Usé el valor absoluto acá, pero honestamente no lo necesitamos porque b_n es mayor o igual a b_m
+
+78
+00:06:36,771 --> 00:06:41,900
+y ahora la distancia aumenta cuando sustituimos cualquier "a" por este b_m
+
+79
+00:06:42,319 --> 00:06:45,922
+y el mejor "a" que podríamos elegir sería "a" con índice n.
+
+80
+00:06:46,122 --> 00:06:51,833
+Por nuestra construcción del punto medio, siempre acortamos la distancia a la mitad.
+
+81
+00:06:52,157 --> 00:07:00,191
+entonces sabemos que esto es 1/2 elevado a "n - 1" por la distancia inicial |b_1 - a_1|
+
+82
+00:07:00,529 --> 00:07:04,302
+y ahora podemos hacer que este número completo sea arbitrariamente pequeño.
+
+83
+00:07:04,986 --> 00:07:11,214
+Esto es lo que pueden demostrar y luego formalizar la conclusión de que b_n es realmente una secuencia de Cauchy
+
+84
+00:07:11,578 --> 00:07:17,998
+y el último paso es simplemente emplear el axioma de completitud para probar que b_n es una secuencia convergente.
+
+85
+00:07:18,814 --> 00:07:23,300
+Y también que la única posibilidad para el límite es el supremo de M.
+
+86
+00:07:23,620 --> 00:07:26,545
+Ok, esa es la idea general para toda la prueba.
+
+87
+00:07:26,745 --> 00:07:29,016
+Pueden llenar los detalles faltantes fácilmente.
+
+88
+00:07:29,216 --> 00:07:35,396
+Sin embargo ahora saber que el supremo y el ínfimo siempre existen tiene una importante aplicación.
+
+89
+00:07:36,114 --> 00:07:40,359
+Inmediatamente obtenemos un buen criterio para mostrar la convergencia de una secuencia.
+
+90
+00:07:40,800 --> 00:07:44,208
+Si la secuencia a_n es monotónicamente decreciente
+
+91
+00:07:44,671 --> 00:07:49,135
+lo que simplemente significa que cada elemento de la secuencia es menor o igual que su predecesor
+
+92
+00:07:50,057 --> 00:07:53,001
+y si la secuencia también es acotada por abajo
+
+93
+00:07:53,457 --> 00:07:57,745
+lo que simplemente significa que el conjunto de los elementos de la secuencia tiene una cota inferior.
+
+94
+00:07:58,486 --> 00:08:03,088
+Podemos finalmente concluir que la secuencia es de verdad convergente.
+
+95
+00:08:03,629 --> 00:08:08,946
+Lo ven, este es un criterio muy útil, porque solo tienen que verificar 2 propiedades.
+
+96
+00:08:09,657 --> 00:08:12,914
+Algo que podría ser más fácil que verficar mediante la definición de convergencia.
+
+97
+00:08:13,614 --> 00:08:18,865
+En esta formulación ya pueden ver que usamos la existencia del supremo de este conjunto.
+
+98
+00:08:19,543 --> 00:08:23,883
+Sin embargo si usamos la existencia del ínfimo obtenemos otro criterio.
+
+99
+00:08:24,543 --> 00:08:30,899
+Desde luego muy similar. Ahí solo necesitamos una secuencia monotónicamente creciente, que esté acotada por arriba.
+
+100
+00:08:31,586 --> 00:08:34,386
+y entonces también podemos concluir que tenemos una secuencia convergente.
+
+101
+00:08:35,043 --> 00:08:39,526
+Ok, en el próximo video les mostraré algunos ejemplos de esta aplicación.
+
+102
+00:08:40,386 --> 00:08:43,686
+Así que los veo ahí. Que tengan un buen día. Adiós!
