@@ -1,0 +1,343 @@
+1
+00:00:00,371 --> 00:00:03,241
+Hola y bienvenidos otra vez a análisis real
+
+2
+00:00:03,971 --> 00:00:08,800
+y como siempre muchas gracias a los que me auspician mediante Steady o Paypal.
+
+3
+00:00:09,400 --> 00:00:13,957
+Hoy en la parte 9 hablaremos de secuencias y puntos de acumulación.
+
+4
+00:00:14,486 --> 00:00:19,214
+Para esto empecemos con la imagen de una secuencia en la recta numérica real.
+
+5
+00:00:19,786 --> 00:00:24,279
+Ahí tenemos muchos puntos llamados a_1, a_2, a_3 etc.
+
+6
+00:00:24,786 --> 00:00:30,748
+Ahora, el término "subsecuencia" no es difícil de entender. Simplemente omitimos algunos elementos de esta secuencia.
+
+7
+00:00:31,114 --> 00:00:39,651
+Por ejemplo tomamos el 1o, pero omitimos el 2o, luego tomamos el 3o y el 4o y luego omitimos otros.
+
+8
+00:00:40,214 --> 00:00:44,265
+Lo único que necesitamos es que todavía queden infinitos elementos.
+
+9
+00:00:44,971 --> 00:00:47,457
+De manera que al final todavía tenemos una secuencia.
+
+10
+00:00:47,971 --> 00:00:51,137
+Sin embargo ahora necesitamos nuevos nombres para los elementos,
+
+11
+00:00:51,337 --> 00:00:55,964
+porque toda secuencia es una mapa de los números naturales a los números reales.
+
+12
+00:00:56,343 --> 00:01:02,288
+Entonces el primer elemento requiere el índice 1 y el segundo el índice 2.
+
+13
+00:01:03,086 --> 00:01:07,652
+Entonces usualmente se usa n como índice con un índice adicional.
+
+14
+00:01:08,229 --> 00:01:13,643
+Entonces lo ven, n con índice k es una secuencia de números naturales.
+
+15
+00:01:14,100 --> 00:01:17,758
+Más aún, tiene que ser estrictamente monotónicamente creciente.
+
+16
+00:01:18,586 --> 00:01:23,586
+Es decir que para todo elemento de la secuencia su sucesor es estrictamente mayor.
+
+17
+00:01:24,471 --> 00:01:31,184
+En este caso la secuencia con índice k acá, se denomina subsecuencia de la secuencia original a_n.
+
+18
+00:01:31,757 --> 00:01:39,773
+Esta es nuestra primer definción de hoy. Podemos omitir algunos elementos, pero ahora necesitamos una nueva numeración dada por k.
+
+19
+00:01:39,973 --> 00:01:43,490
+Ok, esto estará mas claro cuando veamos un ejemplo.
+
+20
+00:01:43,971 --> 00:01:46,657
+Tomemos una secuencia que ya conocemos.
+
+21
+00:01:47,057 --> 00:01:50,851
+Es decir a_n dada por 1/n.
+
+22
+00:01:51,671 --> 00:01:57,699
+La pregunta es: ¿cuál es la subsecuencia si elegimos que n_k sea 2 elevado a k?
+
+23
+00:01:57,986 --> 00:02:01,171
+Noten que esta es una elección válida para la secuencia n_k,
+
+24
+00:02:01,257 --> 00:02:07,100
+porque 2 elevado a k es una secuencia de números naturales, estrictamente monotónicamente creciente.
+
+25
+00:02:08,014 --> 00:02:15,071
+Es decir que en la secuencia original acá, omitiremos todos los elementos con índice que no es potencia de 2.
+
+26
+00:02:15,929 --> 00:02:22,501
+Entonces el primero debiera ser 1/2, el siguiente 1/4, luego 1/8 etc.
+
+27
+00:02:23,071 --> 00:02:26,782
+Luego nuestra subsecuencia a_n_k se ve así:
+
+28
+00:02:27,457 --> 00:02:33,313
+Algo importante que deben notar, es que no podemos cambiar el orden general que tenía la secuencia antes.
+
+29
+00:02:33,814 --> 00:02:40,658
+En este caso la secuencia visita 1/2 una sola vez y también 1/4 una sola vez
+
+30
+00:02:41,286 --> 00:02:51,364
+y además sabemos que 1/4 viene después de 1/2, y no es posible que en la subsecuencia 1/4 venga antes de 1/2.
+
+31
+00:02:52,129 --> 00:03:00,240
+De hecho si tenemos que la secuencia es monotónica, ya sabemos que la subsecuencia es igualmente monotónica.
+
+32
+00:03:00,771 --> 00:03:06,761
+Otra cosa que deben notar es que podemos omitir muchos elementos, incluso un número infinito de ellos.
+
+33
+00:03:06,961 --> 00:03:10,123
+En tanto permanezcan infinitos elementos.
+
+34
+00:03:10,323 --> 00:03:15,995
+Ok, algo que no hemos discutido aún es que ocurre con el límite de una subsecuencia.
+
+35
+00:03:16,729 --> 00:03:22,637
+En nuestro ejemplo acá, el límite para esta secuencia es 0, y para esta otra también.
+
+36
+00:03:23,157 --> 00:03:25,984
+En otras palabras el límite aquí no cambia.
+
+37
+00:03:26,329 --> 00:03:29,783
+Y este es un hecho general que es es válido siempre.
+
+38
+00:03:29,983 --> 00:03:35,728
+Si tenemos una secuencia a_n, que sabemos convergente con límite "a",
+
+39
+00:03:35,928 --> 00:03:40,132
+entonces toda subsecuencia que podemos elegir es convergente también.
+
+40
+00:03:40,586 --> 00:03:48,063
+Mas aún, si calculamos el límite, llevando k al infinito, obtenemos el mismo resultado anterior.
+
+41
+00:03:48,429 --> 00:03:53,986
+Ok, esto puede no ser sorprendente pero ahora podrían preguntarse: "¿Para que necesitamos subsecuencias?"
+
+42
+00:03:54,686 --> 00:03:58,643
+y la respuesta es: nos ayudan en el análisis de secuencias divergentes.
+
+43
+00:03:59,414 --> 00:04:04,061
+Para esto veamos un ejemplo que discutimos al empezar este curso.
+
+44
+00:04:04,614 --> 00:04:07,174
+Es decir (-1) elevado a n.
+
+45
+00:04:07,571 --> 00:04:14,653
+En la recta numérica alcanzamos el punto 1 infinitas veces y otro tanto con el punto -1.
+
+46
+00:04:15,486 --> 00:04:19,078
+Así que esta secuencia es claramente no convergente.
+
+47
+00:04:19,714 --> 00:04:23,241
+Sin embargo, aún podemos encontrar subsecuencias convergentes.
+
+48
+00:04:23,614 --> 00:04:30,805
+Por ejemplo nos podemos limitar a los índices pares. Lo que significa que permanecemos en 1 toda la secuencia.
+
+49
+00:04:31,200 --> 00:04:33,824
+Y esa es claramente una secuencia convergente
+
+50
+00:04:34,643 --> 00:04:37,374
+cuyo límite 1 vemos inmediatamente.
+
+51
+00:04:38,014 --> 00:04:41,195
+Y por supuesto también podemos considerar los índices impares.
+
+52
+00:04:41,395 --> 00:04:43,787
+Lo que significa que permanecemos en -1 todo el tiempo.
+
+53
+00:04:44,686 --> 00:04:49,313
+Y así obtenemos otra subsecuencia, que también es claramente convergente.
+
+54
+00:04:50,029 --> 00:04:53,775
+Pero con otro límite, en este caso -1.
+
+55
+00:04:54,171 --> 00:05:01,107
+Ok, y estos límites de subsecuencias se llaman puntos de acumulación de la secuencia a_n.
+
+56
+00:05:01,500 --> 00:05:04,468
+Y esa será nuestra siguiente definición.
+
+57
+00:05:05,243 --> 00:05:12,230
+Entonces todo número real "a" se llama punto de acumulación de la secuencia a_n
+
+58
+00:05:12,871 --> 00:05:17,512
+si existe una subsecuncia a_n_k que tiene límite "a".
+
+59
+00:05:17,712 --> 00:05:24,570
+Ok, de acuerdo a lo anterior, pueden ver que "punto de acumulación" es una generalización de "límite",
+
+60
+00:05:25,043 --> 00:05:28,957
+porque una secuencia convergente puede tener un solo punto de acumulación.
+
+61
+00:05:29,062 --> 00:05:30,608
+Que no es otra cosa que el límite.
+
+62
+00:05:30,808 --> 00:05:35,236
+Sin embargo una secuencia divergente puede tener diferentes puntos de acumulación.
+
+63
+00:05:35,436 --> 00:05:39,651
+Desde luego este ejemplo era muy simple, así que veamos otro escenario.
+
+64
+00:05:40,200 --> 00:05:44,450
+Así que imaginen una secuencia que salta a diferentes puntos en la recta numérica,
+
+65
+00:05:44,650 --> 00:05:49,516
+pero que luego retorna y se acerca cada vez mas a 4 puntos diferentes.
+
+66
+00:05:50,257 --> 00:05:57,836
+No hay un límite, porque la secuencia sigue saltando, pero se va aproximando paulatinamente a diferentes puntos de acumulación
+
+67
+00:05:58,600 --> 00:06:05,320
+en otras palabras, se podrían restringir a los elementos de lo secuencia que viven solo acá y así tener una secuencia convergente
+
+68
+00:06:06,271 --> 00:06:08,743
+y por supuesto hacer lo mismo para las otras 3 partes.
+
+69
+00:06:09,414 --> 00:06:16,137
+Se puede decir que un punto de acumulación es simplemente un punto de la recta donde la secuencia se acumula.
+
+70
+00:06:16,614 --> 00:06:21,693
+Otra cosa que les debo decir es que existen muchos nombres para esta misma cosa.
+
+71
+00:06:21,893 --> 00:06:26,061
+Por ejemplo, no es sorprendente, pero algunos lo llaman "punto de aglomeración"
+
+72
+00:06:26,500 --> 00:06:29,713
+y en Inglés "accumulation point" en vez de "accumulation value".
+
+73
+00:06:30,300 --> 00:06:34,046
+Y un poco mas confuso es el término "punto límite".
+
+74
+00:06:34,471 --> 00:06:40,461
+Desde luego tiene sentido, pero cuidado: una secuencia a_n puede tener varios "puntos límite".
+
+75
+00:06:40,661 --> 00:06:45,194
+Para evitar confusiones algunos lo llaman "límite parcial".
+
+76
+00:06:45,671 --> 00:06:48,671
+Sin embargo yo usaré el término "punto de acumulación".
+
+77
+00:06:49,429 --> 00:06:54,637
+Ok, para terminar el video les daré una definición alternativa de punto de acumulación 
+
+78
+00:06:54,837 --> 00:07:04,357
+es decir: "a" es un punto de acumulación de la secuencia a_n, sí y solo sí para todo epsilon mayor que 0, 
+
+79
+00:07:04,471 --> 00:07:12,329
+tenemos que la vecindad-epsilon de "a" contiene infinitos elementos de la secuencia a_n.
+
+80
+00:07:12,929 --> 00:07:18,075
+Desde luego esta descripción se ajusta perfecto a los nombres acumulación o aglomeración.
+
+81
+00:07:18,275 --> 00:07:23,868
+Ahora, este enunciado no es difícil de probar, solo tienen que recordar que la vecindad-epsilon de "a"
+
+82
+00:07:24,457 --> 00:07:29,846
+está dada por el intervalo (a-epsilon, a+epsilon).
+
+83
+00:07:30,329 --> 00:07:38,066
+Ok, en el próximo video hablaremos mas de puntos de acumulación y también del teorema de Bolzano-Weierstrass.
+
+84
+00:07:38,686 --> 00:07:43,193
+Ese teorema nos dirá algo acerca de la existencia de puntos de acumulación.
+
+85
+00:07:43,757 --> 00:07:46,735
+Espero verlos ahí y que tengan un buen día.
+
+86
+00:07:46,971 --> 00:07:47,843
+Hasta luego!
