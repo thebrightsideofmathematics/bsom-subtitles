@@ -1,0 +1,267 @@
+1
+00:00:00,414 --> 00:00:03,104
+Hola y bienvenidos de nuevo a análisis real
+
+2
+00:00:04,014 --> 00:00:09,337
+y como siempre muchas gracias a los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,537 --> 00:00:14,716
+En la parte 10 de hoy hablaremos del teorema de Bolzano-Weierstrass.
+
+4
+00:00:15,014 --> 00:00:19,010
+Es un resultado fundamental que debieran aprender en cualquier curso de análisis.
+
+5
+00:00:19,614 --> 00:00:23,857
+El enunciado mismo es corto, así que lo puedo decir inmediatamente.
+
+6
+00:00:24,057 --> 00:00:27,997
+Para esto consideraremos una secuencia a_n, que es acotada
+
+7
+00:00:28,197 --> 00:00:33,392
+y luego podremos concluir que esta secuencia tiene al menos un punto de acumulación
+
+8
+00:00:33,700 --> 00:00:38,734
+en otras palabras, que una secuencia acotada debe aglomerarse (cluster) en algún punto.
+
+9
+00:00:39,300 --> 00:00:46,542
+Recuérdenlo, tener un punto de acumulación o de cluster solo significa que la secuencia tiene una subsecuencia convergente.
+
+10
+00:00:47,043 --> 00:00:52,890
+Se puede visualizar en la recta numérica, donde tienen una cota inferior y una superior.
+
+11
+00:00:53,514 --> 00:00:57,447
+Entonces todo elemento de la secuencia se encuentra entre esos valores.
+
+12
+00:00:57,647 --> 00:01:02,203
+Por supuesto, pueden saltar alrededor, pero siempre tenemos un número infinito de elementos.
+
+13
+00:01:03,014 --> 00:01:07,559
+Luego encontramos al menos 1 punto, donde infinitos elementos de la secuencia se acumulan.
+
+14
+00:01:08,471 --> 00:01:12,100
+Y ese es todo el enunciado del teorema de Bolzano-Weierstrass.
+
+15
+00:01:13,043 --> 00:01:16,527
+Ok, empecemos a probarlo.
+
+16
+00:01:17,100 --> 00:01:20,211
+Para esto consideremos la imagen anterior de nuevo.
+
+17
+00:01:20,886 --> 00:01:25,280
+Llamemos c_0 a la cota inferior y d_0 a la cota superior.
+
+18
+00:01:26,214 --> 00:01:31,429
+Ahora, la idea general de la prueba es simplemente bisectar el intervalo acá.
+
+19
+00:01:32,314 --> 00:01:37,857
+Entonces tenemos 2 intervalos o 2 partes, y queremos encontrar una subsecuencia acá.
+
+20
+00:01:38,700 --> 00:01:43,757
+Entonces seguimos con el intervalo que contiene infinitos elementos de la secuencia
+
+21
+00:01:43,986 --> 00:01:45,403
+e ignoramos el otro.
+
+22
+00:01:45,800 --> 00:01:52,745
+El procedimiento consiste en que primero miramos el intervalo izquierdo y observamos si contiene infinitos elementos de la secuencia.
+
+23
+00:01:53,300 --> 00:01:59,552
+Puede ocurrir que ambos intervalos contengan infinitos elementos, en cuyo caso elegimos el izquierdo.
+
+24
+00:02:00,186 --> 00:02:04,802
+Ok, lo que ahora tenemos es un intervalo que es la mitad del anterior en longitud.
+
+25
+00:02:05,457 --> 00:02:09,012
+Así que cambió la cota superior o cambió la inferior.
+
+26
+00:02:09,212 --> 00:02:13,534
+Entonces elegimos nuevos nombres, es decir c_1 y d_1.
+
+27
+00:02:13,734 --> 00:02:17,685
+Y ya no es sorpresa, bisectamos el nuevo intervalo de nuevo
+
+28
+00:02:17,885 --> 00:02:22,013
+y luego repetimos la elección y la bisección una y otra vez.
+
+29
+00:02:22,729 --> 00:02:26,067
+Al final, lo que tenemos son intervalos anidados.
+
+30
+00:02:26,814 --> 00:02:35,421
+Tenemos el intervalo original c_0 a d_0 y el nuevo intervalo c_1 a d_1 es un subconjunto propio de este
+
+31
+00:02:35,957 --> 00:02:41,515
+y después de repetir el proceso, tenemos el nuevo intervalo c_2 a d_2.
+
+32
+00:02:41,715 --> 00:02:45,936
+Que, nuevamente, es un subconjunto propio del intervalo anterior aquí.
+
+33
+00:02:46,136 --> 00:02:49,490
+Entonces tenemos esta inclusión tantas veces como queramos.
+
+34
+00:02:50,014 --> 00:02:55,952
+Ahora el punto del enunciado es que la longitud del intervalo se hace menor en cada paso.
+
+35
+00:02:56,857 --> 00:03:05,671
+En particular si calculamos (d_1 - c_1), tenemos 1/2 de la distancia original, porque bisectamos el intervalo.
+
+36
+00:03:06,171 --> 00:03:11,828
+Y del mismo modo, para (d_2 - c_2) obtenemos 1/2 de (d_1 - c_1)
+
+37
+00:03:12,657 --> 00:03:16,059
+en otras palabras 1/4 de la distancia original.
+
+38
+00:03:16,600 --> 00:03:22,102
+Ok, sabiendo que podemos usar inducción para demostrar la fórmula general para (d_n - c_n).
+
+39
+00:03:22,629 --> 00:03:27,686
+Simplemente tenemos 1/2 elevado a n por la longitud del intervalo original
+
+40
+00:03:28,200 --> 00:03:32,783
+y ahora se ve inmediatamente, esta es una "bonita" secuencia que converge a 0.
+
+41
+00:03:32,983 --> 00:03:39,574
+Sin embargo, también ganamos información sobre las secuencias d_n y c_n cuando vemos la imagen de nuevo.
+
+42
+00:03:40,243 --> 00:03:45,924
+Primero, sabemos que son secuencias acotadas ya que todos lo elementos también estan en este intervalo
+
+43
+00:03:46,329 --> 00:03:52,852
+y segundo, sabemos que la secuencia c_n solo puede crecer, en tanto d_n solo puede decrecer
+
+44
+00:03:53,457 --> 00:03:57,707
+y esto implica que las secuencias también son convergentes.
+
+45
+00:03:58,186 --> 00:04:03,746
+Recuerden, este es exactamente el criterio de monotonicidad de videos anteriores.
+
+46
+00:04:03,946 --> 00:04:07,400
+Es importante porque podemos usarlo a menudo, como lo pueden ver.
+
+47
+00:04:08,100 --> 00:04:11,980
+Lo que también podemos usar frecuentemente son los teoremas de límites.
+
+48
+00:04:12,500 --> 00:04:16,785
+De lo anterior podemos emplear el hecho de que ya conocemos el límite, que es 0
+
+49
+00:04:16,985 --> 00:04:21,004
+y ya hemos aprendido que podemos empujar el límite al interior de la diferencia.
+
+50
+00:04:21,386 --> 00:04:24,619
+Simplemente porque ambos límites acá también existen.
+
+51
+00:04:25,286 --> 00:04:31,074
+Entonces noten que nuestra conclusión aquí es que los límites de d_n y c_n son uno solo.
+
+52
+00:04:31,529 --> 00:04:37,181
+Entonces, finalmente podemos definir una subsecuencia para nuestra secuencia original a_n.
+
+53
+00:04:37,381 --> 00:04:44,010
+Lo hacemos simplemente eligiendo para a_n_k uno de los infinitos elementos en uno de los intervalos.
+
+54
+00:04:44,514 --> 00:04:49,986
+De esa manera a_n_k está siempre entre c_k y d_k.
+
+55
+00:04:50,686 --> 00:04:55,835
+Recuerden nuevamente, si aumentamos k el intervalo acá, decrece y decrece
+
+56
+00:04:56,257 --> 00:05:00,154
+y ya sabemos que en el límite las cotas son idénticas 
+
+57
+00:05:00,686 --> 00:05:04,935
+en otras palabras, acá podemos emplear el teorema del sandwich.
+
+58
+00:05:05,471 --> 00:05:10,827
+Que simplemente dice que la secuencia del medio también converge, y con el mismo límite.
+
+59
+00:05:11,027 --> 00:05:14,827
+y este límite es exactamente nuestro deseado punto de acumulación.
+
+60
+00:05:15,457 --> 00:05:18,187
+Y con esto nuestra prueba ha terminado.
+
+61
+00:05:18,614 --> 00:05:21,768
+Ok, ese es el teorema de Bolzano-Weierstrass.
+
+62
+00:05:22,514 --> 00:05:26,479
+Toda secuencia acotada tiene al menos un punto acumulación
+
+63
+00:05:27,029 --> 00:05:33,057
+y ahora les puedo decir que también es válido para secuencias de números complejos.
+
+64
+00:05:33,257 --> 00:05:36,290
+Así que es útil en muchas situaciones diferentes.
+
+65
+00:05:36,643 --> 00:05:38,676
+Ok, creo que ya es suficiente por hoy.
+
+66
+00:05:38,876 --> 00:05:40,065
+Y espero verlos en la próxima.
+
+67
+00:05:40,265 --> 00:05:41,086
+Hasta la vista!
