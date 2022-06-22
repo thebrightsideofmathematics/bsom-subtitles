@@ -1,0 +1,372 @@
+1
+00:00:00,514 --> 00:00:03,386
+Hello and welcome back to real analysis
+
+2
+00:00:03,871 --> 00:00:09,415
+and as always first i want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,786 --> 00:00:15,031
+In today's part 11 we will talk about the limit superior and the limit inferior.
+
+4
+00:00:15,671 --> 00:00:20,700
+Indeed both are very important concepts when you deal with sequences of real numbers.
+
+5
+00:00:21,300 --> 00:00:24,641
+Therefore let's immediately start with an example of such a sequence.
+
+6
+00:00:25,071 --> 00:00:29,046
+Here each sequence member a_n is given by n.
+
+7
+00:00:29,743 --> 00:00:33,251
+Now we know on the real number line this sequence looks very simple.
+
+8
+00:00:33,900 --> 00:00:38,934
+Obviously this sequence is not convergent, because it gets as large as you want.
+
+9
+00:00:39,134 --> 00:00:45,381
+So what we could say here is that this sequence is divergent, but it's divergent to infinity.
+
+10
+00:00:46,114 --> 00:00:51,138
+However please note here, we use infinity as a symbol here. Not as a number.
+
+11
+00:00:51,500 --> 00:00:59,333
+More concretely by definition this should mean that for any constant I give you, we find an index capital N
+
+12
+00:00:59,943 --> 00:01:04,507
+such that for all indices afterwards we are greater than this constant.
+
+13
+00:01:04,707 --> 00:01:08,927
+In other words the sequence exceeds any bound eventually.
+
+14
+00:01:09,500 --> 00:01:17,825
+In a similar way this definition works for a sequence that is not bounded from below, such that we can have the notion divergent to -infinity.
+
+15
+00:01:18,500 --> 00:01:21,332
+There our inequalities are just reversed.
+
+16
+00:01:22,014 --> 00:01:26,861
+However please note, this sequence here is not divergent to -infinity.
+
+17
+00:01:27,357 --> 00:01:32,183
+Of course only one of the two properties here can occur for a given sequence.
+
+18
+00:01:32,514 --> 00:01:37,126
+Another thing you should remember is that we have a symbolic notation for both cases here.
+
+19
+00:01:37,586 --> 00:01:42,382
+We just write that the limit of a_n is equal to the symbol infinity
+
+20
+00:01:42,443 --> 00:01:44,809
+or equal to the symbol -infinity.
+
+21
+00:01:45,300 --> 00:01:52,263
+So you see, using the symbols here makes it easier to talk about the properties of a sequence that is not convergent.
+
+22
+00:01:52,463 --> 00:01:57,818
+Another thing we introduced for such sequences is the notion of accumulation values.
+
+23
+00:01:58,300 --> 00:02:06,201
+For this example you might have already see, this sequence does not have any accumulation value. No cluster point at all.
+
+24
+00:02:06,743 --> 00:02:13,574
+However in the same symbolic way as here, we could say this sequence here clusters at infinity.
+
+25
+00:02:14,271 --> 00:02:18,447
+Therefore we define the improper accumulation value infinity.
+
+26
+00:02:18,814 --> 00:02:23,236
+Namely we have that for all sequences that are not bounded from above
+
+27
+00:02:23,643 --> 00:02:29,842
+and of course in same way we cluster at -infinity when the sequence is not bounded from below.
+
+28
+00:02:30,557 --> 00:02:36,366
+Now, this is a very nice definition, because it tells us together with the Bolzano-Weierstrass theorem
+
+29
+00:02:36,566 --> 00:02:42,154
+that any sequence that as no accumulation values, has at least one improper one
+
+30
+00:02:42,586 --> 00:02:48,960
+and that's what we can use to be able to talk about the smallest or the largest accumulation value we can have.
+
+31
+00:02:49,160 --> 00:02:54,952
+For this keep in mind that a given sequence a_n could have many different accumulation values.
+
+32
+00:02:55,314 --> 00:03:02,247
+Of course we can visualize that on a number line as well, but now keep in mind, we could have finitely many or infinitely many
+
+33
+00:03:02,629 --> 00:03:08,719
+and maybe we also have an improper accumulation value or even two outside of the number line.
+
+34
+00:03:09,414 --> 00:03:14,666
+Again, infinity and -infinity are just symbols we put next to the number line.
+
+35
+00:03:15,586 --> 00:03:19,014
+There are not numbers, but they are helpful for our whole description here.
+
+36
+00:03:19,786 --> 00:03:24,037
+Simply because now it makes sense to talk about the largest accumulation value.
+
+37
+00:03:24,857 --> 00:03:27,879
+It could be a normal one or an improper one
+
+38
+00:03:28,400 --> 00:03:30,775
+and the same holds for the lowest one.
+
+39
+00:03:31,529 --> 00:03:33,984
+Both of the now get very special names.
+
+40
+00:03:34,900 --> 00:03:39,178
+So here we have a definition that holds for any sequence of real numbers
+
+41
+00:03:39,971 --> 00:03:48,062
+and now we consider an element "a". Either it's a real number or the symbol -infinity or +infinity
+
+42
+00:03:48,743 --> 00:03:55,306
+and now this "a" is called the limit superior of the sequence a_n, if it's the largest accumulation value.
+
+43
+00:03:55,506 --> 00:03:59,755
+So there is no other accumulation value, which is larger than "a".
+
+44
+00:03:59,955 --> 00:04:04,400
+Additionally for this we have a common notation, you might have already seen.
+
+45
+00:04:04,706 --> 00:04:08,300
+We simply write "lim sup", n to infinity of a_n.
+
+46
+00:04:09,000 --> 00:04:14,053
+Ok, with this you now know one important symbol that is very often used in analysis
+
+47
+00:04:14,386 --> 00:04:19,482
+and then you might not be surprised that we can do a similar thing for the limit inferior.
+
+48
+00:04:20,157 --> 00:04:25,379
+It's simply the smallest accumulation value the sequence can have or it could also be an improper one
+
+49
+00:04:26,214 --> 00:04:28,885
+and then we use the notation "lim inf".
+
+50
+00:04:29,786 --> 00:04:35,702
+Ok, now you might ask why exactly do we use these strange names and these notations here?
+
+51
+00:04:36,243 --> 00:04:40,397
+Therefore I would say, we invest the next minutes to discuss this.
+
+52
+00:04:40,597 --> 00:04:43,370
+So let's draw a graph for a given sequence.
+
+53
+00:04:43,914 --> 00:04:49,460
+So we have the natural numbers on the x-axis and the real number line on the y-axis.
+
+54
+00:04:49,986 --> 00:04:55,687
+In other words the y-coordinates of the points gives us the sequence members a_n.
+
+55
+00:04:55,887 --> 00:05:02,018
+Therefore you should see at this value here and at this value, we have 2 accumulation values.
+
+56
+00:05:02,218 --> 00:05:08,084
+On the other hand here you can see this point here, gives us the largest value of the whole sequence.
+
+57
+00:05:08,414 --> 00:05:14,010
+In other words this is the supremum of a_k, where k goes through all the natural numbers.
+
+58
+00:05:14,886 --> 00:05:21,641
+However now you might ask: what happens with the supremum, when we ignore finitely many sequence members at the beginning?
+
+59
+00:05:21,841 --> 00:05:26,265
+Therefore here i just would write k is greater or equal than 1
+
+60
+00:05:26,971 --> 00:05:31,090
+and then when I look at k greater or equal than 2, nothing will change.
+
+61
+00:05:31,571 --> 00:05:34,929
+We still have this point here as the largest value.
+
+62
+00:05:35,129 --> 00:05:40,045
+However, if we go to 3, this value is no longer considered.
+
+63
+00:05:40,245 --> 00:05:43,472
+Now we find the new largest value, which is here.
+
+64
+00:05:43,672 --> 00:05:48,271
+Of course it's not possible that the supremum would be now larger than before.
+
+65
+00:05:48,471 --> 00:05:51,303
+Indeed in this case it's getting smaller.
+
+66
+00:05:51,503 --> 00:05:58,228
+Moreover now it stays the same at this value, until we reach the next step, which is k is greater or equal than 9.
+
+67
+00:05:58,800 --> 00:06:06,363
+This means that now we ignore all the points that are left on this side and then the largest value here is this one.
+
+68
+00:06:06,563 --> 00:06:12,819
+Ok and now you might already see, we get even smaller when we increase the number here even more.
+
+69
+00:06:13,286 --> 00:06:17,291
+For example we can choose 11 and then we find this value here
+
+70
+00:06:17,700 --> 00:06:20,694
+and then the supremum stays at this level.
+
+71
+00:06:20,894 --> 00:06:23,281
+No matter how big this number here is
+
+72
+00:06:23,481 --> 00:06:29,337
+and please recall, we already know this value here is the largest accumulation value.
+
+73
+00:06:29,537 --> 00:06:33,016
+Therefore by definition, this is the limit superior
+
+74
+00:06:33,471 --> 00:06:39,200
+or in summary we now have learned that the limit superior describes what happens with the supremum,
+
+75
+00:06:39,257 --> 00:06:43,100
+when we cut of more and more at the beginning of the sequence.
+
+76
+00:06:43,800 --> 00:06:46,297
+In this sense we have the following fact.
+
+77
+00:06:46,757 --> 00:06:54,942
+The lim sup of a sequence is related to the sequence given by the supremum, where n the index is the cutoff.
+
+78
+00:06:55,142 --> 00:06:58,418
+So we have k is greater or equal than n.
+
+79
+00:06:58,729 --> 00:07:02,250
+So this is a well defined sequence with index n.
+
+80
+00:07:02,450 --> 00:07:07,979
+The only strange thing that can happen here, is that all the sequence members here are the symbol infinity.
+
+81
+00:07:08,386 --> 00:07:13,052
+However with the exception of this case, we get a well defined sequence of real numbers,
+
+82
+00:07:13,252 --> 00:07:17,145
+where we already know, this sequence is monotonically decreasing
+
+83
+00:07:17,671 --> 00:07:22,147
+and then we look at the limit of this sequence, when n goes to infinity
+
+84
+00:07:22,729 --> 00:07:29,197
+and now one can show, this is exactly the largest accumulation value. Therefore our limit superior.
+
+85
+00:07:29,729 --> 00:07:36,566
+Here please keep in mind, on both sides infinity and -infinity as symbols are possible.
+
+86
+00:07:36,766 --> 00:07:41,883
+Also i can tell you, often this one is used for the definition of the limit superior.
+
+87
+00:07:42,514 --> 00:07:47,563
+However still there it's a good exercise to show the relation between the accumulation values there.
+
+88
+00:07:48,371 --> 00:07:52,885
+Ok, maybe not so surprising, we have a similar result for the limit inferior.
+
+89
+00:07:53,343 --> 00:07:59,456
+There we just observe what happens with the infimum, when we cut of finitely many sequence members at the beginning
+
+90
+00:08:00,000 --> 00:08:04,854
+and what we get is a sequence with index n, which is monotonically increasing.
+
+91
+00:08:05,400 --> 00:08:11,629
+However also here -infinity and infinity as symbols are possible on both sides.
+
+92
+00:08:11,943 --> 00:08:19,485
+Ok, then I would say, examples and more properties of the limit superior and limit inferior we can discuss in the next video.
+
+93
+00:08:19,886 --> 00:08:23,314
+Therefore I hope I see you there and have a nice day. Bye!
+
