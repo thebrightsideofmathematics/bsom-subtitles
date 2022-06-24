@@ -1,0 +1,371 @@
+1
+00:00:00,514 --> 00:00:03,386
+Hola y bienvenidos nuevamente a análisis real
+
+2
+00:00:03,871 --> 00:00:09,415
+y como siempre primero quiero agradecer a todos los que apoyan este canal mediante Steady o Paypal.
+
+3
+00:00:09,786 --> 00:00:15,031
+En la parte 11 de hoy hablaremos del límite superior y del límite inferior.
+
+4
+00:00:15,671 --> 00:00:20,700
+Dos conceptos verdaderamente importantes cuando se trata de secuencias de números reales.
+
+5
+00:00:21,300 --> 00:00:24,641
+Entonces empecemos con un ejemplo de esas secuencias.
+
+6
+00:00:25,071 --> 00:00:29,046
+Acá cada elemento a_n de la secuencia está dado por n.
+
+7
+00:00:29,743 --> 00:00:33,251
+En la recta numérica esta secuencia se ve muy simple.
+
+8
+00:00:33,900 --> 00:00:38,934
+Obviamente esta secuencia no es convergente, porque crece tanto como se quiera.
+
+9
+00:00:39,134 --> 00:00:45,381
+Así que podríamos decir que esta secuencia es divergente, pero divergente al infinito.
+
+10
+00:00:46,114 --> 00:00:51,138
+sin embargo, tomen nota, aquí usamos infinito como símbolo. No como número.
+
+11
+00:00:51,500 --> 00:00:59,333
+Concretamente, por definición esto significa que para cualquier constante dada encontramos un índice N (mayúscula)
+
+12
+00:00:59,943 --> 00:01:04,507
+tal que para todos los índices posteriores los elementos son mayores que esta constante.
+
+13
+00:01:04,707 --> 00:01:08,927
+En otras palabras, la secuencia eventualmente excede cualquier cota.
+
+14
+00:01:09,500 --> 00:01:17,825
+Y esta definición es válida para una secuencia no acotada por abajo, en cuyo caso hablamos de divergencia a -infinito.
+
+15
+00:01:18,500 --> 00:01:21,332
+En ese caso nuestras desigualdades simplemente se invierten.
+
+16
+00:01:22,014 --> 00:01:26,861
+Sin embargo noten, esta secuencia acá no es divergente a -infinito.
+
+17
+00:01:27,357 --> 00:01:32,183
+Solo una de esas dos propiedades se puede dar en una misma secuencia.
+
+18
+00:01:32,514 --> 00:01:37,126
+Y siempre deben recordar que para ambos casos acá tenemos notación simbólica.
+
+19
+00:01:37,586 --> 00:01:42,382
+Simplemente escribimos que el límite de a_n es igual al símbolo infinito
+
+20
+00:01:42,443 --> 00:01:44,809
+o igual al símbolo -infinito.
+
+21
+00:01:45,300 --> 00:01:52,263
+Usar los símbolos en este caso facilita hablar de las propiedades de una secuencia que no es convergente.
+
+22
+00:01:52,463 --> 00:01:57,818
+Otro concepto que introdujimos para esas secuencias es la noción de puntos de acumulación.
+
+23
+00:01:58,300 --> 00:02:06,201
+En este ejemplo, ya lo vieron, esta secuencia no tienen ningún punto de acumulación. Ningún punto de aglomeración.
+
+24
+00:02:06,743 --> 00:02:13,574
+Sin embargo, de la misma forma simbólica acá, podríamos decir que esta secuencia se acumula en infinito.
+
+25
+00:02:14,271 --> 00:02:18,447
+Entonces definimos el punto de acumulación impropio infinito.
+
+26
+00:02:18,814 --> 00:02:23,236
+Algo que tenemos para todas las secuencias que no están acotadas por arriba
+
+27
+00:02:23,643 --> 00:02:29,842
+de la misma forma hay una acumulación en -infinito cuando la secuencia no está acotada por debajo.
+
+28
+00:02:30,557 --> 00:02:36,366
+Esta es una definición muy buena, porque junto con el teorema de Bolzano-Weierstrass nos dice
+
+29
+00:02:36,566 --> 00:02:42,154
+que toda secuencia que no tiene puntos de acumulación, tiene al menos uno impropio
+
+30
+00:02:42,586 --> 00:02:48,960
+y esto es lo que nos permite hablar del menor, o del mayor, de los puntos de acumulación.
+
+31
+00:02:49,160 --> 00:02:54,952
+Es que recuerden que una secuencia dada a_n puede tener muchos puntos de acumulación diferentes.
+
+32
+00:02:55,314 --> 00:03:02,247
+Lo podemos visualizar en la recta numérica, pero ahora podríamos tener un número finito o infinitos puntos de acumulación
+
+33
+00:03:02,629 --> 00:03:08,719
+y también uno o dos puntos de acumulación impropios fuera de la recta numérica.
+
+34
+00:03:09,414 --> 00:03:14,666
+Nuevamente, infinito y -infinito son solo símbolos que ponemos junto a la recta numérica.
+
+35
+00:03:15,586 --> 00:03:19,014
+No son números, pero son útiles para nuestra descipción.
+
+36
+00:03:19,786 --> 00:03:24,037
+Especialmente porque ahora tiene sentido hablar del mayor de los puntos de acumulación.
+
+37
+00:03:24,857 --> 00:03:27,879
+Podría ser uno normal o uno impropio
+
+38
+00:03:28,400 --> 00:03:30,775
+y lo mismo ocurre con el menor de los puntos de acumulación.
+
+39
+00:03:31,529 --> 00:03:33,984
+Ambos tendrán nombres muy especiales ahora.
+
+40
+00:03:34,900 --> 00:03:39,178
+Así que acá tenemos una definición válida para cualquier secuencia de números reales
+
+41
+00:03:39,971 --> 00:03:48,062
+y ahora un elemento "a", es un número, o el símbolo -infinito, o el +infinito
+
+42
+00:03:48,743 --> 00:03:55,306
+y ahora este "a" se llama límite superior de la secuencia a_n, si es el mayor punto de acumulación.
+
+43
+00:03:55,506 --> 00:03:59,755
+De modo que no hay otro punto de acumulación que sea mayor que "a".
+
+44
+00:03:59,955 --> 00:04:04,400
+Además tenemos una notación común, que a lo mejor ya conocen.
+
+45
+00:04:04,706 --> 00:04:08,300
+Simplemente escribimos "lim sup", n al infinito de a_n.
+
+46
+00:04:09,000 --> 00:04:14,053
+Ok, ahora conocen un símbolo importante que se usa frecuentemente en análisis.
+
+47
+00:04:14,386 --> 00:04:19,482
+y no se sorprenderán que podamos hacer lo mismo con el límite inferior.
+
+48
+00:04:20,157 --> 00:04:25,379
+Es el menor punto de acumulación de la secuencia, que también podría ser impropio
+
+49
+00:04:26,214 --> 00:04:28,885
+y entonces usamos la notación "lim inf".
+
+50
+00:04:29,786 --> 00:04:35,702
+Ok, ahora se preguntaran: ¿Por que usamos acá estos nombres raros y notaciones?
+
+51
+00:04:36,243 --> 00:04:40,397
+Así que emplearemos los minutos siguientes para discutir esto.
+
+52
+00:04:40,597 --> 00:04:43,370
+Entonces dibujemos un gráfico de una secuencia dada.
+
+53
+00:04:43,914 --> 00:04:49,460
+Tenemos los números naturales naturales en el eje x y la recta numérica en el eje y.
+
+54
+00:04:49,986 --> 00:04:55,687
+Las coordenadas y de los puntos nos dan los elementos a_n de la secuencia.
+
+55
+00:04:55,887 --> 00:05:02,018
+Y deberían ver que en este valor aquí y en este otro valor, tenemos 2 puntos de acumulación.
+
+56
+00:05:02,218 --> 00:05:08,084
+Por otra parte este punto nos da el elemento mayor de toda la secuencia.
+
+57
+00:05:08,414 --> 00:05:14,010
+Este es el supremo de a_k, donde k recorre todos los números naturales.
+
+58
+00:05:14,886 --> 00:05:21,641
+Ahora podrían preguntar: ¿Que ocurre con el supremo, cuando ignoramos un número finito de elementos al comienzo?
+
+59
+00:05:21,841 --> 00:05:26,265
+Entonces acá yo simplemente escribiría k es mayor o igual a 1
+
+60
+00:05:26,971 --> 00:05:31,090
+y cuando observo con k mayor o igual a 2, nada cambia.
+
+61
+00:05:31,571 --> 00:05:34,929
+Todavía tenemos este punto como el mayor.
+
+62
+00:05:35,129 --> 00:05:40,045
+Sin embargo, si nos movemos a 3, esta valor ya no se toma en cuenta mas.
+
+63
+00:05:40,245 --> 00:05:43,472
+Ahora tenemos el nuevo valor mayor, que está aquí.
+
+64
+00:05:43,672 --> 00:05:48,271
+Desde luego, no es posible que el supremo sea mayor que antes.
+
+65
+00:05:48,471 --> 00:05:51,303
+De hecho, en este caso, se está haciendo menor.
+
+66
+00:05:51,503 --> 00:05:58,228
+Ahora permanece en este mismo valor, hasta el siguiente paso, que es con k mayor o igual a 9.
+
+67
+00:05:58,800 --> 00:06:06,363
+Esto significa ignorar todos los puntos a la izquierda de acá y ahora el valor mayor es este.
+
+68
+00:06:06,563 --> 00:06:12,819
+Y, lo ven, disminuímos aún mas cuando incrementamos este número.
+
+69
+00:06:13,286 --> 00:06:17,291
+Por ejemplo, podemos elegir 11 y encontramos este valor acá
+
+70
+00:06:17,700 --> 00:06:20,694
+y luego el supremo permanece a este nivel.
+
+71
+00:06:20,894 --> 00:06:23,281
+Sin importar cuan grande sea este número
+
+72
+00:06:23,481 --> 00:06:29,337
+y recuerden, ya sabemos que este valor acá es el mayor punto de acumulación.
+
+73
+00:06:29,537 --> 00:06:33,016
+Entonces, por definición, este es el límite superior
+
+74
+00:06:33,471 --> 00:06:39,200
+y en resumen, ahora hemos aprendido que el límite superior decribe lo que ocurre con el supremo,
+
+75
+00:06:39,257 --> 00:06:43,100
+cuando excluímos mas y mas desde el comienzo de la secuencia.
+
+76
+00:06:43,800 --> 00:06:46,297
+En este sentido tenemos el siguiente hecho:
+
+77
+00:06:46,757 --> 00:06:54,942
+El lim sup de una secuencia se relaciona con la secuencia dada por el supremo, donde el índice es el del corte.
+
+78
+00:06:55,142 --> 00:06:58,418
+Así que tenemos k es mayor o igual a n.
+
+79
+00:06:58,729 --> 00:07:02,250
+Y esta es una secuencia bien definida con índice n.
+
+80
+00:07:02,450 --> 00:07:07,979
+Lo único raro que puede ocurrir, es que todos los elementos de la secuencia sean el símbolo infinito.
+
+81
+00:07:08,386 --> 00:07:13,052
+Con excepción de ese caso, tenemos una secuencia de números reales bien definida,
+
+82
+00:07:13,252 --> 00:07:17,145
+donde ya sabemos, esta secuencia es monotónicamente decreciente
+
+83
+00:07:17,671 --> 00:07:22,147
+luego buscamos el límite de esta secuencia, cuando n va a infinito
+
+84
+00:07:22,729 --> 00:07:29,197
+y se puede demostrar: este es exactamente el mayor punto de acumulación, o sea nuestro límite superior.
+
+85
+00:07:29,729 --> 00:07:36,566
+Recuerden, en ambos lados son posibles infinito y -infinito como símbolos.
+
+86
+00:07:36,766 --> 00:07:41,883
+También puedo decirles, a menudo esta es usada como definición de límite superior.
+
+87
+00:07:42,514 --> 00:07:47,563
+Sin embargo, será un buen ejercicio demostrar la relación entre los puntos de acumulación en este caso.
+
+88
+00:07:48,371 --> 00:07:52,885
+Ok, y no es sorprendente que tengamos un resultado similar para el límite inferior.
+
+89
+00:07:53,343 --> 00:07:59,456
+Entonces ahí simplemente observamos lo que ocurre con el infimo, cuando excluimos un número finito de elementos al comienzo.
+
+90
+00:08:00,000 --> 00:08:04,854
+y lo que obtenemos es una secuencia con índice n, que es monotónicamente creciente.
+
+91
+00:08:05,400 --> 00:08:11,629
+También acá -infinito y infinito como símbolos son posibles en ambos lados.
+
+92
+00:08:11,943 --> 00:08:19,485
+Ok, verempos ejemplos y mas propiedades del límite superior y el inferior en el próximo video.
+
+93
+00:08:19,886 --> 00:08:23,314
+Espero verlos ahí. ¡Buen día!
