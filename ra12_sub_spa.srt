@@ -1,0 +1,315 @@
+1
+00:00:00,414 --> 00:00:03,191
+Hola y que bueno verlos de nuevo en análisis real
+
+2
+00:00:03,929 --> 00:00:08,892
+y desde ya, muchas, muchas gracias a los que auspician este canal mediante Steady o Paypal.
+
+3
+00:00:09,092 --> 00:00:13,626
+En la parte 12 de hoy hablaremos nuevamente sobre el límite superior y el límite inferior.
+
+4
+00:00:14,386 --> 00:00:20,489
+Recuérdenlo, en toda secuencia de números reales siempre existen lim sup y lim inf.
+
+5
+00:00:20,771 --> 00:00:25,841
+Y de hecho son un número real o el símbolo -infinito o +infinito.
+
+6
+00:00:26,041 --> 00:00:30,117
+Y les puedo decir, algunos expresan este conjunto como un intervalo.
+
+7
+00:00:30,657 --> 00:00:36,738
+En ese caso se usan corchetes para indicar que -infinito y +infinito estan incluídos en el conjunto.
+
+8
+00:00:36,938 --> 00:00:40,899
+Ok, como ya saben esto, veamos un ejemplo.
+
+9
+00:00:41,343 --> 00:00:47,739
+Acá tomo la secuencia a_n dada por (-1) elevado a n, por n.
+
+10
+00:00:47,939 --> 00:00:56,516
+Entonces la secuencia empieza con -1, luego viene 2, después -3, luego 4, -5, etc.
+
+11
+00:00:57,014 --> 00:01:00,442
+Obviamente, esta secuencia no es convergente.
+
+12
+00:01:00,642 --> 00:01:04,978
+Pero encontramos una subsecuencia que es divergente a +infinito.
+
+13
+00:01:05,178 --> 00:01:08,323
+Entonces el lim sup debe ser +infinito.
+
+14
+00:01:08,757 --> 00:01:13,693
+Del mismo modo encontramos una subsecuencia que es divergente a -infinito.
+
+15
+00:01:14,286 --> 00:01:17,419
+Entonces el lim inf debe ser -infinito.
+
+16
+00:01:17,957 --> 00:01:20,043
+Este es un ejemplo simple,
+
+17
+00:01:20,086 --> 00:01:27,271
+pero nos dice que todos los elementos en este conjunto son valores posibles para el límite superior y el inferior.
+
+18
+00:01:27,871 --> 00:01:30,884
+Con esto en mente formulemos algunas propiedades.
+
+19
+00:01:31,343 --> 00:01:34,806
+Primero discutamos que tenemos para secuencias convergentes.
+
+20
+00:01:35,257 --> 00:01:41,410
+Recuerden, lim sup es el punto de acumulación mayor y lim inf el menor.
+
+21
+00:01:41,610 --> 00:01:48,036
+Por lo tanto una secuencia es convergente sí y sólo sí lim sup y lim inf son iguales
+
+22
+00:01:48,236 --> 00:01:50,968
+y por supuesto, debieran ser números reales.
+
+23
+00:01:51,429 --> 00:01:57,106
+No es difícil de entender, si la secuencia es convergente lim sup y lim inf son realmente el límite.
+
+24
+00:01:57,306 --> 00:02:05,214
+Por otro lado, si son lo mismo, hay un solo punto de acumulación, y la secuencia debe converger a ese valor.
+
+25
+00:02:05,414 --> 00:02:10,970
+Ok, ahora podemos extender este resultado al caso cuando el límite es infinito.
+
+26
+00:02:11,170 --> 00:02:14,419
+Donde decimos que la secuencia es divergente a infinito.
+
+27
+00:02:14,900 --> 00:02:19,799
+Y nuevamente, lim sup y lim inf deben ser iguales, pero ahora iguales a infinito.
+
+28
+00:02:20,686 --> 00:02:27,593
+Comparen esto con el ejemplo, porque ahí es distinto. No son números reales, pero no son iguales.
+
+29
+00:02:27,793 --> 00:02:35,053
+Ok, les puedo decir que lim sup es siempre el punto de acumulación mayor. Es decir siempre mayor que lim inf.
+
+30
+00:02:35,253 --> 00:02:37,643
+Así que podemos ignorar esa parte acá.
+
+31
+00:02:37,800 --> 00:02:41,966
+Esto es inmediato si saben que lim inf es infinito.
+
+32
+00:02:42,514 --> 00:02:48,044
+Ahora, ya no parece sorprendente, podemos hacer lo mismo para el límite -infinito
+
+33
+00:02:48,244 --> 00:02:53,068
+y esto es válido sí y sólo sí el lim sup es -infinito.
+
+34
+00:02:53,814 --> 00:02:59,916
+Todo esto es fácil de demostrar, si saben las definiciones que vimos en el video anterior.
+
+35
+00:03:00,429 --> 00:03:05,629
+La próxima propiedad es un poco mas complicada, ahí combinamos 2 secuencias duiferentes.
+
+36
+00:03:06,371 --> 00:03:12,286
+Ok, para dos secuencias a_n y b_n se preguntarán: "¿Cuál es lim sup de la suma?"
+
+37
+00:03:12,686 --> 00:03:15,252
+Es decir lim sup (a_n + b_n).
+
+38
+00:03:15,452 --> 00:03:20,020
+En general, este no es igual a la suma de los dos límites superiores,
+
+39
+00:03:20,729 --> 00:03:22,989
+es solamente menor o igual.
+
+40
+00:03:23,686 --> 00:03:29,912
+Pero tengan siempre en mente, esto sólo tiene sentido si el lado derecho acá, está bien definido.
+
+41
+00:03:30,286 --> 00:03:35,638
+Por ejemplo, infinito + (-infinito) no está definido.
+
+42
+00:03:36,029 --> 00:03:43,995
+Ahora, esta es la única excepción para esta desigualdad. Por ejemplo podrían tener infinito + 5 que nuevamente es infinito.
+
+43
+00:03:44,400 --> 00:03:49,882
+Ahora, y también para 2 secuencias, podrían preguntarse: "¿Qué ocurre con el producto?"
+
+44
+00:03:50,082 --> 00:03:58,833
+y resulta que es lo mismo. El lim sup de (a_n por b_n) es menor o igual que el producto de los  2 límites superiores.
+
+45
+00:03:59,214 --> 00:04:06,816
+Pero, en general esto no es correcto porque podemos tener signos diferentes para las secuencias, lo que invierte la desigualdad.
+
+46
+00:04:07,314 --> 00:04:12,361
+Por eso formulemos y recordemos esta propiedad para secuencias no-negativas.
+
+47
+00:04:12,857 --> 00:04:19,574
+Sin embargo acá también hay una excepción, por ejemplo 0 por infinito no está definido.
+
+48
+00:04:19,774 --> 00:04:25,178
+Es importante saber esto cada vez que se calcula con los símbolos - y + infinito.
+
+49
+00:04:25,771 --> 00:04:30,751
+Ok, yo diría que probar estas dos desigualdades es un buen ejercicio para ustedes,
+
+50
+00:04:31,200 --> 00:04:37,392
+porque al hacerlo, inmediatamente verán que hay una desigualdad similar para el límite inferior.
+
+51
+00:04:37,829 --> 00:04:42,972
+Así que es lo mismo en verde acá. Lo único que cambió es la dirección de la desigualdad.
+
+52
+00:04:43,172 --> 00:04:47,420
+Así que el lim inf a la izquierda podría llegar a ser mayor que la derecha.
+
+53
+00:04:48,200 --> 00:04:53,315
+Para ver que esta es en general una desigualdad, veamos un ejemplo.
+
+54
+00:04:53,971 --> 00:04:57,076
+Para esto necesitamos dos secuencias de números reales.
+
+55
+00:04:57,657 --> 00:05:03,093
+Quiero que a_n sea 1, -1, 1, -1... etc.
+
+56
+00:05:03,293 --> 00:05:07,907
+y que b_n sea 0, 2, 0, 2... etc.
+
+57
+00:05:08,329 --> 00:05:12,736
+Con esta información podemos calcular inmediatamente la suma de las dos secuencias.
+
+58
+00:05:13,371 --> 00:05:17,514
+que es simplemente la secuencia constante con valor 1.
+
+59
+00:05:17,600 --> 00:05:19,943
+Es decir una secuencia convergente.
+
+60
+00:05:20,857 --> 00:05:25,483
+Luego el lim sup y el lim inf de la suma son simplemente 1
+
+61
+00:05:25,683 --> 00:05:30,010
+y ahora de las propiedades anteriores sabemos que acá tenemos desigualdades.
+
+62
+00:05:30,386 --> 00:05:33,852
+De hecho, en este caso son verdaderamente estrictas,
+
+63
+00:05:34,052 --> 00:05:39,035
+porque aquí en la derecha tenemos 1 + 2, que es 3.
+
+64
+00:05:39,235 --> 00:05:41,801
+Y que es estrictamente mayor que 1
+
+65
+00:05:42,271 --> 00:05:49,817
+y para el lim inf, tenemos -1 + 0. En este caso estrictamente menor que 1.
+
+66
+00:05:50,386 --> 00:05:54,077
+Ok, y por supuesto podemos hacer lo mismo para el producto.
+
+67
+00:05:54,277 --> 00:05:57,476
+Sin embargo, para esto deberíamos considerar secuencias no-negativas.
+
+68
+00:05:57,943 --> 00:06:01,415
+Entonces formulemos esto con un nuevo ejemplo.
+
+69
+00:06:01,943 --> 00:06:08,627
+Entonces tomamos la misma secuencia para b_n, pero para a_n sustituímos -1 con 0.
+
+70
+00:06:09,014 --> 00:06:14,266
+Entonces la secuencia producto es solo la secuencia constante, ahora con valor 0.
+
+71
+00:06:14,729 --> 00:06:18,221
+Y por supuesto el lim sup también es 0.
+
+72
+00:06:18,421 --> 00:06:24,465
+Por otro lado el lim sup de a_n es 1 y el lim sup de b_n es 2.
+
+73
+00:06:24,665 --> 00:06:27,071
+Así tenemos 2 en el lado derecho.
+
+74
+00:06:27,686 --> 00:06:32,576
+Y en este ejemplo también vemos que tenemos una desigualdad estricta.
+
+75
+00:06:33,314 --> 00:06:40,956
+Ok, de todo esto lo que verdaderamente deberían recordar son las 4 desigualdades para lim sup y lim inf
+
+76
+00:06:41,414 --> 00:06:47,069
+y si tienen tiempo, encontrar un ejemplo con desigualdad estricta para lim inf.
+
+77
+00:06:47,571 --> 00:06:52,604
+Mas tarde veran que podemos usar mucho estas desigualdades en los cálculos.
+
+78
+00:06:53,157 --> 00:06:56,733
+Ok, creo que está bien por hoy y espero verlos la próxima vez.
+
+79
+00:06:56,814 --> 00:06:57,543
+Adiós!
