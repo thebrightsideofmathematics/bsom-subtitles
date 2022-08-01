@@ -1,0 +1,400 @@
+1
+00:00:00,429 --> 00:00:03,315
+Hello and welcome back to real analysis.
+
+2
+00:00:04,043 --> 00:00:08,876
+Of course as always I want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,429 --> 00:00:14,613
+In today's part 13 we will talk about open, closed and compact sets.
+
+4
+00:00:14,813 --> 00:00:20,925
+First please recall that for any point x on the number line, we have the epsilon-neighbourhoods.
+
+5
+00:00:21,214 --> 00:00:24,914
+They are defined for positive epsilons as intervals.
+
+6
+00:00:25,686 --> 00:00:30,519
+Namely we start at (x - epsilon) and go to (x + epsilon)
+
+7
+00:00:30,719 --> 00:00:34,348
+and then they are simply called the epsilon-neighbourhood of x
+
+8
+00:00:34,986 --> 00:00:39,746
+and a common notation one uses is B with index epsilon of x.
+
+9
+00:00:39,946 --> 00:00:47,329
+The important thing you should remember here is that all the points that are close to x, are inside this B_epsilon(x)
+
+10
+00:00:48,086 --> 00:00:52,170
+and this closeness is just quantified with this value epsilon.
+
+11
+00:00:52,586 --> 00:00:56,357
+Which gives us the maximum distance the points can have from x.
+
+12
+00:00:57,000 --> 00:01:02,855
+However if you don't want or need to quantify the closeness, there is another notion one uses.
+
+13
+00:01:03,414 --> 00:01:06,609
+Namely we simply call it a neighbourhood of x
+
+14
+00:01:07,214 --> 00:01:13,848
+and this could be any subset of the real numbers, as long as we find the B_epsilon(x) inside
+
+15
+00:01:14,048 --> 00:01:23,736
+or in other words: we need to find a positive number epsilon, such that the epsilon-neighbourhood of x, B_epsilon(x), is a subset of M.
+
+16
+00:01:23,936 --> 00:01:32,616
+So you see the notion of neighbourhood of x is very general, but the crucial thing is that we find a normal epsilon-neighbourhood of x inside of it.
+
+17
+00:01:32,943 --> 00:01:35,986
+Ok, maybe we should start with a simple example.
+
+18
+00:01:36,757 --> 00:01:41,008
+If you have the number line in mind, we immediately get a lot of subsets.
+
+19
+00:01:41,208 --> 00:01:46,242
+For example the interval that starts with the number -2 and goes to the number 2.
+
+20
+00:01:47,200 --> 00:01:51,222
+This set is the neighbourhood of the point x = 0.
+
+21
+00:01:51,700 --> 00:01:56,309
+However, also it's a neighbourhood of the point x = 1.
+
+22
+00:01:56,509 --> 00:02:02,389
+The only important thing here is that we find an epsilon, that does not matter how large it is.
+
+23
+00:02:02,914 --> 00:02:05,200
+It only needs to be positive.
+
+24
+00:02:05,686 --> 00:02:10,765
+So maybe here in the second case we have to choose a smaller epsilon, than before.
+
+25
+00:02:10,965 --> 00:02:14,948
+However still, the only thing we need is that we find such an epsilon
+
+26
+00:02:15,771 --> 00:02:20,937
+and we do not find such a number, if the point x is given by 2.
+
+27
+00:02:21,137 --> 00:02:28,096
+Of course 2 is an element of this set, but an epsilon-neighbourhood around it lies not in the set.
+
+28
+00:02:28,296 --> 00:02:34,811
+No matter how small the epsilon is, we always find a part of the epsilon-neighbourhood that lies outside.
+
+29
+00:02:35,011 --> 00:02:43,170
+In summary, here we have an example of a set that is a neighbourhood of some elements of it, but for others it's not
+
+30
+00:02:43,370 --> 00:02:49,140
+and now a nice set, that is for all its members a neighbourhood, we call an open set.
+
+31
+00:02:49,814 --> 00:02:53,101
+So these nice sets will get a special name.
+
+32
+00:02:53,301 --> 00:02:58,376
+Later we will see, it's much better to work with open sets, than just with sets.
+
+33
+00:02:58,986 --> 00:03:05,392
+Ok, now any subset of the real numbers is called open or more precisely open in R,
+
+34
+00:03:05,592 --> 00:03:10,203
+if for each point x in M, M is a neighbourhood of this point.
+
+35
+00:03:11,114 --> 00:03:15,982
+Hence such boundary points like this one, are not in the set M itself.
+
+36
+00:03:16,182 --> 00:03:21,958
+Equivalently for the definition you could avoid the notion neighbourhood and just use the epsilon-neighbourhoods.
+
+37
+00:03:22,386 --> 00:03:30,423
+So this means for all x in M, there exists an epsilon greater than 0, such that B_epsilon(x) is a subset of M.
+
+38
+00:03:30,623 --> 00:03:33,870
+Of course we can also visualize that on the number line.
+
+39
+00:03:34,429 --> 00:03:38,466
+So for example here, these 4 parts could be our set M
+
+40
+00:03:38,666 --> 00:03:47,670
+and then you can just pick any x from this set and then in the case that M is open, you find a small interval around this point
+
+41
+00:03:47,870 --> 00:03:50,073
+that is completely inside the set M.
+
+42
+00:03:50,273 --> 00:03:56,385
+Hence in this picture, these boundary points here can't be a part of the set M.
+
+43
+00:03:56,585 --> 00:03:59,258
+Otherwise it would not be an open set.
+
+44
+00:03:59,771 --> 00:04:06,453
+Now on the other hand a set that contains all these possible boundary points gets also a special name.
+
+45
+00:04:07,086 --> 00:04:12,121
+Such a set A we call closed or more concretely closed in R.
+
+46
+00:04:12,657 --> 00:04:17,808
+The definition just reads that the complement of A, A^c is an open set.
+
+47
+00:04:18,229 --> 00:04:24,951
+For example the interval from before as a closed set, because the complement outside is an open set.
+
+48
+00:04:25,471 --> 00:04:31,022
+Now one important thing you should really note here is that open is not the opposite of closed.
+
+49
+00:04:31,400 --> 00:04:34,683
+For example a set could be neither open nor closed
+
+50
+00:04:35,200 --> 00:04:39,191
+or the other way around, it could be open and closed at the same time.
+
+51
+00:04:40,043 --> 00:04:42,954
+Ok, maybe that's a good time to look at some examples.
+
+52
+00:04:43,871 --> 00:04:46,946
+Let's start with the simplest subsets you can imagine.
+
+53
+00:04:47,714 --> 00:04:50,608
+Namely the empty set and R itself.
+
+54
+00:04:50,808 --> 00:04:57,077
+Of course they are both open, because the condition we have here for openness is immediately fulfilled.
+
+55
+00:04:57,277 --> 00:05:03,049
+For example for the empty set we don't have any problem, because there are no elements in the set at all
+
+56
+00:05:03,249 --> 00:05:10,401
+and on the other hand for the real numbers we don't have any problem, because all intervals are subsets of the real number line.
+
+57
+00:05:10,957 --> 00:05:14,502
+However now we also know, they are both closed.
+
+58
+00:05:14,929 --> 00:05:20,308
+Simply, because the empty set is the complement of the real numbers and vice versa.
+
+59
+00:05:21,000 --> 00:05:27,125
+Ok, the next example we have already discussed. An interval of this form is closed, but not open.
+
+60
+00:05:27,543 --> 00:05:30,800
+Therefore we often call such intervals, closed intervals.
+
+61
+00:05:31,614 --> 00:05:35,108
+Of course then the next example would be an open interval.
+
+62
+00:05:35,814 --> 00:05:40,270
+So that's good to know. When we use parentheses here we get an open set.
+
+63
+00:05:40,470 --> 00:05:44,551
+However in this case it's not a closed set, which you can prove.
+
+64
+00:05:45,043 --> 00:05:48,855
+Ok and in the last example here I want to mix the brackets
+
+65
+00:05:49,055 --> 00:05:52,338
+and in this case we don't have any of the 2 properties.
+
+66
+00:05:53,000 --> 00:05:55,014
+It's neither open nor closed.
+
+67
+00:05:55,729 --> 00:05:59,868
+Ok, so you see these 2 definitions here are not so complicated at all.
+
+68
+00:06:00,271 --> 00:06:06,569
+But please keep in mind, a subset of the real numbers could be much more complicated than just an interval.
+
+69
+00:06:07,271 --> 00:06:10,904
+In order to deal with such sets the next fact is very helpful.
+
+70
+00:06:11,243 --> 00:06:15,868
+It gives us a criterion to check closeness with the help of sequences.
+
+71
+00:06:16,500 --> 00:06:29,477
+Namely a set A is closed if and only if for all convergent sequences a_n with the property that all the sequence members lie inside the set A,
+
+72
+00:06:29,914 --> 00:06:33,842
+we have that the limit lies also in A.
+
+73
+00:06:34,500 --> 00:06:40,617
+To put this in other words it's not possible to leave the set with sequences from the inside.
+
+74
+00:06:40,817 --> 00:06:44,018
+Also here it might be helpful to look at an example.
+
+75
+00:06:44,386 --> 00:06:49,977
+Here on the the number line let's take the interval that starts with 0 and ends with 2.
+
+76
+00:06:50,986 --> 00:06:54,973
+Here the number 2 lies inside the interval, but 0 does not.
+
+77
+00:06:55,173 --> 00:06:59,859
+Hence we are not able to leave the interval from the inside to the right.
+
+78
+00:07:00,059 --> 00:07:05,530
+For example we could take such a sequence, which is convergent, but then it would have the limit 2.
+
+79
+00:07:05,730 --> 00:07:08,393
+It's not possible to get the limit outside.
+
+80
+00:07:08,593 --> 00:07:11,980
+However on the left-hand side it's indeed possible.
+
+81
+00:07:12,571 --> 00:07:15,870
+For example we could take the sequence 1 over n.
+
+82
+00:07:16,586 --> 00:07:20,837
+It's a convergent sequence, where all the sequence members lie inside A.
+
+83
+00:07:21,614 --> 00:07:26,528
+However, the limit here is 0. Which is not an element of A.
+
+84
+00:07:26,728 --> 00:07:30,383
+Hence the conclusion is: this set is not closed.
+
+85
+00:07:31,157 --> 00:07:35,288
+Ok, now you should know the definition of open sets and closed sets.
+
+86
+00:07:35,986 --> 00:07:39,985
+Therefore you are ready for the next definition about compact sets.
+
+87
+00:07:40,671 --> 00:07:47,277
+It's a little bit more complicated, but because you already know sequences, we can use them to describe the definition.
+
+88
+00:07:47,477 --> 00:07:51,571
+So we call a subset of the real numbers A, compact.
+
+89
+00:07:52,243 --> 00:07:57,872
+If for all sequences a_n, again all the members should lie inside a set A,
+
+90
+00:07:58,629 --> 00:08:02,896
+we find a convergent subsequence, where the limit lies in A.
+
+91
+00:08:03,096 --> 00:08:07,718
+So you should see, this is different to the property of closeness from before.
+
+92
+00:08:07,918 --> 00:08:13,015
+Indeed here you could say a compact set enforces clustering inside it.
+
+93
+00:08:13,514 --> 00:08:20,300
+Each sequence inside the set needs to have a cluster point, an accumulation value inside the set.
+
+94
+00:08:21,100 --> 00:08:29,478
+Now, if you compare this definition to the property of a closed set from before, with the sequences you see, this here requires much more.
+
+95
+00:08:30,314 --> 00:08:34,886
+Hence you can already keep in mind, a compact set is necessarily closed.
+
+96
+00:08:35,386 --> 00:08:37,581
+However not the other way around.
+
+97
+00:08:38,029 --> 00:08:44,191
+Maybe you can immediately find a set that is closed by our definition, but not compact with this definition.
+
+98
+00:08:44,514 --> 00:08:50,778
+Ok, then in the next video I will show you how we can describe these compact sets in simpler terms.
+
+99
+00:08:50,978 --> 00:08:53,518
+This is called the Heine-Borel theorem.
+
+100
+00:08:53,986 --> 00:08:57,729
+Therefore I hope I see you there and have a nice day. Bye!
+
