@@ -1,0 +1,316 @@
+1
+00:00:00,471 --> 00:00:03,437
+Hello and welcome back to real analysis
+
+2
+00:00:03,971 --> 00:00:09,277
+and as always many, many to all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,900 --> 00:00:14,056
+In today's part 14 we will talk about the Heine-Borel theorem.
+
+4
+00:00:14,256 --> 00:00:18,876
+In order to understand this, we first have to recall what a compact set is.
+
+5
+00:00:19,429 --> 00:00:25,838
+Here I can tell you, the definition we use for a compact set other people call sequentially compact.
+
+6
+00:00:26,414 --> 00:00:29,834
+It just means that we use sequences to describe compactness.
+
+7
+00:00:30,586 --> 00:00:35,986
+Now please recall that any subset A of the real numbers is called a compact set,
+
+8
+00:00:35,987 --> 00:00:38,786
+if it forces any sequence to cluster.
+
+9
+00:00:39,171 --> 00:00:43,429
+So a sequence with members in A has at least one accumulation value.
+
+10
+00:00:44,257 --> 00:00:50,359
+However, the important thing is that this accumulation value also has to lie inside the set A.
+
+11
+00:00:50,700 --> 00:00:52,143
+Also please note here,
+
+12
+00:00:52,186 --> 00:00:59,214
+this is a short formulation for saying that we have a sequence of real numbers, where each member is an element of the set A.
+
+13
+00:00:59,700 --> 00:01:04,157
+Ok, so we know the definition, therefore we now can look at examples
+
+14
+00:01:04,929 --> 00:01:07,228
+and I would say we start with the simplest one.
+
+15
+00:01:07,957 --> 00:01:13,368
+The empty set does not have any elements. Therefore this claim here is trivially true.
+
+16
+00:01:13,700 --> 00:01:16,047
+Hence the set is compact.
+
+17
+00:01:16,247 --> 00:01:21,106
+Similarly we can take another small set, so a set with just one element.
+
+18
+00:01:21,306 --> 00:01:25,743
+This one is also compact, because there is only one possible sequence.
+
+19
+00:01:26,543 --> 00:01:31,015
+In this case we have the constant sequence 5 with accumulation value 5.
+
+20
+00:01:31,215 --> 00:01:33,267
+Ok, so this was not so hard.
+
+21
+00:01:33,329 --> 00:01:37,606
+Therefore now my question would be: "What is about the largest subset we can choose?"
+
+22
+00:01:38,157 --> 00:01:41,545
+there we have to look at all sequences of real numbers.
+
+23
+00:01:41,745 --> 00:01:45,863
+For example I can give you the sequence that increases with n.
+
+24
+00:01:46,063 --> 00:01:52,734
+So this sequence is divergent to infinity. Therefore there is no accumulation value as an element of R.
+
+25
+00:01:52,934 --> 00:01:56,197
+Hence we immediately have a set that is not compact.
+
+26
+00:01:56,914 --> 00:01:59,236
+Next let's look at a closed interval.
+
+27
+00:02:00,114 --> 00:02:04,865
+Such an interval with real numbers c and d is indeed a compact set.
+
+28
+00:02:05,065 --> 00:02:07,517
+Ok, so let's try to proof this.
+
+29
+00:02:08,114 --> 00:02:12,536
+For this let's assume we have a sequence with members inside this interval.
+
+30
+00:02:12,736 --> 00:02:18,419
+Hence we can immediately conclude that this sequence is bounded from above and bounded from below.
+
+31
+00:02:18,957 --> 00:02:21,657
+In short we say this sequence is bounded.
+
+32
+00:02:22,014 --> 00:02:26,271
+However now you know, we can apply a very famous theorem.
+
+33
+00:02:26,471 --> 00:02:30,419
+Namely the Bolzano-Weierstrass theorem for sequences.
+
+34
+00:02:30,871 --> 00:02:35,403
+It tells us that a bounded sequence has at least one accumulation value
+
+35
+00:02:36,071 --> 00:02:39,787
+and this one we can call "a" and we know, it's a real number.
+
+36
+00:02:40,143 --> 00:02:45,808
+Now the only information that is still missing is that "a" is actually an element of our set.
+
+37
+00:02:46,629 --> 00:02:52,481
+However this is guaranteed, because we already know that such an interval is a closed set.
+
+38
+00:02:52,957 --> 00:02:58,892
+Here please recall, closed means that we can't leave the set by using sequences from the inside
+
+39
+00:02:59,092 --> 00:03:03,036
+and with this we have proven that the set is indeed compact.
+
+40
+00:03:03,543 --> 00:03:08,401
+Hence all intervals of this form we know can just call compact intervals.
+
+41
+00:03:08,971 --> 00:03:12,105
+Ok, now we are ready for the Heine-Borel theorem.
+
+42
+00:03:13,071 --> 00:03:19,263
+It tells us that the two properties we used in this proof here, are actually exactly what we need for a compact set.
+
+43
+00:03:19,600 --> 00:03:23,100
+Hence it's a theorem that is not hard to remember at all.
+
+44
+00:03:23,829 --> 00:03:32,893
+So for any subset A of the real numbers, we have that it is compact if and only if A is bounded and closed.
+
+45
+00:03:33,457 --> 00:03:36,562
+It's essential that we have both things here together.
+
+46
+00:03:36,871 --> 00:03:43,990
+This theorem is a very good result for us, because it tells us that we can substitute the complicated notion of compactness
+
+47
+00:03:44,190 --> 00:03:47,141
+with the simpler notions of boundedness and closeness.
+
+48
+00:03:47,843 --> 00:03:53,911
+Ok, so this is the Heine-Borel theorem, which holds for the real numbers and you really should remember it.
+
+49
+00:03:54,111 --> 00:03:57,930
+For the rest of the video, I would say let's to the proof of it.
+
+50
+00:03:58,357 --> 00:04:03,283
+Indeed the direction from the right-hand side to the left-hand side, we have already proven.
+
+51
+00:04:03,343 --> 00:04:11,785
+Of course you remember the only things we needed for the argument above is that A is a bounded set, such that we can use Bolzano-Weierstrass
+
+52
+00:04:11,985 --> 00:04:14,143
+ans the other thing was that the set is closed.
+
+53
+00:04:14,886 --> 00:04:19,107
+Which guarantees us that the accumulation value is actually in A.
+
+54
+00:04:19,500 --> 00:04:23,352
+Therefore only the direction from left to right remains.
+
+55
+00:04:23,552 --> 00:04:26,835
+Hence assume that our set A is compact.
+
+56
+00:04:27,214 --> 00:04:32,539
+Now for showing the closeness we take any convergent sequence in the set A
+
+57
+00:04:32,739 --> 00:04:35,627
+and let's call the limit for the moment "a" tilde.
+
+58
+00:04:36,429 --> 00:04:39,777
+First we only know that the limit is a real number.
+
+59
+00:04:40,214 --> 00:04:45,688
+If we can show that it is also an element in A, we have shown that a set is closed.
+
+60
+00:04:45,888 --> 00:04:49,303
+Ok, so at this point we can use that A is compact,
+
+61
+00:04:49,657 --> 00:04:53,763
+because it tells us that the sequence a_n has an accumulation value
+
+62
+00:04:54,186 --> 00:04:57,934
+and as before let's call this accumulation value just "a"
+
+63
+00:04:58,300 --> 00:05:03,319
+and now we already know, a convergent sequence can only have one accumulation value.
+
+64
+00:05:03,843 --> 00:05:07,786
+Hence our limit "a" tilde is the same as "a"
+
+65
+00:05:07,986 --> 00:05:11,385
+and therefore also an element in our set A.
+
+66
+00:05:11,871 --> 00:05:14,033
+So the set A is closed.
+
+67
+00:05:14,643 --> 00:05:18,456
+Ok, so it remains to show that A is bounded as well
+
+68
+00:05:18,986 --> 00:05:22,296
+and in order to show this we use a proof by contra position.
+
+69
+00:05:22,496 --> 00:05:29,024
+More concretely this means that we assume that A is not bounded and want to show that A is not compact.
+
+70
+00:05:29,514 --> 00:05:34,103
+Now, whenever we have unbounded sets, we can construct the sequence in the set,
+
+71
+00:05:34,303 --> 00:05:40,080
+such that all sequence member fulfill that the absolute value of a_n is greater than n
+
+72
+00:05:40,443 --> 00:05:43,361
+and this should work for all natural numbers n
+
+73
+00:05:43,886 --> 00:05:49,345
+and because of this property such a sequence can't have any accumulation value.
+
+74
+00:05:49,545 --> 00:05:52,698
+This is not hard to show, but maybe it's a good exercise for you.
+
+75
+00:05:53,657 --> 00:06:00,707
+Of course the important thing is the result. We have a sequence that has no accumulation value, therefore the set can't be compact.
+
+76
+00:06:01,586 --> 00:06:04,876
+and that is the proof of the Heine-Borel theorem.
+
+77
+00:06:05,157 --> 00:06:10,471
+So you see, it's not so complicated, but still the important part is that you remember the theorem.
+
+78
+00:06:11,529 --> 00:06:16,473
+Ok, then I hope I see you in the next video, when we continue with another topic in real analysis.
+
+79
+00:06:17,157 --> 00:06:18,957
+Have a nice day! Bye!
+
