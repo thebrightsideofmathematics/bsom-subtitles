@@ -1,6 +1,6 @@
 # bsom-subtitles
  Here, the subtitles for my YouTube videos are managed. Besides the original English language, also translations can be found here.
- In addition, title and timestamps for the video are managed here. These can also be translated in different languages.
+ In addition, titles and timestamps for the videos are managed here. These can also be translated in different languages.
 
 
 ## naming
