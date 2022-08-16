@@ -1,0 +1,8 @@
+﻿Real Analysis - Part 3 - Bounded sequences and unique limits
+
+00:00 Intro
+00:15 An example for showing that a sequence is divergent
+03:41 Definition of a bounded sequence
+04:36 A convergent sequence is also bounded
+06:09 The limit of a convergent sequence is uniquely given
+08:59 Outro
