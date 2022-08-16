@@ -1,7 +1,21 @@
 # bsom-subtitles
-Subtitles for my YouTube videos
+ Here, the subtitles for my YouTube videos are managed. Besides the original English language, also translations can be found here.
+ In addition, timestamps for the video are managed here. These can also be translated in different languages.
 
 
 ## naming
+We use:
+
 - ISO 639-2/B
 - See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for reference.
+
+### Example
+A subtitle for part 15 of the Real Analysis video in Portuguese is named
+```
+ra15_sub_por.srt 
+```
+
+Moreover, the file for the timestamps is named:
+```
+ra15_tim_por.txt
+```
