@@ -1,0 +1,326 @@
+0:00:00.400,0:00:06.560
+hello and welcome back to real analysis and 
+as always i want to thank all the nice people
+
+0:00:06.560,0:00:12.480
+that support this channel on steady or paypal 
+in today's part 16 we will still talk about
+
+0:00:12.480,0:00:19.440
+series and we have already learned a series is 
+just a special sequence namely it's simply the
+
+0:00:19.440,0:00:26.400
+sequence of partial sums for a given sequence 
+a k hence the sum ends here with a new index n
+
+0:00:27.280,0:00:32.560
+now because you already know this definition you 
+see we don't have a problem when we start a sum
+
+0:00:32.560,0:00:39.440
+with another number which is not 1. so depending 
+on the sequence ak we can start here with 0 2 or
+
+0:00:39.440,0:00:45.760
+3 or even a negative number if it makes sense 
+i tell you that because in the next example we
+
+0:00:45.760,0:00:53.920
+have a series that starts with zero it's the very 
+important geometric series and there we sum all
+
+0:00:53.920,0:01:02.160
+the powers of a given number q hence for us first 
+q could be any real number however what we want
+
+0:01:02.160,0:01:10.160
+to show now is that this series is convergent if 
+and only if q is less than 1 in the absolute value
+
+0:01:10.160,0:01:15.520
+hence only in this case we get a finite 
+number when calculating this infinite sum
+
+0:01:16.480,0:01:23.520
+okay then let's start the calculation the overall 
+question is of course what is our sequence sn
+
+0:01:23.520,0:01:30.400
+the sequence of partial sums because when we know 
+this we can calculate the limit n to infinity
+
+0:01:30.400,0:01:36.480
+indeed there is a nice calculation we can do with 
+this sum in the case that q is not equal to 1.
+
+0:01:37.040,0:01:43.200
+of course this is not a restriction because if 
+q is equal to 1 we have a very simple sum here
+
+0:01:43.200,0:01:49.760
+we just sum up once and therefore the series is 
+divergent to infinity okay now in the case that
+
+0:01:49.760,0:01:57.040
+q is not 1 we can multiply the whole sum with 
+1 minus q so we just scale the sequence here
+
+0:01:57.040,0:02:02.960
+with a non-zero number now the overall idea 
+is that we can expand this expression here
+
+0:02:02.960,0:02:09.760
+and get two sums the first sum is the same as 
+before and the second has q to the power k plus 1.
+
+0:02:10.560,0:02:14.560
+and now what we can do is change the 
+index here such that we have again
+
+0:02:14.560,0:02:20.960
+q to the power k inside the sum this simply 
+means that we start with k is equal to 1
+
+0:02:20.960,0:02:26.960
+and go to n plus one and then you should 
+see we go exactly through the same numbers
+
+0:02:27.840,0:02:34.160
+okay such an index shift is very helpful because 
+now we can subtract the two sums here and the only
+
+0:02:34.160,0:02:41.040
+things that remain are for the first sum the first 
+index so k is equal to 0 and for the second sum
+
+0:02:41.040,0:02:48.560
+the last index so k is equal to n plus 1. hence 
+we have q to the power 0 which is by definition
+
+0:02:48.560,0:02:55.440
+1 and q to the power n plus one okay with this we 
+have a very nice expression for our sequence sn
+
+0:02:56.320,0:03:03.440
+namely we can just divide by one minus q which 
+is non-zero and get this nice formula here and
+
+0:03:03.440,0:03:10.080
+there you should immediately see in which cases 
+sn is a convergent sequence we just have to know
+
+0:03:10.080,0:03:16.160
+if the sequence q to the power n is convergent 
+this is what you might already know and it is not
+
+0:03:16.160,0:03:22.800
+hard to show q to the power n is convergent if and 
+only if the absolute value of q is less than one
+
+0:03:23.520,0:03:29.840
+and in this case we also know the limit 
+which is zero then this implies that we can
+
+0:03:29.840,0:03:36.800
+actually calculate the limit of this sequence 
+here and as you can see this is 1 over 1 minus q
+
+0:03:37.600,0:03:43.760
+hence in summary the value of our series here 
+is well defined for q in the absolute value less
+
+0:03:43.760,0:03:51.520
+than 1 and it is 1 over 1 minus q this is such an 
+important formula such that it gets its own name
+
+0:03:52.160,0:03:57.440
+it's called the geometric series and you 
+really should remember it of course you can
+
+0:03:57.440,0:04:02.800
+see that this formula is important because 
+it got a name therefore i can now tell you
+
+0:04:02.800,0:04:09.840
+there is another series that has a special name 
+this one is the so-called harmonic series and
+
+0:04:09.840,0:04:17.520
+indeed it's an example of a divergent series it's 
+constructed by summing up all fractions one over k
+
+0:04:18.400,0:04:24.240
+so we have one plus one half plus one third plus 
+one fourth and so on and now we will show that
+
+0:04:24.240,0:04:30.560
+this is not convergent but rather divergent 
+to plus infinity the first time you see this
+
+0:04:30.560,0:04:35.520
+it might be a little bit surprising because 
+each number we add gets smaller and smaller
+
+0:04:36.160,0:04:42.800
+however the whole sum increases as much as you 
+want and this is exactly what we now want to show
+
+0:04:43.520,0:04:49.440
+therefore let's look again at the partial sums 
+we call sn here you should see immediately that
+
+0:04:49.440,0:04:55.600
+this is a sequence of positive real numbers 
+that is also monotonically increasing hence
+
+0:04:55.600,0:05:01.840
+the only thing that remains to show is that the 
+sequence is not bounded in order to show this we
+
+0:05:01.840,0:05:08.160
+have different possibilities but i choose a very 
+simple one we will only look at the indices where
+
+0:05:08.160,0:05:14.400
+n is a power of 2. there you will see this makes 
+everything easier in the first step you should
+
+0:05:14.400,0:05:21.760
+see we can rewrite this number as differences this 
+means that i can start with s1 and then i go to s2
+
+0:05:21.760,0:05:30.240
+but then i subtract s1 again hence this whole term 
+is just s2 then we go to s4 and subtract s2 again
+
+0:05:30.880,0:05:38.480
+in other words this is just s4 and please recall i 
+just want to use the powers of 2 here therefore in
+
+0:05:38.480,0:05:45.360
+the next step i would use s8 and subtract s4 again 
+and then we continue the whole game until we reach
+
+0:05:45.360,0:05:52.240
+our index 2 to the power m and of course in this 
+last step we have to subtract the predecessor in
+
+0:05:52.240,0:05:59.280
+summary this is just a complicated way to write s 
+with index 2 to the power m however still this is
+
+0:05:59.280,0:06:06.480
+very helpful because now we have differences here 
+and these differences are much easier to estimate
+
+0:06:07.200,0:06:12.000
+of course if you don't like the dots here we 
+can simply put the whole formula into a sum
+
+0:06:12.000,0:06:18.560
+symbol here it has the same information but now 
+it's compact but we have to use another index j
+
+0:06:19.360,0:06:25.680
+okay at this point you should recall that s 
+with an index stands for partial sum so here
+
+0:06:25.680,0:06:31.600
+we subtract two partial sums and of course what 
+remains is the middle part of the partial sum
+
+0:06:32.480,0:06:39.360
+okay so let's write that into another line okay so 
+we know we get out a partial sum the only thing we
+
+0:06:39.360,0:06:45.760
+have to think about is what is the start index and 
+what is the end index for this we call that this
+
+0:06:45.760,0:06:52.720
+partial sum once to the end index 2 to the 
+power j and this end index is smaller than this
+
+0:06:53.600,0:07:00.720
+hence the final index has to be 2 to the power 
+j also we know all indices that are smaller than
+
+0:07:00.720,0:07:09.520
+this or equal will vanish hence the start index 
+has to be 2 to the power j minus 1 plus 1. of
+
+0:07:09.520,0:07:14.880
+course this looks complicated because of all 
+the indices involved but actually it's not so
+
+0:07:14.880,0:07:21.600
+complicated because it's just a small part of this 
+sum here therefore maybe for the visualization
+
+0:07:21.600,0:07:27.840
+just imagine that the sum stands for these three 
+numbers here then of course the sum gets smaller
+
+0:07:27.840,0:07:34.720
+when we don't add one half plus one third plus 
+one fourth but rather three times one quarter here
+
+0:07:35.360,0:07:41.600
+indeed that is what we can do in general when we 
+put in here for the fraction the largest index
+
+0:07:42.480,0:07:46.880
+now we just have to count how many 
+times we add this constant number here
+
+0:07:47.440,0:07:52.320
+and when you do this you see we have 
+exactly 2 to the power j minus 1 terms
+
+0:07:53.280,0:07:58.240
+hence this is the only product we have to 
+calculate now and because we have chosen the
+
+0:07:58.240,0:08:04.800
+powers of two this is not so complicated it 
+is exactly one half now this is an important
+
+0:08:04.800,0:08:10.800
+information because it tells us that this term 
+here is always greater than one half no matter
+
+0:08:10.800,0:08:18.240
+what j is so we have this factor one half m 
+times in conclusion here we have our estimate
+
+0:08:18.240,0:08:24.880
+the partial sum s with index two to the power m 
+is always greater than s one plus m times one half
+
+0:08:25.680,0:08:32.560
+and of course this is not bounded at all because 
+when m increases this goes to infinity hence we
+
+0:08:32.560,0:08:38.560
+have shown that the whole sequence of partial sums 
+is not bounded from above in combination with the
+
+0:08:38.560,0:08:45.360
+monotonicity we have our divergence to infinity 
+hence there we have our harmonic series which is
+
+0:08:45.360,0:08:52.720
+a divergent series so please remember also this 
+important result okay then in the next videos we
+
+0:08:52.720,0:08:59.040
+will talk more about criteria we can use to show 
+the convergence of series and you will also see
+
+0:08:59.040,0:09:07.840
+that the two examples we had here are also very 
+helpful there so i hope i see you next time bye
+
+0:09:35.840,0:09:36.340
+you

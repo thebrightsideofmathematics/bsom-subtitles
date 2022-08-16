@@ -10,7 +10,7 @@ We use:
 - See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for reference.
 
 ### Example
-A subtitle for part 15 of the Real Analysis video in Portuguese is named
+A subtitle for part 15 of the Real Analysis video in Portuguese is named:
 ```
 ra15_sub_por.srt 
 ```
@@ -19,3 +19,5 @@ Moreover, the file for the title and timestamps is named:
 ```
 ra15_tim_por.txt
 ```
+
+### Content

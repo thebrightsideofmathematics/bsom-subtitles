@@ -1,0 +1,322 @@
+0:00:00.320,0:00:06.560
+hello and welcome back to real analysis and as 
+always first i want to thank all the nice people
+
+0:00:06.560,0:00:12.800
+that support this channel on steady or paypal 
+in today's part 17 we still talk about series
+
+0:00:13.440,0:00:18.560
+more concretely we will use this video and the 
+next ones to talk about criteria we have to check
+
+0:00:18.560,0:00:25.520
+for convergence for this please recall that a 
+series is just a sequence of partial sums and
+
+0:00:25.520,0:00:31.920
+in the case that this sequence is convergent we 
+also use this symbol to denote the limit therefore
+
+0:00:31.920,0:00:38.320
+by applying the well-known limit theorems we can 
+write down some properties therefore we take two
+
+0:00:38.320,0:00:44.000
+theories that need to be convergent and then 
+we can say something about the series that is
+
+0:00:44.000,0:00:51.200
+given by the sequence a k plus b k so here keep 
+in mind we have a new sequence of partial sums
+
+0:00:52.080,0:00:58.240
+now the result which is not so surprising is 
+that this series is also convergent we know
+
+0:00:58.240,0:01:05.440
+even more we can immediately calculate the limit 
+it's just given by the sum of the two limits of
+
+0:01:05.440,0:01:10.880
+course all of this is just an application of the 
+limit theorems you already learned for sequences
+
+0:01:11.680,0:01:17.760
+however in this case when we have convergence 
+theories it tells us that we can pull the addition
+
+0:01:17.760,0:01:23.760
+out of this symbol of course for a normal sum 
+this always works but please keep in mind this
+
+0:01:23.760,0:01:31.040
+symbol here is not a normal sum okay and another 
+property we get from ordinary sums is given by the
+
+0:01:31.040,0:01:37.600
+multiplication namely we have the distributive law 
+when we multiply all the terms in the sum with the
+
+0:01:37.600,0:01:45.360
+same factor for seris this means if the original 
+series is convergent then also this one no matter
+
+0:01:45.360,0:01:52.320
+which real number we choose for a lambda also here 
+this follows immediately from the limit theorems
+
+0:01:52.880,0:01:59.200
+and we get the calculation rule that we can 
+pull out lambda okay these two properties you
+
+0:01:59.200,0:02:04.560
+really should remember and you should remember 
+that they hold for convergent series therefore
+
+0:02:04.560,0:02:10.720
+a natural question would be how can we check that 
+a given series is indeed convergent in fact there
+
+0:02:10.720,0:02:16.640
+are a lot of different criteria one can apply to 
+answer this question the first one i want to show
+
+0:02:16.640,0:02:23.440
+you just uses the completeness axiom of the real 
+numbers therefore it's called the cochi criterion
+
+0:02:24.320,0:02:29.440
+please recall in the real numbers being a 
+convergent sequence is equivalent for being
+
+0:02:29.440,0:02:36.080
+a cauchy sequence and there the important part 
+was that for a crochet sequence we don't have to
+
+0:02:36.080,0:02:42.480
+know the limit therefore this criterion will check 
+for convergence but it does not tell you the limit
+
+0:02:43.280,0:02:48.320
+of course often this is good enough for example 
+if you just want to justify that you are allowed
+
+0:02:48.320,0:02:55.440
+to use these calculation rules here hence the 
+criterion tells us that the series is convergent
+
+0:02:55.440,0:03:04.400
+if and only if for all epsilon greater 
+than 0 there exists a capital n such that
+
+0:03:04.400,0:03:10.960
+for all indices n and m greater than this 
+capital n where also n is greater or equal
+
+0:03:10.960,0:03:18.720
+than m we have that the absolute value of the 
+partial sum starting with m and ending with n
+
+0:03:19.760,0:03:27.120
+is less than epsilon in other words if you can 
+show that this expression here is arbitrarily
+
+0:03:27.120,0:03:34.160
+small eventually then you know the series 
+is convergent and on the other hand if you
+
+0:03:34.160,0:03:39.840
+can show that this expression stays large or 
+larger than a given constant then you know the
+
+0:03:39.840,0:03:46.320
+series is not convergent okay before i show you an 
+example let's do the proof of this statement here
+
+0:03:47.120,0:03:53.200
+this is not so complicated because we just have 
+to use the completeness axiom first let's define
+
+0:03:53.200,0:04:02.000
+the partial sums as always denoted by sn then we 
+know the sequence sn is convergent if and only
+
+0:04:02.000,0:04:08.320
+if it is a cochise sequence that is exactly what 
+we know as the completeness of the real numbers
+
+0:04:09.120,0:04:15.360
+if you don't know anymore what a cauchy sequence 
+is let's write down the definition it just means
+
+0:04:15.360,0:04:21.840
+that for all epsilon greater zero there exists 
+a capital n such that for all indices afterwards
+
+0:04:21.840,0:04:27.840
+we can calculate the difference and then in the 
+absolute value it should be less than epsilon
+
+0:04:28.480,0:04:34.240
+here you see the indices are called untilde 
+and m tilde just because i want to redefine
+
+0:04:34.240,0:04:39.120
+them in the next step you already know 
+what we want is an expression like this
+
+0:04:40.080,0:04:46.400
+hence now you can see n should be always the 
+larger index here and until there i want to
+
+0:04:46.400,0:04:54.800
+shift by one hence here we get s n minus s m minus 
+one first you should see this is indeed a special
+
+0:04:54.800,0:05:00.560
+case of the property we had here and on the other 
+hand you should see it's not a restriction at all
+
+0:05:00.560,0:05:06.480
+because the only case we really miss is when we 
+have the same index here but of course in the case
+
+0:05:06.480,0:05:11.760
+that we have the same index there we always 
+get 0 out which is always less than epsilon
+
+0:05:12.400,0:05:18.960
+therefore this reformulation for a cauchy sequence 
+is always allowed ok now we only have to see that
+
+0:05:18.960,0:05:25.520
+this difference is exactly this sum here hence 
+this is the whole proof of the cochi criterion
+
+0:05:26.400,0:05:32.400
+now as promised let's apply it to an example 
+okay i would say let's look at the example we
+
+0:05:32.400,0:05:37.600
+had at the beginning of this course of course 
+we already know it's not convergent but the
+
+0:05:37.600,0:05:43.040
+question would be how can we show it with the 
+crochet criterion for this we have to calculate
+
+0:05:43.040,0:05:49.520
+this partial sum here now you already know we 
+only need to calculate this for indices nm that
+
+0:05:49.520,0:05:56.320
+are greater or equal than some capital n therefore 
+maybe let's substitute the m with the capital n
+
+0:05:57.040,0:06:02.880
+in other words we look at the special case for m 
+and we can do the same for n for example it would
+
+0:06:02.880,0:06:08.880
+be allowed to choose n plus 2. therefore 
+the sum consists of exactly three numbers
+
+0:06:09.680,0:06:14.080
+and of course we can calculate 
+them we just have to distinguish
+
+0:06:14.080,0:06:23.280
+two different cases the first case would be n 
+is even then we have one plus minus one plus one
+
+0:06:24.160,0:06:30.960
+therefore for an even n we get out one for the 
+sum of course then the absolute value does not
+
+0:06:30.960,0:06:37.040
+change anything okay then the other case would 
+be an odd n which means we start with minus one
+
+0:06:37.840,0:06:44.880
+then comes one and then we add minus one again 
+hence the result is minus one but with the
+
+0:06:44.880,0:06:52.560
+absolute value it's one as well hence no matter 
+what n is this expression is always exactly 1
+
+0:06:53.280,0:06:59.840
+which is of course not less than epsilon if 
+we choose epsilon less than 1. in conclusion
+
+0:06:59.840,0:07:06.400
+this property here can't be fulfilled for all 
+epsilon indeed now this is all we have to do
+
+0:07:06.400,0:07:13.440
+to show that this series is not convergent so here 
+you see the cochi criterion as simple as it is
+
+0:07:13.440,0:07:20.080
+can be very helpful in calculations and it is also 
+very helpful for showing the next important fact
+
+0:07:20.960,0:07:25.760
+maybe in this example you have already seen 
+there is a necessary condition for being a
+
+0:07:25.760,0:07:34.080
+convergent series just take any sequence of real 
+numbers ak and look at this series and if this
+
+0:07:34.080,0:07:40.320
+is convergent you know the sequence ak 
+has to be a sequence that converges to 0.
+
+0:07:41.120,0:07:47.040
+ok here you see the contraposition to this is 
+if you start with a sequence a k that is not
+
+0:07:47.040,0:07:54.000
+convergent to 0 the series we get out is divergent 
+and of course here you see immediately one example
+
+0:07:54.000,0:08:00.000
+where you can apply this fact minus 1 to the 
+power k is not a convergent sequence at all
+
+0:08:00.880,0:08:05.120
+however one important thing to note 
+here is this is not an equivalence
+
+0:08:05.920,0:08:10.320
+please remind yourself in the last video we 
+have already seen a counter example for this
+
+0:08:11.280,0:08:16.160
+now i can tell you this proof works similarly 
+to the things we did in the example above
+
+0:08:16.880,0:08:22.800
+therefore i think this is a good exercise for 
+you try to prove this fact afterwards then you
+
+0:08:22.800,0:08:28.720
+know every time someone asks you about series and 
+the convergence of it you should check this thing
+
+0:08:28.720,0:08:35.120
+here first however of course most of the time you 
+still don't know if the series is convergent then
+
+0:08:35.840,0:08:42.240
+in this case you have to apply another criterion 
+and such another one i show you in the next video
+
+0:08:42.960,0:08:53.840
+therefore i hope i see you 
+there and have a nice day bye
+
+0:09:16.480,0:09:16.980
+you
