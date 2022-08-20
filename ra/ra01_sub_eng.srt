@@ -232,7 +232,7 @@ or the definition of the derivatives needs.
 
 59
 00:03:14,390 --> 00:03:17,190
-Now, what you really should know is, what to do
+Now, what you really should know is what to do
 
 60
 00:03:17,180 --> 00:03:19,480
