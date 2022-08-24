@@ -1,10 +1,10 @@
-﻿1
+1
 00:00:00,600 --> 00:00:03,500
 Hello and welcome back to real analysis
 
 2
 00:00:04,100 --> 00:00:08,700
-and as always i want to thank all the nice people, that support this channel on Steady or Paypal
+and as always i want to thank all the nice people, that support this channel on Steady or PayPal
 
 3
 00:00:09,890 --> 00:00:12,400
@@ -16,7 +16,7 @@ by talking about talking about sequences and limits.
 
 5
 00:00:16,000 --> 00:00:19,500
-Therefore let's immediatly start defining what a sequence is.
+Therefore let's immediately start defining what a sequence is.
 
 6
 00:00:20,290 --> 00:00:24,000
@@ -60,7 +60,7 @@ Now, when we deal with sequences we seldom write down such a map,
 
 16
 00:00:54,600 --> 00:00:57,480
-but rather an  infinte list of numbers.
+but rather an  infinite list of numbers.
 
 17
 00:00:57,680 --> 00:01:02,350
@@ -116,7 +116,7 @@ Now if from the context the starting number is clear
 
 30
 00:01:46,090 --> 00:01:49,200
-we can just omit everything and just use the parantheses.
+we can just omit everything and just use the parentheses.
 
 31
 00:01:49,700 --> 00:01:52,200
@@ -124,7 +124,7 @@ Ok. I think that is enough about the notations.
 
 32
 00:01:52,300 --> 00:01:54,590
-Let's immediatly look at some examples.
+Let's immediately look at some examples.
 
 33
 00:01:55,000 --> 00:01:58,970
@@ -140,7 +140,7 @@ For example we could say that "an" = -1 to the power n.
 
 36
 00:02:07,600 --> 00:02:11,400
-and then we can use the parantheses to denote the whole sequence.
+and then we can use the parentheses to denote the whole sequence.
 
 37
 00:02:11,600 --> 00:02:14,400
@@ -220,7 +220,7 @@ but the codomain is the real numbers.
 
 56
 00:03:19,160 --> 00:03:22,020
-Therefore on the y-achses we find "R".
+Therefore on the y-axis we find "R".
 
 57
 00:03:22,990 --> 00:03:26,990
@@ -284,7 +284,7 @@ Here our sequence should be defined by the rule "1 over n".
 
 72
 00:04:27,750 --> 00:04:30,390
-Now you immediatly see this is way more interesting,
+Now you immediately see this is way more interesting,
 
 73
 00:04:30,400 --> 00:04:32,400
@@ -336,7 +336,7 @@ but the sequence from before doesn't satisfy such a rule.
 
 85
 00:05:19,490 --> 00:05:23,230
-However, before we define the limit as a property of a squence
+However, before we define the limit as a property of a sequence
 
 86
 00:05:23,260 --> 00:05:25,260
@@ -400,7 +400,7 @@ if the sequence members "an" lie arbitrary close to "a" eventually.
 
 101
 00:06:23,750 --> 00:06:25,990
-Now before we give the formal definifion
+Now before we give the formal definition
 
 102
 00:06:26,000 --> 00:06:29,450
@@ -440,7 +440,7 @@ This is just a common notation.
 
 111
 00:06:55,560 --> 00:06:59,460
-Now if we want to have "a" as the limit of the sequence in some sence
+Now if we want to have "a" as the limit of the sequence in some sense
 
 112
 00:06:59,480 --> 00:07:04,050
@@ -544,7 +544,7 @@ and only finitely many outside.
 
 137
 00:08:29,980 --> 00:08:33,679
-and with this you have the full definition of convergency.
+and with this you have the full definition of convergence.
 
 138
 00:08:34,320 --> 00:08:38,100
@@ -676,7 +676,7 @@ that "N" times epsilon is greater than 1.
 
 170
 00:10:44,080 --> 00:10:48,080
-Hence you only have to ask youself "is this really possible".
+Hence you only have to ask yourself "is this really possible".
 
 171
 00:10:48,790 --> 00:10:50,480
