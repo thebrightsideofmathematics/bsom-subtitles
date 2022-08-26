@@ -4,7 +4,7 @@ Hello and welcome to real analysis
 
 2
 00:00:04,200 --> 00:00:09,200
-and first i want to thank all the nice people that support this channel on Steady or Paypal.
+and first I want to thank all the nice people that support this channel on Steady or Paypal.
 
 3
 00:00:09,399 --> 00:00:11,399
@@ -16,7 +16,7 @@ where we talk about the analysis we can do with the real numbers.
 
 5
 00:00:15,790 --> 00:00:17,790
-Before we start with it i can tell you
+Before we start with it I can tell you
 
 6
 00:00:17,990 --> 00:00:21,980
@@ -100,7 +100,7 @@ So you see, we have a lot to cover here.
 
 26
 00:01:27,160 --> 00:01:31,150
-Therefore i should tell you what the requirements are for this course.
+Therefore I should tell you what the requirements are for this course.
 
 27
 00:01:31,350 --> 00:01:34,000
@@ -132,7 +132,7 @@ In the case you don't know the real numbers.
 
 34
 00:01:48,410 --> 00:01:52,400
-That is not a problem, because i have a whole video course about them.
+That is not a problem, because I have a whole video course about them.
 
 35
 00:01:52,600 --> 00:01:56,600
@@ -280,7 +280,7 @@ by considering sequences.
 
 71
 00:03:49,600 --> 00:03:52,490
-Therefore i hope i see you there and have a nice day.
+Therefore I hope I see you there and have a nice day.
 
 72
 00:03:52,500 --> 00:03:53,380
