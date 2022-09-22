@@ -1,0 +1,668 @@
+1
+00:00:00,486 --> 00:00:03,992
+Hello and welcome back to complex analysis
+
+2
+00:00:04,814 --> 00:00:10,939
+and of course, first I want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
+
+3
+00:00:11,914 --> 00:00:19,730
+Now, today in part 11 we will prove the important result about the uniform convergence and power series from the last video.
+
+4
+00:00:20,171 --> 00:00:23,586
+In order to do this let's quickly look at the statement again.
+
+5
+00:00:24,429 --> 00:00:30,312
+So we have a power series named f, defined on the open disc of convergence.
+
+6
+00:00:30,512 --> 00:00:33,904
+Then we are able to show 3 important statements here.
+
+7
+00:00:34,971 --> 00:00:41,742
+The first one is that inside the open disc, for every closed ball, we have the uniform convergence.
+
+8
+00:00:42,500 --> 00:00:48,680
+Next, the second statement tells us that this property also holds for this formal derivative
+
+9
+00:00:49,586 --> 00:00:55,904
+and then in the last step we can show that this is indeed the derivative of our power series f
+
+10
+00:00:56,329 --> 00:01:02,628
+or in other words, f is complex differentiable for any z and the derivative is as we expected.
+
+11
+00:01:03,729 --> 00:01:11,507
+Now, I already told you, this is an important result, because it tells us that every power series is a holomorphic function
+
+12
+00:01:12,200 --> 00:01:18,091
+and for this reason I think it's very helpful that you can see, that we can actually prove it.
+
+13
+00:01:18,414 --> 00:01:23,680
+The proof is not so complicated and indeed only part 3 will take some time.
+
+14
+00:01:23,880 --> 00:01:32,673
+However also for the other 2 parts, to make our life a little bit easier let's assume that the expansion point z_0 is equal to 0.
+
+15
+00:01:33,457 --> 00:01:38,230
+This is not really a restriction, because the general case would work exactly the same.
+
+16
+00:01:39,000 --> 00:01:44,559
+In the end this is just one translation in the complex plane to get any other expansion point.
+
+17
+00:01:45,500 --> 00:01:52,067
+Still for us here everything is tidier and clearer when z_0 vanishes from all the equations.
+
+18
+00:01:53,057 --> 00:01:56,908
+Ok, knowing this let's start with the proof of part 1.
+
+19
+00:01:57,614 --> 00:02:05,142
+There we need to show a uniform convergence and therefore we consider the difference (f - f_n) in the supremum norm.
+
+20
+00:02:06,114 --> 00:02:10,809
+Here of course f_n is just the polynomial given by the partial sum.
+
+21
+00:02:11,543 --> 00:02:17,701
+Also please note z_0 is set to 0 here and this one is our domain.
+
+22
+00:02:18,157 --> 00:02:22,389
+Which means we have a closed ball inside the domain of convergence.
+
+23
+00:02:23,114 --> 00:02:29,537
+Of course this is how you should understand the supremum norm here. It's a supremum norm with respect to this domain.
+
+24
+00:02:30,200 --> 00:02:36,532
+Hence we can immediately write this down as a supremum where z goes through all the points of this closed ball
+
+25
+00:02:37,343 --> 00:02:42,001
+and it's applied to the absolute value (f(z) - f_n(z)).
+
+26
+00:02:43,014 --> 00:02:47,592
+Which is of course simply our power series that now starts with n+1.
+
+27
+00:02:48,329 --> 00:02:51,802
+Simply because we subtracted the terms from 0 to n.
+
+28
+00:02:52,486 --> 00:02:58,038
+Now, this is something we can work with, because for the absolute value we have the triangle inequality.
+
+29
+00:02:58,943 --> 00:03:04,689
+Now, in order to apply it we first have to pull this limit here out of the absolute value.
+
+30
+00:03:05,214 --> 00:03:09,550
+This is possible, because the absolute value is a continuous function.
+
+31
+00:03:10,614 --> 00:03:16,924
+Ok, then the triangle inequality just means that now we have the absolute value inside the sum.
+
+32
+00:03:17,400 --> 00:03:23,371
+So we simply have the absolute value of a_k times the absolute value of z to the power k.
+
+33
+00:03:24,114 --> 00:03:30,879
+So what we can use now, is that the point z lies inside the closed ball with radius c.
+
+34
+00:03:31,343 --> 00:03:36,728
+Hence the length of this point, the absolute value of z, is not greater than c.
+
+35
+00:03:37,600 --> 00:03:42,646
+So we know we have the nice bound here. This is less or equal than c.
+
+36
+00:03:43,514 --> 00:03:48,529
+Okay, so this is a nice result because now we can omit the supremum here,
+
+37
+00:03:48,700 --> 00:03:51,025
+because there is no z involved anymore.
+
+38
+00:03:51,729 --> 00:04:00,983
+Hence what we get is a power series that starts with n + 1 of the absolute value of a_k, times c to the power k
+
+39
+00:04:01,586 --> 00:04:10,933
+and now you might already see, this looks close to a geometric series and indeed we can use a geometric series as a majorant here
+
+40
+00:04:11,857 --> 00:04:17,386
+and please note here, because there is the absolute value involved, we are only working with real numbers now.
+
+41
+00:04:18,229 --> 00:04:22,624
+For this reason you might recognize the whole argument here from real analysis.
+
+42
+00:04:23,243 --> 00:04:26,914
+Still, I really think it's helpful that we discuss it here.
+
+43
+00:04:27,686 --> 00:04:31,640
+Okay, now the last step here I want to put as a remark on this side.
+
+44
+00:04:32,800 --> 00:04:41,181
+By assumption we know that this power series is convergent, because the real number r tilde here lies in the region of convergence.
+
+45
+00:04:42,271 --> 00:04:47,003
+So the point here is, we can choose a number that lies between c and r.
+
+46
+00:04:48,000 --> 00:04:53,875
+So what we know is this series is convergent. Hence the sequence inside has to be bounded
+
+47
+00:04:54,743 --> 00:05:03,835
+Hence we find a bound we can call B, such that the absolute value a_k r tilde to the power k is bounded by B.
+
+48
+00:05:04,771 --> 00:05:12,067
+Now the left-hand side we can simplify, because r tilde is a positive real number which does not need the absolute value.
+
+49
+00:05:12,929 --> 00:05:16,357
+Therefore in the next step we can write this as:
+
+50
+00:05:17,143 --> 00:05:23,975
+B is greater or equal than a_k in the absolute value, times r tilde to the power k.
+
+51
+00:05:25,014 --> 00:05:30,341
+Okay and now you see we have to bring c to the power k into the game here.
+
+52
+00:05:31,057 --> 00:05:36,122
+Of course we can just do this in this way, but then we have to divide by c again
+
+53
+00:05:36,986 --> 00:05:41,707
+Hence what we have here is the factor "a" tilde divided by c to the power k
+
+54
+00:05:42,186 --> 00:05:48,202
+and here you see this number r tilde divided by c is a number that is greater than 1
+
+55
+00:05:49,200 --> 00:05:53,360
+Therefore we can call this number q to the power -1.
+
+56
+00:05:54,257 --> 00:05:58,665
+Hence then q is a number strictly less than 1.
+
+57
+00:05:59,714 --> 00:06:05,835
+Okay and now you see this whole thing here we can use for an estimate of this part there.
+
+58
+00:06:06,700 --> 00:06:14,424
+This is now simply less or equal than B times the series of q to the power k.
+
+59
+00:06:15,086 --> 00:06:24,503
+and there you should see, this is just a very nice geometric series. Which is of course convergent, because q is less than 1.
+
+60
+00:06:25,143 --> 00:06:31,529
+This means when we send the lower index n to infinity this whole thing goes to 0
+
+61
+00:06:32,029 --> 00:06:38,095
+and exactly this is what we wanted, because it means all the terms here are 0 in the limit.
+
+62
+00:06:39,057 --> 00:06:43,848
+Hence the supremum norm goes to 0 and we have the uniform convergence.
+
+63
+00:06:44,714 --> 00:06:48,031
+Okay, there we have it. The first part is proven.
+
+64
+00:06:49,100 --> 00:06:58,100
+Now, fortunately the 2nd part can be proven with exactly the same steps and in order to see this let's go back to the statement.
+
+65
+00:06:59,029 --> 00:07:04,926
+So you see it looks exactly like part 1. The only difference is that we have another power series
+
+66
+00:07:05,714 --> 00:07:11,184
+or in other words, we just have other coefficients, but these don't change the argument here.
+
+67
+00:07:12,014 --> 00:07:19,481
+Therefore the only thing we actually have to check is that this power series has the same radius of convergence like the first one
+
+68
+00:07:20,057 --> 00:07:23,894
+and this is what we can do using the Cauchy hardaman theorem.
+
+69
+00:07:25,086 --> 00:07:29,654
+So please remind yourself, this is just one lim sup we need to calculate.
+
+70
+00:07:30,557 --> 00:07:36,653
+For this please note that our new coefficients for this power series are given by a_k times k
+
+71
+00:07:37,714 --> 00:07:42,482
+or more precisely we can give it a name and call it b_(k-1).
+
+72
+00:07:43,371 --> 00:07:48,468
+The index is k-1, because the power here is also written as k-1.
+
+73
+00:07:49,343 --> 00:07:50,769
+Okay and now you know
+
+74
+00:07:50,969 --> 00:08:00,155
+for the radius of convergence we need to calculate this lim sup for k to infinity of the k-th root of the coefficient in the absolute value b_k.
+
+75
+00:08:00,957 --> 00:08:05,685
+Hence what we have inside here is (a_k + 1) times (k + 1).
+
+76
+00:08:06,786 --> 00:08:13,527
+Okay when we have this, I don't have to go into the details, because you see we can split it up into two parts.
+
+77
+00:08:14,386 --> 00:08:20,319
+The first part where the coefficient a_k is involved gives us the original radius of convergence r
+
+78
+00:08:20,414 --> 00:08:24,714
+and the 2nd part just goes to 1 in the limit, k to infinity.
+
+79
+00:08:25,829 --> 00:08:32,895
+Therefore the radius of convergence of this new power series is simply the same as we had for the original one
+
+80
+00:08:33,514 --> 00:08:39,512
+and this means we can simply redo all the steps, but now instead of a_k we would write b_k.
+
+81
+00:08:40,486 --> 00:08:45,566
+So I would say that's enough for part 2. The interesting proof is indeed part 3.
+
+82
+00:08:46,657 --> 00:08:52,065
+For this reason let's invest the next minutes to calculate the derivative of our function f.
+
+83
+00:08:53,086 --> 00:08:57,732
+Of course what we want to get out, is that the derivative is given by this power series.
+
+84
+00:08:58,571 --> 00:09:03,179
+Hence we need a good name for this function. Let's call it f tilde.
+
+85
+00:09:04,171 --> 00:09:09,014
+So in the end we want to get out that f tilde is actually f'.
+
+86
+00:09:09,557 --> 00:09:13,566
+However at the moment we don't know if f ' exists.
+
+87
+00:09:14,543 --> 00:09:19,254
+Therefore we are not able to assume it. We have to show it in this proof.
+
+88
+00:09:20,357 --> 00:09:23,903
+However, of course we can look at the difference quotient.
+
+89
+00:09:24,900 --> 00:09:31,027
+this can be written as f(z + h) - f(z) divided by h.
+
+90
+00:09:31,714 --> 00:09:38,846
+Obviously here h is also a complex number and in the limit h to 0 we get f'(z).
+
+91
+00:09:39,500 --> 00:09:44,360
+For this reason a good idea would be to subtract f tilde of z.
+
+92
+00:09:45,457 --> 00:09:51,666
+Then the thing we want to show, is that this term here goes to 0, when h goes to 0
+
+93
+00:09:52,757 --> 00:09:57,809
+and of course in order to do this we also will use a triangle inequality,
+
+94
+00:09:58,500 --> 00:10:03,504
+but before we do this let's split our power series f into two parts.
+
+95
+00:10:04,343 --> 00:10:10,266
+So you see here, instead of f, I write it as the sum of p_N + q_N.
+
+96
+00:10:11,114 --> 00:10:18,122
+Hence the idea here is to take the infinite sum and to divide it at the index N into two parts.
+
+97
+00:10:18,957 --> 00:10:24,809
+More precisely this means p_N(z) as given by the polynomial that ends with the index N.
+
+98
+00:10:25,771 --> 00:10:31,795
+Accordingly q_N is simply defined as the whole rest that starts with N+1.
+
+99
+00:10:32,743 --> 00:10:37,329
+Now, the reason why this splitting here can be helpful, we have seen above.
+
+100
+00:10:38,029 --> 00:10:41,078
+The derivative of the polynomial we can immediately calculate
+
+101
+00:10:42,343 --> 00:10:49,038
+and exactly this derivative of the polynomial we want to include here and then use the triangle inequality.
+
+102
+00:10:50,043 --> 00:10:55,324
+However before we do that let's first put p_N at the front and q_N at the back.
+
+103
+00:10:56,014 --> 00:11:01,352
+So here's the difference quotient with p_N and there is a difference quotient with q_N.
+
+104
+00:11:01,814 --> 00:11:08,374
+Of course we still subtract f_n, but here we want to add and subtract the derivative of p_N now.
+
+105
+00:11:09,314 --> 00:11:12,905
+Hence you could say we have simply added a 0 here.
+
+106
+00:11:13,857 --> 00:11:19,808
+Okay, now you should see that this really helps, because now we have 3 different parts here.
+
+107
+00:11:20,800 --> 00:11:30,444
+Also you surely remember our goal is to apply the triangle inequality, so what we have to do is to take the absolute value on both sides.
+
+108
+00:11:31,857 --> 00:11:39,814
+Ok, then you should see this really helps us, because now we can separate the 3 parts in the absolute value and get the inequality.
+
+109
+00:11:41,129 --> 00:11:46,456
+Now, this is very nice, because we can give the parts names and talk about them separately.
+
+110
+00:11:47,386 --> 00:11:55,277
+Of course we don't need fancy names. So maybe we call the first one simply "A", the second one B and the last one C.
+
+111
+00:11:56,786 --> 00:11:59,709
+So then let's see which one of them makes problems.
+
+112
+00:12:00,800 --> 00:12:07,674
+For the first one, "A" we already know, when we send h to 0 this one goes also to 0.
+
+113
+00:12:08,843 --> 00:12:12,378
+Hence no problems there. What about the second one?
+
+114
+00:12:13,343 --> 00:12:22,080
+Indeed by the property 2 from above, we already know this thing here converges to 0, when capital N goes to infinity.
+
+115
+00:12:23,129 --> 00:12:28,328
+This is simply because the uniform convergence implies the pointwise convergence we have here.
+
+116
+00:12:29,629 --> 00:12:36,475
+Of course in this case the question remains. What happens with the last part C here, when N increases?
+
+117
+00:12:37,457 --> 00:12:44,055
+If this one went bigger and bigger, it would not help us that the first two ones get smaller and smaller.
+
+118
+00:12:45,114 --> 00:12:48,435
+Therefore we have to analyze part C in detail.
+
+119
+00:12:49,543 --> 00:12:55,715
+First i would say, inside the absolute value, let's substitute q_N again with the power series.
+
+120
+00:12:56,943 --> 00:13:01,008
+Hence we have one part with z + h and one with just z.
+
+121
+00:13:01,900 --> 00:13:04,906
+Then of course we should put both terms together. 
+
+122
+00:13:06,000 --> 00:13:15,276
+So we simply have the series with a_k times (z + h) to the power k - z to the power k, divided by h.
+
+123
+00:13:16,457 --> 00:13:24,821
+Now, this looks much simpler than before and indeed we can simplify this even more, when we use the geometric sum formula.
+
+124
+00:13:25,800 --> 00:13:31,125
+Indeed this one is applicable, because we have the same power and the difference involved.
+
+125
+00:13:32,100 --> 00:13:42,246
+To refresh your memory, the geometric sum formula holds for any number q and it looks like: (1-q) to the power k divided by (1-q).
+
+126
+00:13:43,386 --> 00:13:47,770
+So you see there's one exception for q. q is not allowed to be 1.
+
+127
+00:13:48,614 --> 00:13:55,814
+However in all other cases this is indeed the finite sum starting with 0 and ending with k-1
+
+128
+00:13:57,029 --> 00:14:00,271
+and we simply sum up all the powers of q.
+
+129
+00:14:01,371 --> 00:14:06,675
+Now, in order to apply this formula here, the trick is to use a suitable q.
+
+130
+00:14:08,000 --> 00:14:13,100
+Maybe not so hard to see is that we need both z+h and z in q.
+
+131
+00:14:13,900 --> 00:14:19,543
+Hence what will work is, when we choose q as z divided by (z+h).
+
+132
+00:14:20,829 --> 00:14:27,746
+Then we can just multiply on both sides with the correct numbers, such that the left-hand side here looks like this.
+
+133
+00:14:28,643 --> 00:14:34,312
+Additionally and I simply tell you this, now we find that the right-hand side has a very nice form.
+
+134
+00:14:35,271 --> 00:14:41,016
+We start with the highest power of z+h which is the power k-1.
+
+135
+00:14:41,657 --> 00:14:46,374
+Then the next term in the sum is z+h to the power k-2.
+
+136
+00:14:47,471 --> 00:14:51,525
+However, then in addition we also find z to the power 1.
+
+137
+00:14:52,514 --> 00:14:56,685
+Hence we can say here in the first term we had z to the power 0.
+
+138
+00:14:57,657 --> 00:15:07,393
+So you see, this whole sum continues until we reach the last term, z+h to the power 0 times z to the power k-1.
+
+139
+00:15:08,329 --> 00:15:14,308
+Now, please don't forget ,this whole sum here is only the part inside the series after a_k.
+
+140
+00:15:15,500 --> 00:15:20,299
+This is important, because you know we apply the absolute value on the whole term.
+
+141
+00:15:21,471 --> 00:15:24,795
+Of course then we can use the triangle inequality again.
+
+142
+00:15:26,114 --> 00:15:31,057
+First we use it here to push the absolute value inside the series
+
+143
+00:15:32,029 --> 00:15:37,386
+and then you see, for this whole sum here we can use the triangular inequality again.
+
+144
+00:15:38,329 --> 00:15:45,353
+Indeed what we can use there is the fact that both z and z+h lie in our ball.
+
+145
+00:15:46,329 --> 00:15:52,094
+Hence we know, the number r is an upperbound for the absolute value of both numbers.
+
+146
+00:15:53,214 --> 00:15:59,471
+So you see for the absolute value we have r to the power k-1 here, here and so on
+
+147
+00:16:00,000 --> 00:16:05,241
+and because the sum has exactly k terms, we know we have this k times.
+
+148
+00:16:06,300 --> 00:16:09,327
+In conclusion, we get a very nice inequality now.
+
+149
+00:16:10,500 --> 00:16:18,931
+Of course we still have the series and the absolute value of a_k, but then comes r to the power (k-1) times k
+
+150
+00:16:19,929 --> 00:16:22,647
+and that's a very nice series we get here.
+
+151
+00:16:23,243 --> 00:16:28,210
+So you see this is related to the derivative, we already considered in part 2
+
+152
+00:16:29,229 --> 00:16:36,338
+and then you should see, I need to correct myself here, because we need to lie inside the domain of convergence.
+
+153
+00:16:37,400 --> 00:16:45,547
+Hence in order to do this correctly we need to choose a number r tilde which is less than the radius of convergence r.
+
+154
+00:16:46,486 --> 00:16:52,808
+This is no problem at all, because z and z+h lie inside the domain of convergence.
+
+155
+00:16:54,000 --> 00:17:00,238
+Hence instead of the number r we can choose a smaller number r tilde as the bound for all these numbers.
+
+156
+00:17:01,371 --> 00:17:07,518
+Then we get this series here and the most crucial fact is: this is a convergent series
+
+157
+00:17:08,343 --> 00:17:15,268
+and therefore this tail of the series has to go to 0 when capital N goes to infinity.
+
+158
+00:17:16,400 --> 00:17:22,305
+Ok and with this you see, we have complemented the last missing part of our estimate above.
+
+159
+00:17:23,443 --> 00:17:28,933
+To make it clearer, I would say for the end of the video let's go through the argument again.
+
+160
+00:17:29,643 --> 00:17:38,336
+So we start with a fixed point z and a small h. Then I just give you an arbitrary epsilon greater than 0
+
+161
+00:17:39,143 --> 00:17:46,038
+and then you simply choose N so large, that this part and this part are both smaller than epsilon.
+
+162
+00:17:47,100 --> 00:17:52,919
+After this, in the last part we simply take the limit h to 0 on both sides.
+
+163
+00:17:54,014 --> 00:18:00,301
+Then A will vanish and we have the fact that this limit here is smaller than our epsilon.
+
+164
+00:18:01,229 --> 00:18:07,297
+To put it in other words, the limit is arbitrarily small and therefore the limit has to be 0
+
+165
+00:18:08,400 --> 00:18:11,210
+and there you see, this concludes the whole proof.
+
+166
+00:18:12,257 --> 00:18:18,168
+Well, I still hope after this technical proof you are still interested in complex analysis.
+
+167
+00:18:19,343 --> 00:18:28,171
+The next video will be easier, when we just look at examples for power series. So I see you there and have a nice day. Bye!
+
