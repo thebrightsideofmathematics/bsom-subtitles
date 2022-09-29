@@ -5,7 +5,6 @@ Hello and welcome back to complex analysis
 
 2
 00:00:04,386 --> 00:00:11,327
-
 and as you might know, first i want to thank all the nice people that support this channel on Steady, via Paypal or by other means.
 
 3
@@ -199,7 +198,6 @@ Indeed we find something with the help of complex numbers, because "i" squared i
 
 50
 00:04:44,557 --> 00:04:50,486
-
 For this reason one idea would be to put "i" times z into the exponential function.
 
 51
@@ -212,7 +210,6 @@ Then what we should see is, here in the numerator we have essentially 4 differen
 
 53
 00:05:02,943 --> 00:05:07,070
-
 We get this because the powers of "i" have a periodic structure.
 
 54
@@ -382,7 +379,6 @@ and now these two representations can be very helpful, when you do calculations 
 
 95
 00:09:52,300 --> 00:09:58,594
-
 Simply because powers of exponential functions are easier to deal with than powers of cosine or sine.
 
 96
