@@ -1,0 +1,76 @@
+1
+00:00:00,714 --> 00:00:03,814
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,857 --> 00:00:06,431
+Which is today the element symbol.
+
+3
+00:00:06,971 --> 00:00:11,793
+This is exactly written like this. So you take a lower case c with a line inside it
+
+4
+00:00:12,414 --> 00:00:18,131
+and then you use it as a binary operator, where we have a left-hand side and the right-hand side.
+
+5
+00:00:18,786 --> 00:00:24,982
+On the right-hand side you find a given set and on the left-hand side an element of this set.
+
+6
+00:00:25,182 --> 00:00:29,790
+So you would read it like: " a is in A"
+
+7
+00:00:30,400 --> 00:00:35,398
+and now you remember, this is the sole operation we need to describe sets.
+
+8
+00:00:36,014 --> 00:00:41,750
+Hence the visualization would be that the set A is such a collection of elements.
+
+9
+00:00:42,457 --> 00:00:49,262
+This means if "a in A" is a true statement, we would draw the lower case a inside the capital A.
+
+10
+00:00:49,743 --> 00:00:56,787
+However it's also possible that the set A is also an element in another larger set.
+
+11
+00:00:57,457 --> 00:01:03,113
+So we could write capital A is an element of a larger set curved A.
+
+12
+00:01:03,829 --> 00:01:08,550
+Hence for this it would mean, the visualization is exactly the same.
+
+13
+00:01:08,914 --> 00:01:13,363
+So capital A can be seen as a point in this curved A.
+
+14
+00:01:13,563 --> 00:01:18,121
+So we learn, such an object can be an element, but also a set.
+
+15
+00:01:18,200 --> 00:01:21,249
+So it can be on the right-hand side, but also on the left-hand side.
+
+16
+00:01:21,449 --> 00:01:28,297
+So in the visualization it would mean, if you zoom in, you see that this element has also elements for itself.
+
+17
+00:01:29,286 --> 00:01:36,060
+So there we have it. This is the element symbol we use throughout mathematics to describe the element-set relation
+
+18
+00:01:36,457 --> 00:01:42,993
+and if you want to learn more about this I have a whole video course about this called "start learning sets".
+
+19
+00:01:43,193 --> 00:01:47,977
+So let's meet there or on the next day for the next mathematical symbol.
+

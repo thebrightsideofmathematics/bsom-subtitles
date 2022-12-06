@@ -1,0 +1,84 @@
+1
+00:00:00,729 --> 00:00:04,571
+The mathematical Symbol of today is the so called Gamma function.
+
+2
+00:00:04,686 --> 00:00:06,309
+Written with a capital Gamma.
+
+3
+00:00:07,429 --> 00:00:11,709
+and the name of the variable we put in is usually given by z.
+
+4
+00:00:12,443 --> 00:00:18,077
+Now the explicit definition of the Gamma function is not so simple, because it's given by an integral.
+
+5
+00:00:19,014 --> 00:00:22,408
+Indeed we integrate from 0 to infinity.
+
+6
+00:00:23,171 --> 00:00:27,033
+and the variable for the integration is given by x.
+
+7
+00:00:27,800 --> 00:00:32,706
+and the number z from the left hand side we find here in the exponent of x. 
+
+8
+00:00:33,614 --> 00:00:36,663
+Because it's x to the power (z-1).
+
+9
+00:00:37,214 --> 00:00:41,794
+Moreover this is then multiplied with e to the power (-x).
+
+10
+00:00:42,686 --> 00:00:48,471
+So you see this is not a simple definition for a function and to make it even more complicated
+
+11
+00:00:48,472 --> 00:00:52,357
+i can tell you this z could even be a complex number.
+
+12
+00:00:53,071 --> 00:00:57,202
+However then we need that the real part of z is positive.
+
+13
+00:00:58,114 --> 00:01:02,640
+Now this means it's a allowed to put in for example natural numbers.
+
+14
+00:01:03,514 --> 00:01:07,713
+and indeed there we find a nice property for Gamma of n.
+
+15
+00:01:08,529 --> 00:01:13,434
+Because one can show this is exactly (n-1)!
+
+16
+00:01:13,871 --> 00:01:18,593
+Or in other words the Gamma function is a generalisation for the factorial.
+
+17
+00:01:19,500 --> 00:01:24,884
+and exactly this gets even more apparent when we prove a similar recursive formula.
+
+18
+00:01:25,729 --> 00:01:33,627
+Which reads like Gamma of (z+1) is equal to z time Gamma of z.
+
+19
+00:01:34,786 --> 00:01:40,744
+Of course the Gamma function has also other nice properties we can discuss in another video.
+
+20
+00:01:41,514 --> 00:01:45,300
+However now you already know what the definition of the Gamma function is.
+
+21
+00:01:45,886 --> 00:01:49,260
+So if this was helpfull, then i see you next time.
+

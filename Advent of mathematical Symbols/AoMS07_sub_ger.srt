@@ -1,0 +1,96 @@
+1
+00:00:00,543 --> 00:00:03,714
+Das mathematische Symbol für heute ist das Summenzeichen.
+
+2
+00:00:03,843 --> 00:00:05,722
+Welches mit dem großen Sigma beschrieben wird.
+
+3
+00:00:06,557 --> 00:00:10,471
+und unter dem Sigma findet man normalerweise den Namen für einen Index.
+
+4
+00:00:10,472 --> 00:00:12,400
+Es könnte z.B. ein k sein.
+
+5
+00:00:13,300 --> 00:00:19,430
+und wenn ihr k = 1 seht, dann bedeutet das, dass 1 der Startwert für die Variable k ist.
+
+6
+00:00:19,843 --> 00:00:24,778
+Über dem Sigma, findet ihr dagegen den n-ten Wert für die Variable k.
+
+7
+00:00:25,557 --> 00:00:30,657
+Das bedeutet, dass wenn ihr die Summe von der Nummer "a_k" habt, dann bekommen wir
+
+8
+00:00:31,414 --> 00:00:39,300
+"a_1" + "a_2" + "a_3" + und so weiter, bis wir "a_n" erreichen.
+
+9
+00:00:40,629 --> 00:00:43,821
+Wir starten also mit dem Index der hier gegeben ist.
+
+10
+00:00:44,021 --> 00:00:45,425
+Dann erhöhen wir ihn um 1,
+
+11
+00:00:45,625 --> 00:00:46,493
+führen die Addition durch,
+
+12
+00:00:46,571 --> 00:00:52,577
+erhöhen den Wert wieder um 1 und addieren wieder. Bis wir den Wert im Index erreicht haben, der hier gegeben ist.
+
+13
+00:00:53,057 --> 00:00:57,081
+All das hier soll also erklären, was das Summenzeichen bedeutet.
+
+14
+00:00:57,657 --> 00:01:02,568
+Formal kann man das Symbol jedoch auch rekursiv definieren.
+
+15
+00:01:03,414 --> 00:01:09,249
+Um genauer zu sein bedeutet das, dass ich als erstes erklären muss was passiert, wenn dieses n hier, gleich 0 ist.
+
+16
+00:01:10,014 --> 00:01:17,516
+Dann würde die Darstellung von eben keinen Sinn machen, weil man niemals die 0 erreicht, wenn man den Index immer um 1 erhöht.
+
+17
+00:01:18,214 --> 00:01:24,029
+Deswegen definieren wir diesen Fall als die leere Summe. Somit sollte sie hier eine 0 ausgeben.
+
+18
+00:01:25,071 --> 00:01:29,438
+Mit anderen Worten, wenn wir nichts aufsummieren, bleiben wir beim Wert 0.
+
+19
+00:01:30,286 --> 00:01:36,114
+und im zweiten Schritt der rekursiven Definition, müssen wir angeben, was mit dem Nachfolger passiert.
+
+20
+00:01:36,649 --> 00:01:42,013
+Oder um genauer zu sein. Der Nachfolger n ist definiert durch den Vorgänger (n - 1).
+
+21
+00:01:42,957 --> 00:01:52,515
+Tatsächlich ist es nicht so hart zu verstehen. Wenn wir schon die Summe von k = 1 bis (n - 1) haben, müssen wir nur noch den letzten Term, also Schritt n, hinzuaddieren.
+
+22
+00:01:53,343 --> 00:01:57,019
+und ihr seht, dass ist unsere rekursive Definition vom Summenzeichen.
+
+23
+00:01:58,071 --> 00:02:04,105
+Damit solltet ihr nun keine Probleme haben, dies für andere Startindexe zu generalisieren.
+
+24
+00:02:04,657 --> 00:02:08,499
+Ok, ich hoffe, ich sehe euch im nächsten Video. Bye!
+

@@ -1,0 +1,152 @@
+1
+00:00:00,629 --> 00:00:02,139
+Hello and welcome.
+
+2
+00:00:02,371 --> 00:00:05,957
+and the mathematical symbol of today is Euler's phi function.
+
+3
+00:00:06,129 --> 00:00:08,251
+Denoted with a lower case phi.
+
+4
+00:00:09,257 --> 00:00:14,057
+It's also called Euler's totient function and used in number theory.
+
+5
+00:00:14,943 --> 00:00:19,605
+Therefore the domain of the function is given by the positive integers.
+
+6
+00:00:20,300 --> 00:00:24,006
+So we have the natural numbers N. Starting with 1.
+
+7
+00:00:24,943 --> 00:00:28,189
+and also the codomain is given by the natural numbers.
+
+8
+00:00:29,157 --> 00:00:33,989
+Now of course the question here should be: What is the definition of phi of n?
+
+9
+00:00:34,614 --> 00:00:40,061
+and the short answer is that we simply have to count numbers with 2 properties.
+
+10
+00:00:40,886 --> 00:00:45,959
+So lets use the letter "a" for the numbers we count and then i explain the 2 properties.
+
+11
+00:00:46,743 --> 00:00:51,900
+The first one is very simple. We only consider numbers that are less or equal than n.
+
+12
+00:00:52,600 --> 00:00:57,734
+This means that the outcome of the phi function can never be greater than the input.
+
+13
+00:00:58,600 --> 00:01:04,574
+Then the second property tells us that "a" and n don't have a single common divisor.
+
+14
+00:01:05,357 --> 00:01:08,947
+Of course except 1, because 1 divides everything.
+
+15
+00:01:09,857 --> 00:01:14,043
+Hence we can write this as the greatest common divisor.
+
+16
+00:01:14,629 --> 00:01:17,284
+gcd of "a" and n.
+
+17
+00:01:18,343 --> 00:01:20,157
+Is equal to 1.
+
+18
+00:01:21,229 --> 00:01:25,585
+In mathematics then we say that "a" and n are mutually prime.
+
+19
+00:01:26,743 --> 00:01:32,417
+Now if you have never seen this greatest common divisor then i think examples will help.
+
+20
+00:01:33,014 --> 00:01:35,773
+For example what is phi of 4?
+
+21
+00:01:36,557 --> 00:01:42,918
+Now, because of property 1 we already know we only have to look at the numbers 1, 2, 3 and 4.
+
+22
+00:01:43,543 --> 00:01:49,853
+Of course property 2 immediately tells us that the number itself so 4 here can not be counted.
+
+23
+00:01:50,671 --> 00:01:56,942
+Indeed you see the gcd(4, 4) would be 4 again. Not 1.
+
+24
+00:01:57,886 --> 00:02:02,143
+However then you also see that 1 does not have any divisors.
+
+25
+00:02:02,228 --> 00:02:05,251
+Therefore it always fulfils both properties. 
+
+26
+00:02:06,200 --> 00:02:10,894
+Then in the next step we have to exclude 2, because 2 times 2 is 4.
+
+27
+00:02:12,129 --> 00:02:17,604
+Ok then looking at 3 we see there is no common divisor greater than 1.
+
+28
+00:02:18,257 --> 00:02:24,466
+and now you see when we count the numbers that remain that fulfil both properties we get out 2.
+
+29
+00:02:25,157 --> 00:02:27,731
+Hence phi of 4 is 2
+
+30
+00:02:28,443 --> 00:02:32,079
+So maybe lets look at another example. So lets choose 5.
+
+31
+00:02:33,071 --> 00:02:38,273
+Now we can look at the list again, but maybe you already know that 5 is a prime number.
+
+32
+00:02:39,143 --> 00:02:43,031
+Hence the only number in the list we can cancel would be 5.
+
+33
+00:02:44,271 --> 00:02:47,355
+Therefore finally we count 4 numbers.
+
+34
+00:02:48,500 --> 00:02:55,515
+In fact with this reasoning here we can immediately calculate phi of p. When p is a prime number.
+
+35
+00:02:56,614 --> 00:02:59,977
+and now you know this should be (p - 1).
+
+36
+00:03:00,843 --> 00:03:07,702
+Now there a lot of other nice properties for Euler's phi function, but maybe this is good enough for this video.
+
+37
+00:03:08,629 --> 00:03:11,084
+Therefore i hope that i see you next time.
+
+38
+00:03:11,284 --> 00:03:12,157
+Bye!
+

@@ -1,0 +1,88 @@
+1
+00:00:00,629 --> 00:00:01,997
+Hello and welcome.
+
+2
+00:00:02,314 --> 00:00:05,571
+and the mathematical symbol of today is the laplace operator.
+
+3
+00:00:05,643 --> 00:00:07,274
+Denoted with a capital Delta.
+
+4
+00:00:08,157 --> 00:00:12,594
+This famous operator is also often called laplacian.
+
+5
+00:00:13,586 --> 00:00:19,853
+and indeed there is no single laplace operator. There are a lot of different meanings depending on the context. 
+
+6
+00:00:21,029 --> 00:00:32,333
+However often the first time one sees triangle in mathematics or in physics is as an differential operator on the space R^3 or in general R^n.
+
+7
+00:00:33,386 --> 00:00:39,823
+and then it simply acts on functions f defined on the space, but with values in R.
+
+8
+00:00:40,771 --> 00:00:46,629
+Hence laplace f just denotes the new function also defined on R^3.
+
+9
+00:00:47,543 --> 00:00:51,904
+So here the variable in R^3 is simply denoted by x.
+
+10
+00:00:52,671 --> 00:00:55,943
+So we have components x_1, x_2 and x_3.
+
+11
+00:00:56,786 --> 00:01:01,305
+Indeed with respect to these components we look at a partial derivative.
+
+12
+00:01:02,200 --> 00:01:08,175
+and the important thing to remember here is, for the laplacian we always look at the second derivative.
+
+13
+00:01:09,186 --> 00:01:14,699
+So the first thing we have here is the second partial derivative with respect to x_1.
+
+14
+00:01:15,571 --> 00:01:18,643
+and then you see we simply add the next one.
+
+15
+00:01:18,800 --> 00:01:22,929
+Which is the second partial derivative with respect to the second component.
+
+16
+00:01:24,200 --> 00:01:27,740
+and then we simply continue adding the second partial derivatives,
+
+17
+00:01:27,940 --> 00:01:32,621
+until we reach the second partial derivative with respect to the last component.
+
+18
+00:01:33,671 --> 00:01:38,543
+So therefore please remember here we don't have mixed second partial derivatives.
+
+19
+00:01:39,371 --> 00:01:43,740
+However all the other once, the unmixed once, are added.
+
+20
+00:01:44,714 --> 00:01:51,298
+Therefore now i think you shouldn't have any problems writing down the laplace operator defined on R^n.
+
+21
+00:01:52,229 --> 00:01:56,960
+Ok and with this i hope that you learned something today and that i see you next time.
+
+22
+00:01:57,160 --> 00:01:57,900
+Bye!
+

@@ -1,0 +1,136 @@
+1
+00:00:00,629 --> 00:00:01,969
+Hello and welcome.
+
+2
+00:00:02,169 --> 00:00:06,300
+The mathematical symbol of today is given by the outer product for vectors.
+
+3
+00:00:06,371 --> 00:00:09,226
+Which is given by this product sign here.
+
+4
+00:00:09,943 --> 00:00:14,059
+So you see it's a common multiplication sign with a circle around it.
+
+5
+00:00:14,800 --> 00:00:20,643
+Now since this is such a nice symbol it's also often used to denote other mathamtical objects.
+
+6
+00:00:21,471 --> 00:00:25,845
+However the outer product for vectors might be the simplest one of these.
+
+7
+00:00:26,543 --> 00:00:31,814
+Indeed this outer product here is related to the kronecker product for matrices.
+
+8
+00:00:31,871 --> 00:00:34,125
+Which is also denoted with this symbol.
+
+9
+00:00:35,143 --> 00:00:40,536
+Therefore some people say the outer product is just a kronecker product, but for vectors.
+
+10
+00:00:41,229 --> 00:00:44,329
+So maybe i can immediately explain it.
+
+11
+00:00:44,486 --> 00:00:47,356
+We have one vector on the left hand side of the sign
+
+12
+00:00:47,357 --> 00:00:48,798
+and one on the right hand side.
+
+13
+00:00:49,686 --> 00:00:51,889
+Indeed the dimensions could be different.
+
+14
+00:00:52,089 --> 00:00:56,592
+So we have the 2-dimensional vector here and maybe a 3-dimensional vector on the right hand side.
+
+15
+00:00:57,586 --> 00:01:01,733
+In other words we have a vector v times a vector w.
+
+16
+00:01:02,814 --> 00:01:06,005
+and now what should come out is a matrix.
+
+17
+00:01:06,829 --> 00:01:12,471
+Indeed the height of the matrix is given by the vector v and the width is given by the vector w.
+
+18
+00:01:13,614 --> 00:01:17,206
+Now the entries of the matrix are not so hard to remember,
+
+19
+00:01:17,406 --> 00:01:22,303
+because in each column of the matrix we first find a copy of the vector v.
+
+20
+00:01:22,986 --> 00:01:29,197
+Of course the vector w comes also in, but now we find a copy of it in each row.
+
+21
+00:01:30,314 --> 00:01:33,356
+This means that you first have to transpose the vector.
+
+22
+00:01:33,557 --> 00:01:35,700
+and then you can push it to the row.
+
+23
+00:01:36,643 --> 00:01:39,300
+and in the same way we have it for the second row.
+
+24
+00:01:40,629 --> 00:01:47,073
+Ok and now you see in each entry of the matrix we just have the product for ordinary numbers.
+
+25
+00:01:48,300 --> 00:01:53,573
+In fact this is already the whole construction for the kronecker product with two vectors. 
+
+26
+00:01:54,371 --> 00:01:59,771
+and of course it's not hard at all to generalize this to other dimensions than 2 and 3.
+
+27
+00:02:00,786 --> 00:02:04,471
+You just have to remember how the matrix entries are formed.
+
+28
+00:02:05,386 --> 00:02:09,043
+So v times w gives us always a matrix.
+
+29
+00:02:09,900 --> 00:02:15,051
+and now we can just look at a general entry with indices "i" and j.
+
+30
+00:02:15,729 --> 00:02:23,139
+and as you have learned before this one is simply given by v_i times w_j.
+
+31
+00:02:23,943 --> 00:02:28,428
+So you see we can use this for the definition of the outer product.
+
+32
+00:02:29,171 --> 00:02:32,176
+and with this i hope you have learned something today.
+
+33
+00:02:32,900 --> 00:02:34,515
+Then see you next time.
+
+34
+00:02:34,715 --> 00:02:35,686
+Bye!
+

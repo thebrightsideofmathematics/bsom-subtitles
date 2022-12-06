@@ -1,0 +1,68 @@
+1
+00:00:00,429 --> 00:00:03,539
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,739 --> 00:00:06,380
+Which is today the empty set symbol.
+
+3
+00:00:07,114 --> 00:00:12,203
+Usually it's denoted like this, but sometimes you also see just this set bracktes
+
+4
+00:00:12,700 --> 00:00:18,157
+and as the name tells us, both things just denote a set, which is empty.
+
+5
+00:00:18,414 --> 00:00:21,327
+So it's a set with no elements at all.
+
+6
+00:00:21,527 --> 00:00:28,196
+This means the logical statement given by "x is an element of the empty set" is always false
+
+7
+00:00:28,396 --> 00:00:34,064
+and exactly because of this result, you can formulate some strange statements for the empty set.
+
+8
+00:00:34,600 --> 00:00:43,875
+So for example you can say: "for all x in the empty set it holds, if x an even number it's also an odd number".
+
+9
+00:00:44,543 --> 00:00:49,913
+So at first glance it looks false, but it's indeed a true logical statement.
+
+10
+00:00:50,243 --> 00:00:54,791
+Simply because there are no elements x in the given set here.
+
+11
+00:00:54,991 --> 00:00:57,632
+Hence it does not matter what we claim here.
+
+12
+00:00:58,071 --> 00:01:00,679
+In fact this is what can happen in mathematics.
+
+13
+00:01:00,879 --> 00:01:08,417
+That you prove a very surprising statement, but then it turns out that you have actually proven it just for the empty set
+
+14
+00:01:08,771 --> 00:01:12,083
+and then the claim does not hold any information at all.
+
+15
+00:01:12,743 --> 00:01:17,020
+Ok and with this I would say we have learned what the empty set symbol is
+
+16
+00:01:17,343 --> 00:01:23,018
+and if you want to learn more details, I have a whole course about this called "start learning sets".
+
+17
+00:01:23,443 --> 00:01:27,954
+So I hope that I meet you there or in the next video about mathematical symbols.
+

@@ -1,0 +1,64 @@
+1
+00:00:00,557 --> 00:00:07,613
+Das mathematische Symbol für heute ist dieser kleine Kreis, denn wir für die Komposition (Verkettung) von Funktionen oder Abbildungen verwenden.
+
+2
+00:00:08,371 --> 00:00:15,378
+Es ist eine binäre Verknüpfung, wo wir eine Abbildung "f" auf der rechten Seite haben und eine andere Abbildung "g" auf der linken Seite.
+
+3
+00:00:15,886 --> 00:00:21,648
+In der Tat ist die Komposition sehr grundlegend, aber sie ist eine sehr wichtige Notation durch die ganze Mathematik.
+
+4
+00:00:22,271 --> 00:00:25,275
+Es verbindet einfach zwei Abbildungen zu einer neuen Abbildung.
+
+5
+00:00:25,943 --> 00:00:30,640
+und die Definition ist ganz einfach gegeben, wenn wir ein Element "x" einsetzten.
+
+6
+00:00:31,443 --> 00:00:35,829
+Zuerst wenden wir f auf x an und dann wird g auf dieses Ergebnis angewendet.
+
+7
+00:00:36,686 --> 00:00:39,908
+In anderen Worten wir tun f(x) in g.
+
+8
+00:00:40,400 --> 00:00:42,914
+Somit haben wir g(f(x)).
+
+9
+00:00:43,929 --> 00:00:50,886
+Um sich die Reihenfolge gut merken zu können, ist es immer hilfreich wenn man eine Visualisierung, von den Mengen in der die Abbildungen sich befinden, im Kopf hat.
+
+10
+00:00:51,829 --> 00:00:55,382
+Als erstes haben wir f, welches von links in die Mitte abbildet.
+
+11
+00:00:56,014 --> 00:00:59,813
+und dann haben wir g, welches von der mittleren Menge in die rechte Menge abbildet.
+
+12
+00:01:00,800 --> 00:01:06,486
+Somit haben wir eine neue Abbildung, g verknüpft mit f, welche sofort von links nach rechts abbildet.
+
+13
+00:01:07,014 --> 00:01:09,929
+Ok und das erklärt das Symbol für die Komposition.
+
+14
+00:01:10,531 --> 00:01:14,844
+Falls ihr mehr darüber wissen wollt, habe Ich noch ein ganzes Video über die Komposition von Funktionen.
+
+15
+00:01:15,229 --> 00:01:18,084
+und damit hoffe ich, dass ich euch im nächsten Video wiedersehe.
+
+16
+00:01:18,284 --> 00:01:19,273
+Bye!
+

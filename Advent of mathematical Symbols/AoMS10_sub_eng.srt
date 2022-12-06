@@ -1,0 +1,108 @@
+1
+00:00:00,857 --> 00:00:05,643
+The mathematical symbol of today is a lower case sigma with an index.
+
+2
+00:00:05,686 --> 00:00:07,927
+Which stands for a Pauli Matrix.
+
+3
+00:00:08,771 --> 00:00:13,456
+Indeed there are 3 Pauli matrices. Sigma_1, sigma_2 and sigma_3.
+
+4
+00:00:14,057 --> 00:00:19,310
+And they are very important if you do physics. Especially quantum mechanics.
+
+5
+00:00:20,329 --> 00:00:26,543
+However of course they are given as mathematical objects, because they are defined as 2x2 matrices.
+
+6
+00:00:27,143 --> 00:00:29,729
+Therefore they are actually not so complicated.
+
+7
+00:00:30,129 --> 00:00:33,148
+For example sigma_1 is given as 0, 1.
+
+8
+00:00:33,343 --> 00:00:34,742
+1, 0.
+
+9
+00:00:35,886 --> 00:00:41,456
+Then sigma_2 look similarly, but there we need the imaginary unit "i".
+
+10
+00:00:42,029 --> 00:00:44,133
+So we have 0, -i
+
+11
+00:00:44,333 --> 00:00:45,900
+i, 0.
+
+12
+00:00:47,000 --> 00:00:54,074
+and then the last one sigma_3 is simply given as 1, 0, 0, -1.
+
+13
+00:00:55,286 --> 00:01:01,643
+Now the most important property for the Pauli matrices is that they all square to the identity matrix.
+
+14
+00:01:02,857 --> 00:01:10,372
+Hence if you multiply the matrix with itself, you get out 1, 0, 0, 1.
+
+15
+00:01:11,157 --> 00:01:15,429
+This is something that you can easily check for all 3 matrices.
+
+16
+00:01:16,229 --> 00:01:21,917
+Now another question you could ask is: what happens when we multiply two different Pauli matrices?
+
+17
+00:01:22,957 --> 00:01:27,139
+and what i can immediately tell you there is that the order matters.
+
+18
+00:01:28,057 --> 00:01:36,208
+So sigma_j on the left and sigma_k on the right is different from sigma_k on the left and sigma_j on the right.
+
+19
+00:01:36,771 --> 00:01:42,638
+So what we get out here is not the 0 matrix, when k and j are not the same index.
+
+20
+00:01:43,657 --> 00:01:49,443
+and indeed what you can show is, this is 2 times the imaginary unit i
+
+21
+00:01:49,814 --> 00:01:54,000
+times the Levi-Civita symbol epsilon_jkl
+
+22
+00:01:54,771 --> 00:01:57,766
+Times the Pauli matrix sigma_l.
+
+23
+00:01:58,729 --> 00:02:04,971
+Now this nice equality holds for all possible combinations of the indices 1, 2, 3.
+
+24
+00:02:05,900 --> 00:02:09,386
+So maybe it's a good think to check it for some of them.
+
+25
+00:02:09,943 --> 00:02:13,610
+Ok, now you know the beautiful Pauli matrices.
+
+26
+00:02:14,386 --> 00:02:18,795
+and if this was helpful then i hope that i see you in the next video. 
+
+27
+00:02:18,995 --> 00:02:19,857
+Bye!
+

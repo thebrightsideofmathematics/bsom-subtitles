@@ -1,0 +1,176 @@
+1
+00:00:00,586 --> 00:00:05,271
+Hello and welcome to the last video of this series in this year.
+
+2
+00:00:06,043 --> 00:00:11,386
+Therefore it's the perfect moment thanking all the nice supporters on Steady and Paypal.
+
+3
+00:00:11,502 --> 00:00:13,914
+You made all these videos possible.
+
+4
+00:00:14,814 --> 00:00:19,980
+and now i can tell you the mathematical symbol of today is the infinity symbol.
+
+5
+00:00:20,986 --> 00:00:24,081
+It's a symbol that is used throughout mathematics,
+
+6
+00:00:24,281 --> 00:00:27,914
+because it represents the concept of infinity.
+
+7
+00:00:28,714 --> 00:00:33,866
+Of course then the specific meaning, when it is used, depends on the context.
+
+8
+00:00:34,800 --> 00:00:41,077
+Indeed most of the time it just should remind us that some infinity is at work.
+
+9
+00:00:41,543 --> 00:00:50,393
+For example if you want to write down the limit of a sequence, you would write limit n goes to infinity.
+
+10
+00:00:51,571 --> 00:00:57,730
+and here in our example if the sequence is 1 over n, you know the limit is 0.
+
+11
+00:00:58,600 --> 00:01:03,226
+Now here you should see there is no need to use the symbol infinity here
+
+12
+00:01:03,426 --> 00:01:05,729
+because we know the definition of a limit.
+
+13
+00:01:07,014 --> 00:01:13,629
+However this symbol is there to tell us that a number n should increase and increase without stopping.
+
+14
+00:01:14,300 --> 00:01:18,729
+So in this case infinity is not a number we just put into the sequence.
+
+15
+00:01:19,786 --> 00:01:23,186
+Rather infinity is used in a symbolic way here.
+
+16
+00:01:24,343 --> 00:01:30,885
+In fact this is often the case, but sometimes we need to calculate with the symbol infinity.
+
+17
+00:01:31,786 --> 00:01:35,055
+and then of course it acts more like a number.
+
+18
+00:01:36,143 --> 00:01:40,101
+One important application of this you find in measure theory,
+
+19
+00:01:41,000 --> 00:01:46,004
+because there we need to calculate with numbers from 0 to infinity.
+
+20
+00:01:46,204 --> 00:01:49,714
+and 0 and infinity are included in the interval.
+
+21
+00:01:50,671 --> 00:01:55,749
+One short explanation here is that in measure theory we deal with volumes.
+
+22
+00:01:56,543 --> 00:02:02,514
+and of course it could happen that the volume is 0, but we also deal with infinite volumes.
+
+23
+00:02:03,514 --> 00:02:09,385
+and then in calculations that occur we need to add volumes and multiply them.
+
+24
+00:02:10,229 --> 00:02:16,088
+Therefore we need a meaning for "a + infinity" and "a times infinity".
+
+25
+00:02:16,971 --> 00:02:23,941
+So lets start with the first one. So "a + infinity" should of course be the same as "infinity + a".
+
+26
+00:02:24,457 --> 00:02:31,357
+and now because we see infinity as the largest number in our interval, this should be infinity again.
+
+27
+00:02:32,529 --> 00:02:37,186
+Indeed this should also hold when "a" was infinity at the beginning.
+
+28
+00:02:37,929 --> 00:02:43,343
+Or to put it in other words. Infinity + infinity should be infinity again.
+
+29
+00:02:44,514 --> 00:02:50,730
+and there you already see the only meaningful thing for two times infinity is infinity again.
+
+30
+00:02:51,729 --> 00:02:55,771
+In fact this should be our definition for all numbers "a".
+
+31
+00:02:55,857 --> 00:02:57,700
+Including infinity.
+
+32
+00:02:58,486 --> 00:03:03,170
+So infinity times infinity is again infinity.
+
+33
+00:03:04,143 --> 00:03:09,514
+However here one question remains: what to do with 0 times infinity?
+
+34
+00:03:10,471 --> 00:03:15,707
+Usually for example when you deal with limits this expression is not well defined,
+
+35
+00:03:16,629 --> 00:03:20,657
+but in measure theory it makes sense to define it.
+
+36
+00:03:21,443 --> 00:03:25,402
+Indeed there 0 times infinity should be 0.
+
+37
+00:03:26,171 --> 00:03:30,179
+This definition makes some formulas in measure theory simpler.
+
+38
+00:03:30,786 --> 00:03:32,805
+Therefore it's very helpful there.
+
+39
+00:03:33,800 --> 00:03:41,713
+Now having these definitions now you can check that we still have commutative laws associative laws and distributive laws.
+
+40
+00:03:42,514 --> 00:03:49,023
+Or in other words some calculation rules still hold when we deal with infinity in this way.
+
+41
+00:03:49,586 --> 00:03:55,230
+Of course if you want to know more about measure theory, you can look at my whole series about it.
+
+42
+00:03:55,957 --> 00:04:00,214
+Ok and with this i really hope you learned something in this series here.
+
+43
+00:04:01,229 --> 00:04:03,576
+I wish you all the best and see you next time.
+
+44
+00:04:03,776 --> 00:04:04,586
+Bye! :)
+

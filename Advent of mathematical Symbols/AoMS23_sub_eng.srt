@@ -1,0 +1,128 @@
+1
+00:00:00,714 --> 00:00:02,286
+Hello and welcome.
+
+2
+00:00:02,443 --> 00:00:05,686
+and the mathematical symbol of today is given by the quaternions.
+
+3
+00:00:05,986 --> 00:00:07,724
+Denoted with such an H.
+
+4
+00:00:08,771 --> 00:00:14,900
+Seeing that double line here, you might already guess that this symbol stands for a special set.
+
+5
+00:00:15,643 --> 00:00:20,743
+and indeed it's a number set that extends the complex numbers C.
+
+6
+00:00:21,329 --> 00:00:28,914
+It's an extension in the sense that it's a bigger number set, with almost the same rules as we have it in the complex numbers.
+
+7
+00:00:29,786 --> 00:00:36,920
+In fact in H we lose one important caluclation rule, namely that the multiplication is commutative.
+
+8
+00:00:37,757 --> 00:00:42,614
+This means that if you multiply numbers in H the order matters now.
+
+9
+00:00:43,586 --> 00:00:49,076
+However if you want to multiply numbers you need to know about which numbers we talk.
+
+10
+00:00:49,914 --> 00:00:54,067
+and i can tell you a quaternion consists of 4 parts.
+
+11
+00:00:54,814 --> 00:00:57,851
+So maybe lets call them a, b, c and d.
+
+12
+00:00:58,329 --> 00:01:00,923
+and these are ordinary real numbers.
+
+13
+00:01:02,029 --> 00:01:07,238
+Now as you might know it from the complex numbers, we can connect these parts with +
+
+14
+00:01:07,438 --> 00:01:10,429
+and then intoduce a new strange number "i".
+
+15
+00:01:11,700 --> 00:01:15,874
+This means that we have that i^2 is -1.
+
+16
+00:01:17,000 --> 00:01:20,301
+However now you can see we have 2 parts left.
+
+17
+00:01:20,757 --> 00:01:25,596
+Therefore we need to intoduce two new numbers we can call j and k.
+
+18
+00:01:26,271 --> 00:01:31,243
+and indeed j^2 and k^2 should also be -1.
+
+19
+00:01:32,371 --> 00:01:37,414
+Moreover we also have the property that if we multiply all 3 together,
+
+20
+00:01:37,814 --> 00:01:39,788
+So first "i", then j, then k.
+
+21
+00:01:40,429 --> 00:01:42,154
+We also get out -1.
+
+22
+00:01:43,171 --> 00:01:48,186
+Ok and there you have all the rules we need to calculate with quaternions.
+
+23
+00:01:48,986 --> 00:01:53,121
+Indeed this construction here is what we would call a quaternion.
+
+24
+00:01:54,129 --> 00:01:59,226
+Now using these rules and some other basic assumptions, like associativity
+
+25
+00:01:59,426 --> 00:02:03,361
+we can show that the multiplication is in fact not commutative.
+
+26
+00:02:04,200 --> 00:02:10,456
+For example we get that "i" multiplied with j is - the other order.
+
+27
+00:02:11,043 --> 00:02:13,903
+So j multiplied with "i".
+
+28
+00:02:14,729 --> 00:02:21,861
+Indeed if you combine "i" with k or j with k, you will get the same relation here with the - sign.
+
+29
+00:02:22,743 --> 00:02:27,997
+So in general you can remember, if you multiply quaternions the order matters.
+
+30
+00:02:28,829 --> 00:02:37,658
+and now to close this video i can tell you, the letter H for the number set is chosen to honor the mathematician William Rowan Hamilton.
+
+31
+00:02:38,629 --> 00:02:42,514
+So i hope that this was helpful and that i see you next time.
+
+32
+00:02:42,614 --> 00:02:43,329
+Bye!
+

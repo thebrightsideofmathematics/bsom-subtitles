@@ -1,0 +1,96 @@
+1
+00:00:00,543 --> 00:00:03,871
+Das mathematische Symbol für heute ist das Symbol Nabla.
+
+2
+00:00:03,970 --> 00:00:06,395
+welches als dieses Dreieck geschrieben wird.
+
+3
+00:00:07,257 --> 00:00:11,929
+Es wird häufig in der Vektoranalysis oder Multivariablen Analysis benutzt.
+
+4
+00:00:12,729 --> 00:00:17,336
+Denn dort kann es als ein Operator benutzt werden, welches auf Funktionen einwirkt.
+
+5
+00:00:18,257 --> 00:00:24,733
+Die Definition ist nicht so kompliziert. Es ist einfach ein Vektor, wo die Komponenten aus Ableitungen bestehen.
+
+6
+00:00:25,386 --> 00:00:29,421
+Als erstes haben wir die partielle Ableitung nach der ersten Variable. 
+
+7
+00:00:29,422 --> 00:00:31,000
+Vielleicht nennen wir sie "x_1".
+
+8
+00:00:31,686 --> 00:00:36,695
+Die zweite Komponente wäre die partielle Ableitung nach der zweiten Variable.
+
+9
+00:00:37,257 --> 00:00:41,728
+Wenn ihr euch im 3 dimensionalen befindet, endet ihr mit der dritten Variable hier.
+
+10
+00:00:42,271 --> 00:00:51,536
+Generell habt ihr in n Dimensionen auch n Komponenten und wir enden mit der partiellen Ableitung nach der letzten Variable.
+
+11
+00:00:52,257 --> 00:01:00,377
+Was ihr hier sehen solltet ist, dass dies eine kurze Schreibweise ist, um alle partiellen Ableitungen erster Ordnung, in ein Objekt zusammenzufassen.
+
+12
+00:01:01,400 --> 00:01:07,857
+Dann könnt ihr formal mit diesem Objekt, was wir Nabla nennen, rechnen, als wäre es ein normaler Vektor.
+
+13
+00:01:08,557 --> 00:01:13,464
+Wenn wir z.B. eine Funktion mit zwei Variablen "x_1" und "x_2" haben
+
+14
+00:01:14,043 --> 00:01:18,280
+und annehmen, dass diese Funktion als x_1 hoch 3 definiert ist,
+
+15
+00:01:18,480 --> 00:01:21,879
+dann können wir den sogenannten Gradient von f ausrechnen.
+
+16
+00:01:22,857 --> 00:01:27,412
+Wir würden in schreiben als Nabla f(x_1, x_2).
+
+17
+00:01:27,900 --> 00:01:31,043
+Was in diesem Fall ein Vektor mit 2 Komponenten ist.
+
+18
+00:01:32,043 --> 00:01:35,806
+Im ersten haben wir die partielle Ableitung nach x_1.
+
+19
+00:01:36,006 --> 00:01:38,769
+Was uns 3*x_1 zum Quadrat raus gibt.
+
+20
+00:01:39,714 --> 00:01:43,586
+und in der zweiten Komponenten haben wir die partielle Ableitung nach x_2.
+
+21
+00:01:43,672 --> 00:01:45,057
+Welche 0 ist.
+
+22
+00:01:45,743 --> 00:01:48,196
+Ok, das ist das Nabla Symbol.
+
+23
+00:01:48,396 --> 00:01:51,112
+Oft auch Nabla Operator genannt.
+
+24
+00:01:51,312 --> 00:01:52,607
+Danke fürs zuhören.
+

@@ -1,0 +1,64 @@
+1
+00:00:00,557 --> 00:00:07,613
+The mathematical symbol of today is this small circle, we use for the composition of maps or functions.
+
+2
+00:00:08,371 --> 00:00:15,378
+It's a binary operation, where we have one map "f" on the right hand side and another map "g" on the left hand side.
+
+3
+00:00:15,886 --> 00:00:21,648
+Indeed the composition is very basic, but it's an important notion throughout mathematics.
+
+4
+00:00:22,271 --> 00:00:25,275
+It simply merges two maps into a new one. 
+
+5
+00:00:25,943 --> 00:00:30,640
+and the definition can simply be given when we put in an element "x".
+
+6
+00:00:31,443 --> 00:00:35,829
+First f is applied to x and then g is applied on this output.
+
+7
+00:00:36,686 --> 00:00:39,908
+In other words we put f(x) into g.
+
+8
+00:00:40,400 --> 00:00:42,914
+So we have g(f(x)).
+
+9
+00:00:43,929 --> 00:00:50,886
+Now to remember this order, it's always good to have a visualization of the sets, where the maps act on, in mind.
+
+10
+00:00:51,829 --> 00:00:55,382
+First we have f that maps from left to the middle.
+
+11
+00:00:56,014 --> 00:00:59,813
+and then we have g that maps from the middle set to the right set.
+
+12
+00:01:00,800 --> 00:01:06,486
+Therefore the new map g composed with f goes immediately from left to right.
+
+13
+00:01:07,014 --> 00:01:09,929
+Ok and that explains the composition symbol.
+
+14
+00:01:10,531 --> 00:01:14,844
+If you want to know more i have a whole video about the composition of maps.
+
+15
+00:01:15,229 --> 00:01:18,084
+and with this i hope i see you in the next video.
+
+16
+00:01:18,284 --> 00:01:19,273
+Bye!
+

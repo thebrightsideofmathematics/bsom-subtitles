@@ -1,0 +1,96 @@
+1
+00:00:00,700 --> 00:00:02,049
+Hello and welcome 
+
+2
+00:00:02,249 --> 00:00:05,704
+The mathematical symbol of today is simply an arrow.
+
+3
+00:00:06,243 --> 00:00:09,099
+More precisely i want to talk about two arrows.
+
+4
+00:00:09,114 --> 00:00:11,049
+This one and that one.
+
+5
+00:00:11,957 --> 00:00:15,657
+In mathematics both arrows are used when we talk about maps.
+
+6
+00:00:15,786 --> 00:00:18,071
+For example lets consider a map f.
+
+7
+00:00:19,143 --> 00:00:24,611
+Then the first arrow is used, when we want talk about the sets, where the map lives on.
+
+8
+00:00:25,086 --> 00:00:29,340
+So we have a set X on the left hand side, which we call the domain of f.
+
+9
+00:00:29,540 --> 00:00:33,470
+and a set Y on the right hand side, which we call the codomain of f.
+
+10
+00:00:34,386 --> 00:00:38,928
+In other words f maps elements from X into the set Y.
+
+11
+00:00:39,814 --> 00:00:44,820
+and in order to describe this mapping on the element level, we use the second arrow.
+
+12
+00:00:45,714 --> 00:00:48,789
+Hence an element on the left hand side, lower case x
+
+13
+00:00:48,989 --> 00:00:53,122
+is mapped to an element on the right hand side in Y, we call f(x).
+
+14
+00:00:54,014 --> 00:00:56,502
+In fact this is all you should learn here.
+
+15
+00:00:56,702 --> 00:01:00,193
+We have two different arrows for the two different levels.
+
+16
+00:01:00,929 --> 00:01:02,902
+Now maybe lets do a simple example.
+
+17
+00:01:03,102 --> 00:01:07,171
+So we consider the quadratic function defined on the real number line.
+
+18
+00:01:08,186 --> 00:01:13,214
+Hence you would use the first arrow to denote that R is mapped into R.
+
+19
+00:01:13,957 --> 00:01:19,542
+and then you see, we use the second arrow to denote that x is mapped to x squared.
+
+20
+00:01:20,529 --> 00:01:24,487
+In summary with this the whole function is described.
+
+21
+00:01:25,057 --> 00:01:28,216
+In the first line we have the domain and the codomain.
+
+22
+00:01:28,416 --> 00:01:31,621
+and in the second line we see how this assignment should work.
+
+23
+00:01:32,457 --> 00:01:36,868
+Now if you want to learn more about maps. I have a lot of videos about them.
+
+24
+00:01:37,700 --> 00:01:41,323
+and with this, i hope i see you next time. Bye!
+
