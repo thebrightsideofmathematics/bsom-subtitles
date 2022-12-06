@@ -1,0 +1,160 @@
+1
+00:00:00,757 --> 00:00:02,118
+hello and welcome.
+
+2
+00:00:02,186 --> 00:00:05,649
+The mathematical symbol of today is the binomial coefficient.
+
+3
+00:00:05,849 --> 00:00:07,336
+Written with parentheses.
+
+4
+00:00:08,529 --> 00:00:13,388
+and there at the top we find an integer n and at the bottom an integer k.
+
+5
+00:00:14,100 --> 00:00:18,647
+Now usually you read this binomial coefficient as "n choose k".
+
+6
+00:00:19,257 --> 00:00:27,480
+We do this, because it represents the number of possibilities to choose k elements from a fixed set with n elements.
+
+7
+00:00:28,529 --> 00:00:32,721
+Here i always think it's a good idea to visualize this with an example.
+
+8
+00:00:33,443 --> 00:00:37,783
+So here you see we have 7 balls. So n is equal to 7.
+
+9
+00:00:38,771 --> 00:00:43,943
+and now i tell you we take 3 of them out. So k is equal to 3.
+
+10
+00:00:44,971 --> 00:00:49,640
+Here maybe one possibility would be to get 2, 3 and 6.
+
+11
+00:00:50,314 --> 00:00:52,756
+and please note here there is no order involved.
+
+12
+00:00:52,786 --> 00:00:55,135
+So we take them out with one pick.
+
+13
+00:00:55,943 --> 00:00:59,000
+Of course still there are a lot of other examples.
+
+14
+00:00:59,157 --> 00:01:01,216
+Maybe 5, 6 and 7.
+
+15
+00:01:01,971 --> 00:01:07,586
+and now the question the binomial coefficient answers, is how many possibilities there are.
+
+16
+00:01:08,629 --> 00:01:12,097
+Therefore i would suggest trying to calculate them.
+
+17
+00:01:12,729 --> 00:01:16,629
+So here you see 3 empty slots that we can fill in with numbers.
+
+18
+00:01:17,929 --> 00:01:23,431
+Now if we just take out one ball then we could have any number here in the first position.
+
+19
+00:01:24,643 --> 00:01:28,655
+Hence counting the possibilities we have exactly n here.
+
+20
+00:01:29,429 --> 00:01:32,414
+Then for the second position we take out another ball.
+
+21
+00:01:33,629 --> 00:01:39,400
+However now the first ball is already gone. So we have exactly (n - 1) numbers.
+
+22
+00:01:40,414 --> 00:01:44,486
+and finally for the third position (n - 2) numbers remain.
+
+23
+00:01:45,671 --> 00:01:53,639
+Now multiplying these numbers gives us exactly the possibilities for filling in these slots with the balls here.
+
+24
+00:01:54,886 --> 00:01:58,485
+However then you might see we have an order involved.
+
+25
+00:01:59,629 --> 00:02:05,542
+Therefore we have to divide this thing here by the number of orders we have for these slots.
+
+26
+00:02:06,429 --> 00:02:09,670
+Indeed the reasoning now is similar to before.
+
+27
+00:02:10,471 --> 00:02:15,655
+If you want to rearrange the first ball, the first slot, you have 3 positions to choose.
+
+28
+00:02:16,586 --> 00:02:21,137
+Then for the second only 2 remain and for the last one only 1 remains.
+
+29
+00:02:22,486 --> 00:02:26,400
+and with this we have it. This is what the binomial coefficient should do.
+
+30
+00:02:27,243 --> 00:02:37,015
+So in general here we would have: n times (n - 1) times (n - 2) and so on until we reach (n - k + 1).
+
+31
+00:02:37,971 --> 00:02:41,709
+So you should see this is the generalisation of our example.
+
+32
+00:02:42,529 --> 00:02:46,510
+and moreover then we would find k! in the denominator.
+
+33
+00:02:47,657 --> 00:02:53,213
+So indeed this is the definition of the binomial coefficient "n choose k".
+
+34
+00:02:53,943 --> 00:02:57,671
+and for the end i can tell you there is a shorter definition for this.
+
+35
+00:02:58,586 --> 00:03:07,439
+Namely we have n! divided by k! as before and also (n - k)!.
+
+36
+00:03:08,386 --> 00:03:13,025
+There you should see these 2 parts here just cancel to get you this.
+
+37
+00:03:13,771 --> 00:03:16,057
+Ok so this is the binomial coefficient.
+
+38
+00:03:16,400 --> 00:03:18,500
+and i hope that you learned something today.
+
+39
+00:03:19,386 --> 00:03:21,002
+Then see you next time.
+
+40
+00:03:21,202 --> 00:03:21,829
+Bye!
+

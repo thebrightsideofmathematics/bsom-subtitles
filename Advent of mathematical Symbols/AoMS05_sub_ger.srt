@@ -1,0 +1,84 @@
+1
+00:00:00,729 --> 00:00:04,571
+Das mathematische Symbol für heute ist die Gammafunktion.
+
+2
+00:00:04,686 --> 00:00:06,309
+Geschrieben als ein großes Gamma.
+
+3
+00:00:07,429 --> 00:00:11,709
+und die Variable, die wir in die Funktion tuen, nennt man normalerweise z.
+
+4
+00:00:12,443 --> 00:00:18,077
+Die explizite Definition von der Gammafunktion ist nicht so einfach, da sie ein Integral enthält.
+
+5
+00:00:19,014 --> 00:00:22,408
+Wir integrieren von 0 bis unendlich.
+
+6
+00:00:23,171 --> 00:00:27,033
+und die Variable über die wir integrieren nennen wir x.
+
+7
+00:00:27,800 --> 00:00:32,706
+und die Nummer z von der linken Seite, finden wir hier im Exponenten von x wieder.
+
+8
+00:00:33,614 --> 00:00:36,663
+Denn wir haben x hoch (z-1).
+
+9
+00:00:37,214 --> 00:00:41,794
+Zusätzlich multiplizieren wir das ganze noch mit e hoch (-x).
+
+10
+00:00:42,686 --> 00:00:48,471
+Ihr seht also, dass ist keine leichte Definition für eine Funktion und um die ganze Sache noch komplizierter zu machen
+
+11
+00:00:48,472 --> 00:00:52,357
+ kann z auch komplex sein.
+
+12
+00:00:53,071 --> 00:00:57,202
+Jedoch brauchen wir dann, dass der reale Teil von z positiv sein muss.
+
+13
+00:00:58,114 --> 00:01:02,640
+Das bedeutet es ist z.B. erlaubt natürliche Zahlen als Argument zu nehmen.
+
+14
+00:01:03,514 --> 00:01:07,713
+und tatsächlich finden wir hierfür eine tolle Eigenschaft für Gamma von n.
+
+15
+00:01:08,529 --> 00:01:13,434
+Denn man kann zeigen, dass das genau (n-1)! ist.
+
+16
+00:01:13,871 --> 00:01:18,593
+Oder in anderen Worten, die Gammafunktion ist eine Generalisierung von der Fakultät.
+
+17
+00:01:19,500 --> 00:01:24,884
+und genau das wird  offensichtlicher, wenn wir diese rekursive Formel beweisen.
+
+18
+00:01:25,729 --> 00:01:33,627
+Welche gelesen wird als Gamma von (z+1) ist gleich z mal Gamma von z.
+
+19
+00:01:34,786 --> 00:01:40,744
+Natürlich hat die Gammafunktion auch andere tolle Eigenschaften, die wir in einem anderen Video diskutieren werden.
+
+20
+00:01:41,514 --> 00:01:45,300
+Jedoch wisst ihr nun schon die Definition von der Gammafunktion.
+
+21
+00:01:45,886 --> 00:01:49,260
+Wenn ihr das hilfreich fandet, sehen wir uns nächstes mal.
+

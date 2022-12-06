@@ -1,0 +1,112 @@
+1
+00:00:00,600 --> 00:00:03,672
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,872 --> 00:00:05,840
+Which is the subset symbol.
+
+3
+00:00:06,100 --> 00:00:11,043
+For denoting such a subset relation you either see this symbol or that.
+
+4
+00:00:11,386 --> 00:00:19,822
+Personally I prefer this notation, because the line here immediately tells you that the equality of sets is also allowed here.
+
+5
+00:00:20,414 --> 00:00:25,040
+However some authors take this simple arc here. Maybe because it's shorter.
+
+6
+00:00:25,414 --> 00:00:30,375
+Therefore please always pay attention to which symbol is used in a given book.
+
+7
+00:00:30,886 --> 00:00:36,776
+It's very important, because often there is also a notation which is used to denote a proper subset.
+
+8
+00:00:37,400 --> 00:00:41,490
+This means there the equality is actually not allowed.
+
+9
+00:00:41,843 --> 00:00:47,272
+Hence if we use the first notation here, we can do the same if we denote inequalities.
+
+10
+00:00:47,886 --> 00:00:52,891
+So you see, if we want to denote a proper subset, we can just omit the line here.
+
+11
+00:00:53,343 --> 00:00:58,999
+So unfortunately this is the same symbol some people use to denote a general subset.
+
+12
+00:00:59,429 --> 00:01:05,141
+However this also means that these people need another notation for a proper subset
+
+13
+00:01:05,341 --> 00:01:10,151
+and usually they use the first symbol, where they just cross the line underneath.
+
+14
+00:01:10,571 --> 00:01:16,976
+Ok, so in summary what you should remember is that the symbols here come always in these two combinations
+
+15
+00:01:17,343 --> 00:01:21,773
+and they just tell you that one set is contained in another.
+
+16
+00:01:22,214 --> 00:01:27,271
+So if this here is the set B, the set A should lie completely inside
+
+17
+00:01:27,657 --> 00:01:31,911
+and then we would just write: "A is a subset of B"
+
+18
+00:01:32,414 --> 00:01:36,713
+and indeed most of the time we will not exclude the equality here
+
+19
+00:01:37,343 --> 00:01:42,982
+and now this symbol just means that for all x the following implication is true.
+
+20
+00:01:43,182 --> 00:01:47,143
+So if x is an element in A, it's also an element in B.
+
+21
+00:01:47,900 --> 00:01:52,572
+So you see, this new definition just goes back to the element relation
+
+22
+00:01:52,772 --> 00:01:59,861
+and now since we have the implication from left to right, you also often see a mirrored version of this symbol.
+
+23
+00:02:00,343 --> 00:02:04,341
+More precisely you would say: "B is a superset of A"
+
+24
+00:02:04,743 --> 00:02:08,687
+and then of course this means exactly the same thing written here.
+
+25
+00:02:08,887 --> 00:02:13,995
+So I would say now you know the subset symbol and also the superset symbol
+
+26
+00:02:14,195 --> 00:02:20,959
+and if you want to learn more details about sets, I have a whole video series about it called "start learning sets".
+
+27
+00:02:21,243 --> 00:02:25,764
+So I really hope I see you there or in the next video about mathematical symbols.
+
+28
+00:02:26,029 --> 00:02:28,552
+So have a nice day and bye.
+

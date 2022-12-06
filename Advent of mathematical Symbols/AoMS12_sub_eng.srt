@@ -1,0 +1,148 @@
+1
+00:00:00,700 --> 00:00:04,821
+The mathematical symbol of today is the landau symbol big O.
+
+2
+00:00:05,771 --> 00:00:11,496
+For this notation you either see a normal capital O or the slightly open O.
+
+3
+00:00:12,357 --> 00:00:17,429
+In either case you always find next to it parentheses with a function.
+
+4
+00:00:18,286 --> 00:00:24,900
+So there is a function named for example g and you also often find the variable name, for example x.
+
+5
+00:00:26,157 --> 00:00:31,714
+Now it is important to note that this big O only makes sense with respect to a limit.
+
+6
+00:00:32,857 --> 00:00:37,476
+For example you can write at the end, that the variable x goes to the number "a".
+
+7
+00:00:38,543 --> 00:00:44,131
+Also it's allowed that this "a" is the symbol infinity or the symbol - infinity.
+
+8
+00:00:45,229 --> 00:00:50,584
+Now usually in this big O notation we use an equality sign in a symbolic way.
+
+9
+00:00:51,429 --> 00:00:58,384
+So you would write another function f(x) is equal to this big O of g(x).
+
+10
+00:00:59,286 --> 00:01:02,689
+We do this to make calculations easier to write down.
+
+11
+00:01:03,571 --> 00:01:07,865
+However the formal correct way would be to use an element sign here.
+
+12
+00:01:08,771 --> 00:01:14,450
+Having said that of course the most important part is that you know the meaning of this expression here.
+
+13
+00:01:15,229 --> 00:01:23,614
+Indeed it simply means that the function f on the left hand side does not grow stronger than the function g on the right hand side
+
+14
+00:01:23,671 --> 00:01:25,629
+when x goes to the number "a".
+
+15
+00:01:26,757 --> 00:01:32,838
+Hence usually this is helpful when you are not able to put in "a" into the 2 functions.
+
+16
+00:01:33,686 --> 00:01:38,042
+For example we always have this case when "a" is the symbol infinity.
+
+17
+00:01:39,214 --> 00:01:43,871
+Now of course this explanation that f does not grow stronger than g
+
+18
+00:01:43,957 --> 00:01:47,648
+can be put into a formula, where we use absolute values.
+
+19
+00:01:48,814 --> 00:01:59,659
+So you would say the absolute value of f(x) ia always less or equal than a fixed constant M times the absolute value of g(x).
+
+20
+00:02:01,014 --> 00:02:06,444
+and indeed this should hold for all points x in the neighbourhood around "a".
+
+21
+00:02:07,357 --> 00:02:16,207
+In the case that "a" is infinity this means that we have a bound such that all points x above this bound satisfy this inequality.
+
+22
+00:02:17,414 --> 00:02:23,396
+Now if you don't like this constant M, we can also rewrite the whole thing with a limit superior.
+
+23
+00:02:24,443 --> 00:02:28,343
+So we have lim sup where x goes to the point "a".
+
+24
+00:02:29,086 --> 00:02:33,203
+and then we take the absolute value of f divided by g.
+
+25
+00:02:34,486 --> 00:02:39,566
+and now this lim sup should be a finite number so we can write less than infinity.
+
+26
+00:02:40,700 --> 00:02:46,614
+So you see it means the same thing, we compare the growth rate of f with the growth rate of g.
+
+27
+00:02:47,471 --> 00:02:52,614
+and in a case that f would grow faster, then this whole thing here would go to infinity.
+
+28
+00:02:53,757 --> 00:02:57,835
+So maybe it's even better for the explanation when we look at an example.
+
+29
+00:02:58,800 --> 00:03:03,438
+So lets say we have the polynomial x^2 + x + 2.
+
+30
+00:03:04,371 --> 00:03:11,291
+Then we can say this is in big O of x^2, if x goes to infinity.
+
+31
+00:03:12,414 --> 00:03:19,123
+However now you know we can also say that the same polynomial is in big O of x^3.
+
+32
+00:03:20,086 --> 00:03:24,548
+Of course also in the case when we look what happens when x goes to infinity.
+
+33
+00:03:25,600 --> 00:03:30,316
+Indeed this is what you can check now. x^3 grows faster than x^2.
+
+34
+00:03:31,386 --> 00:03:35,867
+However because we only have an inequality here both things are correct.
+
+35
+00:03:36,786 --> 00:03:39,376
+Ok i think that's good enough for today.
+
+36
+00:03:40,043 --> 00:03:44,940
+Now i really hope that you learned something today and that i can see you in the next video.
+
+37
+00:03:45,140 --> 00:03:45,886
+Bye!
+

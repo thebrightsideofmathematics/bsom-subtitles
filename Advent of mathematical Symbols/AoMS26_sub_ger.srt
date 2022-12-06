@@ -1,0 +1,68 @@
+1
+00:00:00,429 --> 00:00:03,539
+Hallo und willkommen zurück für das nächste mathematische Symbol.
+
+2
+00:00:03,739 --> 00:00:06,380
+Heute geht es um die leere Menge.
+
+3
+00:00:07,114 --> 00:00:12,203
+Normalerweise wird es so dargestellt, aber manchmal werden auch diese geschweiften Klammern benutzt
+
+4
+00:00:12,700 --> 00:00:18,157
+und wie der Name schon andeutet, stellen beide eine Menge, die leer ist, dar.
+
+5
+00:00:18,414 --> 00:00:21,327
+Es ist also eine Menge, ohne Elemente.
+
+6
+00:00:21,527 --> 00:00:28,196
+Das bedeutet, dass die logische Aussage: "x ist ein Element von der leeren Menge", immer falsch ist
+
+7
+00:00:28,396 --> 00:00:34,064
+und genau deswegen, kann man ein paar komische Aussagen für die leere Menge formulieren.
+
+8
+00:00:34,600 --> 00:00:43,875
+Zum Beispiel könnte man sagen, dass für alle x aus der leeren Menge gilt, dass wenn x eine gerade Zahl ist, x auch gleichzeitig ungerade ist.
+
+9
+00:00:44,543 --> 00:00:49,913
+Auf dem ersten Blick sieht diese Aussage falsch aus, aber es ist tatsächlich eine wahre, logische Aussage.
+
+10
+00:00:50,243 --> 00:00:54,791
+Einfach weil kein einziges Element x in der gegebenen Menge existiert.
+
+11
+00:00:54,991 --> 00:00:57,632
+Daher ist es irrelevant, was wir dafür behaupten.
+
+12
+00:00:58,071 --> 00:01:00,679
+Tatsächlich kann das in der Mathematik vorkommen.
+
+13
+00:01:00,879 --> 00:01:08,417
+Dass man eine sehr überraschende Aussage beweist und dann feststellt, dass man sie tatsächlich nur für die leere Menge bewiesen hat
+
+14
+00:01:08,771 --> 00:01:12,083
+und dann beinhaltet die Behauptung überhaupt keine Information.
+
+15
+00:01:12,743 --> 00:01:17,020
+Ok und damit würde ich sagen, haben wir gelernt was die leere Menge ist
+
+16
+00:01:17,343 --> 00:01:23,018
+und wenn du noch mehr darüber wissen willst, habe ich eine ganze Serie darüber, die "start learning sets" heißt.
+
+17
+00:01:23,443 --> 00:01:27,954
+Ich hoffe, dass ich euch dort oder in dem nächsten Video zu mathematischen Symbolen treffe.
+

@@ -1,0 +1,132 @@
+1
+00:00:00,629 --> 00:00:02,135
+Hello and welcome.
+
+2
+00:00:02,335 --> 00:00:06,129
+and the mathematical symbol of today is the so called Heaviside function.
+
+3
+00:00:06,200 --> 00:00:08,302
+Often denoted with a capital H.
+
+4
+00:00:09,214 --> 00:00:12,786
+However you also often see the greek letter Theta.
+
+5
+00:00:13,686 --> 00:00:18,443
+Moreover sometimes the Heaviside function is called the unit step function.
+
+6
+00:00:19,429 --> 00:00:23,783
+This is because the definition of H(x) is very simple.
+
+7
+00:00:24,814 --> 00:00:26,507
+There is just one step involved.
+
+8
+00:00:26,707 --> 00:00:28,319
+So we can consider 2 cases.
+
+9
+00:00:29,143 --> 00:00:32,441
+So either the function is 1 or 0.
+
+10
+00:00:33,400 --> 00:00:37,586
+and indeed the sign of x tells us in which case we are.
+
+11
+00:00:38,586 --> 00:00:43,078
+Positive points get the value 1 and negative points get the value 0.
+
+12
+00:00:44,014 --> 00:00:47,883
+Therefore only the question remains what to do with the point 0.
+
+13
+00:00:48,686 --> 00:00:51,429
+and as you can see here we put it to 1.
+
+14
+00:00:51,888 --> 00:00:55,129
+However there are also other conventions what to do.
+
+15
+00:00:55,232 --> 00:00:58,722
+Sometimes x = 0 is set to 0.5.
+
+16
+00:00:59,714 --> 00:01:02,425
+Then the value lies exactly in the middle here.
+
+17
+00:01:03,286 --> 00:01:10,214
+However actually for a lot of applications it does not matter at all what we do with the point x = 0.
+
+18
+00:01:11,114 --> 00:01:14,244
+The important thing is just that we have this step here.
+
+19
+00:01:15,343 --> 00:01:21,153
+Hence the graph of the function looks very simple. We just have these 2 constant parts.
+
+20
+00:01:21,929 --> 00:01:24,525
+Ok now you know the Heaviside function.
+
+21
+00:01:24,743 --> 00:01:29,862
+Which is by the way not called Heaviside, because there is a heavy side in the graph.
+
+22
+00:01:30,786 --> 00:01:35,289
+It's called Heaviside as in the mathematician Oliver Heaviside.
+
+23
+00:01:36,214 --> 00:01:40,558
+Ok then just i tell you one last fun fact for the end of the video.
+
+24
+00:01:41,671 --> 00:01:45,943
+You can calculate the derivative of H and you get something nice out.
+
+25
+00:01:46,743 --> 00:01:50,343
+Of course what comes out should be 0 here and here
+
+26
+00:01:50,618 --> 00:01:53,457
+and maybe not defined here at 0.
+
+27
+00:01:54,400 --> 00:01:57,880
+However this only happens if you do a classical derivative.
+
+28
+00:01:58,571 --> 00:02:02,229
+What one can do is use the derivative for distributions.
+
+29
+00:02:02,943 --> 00:02:07,386
+and then what comes out is the famous Dirac delta distribution.
+
+30
+00:02:08,271 --> 00:02:12,987
+This is a really nice connection if you see both functions as distributions.
+
+31
+00:02:13,671 --> 00:02:18,386
+In fact if you want to know more about distributions, i have a whole series about them.
+
+32
+00:02:19,543 --> 00:02:21,200
+Therefore i hope i see you there.
+
+33
+00:02:21,729 --> 00:02:23,500
+Have a nice day. Bye!
+

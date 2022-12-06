@@ -1,0 +1,136 @@
+1
+00:00:00,543 --> 00:00:04,044
+Das mathematische Symbol für heute ist das Levi-Civita Symbol.
+
+2
+00:00:04,686 --> 00:00:09,755
+Welches mit einem kleinen Epsilon und 3 Indexen "i", "j" und "k" geschrieben wird.
+
+3
+00:00:10,643 --> 00:00:13,700
+Dieses Symbol repräsentiert genau 3 Nummern.
+
+4
+00:00:13,772 --> 00:00:17,252
+Es ist entweder 1, -1 oder 0.
+
+5
+00:00:17,986 --> 00:00:25,616
+und wir unterscheiden diese 3 Fälle, abhängig davon in welcher Reihenfolge die Zahlen 1, 2 und 3 in den Indexen auftauchen.
+
+6
+00:00:26,529 --> 00:00:28,207
+Wenn es in der richtigen Reihenfolge ist,
+
+7
+00:00:28,208 --> 00:00:31,370
+ also so wie man zählt, nämlich 1, 2, 3.
+
+8
+00:00:31,586 --> 00:00:33,554
+Dann bekommen wir eine 1 raus.
+
+9
+00:00:34,486 --> 00:00:36,649
+Wenn es allerdings rückwärts ist,
+
+10
+00:00:36,849 --> 00:00:41,003
+so wie es bei einem Countdown der Fall ist, nämlich 3, 2, 1.
+
+11
+00:00:41,286 --> 00:00:43,201
+Dann bekommen wir eine -1.
+
+12
+00:00:44,071 --> 00:00:50,042
+Tatsächlich sind bei den oben genannten Zählreihenfolgen auch Zyklische Permutationen erlaubt.
+
+13
+00:00:50,914 --> 00:00:58,445
+Z.B. könnte für den ersten Fall die letzte Position eine 1 sein, solange in der ersten Position die 2 ist und danach die 3 kommt.
+
+14
+00:00:59,057 --> 00:01:02,457
+Das zählen passiert hier also auf eine zyklische Weise.
+
+15
+00:01:03,271 --> 00:01:07,117
+Daher wäre hier die dritte Möglichkeit 3, 1, 2.
+
+16
+00:01:07,857 --> 00:01:10,171
+Hier würde man auch vorwärts zählen.
+
+17
+00:01:11,229 --> 00:01:16,678
+Auf der anderen Seite wäre 2, 1, 3 eine weitere Möglichkeit rückwärts zu zählen.
+
+18
+00:01:17,257 --> 00:01:20,124
+Auch hier solltet ihr zyklisch denken.
+
+19
+00:01:20,914 --> 00:01:25,320
+und die letzte Möglichkeit wäre 1, 3, 2.
+
+20
+00:01:26,143 --> 00:01:31,369
+Was ihr euch also merken könnt ist, dass die zyklische Ordnung euch das Vorzeichen des Symbols gibt.
+
+21
+00:01:32,229 --> 00:01:38,788
+und in all den anderen Fällen, z.B. wenn alle Indexe 1 sind, gibt euch das Symbol eine 0.
+
+22
+00:01:39,429 --> 00:01:43,995
+Ok, das war die ganze Definition vom Levi-Civita Symbol mit 3 Indexen.
+
+23
+00:01:44,871 --> 00:01:48,143
+Es gibt auch Verallgemeinerungen mit mehr Indexen.
+
+24
+00:01:48,144 --> 00:01:53,114
+Aber dieses hier ist das wichtigste von allen, da wir es in 3 Dimensionen verwenden können.
+
+25
+00:01:53,743 --> 00:02:01,247
+Es ist z.B. hilfreich, wenn man ein Kreuzprodukt von zwei 3-dimensionalen Vektoren "a" und "b" hat.
+
+26
+00:02:02,200 --> 00:02:07,226
+Das Ergebnis von diesem Kreuzprodukt ist wieder ein Vektor mit 3 Komponenten.
+
+27
+00:02:07,900 --> 00:02:10,929
+Man kann also fragen: was ist die i-te Komponente davon.
+
+28
+00:02:11,643 --> 00:02:16,407
+und es stellt sich heraus, dass man diese mithilfe des Levi-Civita Symbols ausrechnen kann.
+
+29
+00:02:17,514 --> 00:02:21,698
+Es ist die doppelte Summe über alle Möglichkeiten für "j" und "k"
+
+30
+00:02:21,914 --> 00:02:25,870
+und dann nehmen wir das Levi-Civita Symbol, Epsilon_i_j_k.
+
+31
+00:02:26,843 --> 00:02:32,788
+mal der j-ten Komponente von "a" mal der k-ten Komponente von "b".
+
+32
+00:02:33,786 --> 00:02:40,278
+In der Tat ist das die Formel, die manche Leute benutzen, um das Kreuzprodukt zwischen zwei 3-dimensionalen Vektoren zu definieren.
+
+33
+00:02:41,443 --> 00:02:44,372
+Ok, das ist das Levi-Civita Symbol.
+
+34
+00:02:44,572 --> 00:02:46,178
+Danke fürs zuhören.
+

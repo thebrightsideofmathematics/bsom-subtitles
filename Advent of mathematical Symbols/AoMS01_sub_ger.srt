@@ -1,0 +1,84 @@
+1
+00:00:00,457 --> 00:00:03,800
+Das mathematische Symbol für heute ist das Kronecker-Delta.
+
+2
+00:00:03,1000 --> 00:00:07,031
+Geschrieben als ein kleines delta_i_j.
+
+3
+00:00:07,700 --> 00:00:10,438
+Und die Definition ist überhaupt nicht kompliziert.
+
+4
+00:00:10,439 --> 00:00:12,639
+Es ist entweder 1 oder 0.
+
+5
+00:00:13,786 --> 00:00:17,591
+In der Tat ist es nur 1, wenn i = j gilt
+
+6
+00:00:18,557 --> 00:00:21,582
+und in all den anderen Fällen ist es gleich 0.
+
+7
+00:00:22,500 --> 00:00:26,713
+Bedeutet, man kann das Kronecker-Delta für viele Möglichkeiten benutzen.
+
+8
+00:00:26,913 --> 00:00:29,878
+Also für viele verschiedenen Indexen i und j.
+
+9
+00:00:30,571 --> 00:00:35,305
+Das einzige was gegeben sein muss ist, dass die Gleichheit von den Indexen Sinn ergibt.
+
+10
+00:00:36,471 --> 00:00:40,561
+In der Tat repräsentieren "i" und "j" oftmals ganze Zahlen.
+
+11
+00:00:41,500 --> 00:00:47,284
+Wenn ihr z.B. delta_1_2, schreibt, dann handelt es sich einfach um die Nummer 0.
+
+12
+00:00:48,286 --> 00:00:52,821
+Auf der anderen Seite steht delta_5_5 für die Nummer 1.
+
+13
+00:00:53,614 --> 00:00:57,214
+Ihr seht also das Kronecker-Delta ist ein sehr einfaches Symbol.
+
+14
+00:00:57,414 --> 00:01:02,137
+Nichtsdestotrotz kann es sehr hilfreich sein, wenn man Bspw. Summen ausrechnet.
+
+15
+00:01:02,757 --> 00:01:09,732
+Das bedeutet, dass wenn ihr eine kompliziertere Summe habt, könnt ihr sie normalerweise vereinfachen, wenn das Kronecker-Delta beteiligt ist.
+
+16
+00:01:10,171 --> 00:01:13,284
+So wäre in dieser doppelten Summe von 1 zu 5,
+
+17
+00:01:13,484 --> 00:01:15,443
+wo delta_i_j beteiligt ist,
+
+18
+00:01:15,686 --> 00:01:17,906
+die meisten Ausdrücke gleich 0.
+
+19
+00:01:18,557 --> 00:01:22,415
+Daher ist hier das Ergebnis einfach die Nummer 5.
+
+20
+00:01:23,543 --> 00:01:26,197
+Ok, das ist das Kronecker-Delta.
+
+21
+00:01:26,397 --> 00:01:27,615
+Danke fürs zuhören.
+

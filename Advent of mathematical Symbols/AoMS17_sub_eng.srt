@@ -1,0 +1,124 @@
+1
+00:00:00,629 --> 00:00:02,200
+Hello and welcome.
+
+2
+00:00:02,372 --> 00:00:05,314
+The mathematical symbol of today is little o.
+
+3
+00:00:05,543 --> 00:00:07,519
+Denoted with a small o.
+
+4
+00:00:08,514 --> 00:00:14,801
+If you know the big O notation, you will not be surprised that we also find parantheses next to the little o.
+
+5
+00:00:15,001 --> 00:00:17,329
+and also a function inside.
+
+6
+00:00:17,796 --> 00:00:20,879
+So this is little o of g(x).
+
+7
+00:00:21,800 --> 00:00:25,414
+However this symbol only makes sense with respect to a limit.
+
+8
+00:00:25,786 --> 00:00:29,119
+So we would write x goes to a number "a".
+
+9
+00:00:29,857 --> 00:00:35,429
+In fact "a" could be a real number or the symbol infinity or - infinity.
+
+10
+00:00:36,214 --> 00:00:41,898
+Now in this little o notation we usually use an equality sign in a symbolic way.
+
+11
+00:00:42,743 --> 00:00:48,555
+So we would say another function f(x) is equal to little o of g(x).
+
+12
+00:00:49,357 --> 00:00:55,332
+However as for the big O notation an element relation here would be the formal correct way.
+
+13
+00:00:56,029 --> 00:00:58,785
+Nevertheless of course this is not so important.
+
+14
+00:00:58,814 --> 00:01:02,343
+The important thing is that you know the meaning of this expression here.
+
+15
+00:01:03,343 --> 00:01:12,186
+In fact this little o here should tell you that the function g grows much faster than the function f, when x goes to "a".
+
+16
+00:01:13,271 --> 00:01:17,343
+and this property can be expressed with a limit process.
+
+17
+00:01:17,439 --> 00:01:20,342
+So we have limit x goes to "a".
+
+18
+00:01:21,214 --> 00:01:25,252
+and then we simply consider the ratio of f to g.
+
+19
+00:01:26,171 --> 00:01:31,742
+Now usually for consistency reasons one takes the absolute value of this ratio.
+
+20
+00:01:32,871 --> 00:01:36,613
+and then finally in the limit this should go to 0.
+
+21
+00:01:37,600 --> 00:01:44,843
+So you see this equality tells us that the function g dominates the function f in this limit process.
+
+22
+00:01:45,929 --> 00:01:49,310
+Ok, then i think it's helpful to look at an example here.
+
+23
+00:01:50,457 --> 00:01:53,686
+Here lets consider the function 8 times x squared.
+
+24
+00:01:54,929 --> 00:01:59,090
+and the limit process we are interested in should be x goes to infinity.
+
+25
+00:02:00,214 --> 00:02:03,958
+and now the function g should be just x squared.
+
+26
+00:02:04,786 --> 00:02:09,967
+So here you should see we do not have that the limit on the left hand side goes to 0. 
+
+27
+00:02:10,929 --> 00:02:16,022
+So this function is not of little o(x^2), when x goes to infinity.
+
+28
+00:02:16,943 --> 00:02:22,654
+However if we consider little o of x cubed, we have that the limit goes to 0.
+
+29
+00:02:23,643 --> 00:02:28,652
+So we can say this function 8 times x^2 is little o(x^3).
+
+30
+00:02:29,743 --> 00:02:34,360
+Ok, then i hope that this was helpful and that i can see you in the next video.
+
+31
+00:02:34,560 --> 00:02:35,193
+Bye!
+

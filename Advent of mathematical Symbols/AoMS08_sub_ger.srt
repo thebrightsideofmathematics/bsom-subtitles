@@ -1,0 +1,100 @@
+1
+00:00:00,714 --> 00:00:03,714
+Das mathematische Symbol für heute ist das Produktzeichen.
+
+2
+00:00:03,771 --> 00:00:05,672
+Mit einem großen Pi geschrieben.
+
+3
+00:00:06,186 --> 00:00:12,057
+und genau so wie wir es schon beim Summenzeichen hatten, wird auch hier ein Index unter dem Buchstaben Pi benutzt.
+
+4
+00:00:13,229 --> 00:00:20,857
+Hier startet k mit dem Wert 1 und geht durch alle natürlichen Zahlen, bis es den Wert n erreicht hat.
+
+5
+00:00:21,629 --> 00:00:26,966
+Somit ist dieses Symbol eine kurze Notation für ein Produkt mit genau n Faktoren.
+
+6
+00:00:27,857 --> 00:00:34,377
+Um genauer zu sein, wir starten mit "a_1" mal "a_2" mal "a_3" usw.
+
+7
+00:00:34,400 --> 00:00:36,633
+bis wir "a_n" erreicht haben.
+
+8
+00:00:37,414 --> 00:00:44,227
+Natürlich können hierbei "a_1", "a_2" usw. irgendwelche Zahlen sein. Es ist nur wichtig, dass ein Index beteiligt ist.
+
+9
+00:00:45,043 --> 00:00:50,154
+Auf der linken Seite haben wir es k genannt, aber natürlich könnte man auch einen anderen Namen wählen.
+
+10
+00:00:50,971 --> 00:00:55,038
+Das ganze hier, könnt ihr als eine Erklärung des Produktzeichen sehen,
+
+11
+00:00:55,129 --> 00:00:59,067
+aber die formale Definition ist durch eine rekursive Definition gegeben.
+
+12
+00:00:59,800 --> 00:01:04,395
+Bedeutet, wir müssen erstmal klären, was das leere Produkt sein soll.
+
+13
+00:01:04,971 --> 00:01:08,335
+Mit anderen Worten was passiert, wenn wir n auf 0 setzten.
+
+14
+00:01:09,214 --> 00:01:14,714
+Dann würde die Erklärung von oben kein Sinn ergeben, da keine Zahlen beteiligt sind.
+
+15
+00:01:15,400 --> 00:01:20,509
+In der Tat ist das einzige sinnvolle hier, dass ein leeres Produkt eine 1 rausgibt. 
+
+16
+00:01:21,200 --> 00:01:25,076
+Weil sich nichts ändert, wenn wir etwas mit 1 multiplizieren.
+
+17
+00:01:25,957 --> 00:01:33,699
+und vielleicht wisst ihr bereits, dass wir beim nächsten Schritt einer rekursiven Definition beschreiben müssen, was mit dem Nachfolger passiert, wenn wir den Vorgänger bereits kennen.
+
+18
+00:01:34,400 --> 00:01:40,743
+Bedeutet, wir haben auf der rechten Seite ein Produkt, welches von k = 1 bis (n - 1) geht
+
+19
+00:01:40,814 --> 00:01:45,529
+und wir wollen das Produkt, wo k von 1 nach n geht.
+
+20
+00:01:45,971 --> 00:01:51,834
+und das einzige sinnvolle wäre, wenn wir die rechte Seite mit "a_n" multiplizieren.
+
+21
+00:01:52,571 --> 00:01:55,094
+Ok und das ist die rekursive Definition.
+
+22
+00:01:56,271 --> 00:02:01,170
+und natürlich kann man dieses leicht für andere Startwerte verallgemeinern.
+
+23
+00:02:02,200 --> 00:02:04,291
+So, dass ist das Produktzeichen
+
+24
+00:02:04,491 --> 00:02:08,070
+und wenn das hilfreich war, sehe ich euch im nächsten Video.
+
+25
+00:02:08,270 --> 00:02:09,330
+Tschüss!
+
