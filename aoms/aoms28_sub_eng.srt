@@ -1,0 +1,84 @@
+1
+00:00:00,357 --> 00:00:03,450
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,500 --> 00:00:05,897
+Which is today this partial d.
+
+3
+00:00:06,471 --> 00:00:11,715
+I just call it partial d, but there are a lot of other names for this cursive d.
+
+4
+00:00:12,143 --> 00:00:16,275
+However it's important to see that it's not a lower case delta.
+
+5
+00:00:16,814 --> 00:00:22,300
+Of course it's related, because it should look like a rounded version of a lower case d.
+
+6
+00:00:22,600 --> 00:00:28,578
+Indeed some people just call this symbol del, but this can be confused with the nabla operator.
+
+7
+00:00:29,343 --> 00:00:33,597
+Therefore if you pronounce this letter here, you can simply say d
+
+8
+00:00:33,797 --> 00:00:39,037
+and now you might already know, we mostly use this symbol when we talk about partial derivatives.
+
+9
+00:00:39,414 --> 00:00:46,946
+So for example, if we have a function from R^2 to R, we can form the derivative with respect to the first variable here
+
+10
+00:00:47,343 --> 00:00:51,416
+and this is then the partial derivative, denoted with the curved d.
+
+11
+00:00:51,616 --> 00:00:54,918
+So we have df over dx_1
+
+12
+00:00:55,329 --> 00:01:00,939
+and then we simply say: this is the partial derivative of f with respect to x_1
+
+13
+00:01:01,771 --> 00:01:08,770
+and there you see, we use this curved d to distinguish the partial derivative from a normal derivative in 1 variable.
+
+14
+00:01:09,286 --> 00:01:13,746
+However, our partial d here is also used in other contexts.
+
+15
+00:01:14,386 --> 00:01:18,816
+So for example in topology we talk about open and closed sets
+
+16
+00:01:19,016 --> 00:01:26,306
+and then it turns out that for each subset in a given space, we can define the so called boundary of the set.
+
+17
+00:01:26,886 --> 00:01:31,272
+In this picture here, we would visualize it as the shell of the given set A
+
+18
+00:01:31,657 --> 00:01:35,392
+and then we denote this boundary by partial dA.
+
+19
+00:01:35,886 --> 00:01:42,259
+So you see this is a completely different usage of this curved d, then we have it for the partial derivatives.
+
+20
+00:01:42,929 --> 00:01:48,091
+Now, if you know other cases where the partial d is used, you can tell me in the comments.
+
+21
+00:01:48,529 --> 00:01:53,113
+Otherwise I would say let's meet in the next video about mathematical symbols.
+
