@@ -1,0 +1,76 @@
+1
+00:00:00,514 --> 00:00:03,720
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,729 --> 00:00:07,501
+Which is the d'Alembert operator denoted by such a box.
+
+3
+00:00:07,701 --> 00:00:12,747
+You might already know, mathematicians often use this box to denote the end of a proof,
+
+4
+00:00:12,947 --> 00:00:19,026
+but here we will talk about another usage of this symbol. Namely we talk about the differential operator.
+
+5
+00:00:19,514 --> 00:00:24,769
+Indeed, this d'Alembert operator is often used for applications in physics.
+
+6
+00:00:24,986 --> 00:00:32,489
+More precisely it's often used as a differentiable operator when we have 3 dimensions in space and 1 dimension in time,
+
+7
+00:00:33,014 --> 00:00:37,867
+because then we are able to combine some seconde order derivatives.
+
+8
+00:00:38,700 --> 00:00:45,704
+First we have the one with respect to the time variable t minus the ones with respect to the spatial variables
+
+9
+00:00:46,214 --> 00:00:51,400
+and they are simply put into a Laplacian, the three dimensional Laplace operator.
+
+10
+00:00:51,929 --> 00:00:56,499
+So there you should know, this is simply the sum of 3 partial derivatives
+
+11
+00:00:57,114 --> 00:01:02,313
+and you see, usually we call the 3 dimensions in space x_1, x_2, x_3.
+
+12
+00:01:02,957 --> 00:01:07,011
+Hence what happens here is that we connect space, time.
+
+13
+00:01:07,211 --> 00:01:11,902
+So the d'Alembert operator is used when you want to describe something in space-time.
+
+14
+00:01:12,371 --> 00:01:20,459
+For this reason the units where we measure space and time, should coincide and therefore the speed of light should occur somewhere.
+
+15
+00:01:20,886 --> 00:01:24,870
+Indeed often we just put it in front of the time derivative.
+
+16
+00:01:25,300 --> 00:01:30,687
+So you find 1 over c^2 there, where c stands for the speed of light.
+
+17
+00:01:31,157 --> 00:01:37,071
+Ok, there we have it. This is the meaning of the box, when we use it as a differential operator
+
+18
+00:01:37,271 --> 00:01:41,782
+and then I would say, let's meet in the next video about mathematical symbols.
+
+19
+00:01:41,886 --> 00:01:42,800
+Bye!
+
