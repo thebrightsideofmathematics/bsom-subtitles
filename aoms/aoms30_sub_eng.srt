@@ -1,0 +1,80 @@
+1
+00:00:00,414 --> 00:00:03,711
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,786 --> 00:00:06,516
+Which is given by these pointy bracktes.
+
+3
+00:00:07,086 --> 00:00:12,637
+Often there is a comma in between, but sometimes you also see a straight line
+
+4
+00:00:12,837 --> 00:00:16,896
+and this is in mathematics how we denote an inner product.
+
+5
+00:00:17,371 --> 00:00:22,077
+This means it's a special multiplication we find in a vector space.
+
+6
+00:00:22,586 --> 00:00:28,898
+So you see one vector you would put here on the left-hand side and another one here on the right-hand side.
+
+7
+00:00:29,343 --> 00:00:36,652
+Hence if we call the vector space V, we can see it as a map defined on the Cartesian product, V with itself
+
+8
+00:00:37,043 --> 00:00:42,388
+and then the outcome of this inner product calculation should be a real or complex number.
+
+9
+00:00:42,871 --> 00:00:49,321
+Hence we immediately recognize it's a very abstract concept, but it has a lot of concrete applications.
+
+10
+00:00:49,914 --> 00:00:56,555
+For example it's used a lot in physics and especially this notation you will see in quantum mechanics.
+
+11
+00:00:56,986 --> 00:01:04,283
+As an example we can say in quantum mechanics, they would calculate the inner product of 2 states. Psi and Psi tilde
+
+12
+00:01:04,743 --> 00:01:08,461
+and then they might say: this is the bracket notation of quantum mechanics,
+
+13
+00:01:08,661 --> 00:01:12,203
+but mathematically it's just the inner product in a vector space.
+
+14
+00:01:12,714 --> 00:01:17,845
+However, then in physics you also see a funny thing. They separate this bracket.
+
+15
+00:01:18,045 --> 00:01:26,969
+On the one hand they say we have the called bra vector Psi and on the other hand the so called ket vector Psi tilde
+
+16
+00:01:27,514 --> 00:01:33,266
+and then you can argue, putting both things together gives us a so called bra-ket.
+
+17
+00:01:33,466 --> 00:01:38,121
+In short you can just say, this is another way to explain the inner product.
+
+18
+00:01:38,686 --> 00:01:42,590
+In phisycs this is usually called the so called Dirac notation
+
+19
+00:01:42,943 --> 00:01:49,201
+and if you want to learn more about this and inner products, I have a whole functional analysis course you can watch.
+
+20
+00:01:49,543 --> 00:01:54,403
+So I really hope that I see you there or in the next video about mathematical symbols.
+
