@@ -1,0 +1,72 @@
+1
+00:00:00,386 --> 00:00:03,443
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,557 --> 00:00:06,738
+Which is the integral sign with this circle inside.
+
+3
+00:00:07,014 --> 00:00:11,910
+So you see, this is a variation from the integral sign, from the last video
+
+4
+00:00:12,110 --> 00:00:18,266
+and here the circle always tells you that the integration is closed in some sense.
+
+5
+00:00:18,466 --> 00:00:23,098
+For example often it denotes a so called "closed line integral".
+
+6
+00:00:23,557 --> 00:00:30,022
+There we simply have a curve in some space. For example the plane and we integrate along it
+
+7
+00:00:30,222 --> 00:00:37,515
+and exactly this is what we would call a line integral and most importantly, it has a starting point and an end point
+
+8
+00:00:37,971 --> 00:00:44,810
+and now this circle here gives the additional information that the start point and the end point coincide.
+
+9
+00:00:45,010 --> 00:00:49,873
+So a closed integral means that the curve ends where it started.
+
+10
+00:00:50,073 --> 00:00:57,103
+So indeed the curve could look complicated. It's just important that we find the end point at the beginning again.
+
+11
+00:00:57,500 --> 00:01:05,132
+Ok and now it turns out that these integrals occur so often that it's useful to introduce a new symbol for them.
+
+12
+00:01:05,332 --> 00:01:12,233
+For example in complex analysis it turns out that this closed line integral carries a lot of information.
+
+13
+00:01:12,433 --> 00:01:19,173
+You can look at a function 1/z and then it turns out that this closed line integral is not always 0.
+
+14
+00:01:19,373 --> 00:01:27,407
+Indeed we find that for the circle that goes one time around the origin, this integral is exactly 2*pi*i.
+
+15
+00:01:28,057 --> 00:01:31,901
+So this is what we can easily calculate in the complex plane
+
+16
+00:01:32,101 --> 00:01:37,797
+and if you want to learn more about this, I have a whole video course about complex analysis.
+
+17
+00:01:38,171 --> 00:01:42,352
+So let's meet there or in the next video about mathematical symbols.
+
+18
+00:01:42,552 --> 00:01:44,286
+Have a nice day and bye.
+

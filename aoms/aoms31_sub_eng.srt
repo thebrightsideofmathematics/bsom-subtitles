@@ -1,0 +1,92 @@
+1
+00:00:00,443 --> 00:00:03,744
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,786 --> 00:00:07,408
+Which is the integral symbol denoted with this long S.
+
+3
+00:00:07,608 --> 00:00:12,928
+So whenever you see an integral, it always uses this stylized S
+
+4
+00:00:13,257 --> 00:00:19,725
+and there you might already know, originally it comes from the word "sum" or the latin word "summa".
+
+5
+00:00:20,157 --> 00:00:29,261
+Indeed if you want to see the integral as the area between the graph of the function and the x-axis, a sum helps us to calculate it.
+
+6
+00:00:29,571 --> 00:00:36,555
+I would always say, if you start calculating integrals, you first start calculating the area of rectangles
+
+7
+00:00:36,943 --> 00:00:43,193
+or more precisely, you would approximate the actual area with the sum of simple areas
+
+8
+00:00:43,829 --> 00:00:47,757
+and usually this approach is known as the Riemann integral.
+
+9
+00:00:48,043 --> 00:00:52,568
+So we would write: we have a sum over areas of rectangles.
+
+10
+00:00:52,943 --> 00:00:58,332
+Now, one rectangle has a height of f(x) and the width of delta x.
+
+11
+00:00:58,786 --> 00:01:05,692
+So you see, this is not complicated at all. We just read the value of the function and the distance on the x-axis
+
+12
+00:01:06,100 --> 00:01:09,647
+and then summing it up gives us the whole area
+
+13
+00:01:09,847 --> 00:01:15,953
+and then you should see, in order to make the approximation better, we make the rectangles smaller and smaller.
+
+14
+00:01:16,214 --> 00:01:21,018
+So in some sense we have a limit process, where delta x goes to 0
+
+15
+00:01:21,218 --> 00:01:28,711
+and then the result of this limit process is the actual area. Which we now don't denote with this sigma, but with this long S
+
+16
+00:01:29,229 --> 00:01:33,230
+and moreover the delta x is then written as a dx.
+
+17
+00:01:33,430 --> 00:01:39,538
+So this would explain why we have exactly this nice notation here for denoting an integral.
+
+18
+00:01:39,738 --> 00:01:47,066
+Moreover I can tell you. Besides this Reimann integral here, there are also other approaches to define integrals
+
+19
+00:01:47,266 --> 00:01:53,725
+and indeed they change the notation a little bit, but they don't change the long S for denoting the integral.
+
+20
+00:01:54,214 --> 00:01:58,986
+Now, if you want to learn more about this, I have a lot of videos about the Reimann integral
+
+21
+00:01:59,043 --> 00:02:02,229
+and about the modern version, the Lebesgue integral.
+
+22
+00:02:02,800 --> 00:02:08,118
+therefore I would say let's meet there or in the next video about mathematical symbols.
+
+23
+00:02:08,318 --> 00:02:10,286
+Have a nice day and Bye!
+
