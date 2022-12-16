@@ -68,7 +68,7 @@ So this would explain why we have exactly this nice notation here for denoting a
 
 18
 00:01:39,738 --> 00:01:47,066
-Moreover I can tell you. Besides this Reimann integral here, there are also other approaches to define integrals
+Moreover I can tell you. Besides this Riemann integral here, there are also other approaches to define integrals
 
 19
 00:01:47,266 --> 00:01:53,725
@@ -76,7 +76,7 @@ and indeed they change the notation a little bit, but they don't change the long
 
 20
 00:01:54,214 --> 00:01:58,986
-Now, if you want to learn more about this, I have a lot of videos about the Reimann integral
+Now, if you want to learn more about this, I have a lot of videos about the Riemann integral
 
 21
 00:01:59,043 --> 00:02:02,229
