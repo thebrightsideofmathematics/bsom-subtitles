@@ -1,0 +1,140 @@
+1
+00:00:00,429 --> 00:00:03,409
+Hello and welcome back to the next mathematical symbol.
+
+2
+00:00:03,410 --> 00:00:05,945
+Which is the set symbol N
+
+3
+00:00:06,145 --> 00:00:11,251
+and throughout mathematics it always denotes the so called natural numbers.
+
+4
+00:00:11,671 --> 00:00:15,814
+They are called natural, because you use them for counting.
+
+5
+00:00:16,400 --> 00:00:21,371
+However, sadly there is no consensus with which number you should start counting.
+
+6
+00:00:21,782 --> 00:00:25,624
+Therefore you usually find 2 competing definitions.
+
+7
+00:00:25,824 --> 00:00:30,571
+On the one hand the one where we first count 1 object, then 2 and so on
+
+8
+00:00:31,343 --> 00:00:37,443
+and on the other hand we have the definition where also no objects at all are represented with a 0.
+
+9
+00:00:37,929 --> 00:00:41,221
+So there we have 0, 1, 2 and so on.
+
+10
+00:00:41,843 --> 00:00:49,030
+Therefore if you start reading a mathematical book, you always should check and make sure which of both definitions is used.
+
+11
+00:00:49,514 --> 00:00:53,371
+For example if the first notation for the natural numbers here is used,
+
+12
+00:00:53,510 --> 00:01:00,094
+then also the second set is important and usually gets a new name. Like N with index 0.
+
+13
+00:01:00,900 --> 00:01:08,542
+This happens, because the natural numbers including the 0 element represent a very important mathematical structure.
+
+14
+00:01:09,314 --> 00:01:11,890
+Namely it is a so called monoid.
+
+15
+00:01:12,257 --> 00:01:16,365
+More precisely it's a monoid with respect to the addition.
+
+16
+00:01:16,565 --> 00:01:22,382
+So there is an important fact. In the set of the natural numbers we know what the addition means.
+
+17
+00:01:22,971 --> 00:01:28,253
+This I don't have to tell you. I assume that you know what it means when you have to add numbers.
+
+18
+00:01:28,771 --> 00:01:32,786
+However if you want an explanation for this, an axiomatic approach,
+
+19
+00:01:32,957 --> 00:01:37,094
+I have a whole video course about it called "start learning number".
+
+20
+00:01:37,657 --> 00:01:43,916
+But most importantly after you know how the addition is defined, we find 2 properties for it.
+
+21
+00:01:44,500 --> 00:01:49,826
+First we find it's an associative operator when we add 3 numbers.
+
+22
+00:01:50,200 --> 00:01:58,968
+So we have a,b and c as natural numbers and then we get the equality for these 2 expressions, where we just add the 3 numbers.
+
+23
+00:01:59,414 --> 00:02:04,920
+So it means we can set parentheses as we want, without changing the result
+
+24
+00:02:05,457 --> 00:02:09,133
+and now exactly this property is called associativity.
+
+25
+00:02:09,671 --> 00:02:13,758
+Ok and this is the first part we have for a so called monoid
+
+26
+00:02:14,257 --> 00:02:17,882
+and the second part is that a so called neutral element exist.
+
+27
+00:02:18,757 --> 00:02:25,824
+Often it's also called the identity element and it just means that it doesn't change the element in the addition
+
+28
+00:02:26,400 --> 00:02:30,711
+and now for our natural numbers here, this is of course the number 0.
+
+29
+00:02:31,343 --> 00:02:37,672
+So "a" + 0 is "a" again and also from the other side. 0 + "a" is also "a"
+
+30
+00:02:37,871 --> 00:02:41,377
+and this holds no matter which natural number "a" we choose
+
+31
+00:02:41,577 --> 00:02:46,935
+and with this you now know the definition of the mathematical concept called a monoid
+
+32
+00:02:47,135 --> 00:02:53,362
+and moreover you also know an important example. The natural numbers including the 0 element
+
+33
+00:02:53,814 --> 00:02:58,183
+and now if you want to learn more about the natural numbers, you can watch my other videos
+
+34
+00:02:58,383 --> 00:03:02,054
+or otherwise we meet in the next video about mathematical symbols.
+
+35
+00:03:02,254 --> 00:03:04,971
+Have a nice day and bye!
+
