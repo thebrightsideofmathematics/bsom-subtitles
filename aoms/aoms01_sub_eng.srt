@@ -76,9 +76,8 @@ Therefore what comes out here is simply the number 5.
 
 20
 00:01:23,543 --> 00:01:26,197
-Ok, that's the kronecker delta.
+Ok, that's the Kronecker delta.
 
 21
 00:01:26,397 --> 00:01:27,615
 Thanks for listening.
-
