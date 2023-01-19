@@ -132,5 +132,5 @@ Ok, so this is the Levi-Civita symbol.
 
 34
 00:02:44,572 --> 00:02:46,178
-Thanks for listening.
+Thanks for listening!
 
