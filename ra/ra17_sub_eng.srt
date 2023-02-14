@@ -1,0 +1,344 @@
+1
+00:00:00,329 --> 00:00:03,100
+Hello and welcome back to real analysis
+
+2
+00:00:03,500 --> 00:00:08,933
+and as always first I want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,133 --> 00:00:13,214
+In today's part 17 we still talk about series.
+
+4
+00:00:13,386 --> 00:00:19,643
+More concretely we will use this video and the next ones to talk about criteria we have to check for convergence.
+
+5
+00:00:19,971 --> 00:00:24,573
+For this please recall that a series is just a sequence of partial sums
+
+6
+00:00:25,129 --> 00:00:31,063
+and in the case that this sequence is convergent we also use this symbol to denote the limit.
+
+7
+00:00:31,263 --> 00:00:36,247
+Therefore by applying the well known limit theorems we can write down some properties.
+
+8
+00:00:36,900 --> 00:00:40,485
+Therefore we take 2 series that need to be convergent
+
+9
+00:00:40,843 --> 00:00:47,028
+and then we can say something about the series that is given by the sequence a_k + b_k.
+
+10
+00:00:47,657 --> 00:00:51,338
+So here keep in mind we have a new sequence of partial sums.
+
+11
+00:00:51,943 --> 00:00:57,293
+Now the result, which is not so surprising, is that this series is also convergent.
+
+12
+00:00:57,600 --> 00:01:04,881
+We know even more. We can immediately calculate the limit. It's just given by the sum of the two limits.
+
+13
+00:01:05,200 --> 00:01:11,064
+Of course all of this is just an application of the limit theorems you already learned for sequences
+
+14
+00:01:11,529 --> 00:01:19,230
+However in this case, when we have convergent series, it tells us that we can pull the addition out of this symbol.
+
+15
+00:01:19,430 --> 00:01:26,108
+Of course for a normal sum this always works but please keep in mind this symbol here is not a normal sum.
+
+16
+00:01:26,600 --> 00:01:32,171
+Ok and another property we get from ordinary sums is given by the multiplication.
+
+17
+00:01:32,555 --> 00:01:38,474
+Namely we have the distributive law when we multiply all the terms in the sum with the same factor.
+
+18
+00:01:38,674 --> 00:01:44,821
+For a series this means, if the original series is convergent then also this one.
+
+19
+00:01:45,021 --> 00:01:52,446
+No matter which real number we choose for lambda. Also here this follows immediately from the limit theorems
+
+20
+00:01:52,646 --> 00:01:56,779
+and we get the calculation rule that we can pull out lambda.
+
+21
+00:01:57,614 --> 00:02:04,002
+Ok these two properties you really should remember and you should remember that they hold for convergent series.
+
+22
+00:02:04,202 --> 00:02:09,649
+Therefore a natural question would be: how can we check that a given series is indeed convergent?
+
+23
+00:02:09,849 --> 00:02:14,970
+In fact there are a lot of different criteria one can apply to answer this question.
+
+24
+00:02:15,170 --> 00:02:20,333
+The first one I want to show you just uses the completeness axiom of the real numbers.
+
+25
+00:02:20,533 --> 00:02:23,500
+Therefore it's called the Cauchy criterion.
+
+26
+00:02:24,143 --> 00:02:30,899
+Please recall in the real numbers being a convergent sequence is equivalent for being a Cauchy sequence
+
+27
+00:02:31,271 --> 00:02:37,044
+and there the important part was that for a Cauchy sequence we don't have to know the limit.
+
+28
+00:02:37,557 --> 00:02:42,532
+Therefore this criterion will check for convergence but it does not tell you the limit.
+
+29
+00:02:43,257 --> 00:02:50,402
+Of course often this is good enough. For example if you just want to justify that you are allowed to use these calculation rules here.
+
+30
+00:02:51,071 --> 00:02:57,258
+Hence the criterion tells us that the series is convergent if and only if
+
+31
+00:02:57,458 --> 00:03:03,875
+for all epsilon greater than 0 there exists a capital N,
+
+32
+00:03:04,075 --> 00:03:11,820
+such that for all indices n and m greater than this capital N, where also n is greater or equal than m,
+
+33
+00:03:12,229 --> 00:03:21,589
+we have that the absolute value of the partial sum, starting with m and ending with n is less than epsilon.
+
+34
+00:03:22,314 --> 00:03:32,157
+In other words, if you can show that this expression here is arbitrarily small eventually, then you know the series is convergent
+
+35
+00:03:32,286 --> 00:03:38,565
+and on the other hand, if you can show that this expression stays large or larger than a given constant,
+
+36
+00:03:38,765 --> 00:03:41,724
+then you know the series is not convergent.
+
+37
+00:03:42,114 --> 00:03:46,874
+Ok, before I show you an example let's do the proof of the statement here.
+
+38
+00:03:47,074 --> 00:03:51,676
+This is not so complicated, because we just have to use the completeness axiom.
+
+39
+00:03:52,043 --> 00:03:56,606
+First let's define the partial sums as always denoted by s_n.
+
+40
+00:03:56,806 --> 00:04:03,757
+Then we know the sequence s_n is convergent if and only if it is a Cauchy sequence.
+
+41
+00:04:04,500 --> 00:04:08,481
+That is exactly what we know as the completeness of the real numbers.
+
+42
+00:04:08,681 --> 00:04:13,783
+If you don't know anymore what a Cauchy sequence is, let's write down the definition.
+
+43
+00:04:14,486 --> 00:04:23,775
+It just means that for all epsilon greater 0 there exists a capital N such that for all indices afterwards we can calculate the difference
+
+44
+00:04:23,975 --> 00:04:27,870
+and then in the absolute value it should be less than epsilon.
+
+45
+00:04:28,471 --> 00:04:35,654
+Here you see the indices are called n-tilde and m-tilde, just because I want to redefine them in the next step.
+
+46
+00:04:35,854 --> 00:04:39,322
+You already know, what we want is an expression like this.
+
+47
+00:04:39,943 --> 00:04:47,768
+Hence now you can see n should be always the larger index here and m-tilde I want to shift by 1.
+
+48
+00:04:47,968 --> 00:04:51,932
+Hence here we get s_n - s_(m-1).
+
+49
+00:04:52,132 --> 00:04:56,856
+First you should see this is indeed a special case of the property we had here
+
+50
+00:04:57,056 --> 00:05:04,779
+and on the other hand you should see it's not a restriction at all, because the only case we really miss is when we have the same index here.
+
+51
+00:05:04,979 --> 00:05:11,880
+But of course in the case that we have the same index there we always get 0 out, which is always less than epsilon.
+
+52
+00:05:12,080 --> 00:05:16,577
+Therefore this reformulation for a Cauchy sequence is always allowed.
+
+53
+00:05:16,777 --> 00:05:21,850
+Ok, now we only have to see that this difference is exactly this sum here.
+
+54
+00:05:22,050 --> 00:05:25,772
+Hence this is the whole proof of the Cauchy criterion.
+
+55
+00:05:26,214 --> 00:05:29,244
+Now, as promised let's apply it to an example.
+
+56
+00:05:29,814 --> 00:05:34,159
+Ok, I would say let's look at the example we had at the beginning of this course.
+
+57
+00:05:34,529 --> 00:05:40,986
+Of course we already know it's not convergent, but the question would be how can we show it with the Cauchy criterion.
+
+58
+00:05:41,414 --> 00:05:44,554
+For this we have to calculate this partial sum here.
+
+59
+00:05:45,086 --> 00:05:52,232
+Now you already know we only need to calculate this for indices n, m that are greater or equal than some capital N.
+
+60
+00:05:52,614 --> 00:05:56,603
+Therefore maybe let's substitute the m with the capital N.
+
+61
+00:05:56,803 --> 00:06:01,612
+In other words we look at the special case for m and we can do the same for n.
+
+62
+00:06:01,812 --> 00:06:11,971
+For example it would be allowed to choose N+2. Therefore the sum consists of exactly three numbers and of course we can calculate them
+
+63
+00:06:12,300 --> 00:06:19,056
+We just have to distinguish two different cases. The first case would be N is even.
+
+64
+00:06:19,256 --> 00:06:31,910
+Then we have 1+(-1)+1. Therefore for an even N we get out 1 for the sum. Of course then the absolute value does not change anything
+
+65
+00:06:32,571 --> 00:06:41,135
+Ok, then the other case would be then an odd N, which means we start with -1, then comes 1 and then we add -1 again.
+
+66
+00:06:41,814 --> 00:06:52,768
+Hence the result is -1, but with the absolute value it's 1 as well. Hence no matter what N is this expression is always exactly 1.
+
+67
+00:06:52,968 --> 00:06:58,483
+Which is of course not less than epsilon, if we choose epsilon less than 1.
+
+68
+00:06:58,683 --> 00:07:03,457
+In conclusion this property here can't be fulfilled for all epsilon.
+
+69
+00:07:03,657 --> 00:07:09,657
+Indeed now this is all we have to do to show that this series is not convergent.
+
+70
+00:07:09,857 --> 00:07:15,547
+So here you see the Cauchy criterion as simple as it is, can be very helpful in calculations
+
+71
+00:07:16,329 --> 00:07:20,379
+and it is also very helpful for showing the next important fact.
+
+72
+00:07:20,579 --> 00:07:27,263
+Maybe in this example you have already seen, there is a necessary condition for being a convergent series.
+
+73
+00:07:27,463 --> 00:07:32,558
+Just take any sequence of real numbers a_k and look at the series
+
+74
+00:07:32,758 --> 00:07:40,576
+and if this is convergent you know the sequence a_k has to be a sequence that converges to 0.
+
+75
+00:07:40,714 --> 00:07:43,822
+Ok, here you see the contraposition to this is,
+
+76
+00:07:43,823 --> 00:07:51,085
+if you start with a sequence a_k that is not convergent to 0, the series we get out is divergent.
+
+77
+00:07:51,285 --> 00:07:55,769
+and of course here you see immediately one example where you can apply this fact.
+
+78
+00:07:56,300 --> 00:08:00,147
+-1 to the power k is not a convergent sequence at all.
+
+79
+00:08:00,347 --> 00:08:05,294
+However one important thing to note here is, this is not an equivalence.
+
+80
+00:08:05,494 --> 00:08:10,803
+Please remind yourself in the last video we have already seen a counter example for this.
+
+81
+00:08:11,003 --> 00:08:16,471
+Now I can tell you this proof works similarly to the things we did in the example above.
+
+82
+00:08:16,671 --> 00:08:21,094
+Therefore I think this is a good exercise for you. Try to prove this fact.
+
+83
+00:08:21,514 --> 00:08:29,466
+Afterwards, then you know every time someone asks you about series and the convergence of it, you should check this thing here first.
+
+84
+00:08:29,666 --> 00:08:35,453
+However of course most of the time you still don't know if the series is convergent then.
+
+85
+00:08:35,653 --> 00:08:42,435
+In this case you have to apply another criterion and such another one I show you in the next video.
+
+86
+00:08:42,635 --> 00:08:46,429
+Therefore I hope I see you there and have a nice day. Bye!
+
