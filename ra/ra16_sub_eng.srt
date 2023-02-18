@@ -1,0 +1,388 @@
+1
+00:00:00,429 --> 00:00:03,521
+Hello and welcome back to real analysis
+
+2
+00:00:03,721 --> 00:00:08,866
+and as always I want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,229 --> 00:00:12,987
+In today's part 16 we will still talk about series
+
+4
+00:00:13,800 --> 00:00:17,886
+and we have already learned, a series is just a special sequence.
+
+5
+00:00:18,244 --> 00:00:23,151
+Namely it's simply the sequence of partial sums for a given sequence a_k.
+
+6
+00:00:23,351 --> 00:00:26,535
+Hence the sum ends here with a new index n.
+
+7
+00:00:27,043 --> 00:00:34,833
+Now because you already know this definition, you see we don't have a problem when we start a sum with another number, which is not 1.
+
+8
+00:00:35,033 --> 00:00:42,953
+So depending on the sequence a_k, we can start here with 0, 2 or 3 or even a negative number if it makes sense.
+
+9
+00:00:43,153 --> 00:00:48,272
+I tell you that because in the next example we have a series that starts with 0.
+
+10
+00:00:48,929 --> 00:00:51,843
+It's the very important geometric series
+
+11
+00:00:52,043 --> 00:00:56,473
+and there we sum all the powers of a given number q.
+
+12
+00:00:56,673 --> 00:01:01,019
+Hence for us first q could be any real number.
+
+13
+00:01:01,219 --> 00:01:09,912
+However what we want to show now is that this series is convergent if and only if q is less than 1 in the absolute value.
+
+14
+00:01:10,112 --> 00:01:15,926
+Hence only in this case we get a finite number, when calculating this infinite sum.
+
+15
+00:01:16,414 --> 00:01:19,124
+Ok, then let's start the calculation.
+
+16
+00:01:19,324 --> 00:01:25,330
+The overall question is of course, what is our sequence s_n? The sequence of partial sums.
+
+17
+00:01:25,843 --> 00:01:30,301
+Because when we know this, we can calculate the limit n to infinity.
+
+18
+00:01:30,501 --> 00:01:36,351
+Indeed there is a nice calculation we can do with this sum, in the case that q is not equal to 1.
+
+19
+00:01:36,929 --> 00:01:42,867
+Of course this is not a restriction, because if q is equal to 1 we have a very simple sum here.
+
+20
+00:01:43,067 --> 00:01:47,999
+We just sum up 1's and therefore the series is divergent to infinity.
+
+21
+00:01:48,429 --> 00:01:54,893
+Ok, now in the case that q is not 1, we can multiply the whole sum with (1 - q).
+
+22
+00:01:55,093 --> 00:01:58,734
+So we just scale the sequence here with a non-zero number.
+
+23
+00:01:58,934 --> 00:02:04,430
+Now, the overall idea is that we can expand this expression here and get 2 sums.
+
+24
+00:02:04,630 --> 00:02:10,001
+The first sum is the same as before and the second has q to the power (k + 1)
+
+25
+00:02:10,571 --> 00:02:16,969
+and now what we can do is change the index here, such that we have again, q to the power k inside the sum.
+
+26
+00:02:17,169 --> 00:02:23,129
+This simply means that we start with k=1 and go to n+1
+
+27
+00:02:23,329 --> 00:02:27,185
+and then you should see, we go exactly through the same numbers.
+
+28
+00:02:27,385 --> 00:02:32,976
+Ok, such an index shift is very helpful, because now we can subtract the 2 sums here
+
+29
+00:02:33,400 --> 00:02:39,364
+and the only things that remain are for the first sum, the first index, so k=0
+
+30
+00:02:39,564 --> 00:02:44,517
+and for the second sum the last index, so k=n+1.
+
+31
+00:02:44,929 --> 00:02:51,228
+Hence we have q to the power 0, which is by definition 1 and q to the power n+1.
+
+32
+00:02:51,428 --> 00:02:55,903
+Ok, with this we have a very nice expression for our sequence s_n.
+
+33
+00:02:56,103 --> 00:03:02,809
+Namely we can just divide by 1-q, which is non-zero and get this nice formula here
+
+34
+00:03:03,171 --> 00:03:08,415
+and there you should immediately see in which cases s_n is a convergent sequence.
+
+35
+00:03:08,615 --> 00:03:13,389
+We just have to know if the sequence q to the power n is convergent.
+
+36
+00:03:13,589 --> 00:03:17,028
+This is what you might already know and it is not hard to show.
+
+37
+00:03:17,157 --> 00:03:23,036
+q to the power n is convergent if and only if the absolute value of q is less than 1
+
+38
+00:03:23,236 --> 00:03:27,464
+and in this case we also know the limit, which is 0.
+
+39
+00:03:27,664 --> 00:03:37,181
+Then this implies that we can actually calculate the limit of this sequence here and as you can see, this is 1 over 1-q.
+
+40
+00:03:37,381 --> 00:03:47,542
+Hence in summary the value of our series here is well defined for q in the absolute value less than 1 and it is 1/(1-q).
+
+41
+00:03:47,742 --> 00:03:51,580
+This is such an important formula, such that it gets its own name.
+
+42
+00:03:52,143 --> 00:03:56,151
+It's called the geometric series and you really should remember it.
+
+43
+00:03:56,351 --> 00:04:01,098
+Of course you can see that this formula is important, because it got a name.
+
+44
+00:04:01,298 --> 00:04:05,885
+Therefore I can now tell you there is another series that has a special name.
+
+45
+00:04:06,085 --> 00:04:09,044
+This one is the so called Harmonic series
+
+46
+00:04:09,300 --> 00:04:13,088
+and indeed it's an example of a divergent series.
+
+47
+00:04:13,288 --> 00:04:17,897
+It's constructed by summing up all fractions 1/k.
+
+48
+00:04:18,343 --> 00:04:22,630
+So we have 1 + 1/2 + 1/3 + 1/4 and so on
+
+49
+00:04:23,071 --> 00:04:28,709
+and now we will show that this is not convergent, but rather divergent to +infinity.
+
+50
+00:04:28,909 --> 00:04:35,581
+The first time you see this it might be a little bit surprising, because each number we add gets smaller and smaller.
+
+51
+00:04:35,957 --> 00:04:43,143
+However the whole sum increases as much as you want and this is exactly what we now want to show.
+
+52
+00:04:43,466 --> 00:04:47,382
+Therefore let's look again at the partial sums we call s_n.
+
+53
+00:04:47,582 --> 00:04:54,687
+Here you should see immediately that this is a sequence of positive real numbers, that is also monotonically increasing.
+
+54
+00:04:55,157 --> 00:05:00,097
+Hence the only thing that remains to show is that this sequence is not bounded.
+
+55
+00:05:00,297 --> 00:05:05,554
+In order to show this we have different possibilities, but I choose a very simple one.
+
+56
+00:05:05,754 --> 00:05:09,945
+We will only look at the Indices, where n is a power of 2.
+
+57
+00:05:10,145 --> 00:05:13,037
+There you will see, this makes everything easier.
+
+58
+00:05:13,237 --> 00:05:17,436
+In the first step you should see we can rewrite this number as differences.
+
+59
+00:05:17,636 --> 00:05:23,928
+This means that I can start with s_1 and then I go to s_2, but then I subtract s_1 again.
+
+60
+00:05:24,128 --> 00:05:27,126
+Hence this whole term is just s_2.
+
+61
+00:05:27,326 --> 00:05:30,232
+Then we go to s_4 and subtract s_2 again.
+
+62
+00:05:30,929 --> 00:05:37,427
+In other words this is just s_4 and please recall I just want to use the powers of 2 here.
+
+63
+00:05:37,886 --> 00:05:41,831
+Therefore in the next step I would use s_8 and subtract s_4 again
+
+64
+00:05:42,714 --> 00:05:47,379
+and then we continue the whole game until we reach our index 2 to the power m
+
+65
+00:05:47,579 --> 00:05:51,855
+and of course in this last step we have to subtract the predecessor.
+
+66
+00:05:52,055 --> 00:05:57,600
+In summary this is just a complicated way to write s with the index 2 to the power m.
+
+67
+00:05:57,800 --> 00:06:02,894
+However, still this is very helpful, because now we have differences here
+
+68
+00:06:03,094 --> 00:06:06,880
+and these differences are much easier to estimate.
+
+69
+00:06:07,080 --> 00:06:13,029
+Of course if you don't like the dots here, we can simply put the whole formula into a sum symbol here.
+
+70
+00:06:13,229 --> 00:06:19,119
+It has the same information, but now it is compact, but we have to use another index j.
+
+71
+00:06:19,319 --> 00:06:24,439
+Ok, at this point you should recall that s with an index stands for a partial sum.
+
+72
+00:06:25,000 --> 00:06:31,996
+So here we subtract 2 partial sums and of course what remains is the middle part of the partial sum.
+
+73
+00:06:32,500 --> 00:06:35,249
+Ok so let's write that into another line.
+
+74
+00:06:35,600 --> 00:06:43,379
+Ok, so we know we get out a partial sum, the only thing we have to think about is "what is the start index?" and "what is the end index?"
+
+75
+00:06:43,886 --> 00:06:53,202
+For this recall that this partial sum wants to the end index 2 to the power j and this end index is smaller than this.
+
+76
+00:06:53,671 --> 00:06:57,056
+Hence the final index has to be 2 to the power j.
+
+77
+00:06:57,256 --> 00:07:03,258
+Also we know all indices that are smaller than this or equal will vanish.
+
+78
+00:07:03,458 --> 00:07:08,502
+Hence the start index has to be 2 to the power (j - 1 + 1).
+
+79
+00:07:08,702 --> 00:07:13,313
+Of course this looks complicated, because of all the indices involved,
+
+80
+00:07:13,513 --> 00:07:19,009
+but actually it's not so complicated, because it's just a small part of this sum here.
+
+81
+00:07:19,209 --> 00:07:25,112
+Therefore maybe for the visualization just imagine that the sum stands for these three numbers here.
+
+82
+00:07:25,312 --> 00:07:34,972
+Then of course the sum gets smaller when we don't add 1/2 + 1/3 + 1/4, but rather 3 times 1/4 here.
+
+83
+00:07:35,172 --> 00:07:42,049
+Indeed that's what we can do in general when we put in here for the fraction the largest index.
+
+84
+00:07:42,249 --> 00:07:46,915
+Now we just have to count how many times we add this constant number here
+
+85
+00:07:47,115 --> 00:07:52,724
+and when you do this you see we have exactly 2 to the power j-1 terms.
+
+86
+00:07:53,314 --> 00:07:56,439
+Hence this is the only product we have to calculate now
+
+87
+00:07:56,639 --> 00:08:02,949
+and because we have chosen the powers of 2 this is not so complicated. It's exactly 1/2.
+
+88
+00:08:03,400 --> 00:08:11,959
+Now this is an important information, because it tells us that this term here is always greater than 1/2 no matter what j is.
+
+89
+00:08:12,159 --> 00:08:18,180
+So we have the factor 1/2 m-times. In conclusion here we have our estimate.
+
+90
+00:08:18,380 --> 00:08:24,959
+The partial sum as with index 2 to the power m is always greater than s_1 + m times 1/2
+
+91
+00:08:25,514 --> 00:08:31,695
+and of course this is not bounded at all, because when m increases this goes to infinity.
+
+92
+00:08:32,214 --> 00:08:36,914
+Hence we have shown that the whole sequence of partial sums is not bounded from above.
+
+93
+00:08:37,457 --> 00:08:42,028
+In combination with the monotonicity we have our divergence to infinity.
+
+94
+00:08:42,329 --> 00:08:50,410
+Hence there we have our harmonic series, which is a divergent series. So please remember also this important result.
+
+95
+00:08:50,610 --> 00:08:57,668
+Ok then in the next videos we will talk more about criteria we can use to show the convergence of series
+
+96
+00:08:57,868 --> 00:09:03,156
+and you will also see that the 2 examples we had here are also very helpful there.
+
+97
+00:09:03,356 --> 00:09:05,814
+So I hope I see you next time. Bye.
+
