@@ -1,0 +1,360 @@
+1
+00:00:00,257 --> 00:00:03,669
+Hello and welcome back to real analysis
+
+2
+00:00:03,869 --> 00:00:09,247
+and as always many, many thanks for all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,447 --> 00:00:13,385
+In today's part 18 we will talk about the Leibniz criterion.
+
+4
+00:00:13,585 --> 00:00:19,486
+In short it's a theorem that gives us the sufficient condition for a series to be convergent.
+
+5
+00:00:19,686 --> 00:00:24,922
+As a good introduction for this, let's recall a series you already know. The Harmonic series.
+
+6
+00:00:25,686 --> 00:00:29,952
+It's the sequence of partial sums, where we sum over 1/k.
+
+7
+00:00:30,152 --> 00:00:33,938
+A nice visualization for this would be to look at rectangles.
+
+8
+00:00:34,900 --> 00:00:40,146
+Here all the rectangles should have width 1 and the height should be given by 1/k.
+
+9
+00:00:40,671 --> 00:00:46,102
+This means that the area of the rectangles are given by our numbers we want to sum up.
+
+10
+00:00:46,671 --> 00:00:51,996
+Of course here the area of one rectangle gets smaller and smaller when we go to the right.
+
+11
+00:00:52,196 --> 00:00:58,457
+However we have already shown that the whole infinite sum, the whole area is infinity.
+
+12
+00:00:58,814 --> 00:01:04,518
+In other words the Harmonic series is not convergent but divergent to infinity.
+
+13
+00:01:04,843 --> 00:01:12,168
+Therefore having a sequence inside the sum that goes to 0 is not sufficient for convergence of the series.
+
+14
+00:01:12,368 --> 00:01:15,911
+However we know from the last video it's necessary.
+
+15
+00:01:16,357 --> 00:01:20,720
+Ok now the Leibniz criterion will fix this missing sufficient condition.
+
+16
+00:01:21,071 --> 00:01:24,476
+For this we also can use the same visualization.
+
+17
+00:01:24,943 --> 00:01:27,645
+Let's again look at the rectangles from before.
+
+18
+00:01:27,943 --> 00:01:31,909
+However now we want to alternate the signs of the areas.
+
+19
+00:01:32,686 --> 00:01:39,466
+Hence the first area is positive, the second is negative, the third is positive again and so on.
+
+20
+00:01:39,714 --> 00:01:48,779
+Therefore we don't look at the Harmonic series here, but rather at a sequence of partial sums , where we have (-1) to the power (k+1) in front.
+
+21
+00:01:49,471 --> 00:01:53,959
+So we have the same sequence involved, but know with alternating signs
+
+22
+00:01:54,300 --> 00:02:00,377
+and now the Leibniz criterion tells us this is indeed enough to make the whole series convergent.
+
+23
+00:02:00,577 --> 00:02:08,044
+Therefore please remember adding, subtracting, adding, subtracting and so on, gives us a different behavior than just adding.
+
+24
+00:02:08,643 --> 00:02:12,388
+Ok, now we are ready to formulate the general Leibniz criterion. 
+
+25
+00:02:13,086 --> 00:02:17,726
+For obvious reason this is also known as the alternating series test.
+
+26
+00:02:17,926 --> 00:02:22,133
+Of course there are also other names some people just call it Leibniz's test.
+
+27
+00:02:22,829 --> 00:02:27,281
+Ok for the formulation let's take a sequence of real numbers called a_k.
+
+28
+00:02:27,481 --> 00:02:33,893
+Now, we already know if we want a convergent series we need this sequence to be convergent with limit 0.
+
+29
+00:02:34,643 --> 00:02:39,133
+However now we also put in that a_k is monotonically decreasing.
+
+30
+00:02:39,414 --> 00:02:43,304
+So please keep in mind this is exactly what we have for 1/k
+
+31
+00:02:43,857 --> 00:02:48,338
+and now the conclusion is that the alternating series here is convergent.
+
+32
+00:02:49,114 --> 00:02:55,461
+This means whenever you see you have alternating signs you can always check if the Leibniz criterion is applicable.
+
+33
+00:02:55,661 --> 00:03:03,340
+You just ignore the signs and look if the remaining part defines a sequence with limit 0 and is monotonically decreasing.
+
+34
+00:03:03,540 --> 00:03:07,505
+Ok, now I guess you are interested in the proof of this statement.
+
+35
+00:03:07,800 --> 00:03:15,771
+Indeed this is not so hard. We just defined the partial sums as always and then we will look at suitable subsequences.
+
+36
+00:03:16,386 --> 00:03:22,414
+So here you see the formulation is a little bit different than before, because here we shifted the index by 1,
+
+37
+00:03:22,614 --> 00:03:29,249
+which is of course no problem at all, but the picture changes a little bit because the first member here gets a minus sign.
+
+38
+00:03:29,871 --> 00:03:33,763
+Hence now you see here the correct visualization for our case.
+
+39
+00:03:34,057 --> 00:03:38,854
+Now the first thing you should note here is that all the a_k's are non-negative,
+
+40
+00:03:38,886 --> 00:03:43,337
+because the limit is 0 and the sequence is monotonically decreasing.
+
+41
+00:03:43,537 --> 00:03:45,903
+Therefore this picture is indeed correct.
+
+42
+00:03:45,971 --> 00:03:51,624
+Maybe the sizes of the rectangles are different, but we have that they don't get larger when we go to the right
+
+43
+00:03:51,686 --> 00:03:54,159
+and we have the alternating sign.
+
+44
+00:03:54,359 --> 00:03:59,257
+Now the first idea, the first subsequence is that we only consider even ends here,
+
+45
+00:03:59,457 --> 00:04:03,408
+because then you see here, the negative part dominates.
+
+46
+00:04:03,914 --> 00:04:12,858
+So let's take a natural number "l", then this index is even and then we subtract the predecessor given by an even number as well.
+
+47
+00:04:13,486 --> 00:04:17,701
+Therefore in the picture what remains are just 2 rectangles, maybe here.
+
+48
+00:04:18,371 --> 00:04:26,728
+and then we know by assumption that the right area here, can't be bigger than the left area here. Of course measured with the absolute value.
+
+49
+00:04:27,314 --> 00:04:29,575
+On the other hand in the formula this looks like this.
+
+50
+00:04:29,671 --> 00:04:37,429
+With the same reasoning, when we subtract the 2 partial sums only 2 terms remain and only the odd number gets the minus sign.
+
+51
+00:04:38,043 --> 00:04:43,000
+Now, since the sequence is monotonically decreasing this is less or equal than 0.
+
+52
+00:04:43,700 --> 00:04:46,769
+That's what I said, the negative part here dominates.
+
+53
+00:04:47,400 --> 00:04:51,625
+Ok, maybe not so surprising we can do the same for odd indices.
+
+54
+00:04:51,871 --> 00:04:58,585
+This works completely the same but only shifted by one index, which means now the positive part dominates.
+
+55
+00:04:58,785 --> 00:05:05,087
+Of course we see that in the formula as well. These 2 members remain and the odd index gets the minus sign.
+
+56
+00:05:05,514 --> 00:05:09,411
+Therefore this is again by the monotonicity greater or equal than 0.
+
+57
+00:05:10,114 --> 00:05:14,805
+Hence the odd indices give us a monotonically increasing subsequence
+
+58
+00:05:15,005 --> 00:05:20,704
+and on the other hand we have a monotonically decreasing subsequence for the even indices.
+
+59
+00:05:20,904 --> 00:05:24,651
+Ok, then in the next step let's compare both subsequences.
+
+60
+00:05:25,329 --> 00:05:31,089
+In other words: what is the difference between the members with indices 2l+1 and 2l?
+
+61
+00:05:31,571 --> 00:05:37,040
+Also this is easy to calculate. It's simply  -a with index 2l+1.
+
+62
+00:05:37,800 --> 00:05:44,914
+Which is less or equal than 0. Hence we get this inequality when we want to compare both subsequences
+
+63
+00:05:45,486 --> 00:05:53,471
+and now we can put in that we know that this sequence is monotonically decreasing and this sequence is monotonically increasing.
+
+64
+00:05:54,000 --> 00:06:00,756
+Therefore for all natural numbers "l", we have that s_2l is less or equal than s_2
+
+65
+00:06:00,956 --> 00:06:03,933
+and the same on the left hand side with S_3.
+
+66
+00:06:04,133 --> 00:06:08,405
+So from this we conclude that both subsequences are bounded
+
+67
+00:06:08,700 --> 00:06:14,086
+and now you might already recognize one important theorem we had for sequences.
+
+68
+00:06:14,429 --> 00:06:17,999
+We simply called it the monotone convergence criterion.
+
+69
+00:06:18,800 --> 00:06:27,346
+Here in our case we have a sequence given by the even indices, which is monotonically decreasing and also bounded from below.
+
+70
+00:06:28,129 --> 00:06:31,021
+Hence we know it's a convergent sequence.
+
+71
+00:06:31,771 --> 00:06:39,529
+On the other hand we have a sequence which is monotonically increasing and also bounded, so it's also convergent.
+
+72
+00:06:40,243 --> 00:06:46,495
+We can even show that the limit of both sequences is the same, because we can look at the difference again
+
+73
+00:06:46,914 --> 00:06:50,737
+We already know it's simply given by a sequence member "a".
+
+74
+00:06:51,400 --> 00:06:55,595
+Therefore when "l" goes to Infinity this sequence goes to 0.
+
+75
+00:06:56,000 --> 00:07:00,658
+So here we put in our assumption about the limit of the sequence a_k.
+
+76
+00:07:00,858 --> 00:07:04,629
+Ok, so there's only one limit and we can call it s.
+
+77
+00:07:05,329 --> 00:07:11,003
+So at this point please recall that we wanted to show that the sequence s_n is convergent.
+
+78
+00:07:11,714 --> 00:07:20,363
+Here we just considered 2 subsequences. However both subsequences together hit all the sequence members of s_n.
+
+79
+00:07:21,014 --> 00:07:26,795
+Therefore we can conclude that the limit of s_n is also given by s.
+
+80
+00:07:27,286 --> 00:07:32,251
+If you have never seen this step here, then it's a good exercise for you to show it.
+
+81
+00:07:32,871 --> 00:07:39,232
+Nevertheless for us the result here is important. The sequence of partial sums s_n is convergent.
+
+82
+00:07:39,714 --> 00:07:48,107
+and this closes our proof. So we have proven the Leibniz criterion and now you are allowed to use it whenever you can.
+
+83
+00:07:48,786 --> 00:07:52,354
+Therefore let's close the video with one last example.
+
+84
+00:07:52,857 --> 00:07:59,770
+Let's simply consider a series that has -1 to the power k over the square root of k.
+
+85
+00:08:00,386 --> 00:08:03,732
+So here we have everything we need for the Leibniz criterion.
+
+86
+00:08:03,932 --> 00:08:11,048
+We have alternating signs and a sequence which is monotonically decreasing and is convergent to 0.
+
+87
+00:08:11,686 --> 00:08:15,309
+Therefore we know this whole series here is convergent.
+
+88
+00:08:15,700 --> 00:08:20,647
+We cannot immediately calculate the limit, but we know the limit is a real number.
+
+89
+00:08:21,214 --> 00:08:24,692
+Ok, so that's how you apply the Leibniz criterion.
+
+90
+00:08:25,286 --> 00:08:35,286
+Ok, then in the next video we will talk about other criteria as well. Therefore I hope I see you there and have a nice day. bye!
+
