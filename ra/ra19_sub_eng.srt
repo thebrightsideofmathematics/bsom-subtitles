@@ -1,0 +1,328 @@
+1
+00:00:00,400 --> 00:00:03,644
+Hello and welcome back to real analysis
+
+2
+00:00:04,129 --> 00:00:09,366
+and as always first I want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,686 --> 00:00:15,318
+In today's part 19 we will talk about the so called comparison test for series.
+
+4
+00:00:15,943 --> 00:00:20,924
+It's a criterion we can use to decide if a given series is convergent,
+
+5
+00:00:21,124 --> 00:00:24,592
+but first we need a new definition about convergence.
+
+6
+00:00:24,792 --> 00:00:30,686
+Namely we call a series given by a sequence a_k, absolutely convergent 
+
+7
+00:00:31,229 --> 00:00:36,112
+if the series given by the absolute value of a_k is simply convergent.
+
+8
+00:00:36,686 --> 00:00:43,857
+So what you see immediately is that for a series that has only positive a_k's, this is not a new definition at all.
+
+9
+00:00:44,386 --> 00:00:47,494
+However in general it's a stronger definition.
+
+10
+00:00:48,214 --> 00:00:52,645
+In other words being absolutely convergent implies being convergent.
+
+11
+00:00:53,100 --> 00:00:58,175
+Indeed this is not hard to show, we can just use the Cauchy criterion.
+
+12
+00:00:58,375 --> 00:01:07,196
+Applying this for our series here just means: For all epsilon there is an N, such that for all n, m we have
+
+13
+00:01:07,314 --> 00:01:10,740
+that this finite sum here is less than epsilon.
+
+14
+00:01:11,271 --> 00:01:18,961
+Now, in this special case here, we know that the sum is never negative. Therefore we can omit the absolute values around it.
+
+15
+00:01:19,757 --> 00:01:26,986
+Ok, but know we want to say something about the original series with a_k. So without the absolute value here inside.
+
+16
+00:01:27,643 --> 00:01:33,415
+Hence what we really want is that this sum with the absolute value outside is less than epsilon.
+
+17
+00:01:33,829 --> 00:01:38,825
+In order to get this we can just use the triangle inequality for the absolute value.
+
+18
+00:01:39,129 --> 00:01:45,315
+It just tells us that we can push the absolute value inside the sum, but then we have an inequality.
+
+19
+00:01:45,515 --> 00:01:51,597
+Now, here we already know from the line above that the right-hand side here is less than epsilon.
+
+20
+00:01:52,114 --> 00:01:58,237
+So this is our implication and we just get the Cauchy criterion for our original series with a_k.
+
+21
+00:01:59,057 --> 00:02:02,185
+Hence the series is convergent as well.
+
+22
+00:02:02,385 --> 00:02:06,551
+Ok, now please remember that we have always this implication here.
+
+23
+00:02:06,751 --> 00:02:10,101
+However it does not work the other way around.
+
+24
+00:02:10,414 --> 00:02:14,172
+Indeed that's what we already learned in the last video.
+
+25
+00:02:14,514 --> 00:02:19,217
+Namely this series here is convergent by the Leibniz criterion.
+
+26
+00:02:19,757 --> 00:02:23,127
+However it's not absolutely convergent.
+
+27
+00:02:23,327 --> 00:02:29,313
+We see that immediately, because when we take the absolute value here, we get out the harmonic series.
+
+28
+00:02:29,700 --> 00:02:34,696
+Ok, now in summary what we have is a stronger notion of convergence
+
+29
+00:02:35,314 --> 00:02:39,127
+and indeed this is exactly what we need for the comparison test.
+
+30
+00:02:39,886 --> 00:02:44,793
+Now in fact, this comparison test consists of 2 separate criteria.
+
+31
+00:02:44,993 --> 00:02:48,563
+The first one is the so called majorant criterion.
+
+32
+00:02:48,871 --> 00:02:54,384
+If we are able to apply this, we get the absolute convergence out for a series.
+
+33
+00:02:54,584 --> 00:02:59,568
+Ok, therefore let's fix a series and now I will tell you what we have to check.
+
+34
+00:02:59,768 --> 00:03:05,428
+We just need another sequence b_k that is larger than the sequence a_k
+
+35
+00:03:05,986 --> 00:03:09,399
+and of course we put a_k in the absolute value
+
+36
+00:03:09,599 --> 00:03:14,433
+and we don't need the inequality for all k, but we need it eventually.
+
+37
+00:03:14,714 --> 00:03:18,561
+Hence for all k after a given index n_0.
+
+38
+00:03:18,971 --> 00:03:24,342
+So the idea here is that we have another sequence b_k that is well behaved.
+
+39
+00:03:24,542 --> 00:03:28,163
+In the sense that corresponding series is convergent
+
+40
+00:03:28,500 --> 00:03:36,031
+and then we can conclude with this inequality that the series corresponding to the absolute value a_k is also convergent.
+
+41
+00:03:36,371 --> 00:03:46,263
+Therefore our premise is that we find an index n_0 and a convergent series and this series is then often called the majorant
+
+42
+00:03:46,815 --> 00:03:52,461
+and of course our inequality only makes sense if the corresponding b_k's are non-negative.
+
+43
+00:03:52,661 --> 00:03:58,660
+Ok and then our conclusion is that our series over a_k is absolutely convergent.
+
+44
+00:03:58,860 --> 00:04:06,600
+So the idea is here that we can control the whole sequence of partial sums. We simply keep the sequence members small enough.
+
+45
+00:04:07,143 --> 00:04:11,657
+Now, applications for this nice theorem I show you in the next video.
+
+46
+00:04:12,071 --> 00:04:19,460
+Here we first should convince ourselves that this is indeed correct and in fact this proof is very short.
+
+47
+00:04:19,660 --> 00:04:25,256
+We just have to apply our already known Cauchy criterion to the series over b_k.
+
+48
+00:04:25,456 --> 00:04:31,951
+So this is the same as before. We find epsilon and N and get that this sum is less than epsilon.
+
+49
+00:04:32,314 --> 00:04:40,144
+However of course we want to say something about this sum. Now you might already know, we can just apply our inequality here.
+
+50
+00:04:40,443 --> 00:04:47,360
+In other words if we substitute a_k here with b_k, we get a value that is larger or stays the same.
+
+51
+00:04:47,857 --> 00:04:54,186
+The only small restriction for this calculation is that we have to choose the capital N larger than n_0
+
+52
+00:04:54,771 --> 00:04:57,585
+and of course it's always possible to do that.
+
+53
+00:04:57,871 --> 00:05:02,698
+Ok and then on the right-hand side these 2 things here are obviously the same.
+
+54
+00:05:03,157 --> 00:05:07,584
+In summary now, this number is indeed less than epsilon.
+
+55
+00:05:07,784 --> 00:05:14,167
+This simply means that the Cauchy criterion holds for the series over the absolute value of a_k.
+
+56
+00:05:14,367 --> 00:05:21,890
+So we have a convergent series there or to put differently the series over a_k is absolutely convergent.
+
+57
+00:05:22,243 --> 00:05:25,453
+Ok and with this the whole proof is finished.
+
+58
+00:05:25,829 --> 00:05:31,433
+Ok, so this was the majorant criterion, but we also have the minorant criterion.
+
+59
+00:05:31,943 --> 00:05:37,196
+It works similarly, but now we don't check for convergence but for divergence.
+
+60
+00:05:37,486 --> 00:05:45,457
+Therefore we almost have the same assumptions, but now we only check for series that have a sequence a_k that is non-negative.
+
+61
+00:05:45,857 --> 00:05:52,300
+So now we can copy almost all things from above, but now we need a divergent series b_k
+
+62
+00:05:52,500 --> 00:05:56,344
+and then of course the inequality goes the other direction.
+
+63
+00:05:56,686 --> 00:06:00,955
+Hence now the sequence a_k is simply too large.
+
+64
+00:06:01,155 --> 00:06:06,285
+Therefore the idea here is, if this series has already the limit infinity,
+
+65
+00:06:06,485 --> 00:06:11,402
+then the series over a_k, which is larger, should also have the limit infinity.
+
+66
+00:06:11,957 --> 00:06:15,125
+In conclusion the series is divergent.
+
+67
+00:06:15,457 --> 00:06:21,557
+Ok, the proof for this theorem is also not so hard. You can just use the majorant criterion.
+
+68
+00:06:21,757 --> 00:06:26,216
+So you can do a proof by contraposition or if you want by contradiction.
+
+69
+00:06:26,614 --> 00:06:30,394
+Ok, because it's a very short proof, I think it's a good exercise for you
+
+70
+00:06:30,957 --> 00:06:35,701
+and then we can close this video with an example for the minorant criterion.
+
+71
+00:06:35,901 --> 00:06:41,030
+We will show that the series with 1 over square root of k is divergent.
+
+72
+00:06:41,486 --> 00:06:47,400
+The first thing you should note here is that the square root of k is indeed less or equal than k itself.
+
+73
+00:06:48,143 --> 00:06:51,737
+Hence the reciprocals fulfill the other inequality.
+
+74
+00:06:52,171 --> 00:06:56,999
+So 1 over the square root of k is greater or equal than 1 over k
+
+75
+00:06:57,257 --> 00:07:01,055
+and of course this holds for all natural numbers k
+
+76
+00:07:01,400 --> 00:07:06,602
+and at this point you see, here we have our minorant, the sequence b_k,
+
+77
+00:07:06,802 --> 00:07:14,557
+because this gives us the harmonic series and we already showed that this is a divergent series.
+
+78
+00:07:15,014 --> 00:07:21,959
+Hence if we are able to write down such an inequality, we immediately know that we have a divergent series as well.
+
+79
+00:07:22,343 --> 00:07:29,060
+The only problem this might give you is that you don't know at the beginning, which minorant or majorant you should choose.
+
+80
+00:07:29,686 --> 00:07:34,635
+Therefore in the next video I'll show you some criteria that help you exactly there,
+
+81
+00:07:34,835 --> 00:07:40,536
+but still if you know what to do, the minorant and the majorant criterion can be very helpful.
+
+82
+00:07:40,857 --> 00:07:44,757
+Ok, then I hope I see you in the next video. Bye!
+
