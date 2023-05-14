@@ -1,0 +1,260 @@
+1
+00:00:00,457 --> 00:00:06,276
+Hello and welcome to the new video series about ordinary differential equations.
+
+2
+00:00:07,114 --> 00:00:14,859
+This will be a video series for everyone who is interested in the theory of differential equations and how to solve them.
+
+3
+00:00:15,059 --> 00:00:17,729
+So essentially it's a mathematics course,
+
+4
+00:00:17,757 --> 00:00:23,161
+but it's also important for a lot of other science subjects, where differential equations occur.
+
+5
+00:00:23,657 --> 00:00:31,101
+Therefore you might have already seen a differential equation. For example f'=f is a common one. 
+
+6
+00:00:31,301 --> 00:00:38,697
+Roughly speaking this equation means that we search for a function f, that is differentiable and fulfills this equation.
+
+7
+00:00:38,897 --> 00:00:45,098
+More precisely here it means that the derivative of the function f is equal to the function itself
+
+8
+00:00:45,298 --> 00:00:50,414
+and then you might already find, that the exponential function does the job.
+
+9
+00:00:50,671 --> 00:00:55,386
+So f(x) = e^x solves this differential equation.
+
+10
+00:00:55,929 --> 00:01:00,733
+Ok, at this point I would say a lot of questions immediately occur.
+
+11
+00:01:01,300 --> 00:01:06,651
+First, how can we solve such an equation if we don't have any idea, what the solution could be?
+
+12
+00:01:06,971 --> 00:01:12,707
+Second, in the case that find a solution, what can we say about the uniqueness of this solution?
+
+13
+00:01:13,200 --> 00:01:19,571
+Moreover, besides the existence and uniqueness of solutions, you could also ask smart questions, like
+
+14
+00:01:19,586 --> 00:01:22,220
+what is the domain of definition for a solution here
+
+15
+00:01:22,257 --> 00:01:24,597
+and can it be different for different solutions?
+
+16
+00:01:24,900 --> 00:01:30,385
+Indeed all these questions and many more, we will answer in this video course here
+
+17
+00:01:30,743 --> 00:01:37,975
+and a good starting point would be to talk about the prerequisite you need to understand all the videos here.
+
+18
+00:01:38,175 --> 00:01:45,010
+However before we do that, I really want to thank all the nice people who support me on Steady, via Paypal or by other means.
+
+19
+00:01:45,514 --> 00:01:51,976
+This freely available video course only exists, because nice people support the production of it
+
+20
+00:01:52,176 --> 00:01:58,323
+and indeed as a supporter you get rewards like quizzes and PDF versions for all the videos.
+
+21
+00:01:58,857 --> 00:02:01,963
+To find them, just click the link in the description.
+
+22
+00:02:02,514 --> 00:02:09,138
+Ok, now let's talk about the requirements. The knowledge you need to understand ordinary differential equations.
+
+23
+00:02:09,800 --> 00:02:15,086
+In fact there are 2 main ingredients here. On the one side you need to know what derivatives are.
+
+24
+00:02:15,214 --> 00:02:17,087
+So you need the real analysis part
+
+25
+00:02:17,287 --> 00:02:21,549
+and then you need to calculate with vectors. So you need the linear algebra part.
+
+26
+00:02:22,143 --> 00:02:26,942
+For both topics I have video courses, where you can watch the relevant parts.
+
+27
+00:02:27,471 --> 00:02:35,090
+However, if you are very new to mathematics, I would like to suggest that you first watch my "start learning mathematics" course.
+
+28
+00:02:35,686 --> 00:02:43,769
+There I tell you about typical notations, what numbers are, what sets are. So all the foundations you need to understand the rest here.
+
+29
+00:02:44,371 --> 00:02:49,748
+Ok, so now you know what we need and you see, we don't need a lot of multivariable calculus.
+
+30
+00:02:49,948 --> 00:02:53,384
+Simply because we will not talk about partial differential equations.
+
+31
+00:02:53,886 --> 00:02:59,559
+So we will not consider partial derivatives in the equations just ordinary derivatives.
+
+32
+00:03:00,271 --> 00:03:04,594
+Indeed this makes the whole topic much easier to deal with.
+
+33
+00:03:05,043 --> 00:03:12,029
+However in order to motivate you why ordinary differential equations are still interesting and very important
+
+34
+00:03:12,114 --> 00:03:14,457
+let's look at some other examples.
+
+35
+00:03:15,057 --> 00:03:21,886
+So for example you might know that in physics one uses dots for denoting the time derivative.
+
+36
+00:03:22,571 --> 00:03:27,071
+Hence this here is the second derivative of the function x(t)
+
+37
+00:03:27,314 --> 00:03:30,928
+and now this should be equal to omega squared x.
+
+38
+00:03:31,714 --> 00:03:37,529
+Indeed, in physics this equation here describes a so called harmonic oscillator
+
+39
+00:03:37,829 --> 00:03:43,343
+and depending on how much you want to calculate with complex numbers, we have a minus sign here or not
+
+40
+00:03:43,543 --> 00:03:49,972
+and there I should tell you, if you don't know complex numbers, you should check out my "start learning mathematics" series.
+
+41
+00:03:50,671 --> 00:03:55,693
+However in the end here complex numbers will only be important for some calculations.
+
+42
+00:03:56,157 --> 00:04:01,036
+Ok, so now we can consider another example, also given by physics.
+
+43
+00:04:01,643 --> 00:04:07,881
+Indeed, this one is easy to explain. You just have 3 planets here and they will gravity.
+
+44
+00:04:08,357 --> 00:04:11,412
+So simply said they will attract each other
+
+45
+00:04:11,843 --> 00:04:20,600
+and now if you describe the one planet in the 3 dimensions with a vector x and the one with a vector y and the 3rd one with a vector z,
+
+46
+00:04:20,671 --> 00:04:23,682
+then we can use newton's gravity.
+
+47
+00:04:24,057 --> 00:04:30,191
+So the mass m times x, second derivative is equal to the gravity force.
+
+48
+00:04:30,757 --> 00:04:36,393
+However, this force F now is a function that depends on all the positions here.
+
+49
+00:04:36,657 --> 00:04:42,086
+Hence the equations for the different planets here are connected by this force.
+
+50
+00:04:42,571 --> 00:04:48,381
+So you see, we have 9 differential equations that are completely cross linked here.
+
+51
+00:04:49,086 --> 00:04:53,168
+Hence we would say, we have a whole system of differential equations
+
+52
+00:04:53,368 --> 00:04:55,571
+and we want to solve the whole system.
+
+53
+00:04:55,971 --> 00:05:01,919
+Moreover, you see here in contrast to the first example, we have second order derivatives here.
+
+54
+00:05:02,543 --> 00:05:10,266
+However, we will see that for the theory of ordinary differential equations the order of the derivatives is not so important.
+
+55
+00:05:10,914 --> 00:05:16,033
+Ok and this brings me to a short overview what we will do in this course.
+
+56
+00:05:16,233 --> 00:05:21,821
+So the first I already told you. We will talk about systems of differential equations.
+
+57
+00:05:22,021 --> 00:05:29,189
+Moreover in the future we will abbreviate ordinary differential equations by ODE.
+
+58
+00:05:29,529 --> 00:05:35,514
+Ok, then after this abstract theory we will talk about some practical solution methods.
+
+59
+00:05:36,100 --> 00:05:41,542
+So we will look at the procedure, how to solve such a system of ODE
+
+60
+00:05:42,000 --> 00:05:48,784
+and then we will go back to the theory again and prove the existence and uniqueness of solutions.
+
+61
+00:05:48,984 --> 00:05:54,631
+In particular we will see, what are the correct assumptions we need to have uniqueness
+
+62
+00:05:54,831 --> 00:06:00,076
+and then in the end we will also talk about linear ODE.
+
+63
+00:06:00,529 --> 00:06:05,312
+There the so called matrix exponential function will play a crucial role.
+
+64
+00:06:05,971 --> 00:06:12,342
+So this is the plan for this course and I would say, let's start with the important definitions in the next video.
+
+65
+00:06:12,800 --> 00:06:16,236
+Therefore let's meet there and have a nice day. Bye!
+
