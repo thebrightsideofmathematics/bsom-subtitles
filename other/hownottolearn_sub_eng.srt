@@ -1,0 +1,352 @@
+1
+00:00:00,586 --> 00:00:06,743
+Hello and welcome back to a new video on the channel that is called "the bright side of mathematics".
+
+2
+00:00:06,943 --> 00:00:10,968
+A channel that has now reached 100k subscribers
+
+3
+00:00:11,014 --> 00:00:14,505
+and in order to celebrate that. I want to make some videos like that,
+
+4
+00:00:14,705 --> 00:00:20,336
+that are not part of a huge video course, but explain a little bit how to learn mathematics
+
+5
+00:00:20,743 --> 00:00:25,514
+and you see I want to start that by telling you how not to learn mathematics.
+
+6
+00:00:25,589 --> 00:00:29,350
+So in other words I want to show you some common mistakes
+
+7
+00:00:29,550 --> 00:00:37,806
+and I know a lot of mistakes simply because I made them myself and I teach mathematics for a very long time know.
+
+8
+00:00:38,371 --> 00:00:44,945
+Indeed I checked that for this video and it turned out, I do this thing for the last 20 years now.
+
+9
+00:00:45,429 --> 00:00:54,600
+In fact I started in high school. Explaining basic mathematics how I learned it. So basic calculations to other friends, to other pupils
+
+10
+00:00:54,671 --> 00:00:59,555
+and then I continued that in the university with more advanced mathematics
+
+11
+00:01:00,000 --> 00:01:07,224
+and then after teaching that for work at universities, you know see I continue that here on YouTube.
+
+12
+00:01:07,971 --> 00:01:14,424
+However especially at the universities I met a lot of students, indeed motivated students,
+
+13
+00:01:14,500 --> 00:01:18,429
+that still made a lot of mistakes while learning mathematics.
+
+14
+00:01:18,657 --> 00:01:24,567
+Then let's start with the first mistake here, which I call not having the correct prerequisites.
+
+15
+00:01:25,186 --> 00:01:30,087
+In mathematics this is especially very common and it can feel very frustrating.
+
+16
+00:01:30,800 --> 00:01:35,468
+It can happen to everyone and it also happened to me, when I studied.
+
+17
+00:01:35,668 --> 00:01:40,564
+In my first year at the university I was sitting in a functional analysis class.
+
+18
+00:01:40,764 --> 00:01:45,100
+Simply because I found it interesting and I wanted to learn that stuff.
+
+19
+00:01:45,229 --> 00:01:47,463
+However I felt very stupid.
+
+20
+00:01:47,743 --> 00:01:55,441
+The whole thing was very hard and I could not even ask the correct questions. I was not able to formulate what went wrong.
+
+21
+00:01:55,786 --> 00:02:05,650
+The reason for that is easy to explain, because I didn't even learn the basic real analysis parts that was needed for this course.
+
+22
+00:02:06,286 --> 00:02:11,819
+So I was not stupid. I was simply not ready to understand functional analysis yet.
+
+23
+00:02:12,429 --> 00:02:19,506
+In the end the solution was very simple. Very simple to understand. I simply changed the order of learning stuff.
+
+24
+00:02:19,900 --> 00:02:26,787
+The key element I learned there, you could summarize as "mathematics is linearly to learn". More or less.
+
+25
+00:02:26,987 --> 00:02:32,008
+So the thing is you need to understand the foundations to move on.
+
+26
+00:02:32,208 --> 00:02:37,365
+You need to learn the basic stuff first and then you can move to more advanced stuff.
+
+27
+00:02:38,029 --> 00:02:45,604
+In other words if it's really frustrating to learn a particular topic, you have to check what are the prerequisites you need 
+
+28
+00:02:45,804 --> 00:02:48,357
+and then you go back and learn them first.
+
+29
+00:02:48,743 --> 00:02:56,524
+I can tell you another example, because once I explained the LU-decomposition for matrices to some students.
+
+30
+00:02:57,100 --> 00:03:01,300
+The group was very motivated and there was no problem in the learning atmosphere.
+
+31
+00:03:01,557 --> 00:03:06,084
+I could explain all the details step by step for this decomposition.
+
+32
+00:03:06,614 --> 00:03:12,790
+However, during the whole explanation there were a lot of questions and I saw people were puzzled.
+
+33
+00:03:12,829 --> 00:03:16,549
+It took me a long time to understand what went wrong.
+
+34
+00:03:16,749 --> 00:03:25,191
+After some time I realized they weren't struggling at all with this abstract concept or the abstract notions around it
+
+35
+00:03:25,391 --> 00:03:27,646
+or even this algorithm I explained.
+
+36
+00:03:28,214 --> 00:03:33,311
+The problem simply was that in my calculation I reduced a fraction.
+
+37
+00:03:33,843 --> 00:03:41,005
+In the calculation there was something like 15/18 and after some steps I simply wrote 5/6.
+
+38
+00:03:41,843 --> 00:03:46,250
+It took me some time to realise that for some people that was simply too much.
+
+39
+00:03:46,251 --> 00:03:50,964
+It was too fast. It was too sudden. It was too hidden in the rest of the calculation.
+
+40
+00:03:50,965 --> 00:03:55,665
+They couldn't see that this fraction was indeed the same as this fraction there.
+
+41
+00:03:56,243 --> 00:04:02,053
+So there was no problem at all in the linear algebra part. There was simply a problem in the foundation.
+
+42
+00:04:02,253 --> 00:04:05,695
+In the foundation were you learn to calculate with fractions.
+
+43
+00:04:06,143 --> 00:04:11,717
+Indeed, I would say this leads us immediately to the second mistake. The second common mistake.
+
+44
+00:04:11,718 --> 00:04:14,112
+Which is that there is no practice involved.
+
+45
+00:04:14,900 --> 00:04:21,634
+This is easily explained. If you just read a book about mathematics or about a particular topic in mathematics,
+
+46
+00:04:21,834 --> 00:04:23,483
+you don't really learn it.
+
+47
+00:04:23,486 --> 00:04:25,950
+You only learn it if you practice it.
+
+48
+00:04:26,150 --> 00:04:34,829
+Indeed, if you study mathematics at the university, you will notice that there is a big empathize on exercises, on problem solving
+
+49
+00:04:35,357 --> 00:04:39,940
+and of course this is done, because that works. This is how the brain works.
+
+50
+00:04:40,140 --> 00:04:43,743
+You have to train the brain such that you can learn something
+
+51
+00:04:44,200 --> 00:04:50,293
+and we see, this immediately connects to our third mistake here. That there is no repetition at all.
+
+52
+00:04:50,871 --> 00:04:56,412
+It's a similar idea. You need some repetition such that you get used to new stuff.
+
+53
+00:04:56,612 --> 00:05:02,268
+For example you need to reduce a lot of fractions such that the whole idea goes into your body.
+
+54
+00:05:03,000 --> 00:05:10,475
+So you see, we have 2 important things here. First you need exercises. You need problem solving to understand something
+
+55
+00:05:10,675 --> 00:05:15,205
+and then you need a lot of similar problems to solve such that you get used to that
+
+56
+00:05:15,757 --> 00:05:23,530
+and I can understand this might be very hard for the learning process, because of our next mistake that happens a lot.
+
+57
+00:05:23,730 --> 00:05:30,234
+This is what happens when you try to learn completely alone and then you don't talk about what you learn.
+
+58
+00:05:30,434 --> 00:05:36,625
+Indeed, there are some layers for this problem, for this mistake, because essentially you learn alone.
+
+59
+00:05:36,825 --> 00:05:44,654
+You have to solve the problems alone. You have to understand alone. So learning mathematics is a lot of time spending alone, thinking.
+
+60
+00:05:44,854 --> 00:05:48,179
+However, it's clearly a mistake just doing that.
+
+61
+00:05:48,214 --> 00:05:52,229
+Just learning for yourself and not talking about what you learn at all.
+
+62
+00:05:52,700 --> 00:05:58,341
+The first thing that comes to my mind, what you miss by not talking about what you learn in mathematics,
+
+63
+00:05:58,429 --> 00:06:02,653
+is that you don't see that other people struggle the same as you.
+
+64
+00:06:02,853 --> 00:06:11,278
+Of course also other people struggle to understand the concept, grasping everything that is needed, solving the problems and so on.
+
+65
+00:06:11,279 --> 00:06:15,812
+So usually you are not alone if you are not understanding things
+
+66
+00:06:16,386 --> 00:06:24,029
+and then talking about that, of course helps to find some missing links or some missing foundations you need to understand the topic.
+
+67
+00:06:24,714 --> 00:06:29,157
+Indeed, there I would say this is a common problem with lectures in the university.
+
+68
+00:06:29,280 --> 00:06:37,036
+Were there is just one teacher that explains everything and then you see only the people that really understood it, ask some questions
+
+69
+00:06:37,757 --> 00:06:41,889
+and then most people in the audience feel intimidated or even stupid
+
+70
+00:06:42,089 --> 00:06:47,878
+and don't see that all the other ones or most of the other ones also have some problems there
+
+71
+00:06:48,386 --> 00:06:54,151
+and that is a problem for the teacher as well, because some basic questions are not asked at all.
+
+72
+00:06:54,843 --> 00:06:58,507
+So in summary I can tell you here, by talking to other people,
+
+73
+00:06:58,508 --> 00:07:03,669
+by trying to explain a particular topic to other people, you understand more.
+
+74
+00:07:04,200 --> 00:07:12,517
+Ok, then the last mistake I want to talk about today is that while you learn mathematics, you only learn isolated results
+
+75
+00:07:12,717 --> 00:07:18,557
+and that's a mistake, because different results, different concepts are always connected.
+
+76
+00:07:18,614 --> 00:07:21,747
+Always related to some other parts of mathematics.
+
+77
+00:07:22,343 --> 00:07:28,279
+Actually I would say ignoring such connections here is already a big mistake for your motivation,
+
+78
+00:07:28,479 --> 00:07:36,747
+because how do you motivate yourself learning some isolated result if you don't see how they are embedded in the whole structure,
+
+79
+00:07:37,257 --> 00:07:41,983
+However, of course I know for a beginner it's hard to see such connections,
+
+80
+00:07:41,984 --> 00:07:45,774
+because everything feels isolated and not motivated at all
+
+81
+00:07:45,974 --> 00:07:51,060
+and that's the reason I put it here as a mistake. It's also something the teacher can solve.
+
+82
+00:07:51,061 --> 00:07:57,174
+So the teacher can make better for you by telling you, what are the prerequisites of a particular concept
+
+83
+00:07:57,814 --> 00:08:02,714
+and then of course the other part is then telling you in which direction it leads to.
+
+84
+00:08:02,786 --> 00:08:05,650
+So what can we do with our new results.
+
+85
+00:08:06,243 --> 00:08:13,357
+Indeed, if you want to learn with such a network, you can do it with my real analysis course with the link in the description
+
+86
+00:08:13,358 --> 00:08:19,481
+and I can tell you, it's completely free. You can use it. You can watch my videos and you see the connections you need.
+
+87
+00:08:20,157 --> 00:08:27,859
+Moreover there you also find exercises such that you don't do the mistakes for learning mathematics I told you today.
+
+88
+00:08:28,059 --> 00:08:34,135
+So I really hope that video helped you and then let's meet in the next one. Have a nice day and bye.
+
