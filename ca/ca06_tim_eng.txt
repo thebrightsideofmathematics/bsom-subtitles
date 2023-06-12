@@ -1,0 +1,6 @@
+Complex Analysis - Part 6 - Cauchy-Riemann Equations
+
+00:00 Intro
+00:16 Two notions of differentiability
+06:39 When is the vector-matrix multiplication a complex multiplication?
+09:04 Deriving the Cauchy-Riemann equations

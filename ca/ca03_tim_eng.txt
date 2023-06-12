@@ -1,0 +1,7 @@
+Complex Analysis - Part 3 - Complex Derivative and Examples
+
+00:00 Intro
+00:34 The [geometric] intuition for complex derivative
+04:11 Producing the formal definition
+05:19 Example 1: A linear polynomial in C
+07:34 Example 2: A conjugate function

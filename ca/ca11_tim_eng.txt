@@ -1,0 +1,7 @@
+Complex Analysis - Part 11 - Power Series Are Holomorphic - Proof
+
+00:00 Intro
+00:21 Recap: results for power series
+1:52 Proof of the first result (convergence of a k-power series)
+6:50 Proof of the second result (convergence of a k-1-power series)
+8:46 Proof of the third result (complex differentiability)

@@ -1,0 +1,8 @@
+Complex Analysis - Part 1 - Introduction
+
+00:00 Introduction
+02:13 What we need
+03:18 Metric space
+04:43 Sequences and convergence in C
+07:32 Continuity for complex functions
+09:30 Endcard 

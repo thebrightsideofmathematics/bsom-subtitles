@@ -1,0 +1,6 @@
+Complex Analysis - Part 2 - Complex Differentiability
+
+00:00 Intro
+01:21 Definition of open set in C
+03:22 Definition of differentiability in C
+07:01 Endcard

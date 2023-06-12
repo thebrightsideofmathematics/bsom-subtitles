@@ -1,0 +1,7 @@
+Complex Analysis - Part 4 - Holomorphic and Entire Functions
+
+00:00 Intro
+00:28 How to define a holomorphic function?
+02:29 Essential properties of holomorphic functions
+04:21 Example 1. A complex polynomial
+06:11 Example 2. A 'rational function' for polynomials

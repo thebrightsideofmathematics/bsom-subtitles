@@ -1,0 +1,7 @@
+Complex Analysis - Part 7 - Cauchy-Riemann Equations Examples
+
+00:00 Intro
+00:18 Quick recap
+02:42 Example 1: Identity function
+04:28 Example 2: Complex conjugate function
+05:38 Example 3: Complex polynomial
