@@ -21,12 +21,12 @@ ra15_tim_por.txt
 ```
 
 ### Content
-Advent of mathematical symbols = aoms
-Complex Analysis = ca
-Linear Algebra = la
-How to learn mathematics = learn
-Multivariable Calculus = mc
-Measure Theory = mt
-Ordinary Differential Equations = ode
-Probability Theory = pt
-Real Analysis = ra
+Advent of mathematical symbols = aoms  
+Complex Analysis = ca  
+Linear Algebra = la  
+How to learn mathematics = learn  
+Multivariable Calculus = mc  
+Measure Theory = mt  
+Ordinary Differential Equations = ode  
+Probability Theory = pt  
+Real Analysis = ra  
