@@ -144,7 +144,7 @@ So you see for our positive numbers x and n this is exactly the procedure we exp
 
 37
 00:03:17,971 --> 00:03:24,320
-Ok now for the end of the video i want to show you how the modulo operator is included in Phyton.
+Ok now for the end of the video i want to show you how the modulo operator is included in Python.
 
 38
 00:03:25,300 --> 00:03:30,146

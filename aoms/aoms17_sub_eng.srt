@@ -12,7 +12,7 @@ Denoted with a small o.
 
 4
 00:00:08,514 --> 00:00:14,801
-If you know the big O notation, you will not be surprised that we also find parantheses next to the little o.
+If you know the big O notation, you will not be surprised that we also find parentheses next to the little o.
 
 5
 00:00:15,001 --> 00:00:17,329

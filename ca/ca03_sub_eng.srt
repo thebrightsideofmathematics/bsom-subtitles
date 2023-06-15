@@ -80,7 +80,7 @@ However for a complex function the input is the complex plane and the output is 
 
 21
 00:01:58,757 --> 00:02:04,119
-Hence the corret visualization of the graph of the function should live in 4 dimensions.
+Hence the correct visualization of the graph of the function should live in 4 dimensions.
 
 22
 00:02:04,943 --> 00:02:08,598
@@ -220,7 +220,7 @@ So we have a function f, where the domain U can be chosen as the whole complex p
 
 56
 00:05:36,971 --> 00:05:41,475
-and the definiton of this complex function would be f(z)
+and the definition of this complex function would be f(z)
 
 57
 00:05:42,343 --> 00:05:48,419

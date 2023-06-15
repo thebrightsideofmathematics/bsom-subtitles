@@ -3,7 +3,7 @@ Multivariable Calculus - Part 2 - Continuity
 0:00 Intro
 0:25 Continuous Functions
 1:45 Continuity via sequences
-2:39 Measuring distance in R^n
-5:31 Convergent sequences in R^n
+2:39 Measuring distance in ℝⁿ
+5:31 Convergent sequences in ℝⁿ
 8:20 (Non-trivial) Link between single-variable convergence definition vs. new definition
 10:33 Multivariable continuity

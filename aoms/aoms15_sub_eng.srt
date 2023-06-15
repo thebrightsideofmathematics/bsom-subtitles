@@ -72,7 +72,7 @@ Indeed the beta function and the gamma function are closely connected.
 
 19
 00:01:25,343 --> 00:01:38,799
-More concretely B(x, y) can be writen as "gamma(x) times gamma(y) divided by gamma(x + y)."
+More concretely B(x, y) can be written as "gamma(x) times gamma(y) divided by gamma(x + y)."
 
 20
 00:01:39,943 --> 00:01:46,902

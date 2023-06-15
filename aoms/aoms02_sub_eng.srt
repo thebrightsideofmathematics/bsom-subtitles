@@ -48,7 +48,7 @@ In fact in this counting order i described, also cyclic permutations are allowed
 
 13
 00:00:50,914 --> 00:00:58,445
-For example in the first case the last position could be the 1, if then the first postion is 2 and then comes 3.
+For example in the first case the last position could be the 1, if then the first position is 2 and then comes 3.
 
 14
 00:00:59,057 --> 00:01:02,457
@@ -92,11 +92,11 @@ There are also generalisations with more indices,
 
 24
 00:01:48,144 --> 00:01:53,114
-but this one is the most important one, because we can use it in 3 dimensons.
+but this one is the most important one, because we can use it in 3 dimensions.
 
 25
 00:01:53,743 --> 00:02:01,247
-For example it's helpfull when we deal with the cross product of two 3-dimensional vectors, "a" and "b".
+For example it's helpful when we deal with the cross product of two 3-dimensional vectors, "a" and "b".
 
 26
 00:02:02,200 --> 00:02:07,226
