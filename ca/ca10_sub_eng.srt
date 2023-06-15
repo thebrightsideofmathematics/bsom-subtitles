@@ -80,7 +80,7 @@ So please note, we don't just fixed the point z and look at the convergence, we 
 
 21
 00:02:02,586 --> 00:02:06,640
-and exaclty this makes the convergence here uniform.
+and exactly this makes the convergence here uniform.
 
 22
 00:02:07,357 --> 00:02:12,170
