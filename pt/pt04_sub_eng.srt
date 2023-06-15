@@ -36,7 +36,7 @@ This makes everything simpler, because we can write "p" as a fraction.
 
 10
 00:00:45,314 --> 00:00:48,786
-For example we could write it as "a" devided by "a + b".
+For example we could write it as "a" divided by "a + b".
 
 11
 00:00:49,443 --> 00:00:53,286
@@ -136,7 +136,7 @@ Hence after n tosses we just count the number of heads.
 
 35
 00:02:49,814 --> 00:02:54,231
-and importantly we are not interested in which order heads and tails occured.
+and importantly we are not interested in which order heads and tails occurred.
 
 36
 00:02:54,700 --> 00:02:59,569
@@ -196,7 +196,7 @@ Hence the probability measure can be given with a probability mass function.
 
 50
 00:03:57,843 --> 00:04:01,925
-So it's sufficent to define what the probability of "k" heads is.
+So it's sufficient to define what the probability of "k" heads is.
 
 51
 00:04:02,425 --> 00:04:06,940
