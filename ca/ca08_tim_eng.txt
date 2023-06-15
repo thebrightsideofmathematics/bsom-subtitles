@@ -4,5 +4,5 @@ Complex Analysis - Part 8 - Wirtinger Derivatives
 00:19 Wirtinger derivatives — basic definition
 01:35 Complex derivative through Cauchy-Riemann equations
 05:12 Wirtinger derivatives — detailed definition
-06:17 Example for z^2
+06:17 Example for z²
 08:39 Summary: a criteria for holomorphic functions
