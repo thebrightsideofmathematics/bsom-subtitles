@@ -120,7 +120,7 @@ because then you can count all the throws that got an even number as an outcome
 
 31
 00:02:27,530 --> 00:02:31,530
-and then we can devide that by the number of all the throws we had
+and then we can divide that by the number of all the throws we had
 
 32
 00:02:32,260 --> 00:02:37,650
@@ -160,7 +160,7 @@ For this reason please download and install RStudio
 
 41
 00:03:16,100 --> 00:03:19,280
-and then you should see this nice programm here.
+and then you should see this nice program here.
 
 42
 00:03:19,700 --> 00:03:25,780
