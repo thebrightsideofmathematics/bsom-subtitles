@@ -208,7 +208,7 @@ However, we immediately find different consequences when we deal with complex nu
 
 53
 00:05:11,000 --> 00:05:14,594
-Before we disuss them let's first look at the definition here.
+Before we discuss them let's first look at the definition here.
 
 54
 00:05:15,543 --> 00:05:23,147
