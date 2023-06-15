@@ -84,7 +84,7 @@ Ok and that's the recursive definition.
 
 22
 00:01:56,271 --> 00:02:01,170
-and of course if we want we can easilily generalize this to other starting values.
+and of course if we want we can easily generalize this to other starting values.
 
 23
 00:02:02,200 --> 00:02:04,291
