@@ -4,7 +4,7 @@ Hello and welcome back to the next mathematical symbol.
 
 2
 00:00:03,786 --> 00:00:06,516
-Which is given by these pointy bracktes.
+Which is given by these pointy brackets.
 
 3
 00:00:07,086 --> 00:00:12,637
@@ -68,7 +68,7 @@ In short you can just say, this is another way to explain the inner product.
 
 18
 00:01:38,686 --> 00:01:42,590
-In phisycs this is usually called the so called Dirac notation
+In physics this is usually called the so called Dirac notation
 
 19
 00:01:42,943 --> 00:01:49,201
