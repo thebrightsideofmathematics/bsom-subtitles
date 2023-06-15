@@ -36,7 +36,7 @@ The only thing that is required is that equality of the indices make sense.
 
 10
 00:00:36,471 --> 00:00:40,561
-In fact most of the time "i" and "j" represent intergers.
+In fact most of the time "i" and "j" represent integers.
 
 11
 00:00:41,500 --> 00:00:47,284
