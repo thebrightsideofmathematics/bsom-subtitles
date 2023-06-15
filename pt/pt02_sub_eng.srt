@@ -367,7 +367,7 @@ In our case, because we have an ordinary die we have that each side has the same
 
 91
 00:08:13,630 --> 00:08:21,300
-Thefore in our general definition here this would mean that we count the elements of "A" and devide by the elements of omega.
+Therefore in our general definition here this would mean that we count the elements of "A" and devide by the elements of omega.
 
 92
 00:08:21,960 --> 00:08:26,460

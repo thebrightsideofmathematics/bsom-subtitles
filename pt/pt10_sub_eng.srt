@@ -160,7 +160,7 @@ Ok, now we consider a map we call capital X from one sample space Omega into the
 
 41
 00:04:05,757 --> 00:04:12,009
-and then this map is called a random variable if it is a measurable map in the measure theoretical sence.
+and then this map is called a random variable if it is a measurable map in the measure theoretical sense.
 
 42
 00:04:12,486 --> 00:04:18,519
