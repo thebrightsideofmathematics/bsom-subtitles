@@ -8,7 +8,7 @@ Which is today the empty set symbol.
 
 3
 00:00:07,114 --> 00:00:12,203
-Usually it's denoted like this, but sometimes you also see just this set bracktes
+Usually it's denoted like this, but sometimes you also see just this set brackets
 
 4
 00:00:12,700 --> 00:00:18,157

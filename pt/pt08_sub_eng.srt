@@ -24,7 +24,7 @@ Which is simply given by the probability of the intersection divided by the prob
 
 7
 00:00:34,814 --> 00:00:41,001
-and now of course we can also filp the roles and look at the conditional probability of B under the event A.
+and now of course we can also flip the roles and look at the conditional probability of B under the event A.
 
 8
 00:00:41,429 --> 00:00:45,778
@@ -184,7 +184,7 @@ and here please don't forget it's possible that we have infinitely many sets B_i
 
 47
 00:03:52,084 --> 00:03:57,015
-Therefore in this picture they would get thiner and thiner when we go in this direction, for example.
+Therefore in this picture they would get thinner and thinner when we go in this direction, for example.
 
 48
 00:03:57,215 --> 00:04:00,070

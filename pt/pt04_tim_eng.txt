@@ -1,0 +1,8 @@
+Probability Theory - Part 4 - Binomial Distribution
+
+00:00 Intro
+00:10 Binomial distribution
+06:27 Binomial distribution in RStudio
+09:40 Urn model in RStudio
+14:55 Comparison of urn model and rbinom in RStudio
+15:36 Endcard

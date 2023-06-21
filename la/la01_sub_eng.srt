@@ -1,0 +1,250 @@
+﻿1
+00:00:00,880 --> 00:00:06,560
+Hello and welcome to linear algebra
+A whole video course I designed for everyone 
+
+2
+00:00:06,560 --> 00:00:12,160
+who wants to start with the basics in mathematics
+and in the end wants to master vectors,  
+
+3
+00:00:12,160 --> 00:00:17,760
+vector spaces, matrices and so on.
+However, before we start I really  
+
+4
+00:00:17,760 --> 00:00:21,280
+want to thank the nice supporters
+that make this course possible. 
+
+5
+00:00:22,080 --> 00:00:26,480
+Each small contribution on Steady or 
+PayPal makes it easier for me to spend 
+
+6
+00:00:26,480 --> 00:00:28,400
+to create these videos here. 
+
+7
+00:00:29,360 --> 00:00:34,480
+Therefore, on Steady you find quizzes and 
+the pdf versions for all the videos here. 
+
+8
+00:00:35,520 --> 00:00:41,840
+Okay, now you might know I already have 
+some calculation videos in linear algebra. 
+
+9
+00:00:41,840 --> 00:00:45,680
+But with this course here, you 
+finally get the whole structure  
+
+10
+00:00:45,680 --> 00:00:50,480
+and should be able to learn linear algebra,
+by watching the videos in the right order. 
+
+11
+00:00:51,440 --> 00:00:56,640
+Indeed, linear algebra as a whole is 
+a very important topic in mathematics, 
+
+12
+00:00:56,640 --> 00:00:58,880
+and it has a lot of different applications. 
+
+13
+00:01:00,080 --> 00:01:04,400
+One application, I can visualise 
+immediately with a short drawing here. 
+
+14
+00:01:05,360 --> 00:01:10,000
+Just imagine in the problem you want to 
+solve, a lot of variables are involved. 
+
+15
+00:01:10,880 --> 00:01:14,720
+For example, we could have some 
+fixed quantities, we just call  
+
+16
+00:01:14,720 --> 00:01:18,160
+a, b, c, d and so on.
+And on the other hand,  
+
+17
+00:01:18,160 --> 00:01:21,920
+we also could have some variables
+where we don't know the value yet. 
+
+18
+00:01:22,960 --> 00:01:26,720
+Therefore, we call them unknowns,
+and here we denote them by x,y,z. 
+
+19
+00:01:28,640 --> 00:01:33,440
+Hence, in order to solve your problem.
+You want to find possible values for x,y,z. 
+
+20
+00:01:35,040 --> 00:01:40,880
+And exactly there, linear algebra can help
+when we know the relations between the quantities. 
+
+21
+00:01:41,760 --> 00:01:47,440
+However, it turns out, we need simply 
+relations between our variables. 
+
+22
+00:01:48,640 --> 00:01:55,360
+Then, when we have this, we can use linear algebra
+to find all possible solutions for the unknowns 
+
+23
+00:01:56,560 --> 00:02:02,240
+Therefore, linear algebra is the important 
+tool which helps us solving our problem. 
+
+24
+00:02:03,200 --> 00:02:04,320
+So, you could say: 
+
+25
+00:02:04,320 --> 00:02:09,040
+Giving calculation rules for solutions 
+is one part of linear algebra. 
+
+26
+00:02:10,160 --> 00:02:16,000
+Indeed, this is important.
+But in order to understand the topic in a whole, 
+
+27
+00:02:16,000 --> 00:02:21,120
+we need to go abstract.
+Therefore, this abstract level is something, 
+
+28
+00:02:21,120 --> 00:02:26,560
+we also will discuss in this course.
+For example, on this abstract level, 
+
+29
+00:02:26,560 --> 00:02:30,160
+we will find a fundamental concept
+we call a vector space. 
+
+30
+00:02:31,200 --> 00:02:35,840
+Then, in this space, we will 
+find objects, we call vectors. 
+
+31
+00:02:36,480 --> 00:02:40,480
+And we will find out, we can 
+do a lot with these vectors, 
+
+32
+00:02:40,480 --> 00:02:44,160
+which leads us to a new concept, we call
+a linear map. 
+
+33
+00:02:45,280 --> 00:02:49,840
+Hence, there we have now something 
+that can transform vectors. 
+
+34
+00:02:50,720 --> 00:02:55,520
+Now, please don't be deterred here because
+we don't start at the abstract level. 
+
+35
+00:02:56,400 --> 00:02:59,120
+First, we will consider we will 
+consider a very concrete level. 
+
+36
+00:03:00,080 --> 00:03:06,000
+This means, instead of an abstract vector space,
+we start with something, we can call Rn. 
+
+37
+00:03:07,440 --> 00:03:10,720
+Then, on this level, a linear 
+map just corresponds to 
+
+38
+00:03:10,720 --> 00:03:16,320
+something we can put into a table.
+And such a table, we just call a matrix. 
+
+39
+00:03:17,200 --> 00:03:19,440
+Okay, now we now:
+In this course,  
+
+40
+00:03:19,440 --> 00:03:24,640
+we first discuss the concrete level here
+and then we go to the abstract level afterwards. 
+
+41
+00:03:25,680 --> 00:03:28,640
+Of course, there are some 
+prerequisites for this course 
+
+42
+00:03:28,640 --> 00:03:29,280
+you should know. 
+
+43
+00:03:30,240 --> 00:03:33,520
+However, the good thing is, 
+I have a whole series about 
+
+44
+00:03:33,520 --> 00:03:36,480
+start learning mathematics 
+that should help you there. 
+
+45
+00:03:37,600 --> 00:03:42,400
+Now, you don't have know all the topics there
+but it would be helpful if you  
+
+46
+00:03:42,400 --> 00:03:46,960
+gather a basic knowledge about
+logical symbols, set operations and maps. 
+
+47
+00:03:47,920 --> 00:03:51,760
+In particular, working with maps, 
+will be important immediately. 
+
+48
+00:03:52,880 --> 00:03:55,680
+Then, with this knowledge, 
+I would say, you are ready 
+
+49
+00:03:55,680 --> 00:04:00,400
+to start with linear algebra here.
+Therefore, in the next video,  
+
+50
+00:04:00,400 --> 00:04:04,240
+we can immediately talk about
+vectors and how to calculate with them. 
+
+51
+00:04:05,120 --> 00:04:13,840
+So I really hope that I see you there.
+Have a nice day and bye!

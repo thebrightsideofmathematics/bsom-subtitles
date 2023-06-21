@@ -48,7 +48,7 @@ Then we can visualize that as a smaller rectangle inside Omega.
 
 13
 00:00:58,914 --> 00:01:05,157
-and of course B should be an element of the sigma algebra A. Otherwise we wouldn't be able to caluclate the probability.
+and of course B should be an element of the sigma algebra A. Otherwise we wouldn't be able to calculate the probability.
 
 14
 00:01:05,757 --> 00:01:11,891
@@ -56,7 +56,7 @@ Now the actual restriction we have here in the following, is that the probabilit
 
 15
 00:01:12,400 --> 00:01:15,966
-So in our picture this would mean, we have a nonvanishing rectangle.
+So in our picture this would mean, we have a non-vanishing rectangle.
 
 16
 00:01:16,543 --> 00:01:20,848
@@ -144,7 +144,7 @@ In other words this means that we also have to consider sets A that are not subs
 
 37
 00:02:51,957 --> 00:02:54,305
-For example they could look llike this.
+For example they could look like this.
 
 38
 00:02:54,700 --> 00:03:00,400
@@ -284,7 +284,7 @@ This means when we introduce a coloured set C with 2 colours, which is in our ca
 
 72
 00:05:52,097 --> 00:05:57,281
-Then the sample space Omega is given by the cartedian product of C with itself.
+Then the sample space Omega is given by the cartesian product of C with itself.
 
 73
 00:05:57,481 --> 00:06:02,378
@@ -308,7 +308,7 @@ Therefore i would say a visualisation with a tree can really help.
 
 78
 00:06:24,725 --> 00:06:30,680
-So the first stage is very simple. We just take out one ball and the probabilites should be very clear.
+So the first stage is very simple. We just take out one ball and the probabilities should be very clear.
 
 79
 00:06:30,880 --> 00:06:35,237

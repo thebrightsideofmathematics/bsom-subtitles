@@ -24,7 +24,7 @@ It's an extension in the sense that it's a bigger number set, with almost the sa
 
 7
 00:00:29,786 --> 00:00:36,920
-In fact in H we lose one important caluclation rule, namely that the multiplication is commutative.
+In fact in H we lose one important calculation rule, namely that the multiplication is commutative.
 
 8
 00:00:37,757 --> 00:00:42,614
@@ -52,7 +52,7 @@ Now as you might know it from the complex numbers, we can connect these parts wi
 
 14
 00:01:07,438 --> 00:01:10,429
-and then intoduce a new strange number "i".
+and then introduce a new strange number "i".
 
 15
 00:01:11,700 --> 00:01:15,874
@@ -64,7 +64,7 @@ However now you can see we have 2 parts left.
 
 17
 00:01:20,757 --> 00:01:25,596
-Therefore we need to intoduce two new numbers we can call j and k.
+Therefore we need to introduce two new numbers we can call j and k.
 
 18
 00:01:26,271 --> 00:01:31,243

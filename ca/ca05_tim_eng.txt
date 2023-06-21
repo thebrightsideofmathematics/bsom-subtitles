@@ -1,0 +1,6 @@
+Complex Analysis - Part 5 - Total Differentiability in ℝ²
+
+00:00 Intro
+00:19 Is differentiation in ℂ and ℝ² the same?
+06:01 When is a map totally differentiable?
+10:11 The meaning of Jacobian matrix and example

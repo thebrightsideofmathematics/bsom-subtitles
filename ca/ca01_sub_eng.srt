@@ -296,7 +296,7 @@ In fact it has exactly the same meaning as for real functions.
 
 75
 00:07:48,229 --> 00:07:55,722
-Hence small deviations, small errors in the input should be translated into small errrors in the output.
+Hence small deviations, small errors in the input should be translated into small errors in the output.
 
 76
 00:07:56,457 --> 00:07:59,734

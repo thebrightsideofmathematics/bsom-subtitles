@@ -80,5 +80,5 @@ However now you already know what the definition of the Gamma function is.
 
 21
 00:01:45,886 --> 00:01:49,260
-So if this was helpfull, then i see you next time.
+So if this was helpful, then i see you next time.
 

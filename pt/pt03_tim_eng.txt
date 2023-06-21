@@ -1,0 +1,14 @@
+Probability Theory - Part 3 - Discrete vs. Continuous Case
+
+00:00 Intro
+00:48 Introduction of cases
+02:17 Sample Space (discrete case)
+02:33 Sample Space (continuous case)
+03:14 Sigma algebra (discrete case)
+03:36 Sigma algebra (continuous case)
+03:59 Probability measure (discrete case)
+05:41 Probability measure (continuous case)
+07:46 Example (discrete case)
+08:44 Example (continuous case)
+10:38 Outro
+10:57 Endcard

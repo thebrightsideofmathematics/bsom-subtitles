@@ -1,0 +1,8 @@
+Linear Algebra - Part 49 - Formulas for Determinants
+
+00:00 Intro
+00:44 Determinant for triangular matrices
+02:17 Determinant for block matrices
+06:00 Determinant for the transpose
+06:50 Multiplication Rule for the determinant
+09:41 Credits

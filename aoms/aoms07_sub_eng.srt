@@ -60,7 +60,7 @@ More concretely this means, first i tell you what happens when "n" here is equal
 
 16
 00:01:10,014 --> 00:01:17,516
-Then the whole thing from above wouldn't make any sense, because by just incresing the index by 1 we would never reach 0 here.
+Then the whole thing from above wouldn't make any sense, because by just increasing the index by 1 we would never reach 0 here.
 
 17
 00:01:18,214 --> 00:01:24,029
@@ -76,7 +76,7 @@ and then in the second step for recursive definition, we need to know what happe
 
 20
 00:01:36,649 --> 00:01:42,013
-Or more precisely the succesor n is defined by the predecessor n-1.
+Or more precisely the successor n is defined by the predecessor n-1.
 
 21
 00:01:42,957 --> 00:01:52,515

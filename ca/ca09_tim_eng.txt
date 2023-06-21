@@ -1,0 +1,7 @@
+Complex Analysis - Part 9 - Power Series
+
+00:00 Intro
+00:57 Why are power series important? Example of exp(z)
+02:05 General definition
+04:03 Example. Geometric series + conditions for convergence
+09:06 Cauchy-Hadamard theorem

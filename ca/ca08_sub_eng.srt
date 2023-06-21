@@ -104,7 +104,7 @@ So instead of du/dx we can write dv/dy.
 
 27
 00:03:03,671 --> 00:03:09,396
-and on the other hand dv/dx can be writen as -du/dy.
+and on the other hand dv/dx can be written as -du/dy.
 
 28
 00:03:10,271 --> 00:03:18,933

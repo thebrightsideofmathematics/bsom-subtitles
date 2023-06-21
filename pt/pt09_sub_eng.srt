@@ -52,7 +52,7 @@ In general we won't do that and in order to see this we have to think of probabi
 
 14
 00:01:02,214 --> 00:01:08,714
-Namely, when we calcualte the probability that A occurs under the condition that B occurs,
+Namely, when we calculate the probability that A occurs under the condition that B occurs,
 
 15
 00:01:09,343 --> 00:01:12,421
@@ -176,7 +176,7 @@ Namely the intersection is given by the product.
 
 45
 00:03:41,504 --> 00:03:45,645
-and this is now what we can choose as a definiting property for independence.
+and this is now what we can choose as a defining property for independence.
 
 46
 00:03:45,845 --> 00:03:48,515
@@ -524,7 +524,7 @@ However, please recall we really need the independence to have this.
 
 132
 00:10:39,900 --> 00:10:44,125
-So with this you see independence can be very usefull in calculations.
+So with this you see independence can be very useful in calculations.
 
 133
 00:10:44,325 --> 00:10:47,204

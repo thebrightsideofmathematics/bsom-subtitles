@@ -499,58 +499,58 @@ and now we can sketch what happens to alpha(t) when we start at t=0 and then inc
 In fact you see what we get is a nice circle with radius 1.
 
 126
-00:12:14,357 --> 00:12:20,388
-Moreover we see if we increase t, we run in the positive direction on the circle.
+00:12:14,357 --> 00:12:14,388
+.
 
 127
-00:12:20,743 --> 00:12:26,970
+00:12:14,743 --> 00:12:20,970
 Moreover now you can remember this image of the solution is called the orbit of the solution.
 
 128
-00:12:27,170 --> 00:12:34,331
+00:12:21,170 --> 00:12:28,331
 Indeed it's a dynamic picture that tells us what happens to the solution in the time variable t.
 
 129
-00:12:34,657 --> 00:12:39,592
+00:12:28,657 --> 00:12:33,592
 Moreover now you should also see that we easily find a second solution here.
 
 130
-00:12:40,186 --> 00:12:48,728
+00:12:34,186 --> 00:12:42,728
 Namely if we scale the vector by 1/2 and call the solution alpha tilde, then we see the ODE is also fulfilled
 
 131
-00:12:48,928 --> 00:12:53,826
+00:12:42,928 --> 00:12:47,826
 and there we get that the orbit is a circle with radius 1/2.
 
 132
-00:12:54,486 --> 00:13:01,110
+00:12:48,486 --> 00:12:55,110
 Hence our first result here is that a system of ODEs can have a lot of different solutions.
 
 133
-00:13:01,786 --> 00:13:06,976
+00:12:55,786 --> 00:13:00,976
 Therefore a question should also be: which solution gives us the correct picture?
 
 134
-00:13:07,176 --> 00:13:13,096
+00:13:01,176 --> 00:13:07,096
 Or more precisely maybe we want the solution that goes through some particular points
 
 135
-00:13:13,771 --> 00:13:20,966
+00:13:07,771 --> 00:13:14,966
 and there we immediately have the questions: Do we have a solution that goes through the points and if we have it, is it unique?
 
 136
-00:13:21,657 --> 00:13:25,813
+00:13:15,657 --> 00:13:19,813
 and exactly these questions we want to answer in this video course.
 
 137
-00:13:26,314 --> 00:13:33,103
+00:13:20,314 --> 00:13:27,103
 Therefore I hope that you are not scared off by all these definitions and come back to the next video.
 
 138
-00:13:33,303 --> 00:13:39,742
+00:13:27,303 --> 00:13:33,742
 There we will make more geometric pictures, such that you can understand the theory visually.
 
 139
-00:13:40,186 --> 00:13:43,800
+00:13:36,186 --> 00:13:37,800
 So I hope we meet again and have a nice day. Bye!
 

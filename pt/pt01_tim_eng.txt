@@ -1,0 +1,6 @@
+Probability Theory - Part 1 - Introduction (including R)
+
+00:00 Introduction
+01:20 simple example: throwing a die
+02:54 Rstudio
+05:17 Outro

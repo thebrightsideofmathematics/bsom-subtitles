@@ -1,0 +1,352 @@
+1
+00:00:00,586 --> 00:00:06,743
+Hallo und willkommen zu einem neuen Video auf dem Kanal mit dem Titel "The Bright Side of Mathematics".
+
+2
+00:00:06,943 --> 00:00:10,968
+Ein Kanal, der jetzt 100k Abonnenten erreicht hat
+
+3
+00:00:11,014 --> 00:00:14,505
+und um das zu feiern, möchte ich ein paar Videos wie dieses machen,
+
+4
+00:00:14,705 --> 00:00:20,336
+die nicht Teil eines großen Videokurses sind, sondern ein bisschen erklären, wie man Mathematik lernt.
+
+5
+00:00:20,743 --> 00:00:25,514
+Und du siehst, ich möchte damit anfangen, indem ich dir sage, wie man Mathematik NICHT lernen sollte.
+
+6
+00:00:25,589 --> 00:00:29,350
+Mit anderen Worten, ich möchte dir einige häufige Fehler zeigen.
+
+7
+00:00:29,550 --> 00:00:37,806
+Und ich kenne eine Menge Fehler, einfach weil ich sie selbst gemacht habe und ich Mathematik seit sehr langer Zeit unterrichte.
+
+8
+00:00:38,371 --> 00:00:44,945
+Ich habe das tatsächlich für dieses Video überprüft und es hat sich herausgestellt, dass ich das jetzt schon seit 20 Jahren mache.
+
+9
+00:00:45,429 --> 00:00:54,600
+Tatsächlich habe ich in der Schule angefangen, grundlegende Mathematik zu erklären, wie ich sie gelernt habe. Also grundlegende Berechnungen für andere Freunde, für andere Schüler.
+
+10
+00:00:54,671 --> 00:00:59,555
+Und dann habe ich das an der Universität mit höherer Mathematik fortgesetzt.
+
+11
+00:01:00,000 --> 00:01:07,224
+Und dann, nachdem ich das an Universitäten gelehrt habe, habe ich das hier auf YouTube weitergeführt.
+
+12
+00:01:07,971 --> 00:01:14,424
+Aber gerade an den Universitäten habe ich viele Studenten kennengelernt, wirklich motivierte Studenten,
+
+13
+00:01:14,500 --> 00:01:18,429
+die immer noch eine Menge Fehler beim Lernen von Mathematik machten.
+
+14
+00:01:18,657 --> 00:01:24,567
+Dann fangen wir mal mit dem ersten Fehler an, den ich als fehlende Voraussetzungen bezeichne.
+
+15
+00:01:25,186 --> 00:01:30,087
+Gerade in der Mathematik ist das sehr häufig und kann sehr frustrierend sein.
+
+16
+00:01:30,800 --> 00:01:35,468
+Das kann jedem passieren und es ist mir auch passiert, als ich studiert habe.
+
+17
+00:01:35,668 --> 00:01:40,564
+In meinem ersten Jahr an der Universität saß ich in einer Vorlesung über Funktionalanalysis.
+
+18
+00:01:40,764 --> 00:01:45,100
+Einfach, weil ich es interessant fand und ich das lernen wollte.
+
+19
+00:01:45,229 --> 00:01:47,463
+Allerdings kam ich mir sehr dumm vor.
+
+20
+00:01:47,743 --> 00:01:55,441
+Die ganze Sache war sehr schwer und ich konnte nicht einmal die richtigen Fragen stellen. Ich war nicht in der Lage zu formulieren, was schief gelaufen ist.
+
+21
+00:01:55,786 --> 00:02:05,650
+Der Grund dafür ist einfach zu erklären, denn ich habe nicht einmal die grundlegenden Teile der reellen Analysis gelernt, die für diesen Kurs benötigt wurden.
+
+22
+00:02:06,286 --> 00:02:11,819
+Ich war also nicht dumm. Ich war einfach noch nicht so weit, die Funktionalanalysis zu verstehen.
+
+23
+00:02:12,429 --> 00:02:19,506
+Am Ende war die Lösung sehr einfach. Sehr einfach zu verstehen. Ich habe einfach die Reihenfolge des Lernens geändert.
+
+24
+00:02:19,900 --> 00:02:26,787
+Das Schlüsselelement, das ich dort gelernt habe, könnte man zusammenfassen als "Mathematik ist linear zu lernen". Mehr oder weniger.
+
+
+25
+00:02:26,987 --> 00:02:32,008
+Die Sache ist die, dass man die Grundlagen verstehen muss, um weiterzukommen.
+
+26
+00:02:32,208 --> 00:02:37,365
+Man muss zuerst die Grundlagen lernen und dann kann man zu den weitergehenden Dingen übergehen.
+
+27
+00:02:38,029 --> 00:02:45,604
+Mit anderen Worten: Wenn es wirklich frustrierend ist, ein bestimmtes Thema zu lernen, muss man prüfen, welche Voraussetzungen man braucht.
+
+28
+00:02:45,804 --> 00:02:48,357
+Und dann geht man zurück und lernt sie zuerst.
+
+29
+00:02:48,743 --> 00:02:56,524
+Ich kann euch ein weiteres Beispiel nennen, denn ich habe einmal einigen Studenten die LU-Zerlegung für Matrizen erklärt.
+
+30
+00:02:57,100 --> 00:03:01,300
+Die Gruppe war sehr motiviert und es gab keine Probleme mit der Lernatmosphäre.
+
+31
+00:03:01,557 --> 00:03:06,084
+Ich konnte alle Details Schritt für Schritt für diese Zerlegung erklären.
+
+32
+00:03:06,614 --> 00:03:12,790
+Aber während der ganzen Erklärung gab es viele Fragen und ich sah, dass die Leute verwirrt waren.
+
+33
+00:03:12,829 --> 00:03:16,549
+Es hat lange gedauert, bis ich verstanden habe, was falsch gelaufen ist.
+
+34
+00:03:16,749 --> 00:03:25,191
+Nach einiger Zeit wurde mir klar, dass es nicht an dem abstrakten Konzept oder den abstrakten Begriffen lag.
+
+35
+00:03:25,391 --> 00:03:27,646
+Es lag auch nicht an dem Algorithmus, den ich erklärte.
+
+36
+00:03:28,214 --> 00:03:33,311
+Das Problem war einfach, dass ich bei meiner Berechnung einen Bruch gekürzt habe.
+
+37
+00:03:33,843 --> 00:03:41,005
+In der Rechnung stand etwas wie 15/18 und nach einigen Schritten habe ich einfach 5/6 geschrieben.
+
+38
+00:03:41,843 --> 00:03:46,250
+Es dauerte eine Weile, bis ich merkte, dass das für manche Leute einfach zu viel war.
+
+39
+00:03:46,251 --> 00:03:50,964
+Es war zu schnell. Es war zu plötzlich. Es war zu versteckt im Rest der Berechnung.
+
+40
+00:03:50,965 --> 00:03:55,665
+Sie konnten nicht sehen, dass dieser Bruch tatsächlich mit dem dortigen Bruch übereinstimmte.
+
+41
+00:03:56,243 --> 00:04:02,053
+Es gab also überhaupt kein Problem im Teil der linearen Algebra. Es gab lediglich ein Problem bei den Grundlagen.
+
+42
+00:04:02,253 --> 00:04:05,695
+In den Grundlagen lernt man, mit Brüchen zu rechnen.
+
+43
+00:04:06,143 --> 00:04:11,717
+In der Tat würde ich sagen, dass uns das sofort zum zweiten Fehler führt. Der zweite häufige Fehler.
+
+44
+00:04:11,718 --> 00:04:14,112
+Nämlich, dass es keine Praxis gibt.
+
+45
+00:04:14,900 --> 00:04:21,634
+Das ist leicht zu erklären. Wenn man einfach ein Buch über Mathematik oder über ein bestimmtes Thema in der Mathematik liest,
+
+46
+00:04:21,834 --> 00:04:23,483
+lernt man es nicht wirklich.
+
+47
+00:04:23,486 --> 00:04:25,950
+Man lernt es nur, wenn man es übt.
+
+48
+00:04:26,150 --> 00:04:34,829
+In der Tat, wenn ihr Mathematik an der Universität studiert, werdet ihr feststellen, dass es einen großen Fokus auf Übungen, auf Problemlösungen gibt
+
+49
+00:04:35,357 --> 00:04:39,940
+Und das wird natürlich gemacht, weil das funktioniert. So funktioniert das Gehirn.
+
+50
+00:04:40,140 --> 00:04:43,743
+Man muss das Gehirn trainieren, so dass man etwas lernen kann.
+
+51
+00:04:44,200 --> 00:04:50,293
+Und wir sehen, das schließt sofort an unseren dritten Fehler hier an. Dass es überhaupt keine Wiederholungen gibt.
+
+52
+00:04:50,871 --> 00:04:56,412
+Das ist eine ähnliche Idee. Man braucht eine gewisse Wiederholung, damit man sich an neue Dinge gewöhnt.
+
+53
+00:04:56,612 --> 00:05:02,268
+Man muss zum Beispiel viele Brüche kürzen, damit die ganze Idee in den Körper geht.
+
+54
+00:05:03,000 --> 00:05:10,475
+Ihr seht also, wir haben hier 2 wichtige Dinge. Erstens braucht man Übungen. Man braucht Problemlösungen, um etwas zu verstehen
+
+55
+00:05:10,675 --> 00:05:15,205
+und dann braucht man eine Menge ähnlicher Probleme, die man lösen muss, damit man sich daran gewöhnt.
+
+56
+00:05:15,757 --> 00:05:23,530
+Ich kann verstehen, dass das für den Lernprozess sehr schwer sein kann, weil unser nächster Fehler sehr oft passiert.
+
+57
+00:05:23,730 --> 00:05:30,234
+Das passiert, wenn man versucht, ganz alleine zu lernen und dann nicht darüber spricht, was man gelernt hat.
+
+58
+00:05:30,434 --> 00:05:36,625
+In der Tat gibt es einige Schichten für dieses Problem, für diesen Fehler, da man ja im Wesentlichen alleine lernt.
+
+59
+00:05:36,825 --> 00:05:44,654
+Man muss die Probleme alleine lösen. Man muss sie alleine verstehen. Mathematik zu lernen bedeutet also, dass man viel Zeit alleine verbringt und nachdenkt.
+
+60
+00:05:44,854 --> 00:05:48,179
+Es ist aber eindeutig ein Fehler, nur das zu tun.
+
+61
+00:05:48,214 --> 00:05:52,229
+Einfach für sich selbst lernen und nicht über das Gelernte reden.
+
+62
+00:05:52,700 --> 00:05:58,341
+Das erste, was mir einfällt, ist, was man verpasst, wenn man nicht über das spricht, was man in der Mathematik lernt,
+
+63
+00:05:58,429 --> 00:06:02,653
+ist, dass man nicht sieht, dass andere Leute genauso leiden wie man selbst.
+
+64
+00:06:02,853 --> 00:06:11,278
+Natürlich haben auch andere Menschen Schwierigkeiten, das Konzept zu verstehen, alles zu begreifen, was nötig ist, die Probleme zu lösen und so weiter.
+
+65
+00:06:11,279 --> 00:06:15,812
+Man ist also normalerweise nicht allein, wenn man etwas nicht versteht.
+
+66
+00:06:16,386 --> 00:06:24,029
+Und darüber zu sprechen, hilft natürlich, fehlende Verbindungen oder fehlende Grundlagen zu finden, die man braucht, um das Thema zu verstehen.
+
+67
+00:06:24,714 --> 00:06:29,157
+In der Tat, ich würde sagen, das ist ein häufiges Problem bei Vorlesungen an der Universität.
+
+68
+00:06:29,280 --> 00:06:37,036
+Wo es nur einen Lehrer gibt, der alles erklärt, und dann sieht dass nur die Leute, die es wirklich verstanden haben, die Fragen stellen.
+
+69
+00:06:37,757 --> 00:06:41,889
+Und dann fühlen sich die meisten Leute im Publikum eingeschüchtert oder sogar dumm.
+
+70
+00:06:42,089 --> 00:06:47,878
+Und dabei sehen nicht, dass alle anderen oder die meisten anderen dort auch Probleme haben.
+
+71
+00:06:48,386 --> 00:06:54,151
+Und das ist auch ein Problem für den Lehrer, weil einige grundlegende Fragen gar nicht gestellt werden.
+
+72
+00:06:54,843 --> 00:06:58,507
+Also zusammenfassend kann ich dir hier sagen, durch Gespräche mit anderen Leuten,
+
+73
+00:06:58,508 --> 00:07:03,669
+wenn man versucht, ein bestimmtes Thema anderen Leuten zu erklären, versteht man mehr.
+
+74
+00:07:04,200 --> 00:07:12,517
+Ok, der letzte Fehler, über den ich heute sprechen möchte, ist, dass man beim Lernen von Mathematik nur isolierte Ergebnisse lernt
+
+75
+00:07:12,717 --> 00:07:18,557
+und das ist ein Fehler, denn verschiedene Ergebnisse, verschiedene Konzepte sind immer miteinander verbunden.
+
+76
+00:07:18,614 --> 00:07:21,747
+Immer in Verbindung mit anderen Teilen der Mathematik.
+
+77
+00:07:22,343 --> 00:07:28,279
+Eigentlich würde ich sagen, dass das Ignorieren solcher Zusammenhänge hier schon ein großer Fehler für deine Motivation ist,
+
+78
+00:07:28,479 --> 00:07:36,747
+denn wie soll man sich motivieren, wenn man einzelne Ergebnisse lernt, ohne zu sehen, wie sie in die Gesamtstruktur eingebettet sind,
+
+79
+00:07:37,257 --> 00:07:41,983
+Aber ich weiß natürlich, dass es für einen Anfänger schwer ist, solche Zusammenhänge zu erkennen,
+
+80
+00:07:41,984 --> 00:07:45,774
+weil sich alles isoliert und unmotiviert anfühlt
+
+81
+00:07:45,974 --> 00:07:51,060
+und das ist der Grund, warum ich es hier als Fehler angegeben habe. Es ist auch etwas, das der Lehrer lösen kann.
+
+82
+00:07:51,061 --> 00:07:57,174
+Der Lehrer kann es also für dich besser machen, indem er dir sagt, was die Voraussetzungen für ein bestimmtes Konzept sind
+
+83
+00:07:57,814 --> 00:08:02,714
+und dann ist natürlich der andere Teil, dir zu sagen, in welche Richtung es führt.
+
+84
+00:08:02,786 --> 00:08:05,650
+Was können wir also mit unseren neuen Ergebnissen machen.
+
+85
+00:08:06,243 --> 00:08:13,357
+In der Tat, wenn ihr mit einem solchen Netzwerk lernen wollt, könnt ihr das mit meinem Kurs zur reellen Analysis tun, mit dem Link in der Beschreibung
+
+86
+00:08:13,358 --> 00:08:19,481
+und ich kann euch sagen, es ist völlig kostenlos. Du kannst es benutzen. Du kannst dir meine Videos anschauen und du siehst die Zusammenhänge, die du brauchst.
+
+87
+00:08:20,157 --> 00:08:27,859
+Außerdem findest du dort auch Übungen, damit du nicht die Fehler beim Lernen von Mathematik machst, die ich dir heute gesagt habe.
+
+88
+00:08:28,059 --> 00:08:34,135
+So, ich hoffe wirklich, dass euch das Video geholfen hat und dann sehen wir uns im nächsten. Einen schönen Tag noch und tschüss.

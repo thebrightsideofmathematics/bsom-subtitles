@@ -88,7 +88,7 @@ For example some people speak of regular functions.
 
 23
 00:01:58,600 --> 00:02:04,343
-Moreover you also sometimes see the term complex analystic used for this definition here.
+Moreover you also sometimes see the term complex analysis used for this definition here.
 
 24
 00:02:05,257 --> 00:02:09,608
@@ -208,7 +208,7 @@ Now such a function here we call a complex polynomial.
 
 53
 00:04:55,591 --> 00:05:00,293
-and if a_m is nonzero, we call m the dregree of the polynomial.
+and if a_m is nonzero, we call m the degree of the polynomial.
 
 54
 00:05:01,043 --> 00:05:08,104
