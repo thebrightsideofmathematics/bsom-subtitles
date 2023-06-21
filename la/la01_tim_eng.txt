@@ -1,0 +1,8 @@
+﻿Linear Algebra - Part 1 - Introduction
+
+00:00 Introduction
+00:50 Linear Algebra applications
+02:20 Visit to the abstract level
+03:00 Concrete level
+03:40 Prerequisites
+04:10 Credits
