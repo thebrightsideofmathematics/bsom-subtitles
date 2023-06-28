@@ -1,0 +1,8 @@
+Linear Algebra - Part 49 - Formulas for Determinants
+
+00:00 Intro
+00:50 Determinant of a matrix A
+01:32 First property of determinant
+03:40 Second property of determinant
+04:57 Third property of determinant
+06:50 Credits
