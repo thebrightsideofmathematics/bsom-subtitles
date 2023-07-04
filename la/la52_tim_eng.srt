@@ -1,0 +1,9 @@
+Linear Algebra - Part 52 - Cramer's Rule
+
+00:00 Intro
+01:05 Determinant in two Dimensions
+02:10 Determinant and singular matrices
+02:30 Proposition for non-singular matrices
+04:41 Cramer's Rule
+07:30 Proof of Cramer's Rule
+12:27 Credits

@@ -1,4 +1,4 @@
-Linear Algebra - Part 49 - Formulas for Determinants
+Linear Algebra - Part 43 - Determinant (Overview)
 
 00:00 Intro
 00:50 Determinant of a matrix A
