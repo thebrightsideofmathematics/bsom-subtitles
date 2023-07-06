@@ -3,3 +3,4 @@ Complex Analysis - Part 10 - Uniform Convergence
 0:00 Intro
 0:40 Uniform convergence definition
 2:17 Power series are holomorphic
+7:01 Credits
