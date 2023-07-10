@@ -1,14 +1,14 @@
 1
 00:00:00,600 --> 00:00:03,500
-Olá e bem-vindo de volta à análise real
+Olá e bem-vindo de volta ao curso de análise real.
 
 2
 00:00:04,100 --> 00:00:08,700
-e, como sempre, gostaria de agradecer a todos que apóiam este canal por meio do Steady ou do Paypal.
+Como sempre, gostaria de agradecer a todos que apóiam este canal por meio do Steady ou do Paypal.
 
 3
 00:00:09,890 --> 00:00:12,400
-Agora, vamos realmente começar nosso curso de análise real.
+Hoje nós realmente começaremos o nosso curso de análise real,
 
 4
 00:00:12,500 --> 00:00:15,000
@@ -16,55 +16,55 @@ falando sobre sequências e limites.
 
 5
 00:00:16,000 --> 00:00:19,500
-Então, vamos começar definindo o que é uma sequência.
+Então vamos começar definindo o que é uma sequência.
 
 6
 00:00:20,290 --> 00:00:24,000
-De forma concreta, diremos que temos uma sequência de números reais,
+Mais concretamente, dizemos ter uma sequência de números reais,
 
 7
 00:00:24,500 --> 00:00:28,190
-quando houver um mapa dos números naturais para "R".
+quando tivermos um mapa dos números naturais para "R" e,
 
 8
 00:00:28,600 --> 00:00:32,090
-na maioria das vezes, esse mapa terá o nome "a".
+na maioria das vezes, daremos a este mapa o nome "a".
 
 9
 00:00:32,600 --> 00:00:36,700
-Da mesma forma, "a" também pode ser um mapa de "N0" para "R".
+Da mesma forma, um mapa "a" de "N_0" para "R" também
 
 10
 00:00:36,700 --> 00:00:37,900
-que é chamado de sequência.
+é chamado de sequência.
 
 11
 00:00:38,900 --> 00:00:42,100
-Lembre-se. Aqui, nos números naturais, não incluímos o 0,
+Por favor lembre-se, aqui, nos números naturais, não incluímos o 0,
 
 12
 00:00:42,300 --> 00:00:44,300
-mas em "N0" incluímos.
+mas em "N_0" o incluímos.
 
 13
 00:00:45,000 --> 00:00:47,400
-Como você pode ver, a escolha depende
+Veja, a escolha aqui depende apenas
 
 14
 00:00:47,400 --> 00:00:50,400
-se você quer começar a contar a partir de 1 ou a partir de 0.
+de caso quisermos começar a contar a partir do 1 ou a partir do 0.
 
 15
 00:00:50,600 --> 00:00:54,600
-Agora, quando lidamos com sequências, raramente escrevemos o mapa,
+Porém, quando lidamos com sequências, raramente escrevemos tal mapa.
 
 16
 00:00:54,600 --> 00:00:57,480
-em vez de uma lista infinita de números.
+De preferência, escrevemos uma lista infinita de números.
 
 17
 00:00:57,680 --> 00:01:02,350
-Em outras palavras, quando colocamos 1 na função, obtemos "a1".
+Em outras palavras, quando colocamos 1 na função, obtemos "a_1",
 
 18
 00:01:02,550 --> 00:01:05,099
@@ -72,7 +72,7 @@ e colocamos 1 no índice.
 
 19
 00:01:05,590 --> 00:01:09,290
-e depois a2, a3 etc.
+Depois obtemos "a_2", "a_3" e assim por diante.
 
 20
 00:01:09,490 --> 00:01:11,280
@@ -84,11 +84,11 @@ Formalmente, uma sequência é um mapa, mas usaremos notações mais curtas.
 
 22
 00:01:15,900 --> 00:01:20,200
-Por exemplo, o que você verá com frequência é simplesmente "(an)".
+Por exemplo, o que você verá com frequência será simplesmente "(a_n)"
 
 23
 00:01:20,600 --> 00:01:23,590
-e para lembrá-lo de que essa é uma lista infinita.
+e para lembrá-lo de que essa é uma lista infinita,
 
 24
 00:01:23,590 --> 00:01:26,590
@@ -96,23 +96,23 @@ colocamos "n em N" no índice aqui.
 
 25
 00:01:26,790 --> 00:01:32,000
-É claro que, se quisermos começar com 0, colocaremos "N0" no índice aqui.
+É claro que, se quisermos começar com 0, colocaremos "N_0" no índice aqui.
 
 26
 00:01:32,200 --> 00:01:38,150
-Como alternativa, também poderíamos indicar o número inicial como n=1.
+Como alternativa, também poderíamos indicar o número inicial com "n=1"
 
 27
 00:01:38,200 --> 00:01:40,600
-e lembre-se novamente de que essa é uma lista infinita,
+e nos lembrando novamente de que essa é uma lista infinita,
 
 28
 00:01:40,650 --> 00:01:42,600
-então colocamos "infinito" no topo.
+colocamos "infinito" no topo.
 
 29
 00:01:42,900 --> 00:01:46,080
-Agora, se pelo contexto o número inicial for óbvio
+Agora, se pelo contexto o número inicial for óbvio,
 
 30
 00:01:46,090 --> 00:01:49,200
@@ -132,11 +132,11 @@ A melhor maneira de descrever uma sequência é simplesmente dar uma regra
 
 34
 00:01:58,990 --> 00:02:01,200
-para todos os elementos da sequência "an".
+para todos os elementos da sequência "a_n".
 
 35
 00:02:01,600 --> 00:02:07,000
-Por exemplo, poderíamos dizer que "an" = -1 elevado a n.
+Por exemplo, poderíamos dizer que "a_n = -1 elevado a n"
 
 36
 00:02:07,600 --> 00:02:11,400
@@ -156,27 +156,27 @@ e o próximo é 1
 
 40
 00:02:20,530 --> 00:02:25,100
-e -1 novamente, e depois 1 novamente e assim por diante.
+e -1 novamente, depois 1, e assim por diante.
 
 41
 00:02:26,010 --> 00:02:29,000
-Portanto, se você quiser visualizar isso na reta numérica
+Portanto, se você quiser visualizar isso na reta numérica,
 
 42
 00:02:29,150 --> 00:02:31,150
-começaríamos em -1
+começamos em -1
 
 43
 00:02:31,350 --> 00:02:34,640
-e, na próxima etapa, pulamos para 1.
+e no próximo passo, pulamos para 1.
 
 44
 00:02:35,470 --> 00:02:38,700
-Depois, no próximo passo, voltamos para -1.
+Depois, no próximo passo, voltamos para -1
 
 45
 00:02:39,340 --> 00:02:43,000
-e sabemos que todo esse processo continua infinitamente.
+e sabemos que esse processo continua infinitamente.
 
 46
 00:02:43,650 --> 00:02:45,050
@@ -188,35 +188,35 @@ que essa é sempre uma boa maneira de visualizar uma sequência na reta numéric
 
 48
 00:02:49,990 --> 00:02:52,790
-Para que você possa ver que a sequência tem etapas.
+E então você pode ver cada passo da sequência conforme o tempo.
 
 49
 00:02:52,800 --> 00:02:56,200
-em que, a cada passo, chegamos a um número na reta numérica.
+A cada passo do tempo, chegamos a um número na reta numérica.
 
 50
 00:02:57,030 --> 00:03:00,880
-Entretanto, essa não é a única maneira de visualizar uma sequência.
+Entretanto, essa não é a única maneira de visualizar uma sequência
 
 51
 00:03:00,900 --> 00:03:03,970
-porque, como já sabemos, é apenas um mapa.
+porque, como já sabemos, ela é simplesmente um mapa.
 
 52
 00:03:04,170 --> 00:03:07,800
-Portanto, eles poderiam simplesmente desenhar o gráfico do mapa.
+Portanto, poderíamos simplesmente desenhar o gráfico desse mapa.
 
 53
 00:03:08,530 --> 00:03:12,080
-Em outras palavras, temos um conjunto nesse sistema de coordenadas,
+Em outras palavras, temos um conjunto nesse sistema de coordenadas.
 
 54
 00:03:12,090 --> 00:03:16,770
-mas lembre-se sempre de que o domínio são os números naturais,
+Mas lembre-se de que o domínio são apenas os números naturais,
 
 55
 00:03:16,900 --> 00:03:19,150
-e o codomínio são os números reais.
+enquanto o contradomínio são os números reais.
 
 56
 00:03:19,160 --> 00:03:22,020
@@ -224,7 +224,7 @@ Portanto, no eixo y, temos "R".
 
 57
 00:03:22,990 --> 00:03:26,990
-Portanto, não temos uma linha nesse plano. Apenas pontos.
+Portanto, não temos uma linha nesse plano, mas apenas pontos.
 
 58
 00:03:27,040 --> 00:03:31,030
@@ -232,15 +232,15 @@ Por exemplo, para 1 temos -1. Portanto, um ponto aqui.
 
 59
 00:03:31,630 --> 00:03:36,420
-Isso é importante. -1 é o valor desse mapa.
+Isso é importante, -1 é o valor desse mapa.
 
 60
 00:03:37,000 --> 00:03:42,329
-Da mesma forma, dizemos que obtemos 1 como valor quando colocamos 2 no mapa.
+Da mesma forma, temos 1 como o valor, quando colocamos 2 no mapa.
 
 61
 00:03:43,000 --> 00:03:47,500
-e então podemos continuar com 3, 4, 5 etc.
+E então podemos continuar com 3, 4, 5, etc.
 
 62
 00:03:47,700 --> 00:03:52,380
@@ -248,15 +248,15 @@ Agora. Os saltos que vimos antes, podemos vê-los à medida que avançamos para 
 
 63
 00:03:53,010 --> 00:03:57,680
-Na verdade, estamos interessados no que acontece com os valores dessa sequência.
+De fato estamos bastante interessados no que acontece com os valores dessa sequência
 
 64
 00:03:57,700 --> 00:04:00,380
-quando ainda estivermos aqui na linha.
+conforme continuamnos aqui na reta.
 
 65
 00:04:00,880 --> 00:04:05,770
-Em termos simples, o que acontece com a sequência quando n chega ao infinito?
+De grosso modo, o que acontece com a sequência quando n vai para o infinito?
 
 66
 00:04:06,220 --> 00:04:09,200
@@ -264,35 +264,35 @@ Neste exemplo, você pode ver que nada de especial acontece,
 
 67
 00:04:09,210 --> 00:04:12,200
-porque continuamos pulando entre -1 e 1.
+porque continuamos saltando entre -1 e 1.
 
 68
 00:04:13,030 --> 00:04:15,530
-Não importa o tamanho do nosso n.
+Não importa quão grande nosso "n" seja,
 
 69
 00:04:15,560 --> 00:04:17,620
-Os saltos são sempre os mesmos.
+os saltos serão sempre os mesmos.
 
 70
 00:04:18,089 --> 00:04:21,300
-Por esse motivo, vamos ver outro exemplo.
+Por esse motivo, vejamos outro exemplo.
 
 71
 00:04:22,000 --> 00:04:26,550
-Aqui, nossa sequência deve ser definida pela regra "1 sobre n".
+Aqui, nossa sequência será definida pela regra "1 sobre n".
 
 72
 00:04:27,750 --> 00:04:30,390
-Agora você vê que esta é muito mais interessante,
+Agora vemos imediatamente que esta é muito mais interessante,
 
 73
 00:04:30,400 --> 00:04:32,400
-porque temos números diferentes.
+porque recebemos valores diferentes.
 
 74
 00:04:33,020 --> 00:04:38,000
-O primeiro número é apenas 1, mas depois temos 1/2 e 1/3...
+O primeiro número é apenas 1, mas depois temos 1/2 e 1/3,
 
 75
 00:04:38,280 --> 00:04:40,870
@@ -312,11 +312,11 @@ Aqui começamos com o valor 1.
 
 79
 00:04:50,770 --> 00:04:56,750
-Depois 1/2, 1/3, 1/4 etc.
+Depois 1/2, 1/3, 1/4, etc.
 
 80
 00:04:56,760 --> 00:05:01,000
-Aqui, de fato, algo acontece quando aumentamos,
+Aqui, de fato algo acontece conforme ficamos cada vez maior,
 
 81
 00:05:01,220 --> 00:05:04,700
@@ -324,7 +324,7 @@ porque, como pode ver, estamos nos aproximando cada vez mais de 0.
 
 82
 00:05:05,010 --> 00:05:09,900
-e isso é o que definiremos em breve como o limite da sequência.
+Isso é o que definiremos em breve como o limite da sequência.
 
 83
 00:05:10,100 --> 00:05:14,500
@@ -336,7 +336,7 @@ que a sequência anterior não tem.
 
 85
 00:05:19,490 --> 00:05:23,230
-Entretanto, antes de definir o limite como uma propriedade de uma sequência
+Entretanto, antes de definir o limite como uma propriedade de uma sequência,
 
 86
 00:05:23,260 --> 00:05:25,260
@@ -352,35 +352,35 @@ Em outras palavras, temos 2, 4, 8, 16 e assim por diante.
 
 89
 00:05:36,030 --> 00:05:38,300
-E, é claro, essa é uma sequência muito boa,
+É claro que essa é uma sequência muito bacana,
 
 90
 00:05:38,300 --> 00:05:42,130
-mas agora queremos ver o que acontece quando aumentamos n
+mas agora queremos ver o que acontece quando aumentamos "n".
 
 91
 00:05:42,150 --> 00:05:44,050
-ou seja, tornando-o cada vez maior e maior e maior.
+Então torne-o cada vez maior e maior e maior.
 
 92
 00:05:44,380 --> 00:05:49,170
-Em seguida, os valores obtidos também ficam cada vez maiores.
+Vemos que os valores obtidos também ficam cada vez maiores.
 
 93
 00:05:49,980 --> 00:05:53,240
-e, é claro, não há limite superior para os elementos dessa sequência.
+De fato, não há limite superior para os elementos dessa sequência.
 
 94
 00:05:53,260 --> 00:05:56,350
-portanto, poderíamos dizer que esse limite deve ser infinito.
+Portanto poderíamos dizer que esse limite deve ser infinito.
 
 95
 00:05:56,920 --> 00:06:00,100
-É claro que ainda não sabemos o significado exato disso.
+Mas é claro que ainda não sabemos exatamente o que isso significa.
 
 96
 00:06:00,110 --> 00:06:02,400
-portanto, temos que esclarecer isso também.
+Portanto temos que esclarecer isso também.
 
 97
 00:06:03,050 --> 00:06:06,350
@@ -392,11 +392,11 @@ Aqui vamos definir a noção de uma sequência convergente de números reais.
 
 99
 00:06:12,270 --> 00:06:17,750
-Dizemos que uma sequência "an" é convergente para um determinado número "a".
+Dizemos que uma sequência "(a_n)" é convergente para um determinado número "a",
 
 100
 00:06:17,780 --> 00:06:23,200
-se os elementos da sequência "an" estiverem arbitrariamente próximos de "a" no final.
+se os elementos da sequência "a_n" se encontrarem arbitrariamente próximos de "a" a partir de certo momento.
 
 101
 00:06:23,750 --> 00:06:25,990
@@ -408,31 +408,31 @@ vamos visualizar essa ideia na reta numérica.
 
 103
 00:06:29,660 --> 00:06:31,660
-Então, aqui temos o ponto "a".
+Então, aqui temos o ponto "a"
 
 104
 00:06:31,670 --> 00:06:34,670
-e em verde temos a vizinhança-epsilon de "a".
+e em verde, temos a vizinhança-epsilon de "a".
 
 105
 00:06:35,170 --> 00:06:38,100
-Isso significa que, para um número positivo dado epsilon
+Isso significa que dado um número positivo, epsilon,
 
 106
 00:06:38,100 --> 00:06:43,000
-podemos localizar os números "a + epsilon" e "a - epsilon".
+podemos localizar os números "a + epsilon" e "a - epsilon"
 
 107
 00:06:43,230 --> 00:06:47,650
-e chamamos toda a região em verde de "a vizinhança epsilon de a".
+e chamamos toda a região em verde de "vizinhança epsilon de a".
 
 108
 00:06:48,390 --> 00:06:51,600
-Observe que "a" não denota mais a sequência,
+Por favor, observe que "a" não denota mais a sequência,
 
 109
 00:06:51,610 --> 00:06:53,000
-mas simplesmente outro número.
+mas simplesmente um número.
 
 110
 00:06:53,000 --> 00:06:54,600
@@ -448,59 +448,59 @@ precisamos nos aproximar cada vez mais de "a" com os elementos da sequência.
 
 113
 00:07:04,140 --> 00:07:06,300
-Ou, em outras palavras... eventualmente
+Ou, em outras palavras, eventualmente
 
 114
 00:07:06,300 --> 00:07:10,000
-todos os elementos da sequência precisam estar na vizinhança de épsilon de a.
+todos os elementos da sequência precisam estar na vizinhança de epsilon de "a".
 
 115
 00:07:10,950 --> 00:07:13,450
-E apenas um número finito fora dela.
+Apenas um número finito de elementos podem estar fora dela.
 
 116
 00:07:14,270 --> 00:07:16,500
-Por exemplo, aqui poderíamos ter "a1".
+Por exemplo, aqui poderíamos ter "a_1"
 
 117
 00:07:16,550 --> 00:07:18,000
-e aqui "a2",
+e ali "a_2",
 
 118
 00:07:18,510 --> 00:07:22,640
-mas em um determinado momento encontraremos um índice "N" tal que
+mas em um determinado momento, encontraremos um índice "N" tal que
 
 119
 00:07:22,650 --> 00:07:27,100
-todos os elementos (da sequência) depois disso estejam na vizinhança Epsilon.
+todos os elementos da sequência depois disso estarão na vizinhança epsilon.
 
 120
 00:07:27,970 --> 00:07:30,600
-Então você verá que isso é realmente necessário.
+O que precisamos ver é que isso é realmente necessário,
 
 121
 00:07:30,600 --> 00:07:32,980
-se você quiser que a frase faça sentido
+caso quisermos entender a frase:
 
 122
 00:07:32,990 --> 00:07:35,990
-"an" se aproxima cada vez mais do ponto "a".
+"a_n" se aproxima cada vez mais do ponto "a".
 
 123
 00:07:36,880 --> 00:07:39,130
-Então, formalmente, agora diríamos
+Então, formalmente, agora dizemos:
 
 124
 00:07:39,140 --> 00:07:46,040
-Existe um "N" tal que para todo "n >= N"
+existe um "N" tal que para todo "n >= N",
 
 125
 00:07:46,140 --> 00:07:51,500
-tem que a distância entre "an" e "a" é menor que épsilon.
+a distância entre "a_n" e "a" é menor que épsilon.
 
 126
 00:07:52,300 --> 00:07:55,400
-e podemos medir essa distância com o valor absoluto.
+E podemos medir essa distância com o valor absoluto.
 
 127
 00:07:56,150 --> 00:07:58,900
@@ -508,15 +508,15 @@ Observe que isso é a mesma coisa que dizer
 
 128
 00:07:58,920 --> 00:08:01,620
-"an" está na vizinhança epsilon de a.
+"a_n" está na vizinhança epsilon de "a".
 
 129
 00:08:02,080 --> 00:08:04,080
-No entanto, você tem que perceber que,
+No entanto, devemos observar que
 
 130
 00:08:04,080 --> 00:08:10,070
-isso só descreve a convergência para o ponto "a" se for válido para qualquer epsilon.
+isso só descreve a convergência para o ponto "a" se isso for válido para qualquer epsilon.
 
 131
 00:08:10,690 --> 00:08:14,580
@@ -524,7 +524,7 @@ Isso deve ser válido independentemente de quão pequeno seja o epsilon.
 
 132
 00:08:15,000 --> 00:08:17,300
-É claro que se escolhermos um epsilon menor
+É claro que se escolhermos um epsilon menor,
 
 133
 00:08:17,350 --> 00:08:19,850
@@ -552,7 +552,7 @@ Agora, o oposto disso chamamos de divergência.
 
 139
 00:08:38,820 --> 00:08:42,900
-Porque, nesse caso, não encontramos um ponto limite "a" com a propriedade anterior.
+Nesse caso, não encontramos um ponto limite "a" com a propriedade anterior.
 
 140
 00:08:42,919 --> 00:08:45,100
@@ -564,19 +564,19 @@ Já vimos dois exemplos,
 
 142
 00:08:47,660 --> 00:08:50,800
-onde é óbvio que não podemos encontrar esse "a".
+nos quais é óbvio que não podemos encontrar esse "a".
 
 143
 00:08:51,380 --> 00:08:55,000
-No entanto, eles deveriam escrever um teste correto para isso.
+Mas é claro que precisamos escrever uma prova correta para isso.
 
 144
 00:08:55,750 --> 00:08:59,990
-No entanto, por enquanto é mais interessante ver um exemplo positivo.
+No entanto, talvez é mais interessante vermos primeiro nosso exemplo positivo.
 
 145
 00:09:00,660 --> 00:09:05,500
-Ou, em outras palavras. A sequência 1/n que é convergente para 0.
+Ou, em outras palavras, a sequência 1/n que é convergente para 0.
 
 146
 00:09:06,220 --> 00:09:09,050
@@ -592,7 +592,7 @@ Mas agora podemos escrever uma prova formal dessa afirmação.
 
 149
 00:09:18,550 --> 00:09:23,000
-Primeiro, observe que, como temos que provar essa afirmação para todos os epsilon
+Primeiro, observe que, como temos que provar essa afirmação para todos os epsilon,
 
 150
 00:09:23,020 --> 00:09:26,010
@@ -600,7 +600,7 @@ temos que escolher um epsilon arbitrário no início.
 
 151
 00:09:26,480 --> 00:09:28,480
-Portanto, a primeira declaração deve ser
+Portanto, a primeira declaração deve ser:
 
 152
 00:09:28,510 --> 00:09:32,500
@@ -608,11 +608,11 @@ Seja epsilon um número real maior que 0.
 
 153
 00:09:32,990 --> 00:09:36,990
-e sabemos o que o final do enunciado da prova deve dizer.
+Já sabemos também qual será a frase final da prova.
 
 154
 00:09:37,790 --> 00:09:43,500
-Essencialmente, a distância de "an" a 0, nesse caso, é menor que epsilon.
+Essencialmente, que a distância de "an" a 0, nesse caso, é menor que epsilon
 
 155
 00:09:43,970 --> 00:09:49,500
@@ -620,7 +620,7 @@ e isso deve ser válido para todos os índices "n >= N".
 
 156
 00:09:50,460 --> 00:09:54,940
-Agora veja, a única coisa que está faltando aqui é a definição de "N".
+Portanto vemos que a única coisa que está faltando aqui é a definição de "N"
 
 157
 00:09:54,950 --> 00:09:57,880
@@ -628,7 +628,7 @@ e o cálculo para obter o resultado.
 
 158
 00:09:58,300 --> 00:10:01,260
-Mas é claro que agora podemos incorporar alguns detalhes,
+É claro que agora podemos preencher alguns detalhes,
 
 159
 00:10:01,280 --> 00:10:03,570
@@ -636,15 +636,15 @@ porque conhecemos a sequência "an".
 
 160
 00:10:04,210 --> 00:10:07,130
-Primeiro, a subtração de 0 não muda nada
+Primeiro, a subtração de 0 não muda nada,
 
 161
 00:10:07,150 --> 00:10:09,540
-portanto, temos o valor absoluto de "an".
+portanto temos o valor absoluto de "an"
 
 162
 00:10:10,160 --> 00:10:13,150
-que, obviamente, é simplesmente 1/n.
+que, claro, é simplesmente 1/n.
 
 163
 00:10:13,730 --> 00:10:15,630
@@ -652,7 +652,7 @@ Agora, neste ponto, você deve notar que,
 
 164
 00:10:15,650 --> 00:10:20,640
-como temos essa desigualdade, por sua vez, temos a desigualdade para os recíprocos
+como temos essa desigualdade, teremos a desigualdade oposta para os inversos.
 
 165
 00:10:21,330 --> 00:10:26,330
@@ -660,15 +660,15 @@ Ou simplesmente "1/n" é menor ou igual a "1/N".
 
 166
 00:10:27,520 --> 00:10:29,520
-Ok. Então expressamos o cálculo
+Ok, com isso concluímos os cálculos
 
 167
 00:10:30,280 --> 00:10:35,150
-e a única coisa que falta é que 1/N é realmente menor que épsilon.
+e a única coisa que falta é que 1/N seja realmente menor que épsilon.
 
 168
 00:10:36,030 --> 00:10:40,750
-É claro que podemos definir "N" da maneira que quisermos, então vamos escolher um valor tão grande quanto
+É claro que podemos definir "N" da maneira que quisermos, então vamos escolher um valor que seja tão grande,
 
 169
 00:10:40,750 --> 00:10:43,400
@@ -680,7 +680,7 @@ Então vocês só precisam se perguntar: "Isso é realmente possível?".
 
 171
 00:10:48,790 --> 00:10:50,480
-e a resposta é sim.
+A resposta é sim.
 
 172
 00:10:50,490 --> 00:10:54,090
@@ -688,15 +688,15 @@ E essa é exatamente a propriedade Arquimediana de nossos axiomas.
 
 173
 00:10:54,700 --> 00:10:58,940
-Ela simplesmente nos diz que não importa quão pequeno seja o épsilon
+Ela simplesmente nos diz que não importa quão pequeno seja o épsilon,
 
 174
 00:10:58,940 --> 00:11:02,040
-sempre podemos exceder qualquer número que quisermos.
+sempre podemos exceder qualquer número que quisermos,
 
 175
 00:11:02,420 --> 00:11:06,050
-Simplesmente adicionando o número um número finito de vezes.
+simplesmente adicionando o número um número finito de vezes.
 
 176
 00:11:06,630 --> 00:11:10,000
@@ -704,15 +704,15 @@ Portanto, já temos um "N" adequado aqui.
 
 177
 00:11:10,950 --> 00:11:14,880
-Agora, com isso, podemos finalmente ler a prova da esquerda para a direita.
+Agora, com isso, podemos finalmente ler a prova da esquerda para a direita
 
 178
 00:11:14,900 --> 00:11:16,350
-e agora tudo faz sentido.
+e tudo faz sentido.
 
 179
 00:11:16,830 --> 00:11:19,930
-e também toda a nossa afirmação foi comprovada.
+E também é claro, nossa afirmação foi comprovada.
 
 180
 00:11:20,880 --> 00:11:26,300
@@ -720,23 +720,23 @@ Muito bem, você viu como deve ser o seu processo de pensamento quando quiser re
 
 181
 00:11:26,370 --> 00:11:29,270
-Eles começam com as coisas que precisam ser incluídas
+Você começa com as coisas dadas de entrada
 
 182
 00:11:29,290 --> 00:11:31,800
-e, no final, as coisas que eles querem testar.
+e as coisas que quer mostar ao final.
 
 183
 00:11:32,390 --> 00:11:34,850
-e eles tentam preencher todas as lacunas
+Então tenta preencher todas as lacunas
 
 184
 00:11:34,910 --> 00:11:38,550
-para que, no final, possam ler a declaração da esquerda para a direita.
+para que, no final, possa ler a tudo da esquerda para a direita.
 
 185
 00:11:39,120 --> 00:11:42,550
-Isso significa que, às vezes, é necessário mudar um pouco as coisas.
+Isso significa que, às vezes, é necessário levar as coisas de um lado para outro
 
 186
 00:11:42,570 --> 00:11:44,570
@@ -752,8 +752,8 @@ Espero vê-lo no próximo vídeo,
 
 189
 00:11:48,660 --> 00:11:52,000
-quando falarmos sobre as propriedades de uma sequência convergente.
+quando falaremos sobre as propriedades de uma sequência convergente.
 
 190
 00:11:52,390 --> 00:11:55,380
-Portanto, tenha um bom dia e até logo. Tchau!
+Então tenha um bom dia e até logo. Tchau!
