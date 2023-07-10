@@ -192,7 +192,7 @@ So you can see the sequence has time steps
 
 49
 00:02:52,800 --> 00:02:56,200
-were we hit at each timestep a number on the number line.
+where we hit at each timestep a number on the number line.
 
 50
 00:02:57,030 --> 00:03:00,880
@@ -344,7 +344,7 @@ lets look at another example.
 
 87
 00:05:25,650 --> 00:05:29,730
-Here i want to have the numbers that are given by the powers of 2.
+Here I want to have the numbers that are given by the powers of 2.
 
 88
 00:05:30,150 --> 00:05:35,000
