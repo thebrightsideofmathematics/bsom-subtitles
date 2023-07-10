@@ -404,7 +404,7 @@ Now before we give the formal definition
 
 102
 00:06:26,000 --> 00:06:29,450
-lets visualize this idea on the number line.
+let's visualize this idea on the number line.
 
 103
 00:06:29,660 --> 00:06:31,660
