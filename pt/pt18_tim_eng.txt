@@ -1,0 +1,9 @@
+Probability Theory - Part 18 - Properties of Variance and Standard Deviation
+
+00:00 Intro
+00:35 Properties
+01:30 Variance is additive
+01:50 Scaling variance 
+02:20 Scaling standard deviation
+03:04 Proof of properties
+07:48 Credits
