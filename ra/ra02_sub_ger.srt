@@ -1,0 +1,759 @@
+1
+00:00:00,600 --> 00:00:03,500
+Hallo und willkommen zurück zur reellen Analysis
+
+2
+00:00:04,100 --> 00:00:08,700
+und wie immer möchte ich mich bei all den netten Leuten bedanken, die diesen Kanal auf Steady oder PayPal unterstützen
+
+3
+00:00:09,890 --> 00:00:12,400
+So, heute beginnen wir tatsächlich mit unserem Analysiskurs
+
+4
+00:00:12,500 --> 00:00:15,000
+indem wir über Folgen und Grenzwerten sprechen.
+
+5
+00:00:16,000 --> 00:00:19,500
+Fangen wir also gleich an zu definieren, was eine Folge ist.
+
+6
+00:00:20,290 --> 00:00:24,000
+Konkreter sagen wir, dass wir eine Folge von reellen Zahlen haben,
+
+7
+00:00:24,500 --> 00:00:28,190
+wenn wir eine Abbildung der natürlichen Zahlen in "R" haben.
+
+8
+00:00:28,600 --> 00:00:32,090
+und meistens bekommt eine solche Abbildung den Namen "a"
+
+9
+00:00:32,600 --> 00:00:36,700
+Auf die gleiche Weise wird auch eine Abbildung "a" von "N0" in "R"
+
+10
+00:00:36,700 --> 00:00:37,900
+eine Folge genannt.
+
+11
+00:00:38,900 --> 00:00:42,100
+Bitte erinnere dich. Hier in den natürlichen Zahlen gibt es keine 0,
+
+12
+00:00:42,300 --> 00:00:44,300
+aber hier in "N0" tun wir das.
+
+13
+00:00:45,000 --> 00:00:47,400
+Wir sehen also, dass die Wahl hier einfach davon abhängt
+
+14
+00:00:47,400 --> 00:00:50,400
+ob man die Zählung mit 1 oder mit 0 beginnen möchte.
+
+15
+00:00:50,600 --> 00:00:54,600
+Nun, wenn wir mit Folgen arbeiten, schreiben wir selten eine solche Abbildung auf,
+
+16
+00:00:54,600 --> 00:00:57,480
+sondern eher eine unendliche Liste von Zahlen.
+
+17
+00:00:57,680 --> 00:01:02,350
+Mit anderen Worten, wenn wir hier 1 in die Funktion eingeben, erhalten wir "a1".
+
+18
+00:01:02,550 --> 00:01:05,099
+und wir setzen die 1 in den Index ein.
+
+19
+00:01:05,590 --> 00:01:09,290
+und dann bekommen wir a2, a3 und so weiter.
+
+20
+00:01:09,490 --> 00:01:11,280
+Also bitte nicht vergessen.
+
+21
+00:01:11,289 --> 00:01:15,000
+Formal ist eine Folge eine Abbildung, aber wir werden kürzere Schreibweisen verwenden.
+
+22
+00:01:15,900 --> 00:01:20,200
+Was Sie zum Beispiel oft sehen werden, ist einfach "(an)".
+
+23
+00:01:20,600 --> 00:01:23,590
+und dann, um Sie daran zu erinnern, dass es eine unendliche Liste ist
+
+24
+00:01:23,590 --> 00:01:26,590
+setzen wir hier "n in N" in den Index.
+
+25
+00:01:26,790 --> 00:01:32,000
+Wenn wir hier mit 0 beginnen wollen, setzen wir natürlich "N0" in den Index ein.
+
+26
+00:01:32,200 --> 00:01:38,150
+Alternativ könnten wir die Startnummer auch als n=1 angeben
+
+27
+00:01:38,200 --> 00:01:40,600
+und uns dann wieder daran erinnern, dass es eine unendliche Liste ist,
+
+28
+00:01:40,650 --> 00:01:42,600
+also setzen wir die Unendlichkeit an den Anfang.
+
+29
+00:01:42,900 --> 00:01:46,080
+Wenn nun aus dem Kontext die Startzahl klar ist
+
+30
+00:01:46,090 --> 00:01:49,200
+können wir einfach alles weglassen und nur die Klammern verwenden.
+
+31
+00:01:49,700 --> 00:01:52,200
+Ok. Ich denke, das ist genug über die Notationen.
+
+32
+00:01:52,300 --> 00:01:54,590
+Schauen wir uns gleich ein paar Beispiele an.
+
+33
+00:01:55,000 --> 00:01:58,970
+Die beste Art, eine Folge zu beschreiben, ist, eine Regel aufzustellen
+
+34
+00:01:58,990 --> 00:02:01,200
+für alle Folgenglieder "an"
+
+35
+00:02:01,600 --> 00:02:07,000
+Wir könnten zum Beispiel sagen, dass "an" = -1 hoch n ist.
+
+36
+00:02:07,600 --> 00:02:11,400
+und dann können wir die Klammern benutzen, um die ganze Folge zu bezeichnen.
+
+37
+00:02:11,600 --> 00:02:14,400
+Wie du siehst, ist dies eine sehr einfache Folge,
+
+38
+00:02:14,430 --> 00:02:17,500
+weil du siehst, dass die erste Zahl einfach -1 ist
+
+39
+00:02:17,890 --> 00:02:19,890
+und dann ist die nächste Zahl 1
+
+40
+00:02:20,530 --> 00:02:25,100
+dann wieder -1 und wieder 1 und so weiter.
+
+41
+00:02:26,010 --> 00:02:29,000
+Wenn wir dies also auf der Zahlengeraden visualisieren wollen
+
+42
+00:02:29,150 --> 00:02:31,150
+würden wir bei -1 beginnen
+
+43
+00:02:31,350 --> 00:02:34,640
+und im nächsten Schritt springen wir dann auf 1.
+
+44
+00:02:35,470 --> 00:02:38,700
+Danach springen wir im nächsten Schritt wieder auf -1.
+
+45
+00:02:39,340 --> 00:02:43,000
+und dann wissen wir, dass wir diese ganze Prozedur ohne Ende fortsetzen.
+
+46
+00:02:43,650 --> 00:02:45,050
+Hier kannst du dich erinnern
+
+47
+00:02:45,060 --> 00:02:49,460
+Dies ist immer eine gute Möglichkeit, eine Folge auf der Zahlengeraden zu visualisieren.
+
+48
+00:02:49,990 --> 00:02:52,790
+Sie sehen also, dass die Folge Zeitschritte hat
+
+49
+00:02:52,800 --> 00:02:56,200
+wo wir bei jedem Zeitschritt eine Zahl auf der Zahlengeraden treffen.
+
+50
+00:02:57,030 --> 00:03:00,880
+Dies ist jedoch nicht die einzige Möglichkeit, eine Folge zu visualisieren
+
+51
+00:03:00,900 --> 00:03:03,970
+denn wir wissen bereits, dass es einfach eine Abbildung ist.
+
+52
+00:03:04,170 --> 00:03:07,800
+Man könnte also auch einfach den Graphen dieser Abbildung zeichnen.
+
+53
+00:03:08,530 --> 00:03:12,080
+Mit anderen Worten: Wir haben eine Menge in diesem Koordinatensystem,
+
+54
+00:03:12,090 --> 00:03:16,770
+aber denken Sie bitte daran, dass wir als Bereich nur die natürlichen Zahlen haben,
+
+55
+00:03:16,900 --> 00:03:19,150
+aber der Wertebereich sind die reellen Zahlen.
+
+56
+00:03:19,160 --> 00:03:22,020
+Auf der y-Achse finden wir also "R".
+
+57
+00:03:22,990 --> 00:03:26,990
+Wir erhalten also keine Linie in dieser Ebene. Wir erhalten nur Punkte.
+
+58
+00:03:27,040 --> 00:03:31,030
+Zum Beispiel für 1 finden wir -1. Also ein Punkt hier.
+
+59
+00:03:31,630 --> 00:03:36,420
+Das ist jetzt sehr wichtig. Wir haben -1 als Wert für diese Abbildung.
+
+60
+00:03:37,000 --> 00:03:42,329
+Auf dieselbe Weise haben wir 1 als Wert, wenn wir 2 in die Abbildung eingeben.
+
+61
+00:03:43,000 --> 00:03:47,500
+und dann können wir mit 3, 4, 5 und so weiter fortfahren.
+
+62
+00:03:47,700 --> 00:03:52,380
+Nun. Den Sprung, den wir vorher hatten, sehen wir jetzt hier, wenn wir nach rechts gehen.
+
+63
+00:03:53,010 --> 00:03:57,680
+In der Tat sind wir sehr daran interessiert, was mit den Werten dieser Folge passiert
+
+64
+00:03:57,700 --> 00:04:00,380
+wenn wir hier in der Zeile weitermachen.
+
+65
+00:04:00,880 --> 00:04:05,770
+Was passiert grob gesagt mit der Folge, wenn n ins Unendliche geht?
+
+66
+00:04:06,220 --> 00:04:09,200
+Wie du siehst, passiert bei diesem Beispiel nicht so viel,
+
+67
+00:04:09,210 --> 00:04:12,200
+denn wir springen immer noch zwischen -1 und 1.
+
+68
+00:04:13,030 --> 00:04:15,530
+Es spielt keine Rolle, wie groß unser n ist.
+
+69
+00:04:15,560 --> 00:04:17,620
+Der Sprung ist immer derselbe.
+
+70
+00:04:18,089 --> 00:04:21,300
+Betrachten wir aus diesem Grund ein anderes Beispiel.
+
+71
+00:04:22,000 --> 00:04:26,550
+Hier soll unsere Folge durch die Regel "1 über n" definiert werden.
+
+72
+00:04:27,750 --> 00:04:30,390
+Jetzt siehst du sofort, dass dies viel interessanter ist,
+
+73
+00:04:30,400 --> 00:04:32,400
+denn wir erhalten unterschiedliche Zahlen.
+
+74
+00:04:33,020 --> 00:04:38,000
+Die erste Zahl ist einfach 1, aber dann haben wir 1/2 und 1/3
+
+75
+00:04:38,280 --> 00:04:40,870
+und dann eine Menge verschiedener Brüche,
+
+76
+00:04:40,880 --> 00:04:43,920
+weil der Nenner größer und größer wird.
+
+77
+00:04:44,410 --> 00:04:48,000
+Nun können wir auch diese Folge als Graph visualisieren.
+
+78
+00:04:48,460 --> 00:04:50,750
+Da fangen wir einfach mit dem Wert 1 an.
+
+79
+00:04:50,770 --> 00:04:56,750
+Dann der Wert 1/2, 1/3, 1/4 und so weiter.
+
+80
+00:04:56,760 --> 00:05:01,000
+Hier passiert tatsächlich etwas, wenn wir größer und größer werden,
+
+81
+00:05:01,220 --> 00:05:04,700
+denn wir kommen immer näher an 0 heran.
+
+82
+00:05:05,010 --> 00:05:09,900
+und das ist es, was wir bald als den Grenzwert der Folge definieren werden.
+
+83
+00:05:10,100 --> 00:05:14,500
+Hier erkennen wir also, dass diese Folge so eine schöne Eigenschaft hat,
+
+84
+00:05:15,020 --> 00:05:18,700
+aber die Folge von vorher erfüllt diese Regel nicht.
+
+85
+00:05:19,490 --> 00:05:23,230
+Bevor wir jedoch den Grenzwert als eine Eigenschaft einer Folge definieren
+
+86
+00:05:23,260 --> 00:05:25,260
+Betrachten wir ein anderes Beispiel.
+
+87
+00:05:25,650 --> 00:05:29,730
+Hier möchte ich die Zahlen haben, die durch die Potenzen von 2 gegeben sind.
+
+88
+00:05:30,150 --> 00:05:35,000
+Mit anderen Worten, wir haben 2, 4, 8, 16 und so weiter.
+
+89
+00:05:36,030 --> 00:05:38,300
+Das ist natürlich eine sehr schöne Folge,
+
+90
+00:05:38,300 --> 00:05:42,130
+aber jetzt wollen wir sehen, was passiert, wenn wir n erhöhen
+
+91
+00:05:42,150 --> 00:05:44,050
+also größer und größer machen.
+
+92
+00:05:44,380 --> 00:05:49,170
+Dann siehst du, dass die Werte, die wir herausbekommen, auch immer größer werden.
+
+93
+00:05:49,980 --> 00:05:53,240
+und in der Tat gibt es keine Obergrenze für die Mitglieder der Folge
+
+94
+00:05:53,260 --> 00:05:56,350
+Wir können also sagen, dass diese Grenze unendlich sein sollte.
+
+95
+00:05:56,920 --> 00:06:00,100
+Aber natürlich wissen wir nicht, was das genau bedeutet
+
+96
+00:06:00,110 --> 00:06:02,400
+also müssen wir das auch noch klären.
+
+97
+00:06:03,050 --> 00:06:06,350
+Um dies zu tun, springen wir zu unserer nächsten Definition.
+
+98
+00:06:07,130 --> 00:06:11,700
+Hier definieren wir den Begriff einer konvergenten Folge von reellen Zahlen.
+
+99
+00:06:12,270 --> 00:06:17,750
+Wir sagen, dass eine Folge "an" konvergent zu einer bestimmten Zahl "a" ist
+
+100
+00:06:17,780 --> 00:06:23,200
+wenn die Glieder der Folge "an" irgendwann beliebig nahe bei "a" liegen.
+
+101
+00:06:23,750 --> 00:06:25,990
+Bevor wir nun die formale Definition geben
+
+102
+00:06:26,000 --> 00:06:29,450
+Veranschaulichen wir diese Idee auf dem Zahlenstrahl.
+
+103
+00:06:29,660 --> 00:06:31,660
+Hier haben wir also den Punkt "a"
+
+104
+00:06:31,670 --> 00:06:34,670
+und in grün haben wir die Epsilon-Nachbarschaft von "a".
+
+105
+00:06:35,170 --> 00:06:38,100
+Das bedeutet, dass für eine gegebene positive Zahl epsilon
+
+106
+00:06:38,100 --> 00:06:43,000
+können wir uns die Zahlen "a + epsilon" und "a - epsilon" ansehen.
+
+107
+00:06:43,230 --> 00:06:47,650
+und die ganze Region in Grün nennen wir die "Epsilon-Nachbarschaft von a"
+
+108
+00:06:48,390 --> 00:06:51,600
+Bitte beachten Sie, dass "a" hier nicht mehr die Sequenz bezeichnet,
+
+109
+00:06:51,610 --> 00:06:53,000
+sondern einfach eine andere Zahl.
+
+110
+00:06:53,000 --> 00:06:54,600
+Dies ist nur eine übliche Schreibweise.
+
+111
+00:06:55,560 --> 00:06:59,460
+Wenn wir nun "a" als Grenzwert der Folge in einem gewissen Sinne haben wollen
+
+112
+00:06:59,480 --> 00:07:04,050
+müssen wir uns mit den Gliedern der Folge "a" immer weiter annähern.
+
+113
+00:07:04,140 --> 00:07:06,300
+Oder mit anderen Worten
+
+114
+00:07:06,300 --> 00:07:10,000
+müssen alle Folgenglieder in dieser Epsilon-Nachbarschaft von a liegen.
+
+115
+00:07:10,950 --> 00:07:13,450
+Nur endlich viele können außerhalb liegen.
+
+116
+00:07:14,270 --> 00:07:16,500
+Hier könnten wir zum Beispiel "a1" haben
+
+117
+00:07:16,550 --> 00:07:18,000
+und dort "a2",
+
+118
+00:07:18,510 --> 00:07:22,640
+aber irgendwann werden wir einen solchen Index "N" finden, dass
+
+119
+00:07:22,650 --> 00:07:27,100
+alle Sequenzmitglieder danach innerhalb der Epsilon-Nachbarschaft liegen.
+
+120
+00:07:27,970 --> 00:07:30,600
+Sie sollten also sehen, dass dies wirklich notwendig ist
+
+121
+00:07:30,600 --> 00:07:32,980
+wenn wir aus dem Satz einen Sinn machen wollen
+
+122
+00:07:32,990 --> 00:07:35,990
+"an" rückt immer näher an den Punkt "a" heran.
+
+123
+00:07:36,880 --> 00:07:39,130
+Formal würden wir also jetzt sagen
+
+124
+00:07:39,140 --> 00:07:46,040
+Es existiert ein "N", so dass für alle "n >= N"
+
+125
+00:07:46,140 --> 00:07:51,500
+haben wir, dass der Abstand "an" zu "a" kleiner als epsilon ist.
+
+126
+00:07:52,300 --> 00:07:55,400
+und diesen Abstand können wir mit dem Absolutwert messen.
+
+127
+00:07:56,150 --> 00:07:58,900
+Bitte beachten. Dies bedeutet genau dasselbe wie die Angabe
+
+128
+00:07:58,920 --> 00:08:01,620
+"an" liegt in der Epsilon-Nachbarschaft von a.
+
+129
+00:08:02,080 --> 00:08:04,080
+Hier sollten Sie jedoch sehen,
+
+130
+00:08:04,080 --> 00:08:10,070
+dies beschreibt nur die Konvergenz zum Punkt "a", wenn dies für jedes Epsilon funktioniert.
+
+131
+00:08:10,690 --> 00:08:14,580
+Egal, wie klein das Epsilon ist, es funktioniert immer.
+
+132
+00:08:15,000 --> 00:08:17,300
+Natürlich, wenn wir ein kleineres Epsilon wählen
+
+133
+00:08:17,350 --> 00:08:19,850
+müssen wir hier vielleicht ein größeres "N" wählen.
+
+134
+00:08:20,310 --> 00:08:22,000
+Letztendlich spielt das keine Rolle,
+
+135
+00:08:22,030 --> 00:08:27,020
+denn wir haben immer noch unendlich viele Folgenglieder innerhalb der Epsilon-Nachbarschaft
+
+136
+00:08:27,030 --> 00:08:29,220
+und nur endlich viele außerhalb.
+
+137
+00:08:29,980 --> 00:08:33,679
+und damit hat man die vollständige Definition von Konvergenz.
+
+138
+00:08:34,320 --> 00:08:38,100
+Das Gegenteil davon nennen wir einfach Divergenz.
+
+139
+00:08:38,820 --> 00:08:42,900
+In dem Fall finden wir also keinen solchen Grenzpunkt "a" mit der obigen Eigenschaft.
+
+140
+00:08:42,919 --> 00:08:45,100
+Wir nennen die Folge divergent.
+
+141
+00:08:45,650 --> 00:08:47,650
+Wir haben bereits 2 Beispiele gesehen,
+
+142
+00:08:47,660 --> 00:08:50,800
+wo es sehr offensichtlich ist, dass wir ein solches "a" nicht finden können.
+
+143
+00:08:51,380 --> 00:08:55,000
+Aber natürlich solltest du dafür einen korrekten Beweis aufschreiben.
+
+144
+00:08:55,750 --> 00:08:59,990
+Aber vielleicht ist es interessanter, zuerst unser positives Beispiel zu betrachten.
+
+145
+00:09:00,660 --> 00:09:05,500
+Oder mit anderen Worten. Die Folge 1/n ist konvergent zu 0.
+
+146
+00:09:06,220 --> 00:09:09,050
+Unser "a" von oben ist also jetzt einfach 0.
+
+147
+00:09:09,580 --> 00:09:13,400
+Wir haben bereits darüber gesprochen. Intuitiv macht das Sinn.
+
+148
+00:09:13,870 --> 00:09:17,870
+Aber jetzt können wir den formalen Beweis für diese Aussage aufschreiben.
+
+149
+00:09:18,550 --> 00:09:23,000
+Zunächst sollte man beachten, dass wir diese Aussage für alle epsilon zeigen müssen
+
+150
+00:09:23,020 --> 00:09:26,010
+müssen wir am Anfang ein beliebiges Epsilon wählen.
+
+151
+00:09:26,480 --> 00:09:28,480
+Der erste Satz sollte also lauten
+
+152
+00:09:28,510 --> 00:09:32,500
+Epsilon sei eine reelle Zahl, die größer als 0 ist.
+
+153
+00:09:32,990 --> 00:09:36,990
+und wir wissen auch schon, wie der letzte Satz des Beweises lauten muss.
+
+154
+00:09:37,790 --> 00:09:43,500
+Nämlich, dass wir haben, dass der Abstand "an" zu 0 in diesem Fall kleiner ist als epsilon.
+
+155
+00:09:43,970 --> 00:09:49,500
+und dies sollte für alle Indizes "n >= N" gelten.
+
+156
+00:09:50,460 --> 00:09:54,940
+Sie sehen also, dass das Einzige, was hier fehlt, die Definition von "N" ist
+
+157
+00:09:54,950 --> 00:09:57,880
+und die Berechnung, um zu diesem Ergebnis zu kommen.
+
+158
+00:09:58,300 --> 00:10:01,260
+Natürlich können wir hier schon einige Details ergänzen,
+
+159
+00:10:01,280 --> 00:10:03,570
+denn wir kennen die Reihenfolge "an".
+
+160
+00:10:04,210 --> 00:10:07,130
+Wenn man zuerst 0 subtrahiert, ändert sich nichts
+
+161
+00:10:07,150 --> 00:10:09,540
+Wir haben also den absoluten Wert von "an".
+
+162
+00:10:10,160 --> 00:10:13,150
+Das ist natürlich einfach 1/n.
+
+163
+00:10:13,730 --> 00:10:15,630
+An dieser Stelle solltest du sehen,
+
+164
+00:10:15,650 --> 00:10:20,640
+weil wir diese Ungleichung haben, haben wir die andere Ungleichung für die Kehrwerte
+
+165
+00:10:21,330 --> 00:10:26,330
+Oder einfach "1/n" ist kleiner oder gleich "1/N".
+
+166
+00:10:27,520 --> 00:10:29,520
+Ok. Damit haben wir jetzt die Berechnung ausgefüllt
+
+167
+00:10:30,280 --> 00:10:35,150
+und jetzt fehlt nur noch, dass 1/N tatsächlich kleiner als Epsilon ist.
+
+168
+00:10:36,030 --> 00:10:40,750
+Natürlich können wir "N" definieren wie wir wollen, also wählen wir es so groß,
+
+169
+00:10:40,750 --> 00:10:43,400
+dass "N" mal Epsilon größer als 1 ist.
+
+170
+00:10:44,080 --> 00:10:48,080
+Man muss sich also nur fragen, ob das wirklich möglich ist.
+
+171
+00:10:48,790 --> 00:10:50,480
+und die Antwort ist ja.
+
+172
+00:10:50,490 --> 00:10:54,090
+Das ist genau unsere archimedische Eigenschaft aus unseren Axiomen.
+
+173
+00:10:54,700 --> 00:10:58,940
+Es sagt uns nur, dass egal wie klein eine Zahl epsilon ist
+
+174
+00:10:58,940 --> 00:11:02,040
+wir können immer jede beliebige Zahl überschreiten.
+
+175
+00:11:02,420 --> 00:11:06,050
+Einfach indem man die Zahl endlich oft addiert.
+
+176
+00:11:06,630 --> 00:11:10,000
+Deshalb finden wir hier einfach ein passendes "N".
+
+177
+00:11:10,950 --> 00:11:14,880
+Damit können wir nun endlich den Beweis von links nach rechts lesen.
+
+178
+00:11:14,900 --> 00:11:16,350
+und alles ergibt einen Sinn.
+
+179
+00:11:16,830 --> 00:11:19,930
+und natürlich ist auch unsere Aussage bewiesen.
+
+180
+00:11:20,880 --> 00:11:26,300
+Ok. Hier hast du gesehen, wie dein Denkprozess aussehen sollte, wenn du ein solches Problem lösen willst.
+
+181
+00:11:26,370 --> 00:11:29,270
+Du beginnst mit den Dingen, die du einbauen musst
+
+182
+00:11:29,290 --> 00:11:31,800
+und den Dingen, die du am Ende zeigen willst.
+
+183
+00:11:32,390 --> 00:11:34,850
+und dann versucht man, alle Lücken zu füllen
+
+184
+00:11:34,910 --> 00:11:38,550
+so dass man es am Ende von links nach rechts lesen kann.
+
+185
+00:11:39,120 --> 00:11:42,550
+Das bedeutet, dass man manchmal die Dinge ein wenig verschieben muss
+
+186
+00:11:42,570 --> 00:11:44,570
+um am Ende das gewünschte Ergebnis zu erhalten.
+
+187
+00:11:45,000 --> 00:11:46,900
+Ok. Ich denke, das ist gut genug für heute.
+
+188
+00:11:46,900 --> 00:11:48,640
+Ich hoffe, ich sehe dich im nächsten Video,
+
+189
+00:11:48,660 --> 00:11:52,000
+wenn wir über die Eigenschaften einer konvergenten Folge sprechen.
+
+190
+00:11:52,390 --> 00:11:55,380
+Also, einen schönen Tag und bis dann. Tschüss!
