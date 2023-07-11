@@ -1,0 +1,264 @@
+1
+00:00:00,271 --> 00:00:04,815
+Hello and welcome to the video course called Algebra.
+
+2
+00:00:05,015 --> 00:00:12,252
+This is a new video series here on the channel. Which nicely puts my other courses closer together.
+
+3
+00:00:12,800 --> 00:00:19,452
+Of course you might know that algebra is a huge part of mathematics and it can mean a lot of different things.
+
+4
+00:00:19,652 --> 00:00:25,866
+Therefore let me tell you that here we have an introduction to algebra in a video course.
+
+5
+00:00:26,271 --> 00:00:31,504
+So you don't need a lot of prerequisites here to understand the first videos.
+
+6
+00:00:31,704 --> 00:00:39,033
+However since this is a very abstract topic, I would say this is not one of the easiest courses I have.
+
+7
+00:00:39,233 --> 00:00:46,293
+Still you might know the topics we learn here are important and useful for other parts of mathematics.
+
+8
+00:00:46,771 --> 00:00:54,213
+Ok and here you see the only prerequisite we have is that you know the stuff in my "start learning mathematics" series.
+
+9
+00:00:54,729 --> 00:00:59,516
+In particular you should be familiar with the construction of the number sets,
+
+10
+00:01:00,000 --> 00:01:05,014
+because that's something we will immediately generalize in our algebra setting.
+
+11
+00:01:05,429 --> 00:01:13,417
+Ok, here you also see my other basic video courses are not required and are more or less on the same level.
+
+12
+00:01:13,617 --> 00:01:22,140
+However they are less abstract and therefore I would say it's still helpful to have some knowledge of calculus and linear algebra.
+
+13
+00:01:22,500 --> 00:01:28,072
+Indeed, this helps to understand why we even ask some questions in algebra,
+
+14
+00:01:28,700 --> 00:01:32,771
+but of course your personal taste could be completely different than mine.
+
+15
+00:01:32,886 --> 00:01:39,068
+Maybe you don't like this concrete level in calculus, but really like this abstract level in algebra.
+
+16
+00:01:39,586 --> 00:01:44,541
+In this case you did the correct choice watching this video series here
+
+17
+00:01:44,741 --> 00:01:50,322
+and this is a good point in the video to thank all the nice people, that made this video course possible.
+
+18
+00:01:50,929 --> 00:01:59,354
+As a supporter on Steady, on Patreon or here on YouTube, you make it possible that I can create a lot of math videos
+
+19
+00:02:00,000 --> 00:02:06,890
+and you might already know, as a reward you get PDF versions, quizzes and exercises for all the videos.
+
+20
+00:02:07,090 --> 00:02:13,996
+Ok, then the next question might be: "What can you expect of this video course about algebra, here?"
+
+21
+00:02:14,196 --> 00:02:19,108
+and indeed this is easy to answer, because I have a nice summary.
+
+22
+00:02:19,308 --> 00:02:24,710
+We will first talk about groups, then about rings and in the end about fields.
+
+23
+00:02:25,586 --> 00:02:28,943
+In fact you might already know all these concepts here,
+
+24
+00:02:29,021 --> 00:02:35,614
+because they were needed and defined when we constructed the number sets in the "start learning mathematics" series.
+
+25
+00:02:36,429 --> 00:02:42,657
+A very important example of a group would be the integers together with the addition.
+
+26
+00:02:43,257 --> 00:02:50,579
+So we need a set together with an operation and most crucially all the inverses have to lie in the set.
+
+27
+00:02:50,914 --> 00:02:57,155
+In other words we can generalize this concept of the integers and talk about an abstract group
+
+28
+00:02:57,355 --> 00:03:05,491
+and then it turns out that this new concept is more powerful and can do way more than just describing numbers.
+
+29
+00:03:05,691 --> 00:03:11,953
+Now, on the other hand the integers are also a good example for a so called ring.
+
+30
+00:03:12,153 --> 00:03:19,434
+There the integers need more structures. Namely besides the addition we also need the multiplication.
+
+31
+00:03:19,771 --> 00:03:23,709
+Hence a ring is just a set together with two operations.
+
+32
+00:03:23,909 --> 00:03:28,722
+Therefore for the one operation, we don't need all the inverses in the set.
+
+33
+00:03:28,922 --> 00:03:33,958
+In fact by having more inverses, we reach the concept of a field
+
+34
+00:03:34,429 --> 00:03:41,077
+and there the typical example would be the real numbers with all the calculation rules you know.
+
+35
+00:03:41,277 --> 00:03:48,759
+Therefore a field generalizes all these rich calculation rules we have for the real numbers in an abstract setting.
+
+36
+00:03:49,200 --> 00:03:58,665
+Ok and at this point I should tell you that in this video course we will learn that all these abstract concepts have nice applications
+
+37
+00:03:59,029 --> 00:04:02,594
+and they go beyond just calculating with numbers.
+
+38
+00:04:02,914 --> 00:04:10,557
+For example if you want to solve a Rubik's cube, it turns out that all the moves together form a group.
+
+39
+00:04:11,047 --> 00:04:15,869
+The crucial part here is that every move you can do can be reversed
+
+40
+00:04:16,486 --> 00:04:22,182
+and this guarantees that the Rubik's cube can be solved, if you started with a solved one.
+
+41
+00:04:22,757 --> 00:04:29,515
+However one interesting fact here I can tell you is that this group is not a commutative one.
+
+42
+00:04:30,157 --> 00:04:36,529
+This means in contrast to adding integers, here the order of operations matters.
+
+43
+00:04:36,729 --> 00:04:41,871
+Now, on the other hand we also get applications on a more abstract level.
+
+44
+00:04:42,071 --> 00:04:47,683
+In particular this whole algebra concept tells us about solutions of equations. 
+
+45
+00:04:48,329 --> 00:04:55,176
+For example you might want to have the real or complex solutions of this equation.
+
+46
+00:04:55,829 --> 00:04:59,617
+You see it's a polynomial equation with degree 5
+
+47
+00:04:59,817 --> 00:05:06,925
+and now with algebra we can show that we have at most 5 different solutions of this equation.
+
+48
+00:05:07,229 --> 00:05:17,002
+However our abstract algebra concepts here also show that we can not have a general solution formula for these solutions.
+
+49
+00:05:17,371 --> 00:05:26,236
+More precisely it means that the solutions can not be expressed by using the integers, roots and the basic calculation symbols.
+
+50
+00:05:26,436 --> 00:05:33,024
+This is something that is indeed possible, if the degree here is less or equal than 4.
+
+51
+00:05:33,486 --> 00:05:40,539
+However at degree 5 this breaks down, which algebra or more precisely Galois theory shows.
+
+52
+00:05:41,314 --> 00:05:47,971
+Now, in order to check this interesting fact let's put this particular equation into Wolfram Alpha
+
+53
+00:05:48,329 --> 00:05:55,405
+and there we see Wolfram Alpha is not able to give more than just an approximation of the solutions
+
+54
+00:05:55,871 --> 00:06:04,508
+and indeed we also see more. The graph of this polynomial is given here and we have only 3 real solutions.
+
+55
+00:06:05,143 --> 00:06:10,493
+The other 2 of the possible 5 are now found in the complex domain.
+
+56
+00:06:10,857 --> 00:06:18,959
+However, the result here is that for none of these complex solutions we have a formula that is expressed with roots.
+
+57
+00:06:19,543 --> 00:06:27,452
+Now, at this point you might criticize me and tell me that in Wolfram Alpha you find this button "exact forms",
+
+58
+00:06:28,143 --> 00:06:36,053
+but after pressing it, we still don't have a formula with just roots, because there are very complicated functions involved
+
+59
+00:06:36,329 --> 00:06:42,159
+and at this point it might be helpful to compare this to an equation with degree 4.
+
+60
+00:06:42,929 --> 00:06:46,516
+So let's change the power to 4 and let's see what we get.
+
+61
+00:06:47,414 --> 00:06:53,885
+Again we just get approximations, but now let's see what the exact forms are
+
+62
+00:06:54,371 --> 00:07:05,191
+and there you see, now we can use integers, roots of higher degree and just the basic calculation operations to formulate this solution
+
+63
+00:07:05,391 --> 00:07:11,250
+and indeed, this formula with roots works for each of the 4 solutions
+
+64
+00:07:12,043 --> 00:07:18,016
+and the reason why we have this nice fact, the Galois theory will tell us later,
+
+65
+00:07:18,216 --> 00:07:22,764
+but before we do that we will first start discussing groups.
+
+66
+00:07:23,129 --> 00:07:29,743
+So let's do that in the next video and I really hope that I see you there. Have a nice day and Bye.
+
