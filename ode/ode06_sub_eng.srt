@@ -1,0 +1,452 @@
+1
+00:00:00,429 --> 00:00:04,477
+Hello and welcome back to ODEs.
+
+2
+00:00:04,677 --> 00:00:09,930
+The video series where we talk about the theory of these equations and how to solve them.
+
+3
+00:00:10,571 --> 00:00:17,658
+Indeed in today's part 6 we will talk about the very important solving method called the separation of variables.
+
+4
+00:00:17,986 --> 00:00:25,249
+It tells us that we can solve a non-autonomous ODE, if we can separate the two variables
+
+5
+00:00:25,449 --> 00:00:31,238
+and it turns out that the whole procedure is very similar to the method of the last video.
+
+6
+00:00:31,438 --> 00:00:33,214
+However before we start
+
+7
+00:00:33,314 --> 00:00:39,696
+I really want to thank all the nice people who support this channel on Steady, here on YouTube, via PayPal or by other means
+
+8
+00:00:39,896 --> 00:00:46,342
+and please don't forget to download the PDF version and the quiz for this video with the link in the description.
+
+9
+00:00:46,700 --> 00:00:52,932
+Ok, then I would say let's immediately start by considering a non-autonomous ODE.
+
+10
+00:00:53,132 --> 00:00:56,929
+So you already know we consider explicit forms.
+
+11
+00:00:56,971 --> 00:01:05,635
+So we can write this ODE as x dot is equal to a function w, that has two variables as its input.
+
+12
+00:01:06,414 --> 00:01:11,343
+The one is the time variable t and the other one our function x
+
+13
+00:01:11,471 --> 00:01:19,343
+and now you know, if t is actually involved in this function w, then we speak of a non-autonomous ODE
+
+14
+00:01:19,643 --> 00:01:26,654
+and now the question for this method of today is: "can we separate both variables on the right-hand side?"
+
+15
+00:01:27,186 --> 00:01:32,543
+Now, what this question actually means I can immediately show you with an example.
+
+16
+00:01:32,829 --> 00:01:40,257
+Let's say we have x dot is equal to t^3 times the function x^2
+
+17
+00:01:40,874 --> 00:01:45,100
+Then in this case we have the separation of variables,
+
+18
+00:01:45,186 --> 00:01:52,023
+because we have a product where in one factor there are only t's and in the other factor there are only x's.
+
+19
+00:01:52,223 --> 00:01:59,372
+Of course this is not always possible, but if it is, we can solve this one-dimensional ODE
+
+20
+00:01:59,929 --> 00:02:04,684
+and the method we have for that we simply call separation of variables
+
+21
+00:02:04,943 --> 00:02:15,106
+and now you already know it's applicable if the ODE can be written as x dot is equal to g(t) times a function h(x)
+
+22
+00:02:15,486 --> 00:02:22,361
+and as you might recall from the last video we can state an ODE as an initial value problem.
+
+23
+00:02:22,561 --> 00:02:26,726
+This means that we search for solutions that satisfy a given value.
+
+24
+00:02:27,057 --> 00:02:33,932
+For example we could say at the point t_0 the solution should have the value x_0.
+
+25
+00:02:34,132 --> 00:02:41,500
+So now we actually choose a point in time t_0 and then we say it should have a given value at this point
+
+26
+00:02:42,700 --> 00:02:48,732
+and now please recall from the last video. This is exactly what we call an initial value problem.
+
+27
+00:02:48,932 --> 00:02:57,457
+Last time we have discussed that for an autonomous ODE and now we take a non-autonomous ODE of exactly this form.
+
+28
+00:02:58,029 --> 00:03:02,945
+So two functions g and h are involved and both should be continuous
+
+29
+00:03:03,557 --> 00:03:10,511
+and now I can tell you we will do exactly the same steps as in the last video, just with one small addition.
+
+30
+00:03:10,711 --> 00:03:17,553
+First let's immediately go to the interesting solutions. Where h(x_0) is not 0.
+
+31
+00:03:17,753 --> 00:03:25,952
+Otherwise you should see, there is a 0 here on the right-hand side and a constant function will be a solution immediately.
+
+32
+00:03:26,152 --> 00:03:31,065
+In other words this is actually the fun case, where we have something to do
+
+33
+00:03:31,386 --> 00:03:36,855
+and indeed the first thing we can do is to bring h(x) to the other side.
+
+34
+00:03:37,055 --> 00:03:42,504
+We know in a neighbourhood of x_0 we can divide by h(x).
+
+35
+00:03:43,300 --> 00:03:49,042
+Ok, then let's see what happens if we have a solution of this ODE and let's call it alpha
+
+36
+00:03:49,242 --> 00:03:53,037
+and you know t_0 should lie in this domain of definition.
+
+37
+00:03:53,437 --> 00:03:58,999
+This is a requirement of the solution t_0 should be inside this interval.
+
+38
+00:03:59,000 --> 00:04:06,483
+Moreover alpha should solve the initial value condition. So alpha at t_0 should be equal to x_0.
+
+39
+00:04:07,283 --> 00:04:12,339
+In other words, here we can just write alpha instead of x in the ODE.
+
+40
+00:04:12,739 --> 00:04:20,050
+However instead of t I now want to write s. Simply because we want to do an integration again.
+
+41
+00:04:20,450 --> 00:04:25,229
+In other words the fundamental theorem of calculus comes into the game again.
+
+42
+00:04:25,929 --> 00:04:29,730
+This means here we just integrate on both sides
+
+43
+00:04:30,057 --> 00:04:34,696
+and indeed now we will integrate from t_0 to t.
+
+44
+00:04:35,114 --> 00:04:41,640
+This makes sense because t_0 was our fixed point in time and t is just an arbitrary point
+
+45
+00:04:42,129 --> 00:04:47,849
+and now you already know on the left-hand side here we can do a nice substitution.
+
+46
+00:04:48,429 --> 00:04:54,712
+Then the whole thing looks much easier, because we just have to integrate the function 1/h
+
+47
+00:04:55,214 --> 00:05:00,064
+and please don't forget the boundaries are now x_0 and alpha(t)
+
+48
+00:05:00,329 --> 00:05:08,765
+and then on the right-hand side of course nothing changes, but we see on both sides we need antiderivatives to solve the thing.
+
+49
+00:05:09,257 --> 00:05:19,638
+So let's use capital F for the antiderivative of 1/h. So for the one on the left-hand side and capital G for the one right-hand side
+
+50
+00:05:20,014 --> 00:05:25,557
+and at this point let's say it again. There the fundamental theorem of calculus is at work again
+
+51
+00:05:26,157 --> 00:05:34,014
+and indeed for this theorem it does not matter which antiderivative we choose, because they only differ by an additive constant
+
+52
+00:05:34,743 --> 00:05:40,979
+and in fact this helps us, because we can put these 2 constants here and there into a single one.
+
+53
+00:05:41,179 --> 00:05:48,091
+In other words we simply write F is equal to G + a constant c.
+
+54
+00:05:48,429 --> 00:05:51,552
+So in this equation here c could be any real number
+
+55
+00:05:52,229 --> 00:05:58,196
+and with that you see we have solved the problem. We simply have to take the inverse of F now
+
+56
+00:05:59,543 --> 00:06:02,390
+because then we have alpha of t on the left-hand side.
+
+57
+00:06:02,929 --> 00:06:05,443
+So maybe it looks a little bit complicated,
+
+58
+00:06:05,514 --> 00:06:11,857
+but what you should recognize is that the whole procedure here gives us the solution alpha(t)
+
+59
+00:06:12,008 --> 00:06:15,913
+and that's all. This is the method of separating variables.
+
+60
+00:06:16,214 --> 00:06:20,443
+However as I have told you in the last video, you don't have to memorize this formula,
+
+61
+00:06:20,554 --> 00:06:24,142
+because you just have to know what to do in an example
+
+62
+00:06:24,457 --> 00:06:28,610
+and that's exactly what I want to show you now.
+
+63
+00:06:29,000 --> 00:06:33,089
+So let's consider a very standard ODE. x dot is equal to x.
+
+64
+00:06:33,686 --> 00:06:38,338
+However now the factor in front of x should depend on t
+
+65
+00:06:38,538 --> 00:06:44,172
+and maybe let's look in the case that we have 1/3 times t^3
+
+66
+00:06:44,372 --> 00:06:50,365
+and moreover let's also write our initial value condition as x(0) is equal to x_0.
+
+67
+00:06:51,065 --> 00:06:58,138
+Ok and now you already know what you should do here is to rewrite x_0 as dx/dt.
+
+68
+00:06:58,538 --> 00:07:02,213
+We do that, because it helps separating the variables,
+
+69
+00:07:02,613 --> 00:07:08,447
+because now we can just informally multiply dt to the right-hand side
+
+70
+00:07:08,947 --> 00:07:13,894
+and moreover we can also bring x to the left-hand side by dividing by x.
+
+71
+00:07:13,895 --> 00:07:19,203
+So then it looks strange like that, but then we can just integrate on both sides
+
+72
+00:07:19,514 --> 00:07:25,438
+and now you know this is just a short notation for the antiderivatives we have discussed before.
+
+73
+00:07:25,871 --> 00:07:33,675
+So indeed everything is correct here and we can just use an antiderivative on the left-hand side and one on the right-hand side
+
+74
+00:07:34,075 --> 00:07:39,248
+and there you should know, we have the natural logarithm of the absolute value of x on the left-hand side
+
+75
+00:07:39,971 --> 00:07:48,889
+and 1/12 times t^4 on the right-hand side and please NEVER forget to add the constant in this step here
+
+76
+00:07:49,089 --> 00:07:56,581
+and moreover at this point you should see this is definitely correct, because it's exactly this formula here in a general case.
+
+77
+00:07:57,171 --> 00:08:02,386
+However what I want to tell you here is that you don't need to remember this formula at all,
+
+78
+00:08:02,500 --> 00:08:06,008
+because you just need to remember these calculation steps.
+
+79
+00:08:06,308 --> 00:08:11,507
+I think that's much easier, because it's a natural calculation anyway.
+
+80
+00:08:12,043 --> 00:08:18,508
+Ok, then in the next step let's use the inverse function of the natural logarithm. Which is the exponential function
+
+81
+00:08:18,586 --> 00:08:24,425
+and moreover let's also write alpha(t) instead of x to denote our solution
+
+82
+00:08:25,100 --> 00:08:30,436
+and then we see this exponential function here is the absolute value of our solution.
+
+83
+00:08:31,036 --> 00:08:36,245
+Hence in the last step here we just have to satisfy the initial value condition.
+
+84
+00:08:36,645 --> 00:08:41,030
+In other words we have to find the correct value of our constant c.
+
+85
+00:08:41,530 --> 00:08:48,042
+So we do that and then it turns out that we have the exponential function with the factor x_0 in front of it
+
+86
+00:08:48,943 --> 00:08:53,409
+and there we have it. This is the solution of the initial value problem given here
+
+87
+00:08:54,157 --> 00:08:59,745
+and you see we have done the separation of variables exactly in this step here.
+
+88
+00:09:00,271 --> 00:09:04,739
+Ok now in order to close this video, let's look at another example.
+
+89
+00:09:05,357 --> 00:09:11,426
+Now, let's take x dot is equal to sin(t) times e^x.
+
+90
+00:09:11,826 --> 00:09:18,626
+So in fact it's more complicated than before, but we also recognize that the 2 variables are separated.
+
+91
+00:09:19,157 --> 00:09:23,813
+In other words we should be able to do our informal step here again.
+
+92
+00:09:24,113 --> 00:09:30,949
+So we have dx divided by e^x is equal to sin(t) dt
+
+93
+00:09:31,249 --> 00:09:36,318
+and then you already know we write the integration symbols and go to the antiderivatives.
+
+94
+00:09:37,019 --> 00:09:40,915
+So on the left-hand side we have -e to the power -x
+
+95
+00:09:41,371 --> 00:09:44,972
+and on the right-hand side we have -cos(t)
+
+96
+00:09:45,872 --> 00:09:49,767
+and again please don't forget to add our constant c here
+
+97
+00:09:50,157 --> 00:09:56,283
+and then in the next step we just have to find the inverses again to find our solution x
+
+98
+00:09:56,680 --> 00:10:01,237
+or to say it in better terms: to find our solution alpha(t)
+
+99
+00:10:01,537 --> 00:10:07,978
+and for that we get - the natural logarithm of cos(t) - our constant c
+
+100
+00:10:08,778 --> 00:10:13,599
+and there I can tell you. Sometimes it's helpful to change the constant by a factor.
+
+101
+00:10:14,043 --> 00:10:17,853
+So in other words you simply introduce a new constant.
+
+102
+00:10:18,553 --> 00:10:22,217
+So we just change the name and then we don't have this annoying - sign there.
+
+103
+00:10:23,070 --> 00:10:30,189
+This is helpful, because now we want to find the correct constant in order to fulfill our initial value condition.
+
+104
+00:10:31,089 --> 00:10:35,846
+So we put in 0 in the left-hand side and this should be equal to x_0
+
+105
+00:10:35,847 --> 00:10:40,070
+and now we simply solve this equation for c tilde.
+
+106
+00:10:40,670 --> 00:10:45,515
+Now, since the cos(0) is 1 we immediately have the solution here.
+
+107
+00:10:46,043 --> 00:10:49,630
+Namely, c tilde is given as an exponential function.
+
+108
+00:10:50,230 --> 00:10:57,730
+More precisely it's e to the power -x_0 and then we have to subtract the cos(0).
+
+109
+00:10:58,929 --> 00:11:04,799
+Ok and then you see, we put that in and then the whole initial value problem is solved
+
+110
+00:11:05,199 --> 00:11:10,799
+and with that you now know the method of separating variables to solve an ODE
+
+111
+00:11:10,999 --> 00:11:16,699
+and in the next video I will show you how you can solve so called linear ODEs.
+
+112
+00:11:17,099 --> 00:11:22,700
+These are also very common and therefore it's very important to know how to solve them
+
+113
+00:11:23,099 --> 00:11:28,200
+and with that I really hope that I see you in the next video. Have a nice day and bye bye!
+
