@@ -1,0 +1,484 @@
+1
+00:00:00,386 --> 00:00:04,224
+Hello and welcome to abstract linear algebra.
+
+2
+00:00:04,314 --> 00:00:07,972
+The video course that extends my other linear algebra course.
+
+3
+00:00:08,514 --> 00:00:16,307
+and before we start, as always I want to give a big thank you to all supporters on Steady, here on YouTube or on Patreon.
+
+4
+00:00:16,507 --> 00:00:21,280
+You make it possible that I can create such videos about mathematics
+
+5
+00:00:21,480 --> 00:00:27,660
+and there you should know as a supporter, you can download PDF versions and quizzes for all the videos.
+
+6
+00:00:28,186 --> 00:00:34,436
+Ok, then let's immediately start with this new series by telling you about the prerequisites you need.
+
+7
+00:00:34,636 --> 00:00:41,144
+As always my "start learning mathematics" course gives you a good foundation for all my other courses.
+
+8
+00:00:41,571 --> 00:00:47,736
+This is what you need, when you want to know how to work with sets and how to construct the numbers sets
+
+9
+00:00:48,229 --> 00:00:54,901
+and based on that knowledge you can immediately go to my "linear algebra" course or to my "real analysis" course
+
+10
+00:00:55,101 --> 00:01:03,185
+and know it might not surprise you that watching my "linear algebra" course really helps understanding this "abstract linear algebra" course.
+
+11
+00:01:03,657 --> 00:01:11,467
+However you don't need the full knowledge of this concrete linear algebra course to understand our new abstract linear algebra course,
+
+12
+00:01:11,857 --> 00:01:19,809
+but you need the core concepts from calculating in R^n and C^n to get the idea how to generalize these.
+
+13
+00:01:20,414 --> 00:01:28,671
+Moreover it also helps to have some knowledge of real analysis such that you can understand some abstract examples here.
+
+14
+00:01:29,043 --> 00:01:36,067
+Ok, after this I think I can give you a short overview of what to expect in this video series here.
+
+15
+00:01:36,457 --> 00:01:42,840
+In some sense you can say, we will generalize everything we already know from R^n and C^n.
+
+16
+00:01:43,040 --> 00:01:48,342
+This means from now on we will work in general or abstract vector spaces
+
+17
+00:01:48,542 --> 00:01:54,552
+and then R^n or C^n are just some special examples for vector spaces.
+
+18
+00:01:54,752 --> 00:01:59,510
+Moreover in the same sense we can also generalize matrices.
+
+19
+00:01:59,710 --> 00:02:07,865
+So you should already know, matrices are related to linear maps and here we will define abstract, general linear maps.
+
+20
+00:02:08,571 --> 00:02:16,104
+Therefore one important topic here is if we can still use matrices to calculate with such linear maps
+
+21
+00:02:16,304 --> 00:02:21,112
+and related to this is an important concept we call change of basis.
+
+22
+00:02:21,312 --> 00:02:29,734
+Indeed, we can define the notion basis for an abstract vector space and then the question is: "what happens when we change it?"
+
+23
+00:02:29,934 --> 00:02:37,624
+In fact we already discussed it a little bit in the old course, but now we can discuss it in all generality.
+
+24
+00:02:37,824 --> 00:02:43,379
+Also on an abstract level we will talk about angles and lengths
+
+25
+00:02:43,579 --> 00:02:49,720
+and there you might already know, in order to do that we need the concept of a general inner product.
+
+26
+00:02:50,029 --> 00:02:57,458
+There we will see that with an inner product we have much more geometry in such an abstract vector space.
+
+27
+00:02:57,658 --> 00:03:04,294
+In fact we need the inner product such that we can say that 2 objects are orthogonal to each other
+
+28
+00:03:04,494 --> 00:03:09,106
+and we will see that we have a lot of important applications for that.
+
+29
+00:03:09,306 --> 00:03:14,637
+Ok and now the last topic I want to drop here is the one about eigenvalues.
+
+30
+00:03:14,957 --> 00:03:22,717
+There you might already know eigenvalues for matrices and now we can translate this to general linear maps.
+
+31
+00:03:22,917 --> 00:03:31,335
+Ok, so in summary we can say, what we will do is that we generalize all the notions we already know from the concrete level.
+
+32
+00:03:31,414 --> 00:03:39,737
+Moreover I would say after doing that, you will see why linear algebra is such a powerful tool in all parts of mathematics
+
+33
+00:03:40,329 --> 00:03:45,248
+and then I would say let's start with the first definition of this course
+
+34
+00:03:45,743 --> 00:03:50,067
+and this is not so surprising. This will be the definition of a vector space
+
+35
+00:03:50,543 --> 00:03:58,558
+and in order to understand this definition, just imagine what we already know from the vector spaces R^n and C^n.
+
+36
+00:03:58,758 --> 00:04:03,023
+In fact these are vector spaces, because of 2 operations.
+
+37
+00:04:03,071 --> 00:04:06,317
+First we know that we can add 2 vectors
+
+38
+00:04:06,517 --> 00:04:11,939
+and as always we can visualize this operation by putting the arrows together
+
+39
+00:04:12,139 --> 00:04:17,166
+and moreover the second operation is that we can scale a vector
+
+40
+00:04:17,366 --> 00:04:22,279
+and with that we have exactly what we want. We want to calculate with vectors.
+
+41
+00:04:22,479 --> 00:04:25,959
+Namely we want to add them and we want to scale them.
+
+42
+00:04:26,159 --> 00:04:30,033
+So we need vector addition and scalar multiplication
+
+43
+00:04:30,233 --> 00:04:36,431
+and here please don't forget for the second operation here, we need scalars as scaling factors
+
+44
+00:04:36,843 --> 00:04:41,406
+and in fact they always have to come from a so called field
+
+45
+00:04:41,606 --> 00:04:49,723
+and of course for R^n or C^n this is not so complicated, because they come either from the real number line or from the complex plane
+
+46
+00:04:49,923 --> 00:04:57,438
+and there you should know both are fields, so you can calculate in them with the normal calculation rules for numbers.
+
+47
+00:04:57,638 --> 00:05:01,757
+In particular you know how to add numbers. You can multiply them.
+
+48
+00:05:01,814 --> 00:05:07,785
+We have a neutral element with respect to the addition and another one with respect to the multiplication and so on
+
+49
+00:05:08,314 --> 00:05:13,177
+and more details about that, you find in my "start learning numbers" series.
+
+50
+00:05:13,543 --> 00:05:20,540
+The important fact here is just that we need ordinary numbers, for the scaling factors in our vector space.
+
+51
+00:05:21,043 --> 00:05:27,415
+Ok, but now we just want to put these 2 operations in the definition of a vector space.
+
+52
+00:05:27,615 --> 00:05:36,484
+In other words we will take a set V such that we can calculate with the elements in it as we calculate in R^n or C^n.
+
+53
+00:05:36,586 --> 00:05:41,778
+Therefore the first thing we want to fix here is a field F.
+
+54
+00:05:41,978 --> 00:05:48,952
+This now could be any field, but often it's either the real number line or the complex plane again.
+
+55
+00:05:49,152 --> 00:05:53,665
+Of course the choice of the field definitely depends on which problem you want to takle,
+
+56
+00:05:53,865 --> 00:05:57,485
+but for the moment it's enough to think of R or C.
+
+57
+00:05:57,914 --> 00:06:03,207
+However now the vector space V can be any set that is not the empty set.
+
+58
+00:06:03,900 --> 00:06:08,666
+This is what you should immediately remember. A vector space can never be empty.
+
+59
+00:06:08,866 --> 00:06:15,463
+Ok and now by what we have said before, we know that we need exactly 2 operations for this set.
+
+60
+00:06:15,600 --> 00:06:19,757
+This simply means that we have 2 maps in the definition.
+
+61
+00:06:20,098 --> 00:06:25,134
+The first one is the vector addition we usually denote with a plus sign.
+
+62
+00:06:25,334 --> 00:06:29,093
+However, please don't forget, this is now an abstract plus sign.
+
+63
+00:06:29,529 --> 00:06:34,269
+So definitely operation than the addition in R or C.
+
+64
+00:06:34,469 --> 00:06:40,451
+So now we know, the vector addition needs 2 inputs. Namely 2 vectors from V
+
+65
+00:06:40,971 --> 00:06:44,774
+and then the output should be again a vector in V.
+
+66
+00:06:45,186 --> 00:06:49,610
+So not so fancy. 2 vectors together gives us a new vector.
+
+67
+00:06:49,957 --> 00:06:54,568
+Moreover on the other hand we also have the scalar multiplication
+
+68
+00:06:55,086 --> 00:06:59,107
+and maybe not so surprising this one we will denote with a dot.
+
+69
+00:06:59,857 --> 00:07:03,515
+However again here it's an abstract multiplication sign.
+
+70
+00:07:04,057 --> 00:07:10,362
+So here again we have 2 inputs, but the first one is now the field.
+
+71
+00:07:10,562 --> 00:07:15,336
+Namely we put in one scalar and one vector from V
+
+72
+00:07:15,536 --> 00:07:20,211
+and not so surprising, what should come out is a vector in V again.
+
+73
+00:07:20,529 --> 00:07:27,024
+Now you should see, we immediately know examples for these operations when you look at R^n or C^n.
+
+74
+00:07:27,224 --> 00:07:33,640
+However from these examples we know that the 2 operations also fulfill some rules.
+
+75
+00:07:33,840 --> 00:07:39,225
+Indeed, if we put them together, we see we need exactly 8 rules.
+
+76
+00:07:39,425 --> 00:07:45,336
+In other words, if these rules are satisfied, we can call V a vector space.
+
+77
+00:07:45,536 --> 00:07:49,494
+More precisely we will call it a F vector space.
+
+78
+00:07:50,286 --> 00:07:56,147
+So here please don't forget, the corresponding field for the scalars is included in the definition.
+
+79
+00:07:56,347 --> 00:08:03,080
+So for example if the corresponding field is given by the real numbers, you would say we have a real vector space
+
+80
+00:08:03,280 --> 00:08:10,311
+and as I said before at least in this course real and complex vector spaces are the most important ones.
+
+81
+00:08:10,971 --> 00:08:16,735
+Ok, but now as you might expect it is time to list the 8 rules we need.
+
+82
+00:08:17,129 --> 00:08:26,553
+Indeed, the first 4 we can already put together, by just saying that V together with the vector addition is a so called abelian group.
+
+83
+00:08:26,753 --> 00:08:33,644
+This means we have the 3 group axioms and in addition the operation is also commutative.
+
+84
+00:08:34,071 --> 00:08:38,741
+More precisely the first property of the group is associativity.
+
+85
+00:08:38,941 --> 00:08:46,080
+This means if we take elements u, v, w from V, we can exchange the parentheses like that.
+
+86
+00:08:46,280 --> 00:08:53,865
+Ok, moreover you might also know the second rule is that we have a neutral element with respect to the addition.
+
+87
+00:08:54,065 --> 00:08:58,977
+Of course this is then what we call the 0 vector in our abstract vector space
+
+88
+00:08:59,177 --> 00:09:04,891
+and then with respect to this neutral element we also find inverse elements.
+
+89
+00:09:05,571 --> 00:09:14,109
+More precisely it means that for each lower case v in our vector space V, we find another vector we call -v
+
+90
+00:09:14,171 --> 00:09:17,425
+such that the addition gives us the 0 vector.
+
+91
+00:09:17,625 --> 00:09:24,242
+So the requirement here is that all the inverses with respect to addition also lie in our set V.
+
+92
+00:09:24,943 --> 00:09:30,718
+Ok and then the last rule I already told you about. It simply means that the addition is commutative.
+
+93
+00:09:30,918 --> 00:09:35,717
+Hence it does not matter in which order we add up 2 vectors.
+
+94
+00:09:36,229 --> 00:09:41,996
+Ok, then let's go to the next 2 rules, which concerns the scalar multiplication
+
+95
+00:09:42,529 --> 00:09:48,028
+and we can summarize them by saying that the scalar multiplication is compatible
+
+96
+00:09:48,386 --> 00:09:52,600
+and first that means the scalar multiplication acts nicely
+
+97
+00:09:52,714 --> 00:09:57,200
+when we put it together with the multiplication we already know from our field.
+
+98
+00:09:57,400 --> 00:10:05,113
+So you should see, here on the left-hand side we scale the vector v 2 times, but on the right-hand side we only scale it once.
+
+99
+00:10:05,714 --> 00:10:09,643
+However the claim here is that the result should be the same vector.
+
+100
+00:10:09,740 --> 00:10:14,036
+Which means you can multiply the scalars beforehand.
+
+101
+00:10:14,236 --> 00:10:19,491
+So it means the scalar multiplication is compatible with the other multiplication
+
+102
+00:10:19,691 --> 00:10:22,886
+and moreover the second rule here tells us
+
+103
+00:10:22,971 --> 00:10:29,123
+that the multiplicative unit from our field is also compatible with this scalar multiplication.
+
+104
+00:10:29,323 --> 00:10:34,667
+So if you multiply with the scalar 1, you don't change the vector v at all.
+
+105
+00:10:34,867 --> 00:10:38,749
+Ok and now we exactly need 2 rules more.
+
+106
+00:10:38,949 --> 00:10:44,149
+Also these can be put together as we simply speak of distributive laws
+
+107
+00:10:44,349 --> 00:10:51,113
+and of course they are essential, because they connect the scalar multiplication with the vector addition.
+
+108
+00:10:51,313 --> 00:10:59,132
+So for example, here it means scaling the result of a vector addition is the same as adding the two scaled vectors
+
+109
+00:10:59,714 --> 00:11:07,600
+and on the other hand if we first add 2 scalars in our field F, it's the same as adding the scaled vectors.
+
+110
+00:11:08,114 --> 00:11:14,368
+So you see, here it's important to note that the two plus signs denote two different operations.
+
+111
+00:11:14,814 --> 00:11:22,740
+However, now we have learned that the rules of the vector space claim that the two different operations act nicely together.
+
+112
+00:11:22,940 --> 00:11:25,854
+Ok, very nice. Now we have everything.
+
+113
+00:11:26,054 --> 00:11:29,618
+The result that we get here is an abstract vector space
+
+114
+00:11:30,186 --> 00:11:38,456
+and with these rules now, we can calculate inside this abstract vector space, as we already know it from R^n and C^n.
+
+115
+00:11:38,857 --> 00:11:45,678
+This means the visualization we have with these arrows also works in this abstract sense.
+
+116
+00:11:46,129 --> 00:11:52,974
+This means imagining vectors given as arrows always helps to remember these operations.
+
+117
+00:11:53,174 --> 00:11:58,586
+However, you should always keep in mind that the elements of a vector space are not arrows.
+
+118
+00:11:58,614 --> 00:12:01,057
+We only use them for the visualization.
+
+119
+00:12:01,571 --> 00:12:08,020
+Indeed, the elements of a vector space, so called vectors, could be now very abstract objects
+
+120
+00:12:08,629 --> 00:12:13,919
+and I can already promise you, in the next video we will see such nice examples.
+
+121
+00:12:14,119 --> 00:12:19,229
+Therefore I really hope we meet again and have a nice day. Bye bye!
+
