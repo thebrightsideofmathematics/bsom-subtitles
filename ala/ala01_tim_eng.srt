@@ -1,0 +1,8 @@
+Abstract Linear Algebra - Part 1 - Vector space
+
+00:00 Introduction
+00:28 Prerequisites 
+01:28 Overview 
+03:40 Definition of a vector space 
+05:56 Operations on vector spaces 
+08:10 8 Rules on these operations 
