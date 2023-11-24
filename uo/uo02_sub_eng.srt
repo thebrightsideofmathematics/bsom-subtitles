@@ -4,7 +4,7 @@ Hello and welcome back to unbounded operators.
 
 2
 00:00:04,151 --> 00:00:08,535
-The video series, where we takle some more topics of functional analysis
+The video series, where we tackle some more topics of functional analysis
 
 3
 00:00:08,735 --> 00:00:14,232
@@ -24,7 +24,7 @@ So you should know, it's just the linear map between 2 normed spaces, X and Y.
 
 7
 00:00:34,109 --> 00:00:40,194
-Moreover we also say it has a domain D(T) given by a subspace D.
+Moreover, we also say it has a domain D(T) given by a subspace D.
 
 8
 00:00:40,394 --> 00:00:45,321
