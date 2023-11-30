@@ -1,0 +1,400 @@
+1
+00:00:00,400 --> 00:00:04,243
+Hello and welcome back to unbounded operators.
+
+2
+00:00:04,300 --> 00:00:07,670
+The video series in the field of functional analysis
+
+3
+00:00:07,870 --> 00:00:12,646
+and in today's part 3 we will define so called closed operators.
+
+4
+00:00:13,100 --> 00:00:20,971
+Indeed it will turn out that these closed operators are related to the continuity property that bounded operators have.
+
+5
+00:00:21,300 --> 00:00:25,332
+So in some sense this is the generalization we want now.
+
+6
+00:00:25,532 --> 00:00:28,029
+However, you already know before we start
+
+7
+00:00:28,100 --> 00:00:33,916
+I first want to thank all the nice people who support this channel on Steady, here on YouTube or via Patreon
+
+8
+00:00:34,116 --> 00:00:41,419
+and please don't forget, you can also download quizzes and PDF versions for all the videos with the link in the description.
+
+9
+00:00:41,619 --> 00:00:46,370
+Ok, then let's start again by telling what we mean by an operator.
+
+10
+00:00:46,570 --> 00:00:54,217
+So an operator T is just a linear map between two normed spaces X and Y, but we can have a domain
+
+11
+00:00:54,417 --> 00:00:58,830
+and usually what we do is that we call this domain D(T).
+
+12
+00:00:59,030 --> 00:01:03,775
+So in general T is not defined on the whole normed space X,
+
+13
+00:01:03,975 --> 00:01:08,392
+but still, it has to be a linear mapping between the two spaces.
+
+14
+00:01:09,086 --> 00:01:15,474
+Ok and now since this is a well defined map, we can identify it with its graph
+
+15
+00:01:15,674 --> 00:01:21,787
+and this you might know. It's just a special subset in the Cartesian product X times Y.
+
+16
+00:01:22,200 --> 00:01:26,872
+This means we can simply sketch it into a coordinate system.
+
+17
+00:01:27,457 --> 00:01:31,510
+Hence in general you would sketch a graph like that.
+
+18
+00:01:31,710 --> 00:01:39,365
+However since we have a linear mapping here, we should also make it clear that we have a linear relation as a graph.
+
+19
+00:01:39,565 --> 00:01:42,460
+Moreover since we work in infinite dimensions,
+
+20
+00:01:42,660 --> 00:01:48,225
+in reality we would expect that the picture looks much more complicated than this line,
+
+21
+00:01:48,629 --> 00:01:55,457
+but still the general idea here of this set given by this graph of T still holds.
+
+22
+00:01:55,657 --> 00:02:01,101
+Ok, then let's give this set a short name. Let's call it G index T
+
+23
+00:02:01,301 --> 00:02:05,842
+and now we can define it as a subset of X times Y.
+
+24
+00:02:06,429 --> 00:02:12,366
+This means we just have to write down what one point (x,y) has to fulfill.
+
+25
+00:02:12,566 --> 00:02:20,956
+First that x lies in the domain of T and second we need that Tx is equal to y.
+
+26
+00:02:21,156 --> 00:02:25,177
+So the image of our x is exactly the point y.
+
+27
+00:02:25,614 --> 00:02:31,464
+So not so surprising this is how in general we would define the graph of a map.
+
+28
+00:02:31,664 --> 00:02:38,429
+However here we have a little bit more, because this Cartesian product here is a normed space again.
+
+29
+00:02:38,629 --> 00:02:44,813
+Hence it's not just a set. It's a whole vector space, where we can also measure lengths
+
+30
+00:02:45,271 --> 00:02:49,750
+and at this point you should ask what is the corresponding norm here.
+
+31
+00:02:49,950 --> 00:02:54,515
+In other words what is the correct length of the pair (x,y)?
+
+32
+00:02:54,715 --> 00:03:01,591
+Indeed there are different possibilities to do that, but the common one is just to add two norms we already know.
+
+33
+00:03:01,791 --> 00:03:06,309
+So first take the norm of x and then add the norm of y
+
+34
+00:03:06,509 --> 00:03:11,429
+and now it's not hard to check at all, that this here defines a norm again.
+
+35
+00:03:12,057 --> 00:03:19,768
+Hence we always have a normed space with the Cartesian product, with X and Y are normed spaces from the beginning
+
+36
+00:03:19,968 --> 00:03:26,337
+and therefore you can say now in the graph of T we can also measure distances
+
+37
+00:03:26,537 --> 00:03:31,974
+or more precisely we can use all the topological terms we have for the graph of T.
+
+38
+00:03:32,174 --> 00:03:38,178
+In particular we can also check if the graph of T is a closed set
+
+39
+00:03:38,378 --> 00:03:44,593
+and that's exactly what we do now in order to define so called closed operators.
+
+40
+00:03:45,357 --> 00:03:54,358
+So you see we call T a closed operator if its graph is a closed set in the normed space X times Y.
+
+41
+00:03:54,558 --> 00:04:01,984
+So not a complicated definition at all, we just have to know what closed sets in normed spaces are
+
+42
+00:04:02,184 --> 00:04:06,924
+and the good thing is, we can assume that we already know a lot.
+
+43
+00:04:07,124 --> 00:04:13,882
+In particular we know that we can also work with sequences to define closed sets
+
+44
+00:04:14,082 --> 00:04:19,400
+and this means we immediately get an equivalent definition for a closed operator.
+
+45
+00:04:19,771 --> 00:04:26,066
+More precisely instead of working with a closed set, we can also work with sequences.
+
+46
+00:04:26,471 --> 00:04:32,946
+So, what we have to do is to take arbitrary sequence x_n inside the domain
+
+47
+00:04:33,146 --> 00:04:36,271
+and this one has to fulfill 2 properties.
+
+48
+00:04:36,471 --> 00:04:41,714
+So first it should be a convergent sequence in the normed space X.
+
+49
+00:04:42,414 --> 00:04:47,013
+This means it has a limit that lies in the space X.
+
+50
+00:04:47,213 --> 00:04:51,357
+So we don't have to assume that the limit lies in the domain
+
+51
+00:04:51,557 --> 00:04:57,559
+and second we assume that the sequence of the images is also convergent.
+
+52
+00:04:57,759 --> 00:05:03,185
+So Tx_n converges inside the space Y to a limit y
+
+53
+00:05:03,543 --> 00:05:10,486
+and now the claim is that for each sequence with these two properties we can conclude 2 other properties.
+
+54
+00:05:10,871 --> 00:05:16,241
+The first one is indeed this limit x lies in the domain of T
+
+55
+00:05:16,441 --> 00:05:22,758
+and this immediately implies that we are allowed to apply T to this x as well
+
+56
+00:05:22,958 --> 00:05:28,640
+and then we get the second property. This image is indeed equal to y.
+
+57
+00:05:28,929 --> 00:05:37,427
+So this sounds not so strange, but maybe at this point you can immediately compare this definition to the continuity definition.
+
+58
+00:05:37,886 --> 00:05:44,747
+Indeed, this is what I mentioned before. We want to use this definition as a substitute for the continuity.
+
+59
+00:05:45,229 --> 00:05:50,542
+This is because we already know, unbounded operators are not continuous.
+
+60
+00:05:50,886 --> 00:05:56,030
+Ok, now I thing we can also write down the proof for this statement from before.
+
+61
+00:05:56,357 --> 00:05:59,621
+So we want to improve the equivalence stated here
+
+62
+00:06:00,057 --> 00:06:06,824
+and in fact I already gave you the hint. Closed sets can be equivalently described by sequences.
+
+63
+00:06:07,600 --> 00:06:14,634
+So you should know, this works in general, in metric spaces. So in particular here in normed spaces.
+
+64
+00:06:15,300 --> 00:06:22,336
+So what you have to do is to take a sequence from the set and you have to assume that this one is convergent.
+
+65
+00:06:22,536 --> 00:06:29,191
+So please don't forget this means the sequence is convergent in our normed space X times Y.
+
+66
+00:06:29,471 --> 00:06:36,671
+So maybe here let's call the limit also z and the important thing is, it lies in X times Y,
+
+67
+00:06:36,871 --> 00:06:43,609
+because now the important conclusion here is that this z also lies in G_T.
+
+68
+00:06:43,809 --> 00:06:51,760
+So you should see, this is the general thing. Closed means you can not leave this set with sequence from inside
+
+69
+00:06:51,960 --> 00:06:58,796
+and this is indeed equivalent. All the boundary points already lie inside the set itself.
+
+70
+00:06:58,996 --> 00:07:04,852
+Ok, so this should not be a surprise and now we want to put this into the context of an operator.
+
+71
+00:07:05,052 --> 00:07:10,666
+So first instead of z_n we can already write what we know about the graph.
+
+72
+00:07:10,866 --> 00:07:15,887
+Namely that it always consists of a pair. (x_n, Tx_n).
+
+73
+00:07:16,243 --> 00:07:21,238
+So a sequence inside the graph of T always has this form.
+
+74
+00:07:21,438 --> 00:07:26,483
+Ok and now this sequence should converge to a point in our Cartesian product
+
+75
+00:07:27,257 --> 00:07:30,710
+and this limit we can just call (x,y).
+
+76
+00:07:30,910 --> 00:07:38,591
+Ok, but now this claim here tells us that this pair (x,y) also lies in the graph of T
+
+77
+00:07:38,791 --> 00:07:43,606
+and by the definition of the graph, this exactly means 2 things.
+
+78
+00:07:43,806 --> 00:07:47,087
+First our point x lies in the domain
+
+79
+00:07:47,287 --> 00:07:51,355
+and second Tx is exactly y
+
+80
+00:07:52,000 --> 00:07:56,281
+and there you should already see, this is exactly the conclusion in the claim above
+
+81
+00:07:56,481 --> 00:08:01,153
+and now the only difference here is the assumption from before.
+
+82
+00:08:01,353 --> 00:08:06,070
+However, now we can conclude by the definition of the norm in the Cartesian product
+
+83
+00:08:06,270 --> 00:08:11,324
+that this convergence here is nothing else then this convergence.
+
+84
+00:08:11,524 --> 00:08:18,477
+Indeed, you could say here, if you want to converge to the pair, you have to converge in each component
+
+85
+00:08:18,677 --> 00:08:23,818
+and converging with the two components is exactly what we have written here
+
+86
+00:08:24,018 --> 00:08:28,584
+and with that I would say the proof is good enough. We have this equivalence here
+
+87
+00:08:28,784 --> 00:08:36,281
+and I would say this sequence definition here is what you should always have in mind when you talk about closed operators
+
+88
+00:08:36,481 --> 00:08:41,359
+and then it's also no problem at all for you to show the following.
+
+89
+00:08:41,559 --> 00:08:44,902
+Namely let's consider a bounded operator.
+
+90
+00:08:45,186 --> 00:08:49,926
+In addition the domain of T should also be the whole space X.
+
+91
+00:08:50,126 --> 00:08:55,352
+So this is an operator like we had it in our functional analysis course before
+
+92
+00:08:55,714 --> 00:09:02,138
+and in fact the conclusion here is that such a standard bounded operator is a closed one.
+
+93
+00:09:02,338 --> 00:09:06,611
+So you should see, this closed operator notion is so important,
+
+94
+00:09:06,811 --> 00:09:13,395
+because it's our generalization from the bounded operators to the unbounded operators, as we wanted.
+
+95
+00:09:13,595 --> 00:09:20,156
+More precisely closed operators still have some nice properties the bounded operators had.
+
+96
+00:09:20,356 --> 00:09:24,811
+However the details for that is something for the next videos.
+
+97
+00:09:25,011 --> 00:09:27,613
+In particular we will look at examples,
+
+98
+00:09:27,813 --> 00:09:30,268
+we will talk about closable operators
+
+99
+00:09:30,468 --> 00:09:34,413
+and we will have a look at the so called closed graph theorem.
+
+100
+00:09:34,613 --> 00:09:39,271
+So I really hope we meet again and have a nice day. Bye-bye!
+
