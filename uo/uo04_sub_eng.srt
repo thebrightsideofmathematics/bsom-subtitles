@@ -1,0 +1,292 @@
+1
+00:00:00,286 --> 00:00:04,059
+Hello and welcome back to unbounded operators.
+
+2
+00:00:04,259 --> 00:00:07,716
+The video series in the topic of functional analysis
+
+3
+00:00:07,916 --> 00:00:12,987
+and in today's part 4 we will talk about so called closable operators.
+
+4
+00:00:13,187 --> 00:00:15,758
+However, before we start with the content
+
+5
+00:00:15,829 --> 00:00:21,980
+I first want to thank all the nice people who support this channel on Steady, here on YouTube or on Patreon
+
+6
+00:00:22,180 --> 00:00:28,969
+and as a reward for supporting me, you get additional material which you can find with the link in the description.
+
+7
+00:00:29,443 --> 00:00:35,130
+Ok, then let's start going into the topic by recalling what a closed operator is.
+
+8
+00:00:35,686 --> 00:00:40,392
+The common name is just T and we need two normed spaces X and Y
+
+9
+00:00:40,592 --> 00:00:45,832
+and now it's important to note that we also have a domain for the operator called D(T).
+
+10
+00:00:46,032 --> 00:00:50,986
+Indeed, this is a well defined linear subspace in the normed space X
+
+11
+00:00:51,486 --> 00:00:56,389
+and please don't forget, for us an operator is always a linear map
+
+12
+00:00:56,589 --> 00:01:03,261
+and now we speak of a closed operator if the graph of this linear map is a closed set.
+
+13
+00:01:03,461 --> 00:01:11,513
+More precisely we call the graph G_T and it should be a closed set inside the normed space X times Y.
+
+14
+00:01:12,200 --> 00:01:19,100
+Ok and now if you know some topology or if you know how to deal with closed sets in the metric space,
+
+15
+00:01:19,300 --> 00:01:23,542
+then you know each set is a subset of a closed set.
+
+16
+00:01:23,971 --> 00:01:31,064
+In other words if this set is not closed, we can always replace that with the closure of the set
+
+17
+00:01:31,486 --> 00:01:35,992
+and this fact leads us to so called closable operators.
+
+18
+00:01:36,700 --> 00:01:43,708
+So this is a more general term. Meaning that each closed operator is always also a closable operator.
+
+19
+00:01:44,357 --> 00:01:50,703
+However it's still a requirement. Not every operator is indeed a closable operator
+
+20
+00:01:51,143 --> 00:01:55,049
+and of course we immediately see that in the definition.
+
+21
+00:01:55,249 --> 00:02:01,568
+So what we do is that we take the graph G_T as before and then we form the closure of it
+
+22
+00:02:01,768 --> 00:02:06,498
+and please note in the case of a closed operator this doesn't change anything
+
+23
+00:02:06,698 --> 00:02:14,006
+and now what we want for a closable operator is that this new set here is also the graph of an operator.
+
+24
+00:02:14,206 --> 00:02:21,507
+This means by doing the closure in the space X times Y, we don't destroy the structure of a graph
+
+25
+00:02:22,029 --> 00:02:28,270
+and now in the case that this is a well defined graph, we call the operator T with an overline
+
+26
+00:02:28,557 --> 00:02:34,047
+and moreover we also call this operator the closure of the operator T
+
+27
+00:02:34,247 --> 00:02:39,411
+and of course by definition the closure of T is a closed operator.
+
+28
+00:02:39,957 --> 00:02:48,271
+Hence you can remember an operator is called closable, if the closure of the graph defines an operator as well.
+
+29
+00:02:48,471 --> 00:02:53,755
+So indeed, this is what we have here as the definition for the notion closable
+
+30
+00:02:54,071 --> 00:02:59,370
+and in the next step I want to reformulate that with the help of sequences.
+
+31
+00:02:59,971 --> 00:03:06,156
+In fact this is a similar thing we have already done for closed operators in the last video
+
+32
+00:03:06,686 --> 00:03:12,871
+and I can already tell you, this is a very helpful description you can use in proofs and examples.
+
+33
+00:03:13,357 --> 00:03:18,602
+You will see that very soon when we will discuss the first example of a closable operator,
+
+34
+00:03:19,329 --> 00:03:25,555
+but first let's see how we can use sequences to describe this property for describing the graph of T.
+
+35
+00:03:26,300 --> 00:03:31,572
+Therefore let's think what it means that the closure of T is a graph again.
+
+36
+00:03:31,772 --> 00:03:41,388
+So for example it's not possible that the pair (0,0) and the pair (0,y), both lie in this set
+
+37
+00:03:41,588 --> 00:03:47,571
+and of course what we mean is, it's not possible for a y that is not 0.
+
+38
+00:03:48,200 --> 00:03:55,841
+Indeed, you should see this is not possible for a well defined map, because one input gets two different outputs.
+
+39
+00:03:56,471 --> 00:04:04,819
+Moreover this description here already explains everything that could happen with the closure here, because T is a linear map.
+
+40
+00:04:05,200 --> 00:04:14,171
+Hence we already know that (0,0) lies in this set here and we could also choose any other point then 0 for the input,
+
+41
+00:04:14,229 --> 00:04:20,829
+because of the linearity or in other words, if we have this double problem here at any other point,
+
+42
+00:04:21,000 --> 00:04:24,345
+we can just translate it back to the input 0.
+
+43
+00:04:24,545 --> 00:04:30,274
+Therefore now we can write that being a graph here is equivalent to the fact:
+
+44
+00:04:30,786 --> 00:04:37,353
+if (0,y) lies in the closure of this graph, then y has to be 0 as well
+
+45
+00:04:37,800 --> 00:04:42,351
+and exactly this statement we can now describe with sequences.
+
+46
+00:04:42,686 --> 00:04:49,862
+So what you need to know is, that all the points in the closure we can approximate with points from G_T.
+
+47
+00:04:50,400 --> 00:04:57,190
+Therefore we would take any sequence x_n from the domain D(T) that converges to 0
+
+48
+00:04:57,914 --> 00:05:06,252
+Which already means that we want to approximate this 0 here and moreover we also want to approximate this y.
+
+49
+00:05:06,557 --> 00:05:11,509
+Hence Tx_n should converge to a fixed y in Y.
+
+50
+00:05:12,029 --> 00:05:19,975
+Ok, so this is the premise. We approximate this point from the inside and now the conclusion is that y has to be 0.
+
+51
+00:05:20,175 --> 00:05:25,157
+So this is exactly the same thing as before just written with sequences.
+
+52
+00:05:25,614 --> 00:05:33,543
+Ok and this is what you should remember. A closable operator is exactly characterized with this sequence property here.
+
+53
+00:05:34,143 --> 00:05:38,649
+Indeed, how you can check that, I will show you in an example soon.
+
+54
+00:05:38,986 --> 00:05:45,214
+However before we do that I first want to show you how we can define the closure as an operator now
+
+55
+00:05:45,900 --> 00:05:50,426
+and of course this now only works for a closable operator T
+
+56
+00:05:50,626 --> 00:05:57,616
+and for this definition we need 2 ingredients. First the domain and then the actual definition of T-bar.
+
+57
+00:05:58,457 --> 00:06:03,490
+Ok and now the domain consists all the points x in X that fulfill:
+
+58
+00:06:03,690 --> 00:06:08,219
+that first we can approximate them with points from D(T).
+
+59
+00:06:08,600 --> 00:06:17,720
+This means the sequence x_n here converges to the point x and in addition we also want that the images converge
+
+60
+00:06:18,329 --> 00:06:25,242
+and now we know by the property above that this limit here does not depend on which sequence we choose.
+
+61
+00:06:25,600 --> 00:06:31,003
+More precisely this limit here is uniquely given by the chosen x.
+
+62
+00:06:31,486 --> 00:06:37,680
+Hence this already explains how we can define the value T-bar_x.
+
+63
+00:06:38,314 --> 00:06:42,330
+So we just say, this is given by the limit from the right-hand side
+
+64
+00:06:42,900 --> 00:06:48,090
+and please don't forget, this is only possible because T was a closable operator.
+
+65
+00:06:48,471 --> 00:06:54,748
+Ok, so now what you see here is, we have a well defined operator called the closure of T
+
+66
+00:06:54,948 --> 00:06:59,887
+and moreover, you should see it's an extension of the original operator T
+
+67
+00:07:00,429 --> 00:07:05,548
+and you already know, the usual notation for that is with this subset notation.
+
+68
+00:07:06,157 --> 00:07:12,032
+This is not hard to see, because we just extend the domain here and increase the definition.
+
+69
+00:07:12,457 --> 00:07:20,995
+However the result here is that this T-bar is indeed the smallest possible extension with a closed operator.
+
+70
+00:07:21,429 --> 00:07:27,478
+So you could say this is another possible definition for the closure of a closable operator.
+
+71
+00:07:27,971 --> 00:07:33,671
+Ok, so now we know a lot about closable operators and we can look at an example.
+
+72
+00:07:33,886 --> 00:07:37,775
+However, I would say let's put that into the next video.
+
+73
+00:07:37,975 --> 00:07:41,848
+So I really hope we meet there again and have a nice day. Bye-bye
+
