@@ -1,0 +1,243 @@
+1
+00:00:00,560 --> 00:00:03,200
+Hello and welcome back to a new video.  
+
+2
+00:00:03,200 --> 00:00:07,760
+And as always I want to thank all the nice 
+people that support this channel on steady.  
+
+3
+00:00:08,560 --> 00:00:14,480
+The topic for today is functional analysis 
+because this is the one most of you voted for.  
+
+4
+00:00:15,680 --> 00:00:20,800
+Therefore now I have a whole serious planned to 
+get into the real interesting stuff concerning  
+
+5
+00:00:20,800 --> 00:00:27,280
+functional analysis. What you should know is 
+that functional analysis is a really wide field.  
+
+6
+00:00:28,160 --> 00:00:32,720
+However to get an idea what it is about 
+you can just look at these two blocks.  
+
+7
+00:00:33,760 --> 00:00:39,120
+On the one side you have the linear algebra and 
+on the other side you have the real or complex  
+
+8
+00:00:39,120 --> 00:00:46,000
+analysis. In a rough sense if you look at infinite 
+dimensional spaces in the linear algebra sense,  
+
+9
+00:00:47,120 --> 00:00:52,960
+and if you want to apply some analysis for these 
+spaces, then you are on the realm of functional  
+
+10
+00:00:52,960 --> 00:00:59,840
+analysis. Of course there's much more to it but 
+if you have some knowledge in linear algebra and  
+
+11
+00:00:59,840 --> 00:01:07,280
+analysis now you know what to expect. For example 
+here we consider spaces consisting of functions  
+
+12
+00:01:07,280 --> 00:01:12,880
+or of sequences and of course also 
+linear maps between such spaces.  
+
+13
+00:01:14,000 --> 00:01:19,280
+Because in this field we always combine 
+algebraic structures with analytic properties,  
+
+14
+00:01:19,280 --> 00:01:25,200
+one often summarizes functional analysis just by 
+saying: it's the study of topological algebraic  
+
+15
+00:01:25,200 --> 00:01:32,560
+structures. Don't worry what this exactly means 
+we will clear up in the next videos. However what  
+
+16
+00:01:32,560 --> 00:01:38,880
+you should see here is that topology plays a role 
+here and indeed it's not a bad idea to start with  
+
+17
+00:01:38,880 --> 00:01:44,560
+topology when dealing with functional analysis. 
+However that's not what I want to do here  
+
+18
+00:01:44,560 --> 00:01:50,080
+because I want to start with something that 
+is closer to a normal analysis course. And  
+
+19
+00:01:50,080 --> 00:01:57,440
+that is the structure we call a metric space. A 
+so-called metric space is not at all complicated:  
+
+20
+00:01:58,560 --> 00:02:06,720
+we start with a set X and we visualize that as a 
+collection of points. For example, in the set X  
+
+21
+00:02:06,720 --> 00:02:14,720
+we have a lowercase point x, so just an element 
+in our set and another element we can call y.  
+
+22
+00:02:16,160 --> 00:02:20,640
+If we just consider a set, we can't say 
+anything about these points other than:  
+
+23
+00:02:20,640 --> 00:02:25,600
+they are equal or not. So there are different 
+points but we don't know anything more than that.  
+
+24
+00:02:26,880 --> 00:02:30,240
+Now this is what we now want to 
+change: we want to give the set  
+
+25
+00:02:30,240 --> 00:02:37,440
+X more structure. In this case, we want to know 
+what the distance between two chosen points is.  
+
+26
+00:02:38,720 --> 00:02:43,360
+Now if we want such a distance then of course 
+it should fulfill some reasonable properties.  
+
+27
+00:02:44,560 --> 00:02:50,400
+For example, if we choose two distinct points, 
+then the distance should be always positive.  
+
+28
+00:02:51,680 --> 00:02:57,520
+Of course the distance could also be zero but 
+only in the case when x and y are the same point.  
+
+29
+00:02:58,720 --> 00:03:06,400
+In order to formalize that, we have to write down 
+a map. This map is called a metric and it measures  
+
+30
+00:03:06,400 --> 00:03:13,120
+distances and now it gets two points, so it lives 
+on the Cartesian product of X with X. And it  
+
+31
+00:03:13,120 --> 00:03:22,000
+maps into the non-negative real numbers, so zero 
+infinity, where zero is included. Now such a map  
+
+32
+00:03:22,000 --> 00:03:28,720
+we call a metric if it fulfills three properties. 
+And the first one we already know. If the distance  
+
+33
+00:03:28,720 --> 00:03:36,640
+between two points is exactly zero, then this 
+is only if and only the case if x is equal to y.  
+
+34
+00:03:37,760 --> 00:03:43,600
+The second property is also very descriptive. 
+So if we look again at two points x and y.  
+
+35
+00:03:44,720 --> 00:03:51,440
+And now we measure the distance from x to y. And 
+of course this should be the same as starting by y  
+
+36
+00:03:52,000 --> 00:03:58,320
+and going to x. So the distance from y to x 
+should be the same as the distance from x to y.  
+
+37
+00:03:59,440 --> 00:04:04,640
+This means for the map it is symmetric: it does 
+not matter which is the first and which is the  
+
+38
+00:04:04,640 --> 00:04:12,560
+second element. You get the same result. And now 
+the last property is very important it is called  
+
+39
+00:04:12,560 --> 00:04:19,680
+the triangle inequality. The name already tells 
+you now we consider three points instead of two,  
+
+40
+00:04:19,680 --> 00:04:27,840
+so there's a point z. Now we have a distance from 
+x to z, and also distance from z to y. Now the  
+
+41
+00:04:27,840 --> 00:04:35,760
+triangle inequality tells you if you go a detour, 
+then your distance gets longer. In other words if  
+
+42
+00:04:35,760 --> 00:04:43,760
+you add the gray length, then it gets longer than 
+the blue line here. In a formal way this means:  
+
+43
+00:04:43,760 --> 00:04:55,840
+d(x, y), the blue line, is less or equal 
+than distance x to z plus distance z to y.  
+
+44
+00:04:57,040 --> 00:05:01,440
+Now with such a map, we can now 
+measure all the distances in the set X.  
+
+45
+00:05:01,440 --> 00:05:08,720
+Therefore we call the set X with the metric 
+d a metric space. And you already know  
+
+46
+00:05:08,720 --> 00:05:15,120
+if we can measure distances, we can do a lot of 
+analytical stuff. And this is what we will do  
+
+47
+00:05:15,120 --> 00:05:21,120
+in the next videos. So please use the comments 
+to tell me what you want to see in a functional  
+
+48
+00:05:21,120 --> 00:05:37,840
+analysis course. So thanks for listening and 
+hopefully, I see you in the next videos. Bye!
+
+49
+00:05:58,400 --> 00:05:58,900
+you
+
