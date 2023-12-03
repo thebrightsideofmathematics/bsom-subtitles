@@ -1,0 +1,1164 @@
+1
+00:00:00,389 --> 00:00:01,970
+ Hello and welcome to
+
+2
+00:00:01,980 --> 00:00:03,569
+ start learning logic.
+
+3
+00:00:03,680 --> 00:00:05,369
+ And as always, many thanks
+
+4
+00:00:05,380 --> 00:00:06,530
+ to all the nice people that
+
+5
+00:00:06,539 --> 00:00:08,090
+ support this channel on Steady
+
+6
+00:00:08,100 --> 00:00:08,890
+ or paypal.
+
+7
+00:00:09,500 --> 00:00:10,800
+ This is part one where I
+
+8
+00:00:10,810 --> 00:00:12,090
+ want to show you the basic
+
+9
+00:00:12,100 --> 00:00:13,500
+ stuff you need to know about
+
+10
+00:00:13,510 --> 00:00:15,050
+ logic to understand
+
+11
+00:00:15,060 --> 00:00:15,770
+ mathematics.
+
+12
+00:00:16,459 --> 00:00:17,319
+ Therefore, we don't need
+
+13
+00:00:17,329 --> 00:00:18,639
+ to go into the details of
+
+14
+00:00:18,649 --> 00:00:20,370
+ the wide field of logic and
+
+15
+00:00:20,379 --> 00:00:21,309
+ formal logic.
+
+16
+00:00:21,770 --> 00:00:23,120
+ For us, it would be sufficient
+
+17
+00:00:23,129 --> 00:00:24,559
+ to understand logical
+
+18
+00:00:24,569 --> 00:00:26,520
+ statements and logical operations.
+
+19
+00:00:27,360 --> 00:00:28,649
+ Since a lot of people can
+
+20
+00:00:28,659 --> 00:00:30,590
+ correctly deal with the everyday
+
+21
+00:00:30,600 --> 00:00:32,520
+ logic on an intuitive level,
+
+22
+00:00:32,630 --> 00:00:34,310
+ this is often skipped when
+
+23
+00:00:34,319 --> 00:00:35,700
+ you start with mathematics.
+
+24
+00:00:36,189 --> 00:00:37,509
+ However, I think it's important
+
+25
+00:00:37,520 --> 00:00:39,130
+ to see that we have the logic
+
+26
+00:00:39,139 --> 00:00:40,830
+ as the foundation because
+
+27
+00:00:40,840 --> 00:00:42,619
+ we need to define everything
+
+28
+00:00:42,630 --> 00:00:44,110
+ in an unambiguous way in
+
+29
+00:00:44,119 --> 00:00:44,869
+ mathematics.
+
+30
+00:00:45,580 --> 00:00:46,919
+ Hence, for us, our starting
+
+31
+00:00:46,930 --> 00:00:48,319
+ point would be logical
+
+32
+00:00:48,330 --> 00:00:49,950
+ statements also called
+
+33
+00:00:49,959 --> 00:00:50,759
+ propositions.
+
+34
+00:00:51,509 --> 00:00:53,000
+ Now, such a proposition is
+
+35
+00:00:53,009 --> 00:00:54,700
+ just a statement which means
+
+36
+00:00:54,709 --> 00:00:56,159
+ a meaningful declarative
+
+37
+00:00:56,169 --> 00:00:57,400
+ sentence that has a
+
+38
+00:00:57,409 --> 00:00:59,000
+ well-defined truth value.
+
+39
+00:00:59,650 --> 00:01:01,560
+ So it can be either a true
+
+40
+00:01:01,569 --> 00:01:02,819
+ or a false statement.
+
+41
+00:01:03,540 --> 00:01:04,550
+ Therefore, when you take
+
+42
+00:01:04,559 --> 00:01:06,029
+ examples outside the
+
+43
+00:01:06,040 --> 00:01:07,410
+ mathematical world, you have
+
+44
+00:01:07,419 --> 00:01:09,029
+ to be careful what really
+
+45
+00:01:09,040 --> 00:01:10,550
+ satisfies this condition
+
+46
+00:01:10,559 --> 00:01:10,900
+ here.
+
+47
+00:01:11,480 --> 00:01:13,349
+ So you can't take any opinions
+
+48
+00:01:13,360 --> 00:01:14,860
+ or questions because a
+
+49
+00:01:14,870 --> 00:01:16,209
+ question does not have a
+
+50
+00:01:16,220 --> 00:01:17,750
+ well-defined truth value.
+
+51
+00:01:18,470 --> 00:01:18,860
+ OK.
+
+52
+00:01:18,870 --> 00:01:20,529
+ Then let's look at some examples
+
+53
+00:01:20,540 --> 00:01:21,690
+ where you should always keep
+
+54
+00:01:21,699 --> 00:01:23,069
+ in mind that we first have
+
+55
+00:01:23,080 --> 00:01:24,809
+ to agree on some definitions
+
+56
+00:01:24,819 --> 00:01:26,309
+ such that the examples make
+
+57
+00:01:26,319 --> 00:01:26,690
+ sense.
+
+58
+00:01:27,480 --> 00:01:29,459
+ So here Mars is a planet
+
+59
+00:01:29,470 --> 00:01:30,900
+ is a logical statement.
+
+60
+00:01:31,010 --> 00:01:32,699
+ When we know what object
+
+61
+00:01:32,709 --> 00:01:34,440
+ we call Mars and what a
+
+62
+00:01:34,449 --> 00:01:35,779
+ planet is by definition.
+
+63
+00:01:36,419 --> 00:01:38,110
+ Then this logical statement
+
+64
+00:01:38,120 --> 00:01:39,379
+ is indeed true.
+
+65
+00:01:40,169 --> 00:01:41,709
+ In this way, we can also
+
+66
+00:01:41,720 --> 00:01:43,489
+ formulate the sentence Pluto
+
+67
+00:01:43,500 --> 00:01:44,879
+ is a planet which is by the
+
+68
+00:01:44,889 --> 00:01:46,830
+ same agreement also a logical
+
+69
+00:01:46,839 --> 00:01:47,430
+ statement.
+
+70
+00:01:47,900 --> 00:01:49,489
+ However, this one now has
+
+71
+00:01:49,500 --> 00:01:51,069
+ the truth value false.
+
+72
+00:01:51,790 --> 00:01:53,440
+ So you see such real world
+
+73
+00:01:53,449 --> 00:01:54,849
+ examples can really help
+
+74
+00:01:54,860 --> 00:01:56,290
+ to understand the concepts.
+
+75
+00:01:56,449 --> 00:01:57,940
+ But of course, they can lead
+
+76
+00:01:57,949 --> 00:01:59,169
+ to some discussions.
+
+77
+00:02:00,010 --> 00:02:01,750
+ Therefore, I prefer examples
+
+78
+00:02:01,760 --> 00:02:03,419
+ in mathematics because they
+
+79
+00:02:03,430 --> 00:02:05,069
+ are all definitions are given.
+
+80
+00:02:05,080 --> 00:02:06,510
+ For example, we could choose
+
+81
+00:02:06,519 --> 00:02:08,360
+ the sentence one plus
+
+82
+00:02:08,369 --> 00:02:10,270
+ one is equal to two.
+
+83
+00:02:11,250 --> 00:02:12,589
+ Of course, here you also
+
+84
+00:02:12,600 --> 00:02:13,979
+ have to know what the numbers
+
+85
+00:02:13,990 --> 00:02:15,250
+ mean, what the plus sign
+
+86
+00:02:15,259 --> 00:02:16,500
+ means and what the equality
+
+87
+00:02:16,509 --> 00:02:17,119
+ sign means.
+
+88
+00:02:17,880 --> 00:02:19,350
+ But if you know these things,
+
+89
+00:02:19,360 --> 00:02:20,740
+ you know, this is a true
+
+90
+00:02:20,750 --> 00:02:22,020
+ logical statement.
+
+91
+00:02:22,750 --> 00:02:24,490
+ Of course, such logical statements
+
+92
+00:02:24,500 --> 00:02:26,020
+ coming from mathematics can
+
+93
+00:02:26,029 --> 00:02:27,940
+ also be formulated with English
+
+94
+00:02:27,949 --> 00:02:28,440
+ words.
+
+95
+00:02:28,520 --> 00:02:30,300
+ For example, we could say
+
+96
+00:02:30,320 --> 00:02:31,919
+ the number five is smaller
+
+97
+00:02:31,929 --> 00:02:32,979
+ than the number two.
+
+98
+00:02:33,500 --> 00:02:34,940
+ So here we need only knowledge
+
+99
+00:02:34,949 --> 00:02:36,309
+ of the natural numbers and
+
+100
+00:02:36,320 --> 00:02:37,250
+ how they are ordered.
+
+101
+00:02:37,960 --> 00:02:39,710
+ Then you can say yes, this
+
+102
+00:02:39,720 --> 00:02:41,220
+ is also a logical statement,
+
+103
+00:02:41,320 --> 00:02:42,380
+ but it is false.
+
+104
+00:02:43,119 --> 00:02:43,449
+ OK.
+
+105
+00:02:43,460 --> 00:02:45,289
+ Then let's go to a counterexample.
+
+106
+00:02:45,300 --> 00:02:47,160
+ What about good morning?
+
+107
+00:02:47,600 --> 00:02:49,130
+ Of course, this seems very
+
+108
+00:02:49,139 --> 00:02:51,089
+ nice, but we can't associate
+
+109
+00:02:51,100 --> 00:02:52,419
+ a well-defined truth value
+
+110
+00:02:52,429 --> 00:02:52,809
+ to it.
+
+111
+00:02:53,660 --> 00:02:55,000
+ It simply does not make sense
+
+112
+00:02:55,009 --> 00:02:56,350
+ to say that this one here
+
+113
+00:02:56,360 --> 00:02:58,240
+ is true or that it is false.
+
+114
+00:02:58,789 --> 00:03:00,520
+ So it's clearly not a logical
+
+115
+00:03:00,529 --> 00:03:01,080
+ statement.
+
+116
+00:03:01,880 --> 00:03:03,419
+ Another example now in the
+
+117
+00:03:03,429 --> 00:03:04,679
+ mathematical world would
+
+118
+00:03:04,690 --> 00:03:06,160
+ be to say I have a variable
+
+119
+00:03:06,169 --> 00:03:08,080
+ X plus one and
+
+120
+00:03:08,089 --> 00:03:09,699
+ this is equal to one.
+
+121
+00:03:10,169 --> 00:03:11,419
+ So this might be a tricky
+
+122
+00:03:11,429 --> 00:03:13,300
+ one because it's not a logical
+
+123
+00:03:13,309 --> 00:03:13,860
+ statement.
+
+124
+00:03:13,869 --> 00:03:15,460
+ Despite looking like one.
+
+125
+00:03:16,149 --> 00:03:17,410
+ The reason for this is that
+
+126
+00:03:17,419 --> 00:03:19,250
+ the variable X here is not
+
+127
+00:03:19,259 --> 00:03:19,850
+ fixed.
+
+128
+00:03:19,860 --> 00:03:21,559
+ So we can't give the statement
+
+129
+00:03:21,570 --> 00:03:23,250
+ a well defined truth value
+
+130
+00:03:23,259 --> 00:03:24,869
+ because it would depend what
+
+131
+00:03:24,880 --> 00:03:25,889
+ X really is.
+
+132
+00:03:26,779 --> 00:03:28,490
+ This means that in the moment
+
+133
+00:03:28,500 --> 00:03:30,039
+ that X gets a value,
+
+134
+00:03:30,050 --> 00:03:31,509
+ this statement becomes a
+
+135
+00:03:31,520 --> 00:03:32,600
+ logical statement.
+
+136
+00:03:33,059 --> 00:03:34,669
+ Of course, such constructions
+
+137
+00:03:34,679 --> 00:03:36,440
+ are all over mathematics.
+
+138
+00:03:36,449 --> 00:03:37,889
+ Therefore, they will be important
+
+139
+00:03:37,899 --> 00:03:39,440
+ later and we call such a
+
+140
+00:03:39,449 --> 00:03:40,669
+ thing a pretty kit.
+
+141
+00:03:41,460 --> 00:03:42,820
+ Now, the next step is when
+
+142
+00:03:42,830 --> 00:03:44,600
+ we have such logical statements,
+
+143
+00:03:44,610 --> 00:03:46,399
+ we also want to combine them,
+
+144
+00:03:47,080 --> 00:03:48,389
+ they are just called logical
+
+145
+00:03:48,399 --> 00:03:49,639
+ operations and they give
+
+146
+00:03:49,649 --> 00:03:51,440
+ us new logical statements.
+
+147
+00:03:52,029 --> 00:03:53,500
+ For example, the negation
+
+148
+00:03:53,509 --> 00:03:55,059
+ is defined for given
+
+149
+00:03:55,070 --> 00:03:56,899
+ logical statement A which
+
+150
+00:03:56,910 --> 00:03:58,479
+ could be, for example, one
+
+151
+00:03:58,490 --> 00:03:59,970
+ plus one is equal to two.
+
+152
+00:04:00,800 --> 00:04:02,440
+ Then the new logical statement,
+
+153
+00:04:02,449 --> 00:04:04,210
+ the negation of A is denoted
+
+154
+00:04:04,220 --> 00:04:05,110
+ by this line.
+
+155
+00:04:05,119 --> 00:04:07,100
+ In front of A, you should
+
+156
+00:04:07,110 --> 00:04:08,740
+ read it as not A and it
+
+157
+00:04:08,750 --> 00:04:10,160
+ simply switches the truth
+
+158
+00:04:10,169 --> 00:04:10,740
+ value.
+
+159
+00:04:11,289 --> 00:04:12,240
+ Therefore, the best thing
+
+160
+00:04:12,250 --> 00:04:14,100
+ to define such a logic operation
+
+161
+00:04:14,110 --> 00:04:15,699
+ is to use a so called truth
+
+162
+00:04:15,710 --> 00:04:17,220
+ table where we put in all
+
+163
+00:04:17,230 --> 00:04:18,820
+ possible inputs and the
+
+164
+00:04:18,829 --> 00:04:20,059
+ corresponding outcomes.
+
+165
+00:04:20,908 --> 00:04:22,158
+ Of course, here we only have
+
+166
+00:04:22,169 --> 00:04:22,998
+ two inputs.
+
+167
+00:04:23,009 --> 00:04:24,838
+ A could be either true or
+
+168
+00:04:24,848 --> 00:04:25,378
+ false.
+
+169
+00:04:25,769 --> 00:04:26,919
+ So the truth value should
+
+170
+00:04:26,928 --> 00:04:27,618
+ be switched.
+
+171
+00:04:27,628 --> 00:04:29,378
+ So not a should be false
+
+172
+00:04:29,389 --> 00:04:30,989
+ when A is true and the other
+
+173
+00:04:30,998 --> 00:04:31,579
+ way around.
+
+174
+00:04:32,239 --> 00:04:32,619
+ OK.
+
+175
+00:04:32,630 --> 00:04:33,959
+ Also here let's look at some
+
+176
+00:04:33,970 --> 00:04:35,660
+ examples to get an idea what
+
+177
+00:04:35,670 --> 00:04:36,739
+ we are talking about.
+
+178
+00:04:37,290 --> 00:04:38,380
+ So let's take the logical
+
+179
+00:04:38,390 --> 00:04:40,019
+ statement A given by the
+
+180
+00:04:40,029 --> 00:04:41,380
+ English sentence, the wine
+
+181
+00:04:41,390 --> 00:04:42,290
+ bottle is full.
+
+182
+00:04:42,959 --> 00:04:44,579
+ Then the negation of A is
+
+183
+00:04:44,589 --> 00:04:46,140
+ simply given by putting in
+
+184
+00:04:46,149 --> 00:04:47,660
+ the word not into the
+
+185
+00:04:47,670 --> 00:04:48,190
+ sentence.
+
+186
+00:04:49,000 --> 00:04:50,209
+ Of course, here we assume
+
+187
+00:04:50,220 --> 00:04:51,299
+ that you know which wine
+
+188
+00:04:51,309 --> 00:04:52,809
+ bottle we talk about and
+
+189
+00:04:52,820 --> 00:04:53,910
+ what full means.
+
+190
+00:04:53,920 --> 00:04:55,549
+ But then you see negation
+
+191
+00:04:55,559 --> 00:04:57,220
+ is very easy just putting
+
+192
+00:04:57,230 --> 00:04:58,989
+ in not at the correct position.
+
+193
+00:04:59,679 --> 00:05:01,019
+ An important thing to note
+
+194
+00:05:01,029 --> 00:05:02,390
+ here is that this is not
+
+195
+00:05:02,399 --> 00:05:04,140
+ the same as saying the wine
+
+196
+00:05:04,149 --> 00:05:05,420
+ bottle is empty.
+
+197
+00:05:06,119 --> 00:05:07,320
+ In other words, negation
+
+198
+00:05:07,329 --> 00:05:08,630
+ does not mean the complete
+
+199
+00:05:08,640 --> 00:05:09,269
+ opposite.
+
+200
+00:05:09,279 --> 00:05:10,899
+ It just means switching it
+
+201
+00:05:10,910 --> 00:05:11,670
+ to values.
+
+202
+00:05:12,390 --> 00:05:13,519
+ As another example, let's
+
+203
+00:05:13,529 --> 00:05:14,929
+ consider the logical statement
+
+204
+00:05:14,940 --> 00:05:16,890
+ A S two plus two
+
+205
+00:05:16,899 --> 00:05:18,209
+ is equal to five,
+
+206
+00:05:18,959 --> 00:05:20,709
+ then not A is of course two
+
+207
+00:05:20,720 --> 00:05:22,589
+ plus two is not equal
+
+208
+00:05:22,600 --> 00:05:23,279
+ to five.
+
+209
+00:05:23,829 --> 00:05:25,059
+ Now, what you might think
+
+210
+00:05:25,070 --> 00:05:26,420
+ is we just have to look at
+
+211
+00:05:26,429 --> 00:05:28,140
+ the second line here because
+
+212
+00:05:28,149 --> 00:05:29,700
+ we already know A is
+
+213
+00:05:29,709 --> 00:05:30,380
+ false.
+
+214
+00:05:30,390 --> 00:05:32,269
+ So not A should be just a
+
+215
+00:05:32,279 --> 00:05:33,059
+ true statement.
+
+216
+00:05:33,609 --> 00:05:34,600
+ However, that's not what
+
+217
+00:05:34,609 --> 00:05:35,700
+ the negation does.
+
+218
+00:05:35,769 --> 00:05:37,670
+ It considers both cases at
+
+219
+00:05:37,679 --> 00:05:38,470
+ the same time.
+
+220
+00:05:38,910 --> 00:05:40,260
+ This means that if we live
+
+221
+00:05:40,269 --> 00:05:41,670
+ in a strange world where
+
+222
+00:05:41,679 --> 00:05:43,059
+ this logical statement is
+
+223
+00:05:43,070 --> 00:05:44,739
+ true, then the negation
+
+224
+00:05:44,750 --> 00:05:46,260
+ here should also be
+
+225
+00:05:46,269 --> 00:05:47,019
+ false.
+
+226
+00:05:47,720 --> 00:05:48,869
+ Therefore, please always
+
+227
+00:05:48,880 --> 00:05:50,489
+ consider these two possible
+
+228
+00:05:50,500 --> 00:05:51,869
+ worlds, which means these
+
+229
+00:05:51,880 --> 00:05:52,769
+ two lines here.
+
+230
+00:05:53,760 --> 00:05:55,010
+ Then if you get the correct
+
+231
+00:05:55,019 --> 00:05:56,529
+ truth table, you've found
+
+232
+00:05:56,540 --> 00:05:57,609
+ the correct negation.
+
+233
+00:05:58,320 --> 00:05:59,540
+ Besides the negation, we
+
+234
+00:05:59,549 --> 00:06:00,880
+ have another fundamental
+
+235
+00:06:00,890 --> 00:06:02,329
+ logic operation, which is
+
+236
+00:06:02,339 --> 00:06:03,619
+ called the conjunction.
+
+237
+00:06:04,410 --> 00:06:06,339
+ It combines two logical statements,
+
+238
+00:06:06,350 --> 00:06:07,989
+ let's call them A and
+
+239
+00:06:08,000 --> 00:06:08,470
+ B.
+
+240
+00:06:09,320 --> 00:06:10,480
+ And then the conjunction
+
+241
+00:06:10,489 --> 00:06:12,329
+ is defined by this wedge
+
+242
+00:06:12,339 --> 00:06:13,739
+ symbol in between.
+
+243
+00:06:14,839 --> 00:06:16,589
+ You should read it as A and
+
+244
+00:06:16,600 --> 00:06:18,279
+ B because it's the end
+
+245
+00:06:18,290 --> 00:06:19,989
+ operation, which means this
+
+246
+00:06:20,000 --> 00:06:21,510
+ one is only true.
+
+247
+00:06:21,519 --> 00:06:23,179
+ If A and B are
+
+248
+00:06:23,190 --> 00:06:24,549
+ true simultaneously
+
+249
+00:06:25,049 --> 00:06:26,269
+ with this information, you
+
+250
+00:06:26,279 --> 00:06:27,549
+ are already able to write
+
+251
+00:06:27,559 --> 00:06:29,190
+ down the whole truth table
+
+252
+00:06:29,200 --> 00:06:30,470
+ which you would see as the
+
+253
+00:06:30,480 --> 00:06:31,450
+ correct definition.
+
+254
+00:06:32,250 --> 00:06:33,649
+ Now, instead of two rows,
+
+255
+00:06:33,660 --> 00:06:35,220
+ we have four rows because
+
+256
+00:06:35,230 --> 00:06:37,200
+ we have four possible combinations
+
+257
+00:06:37,209 --> 00:06:38,989
+ of the two values of A and
+
+258
+00:06:39,000 --> 00:06:39,380
+ B.
+
+259
+00:06:39,950 --> 00:06:41,399
+ Now from bottom to top, you
+
+260
+00:06:41,410 --> 00:06:43,109
+ know, this one is false because
+
+261
+00:06:43,119 --> 00:06:44,589
+ we have at least one false
+
+262
+00:06:44,600 --> 00:06:46,149
+ here, the same here
+
+263
+00:06:46,359 --> 00:06:47,429
+ and the same here.
+
+264
+00:06:47,440 --> 00:06:49,109
+ Everything's false except
+
+265
+00:06:49,119 --> 00:06:50,029
+ the first row.
+
+266
+00:06:50,040 --> 00:06:51,709
+ This one is true because
+
+267
+00:06:51,720 --> 00:06:52,750
+ both are true.
+
+268
+00:06:53,500 --> 00:06:54,880
+ A good visualization for
+
+269
+00:06:54,890 --> 00:06:56,440
+ the and operation would be
+
+270
+00:06:56,450 --> 00:06:58,279
+ to consider a circuit
+
+271
+00:06:58,290 --> 00:06:59,880
+ with a lamp and a battery.
+
+272
+00:07:00,579 --> 00:07:01,760
+ Now, what we can do is to
+
+273
+00:07:01,769 --> 00:07:03,329
+ put A and B as
+
+274
+00:07:03,359 --> 00:07:05,200
+ switches into the circuit.
+
+275
+00:07:05,959 --> 00:07:07,540
+ In this picture, false should
+
+276
+00:07:07,549 --> 00:07:09,279
+ mean off and true should
+
+277
+00:07:09,290 --> 00:07:11,179
+ mean on and the
+
+278
+00:07:11,190 --> 00:07:12,940
+ lamp we see is our output.
+
+279
+00:07:13,630 --> 00:07:14,890
+ So here you see, we need
+
+280
+00:07:14,899 --> 00:07:16,820
+ both switches to be on to
+
+281
+00:07:16,829 --> 00:07:18,369
+ get an on output.
+
+282
+00:07:18,380 --> 00:07:20,329
+ So true means true,
+
+283
+00:07:20,369 --> 00:07:22,209
+ otherwise we are false.
+
+284
+00:07:23,019 --> 00:07:23,450
+ OK.
+
+285
+00:07:23,459 --> 00:07:24,559
+ In the next video I show
+
+286
+00:07:24,570 --> 00:07:26,279
+ you other logical operations
+
+287
+00:07:26,290 --> 00:07:27,880
+ that are also very important
+
+288
+00:07:27,890 --> 00:07:28,820
+ in mathematics.
+
+289
+00:07:29,320 --> 00:07:30,570
+ So I hope I see you there
+
+290
+00:07:30,579 --> 00:07:31,839
+ and have a nice day.
+
+291
+00:07:31,850 --> 00:07:32,630
+ Bye.
+
