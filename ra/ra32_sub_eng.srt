@@ -1244,7 +1244,7 @@
 
 312
 00:08:09,220 --> 00:08:10,709
- this important the om and
+ this important theorem and
 
 313
 00:08:10,720 --> 00:08:11,980
