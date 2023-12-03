@@ -1,0 +1,1268 @@
+1
+00:00:00,430 --> 00:00:02,089
+ Hello and welcome back to
+
+2
+00:00:02,099 --> 00:00:03,480
+ start learning
+
+3
+00:00:03,490 --> 00:00:04,250
+ reals.
+
+4
+00:00:04,699 --> 00:00:05,889
+ And as always, I want to
+
+5
+00:00:05,900 --> 00:00:07,250
+ thank all the nice people
+
+6
+00:00:07,260 --> 00:00:08,369
+ that support this channel
+
+7
+00:00:08,380 --> 00:00:09,850
+ on study or paypal.
+
+8
+00:00:10,489 --> 00:00:12,079
+ In today's part four, I will
+
+9
+00:00:12,090 --> 00:00:13,810
+ show you how we can actually
+
+10
+00:00:13,819 --> 00:00:15,449
+ construct the real numbers.
+
+11
+00:00:16,110 --> 00:00:17,530
+ This means that the starting
+
+12
+00:00:17,540 --> 00:00:18,959
+ point is the field of the
+
+13
+00:00:18,969 --> 00:00:19,979
+ rational numbers.
+
+14
+00:00:20,399 --> 00:00:22,260
+ And then we form a new field
+
+15
+00:00:22,270 --> 00:00:24,049
+ where every Cauchy sequence
+
+16
+00:00:24,059 --> 00:00:25,590
+ is actually convergent.
+
+17
+00:00:26,379 --> 00:00:27,690
+ Now because you have seen
+
+18
+00:00:27,700 --> 00:00:28,889
+ all the other number
+
+19
+00:00:28,899 --> 00:00:30,270
+ constructions, you might
+
+20
+00:00:30,280 --> 00:00:31,709
+ already guess that also
+
+21
+00:00:31,719 --> 00:00:33,700
+ here equivalence relations
+
+22
+00:00:33,709 --> 00:00:34,590
+ will be helpful.
+
+23
+00:00:35,340 --> 00:00:37,150
+ Our idea in this case should
+
+24
+00:00:37,159 --> 00:00:38,770
+ be that each point on the
+
+25
+00:00:38,779 --> 00:00:40,189
+ number line can be
+
+26
+00:00:40,200 --> 00:00:42,090
+ represented by a Cauchy
+
+27
+00:00:42,099 --> 00:00:42,849
+ sequence.
+
+28
+00:00:43,340 --> 00:00:45,150
+ For example, for the 0.1
+
+29
+00:00:45,159 --> 00:00:46,630
+ 3rd, we can choose the
+
+30
+00:00:46,639 --> 00:00:48,619
+ sequence that has the
+
+31
+00:00:48,630 --> 00:00:50,450
+ members one third, one third
+
+32
+00:00:50,459 --> 00:00:51,270
+ and so on.
+
+33
+00:00:51,849 --> 00:00:53,349
+ So it's simply a constant
+
+34
+00:00:53,360 --> 00:00:54,169
+ sequence.
+
+35
+00:00:54,180 --> 00:00:55,639
+ Therefore, in particular
+
+36
+00:00:55,650 --> 00:00:57,569
+ a Cauchy sequence and also
+
+37
+00:00:57,580 --> 00:00:58,889
+ a convergence sequence.
+
+38
+00:00:59,419 --> 00:01:00,939
+ However, the important part
+
+39
+00:01:00,950 --> 00:01:02,529
+ is that the limit is our
+
+40
+00:01:02,540 --> 00:01:04,010
+ 0.1 3rd.
+
+41
+00:01:04,949 --> 00:01:06,319
+ Therefore, this infinite
+
+42
+00:01:06,330 --> 00:01:07,650
+ sequence of numbers
+
+43
+00:01:07,660 --> 00:01:09,559
+ represents one point on the
+
+44
+00:01:09,569 --> 00:01:10,309
+ number line.
+
+45
+00:01:10,970 --> 00:01:12,669
+ But now you should see that
+
+46
+00:01:12,680 --> 00:01:14,669
+ this representation can be
+
+47
+00:01:14,680 --> 00:01:16,589
+ in no way unique because
+
+48
+00:01:16,599 --> 00:01:18,230
+ we can just write down another
+
+49
+00:01:18,239 --> 00:01:19,830
+ sequence with the same limit.
+
+50
+00:01:20,610 --> 00:01:22,220
+ For example, we can just
+
+51
+00:01:22,230 --> 00:01:24,199
+ use decimals and start with
+
+52
+00:01:24,209 --> 00:01:25,800
+ 0.3.
+
+53
+00:01:26,430 --> 00:01:27,830
+ Of course, you already know
+
+54
+00:01:27,849 --> 00:01:29,550
+ this is just another notation
+
+55
+00:01:29,559 --> 00:01:31,500
+ for the fraction 3/10.
+
+56
+00:01:32,199 --> 00:01:33,360
+ And then the next member
+
+57
+00:01:33,370 --> 00:01:34,589
+ in the sequence should be
+
+58
+00:01:34,599 --> 00:01:36,699
+ 0.33.
+
+59
+00:01:37,139 --> 00:01:38,900
+ With this, we just continue
+
+60
+00:01:38,910 --> 00:01:40,169
+ a pending threes.
+
+61
+00:01:41,029 --> 00:01:41,370
+ OK.
+
+62
+00:01:41,379 --> 00:01:42,569
+ With this, we have a well
+
+63
+00:01:42,580 --> 00:01:44,129
+ defined sequence where you
+
+64
+00:01:44,139 --> 00:01:45,989
+ can also easily check that
+
+65
+00:01:46,000 --> 00:01:47,970
+ it is also a Cauchy sequence.
+
+66
+00:01:48,489 --> 00:01:49,620
+ And because we get arbitrarily
+
+67
+00:01:50,150 --> 00:01:51,849
+ close to 1/3,
+
+68
+00:01:51,860 --> 00:01:53,650
+ eventually, we also know
+
+69
+00:01:53,660 --> 00:01:55,230
+ we have a conversion sequence
+
+70
+00:01:55,239 --> 00:01:56,809
+ with limit one third.
+
+71
+00:01:57,559 --> 00:01:59,339
+ So we can conclude when we
+
+72
+00:01:59,349 --> 00:02:01,099
+ form our equivalence classes
+
+73
+00:02:01,110 --> 00:02:03,069
+ soon, these two sequences
+
+74
+00:02:03,080 --> 00:02:04,779
+ here should land in one
+
+75
+00:02:04,790 --> 00:02:06,639
+ single box simply
+
+76
+00:02:06,650 --> 00:02:08,059
+ because they have the same
+
+77
+00:02:08,070 --> 00:02:08,538
+ limit.
+
+78
+00:02:09,020 --> 00:02:10,699
+ However, you already know
+
+79
+00:02:10,710 --> 00:02:12,139
+ we cannot just look at the
+
+80
+00:02:12,149 --> 00:02:13,740
+ limits because there are
+
+81
+00:02:14,050 --> 00:02:15,880
+ Cauchy sequences in Q
+
+82
+00:02:15,889 --> 00:02:16,860
+ without limits.
+
+83
+00:02:17,589 --> 00:02:19,100
+ Indeed, for this, we will
+
+84
+00:02:19,110 --> 00:02:20,550
+ find a simple solution.
+
+85
+00:02:21,000 --> 00:02:21,419
+ OK.
+
+86
+00:02:21,429 --> 00:02:23,020
+ The first step is to define
+
+87
+00:02:23,029 --> 00:02:24,660
+ the set of all the Cauchy
+
+88
+00:02:24,669 --> 00:02:26,250
+ sequences we consider.
+
+89
+00:02:26,880 --> 00:02:28,729
+ So here XN stands for a
+
+90
+00:02:28,740 --> 00:02:30,259
+ sequence which means an
+
+91
+00:02:30,270 --> 00:02:31,580
+ infinite list with the
+
+92
+00:02:31,589 --> 00:02:33,449
+ properties that
+
+93
+00:02:33,460 --> 00:02:35,000
+ for all natural numbers
+
+94
+00:02:35,009 --> 00:02:36,990
+ NXN is
+
+95
+00:02:37,000 --> 00:02:38,050
+ a rational number
+
+96
+00:02:38,729 --> 00:02:40,130
+ and that the sequence
+
+97
+00:02:40,139 --> 00:02:41,779
+ XN is indeed a Cauchy
+
+98
+00:02:42,119 --> 00:02:42,779
+ sequence.
+
+99
+00:02:43,570 --> 00:02:45,509
+ And this nice set that contains
+
+100
+00:02:45,520 --> 00:02:47,270
+ all the Koshy sequences
+
+101
+00:02:47,279 --> 00:02:48,750
+ is denoted by C.
+
+102
+00:02:49,539 --> 00:02:51,320
+ Now for two elements from
+
+103
+00:02:51,330 --> 00:02:52,789
+ the set, let's call them
+
+104
+00:02:52,800 --> 00:02:54,479
+ A and BN.
+
+105
+00:02:54,990 --> 00:02:56,240
+ So for two Cauchy
+
+106
+00:02:56,250 --> 00:02:58,160
+ sequences, we define
+
+107
+00:02:58,330 --> 00:02:59,559
+ an equivalence relation
+
+108
+00:03:00,250 --> 00:03:00,729
+ OK.
+
+109
+00:03:00,740 --> 00:03:02,250
+ At this point we want that
+
+110
+00:03:02,259 --> 00:03:03,990
+ these two sequences here
+
+111
+00:03:04,000 --> 00:03:05,990
+ are equivalent, but we don't
+
+112
+00:03:06,000 --> 00:03:07,419
+ want to use the explicit
+
+113
+00:03:07,429 --> 00:03:07,940
+ limit.
+
+114
+00:03:08,789 --> 00:03:09,839
+ Therefore, the question is
+
+115
+00:03:09,850 --> 00:03:11,500
+ here, how can we do that
+
+116
+00:03:11,509 --> 00:03:13,350
+ in a simple way for
+
+117
+00:03:13,360 --> 00:03:13,770
+ this?
+
+118
+00:03:13,779 --> 00:03:15,490
+ Let's imagine that we see
+
+119
+00:03:15,500 --> 00:03:16,880
+ all the sequence members
+
+120
+00:03:16,889 --> 00:03:18,250
+ here on the number line.
+
+121
+00:03:19,009 --> 00:03:20,110
+ In the case that the two
+
+122
+00:03:20,119 --> 00:03:22,009
+ Cauchy sequences, we present
+
+123
+00:03:22,020 --> 00:03:23,289
+ the same point, they
+
+124
+00:03:23,300 --> 00:03:24,770
+ accumulate around this
+
+125
+00:03:24,779 --> 00:03:25,300
+ number.
+
+126
+00:03:25,899 --> 00:03:27,350
+ So the sequence members get
+
+127
+00:03:27,360 --> 00:03:29,000
+ closer and closer to this
+
+128
+00:03:29,009 --> 00:03:29,449
+ point.
+
+129
+00:03:30,130 --> 00:03:31,389
+ Therefore, the difference
+
+130
+00:03:31,399 --> 00:03:32,979
+ between two members from
+
+131
+00:03:32,990 --> 00:03:34,509
+ the two sequences gets
+
+132
+00:03:34,520 --> 00:03:35,910
+ smaller and smaller.
+
+133
+00:03:36,630 --> 00:03:38,360
+ Hence, this difference is
+
+134
+00:03:38,369 --> 00:03:39,779
+ the new sequence we should
+
+135
+00:03:39,789 --> 00:03:40,380
+ consider.
+
+136
+00:03:41,139 --> 00:03:42,639
+ And now we already discussed
+
+137
+00:03:42,649 --> 00:03:44,259
+ that it should be a convergence
+
+138
+00:03:44,270 --> 00:03:46,080
+ sequence with limit zero.
+
+139
+00:03:46,970 --> 00:03:48,550
+ In other words, for any point
+
+140
+00:03:48,559 --> 00:03:50,009
+ on the number line, we just
+
+141
+00:03:50,020 --> 00:03:51,889
+ shift the problem to zero.
+
+142
+00:03:52,649 --> 00:03:53,110
+ OK.
+
+143
+00:03:53,119 --> 00:03:54,309
+ Now we have everything we
+
+144
+00:03:54,320 --> 00:03:56,029
+ need because we can show
+
+145
+00:03:56,039 --> 00:03:57,750
+ that this defines indeed
+
+146
+00:03:57,759 --> 00:03:58,990
+ an equivalence relation.
+
+147
+00:03:59,529 --> 00:04:00,860
+ This means that we can show
+
+148
+00:04:00,869 --> 00:04:02,050
+ the three properties.
+
+149
+00:04:02,059 --> 00:04:03,850
+ It's reflexive symmetric
+
+150
+00:04:03,860 --> 00:04:04,750
+ and transitive.
+
+151
+00:04:05,449 --> 00:04:06,830
+ Now, as always, when we have
+
+152
+00:04:06,839 --> 00:04:08,250
+ such a nice equivalence
+
+153
+00:04:08,259 --> 00:04:09,990
+ relation, we can go over
+
+154
+00:04:10,000 --> 00:04:11,830
+ to the boxes where we put
+
+155
+00:04:11,839 --> 00:04:13,190
+ in the equivalent Cauchy
+
+156
+00:04:13,199 --> 00:04:13,960
+ sequences.
+
+157
+00:04:14,399 --> 00:04:16,089
+ And we call these boxes
+
+158
+00:04:16,100 --> 00:04:17,350
+ equivalence classes
+
+159
+00:04:18,100 --> 00:04:19,559
+ by definition, the equivalence
+
+160
+00:04:19,570 --> 00:04:21,279
+ class of X and is
+
+161
+00:04:21,290 --> 00:04:23,000
+ just a set of all Cauchy
+
+162
+00:04:23,010 --> 00:04:24,380
+ sequences that are
+
+163
+00:04:24,390 --> 00:04:25,690
+ equivalent to XN.
+
+164
+00:04:26,279 --> 00:04:28,079
+ And therefore, this equivalence
+
+165
+00:04:28,089 --> 00:04:29,440
+ class now uniquely
+
+166
+00:04:29,450 --> 00:04:31,119
+ represents one point on the
+
+167
+00:04:31,130 --> 00:04:31,920
+ number line.
+
+168
+00:04:32,760 --> 00:04:33,299
+ To put it.
+
+169
+00:04:33,309 --> 00:04:34,910
+ In other words, we now can
+
+170
+00:04:34,920 --> 00:04:36,540
+ actually define the real
+
+171
+00:04:36,549 --> 00:04:38,429
+ numbers, the set
+
+172
+00:04:38,440 --> 00:04:40,359
+ R is just given by the
+
+173
+00:04:40,369 --> 00:04:42,200
+ set of all equivalence
+
+174
+00:04:42,209 --> 00:04:42,760
+ classes.
+
+175
+00:04:43,500 --> 00:04:45,279
+ So the set of these boxes
+
+176
+00:04:45,290 --> 00:04:47,119
+ defines the complete number
+
+177
+00:04:47,130 --> 00:04:47,480
+ line.
+
+178
+00:04:48,279 --> 00:04:49,459
+ Now, the only things that
+
+179
+00:04:49,470 --> 00:04:50,660
+ are still missing are the
+
+180
+00:04:50,670 --> 00:04:52,160
+ two operations, addition
+
+181
+00:04:52,170 --> 00:04:53,700
+ and multiplication and the
+
+182
+00:04:53,709 --> 00:04:54,239
+ ordering.
+
+183
+00:04:54,880 --> 00:04:55,859
+ Therefore, for the first
+
+184
+00:04:55,869 --> 00:04:57,500
+ part, let's define how we
+
+185
+00:04:57,510 --> 00:04:59,410
+ can add two equivalence classes
+
+186
+00:04:59,420 --> 00:04:59,779
+ here.
+
+187
+00:05:00,359 --> 00:05:01,510
+ Indeed, that's not hard at
+
+188
+00:05:01,519 --> 00:05:01,899
+ all.
+
+189
+00:05:01,910 --> 00:05:03,529
+ We can just use the addition
+
+190
+00:05:03,540 --> 00:05:04,720
+ we have for the rational
+
+191
+00:05:04,730 --> 00:05:06,579
+ numbers for all the members
+
+192
+00:05:06,589 --> 00:05:07,829
+ of the two sequences.
+
+193
+00:05:08,399 --> 00:05:10,019
+ Of course, as always, then
+
+194
+00:05:10,029 --> 00:05:11,410
+ we need to check that this
+
+195
+00:05:11,420 --> 00:05:13,179
+ definition does not depend
+
+196
+00:05:13,190 --> 00:05:14,700
+ on the chosen representation
+
+197
+00:05:14,709 --> 00:05:16,170
+ of the two occurrence classes.
+
+198
+00:05:16,890 --> 00:05:18,179
+ In this case, you just have
+
+199
+00:05:18,190 --> 00:05:19,190
+ to calculate a little bit
+
+200
+00:05:19,200 --> 00:05:20,309
+ with the sequences.
+
+201
+00:05:20,320 --> 00:05:21,529
+ And then we get out.
+
+202
+00:05:21,540 --> 00:05:23,040
+ Yes, it's well defined.
+
+203
+00:05:23,750 --> 00:05:24,890
+ And afterwards, you will
+
+204
+00:05:24,899 --> 00:05:26,299
+ believe me that everything
+
+205
+00:05:26,309 --> 00:05:27,190
+ works the same.
+
+206
+00:05:27,200 --> 00:05:28,970
+ When we define the multiplication,
+
+207
+00:05:29,720 --> 00:05:31,339
+ we just use again the well
+
+208
+00:05:31,350 --> 00:05:32,690
+ known multiplication for
+
+209
+00:05:32,700 --> 00:05:33,579
+ rational numbers.
+
+210
+00:05:34,390 --> 00:05:34,850
+ OK.
+
+211
+00:05:34,859 --> 00:05:36,570
+ Now looking back at the axioms
+
+212
+00:05:36,579 --> 00:05:38,279
+ we want to fulfill, you see
+
+213
+00:05:38,290 --> 00:05:39,630
+ that the last thing we need
+
+214
+00:05:39,640 --> 00:05:41,480
+ to define is an ordering.
+
+215
+00:05:41,940 --> 00:05:43,649
+ So we want to define in which
+
+216
+00:05:43,660 --> 00:05:45,619
+ cases one equivalence class
+
+217
+00:05:45,630 --> 00:05:47,070
+ is greater than another.
+
+218
+00:05:47,079 --> 00:05:47,410
+ One.
+
+219
+00:05:47,619 --> 00:05:48,529
+ Of course.
+
+220
+00:05:48,540 --> 00:05:49,869
+ Here we need to use the
+
+221
+00:05:49,880 --> 00:05:51,299
+ ordering we have for the
+
+222
+00:05:51,309 --> 00:05:52,450
+ rational numbers again.
+
+223
+00:05:53,250 --> 00:05:54,880
+ However, claiming this for
+
+224
+00:05:54,890 --> 00:05:56,679
+ all sequence members is
+
+225
+00:05:56,690 --> 00:05:58,100
+ much too restrictive for
+
+226
+00:05:58,109 --> 00:05:59,799
+ us to see this.
+
+227
+00:05:59,809 --> 00:06:01,260
+ Please keep the number line
+
+228
+00:06:01,269 --> 00:06:01,799
+ in mind.
+
+229
+00:06:02,529 --> 00:06:04,320
+ For example, our B and C
+
+230
+00:06:04,329 --> 00:06:06,040
+ could accumulate around
+
+231
+00:06:06,049 --> 00:06:07,950
+ one third and
+
+232
+00:06:07,959 --> 00:06:09,700
+ maybe the sequence with AM
+
+233
+00:06:09,709 --> 00:06:11,350
+ has zero as the limit.
+
+234
+00:06:12,049 --> 00:06:13,929
+ But of course, we have infinitely
+
+235
+00:06:13,940 --> 00:06:15,510
+ many sequence members here.
+
+236
+00:06:16,290 --> 00:06:17,880
+ Therefore, for example, a
+
+237
+00:06:17,890 --> 00:06:19,739
+ four could lie over here,
+
+238
+00:06:20,619 --> 00:06:22,450
+ but still the limit would
+
+239
+00:06:22,459 --> 00:06:23,109
+ be zero.
+
+240
+00:06:23,670 --> 00:06:25,399
+ Hence, this inequality
+
+241
+00:06:25,410 --> 00:06:27,149
+ here should be satisfied
+
+242
+00:06:27,160 --> 00:06:28,470
+ only eventually.
+
+243
+00:06:29,230 --> 00:06:30,399
+ In other words, we can just
+
+244
+00:06:30,410 --> 00:06:31,959
+ ignore finally many
+
+245
+00:06:31,970 --> 00:06:32,600
+ members.
+
+246
+00:06:33,269 --> 00:06:34,609
+ Therefore, we would write
+
+247
+00:06:34,619 --> 00:06:36,369
+ there exists a capital N
+
+248
+00:06:37,109 --> 00:06:38,940
+ such that for all indices
+
+249
+00:06:38,950 --> 00:06:40,820
+ greater than capital N, we
+
+250
+00:06:40,829 --> 00:06:42,579
+ have A N is less
+
+251
+00:06:42,589 --> 00:06:43,459
+ than BN.
+
+252
+00:06:44,140 --> 00:06:44,559
+ OK.
+
+253
+00:06:44,570 --> 00:06:46,239
+ This now looks better, but
+
+254
+00:06:46,250 --> 00:06:47,940
+ it is still not correct.
+
+255
+00:06:48,549 --> 00:06:50,100
+ In order to see this, just
+
+256
+00:06:50,109 --> 00:06:51,679
+ imagine one point on a number
+
+257
+00:06:51,690 --> 00:06:53,489
+ line where the sequence BN
+
+258
+00:06:53,500 --> 00:06:55,239
+ comes from above and the
+
+259
+00:06:55,250 --> 00:06:56,970
+ sequence A comes from
+
+260
+00:06:56,980 --> 00:06:57,559
+ below.
+
+261
+00:06:58,190 --> 00:06:59,500
+ So they should describe the
+
+262
+00:06:59,510 --> 00:07:01,179
+ same point but this
+
+263
+00:07:01,190 --> 00:07:02,720
+ one is still fulfilled.
+
+264
+00:07:03,420 --> 00:07:04,799
+ Therefore, maybe it's better
+
+265
+00:07:04,809 --> 00:07:06,329
+ to think in distances.
+
+266
+00:07:06,339 --> 00:07:07,720
+ So let's bring this one to
+
+267
+00:07:07,730 --> 00:07:09,720
+ the other side, then it
+
+268
+00:07:09,730 --> 00:07:11,500
+ simply reads that BN
+
+269
+00:07:11,510 --> 00:07:13,440
+ minus A is greater than
+
+270
+00:07:13,450 --> 00:07:14,000
+ zero.
+
+271
+00:07:14,799 --> 00:07:16,010
+ Therefore, this means that
+
+272
+00:07:16,019 --> 00:07:17,440
+ the distance here could be
+
+273
+00:07:17,450 --> 00:07:18,640
+ arbitrary small.
+
+274
+00:07:19,279 --> 00:07:20,239
+ And when you look back at
+
+275
+00:07:20,250 --> 00:07:21,929
+ the first example here, that's
+
+276
+00:07:21,940 --> 00:07:22,850
+ not what we want.
+
+277
+00:07:23,559 --> 00:07:25,239
+ So there should be an actual
+
+278
+00:07:25,250 --> 00:07:26,529
+ minimal distance between
+
+279
+00:07:26,540 --> 00:07:27,269
+ the two points.
+
+280
+00:07:28,040 --> 00:07:29,500
+ And maybe we just call this
+
+281
+00:07:29,510 --> 00:07:30,899
+ distance simply
+
+282
+00:07:30,910 --> 00:07:31,540
+ delta.
+
+283
+00:07:32,350 --> 00:07:33,809
+ So we simply have to add,
+
+284
+00:07:33,820 --> 00:07:35,500
+ there exists a distance
+
+285
+00:07:35,510 --> 00:07:37,369
+ delta greater than zero.
+
+286
+00:07:38,269 --> 00:07:39,649
+ Of course, the distance delta
+
+287
+00:07:39,660 --> 00:07:40,690
+ could be very small.
+
+288
+00:07:40,750 --> 00:07:42,369
+ The point is it holds then
+
+289
+00:07:42,380 --> 00:07:43,369
+ for all end
+
+290
+00:07:44,369 --> 00:07:44,910
+ OK.
+
+291
+00:07:44,940 --> 00:07:46,350
+ There we have it, these are
+
+292
+00:07:46,359 --> 00:07:47,929
+ all the operations we need
+
+293
+00:07:47,940 --> 00:07:49,029
+ for the real numbers.
+
+294
+00:07:49,809 --> 00:07:51,230
+ Now, in the last step, one
+
+295
+00:07:51,239 --> 00:07:52,890
+ can just calculate that all
+
+296
+00:07:52,899 --> 00:07:54,470
+ the properties we want, the
+
+297
+00:07:54,480 --> 00:07:56,170
+ axioms are actually
+
+298
+00:07:56,179 --> 00:07:56,910
+ satisfied.
+
+299
+00:07:57,660 --> 00:07:59,390
+ For example, we can define
+
+300
+00:07:59,399 --> 00:08:00,720
+ the zero element and the
+
+301
+00:08:00,730 --> 00:08:02,279
+ one element and show that
+
+302
+00:08:02,290 --> 00:08:03,440
+ we have a field again.
+
+303
+00:08:04,220 --> 00:08:05,519
+ However, the important part
+
+304
+00:08:05,529 --> 00:08:07,320
+ we have now by construction
+
+305
+00:08:07,329 --> 00:08:09,010
+ is the completeness axiom.
+
+306
+00:08:09,019 --> 00:08:10,959
+ Every Cauchy sequence is now
+
+307
+00:08:10,970 --> 00:08:12,429
+ actually convergent
+
+308
+00:08:13,059 --> 00:08:14,489
+ with this, we can close this
+
+309
+00:08:14,500 --> 00:08:15,929
+ video and I hope that you
+
+310
+00:08:15,940 --> 00:08:17,700
+ now know a lot about real
+
+311
+00:08:17,709 --> 00:08:18,359
+ numbers.
+
+312
+00:08:18,929 --> 00:08:20,359
+ And in the next videos we
+
+313
+00:08:20,369 --> 00:08:21,859
+ will talk about the complex
+
+314
+00:08:21,869 --> 00:08:22,519
+ numbers.
+
+315
+00:08:23,029 --> 00:08:24,230
+ Therefore, I hope I see you
+
+316
+00:08:24,239 --> 00:08:25,720
+ there and have a nice day.
+
+317
+00:08:25,769 --> 00:08:26,489
+ Bye.
+
