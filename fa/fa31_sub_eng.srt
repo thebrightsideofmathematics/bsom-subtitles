@@ -1,0 +1,1676 @@
+1
+00:00:00,360 --> 00:00:02,140
+ Hello and welcome back to
+
+2
+00:00:02,150 --> 00:00:03,789
+ functional analysis.
+
+3
+00:00:04,139 --> 00:00:05,570
+ And first, as always, I want
+
+4
+00:00:05,579 --> 00:00:06,920
+ to thank all the nice people
+
+5
+00:00:06,929 --> 00:00:07,949
+ that support this channel
+
+6
+00:00:07,960 --> 00:00:09,319
+ on study or paypal.
+
+7
+00:00:09,739 --> 00:00:11,569
+ Today's part 31 is
+
+8
+00:00:11,579 --> 00:00:12,840
+ still about spectral
+
+9
+00:00:12,850 --> 00:00:13,619
+ theory.
+
+10
+00:00:14,130 --> 00:00:15,369
+ In particular, we will talk
+
+11
+00:00:15,380 --> 00:00:17,000
+ about the so called spectral
+
+12
+00:00:17,010 --> 00:00:17,700
+ radius.
+
+13
+00:00:18,420 --> 00:00:18,950
+ For this.
+
+14
+00:00:18,959 --> 00:00:20,610
+ First, please recall that
+
+15
+00:00:20,620 --> 00:00:22,059
+ we work in a complex banner
+
+16
+00:00:22,100 --> 00:00:23,969
+ space X and
+
+17
+00:00:23,979 --> 00:00:25,840
+ with a bounded linear operator
+
+18
+00:00:25,850 --> 00:00:27,530
+ T there, we have
+
+19
+00:00:27,540 --> 00:00:28,809
+ already discussed that the
+
+20
+00:00:28,819 --> 00:00:30,100
+ spectrum of the operator
+
+21
+00:00:30,110 --> 00:00:31,690
+ T is a subset of the
+
+22
+00:00:31,700 --> 00:00:32,750
+ complex numbers.
+
+23
+00:00:33,200 --> 00:00:35,009
+ Indeed, we have shown it's
+
+24
+00:00:35,020 --> 00:00:35,950
+ a close set.
+
+25
+00:00:36,599 --> 00:00:38,060
+ And as usual, we denote the
+
+26
+00:00:38,069 --> 00:00:40,060
+ spectrum with sigma of T.
+
+27
+00:00:40,810 --> 00:00:42,650
+ Now the spectral radius just
+
+28
+00:00:42,659 --> 00:00:44,500
+ measures how far the spectrum
+
+29
+00:00:44,509 --> 00:00:45,909
+ is away from zero.
+
+30
+00:00:46,659 --> 00:00:48,000
+ And this is what we denote
+
+31
+00:00:48,009 --> 00:00:49,479
+ by R of T.
+
+32
+00:00:49,950 --> 00:00:51,680
+ So by definition simply the
+
+33
+00:00:51,689 --> 00:00:53,099
+ suprema of the absolute
+
+34
+00:00:53,110 --> 00:00:53,849
+ values.
+
+35
+00:00:54,279 --> 00:00:55,659
+ So you see we can immediately
+
+36
+00:00:55,669 --> 00:00:57,360
+ define this number here.
+
+37
+00:00:57,880 --> 00:00:59,069
+ And in this video, we will
+
+38
+00:00:59,080 --> 00:01:00,319
+ show that this is indeed
+
+39
+00:01:00,330 --> 00:01:02,319
+ always a finite number
+
+40
+00:01:02,819 --> 00:01:03,720
+ more concretely.
+
+41
+00:01:03,729 --> 00:01:05,169
+ The spectrum is not the empty
+
+42
+00:01:05,180 --> 00:01:06,610
+ set and also a
+
+43
+00:01:06,620 --> 00:01:07,559
+ bounded set.
+
+44
+00:01:08,269 --> 00:01:08,629
+ OK.
+
+45
+00:01:08,639 --> 00:01:10,370
+ Now let's formulate it and
+
+46
+00:01:10,379 --> 00:01:11,449
+ then prove it.
+
+47
+00:01:11,889 --> 00:01:13,050
+ So we have a theorem with
+
+48
+00:01:13,059 --> 00:01:14,849
+ the same assumptions as before
+
+49
+00:01:15,209 --> 00:01:16,680
+ most importantly, we have
+
+50
+00:01:16,690 --> 00:01:18,169
+ a bounded linear operator
+
+51
+00:01:18,180 --> 00:01:19,370
+ from X to X.
+
+52
+00:01:20,080 --> 00:01:21,599
+ Then our first statement
+
+53
+00:01:21,610 --> 00:01:23,540
+ is that the spectrum of T
+
+54
+00:01:23,550 --> 00:01:25,089
+ as a subset of the complex
+
+55
+00:01:25,099 --> 00:01:26,919
+ numbers is a compact set.
+
+56
+00:01:27,739 --> 00:01:29,199
+ Please recall in the last
+
+57
+00:01:29,209 --> 00:01:30,839
+ video, we have already shown
+
+58
+00:01:30,849 --> 00:01:32,160
+ that it is a closed set.
+
+59
+00:01:32,839 --> 00:01:33,879
+ Therefore, the new thing
+
+60
+00:01:33,889 --> 00:01:35,489
+ here is that the set is
+
+61
+00:01:35,500 --> 00:01:36,690
+ also bounded.
+
+62
+00:01:37,080 --> 00:01:38,529
+ Then our next statement here
+
+63
+00:01:38,540 --> 00:01:40,209
+ is that the spectrum is never
+
+64
+00:01:40,220 --> 00:01:40,809
+ empty.
+
+65
+00:01:41,459 --> 00:01:43,080
+ However, this is not completely
+
+66
+00:01:43,089 --> 00:01:44,790
+ true because there is one
+
+67
+00:01:44,800 --> 00:01:46,199
+ case where this can happen,
+
+68
+00:01:46,639 --> 00:01:47,760
+ it happens when you choose
+
+69
+00:01:47,769 --> 00:01:49,339
+ the smallest possible vector
+
+70
+00:01:49,349 --> 00:01:49,879
+ space.
+
+71
+00:01:50,400 --> 00:01:51,449
+ So when the whole vector
+
+72
+00:01:51,459 --> 00:01:53,410
+ space is only the zero vector,
+
+73
+00:01:53,419 --> 00:01:54,980
+ then there's only one linear
+
+74
+00:01:54,989 --> 00:01:56,800
+ map T and is
+
+75
+00:01:56,809 --> 00:01:58,160
+ always invertible.
+
+76
+00:01:58,169 --> 00:01:59,559
+ Therefore, the spectrum needs
+
+77
+00:01:59,569 --> 00:02:00,440
+ to be empty.
+
+78
+00:02:00,910 --> 00:02:02,360
+ However, when we exclude
+
+79
+00:02:02,370 --> 00:02:03,800
+ this in fairness boring
+
+80
+00:02:03,809 --> 00:02:05,419
+ case, then the
+
+81
+00:02:05,430 --> 00:02:07,000
+ implication is correct, the
+
+82
+00:02:07,010 --> 00:02:08,809
+ spectrum of T is non
+
+83
+00:02:08,880 --> 00:02:09,449
+ empty.
+
+84
+00:02:09,809 --> 00:02:10,130
+ OK.
+
+85
+00:02:10,139 --> 00:02:12,070
+ Then the last part C is about
+
+86
+00:02:12,080 --> 00:02:13,440
+ the spectral radius.
+
+87
+00:02:13,600 --> 00:02:15,070
+ As I already told you the
+
+88
+00:02:15,080 --> 00:02:16,710
+ spectral radius are of
+
+89
+00:02:16,720 --> 00:02:17,970
+ T is given by the
+
+90
+00:02:17,979 --> 00:02:19,750
+ supreme where we go
+
+91
+00:02:19,759 --> 00:02:21,309
+ through all the points lambda
+
+92
+00:02:21,320 --> 00:02:22,250
+ in the spectrum.
+
+93
+00:02:22,259 --> 00:02:23,410
+ And we look at the absolute
+
+94
+00:02:23,419 --> 00:02:23,910
+ value.
+
+95
+00:02:24,320 --> 00:02:25,809
+ Now, one important result
+
+96
+00:02:25,820 --> 00:02:27,529
+ here is that instead of calculating
+
+97
+00:02:27,539 --> 00:02:29,270
+ a supreme, we can look at
+
+98
+00:02:29,279 --> 00:02:31,210
+ a limit and there we take
+
+99
+00:02:31,220 --> 00:02:32,509
+ the operator norm of the
+
+100
+00:02:32,520 --> 00:02:33,649
+ powers of T.
+
+101
+00:02:34,429 --> 00:02:35,720
+ Then outside of the norm
+
+102
+00:02:35,729 --> 00:02:37,360
+ we take the k-th root again,
+
+103
+00:02:37,869 --> 00:02:39,339
+ one additional result is
+
+104
+00:02:39,350 --> 00:02:41,259
+ that this sequence is monotonically
+
+105
+00:02:41,270 --> 00:02:42,059
+ decreasing.
+
+106
+00:02:42,070 --> 00:02:43,699
+ So the limit is equal to
+
+107
+00:02:43,710 --> 00:02:44,199
+ the infimum.
+
+108
+00:02:45,119 --> 00:02:46,639
+ However, most importantly,
+
+109
+00:02:46,649 --> 00:02:47,990
+ we get the result that the
+
+110
+00:02:48,000 --> 00:02:49,470
+ whole spectral radius is
+
+111
+00:02:49,479 --> 00:02:51,130
+ bounded by the operator norm
+
+112
+00:02:51,139 --> 00:02:51,649
+ of T.
+
+113
+00:02:52,100 --> 00:02:53,309
+ Therefore, please always
+
+114
+00:02:53,320 --> 00:02:55,020
+ remember the spectral radius
+
+115
+00:02:55,029 --> 00:02:56,570
+ can never be bigger than
+
+116
+00:02:56,580 --> 00:02:57,669
+ the operator norm.
+
+117
+00:02:58,029 --> 00:02:59,350
+ And this is not something
+
+118
+00:02:59,360 --> 00:03:00,979
+ we can immediately prove
+
+119
+00:03:01,080 --> 00:03:01,850
+ for this.
+
+120
+00:03:01,860 --> 00:03:03,199
+ Let's use the properties
+
+121
+00:03:03,210 --> 00:03:04,710
+ we used in the last video.
+
+122
+00:03:05,119 --> 00:03:06,669
+ For example, the Neumann
+
+123
+00:03:06,679 --> 00:03:08,350
+ series is very helpful here.
+
+124
+00:03:08,889 --> 00:03:10,369
+ Therefore, let's take a complex
+
+125
+00:03:10,380 --> 00:03:12,029
+ number lambda which is in
+
+126
+00:03:12,039 --> 00:03:13,259
+ the absolute value greater
+
+127
+00:03:13,270 --> 00:03:14,410
+ than the operator norm.
+
+128
+00:03:14,669 --> 00:03:15,949
+ And now we want to show that
+
+129
+00:03:15,960 --> 00:03:17,389
+ this number can't be in the
+
+130
+00:03:17,399 --> 00:03:18,509
+ spectrum of T.
+
+131
+00:03:18,789 --> 00:03:20,479
+ And in fact, this is immediately
+
+132
+00:03:20,490 --> 00:03:22,250
+ given by the Neumann series.
+
+133
+00:03:22,479 --> 00:03:24,169
+ It tells us that the identity
+
+134
+00:03:24,179 --> 00:03:25,860
+ operator minus an operator
+
+135
+00:03:25,869 --> 00:03:27,250
+ S is always
+
+136
+00:03:27,259 --> 00:03:28,979
+ invertible if the
+
+137
+00:03:28,990 --> 00:03:30,770
+ norm of S is less
+
+138
+00:03:30,779 --> 00:03:31,550
+ than one.
+
+139
+00:03:32,089 --> 00:03:33,820
+ And in this case, the inverse
+
+140
+00:03:33,830 --> 00:03:35,600
+ that exists is given by this
+
+141
+00:03:35,610 --> 00:03:36,750
+ infinite series.
+
+142
+00:03:37,289 --> 00:03:38,429
+ And now, in our case, of
+
+143
+00:03:38,440 --> 00:03:40,309
+ course, instead of S we take
+
+144
+00:03:40,320 --> 00:03:42,059
+ T divided by Lambda
+
+145
+00:03:42,529 --> 00:03:44,220
+ by assumption this operator
+
+146
+00:03:44,229 --> 00:03:45,869
+ here has operator norm
+
+147
+00:03:45,880 --> 00:03:47,080
+ less than one.
+
+148
+00:03:47,419 --> 00:03:48,529
+ And now you should see it's
+
+149
+00:03:48,539 --> 00:03:50,330
+ a very short way from this
+
+150
+00:03:50,339 --> 00:03:51,789
+ to T minus Lambda,
+
+151
+00:03:52,309 --> 00:03:53,679
+ we just have to multiply
+
+152
+00:03:53,690 --> 00:03:55,440
+ this with minus one
+
+153
+00:03:55,449 --> 00:03:56,509
+ over Lambda.
+
+154
+00:03:57,139 --> 00:03:58,270
+ In the end, we get a very
+
+155
+00:03:58,279 --> 00:04:00,199
+ nice expression for T minus
+
+156
+00:04:00,210 --> 00:04:01,470
+ Lambda inverse.
+
+157
+00:04:01,850 --> 00:04:02,949
+ Of course, the important
+
+158
+00:04:02,960 --> 00:04:04,419
+ result is this inverse
+
+159
+00:04:04,429 --> 00:04:06,389
+ exists as a bounded linear
+
+160
+00:04:06,399 --> 00:04:07,149
+ operator.
+
+161
+00:04:07,679 --> 00:04:09,059
+ Moreover, I would say you
+
+162
+00:04:09,070 --> 00:04:10,339
+ should also remember this
+
+163
+00:04:10,350 --> 00:04:12,149
+ formula here that holds for
+
+164
+00:04:12,160 --> 00:04:13,660
+ Lambda that are large enough.
+
+165
+00:04:14,130 --> 00:04:14,500
+ OK.
+
+166
+00:04:14,509 --> 00:04:16,059
+ Now we conclude this lambda
+
+167
+00:04:16,119 --> 00:04:17,928
+ here is not in the spectrum.
+
+168
+00:04:17,940 --> 00:04:19,579
+ Therefore, this supreme here
+
+169
+00:04:19,589 --> 00:04:21,298
+ is indeed less or equal than
+
+170
+00:04:21,309 --> 00:04:22,829
+ the operator norm of T.
+
+171
+00:04:22,869 --> 00:04:24,760
+ In addition, this implies
+
+172
+00:04:24,769 --> 00:04:26,540
+ that the spectrum of T is
+
+173
+00:04:26,549 --> 00:04:27,250
+ bounded.
+
+174
+00:04:28,010 --> 00:04:29,579
+ And I already told you, we
+
+175
+00:04:29,589 --> 00:04:30,660
+ know from the last video
+
+176
+00:04:30,670 --> 00:04:32,059
+ that the set is closed.
+
+177
+00:04:32,070 --> 00:04:33,450
+ Therefore, we have proven
+
+178
+00:04:33,459 --> 00:04:35,190
+ a additionally, you
+
+179
+00:04:35,200 --> 00:04:37,079
+ see that one part of C is
+
+180
+00:04:37,089 --> 00:04:38,649
+ also already proven.
+
+181
+00:04:39,000 --> 00:04:40,450
+ However, now I want to skip
+
+182
+00:04:40,459 --> 00:04:41,929
+ the other parts of C and
+
+183
+00:04:41,940 --> 00:04:43,329
+ concentrate on B
+
+184
+00:04:43,739 --> 00:04:45,170
+ because there we can also
+
+185
+00:04:45,179 --> 00:04:46,600
+ use immediately some facts
+
+186
+00:04:46,609 --> 00:04:47,679
+ from the last video.
+
+187
+00:04:48,239 --> 00:04:49,440
+ So here we can do a proof
+
+188
+00:04:49,450 --> 00:04:50,470
+ by contraposition.
+
+189
+00:04:50,480 --> 00:04:51,559
+ So let's assume that the
+
+190
+00:04:51,570 --> 00:04:53,480
+ spectrum of T is the empty
+
+191
+00:04:53,489 --> 00:04:53,869
+ set.
+
+192
+00:04:54,359 --> 00:04:55,869
+ No spectrum at all means
+
+193
+00:04:55,880 --> 00:04:57,130
+ that the resolvent set is
+
+194
+00:04:57,140 --> 00:04:58,470
+ the whole complex plane.
+
+195
+00:04:58,920 --> 00:05:00,839
+ So row of T is C
+
+196
+00:05:01,480 --> 00:05:03,000
+ and now you can recall the
+
+197
+00:05:03,010 --> 00:05:04,899
+ fact that the resolvent map
+
+198
+00:05:04,910 --> 00:05:06,179
+ is an analytic map
+
+199
+00:05:06,869 --> 00:05:08,470
+ more concretely the map that
+
+200
+00:05:08,480 --> 00:05:10,109
+ takes lambda and sends it
+
+201
+00:05:10,119 --> 00:05:11,290
+ to T minus lambda
+
+202
+00:05:11,309 --> 00:05:12,890
+ inverse can be
+
+203
+00:05:12,899 --> 00:05:14,640
+ locally expressed by a Taylor
+
+204
+00:05:14,649 --> 00:05:15,329
+ series.
+
+205
+00:05:15,619 --> 00:05:16,709
+ This is what we have shown
+
+206
+00:05:16,720 --> 00:05:17,570
+ last time.
+
+207
+00:05:17,579 --> 00:05:19,250
+ And now we can use it.
+
+208
+00:05:19,750 --> 00:05:20,070
+ OK.
+
+209
+00:05:20,079 --> 00:05:21,739
+ Since you know a lot of functional
+
+210
+00:05:21,750 --> 00:05:23,519
+ analysis at this point, it
+
+211
+00:05:23,529 --> 00:05:24,829
+ shouldn't be a problem for
+
+212
+00:05:24,839 --> 00:05:25,059
+ you.
+
+213
+00:05:25,070 --> 00:05:26,579
+ When we now use the dual
+
+214
+00:05:26,589 --> 00:05:28,109
+ space of BX,
+
+215
+00:05:28,179 --> 00:05:30,089
+ this space of bounded linear
+
+216
+00:05:30,100 --> 00:05:32,049
+ operators is a Banach space.
+
+217
+00:05:32,059 --> 00:05:33,250
+ Therefore, it has a well
+
+218
+00:05:33,260 --> 00:05:34,649
+ defined dual space
+
+219
+00:05:35,149 --> 00:05:36,700
+ which I always denote with
+
+220
+00:05:36,709 --> 00:05:37,299
+ the prime.
+
+221
+00:05:37,940 --> 00:05:39,390
+ Therefore, this L is now
+
+222
+00:05:39,399 --> 00:05:41,100
+ a linear functional defined
+
+223
+00:05:41,109 --> 00:05:42,290
+ on the operators.
+
+224
+00:05:42,640 --> 00:05:44,019
+ And of course, now I want
+
+225
+00:05:44,029 --> 00:05:45,980
+ to apply the L to this
+
+226
+00:05:45,989 --> 00:05:47,010
+ operator here.
+
+227
+00:05:47,489 --> 00:05:48,660
+ Now you see we get a nice
+
+228
+00:05:48,670 --> 00:05:50,230
+ map fl from the resolvent
+
+229
+00:05:50,239 --> 00:05:51,519
+ set into C
+
+230
+00:05:51,950 --> 00:05:53,450
+ because the linear function
+
+231
+00:05:53,459 --> 00:05:55,279
+ in L maps into the complex
+
+232
+00:05:55,290 --> 00:05:55,880
+ numbers.
+
+233
+00:05:56,049 --> 00:05:57,600
+ Also by assumption we know
+
+234
+00:05:57,609 --> 00:05:59,000
+ the resolvent set is given
+
+235
+00:05:59,010 --> 00:06:00,600
+ by the whole complex plane.
+
+236
+00:06:00,940 --> 00:06:02,100
+ So what we have here is a
+
+237
+00:06:02,109 --> 00:06:03,600
+ very nice analytic
+
+238
+00:06:03,609 --> 00:06:05,000
+ function, an
+
+239
+00:06:05,010 --> 00:06:06,399
+ alternative name for this
+
+240
+00:06:06,410 --> 00:06:08,279
+ is the notion holomorphic.
+
+241
+00:06:08,670 --> 00:06:10,260
+ Therefore, now at this point,
+
+242
+00:06:10,269 --> 00:06:11,609
+ you can use everything you
+
+243
+00:06:11,619 --> 00:06:13,450
+ know from complex analysis.
+
+244
+00:06:14,000 --> 00:06:15,480
+ Indeed, what we get is that
+
+245
+00:06:15,489 --> 00:06:17,059
+ FL is a bounded
+
+246
+00:06:17,070 --> 00:06:18,320
+ entire function
+
+247
+00:06:18,790 --> 00:06:19,130
+ here.
+
+248
+00:06:19,140 --> 00:06:20,700
+ The term entire is not so
+
+249
+00:06:20,709 --> 00:06:21,640
+ complicated.
+
+250
+00:06:22,100 --> 00:06:23,570
+ It simply means analytic
+
+251
+00:06:23,579 --> 00:06:25,160
+ together with the domain
+
+252
+00:06:25,170 --> 00:06:25,679
+ C.
+
+253
+00:06:25,890 --> 00:06:27,480
+ So the entire complex
+
+254
+00:06:27,489 --> 00:06:28,959
+ plane is the domain
+
+255
+00:06:29,359 --> 00:06:30,480
+ and that the function is
+
+256
+00:06:30,489 --> 00:06:31,959
+ bounded we can easily show.
+
+257
+00:06:31,970 --> 00:06:33,859
+ Now of course, there we
+
+258
+00:06:33,869 --> 00:06:35,119
+ just have to look what happens
+
+259
+00:06:35,130 --> 00:06:36,790
+ for large lambda values.
+
+260
+00:06:37,329 --> 00:06:38,500
+ And here for us, it turns
+
+261
+00:06:38,510 --> 00:06:40,239
+ out that two times the operator
+
+262
+00:06:40,250 --> 00:06:41,920
+ norm of T is already
+
+263
+00:06:41,929 --> 00:06:43,820
+ large enough because for
+
+264
+00:06:43,829 --> 00:06:45,290
+ these LAMBDAS, we can simply
+
+265
+00:06:45,299 --> 00:06:46,970
+ use our equation star from
+
+266
+00:06:46,980 --> 00:06:47,500
+ above.
+
+267
+00:06:47,820 --> 00:06:49,369
+ More concretely, let's take
+
+268
+00:06:49,380 --> 00:06:51,179
+ fl of lambda in the
+
+269
+00:06:51,190 --> 00:06:52,079
+ absolute value.
+
+270
+00:06:52,109 --> 00:06:53,880
+ Then by definition, this
+
+271
+00:06:53,890 --> 00:06:55,079
+ is less or equal than the
+
+272
+00:06:55,089 --> 00:06:56,510
+ operator norm of L
+
+273
+00:06:56,809 --> 00:06:58,570
+ times the operator norm of
+
+274
+00:06:58,579 --> 00:07:00,410
+ T minus lambda inverse.
+
+275
+00:07:00,839 --> 00:07:02,309
+ And exactly for this norm,
+
+276
+00:07:02,320 --> 00:07:03,829
+ we can use our Neumann series
+
+277
+00:07:03,839 --> 00:07:04,260
+ here.
+
+278
+00:07:04,750 --> 00:07:06,269
+ This means that this is less
+
+279
+00:07:06,279 --> 00:07:07,929
+ or equal where we have one
+
+280
+00:07:07,940 --> 00:07:09,290
+ over the absolute value of
+
+281
+00:07:09,299 --> 00:07:10,829
+ Lambda in front and then
+
+282
+00:07:10,839 --> 00:07:12,160
+ comes the infinite sum of
+
+283
+00:07:12,170 --> 00:07:14,089
+ the operator norm of T divided
+
+284
+00:07:14,100 --> 00:07:15,799
+ by lambda to the power K.
+
+285
+00:07:16,470 --> 00:07:17,869
+ And now, by assumption, we
+
+286
+00:07:17,880 --> 00:07:19,630
+ know this operator here
+
+287
+00:07:19,640 --> 00:07:21,380
+ has an operator norm which
+
+288
+00:07:21,390 --> 00:07:22,910
+ is less or equal than one
+
+289
+00:07:22,920 --> 00:07:23,410
+ half.
+
+290
+00:07:24,000 --> 00:07:25,790
+ So what remains here is just
+
+291
+00:07:25,799 --> 00:07:27,250
+ a geometric series, you can
+
+292
+00:07:27,260 --> 00:07:29,190
+ calculate more concretely.
+
+293
+00:07:29,200 --> 00:07:31,040
+ The value is less or equal
+
+294
+00:07:31,049 --> 00:07:31,609
+ than two.
+
+295
+00:07:32,119 --> 00:07:34,100
+ And because we can also estimate
+
+296
+00:07:34,109 --> 00:07:35,809
+ this one here, we have our
+
+297
+00:07:35,820 --> 00:07:37,660
+ bound, the absolute value
+
+298
+00:07:37,670 --> 00:07:39,329
+ of our function F Lambda
+
+299
+00:07:39,339 --> 00:07:41,290
+ is simply less or equal
+
+300
+00:07:41,299 --> 00:07:43,029
+ than the operator norm of
+
+301
+00:07:43,040 --> 00:07:44,829
+ L divided by the operator
+
+302
+00:07:44,839 --> 00:07:45,609
+ norm of T.
+
+303
+00:07:46,059 --> 00:07:46,440
+ OK.
+
+304
+00:07:46,450 --> 00:07:48,209
+ So this tells us that FL
+
+305
+00:07:48,220 --> 00:07:50,179
+ is indeed a bounded entire
+
+306
+00:07:50,190 --> 00:07:50,799
+ function.
+
+307
+00:07:51,369 --> 00:07:53,160
+ And now from complex analysis,
+
+308
+00:07:53,170 --> 00:07:55,079
+ we can apply Liouville's 
+
+309
+00:07:55,089 --> 00:07:56,929
+ theorem, it tells
+
+310
+00:07:56,940 --> 00:07:58,279
+ us that a bounded entire
+
+311
+00:07:58,290 --> 00:07:59,880
+ function needs to be a
+
+312
+00:07:59,890 --> 00:08:01,049
+ constant function.
+
+313
+00:08:01,440 --> 00:08:02,720
+ And please note here this
+
+314
+00:08:02,730 --> 00:08:04,309
+ fact holds no matter which
+
+315
+00:08:04,320 --> 00:08:06,160
+ linear functional L we choose.
+
+316
+00:08:06,869 --> 00:08:07,170
+ OK.
+
+317
+00:08:07,179 --> 00:08:08,230
+ Since we have a constant
+
+318
+00:08:08,239 --> 00:08:09,630
+ function, we can simply
+
+319
+00:08:09,640 --> 00:08:11,200
+ calculate this constant,
+
+320
+00:08:11,420 --> 00:08:12,880
+ we can simply put in one
+
+321
+00:08:12,890 --> 00:08:14,410
+ point into the function.
+
+322
+00:08:14,820 --> 00:08:16,029
+ And of course, the simplest
+
+323
+00:08:16,040 --> 00:08:17,410
+ one would be zero
+
+324
+00:08:17,829 --> 00:08:19,329
+ and there we just have L
+
+325
+00:08:19,339 --> 00:08:20,660
+ of T inverse.
+
+326
+00:08:21,149 --> 00:08:22,779
+ And now this value is the
+
+327
+00:08:22,790 --> 00:08:24,480
+ only value the function can
+
+328
+00:08:24,489 --> 00:08:25,459
+ have.
+
+329
+00:08:25,470 --> 00:08:27,269
+ Therefore, we have this equality
+
+330
+00:08:27,279 --> 00:08:28,890
+ for all complex numbers
+
+331
+00:08:28,899 --> 00:08:29,369
+ lambda.
+
+332
+00:08:30,040 --> 00:08:30,359
+ OK.
+
+333
+00:08:30,369 --> 00:08:31,540
+ Now this is the definition
+
+334
+00:08:31,549 --> 00:08:32,489
+ of the function.
+
+335
+00:08:32,530 --> 00:08:34,010
+ And now I want to put in
+
+336
+00:08:34,020 --> 00:08:35,830
+ what we already know of this
+
+337
+00:08:35,840 --> 00:08:36,539
+ inverse.
+
+338
+00:08:36,849 --> 00:08:38,340
+ As a reminder we often call
+
+339
+00:08:38,349 --> 00:08:40,058
+ this inverse simply the
+
+340
+00:08:40,070 --> 00:08:41,940
+ resolve from the
+
+341
+00:08:41,950 --> 00:08:43,739
+ last video we know this is
+
+342
+00:08:43,750 --> 00:08:44,580
+ analytic.
+
+343
+00:08:44,590 --> 00:08:45,780
+ Therefore, we can put in
+
+344
+00:08:45,789 --> 00:08:47,539
+ the Taylor series we calculated
+
+345
+00:08:47,549 --> 00:08:47,900
+ there.
+
+346
+00:08:48,460 --> 00:08:49,750
+ And it simply looked like
+
+347
+00:08:49,760 --> 00:08:51,460
+ this not so
+
+348
+00:08:51,469 --> 00:08:52,859
+ complicated because here
+
+349
+00:08:52,869 --> 00:08:54,150
+ you see the coefficients
+
+350
+00:08:54,219 --> 00:08:55,460
+ and there we have lambda
+
+351
+00:08:55,469 --> 00:08:56,719
+ minus lambda zero.
+
+352
+00:08:57,150 --> 00:08:58,289
+ And to make it simpler, we
+
+353
+00:08:58,299 --> 00:09:00,020
+ can just put lambda 0 to
+
+354
+00:09:00,030 --> 00:09:00,609
+ 0.
+
+355
+00:09:01,000 --> 00:09:02,330
+ So we can simply erase it
+
+356
+00:09:02,340 --> 00:09:04,260
+ here and there.
+
+357
+00:09:05,380 --> 00:09:05,739
+ OK.
+
+358
+00:09:05,750 --> 00:09:07,400
+ Now this is much nicer and
+
+359
+00:09:07,409 --> 00:09:09,159
+ now we can pull in L
+
+360
+00:09:09,710 --> 00:09:11,000
+ and of course, then we get
+
+361
+00:09:11,010 --> 00:09:12,460
+ our Taylor series for
+
+362
+00:09:12,469 --> 00:09:14,109
+ fl so you see
+
+363
+00:09:14,119 --> 00:09:16,080
+ coefficients here and lambda
+
+364
+00:09:16,090 --> 00:09:17,239
+ to the power K here.
+
+365
+00:09:17,750 --> 00:09:19,299
+ OK, maybe still a little
+
+366
+00:09:19,309 --> 00:09:20,280
+ bit complicated.
+
+367
+00:09:20,289 --> 00:09:22,039
+ But remember we know the
+
+368
+00:09:22,049 --> 00:09:23,289
+ function is constant.
+
+369
+00:09:24,020 --> 00:09:25,710
+ Therefore all the coefficients
+
+370
+00:09:25,719 --> 00:09:27,229
+ after the term K is equal
+
+371
+00:09:27,239 --> 00:09:28,770
+ to zero will vanish.
+
+372
+00:09:29,299 --> 00:09:30,530
+ Therefore, for example, the
+
+373
+00:09:30,539 --> 00:09:31,750
+ term that corresponds to
+
+374
+00:09:31,760 --> 00:09:33,549
+ K is equal to one is
+
+375
+00:09:33,559 --> 00:09:34,030
+ zero.
+
+376
+00:09:34,650 --> 00:09:36,630
+ So this means L of T to the
+
+377
+00:09:36,640 --> 00:09:38,460
+ power minus two is zero.
+
+378
+00:09:38,960 --> 00:09:40,510
+ And again, as a reminder,
+
+379
+00:09:40,520 --> 00:09:42,070
+ this fact holds now for
+
+380
+00:09:42,080 --> 00:09:43,570
+ all linear functionals
+
+381
+00:09:44,239 --> 00:09:45,609
+ and now every time you see
+
+382
+00:09:45,619 --> 00:09:46,869
+ something like this, you
+
+383
+00:09:46,880 --> 00:09:47,989
+ should immediately think
+
+384
+00:09:48,000 --> 00:09:49,739
+ of the Hahn-Banach theorem.
+
+385
+00:09:49,969 --> 00:09:50,940
+ And in the case, you don't
+
+386
+00:09:50,950 --> 00:09:51,619
+ remember it.
+
+387
+00:09:51,630 --> 00:09:53,260
+ Look at part 25.
+
+388
+00:09:53,270 --> 00:09:55,190
+ Again, it tells us
+
+389
+00:09:55,200 --> 00:09:56,900
+ that if we put in the same
+
+390
+00:09:56,909 --> 00:09:58,820
+ point into all functionals
+
+391
+00:09:58,979 --> 00:10:00,299
+ and the result is always
+
+392
+00:10:00,309 --> 00:10:02,109
+ zero, then the point has
+
+393
+00:10:02,119 --> 00:10:03,340
+ to be zero as well.
+
+394
+00:10:03,659 --> 00:10:05,140
+ So for us, this means this
+
+395
+00:10:05,150 --> 00:10:06,469
+ operator is the zero
+
+396
+00:10:06,479 --> 00:10:08,419
+ operator however, it's an
+
+397
+00:10:08,429 --> 00:10:09,179
+ inverse.
+
+398
+00:10:09,190 --> 00:10:10,299
+ Therefore, this shouldn't
+
+399
+00:10:10,309 --> 00:10:11,159
+ happen at all.
+
+400
+00:10:11,880 --> 00:10:13,289
+ The only case where this
+
+401
+00:10:13,299 --> 00:10:14,349
+ strange thing can happen
+
+402
+00:10:14,359 --> 00:10:16,190
+ is if we start with the trivial
+
+403
+00:10:16,200 --> 00:10:17,820
+ vector space and
+
+404
+00:10:17,830 --> 00:10:19,489
+ usually we don't do that.
+
+405
+00:10:20,219 --> 00:10:21,580
+ Therefore, the result is
+
+406
+00:10:21,590 --> 00:10:23,080
+ that in all other interesting
+
+407
+00:10:23,090 --> 00:10:24,729
+ cases, especially for
+
+408
+00:10:24,739 --> 00:10:25,890
+ infinite dimensional vector
+
+409
+00:10:25,900 --> 00:10:27,619
+ spaces, the spectrum of an
+
+410
+00:10:27,630 --> 00:10:29,460
+ operator is never empty.
+
+411
+00:10:30,210 --> 00:10:30,570
+ OK.
+
+412
+00:10:30,580 --> 00:10:32,179
+ So this was a lot but I hope
+
+413
+00:10:32,190 --> 00:10:33,190
+ you could follow here.
+
+414
+00:10:33,700 --> 00:10:34,900
+ In that case, I see you in
+
+415
+00:10:34,909 --> 00:10:36,179
+ the next video when we go
+
+416
+00:10:36,190 --> 00:10:37,549
+ deeper into the field of
+
+417
+00:10:37,559 --> 00:10:38,789
+ spectral theory.
+
+418
+00:10:39,229 --> 00:10:40,150
+ Have a nice day.
+
+419
+00:10:40,159 --> 00:10:40,820
+ Bye.
+
