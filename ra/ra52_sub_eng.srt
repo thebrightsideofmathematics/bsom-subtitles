@@ -1,0 +1,1832 @@
+1
+00:00:00,560 --> 00:00:02,259
+ Hello and welcome back
+
+2
+00:00:02,269 --> 00:00:03,140
+ to real
+
+3
+00:00:03,150 --> 00:00:04,300
+ analysis.
+
+4
+00:00:05,019 --> 00:00:06,320
+ And first, I want to thank
+
+5
+00:00:06,329 --> 00:00:07,570
+ all the nice supporters on
+
+6
+00:00:07,579 --> 00:00:08,920
+ Steady and paypal.
+
+7
+00:00:09,789 --> 00:00:11,739
+ Now, in today's part 52 we
+
+8
+00:00:11,750 --> 00:00:13,189
+ will talk about examples
+
+9
+00:00:13,199 --> 00:00:14,630
+ for the Riemann integral
+
+10
+00:00:15,159 --> 00:00:15,670
+ for this.
+
+11
+00:00:15,680 --> 00:00:16,930
+ Let's quickly recall the
+
+12
+00:00:16,940 --> 00:00:18,329
+ definition for Riemann
+
+13
+00:00:18,409 --> 00:00:19,809
+ integrable functions.
+
+14
+00:00:20,659 --> 00:00:22,229
+ What we need is a bounded
+
+15
+00:00:22,239 --> 00:00:23,780
+ function defined on the
+
+16
+00:00:23,790 --> 00:00:25,469
+ compact interval A B.
+
+17
+00:00:26,170 --> 00:00:27,600
+ And we call this function
+
+18
+00:00:27,709 --> 00:00:28,989
+ we man integral.
+
+19
+00:00:29,000 --> 00:00:30,659
+ If the upper and the lower
+
+20
+00:00:30,670 --> 00:00:32,060
+ integral are the same
+
+21
+00:00:32,830 --> 00:00:34,509
+ there, the lower integral
+
+22
+00:00:34,520 --> 00:00:36,110
+ is given when we approximate
+
+23
+00:00:36,119 --> 00:00:37,639
+ the integral with step
+
+24
+00:00:37,650 --> 00:00:39,000
+ functions from below.
+
+25
+00:00:39,549 --> 00:00:40,959
+ And the upper integral is
+
+26
+00:00:40,970 --> 00:00:42,560
+ given when we approximate
+
+27
+00:00:42,569 --> 00:00:44,529
+ the integral by step functions
+
+28
+00:00:44,540 --> 00:00:45,279
+ from above.
+
+29
+00:00:46,139 --> 00:00:47,599
+ Hence, we only get one
+
+30
+00:00:47,610 --> 00:00:49,330
+ well-defined value here
+
+31
+00:00:49,340 --> 00:00:51,130
+ which we call the integral
+
+32
+00:00:51,139 --> 00:00:52,319
+ of the function F.
+
+33
+00:00:53,349 --> 00:00:55,049
+ Now I can tell you it's possible
+
+34
+00:00:55,060 --> 00:00:56,610
+ to rewrite this definition
+
+35
+00:00:56,619 --> 00:00:58,049
+ here without using
+
+36
+00:00:58,060 --> 00:00:59,229
+ supremo and infimum.
+
+37
+00:01:00,299 --> 00:01:01,979
+ In this alternative form,
+
+38
+00:01:01,990 --> 00:01:03,279
+ you might recognize the
+
+39
+00:01:03,290 --> 00:01:05,138
+ approximation in a better
+
+40
+00:01:05,150 --> 00:01:06,760
+ way to get the
+
+41
+00:01:06,769 --> 00:01:07,220
+ idea.
+
+42
+00:01:07,230 --> 00:01:08,500
+ Let's simply to a
+
+43
+00:01:08,559 --> 00:01:09,980
+ small graph here.
+
+44
+00:01:11,199 --> 00:01:12,959
+ So you see our mission is
+
+45
+00:01:12,970 --> 00:01:14,199
+ that we approximate this
+
+46
+00:01:14,209 --> 00:01:16,190
+ area here from above
+
+47
+00:01:16,199 --> 00:01:17,080
+ and from below.
+
+48
+00:01:17,919 --> 00:01:19,550
+ Now let's say this here is
+
+49
+00:01:19,559 --> 00:01:21,459
+ a step function phi and
+
+50
+00:01:21,470 --> 00:01:23,069
+ you see it's an approximation
+
+51
+00:01:23,080 --> 00:01:23,779
+ form below.
+
+52
+00:01:24,510 --> 00:01:26,330
+ Also, then you can see
+
+53
+00:01:26,349 --> 00:01:27,610
+ without a problem.
+
+54
+00:01:27,620 --> 00:01:29,290
+ And even with the same partition
+
+55
+00:01:29,300 --> 00:01:31,279
+ of the x axis, we can choose
+
+56
+00:01:31,290 --> 00:01:33,099
+ a step function phi that
+
+57
+00:01:33,110 --> 00:01:34,790
+ approximates the integral
+
+58
+00:01:34,800 --> 00:01:35,639
+ from above.
+
+59
+00:01:36,559 --> 00:01:38,410
+ However, the important thing
+
+60
+00:01:38,419 --> 00:01:39,900
+ I want to show you here is
+
+61
+00:01:39,910 --> 00:01:41,639
+ that the area between both
+
+62
+00:01:41,650 --> 00:01:43,300
+ step functions is very
+
+63
+00:01:43,309 --> 00:01:44,860
+ small even
+
+64
+00:01:44,870 --> 00:01:45,389
+ better.
+
+65
+00:01:45,400 --> 00:01:47,269
+ We can make it as small as
+
+66
+00:01:47,279 --> 00:01:47,959
+ we want.
+
+67
+00:01:48,910 --> 00:01:50,650
+ And exactly this fact is
+
+68
+00:01:50,660 --> 00:01:52,480
+ what we can use for an equivalent
+
+69
+00:01:52,489 --> 00:01:53,489
+ formulation here.
+
+70
+00:01:54,910 --> 00:01:56,750
+ Namely for all
+
+71
+00:01:56,760 --> 00:01:58,150
+ epsilon greater than
+
+72
+00:01:58,160 --> 00:01:58,800
+ zero,
+
+73
+00:02:00,010 --> 00:02:01,709
+ we find step functions
+
+74
+00:02:01,720 --> 00:02:02,459
+ Phi MS
+
+75
+00:02:03,900 --> 00:02:05,440
+ with the property that the
+
+76
+00:02:05,449 --> 00:02:07,360
+ one lies below F
+
+77
+00:02:07,370 --> 00:02:09,339
+ and the other one above F.
+
+78
+00:02:10,070 --> 00:02:11,929
+ And moreover, we have
+
+79
+00:02:11,940 --> 00:02:13,449
+ that the difference between
+
+80
+00:02:13,460 --> 00:02:15,289
+ both integrals here is
+
+81
+00:02:15,300 --> 00:02:17,130
+ less than the given epsilon
+
+82
+00:02:18,149 --> 00:02:18,619
+ here.
+
+83
+00:02:18,630 --> 00:02:20,509
+ Please note we know that
+
+84
+00:02:20,520 --> 00:02:22,360
+ the integral of Phi is
+
+85
+00:02:22,369 --> 00:02:23,979
+ always bigger than the integral
+
+86
+00:02:23,990 --> 00:02:24,740
+ of Phi.
+
+87
+00:02:25,830 --> 00:02:27,440
+ So we don't need an absolute
+
+88
+00:02:27,449 --> 00:02:28,190
+ value here.
+
+89
+00:02:28,199 --> 00:02:29,720
+ We can just calculate the
+
+90
+00:02:29,729 --> 00:02:30,479
+ difference.
+
+91
+00:02:31,279 --> 00:02:31,820
+ OK.
+
+92
+00:02:31,830 --> 00:02:33,460
+ Now this description here
+
+93
+00:02:33,589 --> 00:02:35,179
+ makes it a little bit easier
+
+94
+00:02:35,190 --> 00:02:37,089
+ for us to look at examples.
+
+95
+00:02:38,089 --> 00:02:39,869
+ Therefore, I would say let's
+
+96
+00:02:39,880 --> 00:02:41,389
+ start with the first one
+
+97
+00:02:41,399 --> 00:02:43,309
+ now and I would like
+
+98
+00:02:43,320 --> 00:02:44,539
+ to start with a
+
+99
+00:02:44,550 --> 00:02:45,770
+ counterexample.
+
+100
+00:02:46,589 --> 00:02:48,130
+ It's the so-called dela
+
+101
+00:02:48,449 --> 00:02:49,009
+ function.
+
+102
+00:02:49,940 --> 00:02:51,360
+ Indeed, it sounds more
+
+103
+00:02:51,369 --> 00:02:52,589
+ complicated than it really
+
+104
+00:02:52,600 --> 00:02:53,119
+ is.
+
+105
+00:02:53,169 --> 00:02:55,000
+ And I would say let's define
+
+106
+00:02:55,009 --> 00:02:56,399
+ the function on the interval
+
+107
+00:02:56,410 --> 00:02:57,369
+ 01.
+
+108
+00:02:58,139 --> 00:02:59,639
+ And now the common definition
+
+109
+00:02:59,649 --> 00:03:01,419
+ of the function just considers
+
+110
+00:03:01,429 --> 00:03:02,309
+ two cases.
+
+111
+00:03:03,320 --> 00:03:04,779
+ We either get the value
+
+112
+00:03:04,789 --> 00:03:06,380
+ one or zero
+
+113
+00:03:06,389 --> 00:03:08,220
+ depending if the X we
+
+114
+00:03:08,229 --> 00:03:09,860
+ put in is rational or
+
+115
+00:03:09,869 --> 00:03:10,339
+ not.
+
+116
+00:03:11,330 --> 00:03:12,940
+ By using the set names, we
+
+117
+00:03:12,949 --> 00:03:14,919
+ can say it's one when X
+
+118
+00:03:14,929 --> 00:03:16,889
+ comes from Q and it's zero
+
+119
+00:03:16,899 --> 00:03:18,669
+ when X comes not from Q.
+
+120
+00:03:19,619 --> 00:03:21,339
+ Now, at first glance, this
+
+121
+00:03:21,350 --> 00:03:22,710
+ looks like a very simple
+
+122
+00:03:22,720 --> 00:03:23,229
+ function.
+
+123
+00:03:23,250 --> 00:03:24,800
+ So let's tour the graph for
+
+124
+00:03:24,809 --> 00:03:25,000
+ it.
+
+125
+00:03:25,770 --> 00:03:27,220
+ And there you should immediately
+
+126
+00:03:27,229 --> 00:03:29,050
+ see we have infinitely
+
+127
+00:03:29,059 --> 00:03:30,559
+ many rational points for
+
+128
+00:03:30,570 --> 00:03:32,449
+ the value one, but also
+
+129
+00:03:32,460 --> 00:03:33,910
+ infinitely many irrational
+
+130
+00:03:33,919 --> 00:03:35,509
+ points for the value zero.
+
+131
+00:03:36,320 --> 00:03:38,100
+ And moreover, we know the
+
+132
+00:03:38,110 --> 00:03:39,570
+ rational points like
+
+133
+00:03:39,580 --> 00:03:41,100
+ dance in the real number
+
+134
+00:03:41,110 --> 00:03:41,539
+ line.
+
+135
+00:03:42,250 --> 00:03:43,759
+ Please remember this is
+
+136
+00:03:43,770 --> 00:03:45,660
+ exactly how we constructed
+
+137
+00:03:45,669 --> 00:03:46,779
+ the real number line.
+
+138
+00:03:47,669 --> 00:03:49,539
+ For this reason, it's very
+
+139
+00:03:49,550 --> 00:03:51,160
+ hard to draw this graph of
+
+140
+00:03:51,169 --> 00:03:52,649
+ the function correctly
+
+141
+00:03:52,770 --> 00:03:54,149
+ because you have infinitely
+
+142
+00:03:54,160 --> 00:03:55,970
+ many jumps no matter how
+
+143
+00:03:55,979 --> 00:03:57,190
+ much you zoom in.
+
+144
+00:03:58,220 --> 00:03:59,860
+ And there you might already
+
+145
+00:03:59,869 --> 00:04:01,839
+ see that this function is
+
+146
+00:04:01,850 --> 00:04:03,440
+ not Riemann integrable.
+
+147
+00:04:04,350 --> 00:04:05,740
+ You see this when you want
+
+148
+00:04:05,750 --> 00:04:07,119
+ to choose a step function
+
+149
+00:04:07,130 --> 00:04:09,009
+ si that lies above
+
+150
+00:04:09,020 --> 00:04:10,139
+ the graph of f
+
+151
+00:04:11,229 --> 00:04:13,039
+ such a step function then
+
+152
+00:04:13,229 --> 00:04:14,910
+ also lies essentially
+
+153
+00:04:14,919 --> 00:04:15,940
+ above one.
+
+154
+00:04:17,140 --> 00:04:18,850
+ This is simply because for
+
+155
+00:04:18,858 --> 00:04:20,350
+ any segment you choose on
+
+156
+00:04:20,358 --> 00:04:21,959
+ the real number line, you
+
+157
+00:04:21,970 --> 00:04:23,839
+ always find a rational number.
+
+158
+00:04:24,690 --> 00:04:26,670
+ Hence the value one is
+
+159
+00:04:26,679 --> 00:04:28,339
+ always included in such an
+
+160
+00:04:28,350 --> 00:04:29,019
+ interval.
+
+161
+00:04:29,929 --> 00:04:31,619
+ Indeed, the same holds for
+
+162
+00:04:31,630 --> 00:04:33,059
+ the irrational numbers.
+
+163
+00:04:33,070 --> 00:04:33,989
+ When we want to choose a
+
+164
+00:04:34,000 --> 00:04:35,790
+ step function phi from
+
+165
+00:04:35,799 --> 00:04:37,790
+ below there, the
+
+166
+00:04:37,799 --> 00:04:39,429
+ step function also has to
+
+167
+00:04:39,440 --> 00:04:41,070
+ lie essentially below
+
+168
+00:04:41,079 --> 00:04:41,709
+ zero.
+
+169
+00:04:42,730 --> 00:04:44,640
+ In summary, you see we have
+
+170
+00:04:44,649 --> 00:04:46,179
+ two properties here that
+
+171
+00:04:46,190 --> 00:04:48,010
+ hold for all step functions,
+
+172
+00:04:48,079 --> 00:04:49,140
+ Phi and Phi
+
+173
+00:04:49,940 --> 00:04:51,649
+ and therefore we have immediately
+
+174
+00:04:51,660 --> 00:04:53,200
+ an estimate for the two
+
+175
+00:04:53,209 --> 00:04:54,320
+ integrals here.
+
+176
+00:04:55,260 --> 00:04:56,559
+ And the conclusion will be,
+
+177
+00:04:56,570 --> 00:04:58,200
+ we can't push the difference
+
+178
+00:04:58,209 --> 00:04:59,160
+ below one.
+
+179
+00:05:00,010 --> 00:05:01,529
+ Of course, the first integral
+
+180
+00:05:01,540 --> 00:05:03,209
+ will always be greater or
+
+181
+00:05:03,220 --> 00:05:05,059
+ equal than one and the other
+
+182
+00:05:05,070 --> 00:05:07,029
+ one always less or equal
+
+183
+00:05:07,040 --> 00:05:07,869
+ than zero.
+
+184
+00:05:08,790 --> 00:05:10,359
+ In other words, we cannot
+
+185
+00:05:10,369 --> 00:05:12,179
+ fulfill this property for
+
+186
+00:05:12,190 --> 00:05:13,190
+ all epsilon.
+
+187
+00:05:14,149 --> 00:05:16,019
+ In fact, this is all we need
+
+188
+00:05:16,220 --> 00:05:17,489
+ in order to show that the
+
+189
+00:05:17,500 --> 00:05:19,269
+ deli function is not
+
+190
+00:05:19,279 --> 00:05:20,459
+ riemann integrable
+
+191
+00:05:21,290 --> 00:05:21,519
+ here.
+
+192
+00:05:21,529 --> 00:05:23,000
+ Again, in the difference,
+
+193
+00:05:23,010 --> 00:05:24,429
+ this first part here is
+
+194
+00:05:24,440 --> 00:05:26,209
+ always greater or equal than
+
+195
+00:05:26,220 --> 00:05:26,660
+ one.
+
+196
+00:05:27,609 --> 00:05:29,220
+ And the second part without
+
+197
+00:05:29,230 --> 00:05:30,950
+ a minus sign is always
+
+198
+00:05:30,959 --> 00:05:32,709
+ less or equal than zero.
+
+199
+00:05:34,140 --> 00:05:35,609
+ Hence the difference of both
+
+200
+00:05:35,619 --> 00:05:37,170
+ numbers is always
+
+201
+00:05:37,179 --> 00:05:38,910
+ greater or equal than one.
+
+202
+00:05:40,140 --> 00:05:40,640
+ OK.
+
+203
+00:05:40,679 --> 00:05:42,420
+ There you see this was our
+
+204
+00:05:42,429 --> 00:05:44,029
+ first counterexample.
+
+205
+00:05:44,920 --> 00:05:46,500
+ Then next, I would say we
+
+206
+00:05:46,510 --> 00:05:47,980
+ look at a function that is
+
+207
+00:05:47,989 --> 00:05:49,859
+ actually Riemann integral.
+
+208
+00:05:50,630 --> 00:05:52,209
+ Of course, for the start,
+
+209
+00:05:52,220 --> 00:05:53,929
+ let's look at a very simple
+
+210
+00:05:53,940 --> 00:05:54,559
+ example.
+
+211
+00:05:55,429 --> 00:05:57,130
+ And I guess the identity
+
+212
+00:05:57,140 --> 00:05:58,890
+ F of X is equal to X
+
+213
+00:05:58,899 --> 00:06:00,690
+ is a very suitable example.
+
+214
+00:06:01,649 --> 00:06:02,970
+ This is simply because when
+
+215
+00:06:02,980 --> 00:06:04,890
+ we toward the graph, we immediately
+
+216
+00:06:04,899 --> 00:06:06,750
+ see what the integral should
+
+217
+00:06:06,760 --> 00:06:07,070
+ be.
+
+218
+00:06:07,809 --> 00:06:09,519
+ You see the area is given
+
+219
+00:06:09,529 --> 00:06:11,239
+ by this triangle which
+
+220
+00:06:11,250 --> 00:06:12,920
+ means the area should be
+
+221
+00:06:12,929 --> 00:06:13,790
+ one half,
+
+222
+00:06:14,730 --> 00:06:16,630
+ it's simply half of the square
+
+223
+00:06:16,640 --> 00:06:18,029
+ where we have the sides as
+
+224
+00:06:18,040 --> 00:06:18,950
+ one and one.
+
+225
+00:06:19,769 --> 00:06:21,480
+ However, if we work with
+
+226
+00:06:21,489 --> 00:06:22,709
+ the definition of the Riemann
+
+227
+00:06:22,720 --> 00:06:24,519
+ integral, what we need to,
+
+228
+00:06:24,529 --> 00:06:26,239
+ we can't use the triangle,
+
+229
+00:06:26,250 --> 00:06:28,239
+ we need to use rectangles.
+
+230
+00:06:29,450 --> 00:06:31,130
+ Hence, here we can actually
+
+231
+00:06:31,140 --> 00:06:33,019
+ see if our approximation
+
+232
+00:06:33,029 --> 00:06:33,670
+ works.
+
+233
+00:06:34,570 --> 00:06:35,029
+ OK.
+
+234
+00:06:35,040 --> 00:06:36,500
+ Now, the question here is
+
+235
+00:06:36,510 --> 00:06:38,109
+ what is a good step function
+
+236
+00:06:38,119 --> 00:06:39,220
+ we can choose here?
+
+237
+00:06:40,040 --> 00:06:41,279
+ Now, the one we see in the
+
+238
+00:06:41,290 --> 00:06:42,820
+ picture has four
+
+239
+00:06:42,829 --> 00:06:44,380
+ steps, the
+
+240
+00:06:44,390 --> 00:06:45,890
+ first height here is
+
+241
+00:06:45,899 --> 00:06:47,880
+ zero, then we go up one
+
+242
+00:06:47,890 --> 00:06:49,690
+ quarter, then the next quarter,
+
+243
+00:06:49,700 --> 00:06:51,239
+ the next quarter and then
+
+244
+00:06:51,250 --> 00:06:52,010
+ it's the end.
+
+245
+00:06:52,809 --> 00:06:53,970
+ Hence, we have our four
+
+246
+00:06:53,980 --> 00:06:55,320
+ values 0,
+
+247
+00:06:55,329 --> 00:06:57,160
+ 1/4 2/4 and
+
+248
+00:06:57,170 --> 00:06:58,160
+ 3/4.
+
+249
+00:06:59,010 --> 00:07:00,769
+ Also, it's not hard to see
+
+250
+00:07:00,779 --> 00:07:02,440
+ that we split the X axis
+
+251
+00:07:02,450 --> 00:07:04,299
+ also in four equal
+
+252
+00:07:04,309 --> 00:07:04,869
+ parts.
+
+253
+00:07:05,609 --> 00:07:07,010
+ So we have to interval 0
+
+254
+00:07:07,019 --> 00:07:08,640
+ to 1 quarter, one quarter
+
+255
+00:07:08,649 --> 00:07:10,529
+ to two quarters and so on.
+
+256
+00:07:11,269 --> 00:07:11,619
+ OK.
+
+257
+00:07:11,630 --> 00:07:13,079
+ So you see this is a well
+
+258
+00:07:13,100 --> 00:07:14,320
+ defined step function.
+
+259
+00:07:14,329 --> 00:07:16,119
+ You can choose for the approximation
+
+260
+00:07:16,130 --> 00:07:16,769
+ from below.
+
+261
+00:07:17,529 --> 00:07:19,239
+ It has exactly four
+
+262
+00:07:19,250 --> 00:07:20,570
+ equidistant steps.
+
+263
+00:07:20,579 --> 00:07:22,230
+ Therefore, let's put a four
+
+264
+00:07:22,239 --> 00:07:23,429
+ into the index here.
+
+265
+00:07:24,250 --> 00:07:25,799
+ Of course, this tells you
+
+266
+00:07:25,809 --> 00:07:27,440
+ now that the approximation
+
+267
+00:07:27,450 --> 00:07:29,329
+ will get better when we choose
+
+268
+00:07:29,339 --> 00:07:31,149
+ similarly a step function
+
+269
+00:07:31,160 --> 00:07:32,309
+ with more steps.
+
+270
+00:07:33,179 --> 00:07:34,609
+ In fact, this is exactly
+
+271
+00:07:34,619 --> 00:07:35,640
+ what we will do.
+
+272
+00:07:35,649 --> 00:07:37,350
+ But now for an arbitrary
+
+273
+00:07:37,359 --> 00:07:38,329
+ integer N,
+
+274
+00:07:39,220 --> 00:07:41,029
+ hence we have exactly N
+
+275
+00:07:41,040 --> 00:07:42,670
+ steps now, which means the
+
+276
+00:07:42,679 --> 00:07:43,720
+ denominator here.
+
+277
+00:07:43,730 --> 00:07:45,510
+ And here is now N
+
+278
+00:07:46,320 --> 00:07:47,850
+ however, now, instead of
+
+279
+00:07:47,859 --> 00:07:49,820
+ writing in different cases,
+
+280
+00:07:49,829 --> 00:07:51,630
+ I want to put all of them
+
+281
+00:07:51,640 --> 00:07:53,350
+ into one closed formula.
+
+282
+00:07:54,160 --> 00:07:55,660
+ And this is what we can do
+
+283
+00:07:55,670 --> 00:07:57,399
+ with another index K.
+
+284
+00:07:58,579 --> 00:08:00,239
+ So you should see when K
+
+285
+00:08:00,250 --> 00:08:02,190
+ is equal to one, we are in
+
+286
+00:08:02,200 --> 00:08:03,230
+ the first case
+
+287
+00:08:03,950 --> 00:08:05,269
+ K is equal to two, gives
+
+288
+00:08:05,279 --> 00:08:07,269
+ us the next case and so on
+
+289
+00:08:07,279 --> 00:08:08,829
+ until K is equal to
+
+290
+00:08:08,839 --> 00:08:10,690
+ N gives us the last case
+
+291
+00:08:10,700 --> 00:08:11,079
+ here.
+
+292
+00:08:12,029 --> 00:08:13,369
+ Hence, the only thing missing
+
+293
+00:08:13,380 --> 00:08:14,600
+ here is now the value at
+
+294
+00:08:14,609 --> 00:08:16,380
+ the position which is K
+
+295
+00:08:16,390 --> 00:08:17,489
+ minus one,
+
+296
+00:08:18,480 --> 00:08:20,079
+ which definitely fits because
+
+297
+00:08:20,089 --> 00:08:21,859
+ it's zero in the first case
+
+298
+00:08:21,869 --> 00:08:23,299
+ one, in the second case and
+
+299
+00:08:23,309 --> 00:08:23,730
+ so on.
+
+300
+00:08:24,679 --> 00:08:25,209
+ OK.
+
+301
+00:08:25,220 --> 00:08:26,640
+ So this is a step function
+
+302
+00:08:26,649 --> 00:08:27,859
+ that looks like this.
+
+303
+00:08:27,980 --> 00:08:29,619
+ But now with N steps,
+
+304
+00:08:30,579 --> 00:08:31,910
+ OK, maybe it's not so
+
+305
+00:08:31,920 --> 00:08:33,840
+ precise because here
+
+306
+00:08:33,849 --> 00:08:35,369
+ we should have chosen an
+
+307
+00:08:35,380 --> 00:08:36,520
+ open interval.
+
+308
+00:08:37,299 --> 00:08:39,198
+ However, then you see it
+
+309
+00:08:39,207 --> 00:08:40,558
+ will clash with the last
+
+310
+00:08:40,568 --> 00:08:41,299
+ case here.
+
+311
+00:08:41,957 --> 00:08:43,679
+ However, we can ignore all
+
+312
+00:08:43,688 --> 00:08:45,078
+ of that because you already
+
+313
+00:08:45,088 --> 00:08:46,648
+ know for the integral, the
+
+314
+00:08:46,658 --> 00:08:48,018
+ boundary points here don't
+
+315
+00:08:48,028 --> 00:08:49,158
+ make any difference.
+
+316
+00:08:49,880 --> 00:08:51,320
+ Speaking of the integral,
+
+317
+00:08:51,330 --> 00:08:53,260
+ maybe let's immediately calculate
+
+318
+00:08:53,270 --> 00:08:54,979
+ the integral of phi N.
+
+319
+00:08:55,809 --> 00:08:57,739
+ Now, as we have learned before,
+
+320
+00:08:57,750 --> 00:08:59,359
+ the integral of a step function
+
+321
+00:08:59,369 --> 00:09:01,349
+ is always the sum of
+
+322
+00:09:01,359 --> 00:09:02,570
+ the areas of the
+
+323
+00:09:02,580 --> 00:09:03,510
+ rectangles,
+
+324
+00:09:04,599 --> 00:09:06,340
+ please recall we have N
+
+325
+00:09:06,349 --> 00:09:07,159
+ steps.
+
+326
+00:09:07,169 --> 00:09:08,580
+ Therefore, we have N
+
+327
+00:09:08,590 --> 00:09:09,630
+ rectangles.
+
+328
+00:09:10,150 --> 00:09:11,580
+ Honestly, the first one has
+
+329
+00:09:11,590 --> 00:09:12,669
+ area zero.
+
+330
+00:09:12,679 --> 00:09:14,210
+ So we could ignore it, but
+
+331
+00:09:14,219 --> 00:09:15,979
+ we can include it nevertheless.
+
+332
+00:09:16,700 --> 00:09:18,460
+ So now the area of one
+
+333
+00:09:18,469 --> 00:09:20,150
+ rectangle is simply the
+
+334
+00:09:20,159 --> 00:09:22,099
+ height times the width.
+
+335
+00:09:22,929 --> 00:09:24,280
+ And by construction, this
+
+336
+00:09:24,289 --> 00:09:26,030
+ is for all our rectangles
+
+337
+00:09:26,039 --> 00:09:26,909
+ one over and
+
+338
+00:09:28,109 --> 00:09:29,729
+ you see we have one over
+
+339
+00:09:29,739 --> 00:09:31,580
+ N squared which we can pull
+
+340
+00:09:31,590 --> 00:09:32,659
+ out of the sum.
+
+341
+00:09:33,380 --> 00:09:34,900
+ And then you see the only
+
+342
+00:09:34,909 --> 00:09:36,039
+ thing we have to calculate
+
+343
+00:09:36,049 --> 00:09:37,979
+ now is the sum of
+
+344
+00:09:37,989 --> 00:09:39,619
+ the first N minus one
+
+345
+00:09:39,630 --> 00:09:40,440
+ integers.
+
+346
+00:09:41,330 --> 00:09:43,070
+ And then we can use something
+
+347
+00:09:43,080 --> 00:09:44,669
+ some people call the little
+
+348
+00:09:44,679 --> 00:09:45,750
+ Gauss formula.
+
+349
+00:09:46,510 --> 00:09:48,369
+ In this case here, it's N
+
+350
+00:09:48,380 --> 00:09:49,869
+ times N minus
+
+351
+00:09:49,880 --> 00:09:51,690
+ one divided by
+
+352
+00:09:51,700 --> 00:09:52,090
+ two.
+
+353
+00:09:53,020 --> 00:09:54,119
+ In the next step, you see,
+
+354
+00:09:54,130 --> 00:09:55,729
+ we can simplify this
+
+355
+00:09:55,739 --> 00:09:57,530
+ into one half
+
+356
+00:09:57,539 --> 00:09:59,530
+ minus one divided by
+
+357
+00:09:59,539 --> 00:10:00,359
+ two N.
+
+358
+00:10:01,280 --> 00:10:01,820
+ OK.
+
+359
+00:10:01,830 --> 00:10:03,619
+ So this is our result here,
+
+360
+00:10:03,630 --> 00:10:05,539
+ the result of this integral.
+
+361
+00:10:06,190 --> 00:10:07,349
+ And what you should immediately
+
+362
+00:10:07,359 --> 00:10:09,289
+ see is that if our approximation
+
+363
+00:10:09,299 --> 00:10:10,510
+ gets better and better.
+
+364
+00:10:10,559 --> 00:10:11,770
+ So if we send N to
+
+365
+00:10:11,780 --> 00:10:13,630
+ infinity, the result is
+
+366
+00:10:13,640 --> 00:10:14,489
+ one half.
+
+367
+00:10:15,330 --> 00:10:17,080
+ However, that's not enough
+
+368
+00:10:17,090 --> 00:10:18,289
+ for showing that F is we
+
+369
+00:10:18,309 --> 00:10:20,049
+ are integral because we
+
+370
+00:10:20,059 --> 00:10:21,750
+ also have to approximate
+
+371
+00:10:21,760 --> 00:10:23,119
+ the integral from above.
+
+372
+00:10:23,890 --> 00:10:25,169
+ And of course, this is now
+
+373
+00:10:25,179 --> 00:10:26,809
+ what we do with a similar
+
+374
+00:10:26,820 --> 00:10:27,659
+ step functions.
+
+375
+00:10:27,750 --> 00:10:29,590
+ I here I would say
+
+376
+00:10:29,599 --> 00:10:31,159
+ let's use the same picture
+
+377
+00:10:31,169 --> 00:10:33,080
+ as before to sketch the
+
+378
+00:10:33,090 --> 00:10:34,200
+ new step function.
+
+379
+00:10:35,210 --> 00:10:36,250
+ Of course, it should be the
+
+380
+00:10:36,260 --> 00:10:37,880
+ same staircase as before
+
+381
+00:10:37,890 --> 00:10:39,510
+ but now shifted above the
+
+382
+00:10:39,520 --> 00:10:40,000
+ function.
+
+383
+00:10:40,859 --> 00:10:42,070
+ Therefore, the definition
+
+384
+00:10:42,080 --> 00:10:43,750
+ of PN should look
+
+385
+00:10:43,760 --> 00:10:45,489
+ more or less the same as
+
+386
+00:10:45,500 --> 00:10:46,630
+ the definition of phi.
+
+387
+00:10:47,770 --> 00:10:49,030
+ Of course, the partition
+
+388
+00:10:49,039 --> 00:10:50,479
+ of the X axis should be the
+
+389
+00:10:50,489 --> 00:10:50,969
+ same.
+
+390
+00:10:50,979 --> 00:10:52,429
+ We only have to shift the
+
+391
+00:10:52,440 --> 00:10:54,419
+ values indeed,
+
+392
+00:10:54,429 --> 00:10:56,280
+ instead of K minus one, we
+
+393
+00:10:56,289 --> 00:10:57,669
+ now can choose K.
+
+394
+00:10:58,469 --> 00:10:59,919
+ So you see it's not hard
+
+395
+00:10:59,929 --> 00:11:01,599
+ at all to define such a step
+
+396
+00:11:01,609 --> 00:11:02,049
+ function.
+
+397
+00:11:02,760 --> 00:11:04,169
+ And indeed in the same way
+
+398
+00:11:04,179 --> 00:11:06,049
+ as before, we can calculate
+
+399
+00:11:06,059 --> 00:11:06,900
+ the integral
+
+400
+00:11:07,630 --> 00:11:09,080
+ again, it's just a step
+
+401
+00:11:09,090 --> 00:11:09,760
+ function.
+
+402
+00:11:09,820 --> 00:11:11,450
+ So we add up all the
+
+403
+00:11:11,460 --> 00:11:12,500
+ areas of the
+
+404
+00:11:12,510 --> 00:11:13,489
+ rectangles.
+
+405
+00:11:14,520 --> 00:11:15,820
+ And now the only difference
+
+406
+00:11:15,830 --> 00:11:17,700
+ from before is that the height
+
+407
+00:11:17,710 --> 00:11:19,669
+ of the rectangles is slightly
+
+408
+00:11:19,679 --> 00:11:20,260
+ larger.
+
+409
+00:11:21,169 --> 00:11:22,809
+ Still here, we can pull the
+
+410
+00:11:22,820 --> 00:11:24,359
+ fact of one over N squared
+
+411
+00:11:24,369 --> 00:11:25,559
+ out of the sum.
+
+412
+00:11:25,619 --> 00:11:27,190
+ And the only thing that remains
+
+413
+00:11:27,200 --> 00:11:28,820
+ is the sum of the first and
+
+414
+00:11:28,830 --> 00:11:30,679
+ numbers, this
+
+415
+00:11:30,690 --> 00:11:31,979
+ means that we can apply the
+
+416
+00:11:31,989 --> 00:11:33,859
+ same formula as before.
+
+417
+00:11:34,020 --> 00:11:35,669
+ But now we have one additional
+
+418
+00:11:35,679 --> 00:11:36,890
+ number at the end.
+
+419
+00:11:37,359 --> 00:11:38,859
+ For this reason, this sum
+
+420
+00:11:38,869 --> 00:11:40,700
+ is then given as N times
+
+421
+00:11:40,710 --> 00:11:42,690
+ N plus one divided by two.
+
+422
+00:11:43,510 --> 00:11:43,940
+ OK.
+
+423
+00:11:43,950 --> 00:11:45,010
+ And then in the last step,
+
+424
+00:11:45,020 --> 00:11:46,690
+ we can simplify this again
+
+425
+00:11:46,809 --> 00:11:48,340
+ and we get one half
+
+426
+00:11:48,349 --> 00:11:49,320
+ plus
+
+427
+00:11:49,330 --> 00:11:50,729
+ 1/2 N.
+
+428
+00:11:52,020 --> 00:11:53,390
+ So with this, you should
+
+429
+00:11:53,400 --> 00:11:55,250
+ see we've reached our goal
+
+430
+00:11:55,929 --> 00:11:57,590
+ because the difference between
+
+431
+00:11:57,599 --> 00:11:59,380
+ these two integrals is
+
+432
+00:11:59,390 --> 00:12:01,119
+ exactly one
+
+433
+00:12:01,130 --> 00:12:02,309
+ divided by N.
+
+434
+00:12:03,419 --> 00:12:04,940
+ In other words, we can make
+
+435
+00:12:04,950 --> 00:12:06,599
+ the difference as small as
+
+436
+00:12:06,609 --> 00:12:07,260
+ we want.
+
+437
+00:12:08,270 --> 00:12:09,979
+ So if you recall the epsilon
+
+438
+00:12:09,989 --> 00:12:11,710
+ criterion from above, then
+
+439
+00:12:11,719 --> 00:12:13,530
+ you see that this function
+
+440
+00:12:13,539 --> 00:12:15,000
+ F is Riemann integrable.
+
+441
+00:12:16,080 --> 00:12:17,690
+ And of course, this is our
+
+442
+00:12:17,700 --> 00:12:18,570
+ result here.
+
+443
+00:12:19,270 --> 00:12:21,099
+ Moreover, we also get the
+
+444
+00:12:21,109 --> 00:12:22,479
+ value of the integral of
+
+445
+00:12:22,489 --> 00:12:24,440
+ F which is one half
+
+446
+00:12:25,169 --> 00:12:26,549
+ of course, not a surprise
+
+447
+00:12:26,559 --> 00:12:27,150
+ for you.
+
+448
+00:12:27,159 --> 00:12:28,830
+ But now we have proven it.
+
+449
+00:12:29,739 --> 00:12:30,200
+ OK.
+
+450
+00:12:30,210 --> 00:12:31,169
+ I think that's good enough
+
+451
+00:12:31,179 --> 00:12:32,859
+ for a first example here
+
+452
+00:12:32,869 --> 00:12:34,719
+ we will consider more complicated
+
+453
+00:12:34,729 --> 00:12:35,869
+ examples later.
+
+454
+00:12:36,650 --> 00:12:37,830
+ Therefore, I hope that I
+
+455
+00:12:37,840 --> 00:12:39,070
+ see you in the next video
+
+456
+00:12:39,080 --> 00:12:40,590
+ when we continue with the
+
+457
+00:12:40,599 --> 00:12:41,630
+ Rayman integral.
+
+458
+00:12:42,359 --> 00:12:44,169
+ Have a nice day and bye.
+
