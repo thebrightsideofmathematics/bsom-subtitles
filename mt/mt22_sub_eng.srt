@@ -1,0 +1,2224 @@
+1
+00:00:00,330 --> 00:00:02,250
+ Hello and welcome back to
+
+2
+00:00:02,259 --> 00:00:03,390
+ measure theory.
+
+3
+00:00:04,070 --> 00:00:05,500
+ And as always, first, I want
+
+4
+00:00:05,510 --> 00:00:06,949
+ to thank all the nice supporters
+
+5
+00:00:06,960 --> 00:00:08,189
+ on Steady or paypal.
+
+6
+00:00:09,020 --> 00:00:10,609
+ Now, in today's part three
+
+7
+00:00:10,619 --> 00:00:12,199
+ about outer measures, we
+
+8
+00:00:12,210 --> 00:00:13,710
+ will fill in some details
+
+9
+00:00:13,720 --> 00:00:14,239
+ of a proof.
+
+10
+00:00:14,250 --> 00:00:15,590
+ From the first video
+
+11
+00:00:16,318 --> 00:00:17,959
+ there, please recall,
+
+12
+00:00:17,969 --> 00:00:19,459
+ we've discussed an important
+
+13
+00:00:19,469 --> 00:00:20,079
+ proposition.
+
+14
+00:00:20,969 --> 00:00:22,549
+ The proposition tells us
+
+15
+00:00:22,559 --> 00:00:24,069
+ that each outer measure
+
+16
+00:00:24,079 --> 00:00:25,989
+ phi can be transformed
+
+17
+00:00:26,000 --> 00:00:27,510
+ into an ordinary measure.
+
+18
+00:00:28,229 --> 00:00:29,510
+ More concretely, we have
+
+19
+00:00:29,520 --> 00:00:30,450
+ two parts.
+
+20
+00:00:30,479 --> 00:00:32,389
+ The first part A tells
+
+21
+00:00:32,400 --> 00:00:33,549
+ us what the corresponding
+
+22
+00:00:33,560 --> 00:00:35,349
+ Sigma algebra A Phi
+
+23
+00:00:35,360 --> 00:00:35,740
+ is.
+
+24
+00:00:36,319 --> 00:00:37,909
+ In fact, it turns out when
+
+25
+00:00:37,919 --> 00:00:39,650
+ we consider all subsets
+
+26
+00:00:39,659 --> 00:00:41,490
+ A in X that are phi
+
+27
+00:00:41,500 --> 00:00:43,380
+ measurable, we get a Sigma
+
+28
+00:00:43,389 --> 00:00:44,049
+ algebra.
+
+29
+00:00:44,520 --> 00:00:45,869
+ Of course, you know this
+
+30
+00:00:45,880 --> 00:00:47,209
+ is the first ingredient we
+
+31
+00:00:47,220 --> 00:00:49,150
+ need for an ordinary measure.
+
+32
+00:00:49,860 --> 00:00:51,840
+ And exactly this one we call
+
+33
+00:00:51,849 --> 00:00:53,319
+ mu in part B.
+
+34
+00:00:54,080 --> 00:00:55,799
+ Now the domain of mu is given
+
+35
+00:00:55,810 --> 00:00:57,459
+ by our new Sigma algebra.
+
+36
+00:00:57,569 --> 00:00:59,060
+ And the definition is given
+
+37
+00:00:59,069 --> 00:01:00,639
+ by the outer measure Phi.
+
+38
+00:01:01,360 --> 00:01:03,169
+ In other words, Mu of
+
+39
+00:01:03,180 --> 00:01:05,069
+ A is given by Phi of
+
+40
+00:01:05,080 --> 00:01:05,400
+ A.
+
+41
+00:01:06,099 --> 00:01:07,599
+ And then the claim is this
+
+42
+00:01:07,610 --> 00:01:09,389
+ is now a normal measure.
+
+43
+00:01:10,069 --> 00:01:10,540
+ OK.
+
+44
+00:01:10,550 --> 00:01:12,029
+ There you see this is a nice
+
+45
+00:01:12,040 --> 00:01:13,610
+ proposition we already
+
+46
+00:01:13,620 --> 00:01:15,199
+ introduced in part one.
+
+47
+00:01:15,800 --> 00:01:17,550
+ Therefore, now in this part
+
+48
+00:01:17,559 --> 00:01:19,120
+ I want to give you the ideas
+
+49
+00:01:19,129 --> 00:01:19,959
+ for the proof.
+
+50
+00:01:20,559 --> 00:01:21,930
+ This means that for the first
+
+51
+00:01:21,940 --> 00:01:23,750
+ part, we have to verify all
+
+52
+00:01:23,760 --> 00:01:25,129
+ the properties of a Sigma
+
+53
+00:01:25,139 --> 00:01:25,800
+ algebra.
+
+54
+00:01:26,349 --> 00:01:28,050
+ These are essentially three
+
+55
+00:01:28,059 --> 00:01:28,760
+ things.
+
+56
+00:01:28,779 --> 00:01:30,430
+ First, the empty
+
+57
+00:01:30,440 --> 00:01:32,279
+ set and X should be in
+
+58
+00:01:32,290 --> 00:01:33,110
+ a phi.
+
+59
+00:01:33,809 --> 00:01:35,230
+ Then the collection of sets
+
+60
+00:01:35,239 --> 00:01:36,699
+ should be closed under the
+
+61
+00:01:36,709 --> 00:01:38,500
+ complement and
+
+62
+00:01:38,510 --> 00:01:40,050
+ closed under countable
+
+63
+00:01:40,059 --> 00:01:40,900
+ unions.
+
+64
+00:01:41,610 --> 00:01:42,959
+ Hence, I would suggest we
+
+65
+00:01:42,970 --> 00:01:44,529
+ start with the simplest one
+
+66
+00:01:44,540 --> 00:01:46,160
+ checking if the empty set
+
+67
+00:01:46,169 --> 00:01:47,279
+ is in a Phi.
+
+68
+00:01:48,010 --> 00:01:49,629
+ So by definition, this means
+
+69
+00:01:49,639 --> 00:01:51,400
+ is the empty set phi
+
+70
+00:01:51,410 --> 00:01:52,300
+ measurable.
+
+71
+00:01:52,839 --> 00:01:54,190
+ So I think this is a good
+
+72
+00:01:54,199 --> 00:01:56,180
+ point, refreshing your memory.
+
+73
+00:01:56,199 --> 00:01:58,150
+ What phi measurable actually
+
+74
+00:01:58,160 --> 00:02:00,099
+ means a subset
+
+75
+00:02:00,110 --> 00:02:01,519
+ A is called phi
+
+76
+00:02:01,529 --> 00:02:02,370
+ measurable.
+
+77
+00:02:02,379 --> 00:02:03,839
+ If it fulfills the following
+
+78
+00:02:03,849 --> 00:02:05,610
+ relation, namely
+
+79
+00:02:05,620 --> 00:02:07,559
+ if a decomposes every
+
+80
+00:02:07,569 --> 00:02:09,300
+ other set Q into two
+
+81
+00:02:09,309 --> 00:02:11,130
+ parts such that we have this
+
+82
+00:02:11,139 --> 00:02:12,589
+ additive for Phi.
+
+83
+00:02:13,080 --> 00:02:14,729
+ Now, in the case that A is
+
+84
+00:02:14,740 --> 00:02:16,360
+ the empty set, we see this
+
+85
+00:02:16,369 --> 00:02:17,570
+ relation immediately
+
+86
+00:02:18,289 --> 00:02:19,759
+ because the first part is
+
+87
+00:02:19,770 --> 00:02:21,210
+ just the empty set again.
+
+88
+00:02:21,300 --> 00:02:23,009
+ And the second part is just
+
+89
+00:02:23,020 --> 00:02:23,619
+ Q.
+
+90
+00:02:24,190 --> 00:02:25,580
+ Of course, you see these
+
+91
+00:02:25,589 --> 00:02:27,050
+ intersections are not hard
+
+92
+00:02:27,059 --> 00:02:27,520
+ at all.
+
+93
+00:02:28,080 --> 00:02:29,190
+ And then we just need the
+
+94
+00:02:29,199 --> 00:02:30,869
+ fact that an outer measure
+
+95
+00:02:30,880 --> 00:02:32,830
+ sends the empty set to zero.
+
+96
+00:02:33,500 --> 00:02:35,210
+ Hence, the whole first part
+
+97
+00:02:35,220 --> 00:02:36,419
+ is just zero.
+
+98
+00:02:36,509 --> 00:02:38,000
+ And the relation holds
+
+99
+00:02:38,809 --> 00:02:40,460
+ and there you see one property
+
+100
+00:02:40,470 --> 00:02:41,850
+ for the Sigma algebra is
+
+101
+00:02:41,860 --> 00:02:43,190
+ already satisfied.
+
+102
+00:02:43,850 --> 00:02:45,229
+ Then the next question would
+
+103
+00:02:45,240 --> 00:02:46,970
+ be, can we do the same for
+
+104
+00:02:46,979 --> 00:02:48,350
+ the whole space X?
+
+105
+00:02:49,179 --> 00:02:50,839
+ So again, we have the question
+
+106
+00:02:50,850 --> 00:02:52,839
+ is the whole space X phi
+
+107
+00:02:52,850 --> 00:02:53,679
+ measurable.
+
+108
+00:02:54,300 --> 00:02:55,660
+ And to answer that we have
+
+109
+00:02:55,669 --> 00:02:57,080
+ to take the relation again
+
+110
+00:02:57,089 --> 00:02:58,520
+ for every set Q.
+
+111
+00:02:58,529 --> 00:03:00,360
+ But now we put in X
+
+112
+00:03:01,050 --> 00:03:02,429
+ and there you see this looks
+
+113
+00:03:02,440 --> 00:03:04,009
+ very similarly because the
+
+114
+00:03:04,020 --> 00:03:05,669
+ complement of the whole space
+
+115
+00:03:05,679 --> 00:03:07,270
+ is of course the empty set
+
+116
+00:03:07,279 --> 00:03:07,669
+ again.
+
+117
+00:03:08,570 --> 00:03:10,300
+ So you see this is exactly
+
+118
+00:03:10,309 --> 00:03:11,470
+ the same as before.
+
+119
+00:03:11,479 --> 00:03:12,619
+ Just the two terms in the
+
+120
+00:03:12,630 --> 00:03:14,429
+ sum have switched roles.
+
+121
+00:03:15,169 --> 00:03:16,910
+ Hence, we can also conclude
+
+122
+00:03:16,919 --> 00:03:18,860
+ X is phi measurable.
+
+123
+00:03:19,619 --> 00:03:19,880
+ OK.
+
+124
+00:03:19,889 --> 00:03:21,169
+ With this, let's go to the
+
+125
+00:03:21,179 --> 00:03:22,770
+ next property of a Sigma
+
+126
+00:03:22,779 --> 00:03:24,729
+ algebra, namely the
+
+127
+00:03:24,740 --> 00:03:26,070
+ question is, is the whole
+
+128
+00:03:26,080 --> 00:03:27,940
+ collection of subsets closed
+
+129
+00:03:27,949 --> 00:03:29,000
+ under complements.
+
+130
+00:03:29,789 --> 00:03:31,169
+ Hence, we start with one
+
+131
+00:03:31,179 --> 00:03:33,009
+ subset A that is phi
+
+132
+00:03:33,020 --> 00:03:33,869
+ measurable.
+
+133
+00:03:34,880 --> 00:03:36,380
+ Then in the end of course,
+
+134
+00:03:36,389 --> 00:03:37,729
+ we want to conclude that
+
+135
+00:03:37,740 --> 00:03:39,490
+ the complement of A lies
+
+136
+00:03:39,500 --> 00:03:40,830
+ also in a phi
+
+137
+00:03:41,339 --> 00:03:43,289
+ indeed how this proof works.
+
+138
+00:03:43,300 --> 00:03:44,490
+ You might have already seen
+
+139
+00:03:44,500 --> 00:03:46,009
+ above when we considered the
+
+140
+00:03:46,020 --> 00:03:46,889
+ empty set.
+
+141
+00:03:46,910 --> 00:03:48,449
+ And the complement X
+
+142
+00:03:49,339 --> 00:03:50,699
+ of course, we need to do
+
+143
+00:03:50,710 --> 00:03:52,300
+ it in a similar way because
+
+144
+00:03:52,309 --> 00:03:53,919
+ we only have this relation
+
+145
+00:03:53,929 --> 00:03:55,639
+ to work with here.
+
+146
+00:03:55,649 --> 00:03:56,970
+ Please always keep in mind
+
+147
+00:03:56,979 --> 00:03:58,550
+ I don't write it down this
+
+148
+00:03:58,559 --> 00:04:00,000
+ relation holds for every
+
+149
+00:04:00,009 --> 00:04:01,970
+ subset Q OK.
+
+150
+00:04:01,979 --> 00:04:02,940
+ Then let's do what we have
+
+151
+00:04:02,949 --> 00:04:03,720
+ done above.
+
+152
+00:04:03,729 --> 00:04:05,389
+ Let's exchange the two terms
+
+153
+00:04:05,399 --> 00:04:06,119
+ in the sum.
+
+154
+00:04:06,750 --> 00:04:08,639
+ In fact, this is almost what
+
+155
+00:04:08,649 --> 00:04:10,300
+ we want to have for the relation
+
+156
+00:04:10,309 --> 00:04:11,199
+ of AC.
+
+157
+00:04:11,830 --> 00:04:13,149
+ In the first part, we already
+
+158
+00:04:13,160 --> 00:04:14,130
+ have AC.
+
+159
+00:04:14,210 --> 00:04:15,479
+ And in the second part, we
+
+160
+00:04:15,490 --> 00:04:17,119
+ need the complement of AC.
+
+161
+00:04:17,700 --> 00:04:18,988
+ However, this is already
+
+162
+00:04:19,000 --> 00:04:20,559
+ given simply because the
+
+163
+00:04:20,570 --> 00:04:22,079
+ complement of the complement
+
+164
+00:04:22,089 --> 00:04:23,559
+ is the original set again.
+
+165
+00:04:24,230 --> 00:04:24,649
+ OK.
+
+166
+00:04:24,660 --> 00:04:25,739
+ Now here when you look at
+
+167
+00:04:25,750 --> 00:04:26,890
+ the left hand side and the
+
+168
+00:04:26,899 --> 00:04:28,609
+ right hand side, you see
+
+169
+00:04:28,619 --> 00:04:30,290
+ this is exactly the definition
+
+170
+00:04:30,299 --> 00:04:32,160
+ for ac being phi
+
+171
+00:04:32,170 --> 00:04:33,010
+ measurable.
+
+172
+00:04:33,519 --> 00:04:35,000
+ Hence, we see the second
+
+173
+00:04:35,010 --> 00:04:36,410
+ part for the Sigma algebra
+
+174
+00:04:36,420 --> 00:04:37,809
+ is also fulfilled.
+
+175
+00:04:38,320 --> 00:04:40,010
+ So only the hardest one
+
+176
+00:04:40,019 --> 00:04:41,149
+ remains to show.
+
+177
+00:04:41,809 --> 00:04:43,600
+ And here is as you can see
+
+178
+00:04:43,609 --> 00:04:45,119
+ the property that the Sigma
+
+179
+00:04:45,130 --> 00:04:46,750
+ algebra is close under
+
+180
+00:04:46,760 --> 00:04:48,260
+ countable unions.
+
+181
+00:04:48,880 --> 00:04:50,790
+ And we know this is related
+
+182
+00:04:50,799 --> 00:04:52,440
+ to the Sigma additive of
+
+183
+00:04:52,450 --> 00:04:53,529
+ the corresponding measure
+
+184
+00:04:53,540 --> 00:04:54,049
+ mu.
+
+185
+00:04:54,540 --> 00:04:55,899
+ Therefore, both things in
+
+186
+00:04:55,910 --> 00:04:57,299
+ the proof will go hand in
+
+187
+00:04:57,309 --> 00:04:57,829
+ hand.
+
+188
+00:04:58,299 --> 00:05:00,029
+ However, before we do this,
+
+189
+00:05:00,040 --> 00:05:01,480
+ we first should show that
+
+190
+00:05:01,489 --> 00:05:03,100
+ our A phi is
+
+191
+00:05:03,109 --> 00:05:04,540
+ indeed closed under a
+
+192
+00:05:04,549 --> 00:05:05,750
+ finite union,
+
+193
+00:05:06,429 --> 00:05:08,070
+ which means we have to consider
+
+194
+00:05:08,079 --> 00:05:08,970
+ two sets.
+
+195
+00:05:08,980 --> 00:05:10,809
+ So we choose a one and a
+
+196
+00:05:10,820 --> 00:05:12,440
+ two from our A Phi.
+
+197
+00:05:12,589 --> 00:05:14,079
+ And then we show that the
+
+198
+00:05:14,089 --> 00:05:15,929
+ union of both sets lies
+
+199
+00:05:15,940 --> 00:05:17,209
+ also in a phi
+
+200
+00:05:17,700 --> 00:05:18,529
+ as before.
+
+201
+00:05:18,540 --> 00:05:19,989
+ This simply means we have
+
+202
+00:05:20,000 --> 00:05:21,440
+ to show that this property
+
+203
+00:05:21,450 --> 00:05:23,230
+ here holds for every set
+
+204
+00:05:23,239 --> 00:05:23,769
+ Q.
+
+205
+00:05:24,619 --> 00:05:26,230
+ Therefore, we already know
+
+206
+00:05:26,239 --> 00:05:27,480
+ our goal here.
+
+207
+00:05:28,200 --> 00:05:29,640
+ So let's put this to the
+
+208
+00:05:29,649 --> 00:05:30,019
+ bottom.
+
+209
+00:05:30,029 --> 00:05:31,880
+ Then here, please
+
+210
+00:05:31,890 --> 00:05:33,390
+ also recall it's
+
+211
+00:05:33,399 --> 00:05:34,720
+ sufficient by the definition
+
+212
+00:05:34,730 --> 00:05:36,380
+ of an outer measure to show
+
+213
+00:05:36,390 --> 00:05:37,920
+ the one inequality here.
+
+214
+00:05:38,529 --> 00:05:38,920
+ OK.
+
+215
+00:05:38,929 --> 00:05:40,480
+ Then I would say let's start
+
+216
+00:05:40,489 --> 00:05:41,679
+ bringing the two properties
+
+217
+00:05:41,690 --> 00:05:43,519
+ for a one and a two together.
+
+218
+00:05:43,690 --> 00:05:45,440
+ First, let's apply it
+
+219
+00:05:45,450 --> 00:05:46,549
+ to a one.
+
+220
+00:05:47,070 --> 00:05:48,489
+ Then in order to bring a
+
+221
+00:05:48,500 --> 00:05:50,359
+ two in, let's call the second
+
+222
+00:05:50,369 --> 00:05:52,279
+ part here Q tilde.
+
+223
+00:05:53,459 --> 00:05:55,179
+ Hence, there, we now can
+
+224
+00:05:55,190 --> 00:05:56,739
+ apply the property for A
+
+225
+00:05:56,750 --> 00:05:57,299
+ two.
+
+226
+00:05:57,440 --> 00:05:59,130
+ But now instead of Q for
+
+227
+00:05:59,140 --> 00:06:01,079
+ Q tilde, which means we
+
+228
+00:06:01,089 --> 00:06:02,519
+ don't change the first part.
+
+229
+00:06:02,529 --> 00:06:03,760
+ But then we have two more
+
+230
+00:06:03,769 --> 00:06:05,420
+ terms which look
+
+231
+00:06:05,429 --> 00:06:07,200
+ like Phi of Q tilde
+
+232
+00:06:07,239 --> 00:06:08,820
+ intersected with a two
+
+233
+00:06:08,920 --> 00:06:10,720
+ plus the same with the
+
+234
+00:06:10,730 --> 00:06:11,399
+ complement.
+
+235
+00:06:12,049 --> 00:06:13,929
+ However, remember in
+
+236
+00:06:13,940 --> 00:06:15,660
+ the end, we only want two
+
+237
+00:06:15,670 --> 00:06:16,410
+ terms.
+
+238
+00:06:17,320 --> 00:06:18,920
+ Hence the overall idea now
+
+239
+00:06:18,929 --> 00:06:20,279
+ is that we put the first
+
+240
+00:06:20,290 --> 00:06:21,980
+ two terms here together.
+
+241
+00:06:22,779 --> 00:06:24,380
+ And in fact, we are allowed
+
+242
+00:06:24,390 --> 00:06:26,089
+ to do this using the Sigma
+
+243
+00:06:26,100 --> 00:06:27,940
+ sub additive of the
+
+244
+00:06:27,950 --> 00:06:29,000
+ outer measure Phi.
+
+245
+00:06:29,700 --> 00:06:31,399
+ However, this now means
+
+246
+00:06:31,410 --> 00:06:33,119
+ we get an inequality in
+
+247
+00:06:33,929 --> 00:06:35,649
+ this is simply the sub in
+
+248
+00:06:35,660 --> 00:06:36,899
+ subadditivity.
+
+249
+00:06:37,559 --> 00:06:38,809
+ And the rest of the property
+
+250
+00:06:38,820 --> 00:06:40,079
+ tells us that instead of
+
+251
+00:06:40,089 --> 00:06:41,739
+ the plus we have a union
+
+252
+00:06:41,750 --> 00:06:43,059
+ inside of Phi,
+
+253
+00:06:43,760 --> 00:06:44,260
+ OK.
+
+254
+00:06:44,269 --> 00:06:46,049
+ Here you can see our result,
+
+255
+00:06:46,059 --> 00:06:47,619
+ we have two terms for Phi.
+
+256
+00:06:47,630 --> 00:06:49,299
+ Now in the one, we
+
+257
+00:06:49,309 --> 00:06:51,040
+ find a one and a two
+
+258
+00:06:51,170 --> 00:06:52,529
+ and in the other one, we
+
+259
+00:06:52,540 --> 00:06:54,059
+ find the complement of both
+
+260
+00:06:54,070 --> 00:06:54,670
+ sets.
+
+261
+00:06:54,959 --> 00:06:56,660
+ So it seems like this is
+
+262
+00:06:56,670 --> 00:06:58,179
+ almost the thing we
+
+263
+00:06:58,190 --> 00:06:58,739
+ want.
+
+264
+00:06:59,130 --> 00:06:59,820
+ Indeed.
+
+265
+00:06:59,829 --> 00:07:01,269
+ The second part we immediately
+
+266
+00:07:01,279 --> 00:07:02,850
+ recognize as the correct
+
+267
+00:07:02,859 --> 00:07:04,760
+ one simply because Q
+
+268
+00:07:04,779 --> 00:07:06,320
+ tilde was defined as
+
+269
+00:07:06,329 --> 00:07:08,190
+ Q intersected with a
+
+270
+00:07:08,200 --> 00:07:09,579
+ one complement.
+
+271
+00:07:10,179 --> 00:07:11,619
+ In other words, we can write
+
+272
+00:07:11,630 --> 00:07:12,570
+ it like this.
+
+273
+00:07:13,239 --> 00:07:14,619
+ And then when we pull out
+
+274
+00:07:14,630 --> 00:07:16,260
+ the complement, we find the
+
+275
+00:07:16,269 --> 00:07:17,799
+ union, OK?
+
+276
+00:07:17,809 --> 00:07:18,559
+ Very good.
+
+277
+00:07:18,570 --> 00:07:20,179
+ This is exactly the term
+
+278
+00:07:20,190 --> 00:07:20,880
+ we wanted.
+
+279
+00:07:21,619 --> 00:07:22,850
+ Now looking at the first
+
+280
+00:07:22,859 --> 00:07:24,779
+ part, it looks more complicated.
+
+281
+00:07:24,850 --> 00:07:26,799
+ However, we can also transform
+
+282
+00:07:26,809 --> 00:07:27,779
+ it to this.
+
+283
+00:07:28,359 --> 00:07:30,049
+ And maybe we just verify
+
+284
+00:07:30,059 --> 00:07:31,959
+ this with a Venn diagram.
+
+285
+00:07:32,760 --> 00:07:33,980
+ This works because we have
+
+286
+00:07:33,989 --> 00:07:35,820
+ exactly three sets involved
+
+287
+00:07:35,829 --> 00:07:37,809
+ Q A one and A two.
+
+288
+00:07:38,450 --> 00:07:38,890
+ OK.
+
+289
+00:07:38,899 --> 00:07:40,420
+ Then let's start with Q
+
+290
+00:07:40,429 --> 00:07:41,779
+ intersected A one.
+
+291
+00:07:42,579 --> 00:07:44,209
+ This intersection you see
+
+292
+00:07:44,220 --> 00:07:45,720
+ we simply find here
+
+293
+00:07:46,489 --> 00:07:48,390
+ and now the other intersection
+
+294
+00:07:48,399 --> 00:07:49,910
+ is an intersection with three
+
+295
+00:07:49,920 --> 00:07:50,519
+ sets.
+
+296
+00:07:50,720 --> 00:07:52,369
+ First we have Q
+
+297
+00:07:52,380 --> 00:07:54,149
+ then a one complement and
+
+298
+00:07:54,160 --> 00:07:55,950
+ then a two and
+
+299
+00:07:55,959 --> 00:07:57,679
+ then it's not hard to see
+
+300
+00:07:57,690 --> 00:07:59,190
+ that this is exactly this
+
+301
+00:07:59,200 --> 00:08:00,350
+ small part here.
+
+302
+00:08:01,059 --> 00:08:01,549
+ OK.
+
+303
+00:08:01,559 --> 00:08:03,200
+ And then you see this Venn
+
+304
+00:08:03,209 --> 00:08:05,200
+ diagram explains exactly
+
+305
+00:08:05,209 --> 00:08:06,700
+ this intersection here.
+
+306
+00:08:07,410 --> 00:08:09,109
+ Hence the proof of the unit
+
+307
+00:08:09,119 --> 00:08:10,790
+ with two sets is indeed
+
+308
+00:08:10,799 --> 00:08:11,549
+ finished.
+
+309
+00:08:12,250 --> 00:08:13,829
+ The union A one with a
+
+310
+00:08:13,839 --> 00:08:15,790
+ two is also in a
+
+311
+00:08:15,799 --> 00:08:16,309
+ phi.
+
+312
+00:08:17,119 --> 00:08:17,609
+ OK.
+
+313
+00:08:17,619 --> 00:08:18,869
+ Then we can go to the next
+
+314
+00:08:18,880 --> 00:08:20,299
+ part where we have to consider
+
+315
+00:08:20,309 --> 00:08:22,049
+ countably many sets.
+
+316
+00:08:22,579 --> 00:08:23,899
+ Hence here we need the whole
+
+317
+00:08:23,910 --> 00:08:25,529
+ sequence of subsets A
+
+318
+00:08:25,540 --> 00:08:27,299
+ one A two and so on.
+
+319
+00:08:27,950 --> 00:08:29,149
+ They all should come from
+
+320
+00:08:29,160 --> 00:08:30,049
+ a Phi.
+
+321
+00:08:30,130 --> 00:08:31,720
+ And then the question is,
+
+322
+00:08:32,280 --> 00:08:34,200
+ is the union from J is
+
+323
+00:08:34,210 --> 00:08:35,369
+ equal to one to
+
+324
+00:08:35,380 --> 00:08:36,890
+ infinity or it's an
+
+325
+00:08:36,900 --> 00:08:38,460
+ element in a phi
+
+326
+00:08:39,119 --> 00:08:40,630
+ for this, we want to find
+
+327
+00:08:40,640 --> 00:08:41,849
+ a positive answer.
+
+328
+00:08:42,409 --> 00:08:43,609
+ Hence, for the rest of the
+
+329
+00:08:43,619 --> 00:08:45,010
+ proof, it might be helpful
+
+330
+00:08:45,020 --> 00:08:46,390
+ to give this union a shorter
+
+331
+00:08:46,400 --> 00:08:46,900
+ name.
+
+332
+00:08:46,909 --> 00:08:48,549
+ So let's simply call it a.
+
+333
+00:08:49,039 --> 00:08:50,669
+ Now, I can tell you instead
+
+334
+00:08:50,679 --> 00:08:52,369
+ of taking an arbitrary sequence
+
+335
+00:08:52,380 --> 00:08:54,090
+ of sets here, we can take
+
+336
+00:08:54,099 --> 00:08:55,489
+ a pairwise disjoint one.
+
+337
+00:08:56,090 --> 00:08:57,390
+ This is possible because
+
+338
+00:08:57,400 --> 00:08:58,570
+ we have already proven the
+
+339
+00:08:58,580 --> 00:09:00,030
+ closeness with respect to
+
+340
+00:09:00,039 --> 00:09:01,960
+ the normal union and also
+
+341
+00:09:01,969 --> 00:09:03,330
+ the closeness with respect
+
+342
+00:09:03,340 --> 00:09:04,299
+ to the complement.
+
+343
+00:09:04,869 --> 00:09:05,849
+ Therefore, we can simply
+
+344
+00:09:05,859 --> 00:09:06,640
+ do this.
+
+345
+00:09:06,650 --> 00:09:07,940
+ But it also has the big
+
+346
+00:09:07,950 --> 00:09:09,520
+ advantage that we immediately
+
+347
+00:09:09,530 --> 00:09:11,190
+ get this sigma additivity
+
+348
+00:09:11,200 --> 00:09:12,469
+ for the measure mu in the
+
+349
+00:09:12,479 --> 00:09:12,869
+ end.
+
+350
+00:09:13,669 --> 00:09:14,820
+ Because in order to show
+
+351
+00:09:14,830 --> 00:09:16,580
+ this, you know, we need to
+
+352
+00:09:16,590 --> 00:09:17,979
+ consider pairwise disjoint
+
+353
+00:09:17,989 --> 00:09:18,409
+ sets.
+
+354
+00:09:19,159 --> 00:09:20,859
+ Hence, in summary, it's indeed
+
+355
+00:09:20,869 --> 00:09:22,390
+ helpful to do the proof like
+
+356
+00:09:22,400 --> 00:09:22,840
+ this.
+
+357
+00:09:23,520 --> 00:09:24,960
+ Of course, here at the start
+
+358
+00:09:24,969 --> 00:09:26,299
+ of the proof, it might not
+
+359
+00:09:26,309 --> 00:09:27,950
+ surprise you that again,
+
+360
+00:09:27,960 --> 00:09:29,280
+ we use the property, the
+
+361
+00:09:29,289 --> 00:09:30,630
+ outer measure gives us.
+
+362
+00:09:31,140 --> 00:09:32,979
+ However, here I want to put
+
+363
+00:09:32,989 --> 00:09:34,599
+ in a special set
+
+364
+00:09:34,609 --> 00:09:36,500
+ Q first, we could
+
+365
+00:09:36,510 --> 00:09:37,320
+ have any set.
+
+366
+00:09:37,330 --> 00:09:39,099
+ So let's simply call it Q
+
+367
+00:09:39,109 --> 00:09:39,690
+ hat.
+
+368
+00:09:40,320 --> 00:09:41,619
+ And then we put in the
+
+369
+00:09:41,630 --> 00:09:43,169
+ intersection of a
+
+370
+00:09:43,179 --> 00:09:44,830
+ one in the union with a
+
+371
+00:09:44,840 --> 00:09:45,260
+ two.
+
+372
+00:09:46,159 --> 00:09:47,719
+ And here please keep in mind
+
+373
+00:09:47,729 --> 00:09:49,489
+ a one and A two are
+
+374
+00:09:49,500 --> 00:09:50,280
+ disjoint.
+
+375
+00:09:50,700 --> 00:09:52,059
+ This fact will help us on
+
+376
+00:09:52,070 --> 00:09:53,380
+ the right hand side when
+
+377
+00:09:53,390 --> 00:09:54,940
+ we put in the same set for
+
+378
+00:09:54,950 --> 00:09:55,669
+ the set Q.
+
+379
+00:09:56,409 --> 00:09:57,599
+ For example, in the first
+
+380
+00:09:57,609 --> 00:09:59,190
+ part, you see the intersection
+
+381
+00:09:59,200 --> 00:10:01,049
+ with a one here will completely
+
+382
+00:10:01,059 --> 00:10:02,359
+ cancel out A two.
+
+383
+00:10:03,059 --> 00:10:04,460
+ Therefore, the first part
+
+384
+00:10:04,469 --> 00:10:06,359
+ is just Q head intersected
+
+385
+00:10:06,369 --> 00:10:07,239
+ with a one.
+
+386
+00:10:07,780 --> 00:10:09,090
+ Then in the second part,
+
+387
+00:10:09,099 --> 00:10:10,729
+ because we have the complement
+
+388
+00:10:10,739 --> 00:10:12,619
+ of a one, this will completely
+
+389
+00:10:12,630 --> 00:10:14,330
+ cancel out a one itself.
+
+390
+00:10:14,979 --> 00:10:16,869
+ So we simply have phi of
+
+391
+00:10:16,880 --> 00:10:18,590
+ Q head intersected with A
+
+392
+00:10:18,599 --> 00:10:19,010
+ two.
+
+393
+00:10:19,770 --> 00:10:20,190
+ OK.
+
+394
+00:10:20,200 --> 00:10:21,549
+ So you should see this is
+
+395
+00:10:21,559 --> 00:10:23,440
+ a nice trick to get the union
+
+396
+00:10:23,450 --> 00:10:24,770
+ on the left hand side.
+
+397
+00:10:24,890 --> 00:10:26,219
+ And the sum on the right
+
+398
+00:10:26,229 --> 00:10:28,070
+ hand side, hence, the
+
+399
+00:10:28,080 --> 00:10:29,520
+ next step would be to do
+
+400
+00:10:29,530 --> 00:10:30,830
+ an induction to get
+
+401
+00:10:30,840 --> 00:10:32,669
+ finitely many sets in.
+
+402
+00:10:33,359 --> 00:10:35,260
+ So the induction shows we
+
+403
+00:10:35,270 --> 00:10:36,969
+ have Phi of Q hat
+
+404
+00:10:37,530 --> 00:10:38,869
+ intersected with a
+
+405
+00:10:38,880 --> 00:10:40,299
+ finite union.
+
+406
+00:10:40,830 --> 00:10:42,320
+ So you see this whole thing
+
+407
+00:10:42,330 --> 00:10:44,020
+ here is simply the left hand
+
+408
+00:10:44,030 --> 00:10:45,799
+ side and then the
+
+409
+00:10:45,809 --> 00:10:47,330
+ right hand side is given
+
+410
+00:10:47,340 --> 00:10:48,270
+ by a sum.
+
+411
+00:10:48,700 --> 00:10:50,650
+ Of course, also from J is
+
+412
+00:10:50,659 --> 00:10:52,309
+ equal to one to N.
+
+413
+00:10:53,450 --> 00:10:55,239
+ And inside we have Phi of
+
+414
+00:10:55,250 --> 00:10:57,099
+ Q hat intersected with
+
+415
+00:10:57,109 --> 00:10:57,789
+ AJ.
+
+416
+00:10:58,340 --> 00:10:58,820
+ OK.
+
+417
+00:10:58,830 --> 00:11:00,380
+ So this is a nice result
+
+418
+00:11:00,390 --> 00:11:02,020
+ which holds for every N.
+
+419
+00:11:02,030 --> 00:11:03,450
+ So we should give it a name,
+
+420
+00:11:03,460 --> 00:11:04,849
+ let's call it star.
+
+421
+00:11:05,619 --> 00:11:07,510
+ Now let's go one step back
+
+422
+00:11:07,520 --> 00:11:09,320
+ and recall what we already
+
+423
+00:11:09,330 --> 00:11:09,799
+ know.
+
+424
+00:11:10,179 --> 00:11:11,919
+ Namely, we know that this
+
+425
+00:11:11,929 --> 00:11:13,799
+ unit here is by our proof
+
+426
+00:11:13,809 --> 00:11:14,770
+ above all
+
+427
+00:11:15,150 --> 00:11:16,760
+ element in A five.
+
+428
+00:11:17,440 --> 00:11:18,750
+ So we don't have the infinite
+
+429
+00:11:18,760 --> 00:11:20,619
+ union yet in a Phi but
+
+430
+00:11:20,630 --> 00:11:21,880
+ we are getting closer
+
+431
+00:11:22,369 --> 00:11:23,859
+ because when we know that
+
+432
+00:11:23,869 --> 00:11:25,770
+ this is an API we can use
+
+433
+00:11:25,780 --> 00:11:27,750
+ the property as always the
+
+434
+00:11:27,760 --> 00:11:29,299
+ proper for the outer measure.
+
+435
+00:11:30,059 --> 00:11:31,760
+ So this works as before.
+
+436
+00:11:31,770 --> 00:11:33,390
+ But now instead of Q, we
+
+437
+00:11:33,400 --> 00:11:35,090
+ use Q hat and instead of
+
+438
+00:11:35,099 --> 00:11:36,840
+ our A, we have here the union
+
+439
+00:11:36,849 --> 00:11:37,690
+ of the AJ.
+
+440
+00:11:38,609 --> 00:11:39,700
+ Now, for the first part,
+
+441
+00:11:39,710 --> 00:11:41,380
+ you should see we can use
+
+442
+00:11:41,390 --> 00:11:43,109
+ our star property to
+
+443
+00:11:43,119 --> 00:11:44,580
+ rewrite that as a sum.
+
+444
+00:11:45,250 --> 00:11:46,909
+ So you see with each step,
+
+445
+00:11:46,919 --> 00:11:48,000
+ we are getting closer and
+
+446
+00:11:48,010 --> 00:11:49,630
+ closer to the Sigma 
+
+447
+00:11:49,640 --> 00:11:49,950
+ additivity.
+
+448
+00:11:50,469 --> 00:11:50,739
+ OK.
+
+449
+00:11:50,750 --> 00:11:52,039
+ Then for the second part
+
+450
+00:11:52,049 --> 00:11:53,669
+ here we use something we
+
+451
+00:11:53,679 --> 00:11:55,049
+ didn't use before.
+
+452
+00:11:55,059 --> 00:11:56,650
+ But where we know it holds
+
+453
+00:11:56,659 --> 00:11:57,710
+ for an outer measure,
+
+454
+00:11:58,169 --> 00:11:59,669
+ indeed, it's the second
+
+455
+00:11:59,679 --> 00:12:00,989
+ property and outer measure
+
+456
+00:12:01,000 --> 00:12:02,799
+ has the monotonicity.
+
+457
+00:12:03,229 --> 00:12:04,950
+ We can use that here because
+
+458
+00:12:04,960 --> 00:12:06,159
+ when we increase the index
+
+459
+00:12:06,169 --> 00:12:07,989
+ and here this whole set
+
+460
+00:12:08,000 --> 00:12:09,650
+ here would get smaller.
+
+461
+00:12:10,210 --> 00:12:11,750
+ Therefore, we can also do
+
+462
+00:12:11,760 --> 00:12:13,070
+ it for end to infinity,
+
+463
+00:12:13,640 --> 00:12:14,950
+ then we have the infinite
+
+464
+00:12:14,960 --> 00:12:16,669
+ union, which we simply called
+
+465
+00:12:16,679 --> 00:12:17,030
+ A.
+
+466
+00:12:17,770 --> 00:12:19,270
+ So the second part is greater
+
+467
+00:12:19,280 --> 00:12:20,960
+ or equal than Phi of
+
+468
+00:12:20,969 --> 00:12:22,770
+ Q hat intersected with
+
+469
+00:12:22,780 --> 00:12:24,349
+ AC OK.
+
+470
+00:12:24,359 --> 00:12:26,299
+ With this, we now have something
+
+471
+00:12:26,309 --> 00:12:27,799
+ where there is no index and
+
+472
+00:12:27,809 --> 00:12:29,369
+ in a union anymore.
+
+473
+00:12:30,010 --> 00:12:31,229
+ Indeed, we have here an
+
+474
+00:12:31,239 --> 00:12:33,109
+ inequality that holds for
+
+475
+00:12:33,119 --> 00:12:34,390
+ all natural numbers.
+
+476
+00:12:34,400 --> 00:12:36,200
+ And therefore this
+
+477
+00:12:36,210 --> 00:12:38,150
+ inequality also holds the
+
+478
+00:12:38,159 --> 00:12:39,710
+ limit and to infinity.
+
+479
+00:12:40,090 --> 00:12:41,739
+ Hence, Phi of Q head
+
+480
+00:12:41,750 --> 00:12:43,369
+ is create or equal.
+
+481
+00:12:43,719 --> 00:12:45,469
+ Then the infinite sum
+
+482
+00:12:45,479 --> 00:12:47,109
+ of Phi of Q hat
+
+483
+00:12:47,119 --> 00:12:48,669
+ intersected with AJ
+
+484
+00:12:49,200 --> 00:12:51,070
+ plus the second term Phi
+
+485
+00:12:51,080 --> 00:12:52,989
+ of Q hat intersected with
+
+486
+00:12:53,000 --> 00:12:53,580
+ AC.
+
+487
+00:12:54,270 --> 00:12:55,650
+ So here you see we have an
+
+488
+00:12:55,659 --> 00:12:57,510
+ infinite sum and remember
+
+489
+00:12:57,520 --> 00:12:59,169
+ we want to show the Sigma
+
+490
+00:12:59,179 --> 00:13:00,880
+ additivity but
+
+491
+00:13:00,890 --> 00:13:02,520
+ also don't forget for
+
+492
+00:13:02,530 --> 00:13:04,429
+ Phi, we already have the
+
+493
+00:13:04,440 --> 00:13:05,820
+ Sigma subadditivityv.
+
+494
+00:13:06,809 --> 00:13:08,469
+ And indeed, this is what
+
+495
+00:13:08,479 --> 00:13:10,390
+ we should use here, which
+
+496
+00:13:10,400 --> 00:13:12,190
+ means we get an inequality
+
+497
+00:13:12,200 --> 00:13:13,770
+ when we substitute the infinite
+
+498
+00:13:13,780 --> 00:13:15,250
+ sum with an infinite union
+
+499
+00:13:15,260 --> 00:13:16,669
+ inside Phi.
+
+500
+00:13:17,130 --> 00:13:18,859
+ However, this infinite union
+
+501
+00:13:18,869 --> 00:13:20,109
+ already has a name.
+
+502
+00:13:20,119 --> 00:13:21,820
+ We called it A at the beginning.
+
+503
+00:13:22,460 --> 00:13:24,039
+ And in fact, with this last
+
+504
+00:13:24,049 --> 00:13:25,799
+ step, the inequality now
+
+505
+00:13:25,809 --> 00:13:27,719
+ looks very short and
+
+506
+00:13:27,729 --> 00:13:29,280
+ we can make it even shorter
+
+507
+00:13:29,289 --> 00:13:30,880
+ by using the Sigma sub edit
+
+508
+00:13:30,890 --> 00:13:32,809
+ tity again, which
+
+509
+00:13:32,820 --> 00:13:34,799
+ means the sum here now
+
+510
+00:13:34,809 --> 00:13:36,239
+ goes to a union inside
+
+511
+00:13:36,250 --> 00:13:36,840
+ Phi.
+
+512
+00:13:37,239 --> 00:13:38,799
+ However, because we have
+
+513
+00:13:38,809 --> 00:13:40,320
+ a and the complement of a,
+
+514
+00:13:40,469 --> 00:13:42,280
+ just Q hat remains.
+
+515
+00:13:42,770 --> 00:13:44,679
+ And now, maybe surprisingly,
+
+516
+00:13:44,690 --> 00:13:46,190
+ on the right hand side, we
+
+517
+00:13:46,200 --> 00:13:47,500
+ have the same thing as on
+
+518
+00:13:47,510 --> 00:13:49,359
+ the left hand side, which
+
+519
+00:13:49,369 --> 00:13:51,190
+ means for all the inequalities
+
+520
+00:13:51,200 --> 00:13:53,159
+ here that we actually have
+
+521
+00:13:53,169 --> 00:13:55,090
+ equalities in
+
+522
+00:13:55,099 --> 00:13:56,760
+ particular we get because
+
+523
+00:13:56,770 --> 00:13:58,599
+ this whole equality holds
+
+524
+00:13:58,609 --> 00:14:00,030
+ no matter which subset Q
+
+525
+00:14:00,039 --> 00:14:02,000
+ had we choose the defining
+
+526
+00:14:02,010 --> 00:14:04,000
+ property for a being an
+
+527
+00:14:04,010 --> 00:14:04,739
+ A Phi.
+
+528
+00:14:05,099 --> 00:14:07,000
+ Please recall this was our
+
+529
+00:14:07,010 --> 00:14:08,890
+ goal all along because
+
+530
+00:14:08,900 --> 00:14:10,849
+ it shows now that a Phi
+
+531
+00:14:10,859 --> 00:14:12,760
+ is indeed a Sigma algebra.
+
+532
+00:14:13,520 --> 00:14:15,150
+ In fact, we have also proven
+
+533
+00:14:15,159 --> 00:14:16,840
+ part B in the proposition
+
+534
+00:14:16,989 --> 00:14:18,719
+ because this equality
+
+535
+00:14:18,760 --> 00:14:20,520
+ gives us the sigma additivity
+
+536
+00:14:20,530 --> 00:14:21,359
+ for our measure.
+
+537
+00:14:22,039 --> 00:14:23,719
+ You see this because Q hat
+
+538
+00:14:23,729 --> 00:14:25,440
+ can be any set in
+
+539
+00:14:25,450 --> 00:14:27,070
+ particular, it could be a
+
+540
+00:14:27,080 --> 00:14:28,849
+ itself and then we
+
+541
+00:14:28,859 --> 00:14:30,820
+ have measure of the infinite
+
+542
+00:14:30,830 --> 00:14:32,650
+ union is equal to the
+
+543
+00:14:32,659 --> 00:14:33,559
+ infinite sum.
+
+544
+00:14:34,179 --> 00:14:34,599
+ OK.
+
+545
+00:14:34,609 --> 00:14:36,520
+ So here you see we have everything
+
+546
+00:14:36,530 --> 00:14:37,950
+ this closes the proof.
+
+547
+00:14:38,890 --> 00:14:40,599
+ Now with this nice proven
+
+548
+00:14:40,609 --> 00:14:42,549
+ result, we are way closer
+
+549
+00:14:42,559 --> 00:14:44,020
+ to be able to prove the
+
+550
+00:14:44,030 --> 00:14:45,340
+ famous Carathéodory's
+
+551
+00:14:45,590 --> 00:14:47,150
+ extension theorem.
+
+552
+00:14:47,659 --> 00:14:49,539
+ And maybe we do this
+
+553
+00:14:49,549 --> 00:14:50,780
+ in the next video.
+
+554
+00:14:51,489 --> 00:14:52,780
+ Therefore, I hope I see you
+
+555
+00:14:52,789 --> 00:14:54,260
+ there and have a nice day.
+
+556
+00:14:54,309 --> 00:14:55,070
+ Bye.
+
