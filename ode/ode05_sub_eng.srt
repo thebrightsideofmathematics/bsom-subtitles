@@ -572,7 +572,7 @@ and then indeed, we can state the solution of our initial value problem here.
 
 144
 00:15:22,614 --> 00:15:30,476
-So it's alpha(t) is equal to -1/(t+(-1/x_0)
+So it's alpha(t) is equal to -1/(t+(-1/x_0))
 
 145
 00:15:30,900 --> 00:15:35,350

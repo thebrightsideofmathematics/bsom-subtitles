@@ -1,0 +1,1024 @@
+1
+00:00:00,540 --> 00:00:02,400
+ Hello and welcome back to
+
+2
+00:00:02,410 --> 00:00:03,650
+ functional analysis.
+
+3
+00:00:03,769 --> 00:00:04,960
+ And as always, I want to
+
+4
+00:00:04,969 --> 00:00:06,400
+ thank all the nice people
+
+5
+00:00:06,409 --> 00:00:07,469
+ that support the channel
+
+6
+00:00:07,480 --> 00:00:08,789
+ on Steady or paypal.
+
+7
+00:00:09,619 --> 00:00:11,159
+ Today's part five is about
+
+8
+00:00:11,170 --> 00:00:13,020
+ kochi sequences and complete
+
+9
+00:00:13,029 --> 00:00:14,000
+ metric spaces.
+
+10
+00:00:14,979 --> 00:00:16,318
+ And as promised in the last
+
+11
+00:00:16,329 --> 00:00:18,209
+ video, we start here with
+
+12
+00:00:18,219 --> 00:00:19,159
+ an example.
+
+13
+00:00:19,719 --> 00:00:21,229
+ Our metric space has as I
+
+14
+00:00:21,239 --> 00:00:23,159
+ set the interval from 0
+
+15
+00:00:23,170 --> 00:00:24,780
+ to 3 with the normal
+
+16
+00:00:24,790 --> 00:00:26,319
+ metric for the real numbers.
+
+17
+00:00:26,969 --> 00:00:28,350
+ Hence this is something you
+
+18
+00:00:28,360 --> 00:00:29,190
+ already know.
+
+19
+00:00:30,180 --> 00:00:32,000
+ What you also know is that
+
+20
+00:00:32,009 --> 00:00:33,919
+ the subset 0 to 3, which
+
+21
+00:00:33,930 --> 00:00:35,360
+ is the whole space is a
+
+22
+00:00:35,369 --> 00:00:37,240
+ close set inside
+
+23
+00:00:37,250 --> 00:00:38,279
+ this metric space.
+
+24
+00:00:39,110 --> 00:00:40,630
+ For example, you could argue
+
+25
+00:00:40,639 --> 00:00:41,880
+ that the complement which
+
+26
+00:00:41,889 --> 00:00:43,369
+ is the empty set is clearly
+
+27
+00:00:43,380 --> 00:00:43,830
+ open.
+
+28
+00:00:44,630 --> 00:00:46,229
+ Or you can use the fact from
+
+29
+00:00:46,240 --> 00:00:47,630
+ the last video where you
+
+30
+00:00:47,639 --> 00:00:49,150
+ consider any convergence
+
+31
+00:00:49,159 --> 00:00:51,150
+ sequence with members from
+
+32
+00:00:51,159 --> 00:00:52,930
+ the subset being a
+
+33
+00:00:52,939 --> 00:00:54,430
+ convergent sequence means
+
+34
+00:00:54,439 --> 00:00:56,099
+ it has a limit which we call
+
+35
+00:00:56,110 --> 00:00:56,750
+ X tilde.
+
+36
+00:00:56,759 --> 00:00:57,900
+ And of course, it has to
+
+37
+00:00:57,909 --> 00:00:58,650
+ lie in X.
+
+38
+00:00:59,430 --> 00:01:00,599
+ What we proved last time
+
+39
+00:01:00,610 --> 00:01:02,069
+ was now the set is closed.
+
+40
+00:01:02,080 --> 00:01:03,849
+ If the limit is also in the
+
+41
+00:01:03,860 --> 00:01:05,800
+ subset of course here you
+
+42
+00:01:05,809 --> 00:01:06,970
+ see immediately that this
+
+43
+00:01:06,980 --> 00:01:08,720
+ is true because the subset
+
+44
+00:01:08,730 --> 00:01:10,489
+ 03 is the whole space
+
+45
+00:01:10,519 --> 00:01:10,970
+ X.
+
+46
+00:01:11,809 --> 00:01:13,050
+ Now a question that often
+
+47
+00:01:13,059 --> 00:01:14,750
+ arises with such an example
+
+48
+00:01:14,760 --> 00:01:15,629
+ is the following
+
+49
+00:01:16,550 --> 00:01:18,129
+ what is about a sequence
+
+50
+00:01:18,139 --> 00:01:19,319
+ one over N
+
+51
+00:01:19,919 --> 00:01:21,529
+ clearly this is a sequence
+
+52
+00:01:21,540 --> 00:01:23,169
+ in X first member is
+
+53
+00:01:23,180 --> 00:01:24,660
+ one next one is one
+
+54
+00:01:24,669 --> 00:01:25,919
+ half and so on.
+
+55
+00:01:25,930 --> 00:01:27,199
+ You see all the members are
+
+56
+00:01:27,209 --> 00:01:29,190
+ positive, so they lie in
+
+57
+00:01:29,199 --> 00:01:31,160
+ this interval and the
+
+58
+00:01:31,169 --> 00:01:32,599
+ distance between two members
+
+59
+00:01:32,610 --> 00:01:33,519
+ of the sequence.
+
+60
+00:01:33,529 --> 00:01:34,779
+ So maybe let's call them
+
+61
+00:01:34,790 --> 00:01:36,160
+ XNXM.
+
+62
+00:01:36,480 --> 00:01:37,959
+ This number gets
+
+63
+00:01:37,970 --> 00:01:39,730
+ smaller and smaller when
+
+64
+00:01:39,739 --> 00:01:41,599
+ X and M get larger and
+
+65
+00:01:41,610 --> 00:01:42,120
+ larger.
+
+66
+00:01:42,889 --> 00:01:44,150
+ So we could write it in this
+
+67
+00:01:44,160 --> 00:01:44,550
+ way.
+
+68
+00:01:44,620 --> 00:01:45,650
+ But the important thing is
+
+69
+00:01:45,660 --> 00:01:47,029
+ that you see that you get
+
+70
+00:01:47,040 --> 00:01:48,959
+ closer and closer to something
+
+71
+00:01:48,970 --> 00:01:50,019
+ with the sequence.
+
+72
+00:01:50,589 --> 00:01:52,360
+ However, still, it does
+
+73
+00:01:52,370 --> 00:01:53,430
+ not converge
+
+74
+00:01:54,160 --> 00:01:55,440
+ for our example, this is
+
+75
+00:01:55,449 --> 00:01:57,059
+ easy to see because the
+
+76
+00:01:57,069 --> 00:01:58,760
+ only possible limit this
+
+77
+00:01:58,769 --> 00:01:59,699
+ sequence could have in the
+
+78
+00:01:59,709 --> 00:02:01,099
+ real numbers would be the
+
+79
+00:02:01,110 --> 00:02:01,959
+ number zero.
+
+80
+00:02:02,480 --> 00:02:04,260
+ However, zero is not an
+
+81
+00:02:04,269 --> 00:02:05,889
+ X, there is no number
+
+82
+00:02:05,900 --> 00:02:07,389
+ zero in our universe.
+
+83
+00:02:07,400 --> 00:02:07,699
+ Here.
+
+84
+00:02:08,419 --> 00:02:10,309
+ In summary, we found a metric
+
+85
+00:02:10,320 --> 00:02:11,770
+ space which owns a
+
+86
+00:02:11,779 --> 00:02:13,259
+ sequence which should
+
+87
+00:02:13,270 --> 00:02:14,869
+ converge but there is no
+
+88
+00:02:14,880 --> 00:02:16,539
+ point in the space where
+
+89
+00:02:16,550 --> 00:02:17,660
+ the sequence leads to.
+
+90
+00:02:18,500 --> 00:02:19,839
+ Therefore, one could say
+
+91
+00:02:19,850 --> 00:02:21,470
+ there is a hole in the space,
+
+92
+00:02:21,610 --> 00:02:23,080
+ but we will say the space
+
+93
+00:02:23,089 --> 00:02:24,149
+ is not complete.
+
+94
+00:02:25,050 --> 00:02:26,500
+ So now we have to give a
+
+95
+00:02:26,509 --> 00:02:28,050
+ formal definition for a
+
+96
+00:02:28,059 --> 00:02:29,550
+ complete metric space.
+
+97
+00:02:30,330 --> 00:02:32,220
+ First, for given metric space
+
+98
+00:02:32,229 --> 00:02:34,179
+ XD sequences
+
+99
+00:02:34,190 --> 00:02:35,729
+ that fulfill this property
+
+100
+00:02:35,740 --> 00:02:37,389
+ here are called kochi
+
+101
+00:02:37,399 --> 00:02:38,160
+ sequences.
+
+102
+00:02:39,100 --> 00:02:39,949
+ More concretely.
+
+103
+00:02:39,960 --> 00:02:41,630
+ This means for all
+
+104
+00:02:41,639 --> 00:02:43,440
+ epsilon greater than zero,
+
+105
+00:02:44,270 --> 00:02:45,990
+ there exists an index capital
+
+106
+00:02:46,000 --> 00:02:47,979
+ N in N such
+
+107
+00:02:47,990 --> 00:02:49,669
+ that for all in
+
+108
+00:02:49,869 --> 00:02:51,839
+ this is an M greater than
+
+109
+00:02:51,850 --> 00:02:53,410
+ this index N, we
+
+110
+00:02:53,419 --> 00:02:55,020
+ have that the
+
+111
+00:02:55,029 --> 00:02:56,289
+ distance between the members
+
+112
+00:02:56,300 --> 00:02:58,080
+ XNXM is arbitrarily
+
+113
+00:02:58,089 --> 00:02:59,940
+ small, so less than epsilon.
+
+114
+00:03:00,729 --> 00:03:02,240
+ So this is the actual meaning
+
+115
+00:03:02,250 --> 00:03:03,479
+ of this limit before
+
+116
+00:03:04,270 --> 00:03:05,210
+ what you should be able to
+
+117
+00:03:05,220 --> 00:03:06,869
+ show now is if you have a
+
+118
+00:03:06,880 --> 00:03:08,509
+ conversion sequence, then
+
+119
+00:03:08,520 --> 00:03:10,289
+ this thing is also fulfilled.
+
+120
+00:03:11,110 --> 00:03:12,729
+ The Koshi sequence is therefore
+
+121
+00:03:12,740 --> 00:03:14,419
+ always a generalization of
+
+122
+00:03:14,429 --> 00:03:15,600
+ a convergence sequence.
+
+123
+00:03:16,330 --> 00:03:18,000
+ So you see there's no limit,
+
+124
+00:03:18,009 --> 00:03:19,720
+ there's no X tilda in the
+
+125
+00:03:19,729 --> 00:03:21,559
+ definition of a Koshi sequence.
+
+126
+00:03:22,410 --> 00:03:23,899
+ Hence, it would be much nicer
+
+127
+00:03:23,910 --> 00:03:25,539
+ working with this definition
+
+128
+00:03:25,610 --> 00:03:26,910
+ than working with the one
+
+129
+00:03:26,919 --> 00:03:28,300
+ for the convergence sequences.
+
+130
+00:03:29,029 --> 00:03:30,289
+ However, we already know
+
+131
+00:03:30,300 --> 00:03:32,089
+ the problem, this does not
+
+132
+00:03:32,100 --> 00:03:33,089
+ work in general.
+
+133
+00:03:34,100 --> 00:03:35,589
+ Now the nice spaces where
+
+134
+00:03:35,600 --> 00:03:37,220
+ this actually works, we call
+
+135
+00:03:37,229 --> 00:03:37,820
+ complete.
+
+136
+00:03:38,679 --> 00:03:40,350
+ Therefore, we say here all
+
+137
+00:03:40,360 --> 00:03:42,100
+ Koshi sequences converge.
+
+138
+00:03:43,029 --> 00:03:44,250
+ In other words, something
+
+139
+00:03:44,259 --> 00:03:46,110
+ like above can't happen then
+
+140
+00:03:47,080 --> 00:03:48,220
+ and of course, you already
+
+141
+00:03:48,229 --> 00:03:49,910
+ know how to fix the example
+
+142
+00:03:49,919 --> 00:03:50,399
+ above.
+
+143
+00:03:51,029 --> 00:03:52,660
+ We could change the set X
+
+144
+00:03:52,729 --> 00:03:54,470
+ when we include zero and
+
+145
+00:03:54,479 --> 00:03:55,089
+ three.
+
+146
+00:03:55,110 --> 00:03:56,660
+ Then of course, now the
+
+147
+00:03:56,669 --> 00:03:57,899
+ space is complete.
+
+148
+00:03:58,869 --> 00:03:59,940
+ You might already see the
+
+149
+00:03:59,949 --> 00:04:01,740
+ general result here because
+
+150
+00:04:01,750 --> 00:04:03,240
+ we consider metric spaces
+
+151
+00:04:03,250 --> 00:04:05,039
+ coming from the real numbers
+
+152
+00:04:05,050 --> 00:04:06,830
+ R with the same metric as
+
+153
+00:04:06,839 --> 00:04:07,259
+ R.
+
+154
+00:04:07,869 --> 00:04:09,639
+ Therefore, as long as the
+
+155
+00:04:09,649 --> 00:04:11,600
+ set X is closed in
+
+156
+00:04:11,610 --> 00:04:13,460
+ R, which means in a
+
+157
+00:04:13,470 --> 00:04:14,839
+ metric space RD in
+
+158
+00:04:14,850 --> 00:04:16,839
+ this case, then what
+
+159
+00:04:16,850 --> 00:04:18,500
+ we get out is a complete
+
+160
+00:04:18,510 --> 00:04:19,358
+ metric space.
+
+161
+00:04:20,088 --> 00:04:21,678
+ However, that is just because
+
+162
+00:04:21,688 --> 00:04:23,049
+ we already knew that
+
+163
+00:04:23,058 --> 00:04:24,928
+ RD is a complete metric
+
+164
+00:04:24,938 --> 00:04:25,389
+ space.
+
+165
+00:04:26,100 --> 00:04:27,570
+ You might already feel that
+
+166
+00:04:27,579 --> 00:04:29,079
+ this should work in general
+
+167
+00:04:29,119 --> 00:04:30,170
+ and you are correct.
+
+168
+00:04:30,570 --> 00:04:31,910
+ If you have a complete metric
+
+169
+00:04:31,920 --> 00:04:33,609
+ space, you can form new
+
+170
+00:04:33,619 --> 00:04:35,089
+ ones just by considering
+
+171
+00:04:35,100 --> 00:04:37,019
+ the close subsets with the
+
+172
+00:04:37,029 --> 00:04:37,809
+ same metric.
+
+173
+00:04:38,609 --> 00:04:39,589
+ However, that's something
+
+174
+00:04:39,600 --> 00:04:40,510
+ we can prove later.
+
+175
+00:04:40,519 --> 00:04:41,829
+ Let's first look at another
+
+176
+00:04:41,839 --> 00:04:42,420
+ example.
+
+177
+00:04:43,079 --> 00:04:44,559
+ Now we don't change the set.
+
+178
+00:04:44,570 --> 00:04:45,850
+ We still consider the interval
+
+179
+00:04:45,859 --> 00:04:47,410
+ 0 to 3 where we exclude
+
+180
+00:04:47,420 --> 00:04:48,420
+ zero and three.
+
+181
+00:04:48,429 --> 00:04:50,049
+ But now we change the metric
+
+182
+00:04:50,059 --> 00:04:51,320
+ and I want to choose the
+
+183
+00:04:51,329 --> 00:04:52,399
+ discrete metric.
+
+184
+00:04:52,910 --> 00:04:54,260
+ So this is what we defined
+
+185
+00:04:54,269 --> 00:04:55,790
+ in part two as a discrete
+
+186
+00:04:55,799 --> 00:04:56,299
+ metric.
+
+187
+00:04:57,260 --> 00:04:59,000
+ Now my claim is this is
+
+188
+00:04:59,010 --> 00:05:00,619
+ also a complete metric
+
+189
+00:05:00,630 --> 00:05:01,149
+ space.
+
+190
+00:05:01,910 --> 00:05:03,059
+ Indeed, that's not hard to
+
+191
+00:05:03,070 --> 00:05:04,809
+ show we just choose an avatar
+
+192
+00:05:04,920 --> 00:05:06,059
+ echo sequence here.
+
+193
+00:05:06,799 --> 00:05:08,459
+ Then we know this whole thing
+
+194
+00:05:08,470 --> 00:05:09,739
+ here holds for all
+
+195
+00:05:09,750 --> 00:05:11,720
+ epsilon so that I can just
+
+196
+00:05:11,730 --> 00:05:13,679
+ take one and I want to
+
+197
+00:05:13,690 --> 00:05:15,649
+ have epsilon as one half.
+
+198
+00:05:16,510 --> 00:05:17,630
+ Then we know there is in
+
+199
+00:05:17,640 --> 00:05:19,250
+ capital N such that
+
+200
+00:05:19,260 --> 00:05:20,679
+ all indices that are
+
+201
+00:05:20,690 --> 00:05:22,549
+ created and end fulfill this
+
+202
+00:05:22,559 --> 00:05:22,890
+ one.
+
+203
+00:05:23,779 --> 00:05:25,079
+ This means that the distance
+
+204
+00:05:25,089 --> 00:05:26,959
+ between XN and XM is
+
+205
+00:05:26,970 --> 00:05:28,739
+ less than epsilon or in other
+
+206
+00:05:28,750 --> 00:05:30,510
+ words, less than one half.
+
+207
+00:05:31,309 --> 00:05:33,049
+ However, now we see in the
+
+208
+00:05:33,059 --> 00:05:34,529
+ definition of the metric
+
+209
+00:05:34,640 --> 00:05:36,290
+ that less than one half is
+
+210
+00:05:36,299 --> 00:05:37,739
+ only possible in the bottom
+
+211
+00:05:37,750 --> 00:05:38,170
+ case.
+
+212
+00:05:39,029 --> 00:05:40,160
+ Therefore, the distance is
+
+213
+00:05:40,170 --> 00:05:41,459
+ indeed zero,
+
+214
+00:05:42,320 --> 00:05:44,260
+ which again means that XN
+
+215
+00:05:44,269 --> 00:05:45,899
+ is the same as XM.
+
+216
+00:05:46,380 --> 00:05:47,859
+ So please note this works
+
+217
+00:05:47,869 --> 00:05:49,750
+ for almost all indices here.
+
+218
+00:05:49,779 --> 00:05:51,769
+ Only finally many before
+
+219
+00:05:51,940 --> 00:05:53,019
+ could be different.
+
+220
+00:05:54,160 --> 00:05:55,500
+ Hence, it tells you that
+
+221
+00:05:55,510 --> 00:05:57,500
+ the sequence is indeed constant
+
+222
+00:05:57,510 --> 00:05:58,700
+ after the index N
+
+223
+00:06:00,010 --> 00:06:01,220
+ OK, maybe let's look at the
+
+224
+00:06:01,230 --> 00:06:02,420
+ graph where we have here
+
+225
+00:06:02,429 --> 00:06:03,829
+ the indices and here the
+
+226
+00:06:03,839 --> 00:06:05,820
+ space X at
+
+227
+00:06:05,829 --> 00:06:07,220
+ the beginning the sequence
+
+228
+00:06:07,230 --> 00:06:08,690
+ is allowed to do something.
+
+229
+00:06:09,880 --> 00:06:11,230
+ However, the value it reaches
+
+230
+00:06:11,239 --> 00:06:12,989
+ with the index N is then
+
+231
+00:06:13,000 --> 00:06:14,690
+ fixed for the entire time
+
+232
+00:06:14,700 --> 00:06:15,540
+ of the sequence.
+
+233
+00:06:16,649 --> 00:06:17,790
+ So you could say this is
+
+234
+00:06:17,799 --> 00:06:19,630
+ quite a boring sequence because
+
+235
+00:06:19,640 --> 00:06:20,869
+ it does not change anymore.
+
+236
+00:06:21,429 --> 00:06:23,040
+ However, for such a sequence,
+
+237
+00:06:23,049 --> 00:06:24,829
+ it's easy to show that it
+
+238
+00:06:24,839 --> 00:06:26,549
+ is a convergence sequence
+
+239
+00:06:26,559 --> 00:06:27,950
+ with the limit X tilda
+
+240
+00:06:27,959 --> 00:06:29,929
+ as exactly this constant
+
+241
+00:06:29,940 --> 00:06:30,390
+ in the end.
+
+242
+00:06:31,269 --> 00:06:32,609
+ And now we have seen that
+
+243
+00:06:32,619 --> 00:06:34,209
+ these are indeed the only
+
+244
+00:06:34,220 --> 00:06:36,119
+ possible convergence sequences
+
+245
+00:06:36,130 --> 00:06:37,690
+ in a discrete metric space.
+
+246
+00:06:38,230 --> 00:06:39,279
+ And of course, we have also
+
+247
+00:06:39,290 --> 00:06:41,239
+ shown that this one is indeed
+
+248
+00:06:41,250 --> 00:06:42,690
+ a complete metric space.
+
+249
+00:06:43,589 --> 00:06:43,989
+ OK.
+
+250
+00:06:44,000 --> 00:06:44,859
+ Maybe that's good enough
+
+251
+00:06:44,869 --> 00:06:45,609
+ for today.
+
+252
+00:06:45,640 --> 00:06:46,970
+ In the next video, we will
+
+253
+00:06:46,980 --> 00:06:48,750
+ look at some important complete
+
+254
+00:06:48,760 --> 00:06:49,679
+ metric spaces.
+
+255
+00:06:50,359 --> 00:06:51,540
+ So I hope I see you there
+
+256
+00:06:51,549 --> 00:06:52,540
+ and goodbye.
+

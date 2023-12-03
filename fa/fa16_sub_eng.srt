@@ -1,0 +1,1600 @@
+1
+00:00:00,360 --> 00:00:02,059
+ Hello and welcome back to
+
+2
+00:00:02,069 --> 00:00:03,279
+ functional analysis.
+
+3
+00:00:03,440 --> 00:00:04,659
+ And as always, I want to
+
+4
+00:00:04,670 --> 00:00:06,059
+ thank all the nice people
+
+5
+00:00:06,070 --> 00:00:07,619
+ that make this video possible
+
+6
+00:00:07,630 --> 00:00:09,100
+ by supporting me on steady
+
+7
+00:00:09,109 --> 00:00:09,899
+ or paypal.
+
+8
+00:00:10,430 --> 00:00:11,659
+ Now, we have reached part
+
+9
+00:00:11,670 --> 00:00:13,340
+ 16 in our course.
+
+10
+00:00:13,350 --> 00:00:15,029
+ And we'll talk about compactness
+
+11
+00:00:15,039 --> 00:00:15,520
+ today.
+
+12
+00:00:16,430 --> 00:00:17,969
+ The word compact you find
+
+13
+00:00:17,979 --> 00:00:19,270
+ very often in functional
+
+14
+00:00:19,280 --> 00:00:20,000
+ analysis.
+
+15
+00:00:20,010 --> 00:00:21,510
+ However, here we first go
+
+16
+00:00:21,520 --> 00:00:23,000
+ back to metric spaces.
+
+17
+00:00:23,870 --> 00:00:25,409
+ It's a property we define
+
+18
+00:00:25,420 --> 00:00:27,079
+ for subsets in a matrix
+
+19
+00:00:27,090 --> 00:00:28,370
+ space and it should
+
+20
+00:00:28,379 --> 00:00:29,899
+ extend the finite.
+
+21
+00:00:29,959 --> 00:00:31,629
+ So a finite
+
+22
+00:00:31,639 --> 00:00:32,810
+ set should always be
+
+23
+00:00:32,819 --> 00:00:33,650
+ compact.
+
+24
+00:00:34,020 --> 00:00:35,259
+ Then for an infinite set,
+
+25
+00:00:35,270 --> 00:00:36,689
+ the compactness would say
+
+26
+00:00:36,700 --> 00:00:38,389
+ that your movement is still
+
+27
+00:00:38,400 --> 00:00:40,060
+ restricted in a similar way
+
+28
+00:00:40,610 --> 00:00:41,880
+ to get an idea of what this
+
+29
+00:00:41,889 --> 00:00:42,930
+ actually means.
+
+30
+00:00:42,939 --> 00:00:44,779
+ Let's look at a subset in
+
+31
+00:00:44,790 --> 00:00:45,389
+ RN.
+
+32
+00:00:46,299 --> 00:00:47,529
+ Of course, we have our N
+
+33
+00:00:47,540 --> 00:00:49,080
+ with our usual Euclidean
+
+34
+00:00:49,090 --> 00:00:49,259
+ me.
+
+35
+00:00:50,229 --> 00:00:51,409
+ Now, you know what it means
+
+36
+00:00:51,419 --> 00:00:53,159
+ to say that A is a closed
+
+37
+00:00:53,169 --> 00:00:54,900
+ set, the
+
+38
+00:00:54,909 --> 00:00:56,380
+ whole boundary should belong
+
+39
+00:00:56,389 --> 00:00:57,750
+ to the whole set itself,
+
+40
+00:00:57,759 --> 00:00:59,470
+ which means you can't leave
+
+41
+00:00:59,479 --> 00:01:01,029
+ it from the inside by using
+
+42
+00:01:01,040 --> 00:01:01,709
+ a sequence.
+
+43
+00:01:02,520 --> 00:01:04,470
+ So you see this is one restriction
+
+44
+00:01:04,480 --> 00:01:05,870
+ you have for your movement.
+
+45
+00:01:06,489 --> 00:01:07,739
+ And another one comes in.
+
+46
+00:01:07,750 --> 00:01:09,250
+ If you look at a bounded
+
+47
+00:01:09,260 --> 00:01:11,010
+ set, this
+
+48
+00:01:11,019 --> 00:01:12,239
+ simply means that there is
+
+49
+00:01:12,250 --> 00:01:13,699
+ a maximum distance you can
+
+50
+00:01:13,709 --> 00:01:15,500
+ go, you are not allowed to
+
+51
+00:01:15,510 --> 00:01:16,599
+ go to infinity.
+
+52
+00:01:17,349 --> 00:01:18,879
+ Now, you might already know
+
+53
+00:01:18,940 --> 00:01:20,489
+ these two things together
+
+54
+00:01:20,540 --> 00:01:21,930
+ is what we can shorten to
+
+55
+00:01:21,940 --> 00:01:22,849
+ compact.
+
+56
+00:01:23,400 --> 00:01:25,150
+ However, please be careful.
+
+57
+00:01:25,160 --> 00:01:26,569
+ Actually, this is not a
+
+58
+00:01:26,580 --> 00:01:27,430
+ definition.
+
+59
+00:01:27,480 --> 00:01:29,330
+ This is a fact we only have
+
+60
+00:01:29,339 --> 00:01:31,239
+ in RN or if you
+
+61
+00:01:31,250 --> 00:01:33,019
+ want also in CN
+
+62
+00:01:33,029 --> 00:01:34,209
+ together with this standard
+
+63
+00:01:34,220 --> 00:01:34,709
+ metric.
+
+64
+00:01:35,660 --> 00:01:36,849
+ Therefore, the correct question
+
+65
+00:01:36,860 --> 00:01:38,199
+ here would be how can we
+
+66
+00:01:38,209 --> 00:01:39,639
+ define compact in
+
+67
+00:01:39,650 --> 00:01:41,199
+ general such that we get
+
+68
+00:01:41,209 --> 00:01:42,800
+ the correct notion for infinite
+
+69
+00:01:42,809 --> 00:01:43,230
+ sets?
+
+70
+00:01:44,000 --> 00:01:45,800
+ Of course, this is now what
+
+71
+00:01:45,809 --> 00:01:46,480
+ we will do.
+
+72
+00:01:47,680 --> 00:01:49,389
+ So let's fix a metric space
+
+73
+00:01:49,400 --> 00:01:51,300
+ XD in the
+
+74
+00:01:51,309 --> 00:01:52,830
+ same way as before, let's
+
+75
+00:01:52,839 --> 00:01:54,319
+ consider a subset of this
+
+76
+00:01:54,330 --> 00:01:54,900
+ space.
+
+77
+00:01:55,809 --> 00:01:57,650
+ And now we define this as
+
+78
+00:01:57,660 --> 00:01:59,330
+ a compact set or more
+
+79
+00:01:59,339 --> 00:02:01,029
+ concretely as a sequentially
+
+80
+00:02:01,040 --> 00:02:01,910
+ compact set.
+
+81
+00:02:02,849 --> 00:02:04,510
+ Maybe you already recognize
+
+82
+00:02:04,519 --> 00:02:05,900
+ the same thing that happened
+
+83
+00:02:05,910 --> 00:02:07,489
+ in the continuity definition.
+
+84
+00:02:08,187 --> 00:02:09,598
+ There are two terms you could
+
+85
+00:02:09,608 --> 00:02:11,598
+ define one with sequences
+
+86
+00:02:11,608 --> 00:02:12,938
+ and the other one without
+
+87
+00:02:12,949 --> 00:02:13,768
+ sequences.
+
+88
+00:02:14,218 --> 00:02:15,848
+ And then the result for metric
+
+89
+00:02:15,858 --> 00:02:17,529
+ spaces is they are
+
+90
+00:02:17,539 --> 00:02:18,158
+ equivalent.
+
+91
+00:02:18,809 --> 00:02:19,990
+ It's the same thing here,
+
+92
+00:02:20,000 --> 00:02:21,289
+ but I don't want to bother
+
+93
+00:02:21,300 --> 00:02:22,850
+ you with the actual compact
+
+94
+00:02:22,860 --> 00:02:23,389
+ definition.
+
+95
+00:02:24,059 --> 00:02:25,580
+ The term sequentially compact
+
+96
+00:02:25,589 --> 00:02:27,399
+ is just easier to understand
+
+97
+00:02:27,520 --> 00:02:29,130
+ and we just call it compact.
+
+98
+00:02:29,139 --> 00:02:31,000
+ Now, however, please
+
+99
+00:02:31,009 --> 00:02:32,240
+ keep in mind when you're
+
+100
+00:02:32,250 --> 00:02:33,940
+ not working in metric spaces.
+
+101
+00:02:33,949 --> 00:02:35,520
+ But in general topological
+
+102
+00:02:35,529 --> 00:02:37,330
+ spaces, you have two terms
+
+103
+00:02:37,339 --> 00:02:38,639
+ that are not equivalent
+
+104
+00:02:39,229 --> 00:02:39,679
+ for us.
+
+105
+00:02:39,690 --> 00:02:40,720
+ It's not a problem here.
+
+106
+00:02:40,729 --> 00:02:42,720
+ We call a compact if
+
+107
+00:02:42,729 --> 00:02:44,130
+ for each sequence in a,
+
+108
+00:02:44,860 --> 00:02:46,479
+ we find a convergent
+
+109
+00:02:46,490 --> 00:02:48,410
+ subsequence where
+
+110
+00:02:48,419 --> 00:02:49,720
+ the limit X tilda
+
+111
+00:02:49,729 --> 00:02:51,410
+ still lies in the set
+
+112
+00:02:51,419 --> 00:02:51,759
+ A.
+
+113
+00:02:52,479 --> 00:02:53,690
+ So you see there's a lot
+
+114
+00:02:53,699 --> 00:02:55,440
+ going on here, you start
+
+115
+00:02:55,449 --> 00:02:57,250
+ with a sequence, then you
+
+116
+00:02:57,259 --> 00:02:58,490
+ omit some members,
+
+117
+00:02:59,059 --> 00:03:00,070
+ which means that you get
+
+118
+00:03:00,080 --> 00:03:01,839
+ a subsequence, which is
+
+119
+00:03:01,850 --> 00:03:03,600
+ also convergent where the
+
+120
+00:03:03,610 --> 00:03:05,440
+ limit still lies in a,
+
+121
+00:03:05,970 --> 00:03:06,710
+ in the picture.
+
+122
+00:03:06,720 --> 00:03:08,199
+ This would mean inside a
+
+123
+00:03:08,210 --> 00:03:09,529
+ set A, we have
+
+124
+00:03:09,539 --> 00:03:11,229
+ infinitely many points
+
+125
+00:03:11,240 --> 00:03:12,630
+ given by the sequence
+
+126
+00:03:12,639 --> 00:03:13,270
+ XN.
+
+127
+00:03:14,220 --> 00:03:15,449
+ Of course, a lot can happen
+
+128
+00:03:15,460 --> 00:03:16,490
+ for this sequence.
+
+129
+00:03:16,500 --> 00:03:18,330
+ But compact now means
+
+130
+00:03:18,339 --> 00:03:20,229
+ that you can choose infinitely
+
+131
+00:03:20,240 --> 00:03:21,970
+ many points in the sequence
+
+132
+00:03:21,979 --> 00:03:23,250
+ such that you get a limit
+
+133
+00:03:23,259 --> 00:03:23,690
+ out.
+
+134
+00:03:24,279 --> 00:03:25,860
+ For example, here, only one
+
+135
+00:03:25,869 --> 00:03:27,559
+ part remains where we have
+
+136
+00:03:27,570 --> 00:03:29,220
+ convergence to a point X
+
+137
+00:03:29,240 --> 00:03:29,779
+ tilda.
+
+138
+00:03:30,250 --> 00:03:31,850
+ And this should work no matter
+
+139
+00:03:31,860 --> 00:03:33,160
+ which sequence you started
+
+140
+00:03:33,169 --> 00:03:33,490
+ with.
+
+141
+00:03:34,240 --> 00:03:35,699
+ Now, if you go back to our
+
+142
+00:03:35,729 --> 00:03:37,039
+ end with this knowledge,
+
+143
+00:03:37,179 --> 00:03:38,460
+ you immediately see this
+
+144
+00:03:38,470 --> 00:03:40,089
+ excludes unbounded
+
+145
+00:03:40,660 --> 00:03:42,020
+ because if you tend to
+
+146
+00:03:42,029 --> 00:03:43,899
+ infinity, you can't find
+
+147
+00:03:43,910 --> 00:03:45,690
+ such a convergence subsequence.
+
+148
+00:03:46,259 --> 00:03:48,169
+ Also the set has to be closed.
+
+149
+00:03:48,179 --> 00:03:49,770
+ Otherwise you can just choose
+
+150
+00:03:49,779 --> 00:03:51,539
+ a sequence that has a limit
+
+151
+00:03:51,550 --> 00:03:52,699
+ outside of the set.
+
+152
+00:03:52,710 --> 00:03:53,009
+ A.
+
+153
+00:03:53,149 --> 00:03:54,759
+ Then of course, you can't
+
+154
+00:03:54,770 --> 00:03:56,039
+ add a new limit with a
+
+155
+00:03:56,050 --> 00:03:56,809
+ subsequence.
+
+156
+00:03:57,789 --> 00:03:58,270
+ OK.
+
+157
+00:03:58,279 --> 00:03:59,690
+ Next, let's look at some
+
+158
+00:03:59,699 --> 00:04:00,410
+ examples.
+
+159
+00:04:01,369 --> 00:04:02,669
+ For the first example, let's
+
+160
+00:04:02,679 --> 00:04:04,300
+ choose a more concrete one
+
+161
+00:04:04,309 --> 00:04:05,600
+ than the one from above.
+
+162
+00:04:06,910 --> 00:04:08,039
+ So this should be just the
+
+163
+00:04:08,050 --> 00:04:09,699
+ real number line together
+
+164
+00:04:09,710 --> 00:04:11,059
+ with the standard metric,
+
+165
+00:04:11,070 --> 00:04:12,580
+ the Euclidean metric which
+
+166
+00:04:12,589 --> 00:04:13,800
+ is given by the absolute
+
+167
+00:04:13,809 --> 00:04:14,259
+ value.
+
+168
+00:04:14,910 --> 00:04:16,730
+ And the set A should be given
+
+169
+00:04:16,738 --> 00:04:18,329
+ as the unit interval.
+
+170
+00:04:18,910 --> 00:04:20,428
+ Now, in this one dimensional
+
+171
+00:04:20,440 --> 00:04:21,928
+ case, you should see that
+
+172
+00:04:21,940 --> 00:04:22,970
+ the formulation with the
+
+173
+00:04:22,980 --> 00:04:24,649
+ sequences and the convergent
+
+174
+00:04:24,660 --> 00:04:26,040
+ subsequence is
+
+175
+00:04:26,049 --> 00:04:27,730
+ exactly what you learn in
+
+176
+00:04:27,739 --> 00:04:28,529
+ analysis.
+
+177
+00:04:28,989 --> 00:04:30,519
+ It's the famous Bolzano
+
+178
+00:04:31,109 --> 00:04:31,769
+ Vastra theorem.
+
+179
+00:04:32,769 --> 00:04:34,200
+ Then with this in a tool
+
+180
+00:04:34,209 --> 00:04:35,970
+ set, one can easily show
+
+181
+00:04:35,980 --> 00:04:37,730
+ the equality here for RN
+
+182
+00:04:37,739 --> 00:04:39,359
+ or CN with the standard
+
+183
+00:04:39,369 --> 00:04:39,859
+ metric.
+
+184
+00:04:40,670 --> 00:04:42,160
+ Therefore, let's now look
+
+185
+00:04:42,170 --> 00:04:43,529
+ at the same set together
+
+186
+00:04:43,540 --> 00:04:44,609
+ with another metric.
+
+187
+00:04:45,489 --> 00:04:46,709
+ So again, the real number
+
+188
+00:04:46,720 --> 00:04:48,679
+ line, but now with the discrete
+
+189
+00:04:48,690 --> 00:04:50,640
+ metric, now you might
+
+190
+00:04:50,649 --> 00:04:52,070
+ already guess in this
+
+191
+00:04:52,079 --> 00:04:53,850
+ case, the unit interval is
+
+192
+00:04:53,859 --> 00:04:55,049
+ not compact.
+
+193
+00:04:55,510 --> 00:04:56,880
+ In order to show this, you
+
+194
+00:04:56,890 --> 00:04:58,850
+ just have to find one sequence
+
+195
+00:04:58,859 --> 00:05:00,170
+ which has no convergence
+
+196
+00:05:00,179 --> 00:05:01,440
+ subsequence at all.
+
+197
+00:05:02,200 --> 00:05:04,019
+ Hence, let's simply do that.
+
+198
+00:05:04,869 --> 00:05:05,279
+ OK.
+
+199
+00:05:05,290 --> 00:05:06,739
+ So let's choose to sequence
+
+200
+00:05:06,750 --> 00:05:07,989
+ XN by setting
+
+201
+00:05:08,000 --> 00:05:09,760
+ XN as one over
+
+202
+00:05:09,769 --> 00:05:11,410
+ N, it's a
+
+203
+00:05:11,420 --> 00:05:12,959
+ sequence inside the unit
+
+204
+00:05:12,970 --> 00:05:14,350
+ interval but it's not
+
+205
+00:05:14,359 --> 00:05:15,029
+ constant.
+
+206
+00:05:15,940 --> 00:05:17,369
+ Hence, we already know what
+
+207
+00:05:17,380 --> 00:05:18,920
+ the distance is between two
+
+208
+00:05:18,929 --> 00:05:20,329
+ members of the sequence
+
+209
+00:05:20,720 --> 00:05:22,220
+ we are in the discrete metric
+
+210
+00:05:22,230 --> 00:05:22,799
+ space.
+
+211
+00:05:22,809 --> 00:05:24,670
+ So we get always one or
+
+212
+00:05:24,679 --> 00:05:25,929
+ two different points.
+
+213
+00:05:26,470 --> 00:05:28,239
+ However, this now means that
+
+214
+00:05:28,250 --> 00:05:30,149
+ we could omit a lot of members
+
+215
+00:05:30,160 --> 00:05:31,899
+ in the sequence, but we never
+
+216
+00:05:31,910 --> 00:05:33,579
+ get the one down to zero
+
+217
+00:05:33,589 --> 00:05:33,920
+ here.
+
+218
+00:05:34,750 --> 00:05:35,959
+ In other words, there can't
+
+219
+00:05:35,970 --> 00:05:37,959
+ be any convergent subsequence.
+
+220
+00:05:38,799 --> 00:05:40,609
+ In conclusion, the unit interval
+
+221
+00:05:40,619 --> 00:05:42,239
+ is not compact with
+
+222
+00:05:42,250 --> 00:05:43,839
+ respect to the discrete metric.
+
+223
+00:05:44,690 --> 00:05:44,970
+ OK.
+
+224
+00:05:44,980 --> 00:05:46,570
+ So please keep that in mind,
+
+225
+00:05:46,809 --> 00:05:48,220
+ always emphasize the
+
+226
+00:05:48,230 --> 00:05:49,690
+ corresponding metric when
+
+227
+00:05:49,700 --> 00:05:51,420
+ talking about compact sets.
+
+228
+00:05:52,200 --> 00:05:53,600
+ Now for the end of the video,
+
+229
+00:05:53,609 --> 00:05:54,880
+ I want to show you a nice
+
+230
+00:05:54,890 --> 00:05:56,809
+ proposition which generalizes
+
+231
+00:05:56,820 --> 00:05:58,079
+ the results from above,
+
+232
+00:05:58,779 --> 00:06:00,029
+ we have our metric space
+
+233
+00:06:00,040 --> 00:06:01,869
+ XD and a compact
+
+234
+00:06:01,880 --> 00:06:03,730
+ set A then
+
+235
+00:06:03,739 --> 00:06:04,790
+ we can conclude.
+
+236
+00:06:04,799 --> 00:06:06,470
+ So it's an implication not
+
+237
+00:06:06,480 --> 00:06:07,309
+ an equivalence
+
+238
+00:06:08,290 --> 00:06:10,179
+ that A is closed
+
+239
+00:06:10,190 --> 00:06:11,309
+ and bounded.
+
+240
+00:06:11,660 --> 00:06:13,390
+ So in general, we still have
+
+241
+00:06:13,399 --> 00:06:15,049
+ the result that closeness
+
+242
+00:06:15,059 --> 00:06:16,910
+ and bounded is needed
+
+243
+00:06:16,920 --> 00:06:18,179
+ for the compactness.
+
+244
+00:06:18,720 --> 00:06:20,109
+ It's not the other way around
+
+245
+00:06:20,119 --> 00:06:21,790
+ compactness in general is
+
+246
+00:06:21,799 --> 00:06:22,440
+ more.
+
+247
+00:06:22,450 --> 00:06:24,070
+ But this can still be helpful
+
+248
+00:06:24,850 --> 00:06:26,359
+ before writing down the proof,
+
+249
+00:06:26,369 --> 00:06:27,799
+ we should first define what
+
+250
+00:06:27,809 --> 00:06:29,399
+ we mean by a bounded set
+
+251
+00:06:29,410 --> 00:06:30,839
+ inside the metric space.
+
+252
+00:06:31,700 --> 00:06:32,859
+ Of course, this is not so
+
+253
+00:06:32,869 --> 00:06:34,380
+ surprising if you have your
+
+254
+00:06:34,390 --> 00:06:36,190
+ set a here, it
+
+255
+00:06:36,200 --> 00:06:37,410
+ simply means that you can't
+
+256
+00:06:37,420 --> 00:06:39,290
+ find a large enough epsilon
+
+257
+00:06:39,299 --> 00:06:41,029
+ ball such that the whole
+
+258
+00:06:41,040 --> 00:06:42,640
+ set lies inside this
+
+259
+00:06:42,649 --> 00:06:43,170
+ ball.
+
+260
+00:06:43,679 --> 00:06:44,989
+ So we just have to find a
+
+261
+00:06:45,000 --> 00:06:46,489
+ middle point X
+
+262
+00:06:46,649 --> 00:06:48,279
+ and a radius epsilon.
+
+263
+00:06:48,899 --> 00:06:50,170
+ And then we want that the
+
+264
+00:06:50,179 --> 00:06:52,079
+ open Epsom ball around
+
+265
+00:06:52,089 --> 00:06:53,959
+ X is a superset for A
+
+266
+00:06:54,839 --> 00:06:55,989
+ and this is what we mean
+
+267
+00:06:56,000 --> 00:06:57,339
+ when we say bounded,
+
+268
+00:06:58,010 --> 00:06:59,230
+ it simply means that there
+
+269
+00:06:59,239 --> 00:07:01,049
+ is a constant such that any
+
+270
+00:07:01,059 --> 00:07:02,790
+ two points have distance
+
+271
+00:07:02,799 --> 00:07:04,329
+ less than this constant.
+
+272
+00:07:04,980 --> 00:07:06,679
+ And here you see this constant
+
+273
+00:07:06,690 --> 00:07:08,350
+ would be just too epsilon.
+
+274
+00:07:09,149 --> 00:07:09,519
+ OK.
+
+275
+00:07:09,529 --> 00:07:10,989
+ By knowing all the terms
+
+276
+00:07:11,000 --> 00:07:12,359
+ in the proposition, we now
+
+277
+00:07:12,369 --> 00:07:13,760
+ can write down the proof
+
+278
+00:07:14,049 --> 00:07:15,779
+ starting from a compact set,
+
+279
+00:07:15,790 --> 00:07:17,230
+ we have to do two things.
+
+280
+00:07:17,380 --> 00:07:18,980
+ First, we want to show that
+
+281
+00:07:18,989 --> 00:07:19,959
+ A is closed.
+
+282
+00:07:19,970 --> 00:07:21,500
+ So let's choose a convergence
+
+283
+00:07:21,510 --> 00:07:22,429
+ sequence in a.
+
+284
+00:07:22,910 --> 00:07:24,019
+ Hence we know there is a
+
+285
+00:07:24,029 --> 00:07:25,480
+ limit X tilda in
+
+286
+00:07:25,489 --> 00:07:26,049
+ X.
+
+287
+00:07:26,519 --> 00:07:28,290
+ Now we call, if we can show
+
+288
+00:07:28,299 --> 00:07:29,760
+ that X tilda is actually
+
+289
+00:07:29,769 --> 00:07:31,519
+ in a, then A is closed
+
+290
+00:07:32,209 --> 00:07:33,750
+ using the compactness, we
+
+291
+00:07:33,760 --> 00:07:34,890
+ immediately get the result
+
+292
+00:07:34,899 --> 00:07:35,989
+ for a subsequence.
+
+293
+00:07:36,470 --> 00:07:37,750
+ Hence, we have a convergent
+
+294
+00:07:37,760 --> 00:07:39,660
+ subsequence with limit
+
+295
+00:07:39,670 --> 00:07:40,230
+ in A.
+
+296
+00:07:40,239 --> 00:07:41,630
+ And maybe we call this limit
+
+297
+00:07:41,640 --> 00:07:42,779
+ X tilda tilda.
+
+298
+00:07:43,779 --> 00:07:45,549
+ Of course, this is not necessary
+
+299
+00:07:45,559 --> 00:07:47,269
+ because we know we already
+
+300
+00:07:47,279 --> 00:07:48,670
+ started with a convergence
+
+301
+00:07:48,679 --> 00:07:49,250
+ sequence.
+
+302
+00:07:49,779 --> 00:07:51,329
+ And we know the limit is
+
+303
+00:07:51,339 --> 00:07:52,250
+ always unique.
+
+304
+00:07:52,260 --> 00:07:53,730
+ You can't find another limit
+
+305
+00:07:53,739 --> 00:07:54,739
+ with a subsequence.
+
+306
+00:07:55,380 --> 00:07:57,130
+ Hence X tilda and X tilda
+
+307
+00:07:57,290 --> 00:07:59,049
+ tilda do coincide.
+
+308
+00:07:59,059 --> 00:08:00,690
+ So we know X tilda lies
+
+309
+00:08:00,700 --> 00:08:02,589
+ also in a, this is
+
+310
+00:08:02,600 --> 00:08:03,790
+ exactly what we wanted to
+
+311
+00:08:03,799 --> 00:08:04,290
+ show.
+
+312
+00:08:04,399 --> 00:08:06,109
+ Therefore A is closed.
+
+313
+00:08:06,809 --> 00:08:07,239
+ OK.
+
+314
+00:08:07,250 --> 00:08:08,779
+ Then the next step is showing
+
+315
+00:08:08,790 --> 00:08:10,019
+ that A is bounded.
+
+316
+00:08:10,480 --> 00:08:12,000
+ We do this with a proof by
+
+317
+00:08:12,010 --> 00:08:12,839
+ con interposition.
+
+318
+00:08:13,589 --> 00:08:14,920
+ This means that we start
+
+319
+00:08:14,929 --> 00:08:16,149
+ with a being not
+
+320
+00:08:16,160 --> 00:08:18,140
+ bounded and we want to end
+
+321
+00:08:18,149 --> 00:08:19,500
+ with a being not
+
+322
+00:08:19,510 --> 00:08:20,230
+ compact.
+
+323
+00:08:20,890 --> 00:08:22,869
+ Now, if A is not bounded,
+
+324
+00:08:22,880 --> 00:08:24,790
+ we know that we can find
+
+325
+00:08:24,799 --> 00:08:26,720
+ distances as large as
+
+326
+00:08:26,730 --> 00:08:27,230
+ we want.
+
+327
+00:08:27,950 --> 00:08:29,890
+ Hence, for given point A
+
+328
+00:08:29,899 --> 00:08:31,609
+ in the set A, we
+
+329
+00:08:31,619 --> 00:08:33,419
+ find infinitely many points
+
+330
+00:08:33,429 --> 00:08:34,969
+ XN in A
+
+331
+00:08:34,979 --> 00:08:36,690
+ such that the distance to
+
+332
+00:08:36,700 --> 00:08:38,340
+ A is larger than the
+
+333
+00:08:38,349 --> 00:08:39,450
+ natural number N.
+
+334
+00:08:40,890 --> 00:08:42,719
+ With this, we have one sequence
+
+335
+00:08:42,729 --> 00:08:44,409
+ XN in A where we can look
+
+336
+00:08:44,419 --> 00:08:45,409
+ at all possible
+
+337
+00:08:45,419 --> 00:08:46,419
+ subsequence.
+
+338
+00:08:46,840 --> 00:08:48,770
+ Now, if A was compact,
+
+339
+00:08:48,780 --> 00:08:50,619
+ we would find a subsequence
+
+340
+00:08:50,630 --> 00:08:51,419
+ with a limit.
+
+341
+00:08:52,260 --> 00:08:53,520
+ Therefore, let's look at
+
+342
+00:08:53,530 --> 00:08:54,929
+ all possible limit points
+
+343
+00:08:54,940 --> 00:08:55,549
+ as well.
+
+344
+00:08:56,020 --> 00:08:57,669
+ Hence, we would be interested
+
+345
+00:08:57,679 --> 00:08:59,030
+ in the distance between the
+
+346
+00:08:59,039 --> 00:09:00,630
+ limit point B and the
+
+347
+00:09:00,640 --> 00:09:01,919
+ sequence X and K
+
+348
+00:09:02,299 --> 00:09:03,960
+ simply because if the sequence
+
+349
+00:09:03,969 --> 00:09:05,309
+ was convergent, this would
+
+350
+00:09:05,320 --> 00:09:06,210
+ go to zero.
+
+351
+00:09:06,700 --> 00:09:08,010
+ However, the only distance
+
+352
+00:09:08,020 --> 00:09:09,489
+ we know at this point is
+
+353
+00:09:09,500 --> 00:09:11,429
+ the distance between A and
+
+354
+00:09:11,440 --> 00:09:11,989
+ XN.
+
+355
+00:09:12,489 --> 00:09:13,979
+ And using the subsequence,
+
+356
+00:09:13,989 --> 00:09:15,840
+ we know this is larger than
+
+357
+00:09:15,849 --> 00:09:16,510
+ NK.
+
+358
+00:09:17,030 --> 00:09:18,309
+ Then on the right hand side,
+
+359
+00:09:18,320 --> 00:09:20,039
+ we simply can use our triangle
+
+360
+00:09:20,049 --> 00:09:20,849
+ inequality.
+
+361
+00:09:21,650 --> 00:09:23,539
+ We just put B in the middle,
+
+362
+00:09:24,330 --> 00:09:25,869
+ then bring the one part on
+
+363
+00:09:25,880 --> 00:09:27,070
+ the other side and we get
+
+364
+00:09:27,080 --> 00:09:28,510
+ the following inequality.
+
+365
+00:09:28,909 --> 00:09:30,590
+ So we conclude the distance
+
+366
+00:09:30,599 --> 00:09:32,580
+ between any point B and a
+
+367
+00:09:32,590 --> 00:09:34,489
+ sequence number X and K is
+
+368
+00:09:34,500 --> 00:09:35,950
+ always larger or
+
+369
+00:09:35,960 --> 00:09:37,789
+ equal than this part here.
+
+370
+00:09:38,340 --> 00:09:40,190
+ However, seeing the NK here,
+
+371
+00:09:40,200 --> 00:09:41,590
+ you know, you can make the
+
+372
+00:09:41,599 --> 00:09:43,429
+ left hand side as large as
+
+373
+00:09:43,440 --> 00:09:43,950
+ you want.
+
+374
+00:09:44,669 --> 00:09:46,049
+ Hence, our conclusion is
+
+375
+00:09:46,059 --> 00:09:47,460
+ no matter which point B you
+
+376
+00:09:47,469 --> 00:09:48,070
+ choose.
+
+377
+00:09:48,080 --> 00:09:49,809
+ If you send K to infinity,
+
+378
+00:09:49,820 --> 00:09:51,650
+ this will never go to zero.
+
+379
+00:09:52,539 --> 00:09:53,969
+ So there can't be any limit
+
+380
+00:09:53,979 --> 00:09:55,479
+ point for the subsequence.
+
+381
+00:09:55,979 --> 00:09:57,570
+ If you fix a point B here,
+
+382
+00:09:57,580 --> 00:09:58,770
+ you will always run away
+
+383
+00:09:58,780 --> 00:09:59,169
+ from it.
+
+384
+00:10:00,010 --> 00:10:01,440
+ And therefore A is not
+
+385
+00:10:01,450 --> 00:10:03,190
+ compact because we found
+
+386
+00:10:03,200 --> 00:10:04,570
+ a sequence which does not
+
+387
+00:10:04,580 --> 00:10:06,510
+ own any convergent subsequence.
+
+388
+00:10:07,169 --> 00:10:08,580
+ And by contras position,
+
+389
+00:10:08,590 --> 00:10:09,919
+ we finished our proof, a
+
+390
+00:10:09,929 --> 00:10:11,750
+ compact set is always
+
+391
+00:10:11,760 --> 00:10:12,390
+ bounded.
+
+392
+00:10:12,710 --> 00:10:13,109
+ OK.
+
+393
+00:10:13,119 --> 00:10:14,429
+ So now you know the notion
+
+394
+00:10:14,440 --> 00:10:16,260
+ compact for metric spaces
+
+395
+00:10:16,270 --> 00:10:17,520
+ and in the next videos, we
+
+396
+00:10:17,530 --> 00:10:18,809
+ will extend this to
+
+397
+00:10:18,820 --> 00:10:19,640
+ operators.
+
+398
+00:10:20,229 --> 00:10:21,609
+ So I hope I see you there.
+
+399
+00:10:21,679 --> 00:10:23,140
+ Thanks for listening and
+
+400
+00:10:23,150 --> 00:10:23,750
+ bye.
+
