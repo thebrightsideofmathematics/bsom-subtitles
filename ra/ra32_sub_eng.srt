@@ -20,7 +20,7 @@
 
 6
 00:00:07,420 --> 00:00:08,939
- channel on study or pay pal.
+ channel on Steady or pay pal.
 
 7
 00:00:09,609 --> 00:00:10,970
@@ -48,7 +48,7 @@
 
 13
 00:00:18,219 --> 00:00:20,079
- F as usual
+ As usual
 
 14
 00:00:20,090 --> 00:00:21,170
@@ -56,7 +56,7 @@
 
 15
 00:00:21,180 --> 00:00:23,170
- function here just by eye.
+ function here just by I.
 
 16
 00:00:23,559 --> 00:00:24,850
@@ -96,7 +96,7 @@
 
 25
 00:00:37,220 --> 00:00:38,729
- For example, the grave could
+ For example, the graph could
 
 26
 00:00:38,740 --> 00:00:40,159
@@ -328,7 +328,7 @@
 
 83
 00:02:07,069 --> 00:02:08,679
- we can set why through this
+ we can set y to this
 
 84
 00:02:08,690 --> 00:02:09,300
@@ -348,7 +348,7 @@
 
 88
 00:02:14,570 --> 00:02:15,789
- call X tilda.
+ call X tilde.
 
 89
 00:02:16,419 --> 00:02:17,880
@@ -392,7 +392,7 @@
 
 99
 00:02:30,649 --> 00:02:32,619
- present you kolo you really
+ present you corollary you really
 
 100
 00:02:32,630 --> 00:02:33,520
@@ -412,7 +412,7 @@
 
 104
 00:02:39,300 --> 00:02:40,360
- with the square pockets as
+ with the square brackets as
 
 105
 00:02:40,369 --> 00:02:42,179
@@ -456,7 +456,7 @@
 
 115
 00:02:55,190 --> 00:02:56,000
- are also hi.
+ are also hit.
 
 116
 00:02:56,710 --> 00:02:57,070
@@ -500,7 +500,7 @@
 
 126
 00:03:12,139 --> 00:03:13,500
- let's visualize the curve
+ let's visualize the graph
 
 127
 00:03:13,580 --> 00:03:14,710
@@ -572,7 +572,7 @@
 
 144
 00:03:40,970 --> 00:03:42,580
- such next tilde stays
+ such an x tilde stays
 
 145
 00:03:42,589 --> 00:03:43,809
@@ -724,7 +724,7 @@
 
 182
 00:04:40,640 --> 00:04:42,420
- First F tilda is of
+ First F tilde is of
 
 183
 00:04:42,429 --> 00:04:44,130
@@ -740,7 +740,7 @@
 
 186
 00:04:47,279 --> 00:04:49,250
- we could call why tilda is
+ we could call why tilde is
 
 187
 00:04:49,260 --> 00:04:50,429
@@ -768,11 +768,11 @@
 
 193
 00:04:59,850 --> 00:05:01,239
- Therefore, the activity we
+ Therefore, the f tilde we
 
 194
 00:05:01,250 --> 00:05:02,829
- have thrown before is the
+ have drawn before is the
 
 195
 00:05:02,839 --> 00:05:04,170
@@ -800,7 +800,7 @@
 
 201
 00:05:10,190 --> 00:05:12,019
- the Bolzano Vasta theorem,
+ the Bolzano Weierstrass theorem,
 
 202
 00:05:12,730 --> 00:05:14,549
@@ -824,7 +824,7 @@
 
 207
 00:05:20,640 --> 00:05:21,920
- projection, we will do
+ bisection, we will do
 
 208
 00:05:21,929 --> 00:05:22,799
@@ -848,7 +848,7 @@
 
 213
 00:05:30,200 --> 00:05:32,119
- the value F tilt of C
+ the value F tile of C
 
 214
 00:05:32,750 --> 00:05:34,489
@@ -876,7 +876,7 @@
 
 220
 00:05:40,950 --> 00:05:42,779
- In this case, in the other
+ In this case. In the other
 
 221
 00:05:42,790 --> 00:05:43,950
@@ -956,7 +956,7 @@
 
 240
 00:06:12,970 --> 00:06:14,640
- they are called she sequences.
+ they are called Cauchy sequences.
 
 241
 00:06:15,339 --> 00:06:16,940
@@ -1004,7 +1004,7 @@
 
 252
 00:06:32,579 --> 00:06:34,109
- we want to call X tilda.
+ we want to call X tilde.
 
 253
 00:06:34,200 --> 00:06:35,640
@@ -1028,11 +1028,11 @@
 
 258
 00:06:41,660 --> 00:06:43,359
- X tilda when we put it into
+ X tilde when we put it into
 
 259
 00:06:43,369 --> 00:06:44,690
- the function F tilda.
+ the function F tilde.
 
 260
 00:06:45,489 --> 00:06:46,809
@@ -1084,7 +1084,7 @@
 
 272
 00:07:04,980 --> 00:07:06,760
- function of tilda and push
+ function of tilde and push
 
 273
 00:07:06,769 --> 00:07:07,859
@@ -1164,7 +1164,7 @@
 
 292
 00:07:38,369 --> 00:07:40,200
- immediately see the X tilda
+ immediately see the X tilde
 
 293
 00:07:40,209 --> 00:07:41,730
