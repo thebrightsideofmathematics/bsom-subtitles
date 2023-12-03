@@ -1,0 +1,1136 @@
+1
+00:00:00,550 --> 00:00:02,289
+ Hello and welcome back to
+
+2
+00:00:02,299 --> 00:00:03,589
+ functional analysis.
+
+3
+00:00:03,710 --> 00:00:04,929
+ And as always, I want to
+
+4
+00:00:04,940 --> 00:00:06,320
+ thank all the nice people
+
+5
+00:00:06,329 --> 00:00:07,590
+ that support this channel
+
+6
+00:00:07,599 --> 00:00:09,039
+ on study or paypal.
+
+7
+00:00:09,729 --> 00:00:11,689
+ In today's part 19, we
+
+8
+00:00:11,699 --> 00:00:13,420
+ will go back and prove Hölder's
+
+9
+00:00:13,430 --> 00:00:14,369
+ inequality.
+
+10
+00:00:15,250 --> 00:00:16,530
+ There are a lot of different
+
+11
+00:00:16,540 --> 00:00:17,930
+ inequalities named after
+
+12
+00:00:17,940 --> 00:00:19,350
+ Hölder and indeed, they are
+
+13
+00:00:19,360 --> 00:00:20,309
+ all related.
+
+14
+00:00:20,319 --> 00:00:21,850
+ But here we look at the simplest
+
+15
+00:00:21,860 --> 00:00:23,639
+ one, it's the one that
+
+16
+00:00:23,649 --> 00:00:24,979
+ holds in FN.
+
+17
+00:00:24,989 --> 00:00:26,739
+ And for P greater than one
+
+18
+00:00:27,450 --> 00:00:29,190
+ for each such number P, there
+
+19
+00:00:29,200 --> 00:00:30,870
+ is a Hölder conjugate which
+
+20
+00:00:30,879 --> 00:00:32,119
+ we call P prime.
+
+21
+00:00:32,909 --> 00:00:34,080
+ The definition is what you
+
+22
+00:00:34,090 --> 00:00:35,479
+ should really memorize.
+
+23
+00:00:35,490 --> 00:00:37,020
+ The reciprocals should add
+
+24
+00:00:37,029 --> 00:00:37,610
+ to one.
+
+25
+00:00:38,180 --> 00:00:39,729
+ This is an important relation
+
+26
+00:00:39,740 --> 00:00:41,130
+ because every time we use
+
+27
+00:00:41,139 --> 00:00:42,750
+ P prime, this is what we
+
+28
+00:00:42,759 --> 00:00:44,529
+ mean instead of P
+
+29
+00:00:44,540 --> 00:00:46,099
+ prime, a lot of people just
+
+30
+00:00:46,110 --> 00:00:46,830
+ use Q.
+
+31
+00:00:47,630 --> 00:00:48,979
+ However, here I want to use
+
+32
+00:00:48,990 --> 00:00:50,790
+ Q as another variable to
+
+33
+00:00:50,799 --> 00:00:52,590
+ tell you again what the P
+
+34
+00:00:52,599 --> 00:00:53,380
+ norm was.
+
+35
+00:00:54,020 --> 00:00:55,240
+ Or today, I would better
+
+36
+00:00:55,250 --> 00:00:57,049
+ say the Q norm of a vector
+
+37
+00:00:57,060 --> 00:00:57,450
+ X.
+
+38
+00:00:58,250 --> 00:01:00,080
+ It's defined by the sum over
+
+39
+00:01:00,090 --> 00:01:01,569
+ the entries in the absolute
+
+40
+00:01:01,580 --> 00:01:03,049
+ value to the power q.
+
+41
+00:01:03,709 --> 00:01:05,370
+ And then we take the q-th root
+
+42
+00:01:05,379 --> 00:01:06,290
+ of the whole thing.
+
+43
+00:01:07,069 --> 00:01:08,470
+ And this is what we do for
+
+44
+00:01:08,480 --> 00:01:09,980
+ all q between one and
+
+45
+00:01:09,989 --> 00:01:11,769
+ infinity including one.
+
+46
+00:01:12,470 --> 00:01:14,269
+ Now Hölder inequality will
+
+47
+00:01:14,279 --> 00:01:15,849
+ connect the P norm the P
+
+48
+00:01:15,860 --> 00:01:17,550
+ prime norm and the one
+
+49
+00:01:17,559 --> 00:01:19,489
+ norm indeed, it's one
+
+50
+00:01:19,500 --> 00:01:20,839
+ nice short formula.
+
+51
+00:01:20,849 --> 00:01:22,160
+ You always should remember.
+
+52
+00:01:22,989 --> 00:01:24,510
+ I will now use a possibly
+
+53
+00:01:24,519 --> 00:01:26,110
+ strange notation to help
+
+54
+00:01:26,120 --> 00:01:27,699
+ you to remember the important
+
+55
+00:01:27,709 --> 00:01:29,610
+ inequality putting two
+
+56
+00:01:29,620 --> 00:01:31,250
+ vectors together just
+
+57
+00:01:31,260 --> 00:01:33,110
+ denotes a new vector which
+
+58
+00:01:33,120 --> 00:01:34,949
+ has the product in the components.
+
+59
+00:01:35,239 --> 00:01:36,930
+ So X to Y two in the
+
+60
+00:01:36,940 --> 00:01:38,559
+ second component and
+
+61
+00:01:38,569 --> 00:01:39,849
+ XN times Y.
+
+62
+00:01:39,860 --> 00:01:41,580
+ And in the last component,
+
+63
+00:01:41,940 --> 00:01:43,760
+ then for all vectors X and
+
+64
+00:01:43,769 --> 00:01:45,650
+ Y we have that the one norm
+
+65
+00:01:45,660 --> 00:01:47,440
+ of the vector XY
+
+66
+00:01:47,940 --> 00:01:49,430
+ is less or equal than the
+
+67
+00:01:49,440 --> 00:01:51,309
+ P norm of X times the P
+
+68
+00:01:51,319 --> 00:01:52,720
+ prime norm of Y.
+
+69
+00:01:53,379 --> 00:01:54,830
+ And that's what we call a
+
+70
+00:01:54,839 --> 00:01:56,029
+ less inequality.
+
+71
+00:01:56,580 --> 00:01:57,720
+ Often you see it written
+
+72
+00:01:57,730 --> 00:01:59,199
+ with the sums, but I think
+
+73
+00:01:59,209 --> 00:02:00,910
+ it's better to write it immediately
+
+74
+00:02:00,919 --> 00:02:02,599
+ in this way, on the one
+
+75
+00:02:02,610 --> 00:02:04,269
+ hand, it's easier to remember.
+
+76
+00:02:04,360 --> 00:02:05,680
+ And on the other hand, we
+
+77
+00:02:05,690 --> 00:02:06,919
+ will generalize the whole
+
+78
+00:02:06,930 --> 00:02:07,860
+ thing later on.
+
+79
+00:02:08,470 --> 00:02:09,899
+ Indeed, there we will have
+
+80
+00:02:09,910 --> 00:02:11,199
+ the whole inequality for
+
+81
+00:02:11,210 --> 00:02:13,160
+ functions defined on an abstract
+
+82
+00:02:13,169 --> 00:02:13,929
+ measure space.
+
+83
+00:02:14,429 --> 00:02:15,479
+ However, that's not what
+
+84
+00:02:15,490 --> 00:02:16,770
+ we do today today.
+
+85
+00:02:16,779 --> 00:02:18,149
+ We prove with four vectors
+
+86
+00:02:18,160 --> 00:02:18,869
+ in FN.
+
+87
+00:02:19,649 --> 00:02:20,880
+ In order to prove Hölder's
+
+88
+00:02:20,889 --> 00:02:22,610
+ inequality, we first need
+
+89
+00:02:22,619 --> 00:02:24,130
+ another inequality which
+
+90
+00:02:24,139 --> 00:02:25,490
+ is known as Young's
+
+91
+00:02:25,500 --> 00:02:26,440
+ inequality.
+
+92
+00:02:27,110 --> 00:02:28,649
+ In fact, this one is very
+
+93
+00:02:28,660 --> 00:02:29,250
+ simple.
+
+94
+00:02:29,259 --> 00:02:30,589
+ We just look at positive
+
+95
+00:02:30,600 --> 00:02:32,550
+ numbers A B and
+
+96
+00:02:32,559 --> 00:02:33,850
+ then we conclude that the
+
+97
+00:02:33,860 --> 00:02:35,529
+ product of A B is
+
+98
+00:02:35,539 --> 00:02:37,210
+ always less or equal than
+
+99
+00:02:37,220 --> 00:02:38,309
+ the following sum.
+
+100
+00:02:38,470 --> 00:02:39,630
+ So what you should see here
+
+101
+00:02:39,639 --> 00:02:41,160
+ is that P greater than one
+
+102
+00:02:41,169 --> 00:02:42,850
+ goes in and the Hölder
+
+103
+00:02:42,860 --> 00:02:43,610
+ conjugate.
+
+104
+00:02:44,259 --> 00:02:45,940
+ So as before you can choose
+
+105
+00:02:45,949 --> 00:02:47,669
+ P greater one as you want,
+
+106
+00:02:47,690 --> 00:02:49,470
+ but then P prime is fixed.
+
+107
+00:02:50,000 --> 00:02:51,610
+ For example, for P equals
+
+108
+00:02:51,619 --> 00:02:53,570
+ to two, we have P prime equals
+
+109
+00:02:53,580 --> 00:02:54,110
+ to two.
+
+110
+00:02:54,600 --> 00:02:55,910
+ However, in this case, you
+
+111
+00:02:55,919 --> 00:02:57,619
+ already know that the inequality
+
+112
+00:02:57,630 --> 00:02:58,509
+ here is correct.
+
+113
+00:02:59,300 --> 00:03:00,479
+ So please check that.
+
+114
+00:03:00,490 --> 00:03:01,759
+ But for all other cases,
+
+115
+00:03:01,770 --> 00:03:03,380
+ we have to write down a proof.
+
+116
+00:03:04,190 --> 00:03:05,570
+ What we can use here is that
+
+117
+00:03:05,580 --> 00:03:07,210
+ the common exponential function
+
+118
+00:03:07,220 --> 00:03:08,929
+ is a so called convex
+
+119
+00:03:08,940 --> 00:03:09,369
+ function.
+
+120
+00:03:10,059 --> 00:03:11,190
+ This means that when you
+
+121
+00:03:11,199 --> 00:03:12,279
+ look at the graph,
+
+122
+00:03:12,970 --> 00:03:14,389
+ then you can choose any two
+
+123
+00:03:14,399 --> 00:03:14,779
+ points.
+
+124
+00:03:14,789 --> 00:03:15,630
+ As you want.
+
+125
+00:03:15,710 --> 00:03:16,929
+ The direct connection would
+
+126
+00:03:16,940 --> 00:03:18,630
+ be always above the graph.
+
+127
+00:03:19,110 --> 00:03:20,940
+ This property is called convex
+
+128
+00:03:20,949 --> 00:03:22,509
+ because the red line is the
+
+129
+00:03:22,520 --> 00:03:24,100
+ convex combination of the
+
+130
+00:03:24,110 --> 00:03:24,839
+ two points.
+
+131
+00:03:25,440 --> 00:03:26,479
+ Therefore, we can easily
+
+132
+00:03:26,490 --> 00:03:28,029
+ put that into a formula when
+
+133
+00:03:28,039 --> 00:03:29,449
+ we call the function just
+
+134
+00:03:29,460 --> 00:03:29,910
+ F.
+
+135
+00:03:30,360 --> 00:03:31,990
+ Now by denoting the two points
+
+136
+00:03:32,000 --> 00:03:33,669
+ by X and Y, we can form a
+
+137
+00:03:33,679 --> 00:03:35,410
+ convex combination of X and
+
+138
+00:03:35,419 --> 00:03:37,369
+ Y and put that into the function
+
+139
+00:03:37,380 --> 00:03:39,300
+ F which means we get out
+
+140
+00:03:39,309 --> 00:03:40,220
+ the blue line here.
+
+141
+00:03:40,589 --> 00:03:42,339
+ Please recall a convex
+
+142
+00:03:42,350 --> 00:03:43,940
+ combination is just a special
+
+143
+00:03:43,949 --> 00:03:45,179
+ linear combination where
+
+144
+00:03:45,190 --> 00:03:46,940
+ we only have one lambda which
+
+145
+00:03:46,949 --> 00:03:48,029
+ comes from the interval
+
+146
+00:03:48,039 --> 00:03:49,199
+ 0 to 1.
+
+147
+00:03:49,350 --> 00:03:50,660
+ Now with the red line, we
+
+148
+00:03:50,669 --> 00:03:52,289
+ also get a convex combination
+
+149
+00:03:52,300 --> 00:03:53,789
+ with the images, which means
+
+150
+00:03:53,800 --> 00:03:55,029
+ we have here instead of X
+
+151
+00:03:55,039 --> 00:03:56,899
+ and Y, just F of X
+
+152
+00:03:56,940 --> 00:03:57,899
+ and F of Y.
+
+153
+00:03:58,309 --> 00:03:59,770
+ Therefore being always above
+
+154
+00:03:59,779 --> 00:04:01,199
+ the blue graph means we have
+
+155
+00:04:01,210 --> 00:04:02,669
+ fear our inequality
+
+156
+00:04:03,410 --> 00:04:04,949
+ which we now want to use
+
+157
+00:04:04,960 --> 00:04:06,229
+ for some special numbers.
+
+158
+00:04:06,960 --> 00:04:08,339
+ Lambda should be one over
+
+159
+00:04:08,350 --> 00:04:10,110
+ P and then one minus
+
+160
+00:04:10,119 --> 00:04:11,509
+ lambda should be one over
+
+161
+00:04:11,520 --> 00:04:12,240
+ P prime.
+
+162
+00:04:12,729 --> 00:04:13,789
+ Maybe that's not so clear.
+
+163
+00:04:13,800 --> 00:04:15,360
+ But for X I want to put in
+
+164
+00:04:15,369 --> 00:04:16,720
+ the natural logarithm of
+
+165
+00:04:16,730 --> 00:04:18,108
+ A to the power P
+
+166
+00:04:18,459 --> 00:04:19,640
+ and the similar thing for
+
+167
+00:04:19,649 --> 00:04:21,559
+ Y but now with B and P
+
+168
+00:04:21,570 --> 00:04:23,540
+ prime, of course, this
+
+169
+00:04:23,549 --> 00:04:25,059
+ all fits together because
+
+170
+00:04:25,070 --> 00:04:26,329
+ by applying the logarithm
+
+171
+00:04:26,339 --> 00:04:27,779
+ rules, we can bring this
+
+172
+00:04:27,790 --> 00:04:29,559
+ power in front where it cancels
+
+173
+00:04:29,570 --> 00:04:30,779
+ out. Hence,
+
+174
+00:04:30,790 --> 00:04:31,779
+ on the left hand side, we
+
+175
+00:04:31,790 --> 00:04:33,029
+ have the two logarithms in
+
+176
+00:04:33,040 --> 00:04:33,940
+ the function F.
+
+177
+00:04:34,320 --> 00:04:36,089
+ Now using the next logarithm
+
+178
+00:04:36,100 --> 00:04:36,619
+ rule.
+
+179
+00:04:36,630 --> 00:04:38,239
+ And the fact that the exponential
+
+180
+00:04:38,250 --> 00:04:39,820
+ function is the inverse function
+
+181
+00:04:39,829 --> 00:04:41,179
+ of the logarithm, we have
+
+182
+00:04:41,190 --> 00:04:42,859
+ just A B on the left hand
+
+183
+00:04:42,869 --> 00:04:43,290
+ side.
+
+184
+00:04:43,750 --> 00:04:44,980
+ And now you see the idea
+
+185
+00:04:44,989 --> 00:04:46,390
+ of the whole proof, we want
+
+186
+00:04:46,399 --> 00:04:48,140
+ to show this one and we're
+
+187
+00:04:48,149 --> 00:04:49,380
+ already finished with the
+
+188
+00:04:49,390 --> 00:04:50,179
+ left part
+
+189
+00:04:50,920 --> 00:04:51,940
+ regarding the right hand
+
+190
+00:04:51,950 --> 00:04:53,220
+ side, we just put in all
+
+191
+00:04:53,230 --> 00:04:54,609
+ the numbers we already know.
+
+192
+00:04:55,290 --> 00:04:56,869
+ Now this looks more complicated
+
+193
+00:04:56,880 --> 00:04:58,230
+ than it really is because
+
+194
+00:04:58,239 --> 00:04:59,500
+ we have again the inverse
+
+195
+00:04:59,510 --> 00:05:00,670
+ function of the logarithm
+
+196
+00:05:00,679 --> 00:05:01,029
+ here.
+
+197
+00:05:01,579 --> 00:05:03,170
+ Hence this all vanishes.
+
+198
+00:05:03,179 --> 00:05:04,309
+ And what remains is what
+
+199
+00:05:04,320 --> 00:05:05,309
+ we wanted to show.
+
+200
+00:05:05,799 --> 00:05:07,320
+ So Young's inequality is
+
+201
+00:05:07,329 --> 00:05:08,829
+ correct and we can use it
+
+202
+00:05:08,839 --> 00:05:10,750
+ to prove Hölder's inequality
+
+203
+00:05:11,260 --> 00:05:12,410
+ starting with the proof.
+
+204
+00:05:12,420 --> 00:05:13,480
+ Let's first consider the
+
+205
+00:05:13,489 --> 00:05:14,420
+ simplest case.
+
+206
+00:05:15,079 --> 00:05:16,320
+ What I mean by that is that
+
+207
+00:05:16,329 --> 00:05:17,549
+ we look what happens when
+
+208
+00:05:17,559 --> 00:05:19,239
+ X is the zero vector or
+
+209
+00:05:19,250 --> 00:05:20,579
+ Y is the zero vector.
+
+210
+00:05:21,179 --> 00:05:22,459
+ But of course, this is not
+
+211
+00:05:22,470 --> 00:05:23,899
+ a problem for us because
+
+212
+00:05:23,910 --> 00:05:25,269
+ by the definition of all
+
+213
+00:05:25,279 --> 00:05:26,799
+ the norms here we have that
+
+214
+00:05:26,809 --> 00:05:28,250
+ the left hand side is zero
+
+215
+00:05:28,260 --> 00:05:29,459
+ and the right hand side is
+
+216
+00:05:29,470 --> 00:05:29,850
+ zero.
+
+217
+00:05:29,859 --> 00:05:31,820
+ So the inequality is fulfilled.
+
+218
+00:05:32,480 --> 00:05:33,739
+ Therefore, for the second
+
+219
+00:05:33,750 --> 00:05:35,529
+ case, we can divide and bring
+
+220
+00:05:35,540 --> 00:05:36,660
+ everything to the left hand
+
+221
+00:05:36,670 --> 00:05:37,070
+ side.
+
+222
+00:05:37,700 --> 00:05:38,880
+ Of course, now we want to
+
+223
+00:05:38,890 --> 00:05:40,609
+ bring this inside the norm
+
+224
+00:05:40,619 --> 00:05:42,290
+ and divide X by its P
+
+225
+00:05:42,299 --> 00:05:44,250
+ norm and Y by its P prime
+
+226
+00:05:44,260 --> 00:05:44,640
+ norm.
+
+227
+00:05:45,019 --> 00:05:46,380
+ However, since I use this
+
+228
+00:05:46,390 --> 00:05:47,760
+ strange notation here, I
+
+229
+00:05:47,769 --> 00:05:49,339
+ bring in now the whole sum
+
+230
+00:05:49,350 --> 00:05:51,299
+ of the one norm here we have
+
+231
+00:05:51,309 --> 00:05:52,649
+ it and we can pull in the
+
+232
+00:05:52,660 --> 00:05:54,250
+ norm into the sum and then
+
+233
+00:05:54,260 --> 00:05:55,299
+ into the absolute value.
+
+234
+00:05:55,989 --> 00:05:56,929
+ And there you should see
+
+235
+00:05:56,940 --> 00:05:58,679
+ now that we have two positive
+
+236
+00:05:58,690 --> 00:06:00,149
+ numbers which we could call
+
+237
+00:06:00,160 --> 00:06:01,989
+ A and B and then apply
+
+238
+00:06:02,000 --> 00:06:03,899
+ Young's inequality inside
+
+239
+00:06:03,910 --> 00:06:04,459
+ a sum.
+
+240
+00:06:04,980 --> 00:06:06,380
+ So at this point, we get
+
+241
+00:06:06,390 --> 00:06:07,690
+ the inequality sign in
+
+242
+00:06:08,399 --> 00:06:08,700
+ OK.
+
+243
+00:06:08,709 --> 00:06:10,010
+ The first term is one over
+
+244
+00:06:10,019 --> 00:06:11,940
+ P times XJ
+
+245
+00:06:11,950 --> 00:06:13,739
+ to the power P divided by
+
+246
+00:06:13,750 --> 00:06:15,450
+ the P norm to the power P.
+
+247
+00:06:15,950 --> 00:06:17,410
+ The second term looks similar
+
+248
+00:06:17,420 --> 00:06:18,570
+ and I already distributed
+
+249
+00:06:18,579 --> 00:06:20,089
+ the sum over both parts.
+
+250
+00:06:20,739 --> 00:06:22,329
+ So here we just have P prime
+
+251
+00:06:22,339 --> 00:06:23,799
+ and J instead of X.
+
+252
+00:06:24,220 --> 00:06:25,769
+ However, that's not so important.
+
+253
+00:06:25,779 --> 00:06:26,869
+ The important thing you should
+
+254
+00:06:26,880 --> 00:06:28,279
+ see is what we have in
+
+255
+00:06:28,290 --> 00:06:29,600
+ enumerator together with
+
+256
+00:06:29,609 --> 00:06:31,109
+ the sum is the same as the
+
+257
+00:06:31,119 --> 00:06:32,809
+ denominator and the
+
+258
+00:06:32,820 --> 00:06:34,119
+ same in the second part.
+
+259
+00:06:34,549 --> 00:06:35,760
+ Hence, the only things that
+
+260
+00:06:35,769 --> 00:06:37,640
+ remain is one over P here
+
+261
+00:06:37,649 --> 00:06:39,160
+ and one over P prime here.
+
+262
+00:06:39,630 --> 00:06:40,880
+ And by the definition of
+
+263
+00:06:40,890 --> 00:06:42,470
+ the Hölder conjugate this
+
+264
+00:06:42,480 --> 00:06:43,480
+ is simply one.
+
+265
+00:06:44,000 --> 00:06:45,540
+ And with this, we have proven
+
+266
+00:06:45,549 --> 00:06:47,200
+ Hölders inequality because
+
+267
+00:06:47,209 --> 00:06:48,630
+ you can bring this one on
+
+268
+00:06:48,640 --> 00:06:49,760
+ the right hand side again,
+
+269
+00:06:49,769 --> 00:06:50,440
+ if you want.
+
+270
+00:06:51,130 --> 00:06:52,459
+ So you see the proof was
+
+271
+00:06:52,470 --> 00:06:53,869
+ not so hard, but we will
+
+272
+00:06:53,880 --> 00:06:55,630
+ need Hölder's inequality to
+
+273
+00:06:55,640 --> 00:06:57,309
+ prove another inequality.
+
+274
+00:06:57,739 --> 00:06:58,839
+ And this one will be the
+
+275
+00:06:58,850 --> 00:07:00,149
+ so called Minkowski
+
+276
+00:07:00,160 --> 00:07:01,010
+ inequality.
+
+277
+00:07:01,320 --> 00:07:02,790
+ Essentially, it's just the
+
+278
+00:07:02,940 --> 00:07:04,869
+ triangle inequality for our LP
+
+279
+00:07:04,880 --> 00:07:05,470
+ space.
+
+280
+00:07:06,010 --> 00:07:07,220
+ Therefore, I hope I see you
+
+281
+00:07:07,230 --> 00:07:08,070
+ in the next video.
+
+282
+00:07:08,079 --> 00:07:09,579
+ Thanks for listening and
+
+283
+00:07:09,589 --> 00:07:10,410
+ see you then.
+
+284
+00:07:10,420 --> 00:07:11,109
+ Bye.
+
