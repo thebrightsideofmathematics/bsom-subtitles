@@ -1,0 +1,1472 @@
+1
+00:00:00,490 --> 00:00:02,150
+ Hello and welcome back
+
+2
+00:00:02,160 --> 00:00:04,070
+ to real analysis.
+
+3
+00:00:04,960 --> 00:00:06,510
+ And as always, first, I want
+
+4
+00:00:06,519 --> 00:00:08,000
+ to thank all the nice people
+
+5
+00:00:08,010 --> 00:00:09,020
+ that support this channel
+
+6
+00:00:09,029 --> 00:00:10,489
+ on study or paypal.
+
+7
+00:00:11,500 --> 00:00:12,880
+ Now, as you can see, we've
+
+8
+00:00:12,890 --> 00:00:14,399
+ reached part 48 in the
+
+9
+00:00:14,409 --> 00:00:15,260
+ series.
+
+10
+00:00:15,359 --> 00:00:17,010
+ And now we will start talking
+
+11
+00:00:17,020 --> 00:00:18,600
+ about the Riemann integral.
+
+12
+00:00:19,450 --> 00:00:20,909
+ Indeed, this will be the
+
+13
+00:00:20,920 --> 00:00:22,549
+ last chapter we will cover
+
+14
+00:00:22,559 --> 00:00:24,190
+ in this series about real
+
+15
+00:00:24,200 --> 00:00:24,950
+ analysis.
+
+16
+00:00:25,819 --> 00:00:27,350
+ You will see this notion
+
+17
+00:00:27,360 --> 00:00:28,920
+ of an integral is as
+
+18
+00:00:28,930 --> 00:00:30,850
+ important as the one we
+
+19
+00:00:30,860 --> 00:00:32,200
+ already introduced.
+
+20
+00:00:32,759 --> 00:00:34,479
+ Also this idea can be
+
+21
+00:00:34,490 --> 00:00:36,040
+ nicely visualized with the
+
+22
+00:00:36,049 --> 00:00:37,130
+ graph of a function.
+
+23
+00:00:38,229 --> 00:00:39,500
+ So here you see the graph
+
+24
+00:00:39,509 --> 00:00:41,189
+ of the function F which should
+
+25
+00:00:41,200 --> 00:00:43,060
+ be defined on the interval
+
+26
+00:00:43,069 --> 00:00:43,250
+ A
+
+27
+00:00:44,830 --> 00:00:45,330
+ OK.
+
+28
+00:00:45,340 --> 00:00:46,889
+ Now you might already know
+
+29
+00:00:47,139 --> 00:00:48,560
+ the integral of the function
+
+30
+00:00:48,569 --> 00:00:50,209
+ F is the orientated
+
+31
+00:00:50,220 --> 00:00:51,689
+ area between the
+
+32
+00:00:51,700 --> 00:00:53,630
+ graph and the X axis.
+
+33
+00:00:54,650 --> 00:00:56,430
+ We say orientated
+
+34
+00:00:56,490 --> 00:00:57,610
+ because there could be a
+
+35
+00:00:57,619 --> 00:00:58,830
+ sign involved
+
+36
+00:00:59,900 --> 00:01:00,880
+ more precisely.
+
+37
+00:01:00,889 --> 00:01:02,130
+ This means that the parts
+
+38
+00:01:02,139 --> 00:01:03,860
+ that are above the X axis
+
+39
+00:01:03,869 --> 00:01:05,830
+ are positive and the parts
+
+40
+00:01:05,839 --> 00:01:07,309
+ that are below the X axis
+
+41
+00:01:07,319 --> 00:01:08,319
+ are negative.
+
+42
+00:01:09,089 --> 00:01:10,459
+ Hence, at the moment for
+
+43
+00:01:10,470 --> 00:01:11,669
+ this picture, it does not
+
+44
+00:01:11,680 --> 00:01:12,989
+ matter because everything
+
+45
+00:01:13,000 --> 00:01:14,349
+ here is above the X axis.
+
+46
+00:01:14,360 --> 00:01:16,349
+ So we have a positive area.
+
+47
+00:01:17,279 --> 00:01:17,779
+ OK.
+
+48
+00:01:17,790 --> 00:01:19,160
+ But then the question is
+
+49
+00:01:19,169 --> 00:01:20,610
+ how can we calculate this
+
+50
+00:01:20,620 --> 00:01:21,059
+ area?
+
+51
+00:01:21,069 --> 00:01:23,040
+ Then now I can
+
+52
+00:01:23,050 --> 00:01:25,010
+ already tell you the overall
+
+53
+00:01:25,019 --> 00:01:26,860
+ idea is that we approximate
+
+54
+00:01:26,870 --> 00:01:28,230
+ it with rectangles.
+
+55
+00:01:28,970 --> 00:01:30,500
+ Indeed, the procedure for
+
+56
+00:01:30,510 --> 00:01:31,970
+ the Riemann integral is that
+
+57
+00:01:31,980 --> 00:01:33,830
+ one chooses points on the
+
+58
+00:01:33,839 --> 00:01:35,809
+ X axis and then draws
+
+59
+00:01:35,819 --> 00:01:37,510
+ rectangles above them.
+
+60
+00:01:38,949 --> 00:01:40,599
+ So you should see if we look
+
+61
+00:01:40,610 --> 00:01:42,449
+ at one rectangle here, we
+
+62
+00:01:42,459 --> 00:01:44,230
+ already have the width and
+
+63
+00:01:44,239 --> 00:01:45,449
+ the height is then given
+
+64
+00:01:45,459 --> 00:01:47,080
+ by one value of the function
+
+65
+00:01:47,089 --> 00:01:48,550
+ F inside this
+
+66
+00:01:48,559 --> 00:01:49,169
+ interval.
+
+67
+00:01:50,010 --> 00:01:51,360
+ For example, the picture
+
+68
+00:01:51,370 --> 00:01:52,720
+ then could look like this
+
+69
+00:01:52,730 --> 00:01:54,680
+ where we have six rectangles.
+
+70
+00:01:55,629 --> 00:01:57,510
+ And of course, the area of
+
+71
+00:01:57,519 --> 00:01:58,809
+ a rectangle can be
+
+72
+00:01:58,819 --> 00:02:00,440
+ calculated in a simple way.
+
+73
+00:02:01,269 --> 00:02:02,989
+ It's just the width times
+
+74
+00:02:03,000 --> 00:02:03,569
+ the height.
+
+75
+00:02:04,540 --> 00:02:05,849
+ And then we just have to
+
+76
+00:02:05,860 --> 00:02:07,610
+ sum up all the areas of the
+
+77
+00:02:07,620 --> 00:02:08,970
+ rectangles to get an
+
+78
+00:02:08,979 --> 00:02:10,880
+ approximation of the area
+
+79
+00:02:10,889 --> 00:02:11,880
+ we are interested in.
+
+80
+00:02:12,800 --> 00:02:14,630
+ Hence, when we give the points
+
+81
+00:02:14,639 --> 00:02:16,059
+ here a name on the X axis.
+
+82
+00:02:16,070 --> 00:02:17,750
+ So maybe it's simply X one
+
+83
+00:02:17,759 --> 00:02:18,979
+ X two and so on.
+
+84
+00:02:19,139 --> 00:02:20,740
+ Then the width of this
+
+85
+00:02:20,750 --> 00:02:22,479
+ rectangle here is simply
+
+86
+00:02:22,490 --> 00:02:24,380
+ X three minus X two.
+
+87
+00:02:25,139 --> 00:02:26,660
+ So in general, we can just
+
+88
+00:02:26,669 --> 00:02:28,660
+ write xj minus xj-1
+
+89
+00:02:28,669 --> 00:02:29,399
+ .
+
+90
+00:02:30,179 --> 00:02:31,690
+ And then in order to get
+
+91
+00:02:31,699 --> 00:02:33,279
+ the area of the rectangle,
+
+92
+00:02:33,330 --> 00:02:34,880
+ we have to multiply with
+
+93
+00:02:34,889 --> 00:02:35,539
+ the height
+
+94
+00:02:36,610 --> 00:02:38,419
+ for this the point, we choose
+
+95
+00:02:38,429 --> 00:02:40,139
+ an interval to get the value
+
+96
+00:02:40,149 --> 00:02:41,619
+ of the function we call
+
+97
+00:02:41,639 --> 00:02:42,339
+ cj.
+
+98
+00:02:43,389 --> 00:02:45,240
+ Therefore, here you see this
+
+99
+00:02:45,250 --> 00:02:46,839
+ is the area of one
+
+100
+00:02:46,850 --> 00:02:47,639
+ rectangle.
+
+101
+00:02:48,509 --> 00:02:50,139
+ So in the last step, we simply
+
+102
+00:02:50,149 --> 00:02:52,009
+ have the sum of all
+
+103
+00:02:52,020 --> 00:02:53,210
+ these areas.
+
+104
+00:02:54,160 --> 00:02:55,559
+ And in general, we can say
+
+105
+00:02:55,570 --> 00:02:57,169
+ we have N rectangles that
+
+106
+00:02:57,179 --> 00:02:58,259
+ are involved here.
+
+107
+00:02:59,279 --> 00:02:59,559
+ OK.
+
+108
+00:02:59,570 --> 00:03:01,149
+ Then soon we will see how
+
+109
+00:03:01,160 --> 00:03:02,839
+ we can do a limit process
+
+110
+00:03:02,850 --> 00:03:04,720
+ and to infinity to get the
+
+111
+00:03:04,729 --> 00:03:05,839
+ actual area.
+
+112
+00:03:06,740 --> 00:03:08,419
+ In fact, instead of the sum,
+
+113
+00:03:08,429 --> 00:03:09,880
+ we will use this long as
+
+114
+00:03:09,889 --> 00:03:10,979
+ as a symbol.
+
+115
+00:03:11,639 --> 00:03:13,279
+ Otherwise, it looks similarly
+
+116
+00:03:13,289 --> 00:03:14,839
+ because F is involved.
+
+117
+00:03:14,850 --> 00:03:16,429
+ And instead of this difference
+
+118
+00:03:16,440 --> 00:03:18,130
+ here, we write DX.
+
+119
+00:03:19,009 --> 00:03:20,410
+ So this is the symbol for
+
+120
+00:03:20,419 --> 00:03:21,740
+ the Riemann integral.
+
+121
+00:03:21,750 --> 00:03:23,300
+ And often we put the bounds
+
+122
+00:03:23,309 --> 00:03:24,750
+ of the interval A and
+
+123
+00:03:24,759 --> 00:03:26,229
+ B at the symbol.
+
+124
+00:03:27,259 --> 00:03:27,720
+ OK.
+
+125
+00:03:27,729 --> 00:03:29,160
+ What you really should remember
+
+126
+00:03:29,169 --> 00:03:30,470
+ here is that for the Riemann
+
+127
+00:03:30,479 --> 00:03:32,179
+ integral, we always start
+
+128
+00:03:32,190 --> 00:03:33,429
+ with a partition of the X
+
+129
+00:03:33,520 --> 00:03:33,979
+ axis.
+
+130
+00:03:34,899 --> 00:03:36,500
+ And then with some procedure
+
+131
+00:03:36,509 --> 00:03:38,279
+ I explain, soon we get to
+
+132
+00:03:38,289 --> 00:03:39,669
+ the definition of the Riemann
+
+133
+00:03:39,699 --> 00:03:41,639
+ integral of a function F
+
+134
+00:03:42,720 --> 00:03:44,419
+ I always specify the name
+
+135
+00:03:44,580 --> 00:03:46,080
+ Riemann here because there
+
+136
+00:03:46,089 --> 00:03:47,740
+ is another important notion
+
+137
+00:03:47,869 --> 00:03:49,669
+ a more modern one which is
+
+138
+00:03:49,679 --> 00:03:51,139
+ called the integral.
+
+139
+00:03:52,050 --> 00:03:53,789
+ Of course, in the end, both
+
+140
+00:03:53,800 --> 00:03:54,970
+ definitions will describe
+
+141
+00:03:54,979 --> 00:03:56,720
+ the same thing, namely the
+
+142
+00:03:56,729 --> 00:03:58,470
+ orientated area between the
+
+143
+00:03:58,479 --> 00:03:59,929
+ graph and the X axis.
+
+144
+00:04:00,610 --> 00:04:02,059
+ However, it turns out that
+
+145
+00:04:02,070 --> 00:04:03,429
+ the la back integral works
+
+146
+00:04:03,440 --> 00:04:05,089
+ more generally, which means
+
+147
+00:04:05,100 --> 00:04:06,910
+ you can apply to more functions.
+
+148
+00:04:07,720 --> 00:04:09,619
+ But since the Riemann is
+
+149
+00:04:09,630 --> 00:04:11,179
+ not hard to explain, it's
+
+150
+00:04:11,190 --> 00:04:12,460
+ good to start with it.
+
+151
+00:04:13,699 --> 00:04:15,199
+ If you are interested in
+
+152
+00:04:15,210 --> 00:04:16,380
+ the Lebeck integral, I have
+
+153
+00:04:16,390 --> 00:04:18,089
+ a whole other series about
+
+154
+00:04:18,130 --> 00:04:18,149
+ it.
+
+155
+00:04:18,988 --> 00:04:19,329
+ OK.
+
+156
+00:04:19,339 --> 00:04:21,079
+ However, here we will explain
+
+157
+00:04:21,089 --> 00:04:22,470
+ the Riemann integral which
+
+158
+00:04:22,480 --> 00:04:23,779
+ means we have to start with
+
+159
+00:04:23,790 --> 00:04:25,470
+ the partition of the X axis.
+
+160
+00:04:26,160 --> 00:04:27,989
+ More precisely, we will define
+
+161
+00:04:28,000 --> 00:04:29,299
+ the name partition of the
+
+162
+00:04:29,309 --> 00:04:31,000
+ compact interval A B.
+
+163
+00:04:31,730 --> 00:04:32,869
+ Now you have already seen
+
+164
+00:04:32,880 --> 00:04:34,709
+ above it's simply a set that
+
+165
+00:04:34,720 --> 00:04:36,709
+ consists of points we choose
+
+166
+00:04:36,720 --> 00:04:38,029
+ inside the interval.
+
+167
+00:04:39,000 --> 00:04:40,649
+ Indeed, what one often does
+
+168
+00:04:40,660 --> 00:04:42,059
+ is to include the boundary
+
+169
+00:04:42,070 --> 00:04:44,000
+ points A and B as well.
+
+170
+00:04:44,899 --> 00:04:46,160
+ Therefore, we start at the
+
+171
+00:04:46,170 --> 00:04:48,070
+ point X zero, then comes
+
+172
+00:04:48,079 --> 00:04:49,940
+ X one X two and
+
+173
+00:04:49,950 --> 00:04:50,440
+ so on.
+
+174
+00:04:51,220 --> 00:04:52,579
+ And the last point should
+
+175
+00:04:52,589 --> 00:04:53,519
+ be XN.
+
+176
+00:04:54,450 --> 00:04:55,869
+ So you see it should be a
+
+177
+00:04:55,880 --> 00:04:57,049
+ finite set
+
+178
+00:04:58,040 --> 00:04:59,609
+ and the defining property
+
+179
+00:04:59,619 --> 00:05:01,230
+ of the set you also see
+
+180
+00:05:01,239 --> 00:05:01,769
+ above.
+
+181
+00:05:01,859 --> 00:05:03,399
+ So we have an order of the
+
+182
+00:05:03,410 --> 00:05:03,980
+ points.
+
+183
+00:05:04,929 --> 00:05:06,679
+ Hence X zero is the smallest
+
+184
+00:05:06,690 --> 00:05:08,339
+ one, then comes X one and
+
+185
+00:05:08,350 --> 00:05:08,839
+ so on.
+
+186
+00:05:08,880 --> 00:05:10,630
+ So we have strict inequalities
+
+187
+00:05:10,640 --> 00:05:12,230
+ here and
+
+188
+00:05:12,239 --> 00:05:13,950
+ also X zero should also
+
+189
+00:05:13,959 --> 00:05:15,679
+ be A and XN
+
+190
+00:05:15,690 --> 00:05:16,709
+ should be B
+
+191
+00:05:17,940 --> 00:05:18,480
+ OK.
+
+192
+00:05:18,489 --> 00:05:20,440
+ So this is the whole definition
+
+193
+00:05:20,450 --> 00:05:22,200
+ of the notion partition
+
+194
+00:05:22,209 --> 00:05:23,239
+ of an interval.
+
+195
+00:05:24,049 --> 00:05:25,750
+ Now for such a partition
+
+196
+00:05:25,790 --> 00:05:27,739
+ and a function F, we could
+
+197
+00:05:27,750 --> 00:05:29,470
+ calculate this sum here.
+
+198
+00:05:30,230 --> 00:05:31,910
+ However, because this could
+
+199
+00:05:31,920 --> 00:05:33,640
+ be hard, we should first
+
+200
+00:05:33,649 --> 00:05:35,329
+ start with functions F that
+
+201
+00:05:35,339 --> 00:05:36,809
+ are not so complicated.
+
+202
+00:05:37,630 --> 00:05:39,000
+ In fact, the functions we
+
+203
+00:05:39,010 --> 00:05:40,500
+ now consider are usually
+
+204
+00:05:40,510 --> 00:05:42,079
+ called step functions
+
+205
+00:05:43,070 --> 00:05:44,200
+ to make everything simpler
+
+206
+00:05:44,209 --> 00:05:44,890
+ to read.
+
+207
+00:05:44,899 --> 00:05:46,700
+ I now use Greek letters
+
+208
+00:05:46,709 --> 00:05:47,940
+ for the step functions.
+
+209
+00:05:48,920 --> 00:05:50,470
+ So here we have a lower case
+
+210
+00:05:50,480 --> 00:05:52,450
+ phi so the
+
+211
+00:05:52,459 --> 00:05:53,589
+ function should be defined
+
+212
+00:05:53,600 --> 00:05:55,570
+ on the interval A B and we
+
+213
+00:05:55,579 --> 00:05:57,380
+ call it a step function if
+
+214
+00:05:57,390 --> 00:05:59,130
+ it's piece wisely constant.
+
+215
+00:05:59,880 --> 00:06:01,429
+ This means if we look at
+
+216
+00:06:01,440 --> 00:06:03,070
+ the graph, we only see
+
+217
+00:06:03,079 --> 00:06:04,339
+ horizontal lines.
+
+218
+00:06:05,279 --> 00:06:06,980
+ Therefore maybe let's immediately
+
+219
+00:06:06,989 --> 00:06:08,049
+ visualize this.
+
+220
+00:06:09,190 --> 00:06:11,179
+ For example, maybe the function
+
+221
+00:06:11,190 --> 00:06:12,559
+ starts with one, will you
+
+222
+00:06:12,570 --> 00:06:14,239
+ hear then comes
+
+223
+00:06:14,250 --> 00:06:15,589
+ another value here
+
+224
+00:06:16,730 --> 00:06:18,230
+ and then the next one could
+
+225
+00:06:18,239 --> 00:06:18,709
+ be here.
+
+226
+00:06:18,720 --> 00:06:20,540
+ For example, so you
+
+227
+00:06:20,549 --> 00:06:21,899
+ see it doesn't have to be
+
+228
+00:06:21,910 --> 00:06:23,579
+ a complete constant function.
+
+229
+00:06:23,589 --> 00:06:24,839
+ There could be jumps, there
+
+230
+00:06:24,850 --> 00:06:26,109
+ could be a lot of jumps but
+
+231
+00:06:26,119 --> 00:06:27,470
+ only finally many,
+
+232
+00:06:28,350 --> 00:06:29,869
+ which means for example,
+
+233
+00:06:29,880 --> 00:06:30,890
+ you could restrict it to
+
+234
+00:06:30,899 --> 00:06:32,380
+ an interval maybe here.
+
+235
+00:06:32,549 --> 00:06:33,869
+ And then you have a constant
+
+236
+00:06:33,880 --> 00:06:34,329
+ function,
+
+237
+00:06:35,489 --> 00:06:36,959
+ maybe it's also important
+
+238
+00:06:36,970 --> 00:06:38,230
+ to note here that the
+
+239
+00:06:38,239 --> 00:06:40,119
+ values at the jump points
+
+240
+00:06:40,130 --> 00:06:41,380
+ don't matter at all.
+
+241
+00:06:42,290 --> 00:06:44,109
+ For example, this is allowed
+
+242
+00:06:44,119 --> 00:06:44,709
+ to happen.
+
+243
+00:06:45,929 --> 00:06:47,339
+ And maybe you already know
+
+244
+00:06:47,350 --> 00:06:49,230
+ why this is because the
+
+245
+00:06:49,239 --> 00:06:51,209
+ area below this curve
+
+246
+00:06:51,220 --> 00:06:53,149
+ to the x axis does not
+
+247
+00:06:53,160 --> 00:06:54,820
+ care what this will is.
+
+248
+00:06:55,809 --> 00:06:57,350
+ And of course, in the end,
+
+249
+00:06:57,359 --> 00:06:58,470
+ we will be interested in
+
+250
+00:06:58,480 --> 00:07:00,290
+ this area because it's the
+
+251
+00:07:00,299 --> 00:07:01,070
+ integral.
+
+252
+00:07:02,070 --> 00:07:02,570
+ OK.
+
+253
+00:07:02,579 --> 00:07:03,850
+ Then let's describe this
+
+254
+00:07:03,859 --> 00:07:05,250
+ definition of a piece wise
+
+255
+00:07:05,260 --> 00:07:07,109
+ constant function in a formal
+
+256
+00:07:07,119 --> 00:07:07,410
+ way.
+
+257
+00:07:08,399 --> 00:07:09,820
+ And as you might guess we
+
+258
+00:07:09,829 --> 00:07:11,619
+ can use a partition here for
+
+259
+00:07:11,630 --> 00:07:12,899
+ the interval A B,
+
+260
+00:07:13,809 --> 00:07:15,149
+ this means that the best
+
+261
+00:07:15,160 --> 00:07:16,869
+ idea would be to set these
+
+262
+00:07:16,880 --> 00:07:18,429
+ points X one X two and so
+
+263
+00:07:18,440 --> 00:07:20,019
+ on at these jump
+
+264
+00:07:20,029 --> 00:07:21,839
+ points because
+
+265
+00:07:21,850 --> 00:07:23,500
+ then we have the corresponding
+
+266
+00:07:23,510 --> 00:07:25,250
+ intervals where the function
+
+267
+00:07:25,260 --> 00:07:26,239
+ is constant.
+
+268
+00:07:27,059 --> 00:07:28,809
+ However, then it's also no
+
+269
+00:07:28,820 --> 00:07:30,769
+ problem at all fixing these
+
+270
+00:07:30,779 --> 00:07:32,000
+ constant values.
+
+271
+00:07:32,869 --> 00:07:34,140
+ So let's call them C one
+
+272
+00:07:34,149 --> 00:07:35,690
+ C two and so on.
+
+273
+00:07:36,709 --> 00:07:38,100
+ Indeed, what could happen
+
+274
+00:07:38,109 --> 00:07:39,420
+ is that some values
+
+275
+00:07:39,429 --> 00:07:40,250
+ coincide.
+
+276
+00:07:41,089 --> 00:07:42,079
+ So here we have that the
+
+277
+00:07:42,089 --> 00:07:43,779
+ value in this interval is
+
+278
+00:07:43,790 --> 00:07:45,470
+ the same as in this one.
+
+279
+00:07:46,339 --> 00:07:47,519
+ This is not a problem.
+
+280
+00:07:47,570 --> 00:07:48,679
+ The important thing is that
+
+281
+00:07:48,690 --> 00:07:50,339
+ for each interval, we have
+
+282
+00:07:50,350 --> 00:07:51,709
+ such a number CJ,
+
+283
+00:07:52,600 --> 00:07:54,320
+ which means we have any of
+
+284
+00:07:54,329 --> 00:07:54,670
+ them.
+
+285
+00:07:55,790 --> 00:07:56,290
+ OK.
+
+286
+00:07:56,299 --> 00:07:57,839
+ And now we can write down
+
+287
+00:07:57,850 --> 00:07:59,649
+ the defining property we've
+
+288
+00:07:59,660 --> 00:08:00,750
+ already discussed,
+
+289
+00:08:01,369 --> 00:08:03,299
+ meaning that we can restrict
+
+290
+00:08:03,309 --> 00:08:04,929
+ the function phi to an
+
+291
+00:08:04,940 --> 00:08:05,649
+ interval.
+
+292
+00:08:06,450 --> 00:08:08,019
+ Namely, we can do this for
+
+293
+00:08:08,029 --> 00:08:09,420
+ each interval that starts
+
+294
+00:08:09,429 --> 00:08:11,339
+ with XJ minus one and
+
+295
+00:08:11,350 --> 00:08:12,480
+ ends with XJ.
+
+296
+00:08:13,429 --> 00:08:14,890
+ Indeed, in order to avoid
+
+297
+00:08:14,899 --> 00:08:16,690
+ these jump points here, we
+
+298
+00:08:16,700 --> 00:08:18,250
+ need the open intervals.
+
+299
+00:08:19,109 --> 00:08:19,549
+ OK.
+
+300
+00:08:19,559 --> 00:08:20,970
+ And now we know restricted
+
+301
+00:08:20,980 --> 00:08:22,529
+ to this interval, it's a
+
+302
+00:08:22,540 --> 00:08:23,690
+ constant function
+
+303
+00:08:24,559 --> 00:08:26,029
+ and the value is given by
+
+304
+00:08:26,040 --> 00:08:26,950
+ CJ.
+
+305
+00:08:27,880 --> 00:08:28,429
+ OK.
+
+306
+00:08:28,440 --> 00:08:29,820
+ And of course, every time
+
+307
+00:08:29,829 --> 00:08:31,089
+ you see something like this,
+
+308
+00:08:31,119 --> 00:08:32,729
+ it means it should hold for
+
+309
+00:08:32,739 --> 00:08:34,650
+ all possible values of J.
+
+310
+00:08:35,650 --> 00:08:37,308
+ Well, now you know what we
+
+311
+00:08:37,320 --> 00:08:38,909
+ call a step function when
+
+312
+00:08:38,919 --> 00:08:40,390
+ we want to define the Riemann
+
+313
+00:08:40,400 --> 00:08:41,070
+ integral.
+
+314
+00:08:42,109 --> 00:08:43,629
+ So you see it's not
+
+315
+00:08:43,638 --> 00:08:44,929
+ complicated at all.
+
+316
+00:08:45,780 --> 00:08:47,169
+ Also the integral should
+
+317
+00:08:47,179 --> 00:08:48,849
+ not be complicated because
+
+318
+00:08:48,859 --> 00:08:50,729
+ we immediately see the rectangles
+
+319
+00:08:50,739 --> 00:08:51,880
+ here we could use
+
+320
+00:08:52,539 --> 00:08:54,200
+ and then these rectangles
+
+321
+00:08:54,210 --> 00:08:55,929
+ exactly describe the
+
+322
+00:08:55,940 --> 00:08:57,799
+ area between the graph and
+
+323
+00:08:57,809 --> 00:08:58,739
+ the X axis.
+
+324
+00:08:59,580 --> 00:09:00,820
+ Therefore, my question for
+
+325
+00:09:00,830 --> 00:09:02,520
+ you would be, can we immediately
+
+326
+00:09:02,530 --> 00:09:04,229
+ define the integral for
+
+327
+00:09:04,239 --> 00:09:05,390
+ such a step function?
+
+328
+00:09:06,219 --> 00:09:07,820
+ Please recall this is the
+
+329
+00:09:07,830 --> 00:09:09,640
+ symbol that is a number
+
+330
+00:09:09,650 --> 00:09:11,559
+ that represents the orientated
+
+331
+00:09:11,570 --> 00:09:12,200
+ area.
+
+332
+00:09:13,080 --> 00:09:14,770
+ This means in this case,
+
+333
+00:09:14,840 --> 00:09:16,369
+ we just have to add
+
+334
+00:09:16,380 --> 00:09:17,770
+ all the areas of the
+
+335
+00:09:17,780 --> 00:09:18,729
+ rectangles here.
+
+336
+00:09:19,559 --> 00:09:21,140
+ So we have a sum that starts
+
+337
+00:09:21,150 --> 00:09:23,020
+ with one and goes to N
+
+338
+00:09:23,799 --> 00:09:25,640
+ also we know the height is
+
+339
+00:09:25,650 --> 00:09:27,580
+ given by CJ and
+
+340
+00:09:27,590 --> 00:09:28,900
+ the width is given by the
+
+341
+00:09:28,909 --> 00:09:30,549
+ difference of these two points
+
+342
+00:09:30,559 --> 00:09:30,849
+ here.
+
+343
+00:09:31,820 --> 00:09:33,109
+ So what we see here is in
+
+344
+00:09:33,119 --> 00:09:35,049
+ this case, the integral
+
+345
+00:09:35,059 --> 00:09:36,690
+ is given by this finite
+
+346
+00:09:36,700 --> 00:09:37,200
+ sum.
+
+347
+00:09:38,049 --> 00:09:39,400
+ However, what we need to
+
+348
+00:09:39,409 --> 00:09:41,299
+ answer here is, is this a
+
+349
+00:09:41,309 --> 00:09:42,479
+ correct definition?
+
+350
+00:09:43,429 --> 00:09:45,030
+ Because at first, it seems
+
+351
+00:09:45,039 --> 00:09:46,940
+ that there are a lot of possibilities
+
+352
+00:09:46,950 --> 00:09:48,080
+ to choose the petition of
+
+353
+00:09:48,090 --> 00:09:49,960
+ the interval and also to
+
+354
+00:09:49,969 --> 00:09:51,809
+ choose the numbers CJ.
+
+355
+00:09:52,669 --> 00:09:54,010
+ However, here on the left
+
+356
+00:09:54,020 --> 00:09:55,440
+ hand side, neither the
+
+357
+00:09:55,450 --> 00:09:57,210
+ partition nor the number
+
+358
+00:09:57,219 --> 00:09:58,409
+ CJ occur.
+
+359
+00:09:59,500 --> 00:10:00,140
+ In summary.
+
+360
+00:10:00,150 --> 00:10:01,659
+ What we need to show is that
+
+361
+00:10:01,669 --> 00:10:03,309
+ this here is well
+
+362
+00:10:03,320 --> 00:10:03,979
+ defined.
+
+363
+00:10:04,909 --> 00:10:06,539
+ OK, then please think about
+
+364
+00:10:06,549 --> 00:10:08,049
+ it and then we can talk about
+
+365
+00:10:08,059 --> 00:10:09,809
+ it together in the next video.
+
+366
+00:10:10,679 --> 00:10:11,960
+ Therefore, I hope I see you
+
+367
+00:10:11,969 --> 00:10:13,429
+ there and have a nice day.
+
+368
+00:10:13,549 --> 00:10:14,280
+ Bye.
+
