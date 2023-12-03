@@ -1,0 +1,1260 @@
+1
+00:00:00,349 --> 00:00:02,329
+ Hello and welcome to real
+
+2
+00:00:02,339 --> 00:00:03,349
+ analysis.
+
+3
+00:00:03,720 --> 00:00:05,260
+ And as always, first, I really
+
+4
+00:00:05,269 --> 00:00:06,449
+ want to thank all the nice
+
+5
+00:00:06,460 --> 00:00:07,409
+ people that support this
+
+6
+00:00:07,420 --> 00:00:08,939
+ channel on study or pay pal.
+
+7
+00:00:09,609 --> 00:00:10,970
+ And now in today's part
+
+8
+00:00:10,979 --> 00:00:12,630
+ 32 we will talk about the
+
+9
+00:00:12,640 --> 00:00:14,369
+ intermediate value theorem
+
+10
+00:00:14,850 --> 00:00:15,250
+ there.
+
+11
+00:00:15,260 --> 00:00:16,709
+ As before what we will need
+
+12
+00:00:16,719 --> 00:00:18,209
+ is a continuous function.
+
+13
+00:00:18,219 --> 00:00:20,079
+ F as usual
+
+14
+00:00:20,090 --> 00:00:21,170
+ we call the domain of the
+
+15
+00:00:21,180 --> 00:00:23,170
+ function here just by eye.
+
+16
+00:00:23,559 --> 00:00:24,850
+ However, now
+
+17
+00:00:24,860 --> 00:00:26,270
+ actually we need an
+
+18
+00:00:26,280 --> 00:00:26,930
+ interval.
+
+19
+00:00:27,479 --> 00:00:29,340
+ So let's write it as A B
+
+20
+00:00:29,350 --> 00:00:31,299
+ where A and B are included
+
+21
+00:00:31,309 --> 00:00:32,098
+ in the domain.
+
+22
+00:00:32,139 --> 00:00:33,779
+ In this case, we can draw
+
+23
+00:00:33,790 --> 00:00:35,450
+ a very nice compact picture
+
+24
+00:00:35,459 --> 00:00:36,909
+ for the graph of the function.
+
+25
+00:00:37,220 --> 00:00:38,729
+ For example, the grave could
+
+26
+00:00:38,740 --> 00:00:40,159
+ look like this where we have
+
+27
+00:00:40,169 --> 00:00:41,970
+ the interval A B on the X
+
+28
+00:00:41,979 --> 00:00:42,299
+ axis.
+
+29
+00:00:43,139 --> 00:00:44,450
+ And now you should see on
+
+30
+00:00:44,459 --> 00:00:46,200
+ the Y axis, we also
+
+31
+00:00:46,209 --> 00:00:47,259
+ find an interval.
+
+32
+00:00:48,240 --> 00:00:49,750
+ In this case, we find F of
+
+33
+00:00:49,759 --> 00:00:51,459
+ A at the bottom and F of
+
+34
+00:00:51,470 --> 00:00:52,459
+ B at the top.
+
+35
+00:00:52,880 --> 00:00:54,180
+ However, of course, it could
+
+36
+00:00:54,189 --> 00:00:55,419
+ be the other way around.
+
+37
+00:00:56,119 --> 00:00:57,590
+ Now, the intermediate value
+
+38
+00:00:57,599 --> 00:00:59,250
+ theorem tells us that for
+
+39
+00:00:59,259 --> 00:01:00,919
+ all values Y in this
+
+40
+00:01:00,930 --> 00:01:02,279
+ interval, we find a
+
+41
+00:01:02,290 --> 00:01:03,599
+ corresponding X.
+
+42
+00:01:04,180 --> 00:01:06,160
+ So you could say all intermediate
+
+43
+00:01:06,169 --> 00:01:07,669
+ values are hit by the
+
+44
+00:01:07,680 --> 00:01:09,339
+ function, the function
+
+45
+00:01:09,349 --> 00:01:11,029
+ simply cannot escape here
+
+46
+00:01:11,040 --> 00:01:12,650
+ if it starts here and ends
+
+47
+00:01:12,660 --> 00:01:14,220
+ there because it's
+
+48
+00:01:14,230 --> 00:01:15,879
+ continuous and it cannot
+
+49
+00:01:15,889 --> 00:01:17,139
+ make any jumps.
+
+50
+00:01:17,940 --> 00:01:19,449
+ Therefore, the intermediate
+
+51
+00:01:19,459 --> 00:01:21,300
+ value theorem gives a meaning
+
+52
+00:01:21,309 --> 00:01:22,389
+ to the sentence that the
+
+53
+00:01:22,400 --> 00:01:23,889
+ graph of a continuous
+
+54
+00:01:23,900 --> 00:01:25,839
+ function can be drawn in
+
+55
+00:01:25,849 --> 00:01:26,680
+ one stroke.
+
+56
+00:01:27,150 --> 00:01:27,510
+ OK.
+
+57
+00:01:27,519 --> 00:01:29,040
+ Then let's formulate this
+
+58
+00:01:29,050 --> 00:01:30,230
+ nice theorem
+
+59
+00:01:31,230 --> 00:01:31,540
+ here.
+
+60
+00:01:31,550 --> 00:01:33,190
+ I can tell you the intermediate
+
+61
+00:01:33,199 --> 00:01:34,709
+ value theorem is one of the
+
+62
+00:01:34,720 --> 00:01:36,290
+ most important theorems you
+
+63
+00:01:36,300 --> 00:01:37,709
+ learn in analysis.
+
+64
+00:01:38,160 --> 00:01:39,569
+ Now what we have to put in,
+
+65
+00:01:39,580 --> 00:01:41,339
+ we already know we
+
+66
+00:01:41,349 --> 00:01:42,769
+ only need two assumptions.
+
+67
+00:01:42,779 --> 00:01:44,330
+ Firstly, F should be a
+
+68
+00:01:44,339 --> 00:01:46,330
+ continuous function defined
+
+69
+00:01:46,339 --> 00:01:47,879
+ on the interval A B.
+
+70
+00:01:48,400 --> 00:01:49,809
+ And secondly, we take any
+
+71
+00:01:49,819 --> 00:01:51,589
+ number Y on the Y axis in
+
+72
+00:01:51,599 --> 00:01:53,080
+ this interval.
+
+73
+00:01:53,639 --> 00:01:53,980
+ OK.
+
+74
+00:01:53,989 --> 00:01:55,529
+ If we want to be precise,
+
+75
+00:01:55,540 --> 00:01:57,300
+ we write down both intervals.
+
+76
+00:01:57,309 --> 00:01:58,389
+ The one where we start with
+
+77
+00:01:58,400 --> 00:01:59,919
+ F of A and the other one
+
+78
+00:01:59,930 --> 00:02:00,919
+ where we start with F of
+
+79
+00:02:00,930 --> 00:02:02,900
+ B just depending which
+
+80
+00:02:02,910 --> 00:02:04,110
+ of the two numbers is the
+
+81
+00:02:04,120 --> 00:02:05,059
+ smaller one.
+
+82
+00:02:05,449 --> 00:02:07,059
+ For example, in our picture,
+
+83
+00:02:07,069 --> 00:02:08,679
+ we can set why through this
+
+84
+00:02:08,690 --> 00:02:09,300
+ point.
+
+85
+00:02:09,750 --> 00:02:10,979
+ And then the intermediate
+
+86
+00:02:10,990 --> 00:02:12,839
+ value theorem tells us there
+
+87
+00:02:12,850 --> 00:02:14,559
+ is a corresponding X, we
+
+88
+00:02:14,570 --> 00:02:15,789
+ call X tilda.
+
+89
+00:02:16,419 --> 00:02:17,880
+ It's an element of the interval
+
+90
+00:02:17,889 --> 00:02:19,690
+ A B and it is sent to
+
+91
+00:02:19,699 --> 00:02:20,960
+ Y by F.
+
+92
+00:02:21,580 --> 00:02:23,309
+ So F of X tilde is
+
+93
+00:02:23,320 --> 00:02:24,309
+ equal to Y.
+
+94
+00:02:25,000 --> 00:02:25,399
+ OK.
+
+95
+00:02:25,410 --> 00:02:26,820
+ So this is the intermediate
+
+96
+00:02:26,830 --> 00:02:28,399
+ value theorem we'll prove
+
+97
+00:02:28,410 --> 00:02:28,880
+ today.
+
+98
+00:02:29,460 --> 00:02:30,639
+ But before we do that, I
+
+99
+00:02:30,649 --> 00:02:32,619
+ present you kolo you really
+
+100
+00:02:32,630 --> 00:02:33,520
+ should remember.
+
+101
+00:02:34,240 --> 00:02:36,179
+ It tells us that the image
+
+102
+00:02:36,190 --> 00:02:37,899
+ of the interval A B
+
+103
+00:02:37,910 --> 00:02:39,289
+ where we denote the image
+
+104
+00:02:39,300 --> 00:02:40,360
+ with the square pockets as
+
+105
+00:02:40,369 --> 00:02:42,179
+ well is also an
+
+106
+00:02:42,190 --> 00:02:42,899
+ interval.
+
+107
+00:02:43,360 --> 00:02:44,619
+ More concretely it's the
+
+108
+00:02:44,630 --> 00:02:45,979
+ interval that starts with
+
+109
+00:02:45,990 --> 00:02:47,289
+ the minimum of the function
+
+110
+00:02:47,300 --> 00:02:49,220
+ F and goes to the maximum
+
+111
+00:02:49,229 --> 00:02:50,139
+ of the function F.
+
+112
+00:02:50,940 --> 00:02:52,070
+ Therefore, you see it's the
+
+113
+00:02:52,080 --> 00:02:53,440
+ same claim as before.
+
+114
+00:02:53,490 --> 00:02:55,179
+ All the intermediate values
+
+115
+00:02:55,190 --> 00:02:56,000
+ are also hi.
+
+116
+00:02:56,710 --> 00:02:57,070
+ OK.
+
+117
+00:02:57,080 --> 00:02:58,729
+ Then I would say we can start
+
+118
+00:02:58,740 --> 00:03:00,440
+ with the proof of the intermediate
+
+119
+00:03:00,449 --> 00:03:01,580
+ value theorem.
+
+120
+00:03:02,210 --> 00:03:03,990
+ In fact, as we will see the
+
+121
+00:03:04,000 --> 00:03:05,869
+ proof is not so complicated,
+
+122
+00:03:06,529 --> 00:03:07,910
+ the first step will be to
+
+123
+00:03:07,919 --> 00:03:09,449
+ normalize the problem in
+
+124
+00:03:09,460 --> 00:03:10,229
+ some sense.
+
+125
+00:03:10,860 --> 00:03:12,130
+ In order to understand this,
+
+126
+00:03:12,139 --> 00:03:13,500
+ let's visualize the curve
+
+127
+00:03:13,580 --> 00:03:14,710
+ of a function again,
+
+128
+00:03:15,440 --> 00:03:17,029
+ this is similar as before
+
+129
+00:03:17,080 --> 00:03:18,419
+ where now, for example, we
+
+130
+00:03:18,429 --> 00:03:19,710
+ have our Y here.
+
+131
+00:03:20,490 --> 00:03:21,669
+ Now when I say we want to
+
+132
+00:03:21,679 --> 00:03:23,330
+ normalize the problem, it
+
+133
+00:03:23,339 --> 00:03:24,990
+ means it would be nice to
+
+134
+00:03:25,000 --> 00:03:26,910
+ have this Y at zero.
+
+135
+00:03:27,479 --> 00:03:28,729
+ And of course, we could just
+
+136
+00:03:28,740 --> 00:03:29,289
+ do that.
+
+137
+00:03:29,300 --> 00:03:31,089
+ So we take the whole function
+
+138
+00:03:31,149 --> 00:03:32,710
+ and shift it to zero.
+
+139
+00:03:33,520 --> 00:03:34,960
+ So simply as that we get
+
+140
+00:03:34,970 --> 00:03:36,339
+ a new function, we could
+
+141
+00:03:36,350 --> 00:03:37,229
+ call G.
+
+142
+00:03:38,050 --> 00:03:38,960
+ Now, what you should see
+
+143
+00:03:38,970 --> 00:03:40,960
+ is that the problem for searching
+
+144
+00:03:40,970 --> 00:03:42,580
+ such next tilde stays
+
+145
+00:03:42,589 --> 00:03:43,809
+ exactly the same.
+
+146
+00:03:43,820 --> 00:03:45,250
+ But now we search for
+
+147
+00:03:45,259 --> 00:03:45,910
+ zeros.
+
+148
+00:03:46,660 --> 00:03:48,470
+ In summary, this is our idea,
+
+149
+00:03:48,479 --> 00:03:49,899
+ we simply define a new
+
+150
+00:03:49,910 --> 00:03:51,770
+ function G and
+
+151
+00:03:51,779 --> 00:03:53,630
+ this is simply F minus
+
+152
+00:03:53,639 --> 00:03:54,830
+ the value Y.
+
+153
+00:03:55,529 --> 00:03:56,880
+ Now, the next normalization
+
+154
+00:03:56,889 --> 00:03:58,360
+ we could do is that it would
+
+155
+00:03:58,369 --> 00:04:00,190
+ be nice if the value at the
+
+156
+00:04:00,199 --> 00:04:02,169
+ right is larger than
+
+157
+00:04:02,179 --> 00:04:03,550
+ the value on the left.
+
+158
+00:04:04,029 --> 00:04:05,429
+ So what we could do is just
+
+159
+00:04:05,440 --> 00:04:06,830
+ mirror the whole graph.
+
+160
+00:04:06,860 --> 00:04:08,339
+ And then we have a new
+
+161
+00:04:08,350 --> 00:04:10,169
+ function which has exactly
+
+162
+00:04:10,179 --> 00:04:12,169
+ this property and
+
+163
+00:04:12,179 --> 00:04:13,649
+ this function we now can
+
+164
+00:04:13,660 --> 00:04:15,009
+ call F tilde.
+
+165
+00:04:15,479 --> 00:04:17,130
+ However, please note here,
+
+166
+00:04:17,140 --> 00:04:18,890
+ we only mirror the graph
+
+167
+00:04:18,899 --> 00:04:19,970
+ if it's needed.
+
+168
+00:04:20,450 --> 00:04:21,890
+ So in the formula, this would
+
+169
+00:04:21,899 --> 00:04:23,690
+ mean F tilde is defined
+
+170
+00:04:23,700 --> 00:04:25,089
+ as minus G.
+
+171
+00:04:25,500 --> 00:04:27,040
+ However, only in the case
+
+172
+00:04:27,049 --> 00:04:28,970
+ that G of A is greater than
+
+173
+00:04:28,980 --> 00:04:29,570
+ zero.
+
+174
+00:04:30,019 --> 00:04:31,920
+ If G of A is less or equal
+
+175
+00:04:31,929 --> 00:04:33,109
+ than zero, we don't have
+
+176
+00:04:33,119 --> 00:04:34,130
+ to do anything.
+
+177
+00:04:34,140 --> 00:04:35,980
+ We can just set F tilde to
+
+178
+00:04:35,989 --> 00:04:36,399
+ G.
+
+179
+00:04:37,049 --> 00:04:37,429
+ OK.
+
+180
+00:04:37,440 --> 00:04:38,950
+ Now let's summarize what
+
+181
+00:04:38,959 --> 00:04:39,790
+ we have here.
+
+182
+00:04:40,640 --> 00:04:42,420
+ First F tilda is of
+
+183
+00:04:42,429 --> 00:04:44,130
+ course, still a continuous
+
+184
+00:04:44,140 --> 00:04:44,869
+ function.
+
+185
+00:04:45,290 --> 00:04:47,269
+ And our value we search for,
+
+186
+00:04:47,279 --> 00:04:49,250
+ we could call why tilda is
+
+187
+00:04:49,260 --> 00:04:50,429
+ just zero.
+
+188
+00:04:51,059 --> 00:04:52,709
+ Moreover, we also know that
+
+189
+00:04:52,720 --> 00:04:54,660
+ we have a minus sign or zero
+
+190
+00:04:54,670 --> 00:04:56,420
+ on the left hand side and
+
+191
+00:04:56,429 --> 00:04:58,160
+ the plus sign or zero on
+
+192
+00:04:58,170 --> 00:04:59,179
+ the right hand side.
+
+193
+00:04:59,850 --> 00:05:01,239
+ Therefore, the activity we
+
+194
+00:05:01,250 --> 00:05:02,829
+ have thrown before is the
+
+195
+00:05:02,839 --> 00:05:04,170
+ correct example we should
+
+196
+00:05:04,179 --> 00:05:04,940
+ have in mind.
+
+197
+00:05:05,489 --> 00:05:05,839
+ OK.
+
+198
+00:05:05,850 --> 00:05:07,399
+ Now, the proof that we follow
+
+199
+00:05:07,410 --> 00:05:08,760
+ will look similar to the
+
+200
+00:05:08,769 --> 00:05:10,179
+ proof we already did for
+
+201
+00:05:10,190 --> 00:05:12,019
+ the Bolzano Vasta theorem,
+
+202
+00:05:12,730 --> 00:05:14,549
+ namely we cut the interval
+
+203
+00:05:14,559 --> 00:05:16,200
+ A B in the middle
+
+204
+00:05:16,480 --> 00:05:17,739
+ and then choose one of the
+
+205
+00:05:17,750 --> 00:05:18,760
+ two intervals here.
+
+206
+00:05:19,279 --> 00:05:20,630
+ And after this, this
+
+207
+00:05:20,640 --> 00:05:21,920
+ projection, we will do
+
+208
+00:05:21,929 --> 00:05:22,799
+ repeatedly.
+
+209
+00:05:23,619 --> 00:05:24,989
+ In conclusion in the end,
+
+210
+00:05:25,000 --> 00:05:26,609
+ we will get a limit here.
+
+211
+00:05:27,380 --> 00:05:28,470
+ The only thing we have to
+
+212
+00:05:28,480 --> 00:05:30,190
+ do in each step is to check
+
+213
+00:05:30,200 --> 00:05:32,119
+ the value F tilt of C
+
+214
+00:05:32,750 --> 00:05:34,489
+ if this one is greater than
+
+215
+00:05:34,500 --> 00:05:35,089
+ zero.
+
+216
+00:05:35,109 --> 00:05:37,089
+ Then our C could be the new
+
+217
+00:05:37,100 --> 00:05:37,529
+ B.
+
+218
+00:05:38,390 --> 00:05:39,779
+ In other words, we will choose
+
+219
+00:05:39,790 --> 00:05:40,940
+ the left interval.
+
+220
+00:05:40,950 --> 00:05:42,779
+ In this case, in the other
+
+221
+00:05:42,790 --> 00:05:43,950
+ case, we would choose the
+
+222
+00:05:43,959 --> 00:05:45,029
+ right interval.
+
+223
+00:05:45,559 --> 00:05:47,109
+ Of course, the overall idea
+
+224
+00:05:47,119 --> 00:05:48,350
+ of this definition is that
+
+225
+00:05:48,359 --> 00:05:50,149
+ we still have the same assumption,
+
+226
+00:05:50,160 --> 00:05:51,989
+ we still have the sign change
+
+227
+00:05:52,000 --> 00:05:53,070
+ from left to right.
+
+228
+00:05:53,809 --> 00:05:55,230
+ This means then that nothing
+
+229
+00:05:55,239 --> 00:05:56,660
+ really changes here, we can
+
+230
+00:05:56,670 --> 00:05:57,899
+ do the same thing again.
+
+231
+00:05:58,630 --> 00:05:59,640
+ Then of course, we would
+
+232
+00:05:59,649 --> 00:06:01,529
+ define B two and A two.
+
+233
+00:06:01,540 --> 00:06:02,880
+ Then afterwards we would
+
+234
+00:06:02,890 --> 00:06:04,549
+ define B three and A three
+
+235
+00:06:04,559 --> 00:06:05,309
+ and so on.
+
+236
+00:06:05,880 --> 00:06:07,410
+ Therefore, in the end, we
+
+237
+00:06:07,420 --> 00:06:09,049
+ get two sequences out.
+
+238
+00:06:09,459 --> 00:06:11,429
+ So we have A and BN.
+
+239
+00:06:11,440 --> 00:06:12,959
+ And by construction, we know
+
+240
+00:06:12,970 --> 00:06:14,640
+ they are called she sequences.
+
+241
+00:06:15,339 --> 00:06:16,940
+ Moreover, we also know that
+
+242
+00:06:16,950 --> 00:06:18,220
+ the intervals get smaller
+
+243
+00:06:18,230 --> 00:06:19,049
+ and smaller.
+
+244
+00:06:19,059 --> 00:06:20,260
+ And indeed, we know that
+
+245
+00:06:20,269 --> 00:06:22,119
+ the length converges to zero,
+
+246
+00:06:22,880 --> 00:06:24,790
+ hence the completeness axiom
+
+247
+00:06:24,799 --> 00:06:26,250
+ and the limit theorems get
+
+248
+00:06:26,260 --> 00:06:27,510
+ us to the result that we
+
+249
+00:06:27,519 --> 00:06:29,429
+ have exactly one limit here.
+
+250
+00:06:29,799 --> 00:06:31,149
+ Now, you might already know
+
+251
+00:06:31,160 --> 00:06:32,570
+ this is exactly the point
+
+252
+00:06:32,579 --> 00:06:34,109
+ we want to call X tilda.
+
+253
+00:06:34,200 --> 00:06:35,640
+ And by construction it's
+
+254
+00:06:35,649 --> 00:06:37,149
+ an element of the interval
+
+255
+00:06:37,160 --> 00:06:37,809
+ A B.
+
+256
+00:06:38,470 --> 00:06:39,890
+ Hence the only question that
+
+257
+00:06:39,899 --> 00:06:41,649
+ remains is what happens with
+
+258
+00:06:41,660 --> 00:06:43,359
+ X tilda when we put it into
+
+259
+00:06:43,369 --> 00:06:44,690
+ the function F tilda.
+
+260
+00:06:45,489 --> 00:06:46,809
+ In order to see this, please
+
+261
+00:06:46,820 --> 00:06:48,750
+ note that the sign change
+
+262
+00:06:48,760 --> 00:06:49,929
+ for the function F tilde
+
+263
+00:06:49,940 --> 00:06:51,899
+ holds for the whole sequence
+
+264
+00:06:51,910 --> 00:06:53,329
+ A and BN.
+
+265
+00:06:54,119 --> 00:06:56,019
+ Therefore, and by the monotonicity
+
+266
+00:06:56,029 --> 00:06:57,820
+ of the limit, we also know
+
+267
+00:06:57,829 --> 00:06:59,279
+ that this property still
+
+268
+00:06:59,290 --> 00:07:00,839
+ holds when we put the limit
+
+269
+00:07:00,850 --> 00:07:01,410
+ in front.
+
+270
+00:07:01,959 --> 00:07:03,339
+ And there you see, we can
+
+271
+00:07:03,350 --> 00:07:04,970
+ use the continuity of the
+
+272
+00:07:04,980 --> 00:07:06,760
+ function of tilda and push
+
+273
+00:07:06,769 --> 00:07:07,859
+ the limit inside.
+
+274
+00:07:08,519 --> 00:07:09,950
+ Then you see, it looks like
+
+275
+00:07:09,959 --> 00:07:11,670
+ this and we can substitute
+
+276
+00:07:11,679 --> 00:07:13,250
+ this limit with X tilde.
+
+277
+00:07:13,899 --> 00:07:15,790
+ So what we get out is a number
+
+278
+00:07:15,799 --> 00:07:17,790
+ F tilt of X tilde which
+
+279
+00:07:17,799 --> 00:07:19,429
+ is less or equal than zero
+
+280
+00:07:19,440 --> 00:07:20,720
+ and greater or equal than
+
+281
+00:07:20,730 --> 00:07:21,220
+ zero.
+
+282
+00:07:21,779 --> 00:07:23,489
+ Hence, the only possibility
+
+283
+00:07:23,500 --> 00:07:25,100
+ is that this number is
+
+284
+00:07:25,109 --> 00:07:26,399
+ exactly zero.
+
+285
+00:07:26,890 --> 00:07:28,420
+ And there you see indeed
+
+286
+00:07:28,429 --> 00:07:29,790
+ we have solved the problem
+
+287
+00:07:29,799 --> 00:07:31,500
+ for our function F tilde.
+
+288
+00:07:32,170 --> 00:07:33,359
+ Also, you should see it's
+
+289
+00:07:33,369 --> 00:07:34,839
+ not a problem at all to go
+
+290
+00:07:34,850 --> 00:07:36,649
+ back to our original function
+
+291
+00:07:36,660 --> 00:07:38,359
+ F because you
+
+292
+00:07:38,369 --> 00:07:40,200
+ immediately see the X tilda
+
+293
+00:07:40,209 --> 00:07:41,730
+ we found is also a
+
+294
+00:07:41,739 --> 00:07:43,420
+ zero for the function G.
+
+295
+00:07:43,940 --> 00:07:45,079
+ This simply holds by the
+
+296
+00:07:45,089 --> 00:07:46,279
+ definition of the function
+
+297
+00:07:46,290 --> 00:07:48,079
+ F tilde as a flip when we
+
+298
+00:07:48,089 --> 00:07:48,559
+ need it.
+
+299
+00:07:49,290 --> 00:07:51,200
+ However, the function G was
+
+300
+00:07:51,209 --> 00:07:52,910
+ defined by F minus
+
+301
+00:07:52,950 --> 00:07:54,839
+ Y and because this
+
+302
+00:07:54,850 --> 00:07:56,220
+ is now zero, this
+
+303
+00:07:56,230 --> 00:07:58,109
+ implies F
+
+304
+00:07:58,119 --> 00:07:59,130
+ of X tilde is
+
+305
+00:07:59,140 --> 00:08:00,779
+ indeed Y
+
+306
+00:08:01,369 --> 00:08:02,570
+ and that's exactly what we
+
+307
+00:08:02,579 --> 00:08:03,359
+ wanted to show.
+
+308
+00:08:03,410 --> 00:08:04,809
+ So the intermediate value
+
+309
+00:08:04,820 --> 00:08:06,279
+ theorem is proven.
+
+310
+00:08:06,920 --> 00:08:07,380
+ OK.
+
+311
+00:08:07,390 --> 00:08:09,209
+ Then I would say please remember
+
+312
+00:08:09,220 --> 00:08:10,709
+ this important the om and
+
+313
+00:08:10,720 --> 00:08:11,980
+ then I see you in the next
+
+314
+00:08:11,989 --> 00:08:12,440
+ video.
+
+315
+00:08:12,970 --> 00:08:14,820
+ Have a nice day and bye.
+
