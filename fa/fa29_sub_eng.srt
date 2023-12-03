@@ -16,7 +16,7 @@
 
 5
 00:00:06,869 --> 00:00:08,420
- support this channel on study
+ support this channel on Steady
 
 6
 00:00:08,430 --> 00:00:09,220
@@ -48,7 +48,7 @@
 
 13
 00:00:18,180 --> 00:00:19,719
- banner space X and a
+ Banach space X and a
 
 14
 00:00:19,729 --> 00:00:21,239
@@ -172,7 +172,7 @@
 
 44
 00:01:07,110 --> 00:01:08,400
- Therefore, our B of space
+ Therefore, our Banach space
 
 45
 00:01:08,410 --> 00:01:10,150
@@ -256,7 +256,7 @@
 
 65
 00:01:39,779 --> 00:01:41,059
- that in the final dimensional
+ that in the finite dimensional
 
 66
 00:01:41,069 --> 00:01:42,529
@@ -284,7 +284,7 @@
 
 72
 00:01:51,400 --> 00:01:53,209
- wipe down the eigenvectors.
+ write down the eigenvectors.
 
 73
 00:01:53,589 --> 00:01:54,730
@@ -332,7 +332,7 @@
 
 84
 00:02:09,949 --> 00:02:11,339
- this is a banner space for
+ this is a Banach space for
 
 85
 00:02:11,350 --> 00:02:12,750
@@ -400,7 +400,7 @@
 
 101
 00:02:36,630 --> 00:02:37,889
- of the finer dimensional
+ of the finite dimensional
 
 102
 00:02:37,899 --> 00:02:39,039
@@ -504,7 +504,7 @@
 
 127
 00:03:19,250 --> 00:03:20,830
- see what we did in the final
+ see what we did in the finite
 
 128
 00:03:20,839 --> 00:03:22,600
@@ -556,11 +556,11 @@
 
 140
 00:03:38,679 --> 00:03:40,639
- on is an EIN vector
+ on is an eigen vector
 
 141
 00:03:40,649 --> 00:03:42,139
- corresponding to the EIN
+ corresponding to the eigen
 
 142
 00:03:42,360 --> 00:03:43,039
@@ -584,7 +584,7 @@
 
 147
 00:03:49,699 --> 00:03:50,949
- with corresponding eyeing
+ with corresponding eigenvalue
 
 148
 00:03:50,960 --> 00:03:52,130
@@ -600,7 +600,7 @@
 
 151
 00:03:55,910 --> 00:03:56,660
- lenders.
+ lambdas.
 
 152
 00:03:57,419 --> 00:03:58,470
@@ -688,7 +688,7 @@
 
 173
 00:04:32,170 --> 00:04:33,829
- happen in the finer dimensional
+ happen in the finite dimensional
 
 174
 00:04:33,839 --> 00:04:34,290
@@ -772,7 +772,7 @@
 
 194
 00:05:01,980 --> 00:05:03,410
- would have our eyeing wills
+ would have our eigenvalues
 
 195
 00:05:03,420 --> 00:05:04,600
@@ -852,19 +852,19 @@
 
 214
 00:05:32,750 --> 00:05:34,709
- is rejected, then we know
+ is surjective, then we know
 
 215
 00:05:34,720 --> 00:05:36,230
- it's also by ejective.
+ it's also by bijective.
 
 216
 00:05:36,359 --> 00:05:38,109
- Please remember the inject
+ Please remember the injectivity
 
 217
 00:05:38,119 --> 00:05:39,600
- deity was not a problem at
+ was not a problem at
 
 218
 00:05:39,609 --> 00:05:40,029
@@ -924,7 +924,7 @@
 
 232
 00:06:00,100 --> 00:06:00,899
- EJS,
+ e_js,
 
 233
 00:06:01,899 --> 00:06:03,529
@@ -948,7 +948,7 @@
 
 238
 00:06:10,170 --> 00:06:11,750
- of the invoice operator is
+ of the inverse operator is
 
 239
 00:06:11,760 --> 00:06:13,000
@@ -1012,7 +1012,7 @@
 
 254
 00:06:35,049 --> 00:06:36,619
- we know with the Lambs,
+ we know with the lambdas,
 
 255
 00:06:36,850 --> 00:06:38,739
@@ -1020,7 +1020,7 @@
 
 256
 00:06:38,750 --> 00:06:39,549
- want to mew.
+ want to mu.
 
 257
 00:06:40,279 --> 00:06:41,880
@@ -1100,7 +1100,7 @@
 
 276
 00:07:08,709 --> 00:07:10,049
- our lender values
+ our lambda values
 
 277
 00:07:10,760 --> 00:07:12,630
@@ -1144,7 +1144,7 @@
 
 287
 00:07:25,029 --> 00:07:26,570
- spectrum of T, the Eion
+ spectrum of T, the eigen
 
 288
 00:07:26,579 --> 00:07:27,260
