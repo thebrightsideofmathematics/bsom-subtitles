@@ -1,0 +1,956 @@
+1
+00:00:00,400 --> 00:00:02,099
+ Hello and welcome back to
+
+2
+00:00:02,109 --> 00:00:03,460
+ start learning logic.
+
+3
+00:00:03,470 --> 00:00:04,900
+ Now with part two.
+
+4
+00:00:05,500 --> 00:00:06,820
+ And first, I want to thank
+
+5
+00:00:06,829 --> 00:00:08,350
+ all the nice people on Steady
+
+6
+00:00:08,399 --> 00:00:10,170
+ or paypal who support this
+
+7
+00:00:10,180 --> 00:00:10,649
+ channel.
+
+8
+00:00:11,229 --> 00:00:12,899
+ Now to refresh your memory.
+
+9
+00:00:12,909 --> 00:00:14,300
+ Last time we learned the
+
+10
+00:00:14,310 --> 00:00:16,100
+ meaning of logical statements
+
+11
+00:00:16,250 --> 00:00:18,180
+ and we used the names A and
+
+12
+00:00:18,190 --> 00:00:19,459
+ B to denote them.
+
+13
+00:00:20,149 --> 00:00:21,409
+ And then we have seen that
+
+14
+00:00:21,420 --> 00:00:23,180
+ we can formulate new logical
+
+15
+00:00:23,190 --> 00:00:24,850
+ statements with the negation
+
+16
+00:00:25,049 --> 00:00:26,090
+ and the conjunction.
+
+17
+00:00:26,979 --> 00:00:28,639
+ These two new symbols, we
+
+18
+00:00:28,649 --> 00:00:30,290
+ called logical operations.
+
+19
+00:00:30,389 --> 00:00:31,920
+ And this one was the not
+
+20
+00:00:31,930 --> 00:00:33,830
+ operation and this one, the
+
+21
+00:00:33,840 --> 00:00:34,720
+ and operation.
+
+22
+00:00:35,470 --> 00:00:37,049
+ Now, if you have such a formula
+
+23
+00:00:37,060 --> 00:00:38,669
+ with logical operations,
+
+24
+00:00:38,680 --> 00:00:40,319
+ the original statements A
+
+25
+00:00:40,330 --> 00:00:42,090
+ and B are often just
+
+26
+00:00:42,099 --> 00:00:43,650
+ called logical variables
+
+27
+00:00:43,659 --> 00:00:44,409
+ in this case.
+
+28
+00:00:44,979 --> 00:00:46,250
+ So you see we have a lot
+
+29
+00:00:46,259 --> 00:00:47,889
+ of vocabulary which is in
+
+30
+00:00:47,900 --> 00:00:49,209
+ the end, maybe not so
+
+31
+00:00:49,220 --> 00:00:49,970
+ important.
+
+32
+00:00:49,979 --> 00:00:51,090
+ The important thing will
+
+33
+00:00:51,099 --> 00:00:52,919
+ be that you understand all
+
+34
+00:00:52,930 --> 00:00:54,130
+ the symbols we use.
+
+35
+00:00:54,840 --> 00:00:55,270
+ OK.
+
+36
+00:00:55,279 --> 00:00:56,939
+ Then let's continue introducing
+
+37
+00:00:56,950 --> 00:00:58,619
+ more symbols with logical
+
+38
+00:00:58,630 --> 00:00:59,330
+ operations.
+
+39
+00:01:00,009 --> 00:01:01,490
+ The next one is the so called
+
+40
+00:01:01,500 --> 00:01:03,229
+ disjunction also defined
+
+41
+00:01:03,240 --> 00:01:04,730
+ for two logical statements
+
+42
+00:01:04,739 --> 00:01:05,750
+ A and B.
+
+43
+00:01:05,940 --> 00:01:07,379
+ And it's similar to the end
+
+44
+00:01:07,389 --> 00:01:09,069
+ operation here because it's
+
+45
+00:01:09,080 --> 00:01:10,349
+ the or operation,
+
+46
+00:01:11,139 --> 00:01:12,470
+ the symbol we use here is
+
+47
+00:01:12,480 --> 00:01:13,339
+ the flipped one.
+
+48
+00:01:13,349 --> 00:01:14,680
+ So just a V
+
+49
+00:01:15,239 --> 00:01:16,540
+ as in the last video, we
+
+50
+00:01:16,550 --> 00:01:18,300
+ can define the symbol by
+
+51
+00:01:18,309 --> 00:01:19,800
+ writing down the truth table.
+
+52
+00:01:20,330 --> 00:01:21,519
+ The disjunction should be
+
+53
+00:01:21,529 --> 00:01:23,019
+ two when at least one of
+
+54
+00:01:23,029 --> 00:01:24,760
+ the two constituents is two.
+
+55
+00:01:25,500 --> 00:01:27,230
+ So we have two here, two
+
+56
+00:01:27,239 --> 00:01:27,779
+ here.
+
+57
+00:01:27,930 --> 00:01:29,919
+ And also the first line because
+
+58
+00:01:29,930 --> 00:01:31,489
+ both of them are two and
+
+59
+00:01:31,500 --> 00:01:32,940
+ we don't have an exclusive
+
+60
+00:01:32,949 --> 00:01:33,519
+ or here.
+
+61
+00:01:34,050 --> 00:01:35,510
+ However, when both of them
+
+62
+00:01:35,519 --> 00:01:37,319
+ are false, we have a false
+
+63
+00:01:38,029 --> 00:01:39,419
+ similar to the conjunction.
+
+64
+00:01:39,430 --> 00:01:41,059
+ You can also visualize this
+
+65
+00:01:41,069 --> 00:01:43,019
+ with a circuit and a lamp.
+
+66
+00:01:43,690 --> 00:01:45,260
+ In this case, the two switches
+
+67
+00:01:45,269 --> 00:01:46,910
+ just have to be parallel.
+
+68
+00:01:47,470 --> 00:01:48,879
+ Now having these logical
+
+69
+00:01:48,889 --> 00:01:50,790
+ operations, we can combine
+
+70
+00:01:50,800 --> 00:01:52,349
+ them in a lot of ways to
+
+71
+00:01:52,360 --> 00:01:54,190
+ get out new logical statements.
+
+72
+00:01:54,910 --> 00:01:55,989
+ Therefore, the natural thing
+
+73
+00:01:56,000 --> 00:01:57,900
+ to do is writing down a truth
+
+74
+00:01:57,910 --> 00:01:59,349
+ table for such a new
+
+75
+00:01:59,360 --> 00:01:59,970
+ combination.
+
+76
+00:02:00,970 --> 00:02:02,449
+ So let's consider a simple
+
+77
+00:02:02,459 --> 00:02:03,269
+ example here.
+
+78
+00:02:03,919 --> 00:02:05,650
+ What about not A
+
+79
+00:02:05,680 --> 00:02:06,500
+ or a?
+
+80
+00:02:07,309 --> 00:02:09,089
+ You see what we usually assume
+
+81
+00:02:09,100 --> 00:02:11,000
+ is that the NOT operator
+
+82
+00:02:11,008 --> 00:02:12,300
+ binds closest.
+
+83
+00:02:12,309 --> 00:02:13,389
+ Therefore, we don't need
+
+84
+00:02:13,399 --> 00:02:14,699
+ any parentheses here.
+
+85
+00:02:15,399 --> 00:02:16,759
+ Now, in this example, our
+
+86
+00:02:16,770 --> 00:02:18,479
+ combination just has one
+
+87
+00:02:18,490 --> 00:02:20,190
+ logic variable which means
+
+88
+00:02:20,199 --> 00:02:21,860
+ our truth table just needs
+
+89
+00:02:21,869 --> 00:02:22,839
+ two rows.
+
+90
+00:02:23,369 --> 00:02:23,720
+ OK?
+
+91
+00:02:23,729 --> 00:02:24,779
+ So let's fill that in.
+
+92
+00:02:24,789 --> 00:02:26,600
+ We know that not just flips
+
+93
+00:02:26,610 --> 00:02:28,490
+ the truth values and
+
+94
+00:02:28,500 --> 00:02:30,419
+ now the or just needs one
+
+95
+00:02:30,429 --> 00:02:30,949
+ true.
+
+96
+00:02:30,960 --> 00:02:32,809
+ So we have the true here and
+
+97
+00:02:32,820 --> 00:02:33,580
+ the true here.
+
+98
+00:02:34,199 --> 00:02:35,529
+ Now you see this
+
+99
+00:02:35,539 --> 00:02:37,339
+ combination always gets you
+
+100
+00:02:37,350 --> 00:02:39,119
+ a true statement out no
+
+101
+00:02:39,130 --> 00:02:40,500
+ matter what the truth value
+
+102
+00:02:40,509 --> 00:02:41,809
+ of the input A was.
+
+103
+00:02:42,550 --> 00:02:43,880
+ In logic, we call such a
+
+104
+00:02:43,889 --> 00:02:45,610
+ thing a tautology.
+
+105
+00:02:46,270 --> 00:02:47,619
+ So it's a combination of
+
+106
+00:02:47,630 --> 00:02:49,509
+ logical operations and logical
+
+107
+00:02:49,520 --> 00:02:51,460
+ variables that is always
+
+108
+00:02:51,470 --> 00:02:53,240
+ true no matter what the truth
+
+109
+00:02:53,250 --> 00:02:54,910
+ values are of the logical
+
+110
+00:02:54,919 --> 00:02:56,529
+ variables that are contained
+
+111
+00:02:56,539 --> 00:02:57,369
+ in the formula.
+
+112
+00:02:57,869 --> 00:02:59,330
+ Of course, this was a simple
+
+113
+00:02:59,339 --> 00:03:00,050
+ example.
+
+114
+00:03:00,059 --> 00:03:01,770
+ You could have many different
+
+115
+00:03:01,779 --> 00:03:03,169
+ logical variables in the
+
+116
+00:03:03,179 --> 00:03:03,770
+ formula.
+
+117
+00:03:03,919 --> 00:03:05,119
+ But then the truth table
+
+118
+00:03:05,130 --> 00:03:06,270
+ would be much bigger.
+
+119
+00:03:06,919 --> 00:03:08,119
+ Of course, knowing which
+
+120
+00:03:08,130 --> 00:03:09,850
+ combinations are tautologies is
+
+121
+00:03:09,860 --> 00:03:11,419
+ very helpful because you
+
+122
+00:03:11,429 --> 00:03:13,020
+ always can substitute this
+
+123
+00:03:13,029 --> 00:03:13,630
+ combination.
+
+124
+00:03:13,639 --> 00:03:15,199
+ Then with just a true
+
+125
+00:03:15,929 --> 00:03:17,419
+ now related to that is the
+
+126
+00:03:17,429 --> 00:03:18,960
+ notion of logical
+
+127
+00:03:18,970 --> 00:03:19,820
+ equivalence.
+
+128
+00:03:20,720 --> 00:03:22,179
+ It also tells you when you
+
+129
+00:03:22,190 --> 00:03:24,050
+ can substitute one formula
+
+130
+00:03:24,070 --> 00:03:25,979
+ with another, we
+
+131
+00:03:25,990 --> 00:03:27,699
+ call two logical statements.
+
+132
+00:03:27,710 --> 00:03:29,300
+ So combinations as we had
+
+133
+00:03:29,309 --> 00:03:30,830
+ before, logically
+
+134
+00:03:30,839 --> 00:03:32,410
+ equivalent, if the truth
+
+135
+00:03:32,419 --> 00:03:33,830
+ table looks the same for
+
+136
+00:03:33,839 --> 00:03:35,250
+ both more
+
+137
+00:03:35,259 --> 00:03:36,529
+ concretely, you have to look
+
+138
+00:03:36,539 --> 00:03:38,139
+ at all possible assignments
+
+139
+00:03:38,149 --> 00:03:40,119
+ of truth values for the logical
+
+140
+00:03:40,130 --> 00:03:41,839
+ variables that are included
+
+141
+00:03:41,850 --> 00:03:43,020
+ in both formulas.
+
+142
+00:03:43,720 --> 00:03:45,360
+ And if you get the same output
+
+143
+00:03:45,369 --> 00:03:47,130
+ for both formulas, we call
+
+144
+00:03:47,139 --> 00:03:48,820
+ them logically equivalent.
+
+145
+00:03:49,500 --> 00:03:49,880
+ OK?
+
+146
+00:03:49,889 --> 00:03:51,270
+ So it looks like a reasonable
+
+147
+00:03:51,279 --> 00:03:51,800
+ term.
+
+148
+00:03:51,809 --> 00:03:53,520
+ But to understand it, I think
+
+149
+00:03:53,529 --> 00:03:54,960
+ we should look at an example
+
+150
+00:03:55,809 --> 00:03:56,169
+ here.
+
+151
+00:03:56,179 --> 00:03:58,020
+ I want to consider A or
+
+152
+00:03:58,029 --> 00:03:59,619
+ B with a NOT in
+
+153
+00:03:59,630 --> 00:04:01,440
+ front and
+
+154
+00:04:01,449 --> 00:04:03,309
+ also not A
+
+155
+00:04:03,350 --> 00:04:04,779
+ and not B.
+
+156
+00:04:05,580 --> 00:04:07,029
+ So please keep in mind we
+
+157
+00:04:07,039 --> 00:04:08,910
+ need parentheses here, but
+
+158
+00:04:08,919 --> 00:04:09,550
+ not here.
+
+159
+00:04:10,259 --> 00:04:11,850
+ But of course, if you want,
+
+160
+00:04:11,910 --> 00:04:13,610
+ you are allowed to use them
+
+161
+00:04:13,619 --> 00:04:13,960
+ here.
+
+162
+00:04:14,899 --> 00:04:16,600
+ OK, then let's do a large
+
+163
+00:04:16,608 --> 00:04:17,480
+ truth table.
+
+164
+00:04:18,200 --> 00:04:19,730
+ Of course, we need here our
+
+165
+00:04:19,738 --> 00:04:21,548
+ inputs A and B
+
+166
+00:04:21,738 --> 00:04:23,170
+ and the outputs on the right
+
+167
+00:04:23,179 --> 00:04:23,779
+ hand side.
+
+168
+00:04:24,529 --> 00:04:25,559
+ Then in the next step, we
+
+169
+00:04:25,570 --> 00:04:27,209
+ can fill in all possible
+
+170
+00:04:27,220 --> 00:04:28,619
+ combinations of the truth
+
+171
+00:04:28,630 --> 00:04:30,029
+ values of the logical
+
+172
+00:04:30,040 --> 00:04:30,750
+ variables.
+
+173
+00:04:31,390 --> 00:04:32,809
+ Afterwards, we have to think
+
+174
+00:04:32,820 --> 00:04:34,350
+ what are good intermediate
+
+175
+00:04:34,359 --> 00:04:36,010
+ steps to reach our result.
+
+176
+00:04:36,019 --> 00:04:37,890
+ On the right hand side here.
+
+177
+00:04:37,899 --> 00:04:39,170
+ For example, I would say
+
+178
+00:04:39,179 --> 00:04:41,010
+ we calculate first A or
+
+179
+00:04:41,019 --> 00:04:42,769
+ B for this, we
+
+180
+00:04:42,779 --> 00:04:44,239
+ already know the truth table.
+
+181
+00:04:44,250 --> 00:04:46,089
+ We have true true true
+
+182
+00:04:46,100 --> 00:04:46,760
+ false.
+
+183
+00:04:47,459 --> 00:04:48,579
+ And then we just have to
+
+184
+00:04:48,589 --> 00:04:50,200
+ use the negation which
+
+185
+00:04:50,209 --> 00:04:51,950
+ switches all the truth values.
+
+186
+00:04:51,959 --> 00:04:53,750
+ So we have False False False
+
+187
+00:04:53,760 --> 00:04:54,279
+ true.
+
+188
+00:04:54,959 --> 00:04:56,059
+ So now we finish with the
+
+189
+00:04:56,070 --> 00:04:56,940
+ first one.
+
+190
+00:04:56,950 --> 00:04:58,070
+ And for the second one, I
+
+191
+00:04:58,079 --> 00:04:59,440
+ would say we first write
+
+192
+00:04:59,450 --> 00:05:01,399
+ down not A and afterwards
+
+193
+00:05:01,410 --> 00:05:02,679
+ we write down not B
+
+194
+00:05:03,380 --> 00:05:03,820
+ OK.
+
+195
+00:05:03,829 --> 00:05:05,040
+ Filling this in was not so
+
+196
+00:05:05,049 --> 00:05:06,559
+ hard because we already know
+
+197
+00:05:06,570 --> 00:05:07,519
+ how to do this.
+
+198
+00:05:07,720 --> 00:05:09,119
+ And now for the last step,
+
+199
+00:05:09,130 --> 00:05:11,119
+ we have to use the and operator
+
+200
+00:05:11,850 --> 00:05:12,839
+ in the first line, we have
+
+201
+00:05:12,850 --> 00:05:13,899
+ false and false.
+
+202
+00:05:13,910 --> 00:05:15,820
+ So this is false, then we
+
+203
+00:05:15,829 --> 00:05:17,420
+ have false and two still
+
+204
+00:05:17,429 --> 00:05:18,010
+ false.
+
+205
+00:05:18,149 --> 00:05:19,790
+ Then we have two and false
+
+206
+00:05:19,799 --> 00:05:20,929
+ still false.
+
+207
+00:05:21,209 --> 00:05:22,170
+ And in the last line, we
+
+208
+00:05:22,179 --> 00:05:23,829
+ have two and two, which is
+
+209
+00:05:23,839 --> 00:05:24,239
+ two.
+
+210
+00:05:24,950 --> 00:05:26,529
+ And there we have our result,
+
+211
+00:05:26,540 --> 00:05:28,010
+ the truth values for both
+
+212
+00:05:28,019 --> 00:05:29,390
+ combinations match
+
+213
+00:05:29,399 --> 00:05:30,089
+ completely.
+
+214
+00:05:31,010 --> 00:05:32,500
+ In other words, they are
+
+215
+00:05:32,510 --> 00:05:34,100
+ logically equivalent.
+
+216
+00:05:34,869 --> 00:05:36,130
+ And the symbol we use for
+
+217
+00:05:36,140 --> 00:05:37,660
+ this is this double
+
+218
+00:05:37,679 --> 00:05:39,529
+ arrow for
+
+219
+00:05:39,540 --> 00:05:39,690
+ you.
+
+220
+00:05:39,700 --> 00:05:40,920
+ This means if you have a
+
+221
+00:05:40,929 --> 00:05:42,670
+ large formula as a logical
+
+222
+00:05:42,679 --> 00:05:43,929
+ statement where you have
+
+223
+00:05:43,940 --> 00:05:45,269
+ this part inside,
+
+224
+00:05:45,980 --> 00:05:47,290
+ you can easily substitute
+
+225
+00:05:47,299 --> 00:05:49,010
+ this with this one without
+
+226
+00:05:49,019 --> 00:05:50,489
+ changing the truth value
+
+227
+00:05:50,709 --> 00:05:52,359
+ and also the other way around.
+
+228
+00:05:53,049 --> 00:05:54,399
+ So the logical equivalence
+
+229
+00:05:54,410 --> 00:05:55,630
+ is what you can use to
+
+230
+00:05:55,640 --> 00:05:57,239
+ simplify a complicated
+
+231
+00:05:57,250 --> 00:05:59,029
+ expression step by step.
+
+232
+00:06:00,010 --> 00:06:01,589
+ Of course, we will see examples
+
+233
+00:06:01,600 --> 00:06:02,070
+ of this.
+
+234
+00:06:02,160 --> 00:06:03,529
+ But first, I want to use
+
+235
+00:06:03,540 --> 00:06:05,160
+ the next video to show you
+
+236
+00:06:05,170 --> 00:06:06,700
+ more logical operations.
+
+237
+00:06:07,549 --> 00:06:08,760
+ So I hope I see you there
+
+238
+00:06:08,769 --> 00:06:10,089
+ and have a nice day.
+
+239
+00:06:10,179 --> 00:06:10,850
+ Bye.
+
