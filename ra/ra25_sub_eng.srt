@@ -580,7 +580,7 @@
 
 146
 00:04:02,089 --> 00:04:02,809
- supreme.
+ supremum.
 
 147
 00:04:03,449 --> 00:04:05,320
@@ -608,7 +608,7 @@
 
 153
 00:04:13,910 --> 00:04:15,419
- it the supreme norm.
+ it the supremum norm.
 
 154
 00:04:15,970 --> 00:04:17,238
@@ -640,7 +640,7 @@
 
 161
 00:04:26,640 --> 00:04:28,320
- So this is the supreme norm
+ So this is the supremum norm
 
 162
 00:04:28,329 --> 00:04:29,899
@@ -664,7 +664,7 @@
 
 167
 00:04:37,350 --> 00:04:39,100
- supreme norm gives us a
+ supremum norm gives us a
 
 168
 00:04:39,109 --> 00:04:40,920
@@ -680,7 +680,7 @@
 
 171
 00:04:44,769 --> 00:04:46,209
- supreme norm goes to
+ supremum norm goes to
 
 172
 00:04:46,220 --> 00:04:47,799
@@ -820,7 +820,7 @@
 
 206
 00:05:36,380 --> 00:05:37,269
- supreme norm.
+ supremum norm.
 
 207
 00:05:37,799 --> 00:05:39,290
@@ -900,7 +900,7 @@
 
 226
 00:06:06,829 --> 00:06:08,640
- We immediately know the supreme
+ We immediately know the supremum
 
 227
 00:06:08,649 --> 00:06:10,559
