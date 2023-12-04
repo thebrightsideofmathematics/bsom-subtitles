@@ -1,0 +1,1204 @@
+1
+00:00:00,270 --> 00:00:02,049
+ Hello and welcome back
+
+2
+00:00:02,059 --> 00:00:03,559
+ to distributions.
+
+3
+00:00:03,960 --> 00:00:05,369
+ And first, as always, I want
+
+4
+00:00:05,380 --> 00:00:06,849
+ to thank all the nice people
+
+5
+00:00:06,860 --> 00:00:07,909
+ that support this channel
+
+6
+00:00:07,920 --> 00:00:09,289
+ on Steady or paypal.
+
+7
+00:00:09,670 --> 00:00:11,130
+ In today's part six, we will
+
+8
+00:00:11,140 --> 00:00:12,409
+ show that the delta
+
+9
+00:00:12,420 --> 00:00:14,189
+ distribution is not a
+
+10
+00:00:14,199 --> 00:00:15,560
+ regular distribution.
+
+11
+00:00:16,059 --> 00:00:17,940
+ So usually we say it's a
+
+12
+00:00:17,950 --> 00:00:19,329
+ singular distribution
+
+13
+00:00:19,850 --> 00:00:21,309
+ more concretely, this means
+
+14
+00:00:21,319 --> 00:00:22,709
+ there's no locally
+
+15
+00:00:22,719 --> 00:00:24,370
+ integrable function F
+
+16
+00:00:25,149 --> 00:00:26,819
+ defined on RN with
+
+17
+00:00:26,829 --> 00:00:28,600
+ values in R or C as
+
+18
+00:00:28,610 --> 00:00:30,090
+ always with the
+
+19
+00:00:30,100 --> 00:00:31,670
+ property that delta of
+
+20
+00:00:31,680 --> 00:00:33,290
+ Phi is the same as
+
+21
+00:00:33,299 --> 00:00:34,680
+ TF of Phi.
+
+22
+00:00:35,349 --> 00:00:36,830
+ And of course, this property
+
+23
+00:00:36,840 --> 00:00:38,529
+ should hold for all test
+
+24
+00:00:38,540 --> 00:00:40,509
+ functions Phi, OK.
+
+25
+00:00:40,520 --> 00:00:42,439
+ Now, as a reminder TF of
+
+26
+00:00:42,450 --> 00:00:44,310
+ Phi was defined by the
+
+27
+00:00:44,319 --> 00:00:45,130
+ integral.
+
+28
+00:00:45,520 --> 00:00:47,200
+ So we integrate FX
+
+29
+00:00:47,209 --> 00:00:49,130
+ times Phi X and
+
+30
+00:00:49,139 --> 00:00:50,130
+ we already showed in the
+
+31
+00:00:50,139 --> 00:00:51,869
+ last video that for locally
+
+32
+00:00:51,880 --> 00:00:53,360
+ integral with function F,
+
+33
+00:00:53,369 --> 00:00:54,689
+ this always defines a
+
+34
+00:00:54,700 --> 00:00:55,650
+ distribution.
+
+35
+00:00:56,119 --> 00:00:57,389
+ On the other hand, if we
+
+36
+00:00:57,400 --> 00:00:58,810
+ put Phi into the delta
+
+37
+00:00:58,819 --> 00:01:00,349
+ distribution, we get out
+
+38
+00:01:00,360 --> 00:01:01,759
+ the value of Phi at
+
+39
+00:01:01,770 --> 00:01:02,409
+ zero.
+
+40
+00:01:02,959 --> 00:01:04,650
+ Now, our claim here is for
+
+41
+00:01:04,660 --> 00:01:06,459
+ no F this equality is
+
+42
+00:01:06,470 --> 00:01:07,180
+ possible.
+
+43
+00:01:07,730 --> 00:01:09,220
+ Indeed, this is a standard
+
+44
+00:01:09,230 --> 00:01:10,199
+ exercise.
+
+45
+00:01:10,230 --> 00:01:11,760
+ And here I want to show you
+
+46
+00:01:11,769 --> 00:01:12,739
+ the proof of it.
+
+47
+00:01:13,269 --> 00:01:14,459
+ Let's do it with a proof
+
+48
+00:01:14,470 --> 00:01:15,720
+ by contradiction.
+
+49
+00:01:16,339 --> 00:01:17,690
+ Therefore, let's assume that
+
+50
+00:01:17,699 --> 00:01:19,230
+ we find such a function
+
+51
+00:01:19,239 --> 00:01:20,190
+ F.
+
+52
+00:01:20,199 --> 00:01:21,449
+ So it's a locally integrable
+
+53
+00:01:21,750 --> 00:01:23,059
+ function where we usually
+
+54
+00:01:23,069 --> 00:01:24,389
+ use this symbol here.
+
+55
+00:01:24,870 --> 00:01:26,559
+ And now this property here
+
+56
+00:01:26,569 --> 00:01:28,269
+ will lead to a contradiction.
+
+57
+00:01:28,919 --> 00:01:29,290
+ OK.
+
+58
+00:01:29,300 --> 00:01:30,739
+ Now, in the first step, I
+
+59
+00:01:30,750 --> 00:01:32,129
+ just want to integrate the
+
+60
+00:01:32,139 --> 00:01:33,489
+ function F itself.
+
+61
+00:01:33,980 --> 00:01:35,790
+ So we already know this gives
+
+62
+00:01:35,800 --> 00:01:37,279
+ us a finite number by
+
+63
+00:01:37,290 --> 00:01:39,250
+ assumption when we integrate
+
+64
+00:01:39,260 --> 00:01:40,690
+ over a compact set.
+
+65
+00:01:41,339 --> 00:01:42,730
+ And for this, let's simply
+
+66
+00:01:42,739 --> 00:01:44,400
+ choose the unit ball.
+
+67
+00:01:44,800 --> 00:01:46,330
+ One possibility to describe
+
+68
+00:01:46,339 --> 00:01:47,839
+ this would be simply to write
+
+69
+00:01:47,849 --> 00:01:49,080
+ that the Euclidean norm of
+
+70
+00:01:49,089 --> 00:01:50,830
+ X is less or equal than
+
+71
+00:01:50,839 --> 00:01:51,279
+ one.
+
+72
+00:01:51,830 --> 00:01:53,389
+ And in order to get a positive
+
+73
+00:01:53,400 --> 00:01:55,150
+ number out here, we also
+
+74
+00:01:55,160 --> 00:01:56,959
+ use the absolute value inside.
+
+75
+00:01:57,709 --> 00:01:59,150
+ Then we know we get out a
+
+76
+00:01:59,160 --> 00:02:00,519
+ number A which is a
+
+77
+00:02:00,529 --> 00:02:02,250
+ finite positive number.
+
+78
+00:02:02,930 --> 00:02:04,069
+ Now to get an idea of what
+
+79
+00:02:04,080 --> 00:02:05,779
+ we do here, let's sketch
+
+80
+00:02:05,790 --> 00:02:07,069
+ the region where we integrate
+
+81
+00:02:07,080 --> 00:02:08,429
+ over in the case that the
+
+82
+00:02:08,440 --> 00:02:09,669
+ dimension is two
+
+83
+00:02:10,399 --> 00:02:11,429
+ there, we just have this
+
+84
+00:02:11,440 --> 00:02:13,139
+ circle where we integrate
+
+85
+00:02:13,149 --> 00:02:14,539
+ over the whole disc.
+
+86
+00:02:15,059 --> 00:02:16,419
+ Now, what I want to do is
+
+87
+00:02:16,429 --> 00:02:17,660
+ to go closer to the
+
+88
+00:02:17,669 --> 00:02:19,600
+ 0.0 to the origin
+
+89
+00:02:19,610 --> 00:02:21,250
+ because this is the one we
+
+90
+00:02:21,259 --> 00:02:22,139
+ are interested in.
+
+91
+00:02:22,850 --> 00:02:24,520
+ Therefore, we can take smaller
+
+92
+00:02:24,529 --> 00:02:25,970
+ and smaller circles here
+
+93
+00:02:26,029 --> 00:02:27,339
+ and can split up the whole
+
+94
+00:02:27,350 --> 00:02:27,750
+ region.
+
+95
+00:02:28,419 --> 00:02:29,880
+ Of course, we do this with
+
+96
+00:02:29,889 --> 00:02:31,580
+ infinitely many circles
+
+97
+00:02:31,589 --> 00:02:33,169
+ where we choose one over
+
+98
+00:02:33,179 --> 00:02:34,660
+ K as the radius.
+
+99
+00:02:35,050 --> 00:02:36,860
+ So we start with 1/1, then
+
+100
+00:02:36,869 --> 00:02:38,199
+ comes 1/2
+
+101
+00:02:38,210 --> 00:02:39,979
+ 1/3 and so on.
+
+102
+00:02:40,419 --> 00:02:41,800
+ And then our idea is that
+
+103
+00:02:41,809 --> 00:02:43,600
+ we can simply take the union
+
+104
+00:02:43,610 --> 00:02:45,470
+ of all these rings here.
+
+105
+00:02:45,949 --> 00:02:47,619
+ And then this infinite union
+
+106
+00:02:47,630 --> 00:02:49,580
+ is again the whole disc.
+
+107
+00:02:50,160 --> 00:02:50,559
+ OK.
+
+108
+00:02:50,570 --> 00:02:51,639
+ I don't think we need to
+
+109
+00:02:51,649 --> 00:02:53,360
+ formalize this even more
+
+110
+00:02:53,479 --> 00:02:54,830
+ because the idea should be
+
+111
+00:02:54,839 --> 00:02:55,320
+ clear.
+
+112
+00:02:55,929 --> 00:02:57,119
+ The important thing we get
+
+113
+00:02:57,130 --> 00:02:58,399
+ is that here at the
+
+114
+00:02:58,410 --> 00:03:00,369
+ integral, we have a countable
+
+115
+00:03:00,380 --> 00:03:01,000
+ union.
+
+116
+00:03:01,699 --> 00:03:02,929
+ And now when you know some
+
+117
+00:03:02,940 --> 00:03:04,619
+ measure theory or integration
+
+118
+00:03:04,630 --> 00:03:06,149
+ theory, you immediately know
+
+119
+00:03:06,160 --> 00:03:08,070
+ what to do because here
+
+120
+00:03:08,080 --> 00:03:09,699
+ we have a disjoint union,
+
+121
+00:03:10,259 --> 00:03:11,839
+ we can simply write the whole
+
+122
+00:03:11,850 --> 00:03:13,669
+ integral as an infinite sum
+
+123
+00:03:13,679 --> 00:03:15,380
+ over the single integrals
+
+124
+00:03:15,389 --> 00:03:16,380
+ over the rings.
+
+125
+00:03:16,740 --> 00:03:18,320
+ Of course, this whole procedure
+
+126
+00:03:18,330 --> 00:03:19,710
+ here is very natural.
+
+127
+00:03:19,720 --> 00:03:20,869
+ But it's the thing we have
+
+128
+00:03:20,880 --> 00:03:22,520
+ to put in for the integrals.
+
+129
+00:03:23,309 --> 00:03:24,169
+ In the case, you want to
+
+130
+00:03:24,179 --> 00:03:25,660
+ learn more about the details
+
+131
+00:03:25,669 --> 00:03:27,169
+ here, you can simply watch
+
+132
+00:03:27,179 --> 00:03:28,860
+ my measure theory videos.
+
+133
+00:03:29,490 --> 00:03:31,059
+ Now the result we get here
+
+134
+00:03:31,070 --> 00:03:32,860
+ is an infinite sum a series
+
+135
+00:03:32,869 --> 00:03:34,619
+ which has a finite value.
+
+136
+00:03:35,309 --> 00:03:36,800
+ Therefore, we can conclude
+
+137
+00:03:36,809 --> 00:03:38,360
+ that the sequence given by
+
+138
+00:03:38,369 --> 00:03:40,139
+ these integrals here is a
+
+139
+00:03:40,149 --> 00:03:41,520
+ sequence that converges to
+
+140
+00:03:41,529 --> 00:03:42,139
+ zero.
+
+141
+00:03:42,639 --> 00:03:44,220
+ And we know even more if
+
+142
+00:03:44,229 --> 00:03:45,619
+ we shift the starting point
+
+143
+00:03:45,630 --> 00:03:47,479
+ here, we can make this series
+
+144
+00:03:47,490 --> 00:03:48,889
+ as small as we want.
+
+145
+00:03:49,250 --> 00:03:50,679
+ For example, we could make
+
+146
+00:03:50,690 --> 00:03:52,539
+ it smaller than one half
+
+147
+00:03:53,070 --> 00:03:54,929
+ and I take one half because
+
+148
+00:03:54,940 --> 00:03:56,300
+ it's a number that is smaller
+
+149
+00:03:56,309 --> 00:03:57,259
+ than one.
+
+150
+00:03:57,389 --> 00:03:58,800
+ And this is what we need
+
+151
+00:03:58,809 --> 00:03:59,860
+ for the contradiction.
+
+152
+00:04:00,490 --> 00:04:00,869
+ OK.
+
+153
+00:04:00,880 --> 00:04:02,380
+ And now we can just summarize
+
+154
+00:04:02,389 --> 00:04:03,210
+ the whole thing.
+
+155
+00:04:03,270 --> 00:04:04,839
+ I only did it to show
+
+156
+00:04:04,850 --> 00:04:06,770
+ you that we find an epsilon
+
+157
+00:04:06,779 --> 00:04:07,949
+ greater than zero.
+
+158
+00:04:08,380 --> 00:04:09,979
+ Such that the integral
+
+159
+00:04:09,990 --> 00:04:11,830
+ over the epsilon ball is
+
+160
+00:04:11,839 --> 00:04:13,809
+ a number B which is smaller
+
+161
+00:04:13,820 --> 00:04:14,789
+ than one half.
+
+162
+00:04:15,350 --> 00:04:16,630
+ So the whole explanation
+
+163
+00:04:16,640 --> 00:04:18,410
+ told you if we make the
+
+164
+00:04:18,420 --> 00:04:20,190
+ epsilon ball small enough,
+
+165
+00:04:20,200 --> 00:04:21,910
+ we can make the whole integral
+
+166
+00:04:21,920 --> 00:04:23,350
+ as small as we want.
+
+167
+00:04:23,970 --> 00:04:25,380
+ Of course, this makes totally
+
+168
+00:04:25,390 --> 00:04:26,750
+ sense if you just think of
+
+169
+00:04:26,760 --> 00:04:28,369
+ some ordinary functions.
+
+170
+00:04:28,690 --> 00:04:30,549
+ However, it also holds for
+
+171
+00:04:30,559 --> 00:04:32,359
+ a locally integrable function.
+
+172
+00:04:32,519 --> 00:04:34,029
+ Now, this was just a rough
+
+173
+00:04:34,040 --> 00:04:35,369
+ idea, but I don't think you
+
+174
+00:04:35,380 --> 00:04:37,019
+ will have any problems filling
+
+175
+00:04:37,029 --> 00:04:37,950
+ in the details.
+
+176
+00:04:38,119 --> 00:04:39,670
+ For example, one detail I
+
+177
+00:04:39,679 --> 00:04:41,149
+ skipped here is that in this
+
+178
+00:04:41,160 --> 00:04:42,709
+ union, we will not
+
+179
+00:04:42,720 --> 00:04:44,510
+ include zero as a point.
+
+180
+00:04:44,760 --> 00:04:45,839
+ However, since the whole
+
+181
+00:04:45,850 --> 00:04:47,470
+ integral here does not care
+
+182
+00:04:47,480 --> 00:04:49,049
+ about a single point, the
+
+183
+00:04:49,059 --> 00:04:50,170
+ whole calculation is still
+
+184
+00:04:50,179 --> 00:04:50,790
+ correct.
+
+185
+00:04:51,320 --> 00:04:51,670
+ OK.
+
+186
+00:04:51,679 --> 00:04:53,290
+ Now, with this result from
+
+187
+00:04:53,299 --> 00:04:54,829
+ the first step, we are ready
+
+188
+00:04:54,839 --> 00:04:56,130
+ to finish the proof
+
+189
+00:04:56,679 --> 00:04:58,250
+ because we look at the delta
+
+190
+00:04:58,260 --> 00:04:59,609
+ distribution, it would be
+
+191
+00:04:59,619 --> 00:05:01,410
+ good to have test functions
+
+192
+00:05:01,420 --> 00:05:02,609
+ that are concentrated at
+
+193
+00:05:02,619 --> 00:05:03,209
+ zero.
+
+194
+00:05:03,600 --> 00:05:04,910
+ Indeed, we already know a
+
+195
+00:05:04,920 --> 00:05:06,769
+ nice one from part two of
+
+196
+00:05:06,779 --> 00:05:08,769
+ the video series, it was
+
+197
+00:05:08,779 --> 00:05:10,750
+ set to zero outside of
+
+198
+00:05:10,760 --> 00:05:12,410
+ the unit ball and
+
+199
+00:05:12,420 --> 00:05:14,109
+ inside the unit ball, it
+
+200
+00:05:14,119 --> 00:05:15,769
+ was given by an exponential
+
+201
+00:05:15,779 --> 00:05:16,209
+ function.
+
+202
+00:05:16,910 --> 00:05:18,660
+ This is a nice test function
+
+203
+00:05:18,670 --> 00:05:20,510
+ and the one dimensional visualization
+
+204
+00:05:20,519 --> 00:05:22,399
+ would be just such a bump
+
+205
+00:05:23,109 --> 00:05:24,410
+ where the maximum is
+
+206
+00:05:24,420 --> 00:05:25,989
+ exactly at zero.
+
+207
+00:05:26,450 --> 00:05:26,790
+ OK.
+
+208
+00:05:26,799 --> 00:05:27,980
+ Now you already know from
+
+209
+00:05:27,989 --> 00:05:29,420
+ the first part, the unit
+
+210
+00:05:29,429 --> 00:05:30,850
+ ball might be not small
+
+211
+00:05:30,859 --> 00:05:31,529
+ enough.
+
+212
+00:05:31,540 --> 00:05:32,670
+ Therefore, we should take
+
+213
+00:05:32,679 --> 00:05:34,200
+ this epsilon ball here.
+
+214
+00:05:34,649 --> 00:05:35,809
+ Therefore, I would say let's
+
+215
+00:05:35,820 --> 00:05:37,329
+ change the function phi a
+
+216
+00:05:37,339 --> 00:05:39,130
+ little bit with this epsilon,
+
+217
+00:05:39,549 --> 00:05:41,309
+ it should be zero outside
+
+218
+00:05:41,320 --> 00:05:43,290
+ of the epsilon ball and
+
+219
+00:05:43,299 --> 00:05:45,010
+ inside it should be the same
+
+220
+00:05:45,019 --> 00:05:46,170
+ exponential function.
+
+221
+00:05:47,059 --> 00:05:48,790
+ Therefore, also inside the
+
+222
+00:05:48,799 --> 00:05:50,489
+ exponential function we have
+
+223
+00:05:50,500 --> 00:05:52,070
+ to divide by epsilon.
+
+224
+00:05:52,579 --> 00:05:53,970
+ And then you see this was
+
+225
+00:05:53,980 --> 00:05:55,540
+ just scaling the whole test
+
+226
+00:05:55,549 --> 00:05:56,070
+ function.
+
+227
+00:05:56,779 --> 00:05:58,010
+ Everything looks exactly
+
+228
+00:05:58,019 --> 00:05:59,839
+ the same just zoom to
+
+229
+00:05:59,850 --> 00:06:01,160
+ the epsilon ball instead of
+
+230
+00:06:01,170 --> 00:06:02,070
+ the unit ball.
+
+231
+00:06:02,440 --> 00:06:02,670
+ OK.
+
+232
+00:06:02,679 --> 00:06:04,450
+ Then let's calculate with
+
+233
+00:06:04,459 --> 00:06:05,480
+ this test function
+
+234
+00:06:06,209 --> 00:06:07,869
+ by assumption this integral
+
+235
+00:06:07,880 --> 00:06:09,420
+ here is given by the delta
+
+236
+00:06:09,429 --> 00:06:11,029
+ distribution which means
+
+237
+00:06:11,040 --> 00:06:12,380
+ it gives us the value of
+
+238
+00:06:12,390 --> 00:06:13,940
+ the test function at zero.
+
+239
+00:06:14,500 --> 00:06:15,700
+ It's a positive number.
+
+240
+00:06:15,709 --> 00:06:17,299
+ Hence, we don't change anything
+
+241
+00:06:17,309 --> 00:06:18,869
+ when we use absolute values
+
+242
+00:06:18,880 --> 00:06:20,420
+ here, it makes everything
+
+243
+00:06:20,429 --> 00:06:21,790
+ easier because we can just
+
+244
+00:06:21,799 --> 00:06:23,640
+ apply the triangle inequality
+
+245
+00:06:23,649 --> 00:06:24,799
+ for integrals.
+
+246
+00:06:25,269 --> 00:06:26,470
+ So now we have the absolute
+
+247
+00:06:26,480 --> 00:06:27,929
+ value inside the
+
+248
+00:06:27,940 --> 00:06:28,640
+ integral.
+
+249
+00:06:28,920 --> 00:06:30,239
+ This means that we can just
+
+250
+00:06:30,250 --> 00:06:32,019
+ pull out the supreme norm
+
+251
+00:06:32,029 --> 00:06:33,119
+ of the test function.
+
+252
+00:06:33,579 --> 00:06:34,970
+ However, before we do that,
+
+253
+00:06:34,980 --> 00:06:36,260
+ we should change the region
+
+254
+00:06:36,269 --> 00:06:38,040
+ where we integrate over to
+
+255
+00:06:38,049 --> 00:06:39,049
+ the epsilon ball.
+
+256
+00:06:39,459 --> 00:06:41,170
+ Because outside of the epsilon
+
+257
+00:06:41,179 --> 00:06:42,609
+ ball, everything is zero
+
+258
+00:06:42,619 --> 00:06:43,890
+ by the test function.
+
+259
+00:06:44,239 --> 00:06:45,559
+ And maybe now you already
+
+260
+00:06:45,570 --> 00:06:47,239
+ see why we care so much about
+
+261
+00:06:47,250 --> 00:06:48,160
+ the epsilon ball.
+
+262
+00:06:48,260 --> 00:06:49,829
+ First, let's pull out the
+
+263
+00:06:49,839 --> 00:06:51,130
+ supremum norm of the test
+
+264
+00:06:51,140 --> 00:06:51,779
+ function.
+
+265
+00:06:52,109 --> 00:06:53,630
+ And then you see only this
+
+266
+00:06:53,640 --> 00:06:55,250
+ integral here remains
+
+267
+00:06:55,420 --> 00:06:57,279
+ first, the supremum here
+
+268
+00:06:57,290 --> 00:06:58,660
+ we already know it's the
+
+269
+00:06:58,670 --> 00:07:00,149
+ value at zero more
+
+270
+00:07:00,160 --> 00:07:01,690
+ concretely the same as the
+
+271
+00:07:01,700 --> 00:07:02,609
+ left hand side.
+
+272
+00:07:03,140 --> 00:07:04,660
+ And the second part here
+
+273
+00:07:04,670 --> 00:07:06,079
+ is equal to B
+
+274
+00:07:06,380 --> 00:07:08,339
+ however, B was smaller
+
+275
+00:07:08,350 --> 00:07:10,339
+ than one half, which
+
+276
+00:07:10,350 --> 00:07:12,220
+ means we have an inequality
+
+277
+00:07:12,239 --> 00:07:14,000
+ which can't be satisfied.
+
+278
+00:07:14,410 --> 00:07:16,019
+ So we have a positive number
+
+279
+00:07:16,029 --> 00:07:17,820
+ which does not get smaller
+
+280
+00:07:17,829 --> 00:07:19,059
+ when we multiply it with
+
+281
+00:07:19,070 --> 00:07:19,799
+ one half.
+
+282
+00:07:20,290 --> 00:07:21,609
+ And such a positive real
+
+283
+00:07:21,619 --> 00:07:23,369
+ number does not exist.
+
+284
+00:07:24,029 --> 00:07:25,769
+ And this is indeed our wanted
+
+285
+00:07:25,779 --> 00:07:27,440
+ contradiction in
+
+286
+00:07:27,450 --> 00:07:29,190
+ conclusion such a locally
+
+287
+00:07:29,200 --> 00:07:30,869
+ integral function F for the
+
+288
+00:07:30,880 --> 00:07:32,559
+ delta distribution does not
+
+289
+00:07:32,570 --> 00:07:33,239
+ exist.
+
+290
+00:07:33,760 --> 00:07:35,570
+ Therefore, the delta distribution
+
+291
+00:07:35,579 --> 00:07:36,769
+ is not a regular
+
+292
+00:07:36,779 --> 00:07:37,670
+ distribution.
+
+293
+00:07:38,019 --> 00:07:38,320
+ OK.
+
+294
+00:07:38,329 --> 00:07:39,480
+ Then in the next video, I
+
+295
+00:07:39,489 --> 00:07:40,609
+ will show you what we can
+
+296
+00:07:40,619 --> 00:07:42,220
+ really do with distributions
+
+297
+00:07:42,230 --> 00:07:43,399
+ and how to calculate with
+
+298
+00:07:43,410 --> 00:07:43,980
+ them.
+
+299
+00:07:43,989 --> 00:07:45,149
+ Therefore, I hope I see you
+
+300
+00:07:45,160 --> 00:07:46,480
+ there and have a nice day.
+
+301
+00:07:46,489 --> 00:07:47,160
+ Bye.
+
