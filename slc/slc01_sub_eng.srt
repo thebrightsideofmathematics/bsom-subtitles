@@ -1,0 +1,860 @@
+1
+00:00:00,409 --> 00:00:02,029
+ Hello and welcome to
+
+2
+00:00:02,039 --> 00:00:03,710
+ start learning complex
+
+3
+00:00:03,720 --> 00:00:05,489
+ numbers, a video course where
+
+4
+00:00:05,500 --> 00:00:07,190
+ I introduce you to the field
+
+5
+00:00:07,199 --> 00:00:08,550
+ of complex numbers.
+
+6
+00:00:09,039 --> 00:00:10,369
+ So I want to show you how
+
+7
+00:00:10,380 --> 00:00:12,180
+ we can construct these numbers
+
+8
+00:00:12,189 --> 00:00:13,270
+ and how we can calculate
+
+9
+00:00:13,279 --> 00:00:13,819
+ with them.
+
+10
+00:00:14,229 --> 00:00:15,670
+ However, before we do that,
+
+11
+00:00:15,680 --> 00:00:17,180
+ I first want to thank all
+
+12
+00:00:17,190 --> 00:00:18,569
+ the nice people that support
+
+13
+00:00:18,579 --> 00:00:19,979
+ this channel on Steady or
+
+14
+00:00:19,989 --> 00:00:20,620
+ paypal.
+
+15
+00:00:21,309 --> 00:00:22,510
+ Now, the starting point for
+
+16
+00:00:22,520 --> 00:00:24,069
+ the complex numbers is the
+
+17
+00:00:24,079 --> 00:00:25,760
+ real number line R
+
+18
+00:00:26,309 --> 00:00:26,610
+ there.
+
+19
+00:00:26,620 --> 00:00:28,239
+ You should know we find all
+
+20
+00:00:28,250 --> 00:00:29,809
+ integers on the number line,
+
+21
+00:00:29,819 --> 00:00:31,809
+ all fractions but also
+
+22
+00:00:31,819 --> 00:00:33,209
+ irrational numbers like the
+
+23
+00:00:33,220 --> 00:00:34,169
+ square root of two.
+
+24
+00:00:34,909 --> 00:00:36,639
+ Moreover, we also know that
+
+25
+00:00:36,650 --> 00:00:38,279
+ we have two operations, the
+
+26
+00:00:38,290 --> 00:00:40,180
+ addition and the multiplication
+
+27
+00:00:40,740 --> 00:00:41,939
+ and we know that they fulfill
+
+28
+00:00:41,950 --> 00:00:43,330
+ a lot of rules such that
+
+29
+00:00:43,340 --> 00:00:45,159
+ we call R a field.
+
+30
+00:00:45,590 --> 00:00:47,400
+ Then we also have an ordering
+
+31
+00:00:47,409 --> 00:00:49,259
+ so we can compare two numbers
+
+32
+00:00:49,840 --> 00:00:51,400
+ and this ordering also
+
+33
+00:00:51,409 --> 00:00:53,119
+ satisfies some rules.
+
+34
+00:00:53,169 --> 00:00:54,680
+ Finally, the last
+
+35
+00:00:54,689 --> 00:00:56,520
+ property is the completeness
+
+36
+00:00:56,529 --> 00:00:57,770
+ which tells us that there
+
+37
+00:00:57,779 --> 00:00:59,560
+ are no holes on this number
+
+38
+00:00:59,569 --> 00:00:59,919
+ line.
+
+39
+00:01:00,590 --> 00:01:01,049
+ OK.
+
+40
+00:01:01,060 --> 00:01:02,689
+ Then let's discuss what one
+
+41
+00:01:02,700 --> 00:01:04,680
+ can do with these real numbers
+
+42
+00:01:04,690 --> 00:01:05,050
+ here.
+
+43
+00:01:05,680 --> 00:01:07,449
+ For example, we can say
+
+44
+00:01:07,480 --> 00:01:09,050
+ that we are able to solve
+
+45
+00:01:09,059 --> 00:01:10,279
+ a lot of equations
+
+46
+00:01:11,089 --> 00:01:12,959
+ solving X plus five
+
+47
+00:01:12,970 --> 00:01:14,860
+ is equal to one is no
+
+48
+00:01:14,870 --> 00:01:15,760
+ problem at all.
+
+49
+00:01:16,260 --> 00:01:17,800
+ In the same way, we can also
+
+50
+00:01:17,809 --> 00:01:19,760
+ solve X times five
+
+51
+00:01:19,769 --> 00:01:20,819
+ is equal to one.
+
+52
+00:01:21,330 --> 00:01:22,709
+ So here you can see we can
+
+53
+00:01:22,720 --> 00:01:24,080
+ use the property that we
+
+54
+00:01:24,089 --> 00:01:24,940
+ have a field.
+
+55
+00:01:25,650 --> 00:01:26,830
+ Then another equation we
+
+56
+00:01:26,839 --> 00:01:28,819
+ solved is X squared is
+
+57
+00:01:28,830 --> 00:01:29,860
+ equal to two.
+
+58
+00:01:30,680 --> 00:01:32,050
+ This one leads to the square
+
+59
+00:01:32,059 --> 00:01:34,050
+ of two which is in R
+
+60
+00:01:34,059 --> 00:01:35,370
+ by completeness.
+
+61
+00:01:35,910 --> 00:01:37,889
+ However, this does not mean
+
+62
+00:01:37,900 --> 00:01:39,209
+ that we are able to solve
+
+63
+00:01:39,220 --> 00:01:40,680
+ any quadratic equation.
+
+64
+00:01:41,099 --> 00:01:42,510
+ For example, the quadratic
+
+65
+00:01:42,519 --> 00:01:44,279
+ equation X squared is
+
+66
+00:01:44,290 --> 00:01:46,089
+ equal to minus one
+
+67
+00:01:46,190 --> 00:01:47,809
+ has no solutions.
+
+68
+00:01:48,500 --> 00:01:50,339
+ This is not hard to see because
+
+69
+00:01:50,349 --> 00:01:52,089
+ you can show that any
+
+70
+00:01:52,099 --> 00:01:53,839
+ square in the real numbers
+
+71
+00:01:53,849 --> 00:01:55,250
+ is greater or equal than
+
+72
+00:01:55,260 --> 00:01:55,800
+ zero.
+
+73
+00:01:56,230 --> 00:01:58,150
+ And we also need that minus
+
+74
+00:01:58,160 --> 00:01:59,830
+ one is less than
+
+75
+00:01:59,839 --> 00:02:00,410
+ zero.
+
+76
+00:02:00,980 --> 00:02:02,459
+ Here, I can tell you if you
+
+77
+00:02:02,470 --> 00:02:03,949
+ just work with the axioms
+
+78
+00:02:03,959 --> 00:02:05,370
+ of the real numbers, it's
+
+79
+00:02:05,379 --> 00:02:06,989
+ a good exercise to show
+
+80
+00:02:07,000 --> 00:02:08,229
+ both of these things.
+
+81
+00:02:08,988 --> 00:02:10,967
+ Then this implies that this
+
+82
+00:02:10,979 --> 00:02:12,369
+ simple equation does not
+
+83
+00:02:12,378 --> 00:02:13,479
+ have any solution.
+
+84
+00:02:14,240 --> 00:02:15,740
+ However, for us, it makes
+
+85
+00:02:15,750 --> 00:02:17,490
+ sense that we extend our
+
+86
+00:02:17,500 --> 00:02:19,179
+ numbers such that this
+
+87
+00:02:19,190 --> 00:02:20,820
+ equation has solutions.
+
+88
+00:02:21,509 --> 00:02:22,429
+ The first thing you should
+
+89
+00:02:22,440 --> 00:02:24,380
+ note here is that X squared
+
+90
+00:02:24,389 --> 00:02:26,089
+ is nothing else than X
+
+91
+00:02:26,100 --> 00:02:26,889
+ times X.
+
+92
+00:02:27,610 --> 00:02:29,429
+ I say that because the same
+
+93
+00:02:29,440 --> 00:02:31,100
+ equation with the addition
+
+94
+00:02:31,169 --> 00:02:32,270
+ is solvable.
+
+95
+00:02:32,309 --> 00:02:34,070
+ So surprisingly, the
+
+96
+00:02:34,080 --> 00:02:35,869
+ addition and the multiplication
+
+97
+00:02:35,880 --> 00:02:37,570
+ act differently in R
+
+98
+00:02:37,639 --> 00:02:39,070
+ which also has something
+
+99
+00:02:39,080 --> 00:02:40,669
+ to do with the ordering.
+
+100
+00:02:41,190 --> 00:02:42,910
+ Hence, our idea is to
+
+101
+00:02:42,919 --> 00:02:44,880
+ expand the number set such
+
+102
+00:02:44,889 --> 00:02:46,669
+ that we can solve such equations.
+
+103
+00:02:46,679 --> 00:02:47,119
+ Here.
+
+104
+00:02:47,190 --> 00:02:48,759
+ But we already know that
+
+105
+00:02:48,770 --> 00:02:50,369
+ we can't conserve all the
+
+106
+00:02:50,380 --> 00:02:52,350
+ properties in R in
+
+107
+00:02:52,360 --> 00:02:53,589
+ order to see what we can
+
+108
+00:02:53,600 --> 00:02:54,020
+ do.
+
+109
+00:02:54,039 --> 00:02:55,470
+ Let's look at the number
+
+110
+00:02:55,479 --> 00:02:56,190
+ line again.
+
+111
+00:02:56,679 --> 00:02:57,860
+ First, let's fill in the
+
+112
+00:02:57,869 --> 00:02:59,580
+ number 02
+
+113
+00:02:59,649 --> 00:03:00,419
+ and four.
+
+114
+00:03:00,949 --> 00:03:02,300
+ Now, you know, we can go
+
+115
+00:03:02,309 --> 00:03:04,229
+ from 2 to 4 just by
+
+116
+00:03:04,240 --> 00:03:05,880
+ using multiplication, we
+
+117
+00:03:05,889 --> 00:03:07,619
+ simply multiply by two.
+
+118
+00:03:08,139 --> 00:03:09,399
+ However, the interesting
+
+119
+00:03:09,410 --> 00:03:11,080
+ thing is now that we can
+
+120
+00:03:11,089 --> 00:03:12,779
+ split this big jump
+
+121
+00:03:12,789 --> 00:03:14,550
+ into small jumps,
+
+122
+00:03:15,089 --> 00:03:17,070
+ we just multiply by a number
+
+123
+00:03:17,080 --> 00:03:18,399
+ that is a little bit bigger
+
+124
+00:03:18,410 --> 00:03:19,119
+ than one.
+
+125
+00:03:19,630 --> 00:03:21,020
+ You see the smaller the one
+
+126
+00:03:21,029 --> 00:03:22,979
+ jump is the more jumps we
+
+127
+00:03:22,990 --> 00:03:23,339
+ need.
+
+128
+00:03:23,970 --> 00:03:24,460
+ OK.
+
+129
+00:03:24,470 --> 00:03:26,059
+ The splitting up does not
+
+130
+00:03:26,070 --> 00:03:27,630
+ work when we want to jump
+
+131
+00:03:27,639 --> 00:03:28,869
+ to minus two.
+
+132
+00:03:29,500 --> 00:03:31,080
+ For this big jump, we have
+
+133
+00:03:31,089 --> 00:03:32,880
+ to multiply by minus
+
+134
+00:03:32,889 --> 00:03:33,309
+ one.
+
+135
+00:03:34,000 --> 00:03:35,750
+ Also interesting here, if
+
+136
+00:03:35,759 --> 00:03:37,619
+ we multiply again by minus
+
+137
+00:03:37,630 --> 00:03:39,300
+ one, we get back to
+
+138
+00:03:39,309 --> 00:03:39,660
+ two.
+
+139
+00:03:40,770 --> 00:03:42,669
+ So here you see multiplying
+
+140
+00:03:42,679 --> 00:03:44,380
+ with a negative number is
+
+141
+00:03:44,389 --> 00:03:45,820
+ different than multiplying
+
+142
+00:03:45,830 --> 00:03:47,110
+ with a positive number
+
+143
+00:03:47,619 --> 00:03:48,990
+ because in the first case,
+
+144
+00:03:49,000 --> 00:03:50,690
+ we immediately change the
+
+145
+00:03:50,699 --> 00:03:52,059
+ side of the number line.
+
+146
+00:03:52,830 --> 00:03:54,509
+ Now looking back to the splitting
+
+147
+00:03:54,520 --> 00:03:55,710
+ of the jump for positive
+
+148
+00:03:55,720 --> 00:03:57,600
+ numbers here, we can see
+
+149
+00:03:57,610 --> 00:03:58,880
+ the equation from above
+
+150
+00:03:59,740 --> 00:04:01,490
+ because doing two jumps
+
+151
+00:04:01,500 --> 00:04:03,419
+ with the number X means
+
+152
+00:04:03,429 --> 00:04:05,240
+ we have X squared is
+
+153
+00:04:05,250 --> 00:04:06,199
+ equal to two.
+
+154
+00:04:06,970 --> 00:04:08,729
+ So exactly this equation
+
+155
+00:04:08,740 --> 00:04:10,389
+ where we know we have a solution.
+
+156
+00:04:11,470 --> 00:04:12,889
+ Now you might see the problem.
+
+157
+00:04:12,899 --> 00:04:14,500
+ How can we split up this
+
+158
+00:04:14,509 --> 00:04:16,238
+ jump into two parts?
+
+159
+00:04:17,040 --> 00:04:18,510
+ By looking at this picture,
+
+160
+00:04:18,608 --> 00:04:20,369
+ you might already see we
+
+161
+00:04:20,380 --> 00:04:21,839
+ could just add another
+
+162
+00:04:21,850 --> 00:04:23,220
+ direction for the numbers.
+
+163
+00:04:24,059 --> 00:04:25,600
+ Therefore, the idea is that
+
+164
+00:04:25,609 --> 00:04:27,429
+ we also include a Y
+
+165
+00:04:27,440 --> 00:04:27,880
+ axis.
+
+166
+00:04:27,890 --> 00:04:29,760
+ Now here
+
+167
+00:04:29,769 --> 00:04:31,459
+ jumping from one to
+
+168
+00:04:31,470 --> 00:04:33,220
+ minus one is still
+
+169
+00:04:33,230 --> 00:04:35,040
+ given by multiplying with
+
+170
+00:04:35,049 --> 00:04:36,019
+ minus one.
+
+171
+00:04:36,480 --> 00:04:38,000
+ However, now we are able
+
+172
+00:04:38,010 --> 00:04:39,850
+ to split it up into smaller
+
+173
+00:04:39,859 --> 00:04:41,320
+ parts, for
+
+174
+00:04:41,329 --> 00:04:43,239
+ example, into two parts where
+
+175
+00:04:43,250 --> 00:04:45,119
+ we multiply with the number
+
+176
+00:04:45,130 --> 00:04:45,720
+ X.
+
+177
+00:04:46,440 --> 00:04:47,859
+ And there you see this is
+
+178
+00:04:47,869 --> 00:04:49,299
+ our equation from before
+
+179
+00:04:49,350 --> 00:04:51,279
+ X squared is equal to
+
+180
+00:04:51,290 --> 00:04:52,140
+ minus one.
+
+181
+00:04:52,940 --> 00:04:54,339
+ Hence you see the number
+
+182
+00:04:54,350 --> 00:04:56,200
+ we search for is this
+
+183
+00:04:56,209 --> 00:04:57,720
+ point in the plane.
+
+184
+00:04:58,720 --> 00:05:00,100
+ So we need a new name for
+
+185
+00:05:00,109 --> 00:05:00,890
+ this number.
+
+186
+00:05:00,899 --> 00:05:02,529
+ We call it I.
+
+187
+00:05:03,799 --> 00:05:05,500
+ Now with our picture in mind
+
+188
+00:05:05,510 --> 00:05:07,279
+ this I is now a special
+
+189
+00:05:07,290 --> 00:05:08,739
+ number because when we
+
+190
+00:05:08,750 --> 00:05:10,170
+ multiply I with
+
+191
+00:05:10,179 --> 00:05:11,820
+ itself, we get out the
+
+192
+00:05:11,829 --> 00:05:13,809
+ jump minus one or
+
+193
+00:05:13,820 --> 00:05:14,290
+ to put it.
+
+194
+00:05:14,299 --> 00:05:15,640
+ In other words, I
+
+195
+00:05:15,649 --> 00:05:17,519
+ squared is equal to
+
+196
+00:05:17,529 --> 00:05:18,420
+ minus one.
+
+197
+00:05:19,329 --> 00:05:20,910
+ And this is now the important
+
+198
+00:05:20,920 --> 00:05:22,670
+ formula we should remember
+
+199
+00:05:22,679 --> 00:05:23,630
+ all the time.
+
+200
+00:05:24,600 --> 00:05:24,869
+ OK.
+
+201
+00:05:24,880 --> 00:05:26,760
+ With all this, we have some
+
+202
+00:05:26,769 --> 00:05:28,510
+ idea what our goal is to
+
+203
+00:05:28,519 --> 00:05:29,970
+ expand the number set.
+
+204
+00:05:30,100 --> 00:05:31,529
+ And how we can reach that
+
+205
+00:05:31,540 --> 00:05:33,489
+ goal extending the
+
+206
+00:05:33,500 --> 00:05:35,109
+ number line into a second
+
+207
+00:05:35,119 --> 00:05:36,690
+ direction is of course a
+
+208
+00:05:36,700 --> 00:05:38,049
+ completely new idea.
+
+209
+00:05:38,910 --> 00:05:40,149
+ Therefore, we really have
+
+210
+00:05:40,160 --> 00:05:41,670
+ to do this in a formal way,
+
+211
+00:05:41,700 --> 00:05:43,329
+ what we can do in the next
+
+212
+00:05:43,339 --> 00:05:45,239
+ video in this way.
+
+213
+00:05:45,250 --> 00:05:46,649
+ I hope I see you there and
+
+214
+00:05:46,660 --> 00:05:47,549
+ have a nice day.
+
+215
+00:05:47,700 --> 00:05:48,420
+ Bye.
+
