@@ -1,0 +1,1112 @@
+1
+00:00:00,389 --> 00:00:02,170
+ Hello and welcome to
+
+2
+00:00:02,180 --> 00:00:03,500
+ Real Analysis part
+
+3
+00:00:03,509 --> 00:00:04,530
+ 25.
+
+4
+00:00:05,059 --> 00:00:06,409
+ And first, I want to thank
+
+5
+00:00:06,420 --> 00:00:07,809
+ all the nice supporters on
+
+6
+00:00:07,820 --> 00:00:09,170
+ Steady or paypal.
+
+7
+00:00:09,939 --> 00:00:10,800
+ In this video.
+
+8
+00:00:10,810 --> 00:00:12,180
+ Today, we will talk about
+
+9
+00:00:12,189 --> 00:00:13,930
+ the uniform convergence of
+
+10
+00:00:13,939 --> 00:00:15,359
+ a sequence of functions.
+
+11
+00:00:16,100 --> 00:00:17,379
+ In order to understand this,
+
+12
+00:00:17,389 --> 00:00:19,229
+ please first recall that
+
+13
+00:00:19,239 --> 00:00:21,079
+ we call a sequence of functions
+
+14
+00:00:21,090 --> 00:00:22,850
+ pointwisely convergent to
+
+15
+00:00:22,860 --> 00:00:24,829
+ another function F
+
+16
+00:00:24,840 --> 00:00:26,670
+ if for all points X tilde,
+
+17
+00:00:26,709 --> 00:00:28,600
+ we have the convergence of
+
+18
+00:00:28,610 --> 00:00:30,100
+ the values at this point.
+
+19
+00:00:30,750 --> 00:00:32,200
+ This means that in this
+
+20
+00:00:32,209 --> 00:00:34,150
+ formulation with the quantifiers,
+
+21
+00:00:34,200 --> 00:00:35,599
+ you are allowed to choose
+
+22
+00:00:35,610 --> 00:00:37,450
+ different capital NS depending
+
+23
+00:00:37,459 --> 00:00:38,479
+ on X tilde.
+
+24
+00:00:39,029 --> 00:00:40,759
+ And indeed, this is the only
+
+25
+00:00:40,770 --> 00:00:42,180
+ thing we will change to get
+
+26
+00:00:42,189 --> 00:00:43,639
+ the uniform convergence.
+
+27
+00:00:44,319 --> 00:00:46,000
+ So we call a sequence of
+
+28
+00:00:46,009 --> 00:00:47,830
+ functions uniformly
+
+29
+00:00:47,840 --> 00:00:49,000
+ convergent to F
+
+30
+00:00:49,689 --> 00:00:51,240
+ if for all epsilon
+
+31
+00:00:51,250 --> 00:00:53,150
+ greater than zero, there
+
+32
+00:00:53,159 --> 00:00:55,110
+ exists a capital N such that
+
+33
+00:00:55,119 --> 00:00:56,819
+ for all indices N
+
+34
+00:00:56,830 --> 00:00:58,430
+ greater or equal than N
+
+35
+00:00:58,909 --> 00:01:00,869
+ and for all points x tilde
+
+36
+00:01:00,880 --> 00:01:02,869
+ in I, we have that
+
+37
+00:01:02,880 --> 00:01:03,990
+ the distance between the
+
+38
+00:01:04,000 --> 00:01:05,510
+ values is less than
+
+39
+00:01:05,519 --> 00:01:06,230
+ epsilon.
+
+40
+00:01:06,919 --> 00:01:08,699
+ So you see this quantifier
+
+41
+00:01:08,709 --> 00:01:10,699
+ from before is pushed to
+
+42
+00:01:10,709 --> 00:01:12,459
+ the right, of course.
+
+43
+00:01:12,470 --> 00:01:13,959
+ Therefore, this looks similar.
+
+44
+00:01:13,970 --> 00:01:15,559
+ But now this capital
+
+45
+00:01:15,569 --> 00:01:17,400
+ N works uniformly
+
+46
+00:01:17,410 --> 00:01:19,150
+ for all points X tilde.
+
+47
+00:01:19,669 --> 00:01:20,379
+ Of course.
+
+48
+00:01:20,389 --> 00:01:22,300
+ Therefore, this looks similarly.
+
+49
+00:01:22,309 --> 00:01:23,940
+ But now this capital N
+
+50
+00:01:23,949 --> 00:01:25,839
+ here works uniformly
+
+51
+00:01:25,849 --> 00:01:27,709
+ for all points X tilde in
+
+52
+00:01:27,720 --> 00:01:29,650
+ I that's different from
+
+53
+00:01:29,660 --> 00:01:31,519
+ before because here you
+
+54
+00:01:31,529 --> 00:01:32,860
+ could choose capital N
+
+55
+00:01:32,870 --> 00:01:34,510
+ depending on X tilde.
+
+56
+00:01:35,080 --> 00:01:36,180
+ So there could be different
+
+57
+00:01:36,190 --> 00:01:37,389
+ capital Ns here.
+
+58
+00:01:37,739 --> 00:01:39,110
+ However, for the uniform
+
+59
+00:01:39,120 --> 00:01:40,870
+ convergence, this N here
+
+60
+00:01:40,879 --> 00:01:42,760
+ has to work for all x tilde
+
+61
+00:01:42,769 --> 00:01:43,809
+ at the same time.
+
+62
+00:01:44,319 --> 00:01:46,290
+ And exactly this is the reason
+
+63
+00:01:46,300 --> 00:01:47,709
+ we call it the uniform
+
+64
+00:01:47,720 --> 00:01:48,489
+ convergence.
+
+65
+00:01:48,900 --> 00:01:50,389
+ And please keep in mind this
+
+66
+00:01:50,400 --> 00:01:52,220
+ new order for the quantifier
+
+67
+00:01:52,230 --> 00:01:53,419
+ changes a lot.
+
+68
+00:01:54,000 --> 00:01:55,489
+ Let's visualize that in a
+
+69
+00:01:55,500 --> 00:01:56,199
+ picture.
+
+70
+00:01:56,709 --> 00:01:58,069
+ So here you see the graph
+
+71
+00:01:58,080 --> 00:01:59,709
+ of the function F which is
+
+72
+00:01:59,720 --> 00:02:00,830
+ our limit function.
+
+73
+00:02:01,400 --> 00:02:03,139
+ Now if you fix one point
+
+74
+00:02:03,150 --> 00:02:04,919
+ X tilde on the X axis,
+
+75
+00:02:04,980 --> 00:02:06,830
+ this inequality here tells
+
+76
+00:02:06,839 --> 00:02:08,830
+ us that the, value f_n(x tilde)
+
+77
+00:02:08,839 --> 00:02:10,809
+ lies somewhere in this
+
+78
+00:02:10,820 --> 00:02:11,339
+ region.
+
+79
+00:02:11,979 --> 00:02:13,839
+ So we have our epsilon here
+
+80
+00:02:13,850 --> 00:02:14,600
+ and here.
+
+81
+00:02:15,199 --> 00:02:17,139
+ However, we also know this
+
+82
+00:02:17,149 --> 00:02:18,869
+ inequality here should hold
+
+83
+00:02:18,880 --> 00:02:20,289
+ for all X tilde.
+
+84
+00:02:21,000 --> 00:02:22,660
+ Hence we have to move this
+
+85
+00:02:22,669 --> 00:02:24,610
+ region here through all the
+
+86
+00:02:24,619 --> 00:02:25,339
+ points.
+
+87
+00:02:25,929 --> 00:02:27,580
+ In other words, what we get
+
+88
+00:02:27,589 --> 00:02:29,130
+ is such an epsilon tube
+
+89
+00:02:29,139 --> 00:02:30,729
+ around the graph of the
+
+90
+00:02:30,740 --> 00:02:31,639
+ function F.
+
+91
+00:02:32,350 --> 00:02:33,899
+ So the graph of the function
+
+92
+00:02:33,910 --> 00:02:35,690
+ FN needs to lie
+
+93
+00:02:35,699 --> 00:02:37,419
+ inside this epsilon tube.
+
+94
+00:02:38,039 --> 00:02:39,949
+ And of course, also the graphs
+
+95
+00:02:39,960 --> 00:02:41,690
+ of the functions in the sequence
+
+96
+00:02:41,699 --> 00:02:43,240
+ that come after this capital
+
+97
+00:02:43,270 --> 00:02:43,649
+ N.
+
+98
+00:02:43,759 --> 00:02:45,429
+ This is exactly what the
+
+99
+00:02:45,440 --> 00:02:47,259
+ uniform convergence tells
+
+100
+00:02:47,270 --> 00:02:47,669
+ us.
+
+101
+00:02:48,210 --> 00:02:49,789
+ So you immediately see this
+
+102
+00:02:49,800 --> 00:02:51,360
+ is more than we had for the
+
+103
+00:02:51,369 --> 00:02:52,649
+ pointwise convergence.
+
+104
+00:02:53,419 --> 00:02:55,179
+ And also this picture tells
+
+105
+00:02:55,190 --> 00:02:56,800
+ us that it should be possible
+
+106
+00:02:56,809 --> 00:02:58,509
+ to measure a distance between
+
+107
+00:02:58,520 --> 00:02:59,360
+ two functions.
+
+108
+00:03:00,009 --> 00:03:01,350
+ By having this distance.
+
+109
+00:03:01,360 --> 00:03:02,869
+ You can see that the uniform
+
+110
+00:03:02,880 --> 00:03:04,830
+ convergence is indeed very
+
+111
+00:03:04,839 --> 00:03:06,669
+ natural for this,
+
+112
+00:03:06,679 --> 00:03:07,990
+ we first should look at the
+
+113
+00:03:08,000 --> 00:03:09,839
+ picture again, let's
+
+114
+00:03:09,850 --> 00:03:11,699
+ take two functions and their
+
+115
+00:03:11,710 --> 00:03:12,309
+ graphs.
+
+116
+00:03:12,800 --> 00:03:14,669
+ Now the question is how can
+
+117
+00:03:14,679 --> 00:03:16,320
+ we measure a suitable distance
+
+118
+00:03:16,330 --> 00:03:17,610
+ between both functions?
+
+119
+00:03:17,669 --> 00:03:19,490
+ Or in other words, when would
+
+120
+00:03:19,500 --> 00:03:20,860
+ you say that the functions
+
+121
+00:03:20,869 --> 00:03:22,369
+ are close to each other?
+
+122
+00:03:22,800 --> 00:03:24,250
+ Of course, what you already
+
+123
+00:03:24,259 --> 00:03:25,830
+ know is that for each point
+
+124
+00:03:25,839 --> 00:03:27,559
+ X tilde, we can measure the
+
+125
+00:03:27,570 --> 00:03:29,020
+ distance of the values.
+
+126
+00:03:29,710 --> 00:03:31,130
+ So what you have to calculate
+
+127
+00:03:31,139 --> 00:03:32,839
+ is the absolute value as
+
+128
+00:03:32,850 --> 00:03:33,529
+ before.
+
+129
+00:03:34,020 --> 00:03:35,220
+ So if we call the point,
+
+130
+00:03:35,229 --> 00:03:37,220
+ just X, we have F of X
+
+131
+00:03:37,229 --> 00:03:39,039
+ minus G of X and then
+
+132
+00:03:39,050 --> 00:03:40,080
+ the absolute value.
+
+133
+00:03:40,509 --> 00:03:41,970
+ And of course, as before,
+
+134
+00:03:41,979 --> 00:03:43,399
+ we could do that for all
+
+135
+00:03:43,410 --> 00:03:45,309
+ the points X form the domain
+
+136
+00:03:45,320 --> 00:03:47,169
+ I there, you see,
+
+137
+00:03:47,179 --> 00:03:48,960
+ we find small distances
+
+138
+00:03:48,970 --> 00:03:50,869
+ but also larger ones.
+
+139
+00:03:51,399 --> 00:03:53,050
+ And indeed the largest one
+
+140
+00:03:53,059 --> 00:03:54,710
+ we would find if we take
+
+141
+00:03:54,720 --> 00:03:56,559
+ the maximum of these numbers
+
+142
+00:03:56,570 --> 00:03:56,929
+ here.
+
+143
+00:03:57,460 --> 00:03:58,830
+ However, because we don't
+
+144
+00:03:58,839 --> 00:04:00,410
+ know if the maximum really
+
+145
+00:04:00,419 --> 00:04:02,080
+ exists, we should take the
+
+146
+00:04:02,089 --> 00:04:02,809
+ supreme.
+
+147
+00:04:03,449 --> 00:04:05,320
+ Hence this number here tells
+
+148
+00:04:05,330 --> 00:04:07,259
+ us in fact how close
+
+149
+00:04:07,270 --> 00:04:08,460
+ the two graphs are.
+
+150
+00:04:08,720 --> 00:04:10,350
+ So we have a distance measure
+
+151
+00:04:10,360 --> 00:04:11,550
+ for two functions
+
+152
+00:04:12,240 --> 00:04:13,899
+ and usually we just call
+
+153
+00:04:13,910 --> 00:04:15,419
+ it the supreme norm.
+
+154
+00:04:15,970 --> 00:04:17,238
+ The common short notation
+
+155
+00:04:17,250 --> 00:04:18,899
+ for this would be two bars
+
+156
+00:04:18,910 --> 00:04:20,700
+ left and right, and the
+
+157
+00:04:20,709 --> 00:04:22,100
+ infinity symbol as an
+
+158
+00:04:22,108 --> 00:04:22,739
+ index.
+
+159
+00:04:23,290 --> 00:04:24,910
+ And then we have F minus
+
+160
+00:04:24,920 --> 00:04:25,980
+ G inside.
+
+161
+00:04:26,640 --> 00:04:28,320
+ So this is the supreme norm
+
+162
+00:04:28,329 --> 00:04:29,899
+ of F minus G.
+
+163
+00:04:30,640 --> 00:04:32,220
+ Now, as promised with this,
+
+164
+00:04:32,230 --> 00:04:34,000
+ we can rewrite the uniform
+
+165
+00:04:34,010 --> 00:04:35,220
+ convergence definition.
+
+166
+00:04:36,019 --> 00:04:37,339
+ It simply means that the
+
+167
+00:04:37,350 --> 00:04:39,100
+ supreme norm gives us a
+
+168
+00:04:39,109 --> 00:04:40,920
+ sequence that goes to zero.
+
+169
+00:04:41,529 --> 00:04:43,230
+ So FN minus the limit
+
+170
+00:04:43,239 --> 00:04:44,760
+ function F measured in the
+
+171
+00:04:44,769 --> 00:04:46,209
+ supreme norm goes to
+
+172
+00:04:46,220 --> 00:04:47,799
+ zero when N goes to
+
+173
+00:04:47,809 --> 00:04:48,559
+ infinity.
+
+174
+00:04:49,019 --> 00:04:50,679
+ So we started with a sequence
+
+175
+00:04:50,690 --> 00:04:51,619
+ of functions.
+
+176
+00:04:51,630 --> 00:04:53,279
+ But what we got here is an
+
+177
+00:04:53,290 --> 00:04:54,760
+ ordinary sequence of
+
+178
+00:04:54,769 --> 00:04:55,470
+ numbers.
+
+179
+00:04:56,179 --> 00:04:57,839
+ Therefore, this is also the
+
+180
+00:04:57,850 --> 00:04:59,500
+ ordinary convergence for
+
+181
+00:04:59,510 --> 00:05:01,160
+ a sequence of real numbers.
+
+182
+00:05:01,549 --> 00:05:01,920
+ OK.
+
+183
+00:05:01,929 --> 00:05:03,200
+ Now, after all these
+
+184
+00:05:03,209 --> 00:05:04,829
+ definitions, let's look at
+
+185
+00:05:04,839 --> 00:05:05,920
+ an example.
+
+186
+00:05:06,450 --> 00:05:07,929
+ So maybe we should take one,
+
+187
+00:05:07,940 --> 00:05:09,440
+ we already discussed in the
+
+188
+00:05:09,450 --> 00:05:11,339
+ last video there we had
+
+189
+00:05:11,350 --> 00:05:12,779
+ some simple functions that
+
+190
+00:05:12,790 --> 00:05:14,570
+ got steeper and steeper here
+
+191
+00:05:14,579 --> 00:05:16,149
+ until the pointwise limit
+
+192
+00:05:16,160 --> 00:05:17,440
+ was this function.
+
+193
+00:05:18,130 --> 00:05:19,429
+ We want to calculate a little
+
+194
+00:05:19,440 --> 00:05:19,750
+ bit.
+
+195
+00:05:19,760 --> 00:05:20,959
+ Therefore, let's say this
+
+196
+00:05:20,970 --> 00:05:22,429
+ value here is minus
+
+197
+00:05:22,440 --> 00:05:24,190
+ one and the one above is
+
+198
+00:05:24,200 --> 00:05:24,589
+ one.
+
+199
+00:05:25,299 --> 00:05:26,760
+ What we will see now is that
+
+200
+00:05:26,769 --> 00:05:28,619
+ we have the pointwise convergence
+
+201
+00:05:28,630 --> 00:05:30,230
+ but not the uniform
+
+202
+00:05:30,239 --> 00:05:31,000
+ convergence.
+
+203
+00:05:31,750 --> 00:05:32,790
+ Therefore, what we should
+
+204
+00:05:32,799 --> 00:05:34,540
+ look at is the distance between
+
+205
+00:05:34,549 --> 00:05:36,369
+ FN and F in the
+
+206
+00:05:36,380 --> 00:05:37,269
+ supreme norm.
+
+207
+00:05:37,799 --> 00:05:39,290
+ Indeed, this is what we can
+
+208
+00:05:39,299 --> 00:05:40,750
+ immediately calculate when
+
+209
+00:05:40,760 --> 00:05:41,970
+ we look at the jump.
+
+210
+00:05:42,649 --> 00:05:44,230
+ So here we have the jump
+
+211
+00:05:44,239 --> 00:05:45,869
+ of our limit function F.
+
+212
+00:05:46,559 --> 00:05:48,190
+ Now it does not matter which
+
+213
+00:05:48,200 --> 00:05:49,260
+ of the functions from our
+
+214
+00:05:49,269 --> 00:05:50,609
+ sequence we choose
+
+215
+00:05:50,929 --> 00:05:52,459
+ because all of them are
+
+216
+00:05:52,470 --> 00:05:53,709
+ connected from bottom to
+
+217
+00:05:53,720 --> 00:05:54,190
+ top.
+
+218
+00:05:54,890 --> 00:05:56,410
+ Hence, you can always just
+
+219
+00:05:56,420 --> 00:05:57,880
+ take the middle point here
+
+220
+00:05:57,959 --> 00:05:59,190
+ and measure the distance
+
+221
+00:05:59,200 --> 00:06:00,190
+ to the limit function,
+
+222
+00:06:01,000 --> 00:06:02,649
+ which is by our given values
+
+223
+00:06:02,660 --> 00:06:04,260
+ here, always one.
+
+224
+00:06:04,690 --> 00:06:06,130
+ Hence, we don't need to calculate
+
+225
+00:06:06,140 --> 00:06:06,820
+ anything.
+
+226
+00:06:06,829 --> 00:06:08,640
+ We immediately know the supreme
+
+227
+00:06:08,649 --> 00:06:10,559
+ norm is always greater or
+
+228
+00:06:10,570 --> 00:06:11,779
+ equal than one.
+
+229
+00:06:12,549 --> 00:06:13,850
+ And we don't need anything
+
+230
+00:06:13,859 --> 00:06:15,549
+ more because we immediately
+
+231
+00:06:15,559 --> 00:06:17,279
+ know we can't have this
+
+232
+00:06:17,290 --> 00:06:18,679
+ converted to zero
+
+233
+00:06:18,890 --> 00:06:20,649
+ because this distance does
+
+234
+00:06:20,660 --> 00:06:22,290
+ not get smaller than one.
+
+235
+00:06:22,980 --> 00:06:24,519
+ Now, this simple example,
+
+236
+00:06:24,529 --> 00:06:26,220
+ without much calculation
+
+237
+00:06:26,260 --> 00:06:28,119
+ directly gives us the following
+
+238
+00:06:28,130 --> 00:06:28,760
+ result.
+
+239
+00:06:29,470 --> 00:06:31,220
+ Having the pointwise convergence
+
+240
+00:06:31,230 --> 00:06:32,890
+ does not tell us that we
+
+241
+00:06:32,899 --> 00:06:34,329
+ also have the uniform
+
+242
+00:06:34,339 --> 00:06:35,089
+ convergence.
+
+243
+00:06:35,549 --> 00:06:36,890
+ However, it's also a nice
+
+244
+00:06:36,899 --> 00:06:38,579
+ result and not hard to show
+
+245
+00:06:38,649 --> 00:06:40,619
+ that we have the other implication.
+
+246
+00:06:41,420 --> 00:06:43,160
+ Hence, the uniform convergence
+
+247
+00:06:43,170 --> 00:06:44,839
+ is indeed stronger than the
+
+248
+00:06:44,850 --> 00:06:46,200
+ pointwise convergence.
+
+249
+00:06:46,730 --> 00:06:48,100
+ And for us, the uniform
+
+250
+00:06:48,109 --> 00:06:49,500
+ convergence will be very
+
+251
+00:06:49,510 --> 00:06:51,250
+ important later because it
+
+252
+00:06:51,260 --> 00:06:53,029
+ conserves nice properties
+
+253
+00:06:53,040 --> 00:06:53,920
+ of functions.
+
+254
+00:06:54,429 --> 00:06:55,829
+ For example, it conserves
+
+255
+00:06:55,839 --> 00:06:57,480
+ continuity we will
+
+256
+00:06:57,489 --> 00:06:58,480
+ define later.
+
+257
+00:06:59,309 --> 00:07:00,579
+ That's something that just
+
+258
+00:07:00,589 --> 00:07:02,170
+ a pointwise convergence can't
+
+259
+00:07:02,179 --> 00:07:02,570
+ do.
+
+260
+00:07:03,010 --> 00:07:04,489
+ However, one property you
+
+261
+00:07:04,500 --> 00:07:06,420
+ already know is the bounded
+
+262
+00:07:06,429 --> 00:07:07,309
+ of functions.
+
+263
+00:07:07,750 --> 00:07:09,339
+ And the uniform convergence
+
+264
+00:07:09,350 --> 00:07:10,839
+ also conserves this
+
+265
+00:07:10,850 --> 00:07:11,589
+ property.
+
+266
+00:07:11,910 --> 00:07:13,480
+ This means if you have a
+
+267
+00:07:13,489 --> 00:07:15,380
+ sequence of bounded functions
+
+268
+00:07:15,489 --> 00:07:16,609
+ and they converge
+
+269
+00:07:16,619 --> 00:07:18,299
+ uniformly, then the
+
+270
+00:07:18,309 --> 00:07:20,170
+ limit function is also
+
+271
+00:07:20,179 --> 00:07:20,750
+ bounded.
+
+272
+00:07:21,429 --> 00:07:21,890
+ OK.
+
+273
+00:07:21,899 --> 00:07:23,309
+ All details about these
+
+274
+00:07:23,320 --> 00:07:25,000
+ properties we will discuss
+
+275
+00:07:25,010 --> 00:07:26,290
+ in the next videos.
+
+276
+00:07:26,769 --> 00:07:27,959
+ Therefore, I hope I see you
+
+277
+00:07:27,970 --> 00:07:29,489
+ there and have a nice day.
+
+278
+00:07:29,630 --> 00:07:30,359
+ Bye.
+
