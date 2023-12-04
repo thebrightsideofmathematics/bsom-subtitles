@@ -1,0 +1,1552 @@
+1
+00:00:00,400 --> 00:00:02,170
+ Hello and welcome back to
+
+2
+00:00:02,180 --> 00:00:03,089
+ distributions.
+
+3
+00:00:03,200 --> 00:00:04,659
+ And as always many, many
+
+4
+00:00:04,670 --> 00:00:06,219
+ thanks to all the nice people
+
+5
+00:00:06,230 --> 00:00:07,530
+ that support this channel
+
+6
+00:00:07,539 --> 00:00:08,890
+ on Steady or paypal.
+
+7
+00:00:09,390 --> 00:00:10,550
+ This is part five.
+
+8
+00:00:10,560 --> 00:00:11,750
+ And today I want to talk
+
+9
+00:00:11,760 --> 00:00:13,359
+ about so called regular
+
+10
+00:00:13,369 --> 00:00:14,260
+ distributions.
+
+11
+00:00:15,079 --> 00:00:16,680
+ However, before we do this,
+
+12
+00:00:16,739 --> 00:00:18,010
+ I first want to show you
+
+13
+00:00:18,020 --> 00:00:19,569
+ a useful characterization
+
+14
+00:00:19,579 --> 00:00:20,590
+ for distributions.
+
+15
+00:00:21,540 --> 00:00:23,200
+ Of course, you already know
+
+16
+00:00:23,209 --> 00:00:24,799
+ a distribution is a linear
+
+17
+00:00:24,809 --> 00:00:26,770
+ map T from the space of
+
+18
+00:00:26,780 --> 00:00:27,840
+ test functions
+
+19
+00:00:28,790 --> 00:00:30,600
+ to the real or complex numbers.
+
+20
+00:00:31,500 --> 00:00:32,939
+ And you also know it has
+
+21
+00:00:32,950 --> 00:00:34,529
+ to be continuous in the
+
+22
+00:00:34,540 --> 00:00:35,840
+ sense as we define it.
+
+23
+00:00:35,849 --> 00:00:37,740
+ In the last video, we
+
+24
+00:00:37,750 --> 00:00:39,099
+ use sequences for this.
+
+25
+00:00:39,110 --> 00:00:40,189
+ But there are also a lot
+
+26
+00:00:40,200 --> 00:00:41,459
+ of other equivalent
+
+27
+00:00:41,470 --> 00:00:42,759
+ characterizations for it.
+
+28
+00:00:43,919 --> 00:00:45,139
+ Hence, we can write it in
+
+29
+00:00:45,150 --> 00:00:47,040
+ the following way T is a
+
+30
+00:00:47,049 --> 00:00:49,009
+ distribution if and only
+
+31
+00:00:49,020 --> 00:00:50,819
+ if for all
+
+32
+00:00:50,830 --> 00:00:52,650
+ compact sets in RN,
+
+33
+00:00:53,479 --> 00:00:55,189
+ there exists a natural number
+
+34
+00:00:55,200 --> 00:00:56,979
+ M which could be zero
+
+35
+00:00:58,110 --> 00:00:59,770
+ and there exists a positive
+
+36
+00:00:59,779 --> 00:01:00,959
+ constant C
+
+37
+00:01:01,729 --> 00:01:03,270
+ such that for all test
+
+38
+00:01:03,279 --> 00:01:04,319
+ functions, Phi
+
+39
+00:01:05,319 --> 00:01:06,870
+ we have that if the
+
+40
+00:01:06,879 --> 00:01:08,349
+ support of Phi
+
+41
+00:01:08,360 --> 00:01:10,269
+ lies in the compact set
+
+42
+00:01:10,279 --> 00:01:12,260
+ K, then this
+
+43
+00:01:12,269 --> 00:01:14,010
+ implies that the value
+
+44
+00:01:14,029 --> 00:01:15,620
+ T of Phi is
+
+45
+00:01:15,629 --> 00:01:16,809
+ bounded from above,
+
+46
+00:01:17,660 --> 00:01:19,160
+ namely we have the constant
+
+47
+00:01:19,169 --> 00:01:20,809
+ C times the sum
+
+48
+00:01:20,819 --> 00:01:22,529
+ over all multi indices
+
+49
+00:01:22,540 --> 00:01:24,480
+ with degree less or equal
+
+50
+00:01:24,489 --> 00:01:25,599
+ than the constant M.
+
+51
+00:01:26,260 --> 00:01:27,589
+ And then we look at all the
+
+52
+00:01:27,599 --> 00:01:29,440
+ derivatives of Phi in the
+
+53
+00:01:29,449 --> 00:01:30,400
+ supremum norm.
+
+54
+00:01:31,269 --> 00:01:33,010
+ Please note this means that
+
+55
+00:01:33,019 --> 00:01:34,449
+ whenever you can write down
+
+56
+00:01:34,459 --> 00:01:36,330
+ such an estimate, you immediately
+
+57
+00:01:36,339 --> 00:01:38,330
+ have the continuity and therefore
+
+58
+00:01:38,339 --> 00:01:39,809
+ you have a distribution T
+
+59
+00:01:40,650 --> 00:01:41,959
+ since at first, it looks
+
+60
+00:01:41,970 --> 00:01:43,620
+ complicated, we really should
+
+61
+00:01:43,629 --> 00:01:44,769
+ write down a proof for it.
+
+62
+00:01:45,650 --> 00:01:46,800
+ So let's start with this
+
+63
+00:01:46,809 --> 00:01:47,449
+ direction.
+
+64
+00:01:47,459 --> 00:01:49,099
+ So when we have the estimate,
+
+65
+00:01:49,110 --> 00:01:50,519
+ what can we say about
+
+66
+00:01:50,529 --> 00:01:52,489
+ continuity in
+
+67
+00:01:52,500 --> 00:01:53,680
+ order to show this, let's
+
+68
+00:01:53,690 --> 00:01:55,260
+ choose test functions Phi
+
+69
+00:01:55,269 --> 00:01:57,220
+ K and Phi such that we have
+
+70
+00:01:57,230 --> 00:01:59,129
+ our D convergence for the
+
+71
+00:01:59,139 --> 00:02:00,779
+ sequence Phi K to
+
+72
+00:02:00,790 --> 00:02:02,769
+ Phi, then we know by
+
+73
+00:02:02,779 --> 00:02:04,660
+ definition there is a compact
+
+74
+00:02:04,669 --> 00:02:06,379
+ or bounded set K in
+
+75
+00:02:06,389 --> 00:02:08,330
+ RN such that the
+
+76
+00:02:08,339 --> 00:02:10,020
+ support of all phi K
+
+77
+00:02:10,080 --> 00:02:11,929
+ lies in this compact set
+
+78
+00:02:11,940 --> 00:02:12,330
+ K.
+
+79
+00:02:13,470 --> 00:02:14,919
+ And we also know that for
+
+80
+00:02:14,929 --> 00:02:16,729
+ all multi indices alpha,
+
+81
+00:02:16,740 --> 00:02:18,570
+ we have that the divers
+
+82
+00:02:18,660 --> 00:02:20,039
+ D alpha Phi K
+
+83
+00:02:20,050 --> 00:02:21,759
+ converge in the suprema
+
+84
+00:02:21,919 --> 00:02:22,330
+ norm.
+
+85
+00:02:22,990 --> 00:02:24,300
+ Please keep in mind this
+
+86
+00:02:24,309 --> 00:02:25,839
+ was just the explanation
+
+87
+00:02:25,850 --> 00:02:27,479
+ what the D-convergence here
+
+88
+00:02:27,490 --> 00:02:27,970
+ means.
+
+89
+00:02:28,630 --> 00:02:29,169
+ OK.
+
+90
+00:02:29,210 --> 00:02:30,630
+ And now we just have to check
+
+91
+00:02:30,639 --> 00:02:32,529
+ if T of Phi K is
+
+92
+00:02:32,539 --> 00:02:34,529
+ convergent to T of Phi.
+
+93
+00:02:35,389 --> 00:02:36,679
+ In other words, we want that
+
+94
+00:02:36,690 --> 00:02:38,679
+ this term goes to zero.
+
+95
+00:02:38,690 --> 00:02:40,320
+ When K goes to infinity.
+
+96
+00:02:41,279 --> 00:02:42,899
+ By using the linearity, we
+
+97
+00:02:42,910 --> 00:02:44,889
+ can rewrite that as T of
+
+98
+00:02:44,899 --> 00:02:46,860
+ Phi K minus Phi.
+
+99
+00:02:47,649 --> 00:02:49,149
+ Of course, we know this is
+
+100
+00:02:49,160 --> 00:02:50,500
+ again a test function with
+
+101
+00:02:50,509 --> 00:02:51,639
+ support at K.
+
+102
+00:02:51,699 --> 00:02:53,119
+ So we know they exist in
+
+103
+00:02:53,130 --> 00:02:54,940
+ M and in C such that this
+
+104
+00:02:54,949 --> 00:02:55,949
+ estimate holds.
+
+105
+00:02:56,679 --> 00:02:57,889
+ And there you see, we have
+
+106
+00:02:57,899 --> 00:02:59,300
+ what we want because this
+
+107
+00:02:59,309 --> 00:03:01,179
+ term goes to zero when K
+
+108
+00:03:01,190 --> 00:03:02,179
+ goes to infinity.
+
+109
+00:03:03,050 --> 00:03:04,339
+ And please don't forget we
+
+110
+00:03:04,350 --> 00:03:05,669
+ have a finite sum here.
+
+111
+00:03:06,449 --> 00:03:07,770
+ So this is all we needed
+
+112
+00:03:07,779 --> 00:03:09,089
+ to show for the first part.
+
+113
+00:03:09,100 --> 00:03:10,429
+ Now let's go from the left
+
+114
+00:03:10,440 --> 00:03:11,669
+ hand side to the right hand
+
+115
+00:03:11,679 --> 00:03:12,020
+ side.
+
+116
+00:03:12,800 --> 00:03:14,059
+ Here, I want to do a proof
+
+117
+00:03:14,070 --> 00:03:15,100
+ by contraposition.
+
+118
+00:03:15,229 --> 00:03:16,910
+ So we start with the negation
+
+119
+00:03:16,919 --> 00:03:18,059
+ of the right hand side.
+
+120
+00:03:18,809 --> 00:03:20,369
+ This means that we just have
+
+121
+00:03:20,380 --> 00:03:21,860
+ to exchange the quantifier.
+
+122
+00:03:21,869 --> 00:03:23,660
+ So here we have, there exists
+
+123
+00:03:23,669 --> 00:03:25,619
+ a compact set such that for
+
+124
+00:03:25,630 --> 00:03:27,029
+ all M and all
+
+125
+00:03:27,080 --> 00:03:28,740
+ C there exists a
+
+126
+00:03:28,750 --> 00:03:29,949
+ test function phi
+
+127
+00:03:30,649 --> 00:03:32,320
+ and the negation of the implication
+
+128
+00:03:32,330 --> 00:03:33,789
+ is just that the support
+
+129
+00:03:33,800 --> 00:03:35,110
+ is still in K.
+
+130
+00:03:35,339 --> 00:03:37,029
+ But the inequality goes the
+
+131
+00:03:37,039 --> 00:03:38,789
+ other way around this
+
+132
+00:03:38,800 --> 00:03:40,179
+ means that we have a greater
+
+133
+00:03:40,190 --> 00:03:41,139
+ sign here.
+
+134
+00:03:42,000 --> 00:03:43,619
+ So this is our assumption
+
+135
+00:03:43,630 --> 00:03:44,779
+ and where we want to get
+
+136
+00:03:44,789 --> 00:03:46,649
+ to is that T is
+
+137
+00:03:46,660 --> 00:03:47,699
+ not continuous.
+
+138
+00:03:48,460 --> 00:03:49,839
+ Now, we call this whole thing
+
+139
+00:03:49,850 --> 00:03:51,130
+ means there is a compact
+
+140
+00:03:51,139 --> 00:03:52,720
+ set but then no matter
+
+141
+00:03:52,729 --> 00:03:54,440
+ which M and C we choose,
+
+142
+00:03:54,449 --> 00:03:56,149
+ we always find a corresponding
+
+143
+00:03:56,160 --> 00:03:56,600
+ Phi.
+
+144
+00:03:57,399 --> 00:03:58,669
+ Therefore, let's go through
+
+145
+00:03:58,679 --> 00:04:00,160
+ all the natural numbers K
+
+146
+00:04:00,169 --> 00:04:01,979
+ for C and M and take the
+
+147
+00:04:01,990 --> 00:04:03,380
+ corresponding phi k.
+
+148
+00:04:04,240 --> 00:04:05,820
+ This means that we have T
+
+149
+00:04:05,830 --> 00:04:07,729
+ phi K greater than K
+
+150
+00:04:07,740 --> 00:04:09,610
+ times the sum where we have
+
+151
+00:04:09,619 --> 00:04:10,050
+ here.
+
+152
+00:04:10,059 --> 00:04:11,320
+ The maximum order for the
+
+153
+00:04:11,330 --> 00:04:12,619
+ derivatives as k
+
+154
+00:04:13,399 --> 00:04:15,100
+ please don't forget the absolute
+
+155
+00:04:15,110 --> 00:04:16,519
+ value around a multi
+
+156
+00:04:16,649 --> 00:04:18,250
+ index just means that you
+
+157
+00:04:18,260 --> 00:04:20,040
+ add up all the components.
+
+158
+00:04:20,868 --> 00:04:22,588
+ So no matter how you combine
+
+159
+00:04:22,598 --> 00:04:24,299
+ all the partial derivatives,
+
+160
+00:04:24,419 --> 00:04:25,848
+ the maximum order you get
+
+161
+00:04:25,859 --> 00:04:27,118
+ out is always key.
+
+162
+00:04:28,089 --> 00:04:29,609
+ Also important to note is
+
+163
+00:04:29,619 --> 00:04:31,140
+ that we have the zero multi
+
+164
+00:04:31,230 --> 00:04:33,130
+ index as well in the sum,
+
+165
+00:04:33,200 --> 00:04:34,779
+ which means we have the supremum
+
+166
+00:04:34,899 --> 00:04:36,420
+ norm of Phi K here.
+
+167
+00:04:37,339 --> 00:04:38,559
+ Now, the key idea of the
+
+168
+00:04:38,570 --> 00:04:39,910
+ proof is that we define a
+
+169
+00:04:39,920 --> 00:04:41,829
+ new test function Phi
+
+170
+00:04:41,839 --> 00:04:43,640
+ K by scaling the
+
+171
+00:04:43,649 --> 00:04:44,359
+ Phi case.
+
+172
+00:04:45,299 --> 00:04:46,720
+ And of course, the correct
+
+173
+00:04:46,730 --> 00:04:48,619
+ scaling factor is exactly
+
+174
+00:04:48,630 --> 00:04:50,500
+ one over the absolute value
+
+175
+00:04:50,510 --> 00:04:51,839
+ of T of Phi k
+
+176
+00:04:52,529 --> 00:04:54,279
+ because we know it's increasing
+
+177
+00:04:54,290 --> 00:04:56,179
+ with K and it increases
+
+178
+00:04:56,190 --> 00:04:58,179
+ faster than the supremum
+
+179
+00:04:58,190 --> 00:04:59,230
+ norm of Phi K.
+
+180
+00:05:00,059 --> 00:05:02,049
+ Therefore, by this definition,
+
+181
+00:05:02,059 --> 00:05:03,339
+ the psi K go
+
+182
+00:05:03,350 --> 00:05:05,269
+ uniformly to the zero function
+
+183
+00:05:05,279 --> 00:05:06,989
+ when K tends to infinity.
+
+184
+00:05:07,850 --> 00:05:09,339
+ In fact, the whole argument
+
+185
+00:05:09,350 --> 00:05:11,250
+ works for every multi index
+
+186
+00:05:11,329 --> 00:05:13,200
+ which means we have the uniform
+
+187
+00:05:13,209 --> 00:05:14,630
+ convergence for every
+
+188
+00:05:14,640 --> 00:05:15,359
+ derivative
+
+189
+00:05:15,910 --> 00:05:17,890
+ combining this with the supports
+
+190
+00:05:17,899 --> 00:05:19,480
+ being all in K.
+
+191
+00:05:19,640 --> 00:05:21,029
+ We have indeed the D
+
+192
+00:05:21,040 --> 00:05:21,929
+ convergence.
+
+193
+00:05:22,170 --> 00:05:23,829
+ However, now you might already
+
+194
+00:05:23,839 --> 00:05:25,660
+ see the images under
+
+195
+00:05:25,670 --> 00:05:27,279
+ T don't converge to
+
+196
+00:05:27,290 --> 00:05:29,220
+ zero to see this.
+
+197
+00:05:29,230 --> 00:05:30,359
+ Just look at the absolute
+
+198
+00:05:30,369 --> 00:05:32,010
+ value of T of Phi
+
+199
+00:05:32,019 --> 00:05:32,640
+ K
+
+200
+00:05:33,809 --> 00:05:35,269
+ which is by the linearity
+
+201
+00:05:35,279 --> 00:05:36,910
+ just one over the absolute
+
+202
+00:05:36,920 --> 00:05:38,510
+ value of T of Phi
+
+203
+00:05:38,519 --> 00:05:40,160
+ K times the absolute
+
+204
+00:05:40,170 --> 00:05:41,750
+ value of T of Phi
+
+205
+00:05:41,760 --> 00:05:43,549
+ K, which is of
+
+206
+00:05:43,559 --> 00:05:45,140
+ course always one.
+
+207
+00:05:46,269 --> 00:05:47,829
+ In other words, it does not
+
+208
+00:05:47,839 --> 00:05:49,029
+ converge to zero.
+
+209
+00:05:49,910 --> 00:05:51,500
+ Now this simply means the
+
+210
+00:05:51,510 --> 00:05:53,359
+ linear map T is not
+
+211
+00:05:53,369 --> 00:05:55,279
+ continuous and that
+
+212
+00:05:55,290 --> 00:05:56,350
+ is what we wanted to show
+
+213
+00:05:56,359 --> 00:05:57,200
+ from the beginning.
+
+214
+00:05:57,209 --> 00:05:58,690
+ So our proof is finished
+
+215
+00:05:59,450 --> 00:06:01,019
+ with this technical proposition.
+
+216
+00:06:01,029 --> 00:06:02,679
+ Out of the way we can go
+
+217
+00:06:02,690 --> 00:06:04,500
+ to the definition of a regular
+
+218
+00:06:04,510 --> 00:06:05,339
+ distribution.
+
+219
+00:06:05,809 --> 00:06:07,209
+ For this, we first need a
+
+220
+00:06:07,220 --> 00:06:09,000
+ notion of a locally
+
+221
+00:06:09,010 --> 00:06:10,339
+ integrable function.
+
+222
+00:06:10,760 --> 00:06:12,239
+ Let's call the function F
+
+223
+00:06:12,250 --> 00:06:13,640
+ and it can have values in
+
+224
+00:06:13,649 --> 00:06:14,769
+ R or in C
+
+225
+00:06:15,480 --> 00:06:17,040
+ and we call it locally
+
+226
+00:06:17,049 --> 00:06:18,869
+ integral if the function
+
+227
+00:06:18,880 --> 00:06:20,459
+ is integrable, when we
+
+228
+00:06:20,470 --> 00:06:22,239
+ restrict it to any compact
+
+229
+00:06:22,250 --> 00:06:22,670
+ set.
+
+230
+00:06:23,190 --> 00:06:24,179
+ So you can put it in the
+
+231
+00:06:24,190 --> 00:06:26,119
+ way that the integral over
+
+232
+00:06:26,130 --> 00:06:28,019
+ compact set K of the
+
+233
+00:06:28,029 --> 00:06:29,920
+ function F with the absolute
+
+234
+00:06:29,929 --> 00:06:31,269
+ value makes
+
+235
+00:06:31,279 --> 00:06:32,540
+ sense and is
+
+236
+00:06:32,549 --> 00:06:33,299
+ finite.
+
+237
+00:06:34,170 --> 00:06:35,260
+ When you know how to deal
+
+238
+00:06:35,269 --> 00:06:36,619
+ with Lebesgue integrals, it
+
+239
+00:06:36,630 --> 00:06:38,019
+ will make your life much
+
+240
+00:06:38,029 --> 00:06:39,579
+ easier here because you
+
+241
+00:06:39,589 --> 00:06:41,380
+ know, you need a measurable
+
+242
+00:06:41,390 --> 00:06:42,859
+ function F and the
+
+243
+00:06:42,869 --> 00:06:44,420
+ integral should be finite.
+
+244
+00:06:44,980 --> 00:06:46,500
+ However, it's also possible
+
+245
+00:06:46,510 --> 00:06:47,980
+ to think of a normal Riemann
+
+246
+00:06:47,989 --> 00:06:49,750
+ integral here and do everything
+
+247
+00:06:49,760 --> 00:06:50,950
+ with the Riemann integral.
+
+248
+00:06:50,980 --> 00:06:52,399
+ But then of course, we don't
+
+249
+00:06:52,410 --> 00:06:54,130
+ get out the full general
+
+250
+00:06:54,140 --> 00:06:54,820
+ result.
+
+251
+00:06:55,369 --> 00:06:57,100
+ Therefore, I would say knowing
+
+252
+00:06:57,109 --> 00:06:58,890
+ some measure theory and the
+
+253
+00:06:58,910 --> 00:07:00,500
+ Lebesgue integral is indeed
+
+254
+00:07:00,510 --> 00:07:01,959
+ helpful here in the theory
+
+255
+00:07:01,970 --> 00:07:02,980
+ of distributions.
+
+256
+00:07:03,670 --> 00:07:05,279
+ Now, for such locally integrable
+
+257
+00:07:05,600 --> 00:07:07,239
+ functions, we use a common
+
+258
+00:07:07,250 --> 00:07:08,890
+ notation, namely we
+
+259
+00:07:08,899 --> 00:07:10,850
+ write a curved L
+
+260
+00:07:10,859 --> 00:07:12,500
+ with one and lo
+
+261
+00:07:13,950 --> 00:07:15,850
+ and often we put in the domain
+
+262
+00:07:15,859 --> 00:07:17,529
+ which is here
+
+263
+00:07:17,540 --> 00:07:19,339
+ and please
+
+264
+00:07:19,350 --> 00:07:21,019
+ note of course, all
+
+265
+00:07:21,440 --> 00:07:22,859
+ integrable functions are also
+
+266
+00:07:22,869 --> 00:07:24,200
+ locally integrable.
+
+267
+00:07:24,630 --> 00:07:26,140
+ We just have more functions
+
+268
+00:07:26,149 --> 00:07:26,579
+ here.
+
+269
+00:07:27,130 --> 00:07:28,619
+ For example, if you consider
+
+270
+00:07:28,630 --> 00:07:30,380
+ the function F which sends
+
+271
+00:07:30,390 --> 00:07:31,820
+ R to R
+
+272
+00:07:32,540 --> 00:07:34,519
+ and X to X squared, then
+
+273
+00:07:34,529 --> 00:07:35,779
+ this function is not
+
+274
+00:07:35,790 --> 00:07:37,779
+ integrable because the integral
+
+275
+00:07:37,790 --> 00:07:39,170
+ over the whole domain are
+
+276
+00:07:39,179 --> 00:07:40,279
+ would be infinity.
+
+277
+00:07:40,920 --> 00:07:42,529
+ However, it's locally
+
+278
+00:07:42,540 --> 00:07:44,019
+ integrable because it's a
+
+279
+00:07:44,029 --> 00:07:45,369
+ continuous function.
+
+280
+00:07:45,459 --> 00:07:47,190
+ And when we integrate over
+
+281
+00:07:47,200 --> 00:07:49,059
+ a bounded set here, we don't
+
+282
+00:07:49,070 --> 00:07:50,299
+ have any problem, we get
+
+283
+00:07:50,309 --> 00:07:51,839
+ out a finite integral.
+
+284
+00:07:52,570 --> 00:07:54,230
+ Nevertheless, please note
+
+285
+00:07:54,239 --> 00:07:56,149
+ that we don't need the continuity
+
+286
+00:07:56,160 --> 00:07:57,540
+ for a locally integrable
+
+287
+00:07:57,549 --> 00:07:58,119
+ function.
+
+288
+00:07:58,299 --> 00:08:00,070
+ We have much more functions
+
+289
+00:08:00,079 --> 00:08:01,440
+ here than just the continuous
+
+290
+00:08:01,450 --> 00:08:01,869
+ ones.
+
+291
+00:08:02,670 --> 00:08:04,040
+ Now, the nice thing we want
+
+292
+00:08:04,049 --> 00:08:05,619
+ to do now with such a function
+
+293
+00:08:05,630 --> 00:08:07,489
+ is to define a distribution
+
+294
+00:08:08,200 --> 00:08:09,869
+ for such a function F I want
+
+295
+00:08:09,880 --> 00:08:11,820
+ to use the notation TF
+
+296
+00:08:11,829 --> 00:08:13,700
+ for the corresponding distribution.
+
+297
+00:08:14,540 --> 00:08:16,320
+ And it is defined for test
+
+298
+00:08:16,329 --> 00:08:17,279
+ function Phi.
+
+299
+00:08:17,540 --> 00:08:18,559
+ And you might already know
+
+300
+00:08:18,570 --> 00:08:20,109
+ this because we did it for
+
+301
+00:08:20,119 --> 00:08:21,559
+ continuous functions in the
+
+302
+00:08:21,570 --> 00:08:23,200
+ last video by the
+
+303
+00:08:23,209 --> 00:08:24,079
+ integral
+
+304
+00:08:24,799 --> 00:08:25,890
+ FX phi
+
+305
+00:08:25,899 --> 00:08:27,390
+ XDX.
+
+306
+00:08:28,250 --> 00:08:29,420
+ This is a well defined
+
+307
+00:08:29,429 --> 00:08:31,140
+ distribution because the
+
+308
+00:08:31,149 --> 00:08:32,739
+ integral is actually
+
+309
+00:08:32,750 --> 00:08:34,510
+ just an integral over a compact
+
+310
+00:08:34,520 --> 00:08:36,500
+ set, namely the support of
+
+311
+00:08:36,510 --> 00:08:38,390
+ Phi, it's also
+
+312
+00:08:38,400 --> 00:08:40,250
+ linear and it fulfills our
+
+313
+00:08:40,260 --> 00:08:41,679
+ estimate from the beginning.
+
+314
+00:08:42,380 --> 00:08:43,690
+ This one we really should
+
+315
+00:08:43,700 --> 00:08:44,409
+ write down.
+
+316
+00:08:44,419 --> 00:08:45,690
+ So we have the absolute value
+
+317
+00:08:45,700 --> 00:08:47,510
+ of T f phi, we can
+
+318
+00:08:47,520 --> 00:08:49,070
+ pull in the absolute value
+
+319
+00:08:49,080 --> 00:08:51,070
+ into the integral and we
+
+320
+00:08:51,080 --> 00:08:53,030
+ can also easily split
+
+321
+00:08:53,039 --> 00:08:53,469
+ it up.
+
+322
+00:08:54,719 --> 00:08:56,419
+ Now instead of RN, we can
+
+323
+00:08:56,429 --> 00:08:58,210
+ just write the support of
+
+324
+00:08:58,219 --> 00:09:00,049
+ Phi simply because
+
+325
+00:09:00,059 --> 00:09:01,469
+ outside of function, Phi
+
+326
+00:09:01,479 --> 00:09:03,140
+ is zero, which has no
+
+327
+00:09:03,150 --> 00:09:04,780
+ contribution to the integral.
+
+328
+00:09:05,260 --> 00:09:07,169
+ Also we know we can estimate
+
+329
+00:09:07,179 --> 00:09:08,809
+ this one with the suprema
+
+330
+00:09:08,969 --> 00:09:09,859
+ norm of Phi,
+
+331
+00:09:10,690 --> 00:09:12,400
+ hence, we have the integral
+
+332
+00:09:12,409 --> 00:09:13,969
+ of F in the absolute
+
+333
+00:09:13,979 --> 00:09:14,549
+ value
+
+334
+00:09:15,580 --> 00:09:17,260
+ times the sup norm of
+
+335
+00:09:17,270 --> 00:09:17,710
+ Phi.
+
+336
+00:09:18,609 --> 00:09:20,109
+ Of course, we can integrate
+
+337
+00:09:20,119 --> 00:09:22,070
+ here over any compact set
+
+338
+00:09:22,080 --> 00:09:24,049
+ K as long as it is a
+
+339
+00:09:24,059 --> 00:09:25,789
+ superset of the support of
+
+340
+00:09:25,799 --> 00:09:26,260
+ Phi.
+
+341
+00:09:26,960 --> 00:09:28,500
+ Now please remember what
+
+342
+00:09:28,510 --> 00:09:29,979
+ the estimate is we want to
+
+343
+00:09:29,989 --> 00:09:30,419
+ show.
+
+344
+00:09:30,570 --> 00:09:32,140
+ So I put it here in a
+
+345
+00:09:32,150 --> 00:09:33,539
+ box as a reminder.
+
+346
+00:09:34,809 --> 00:09:36,349
+ And there you see the
+
+347
+00:09:36,359 --> 00:09:38,169
+ integral here is the constant
+
+348
+00:09:38,179 --> 00:09:38,950
+ C here.
+
+349
+00:09:39,190 --> 00:09:41,039
+ And the sum is just the sum
+
+350
+00:09:41,049 --> 00:09:42,349
+ where M is zero.
+
+351
+00:09:42,429 --> 00:09:44,030
+ So we just have the suprema
+
+352
+00:09:44,070 --> 00:09:45,909
+ number Phi in
+
+353
+00:09:45,919 --> 00:09:47,619
+ other words, we have indeed
+
+354
+00:09:47,630 --> 00:09:48,539
+ a distribution.
+
+355
+00:09:49,250 --> 00:09:50,849
+ So you see this is similar
+
+356
+00:09:50,859 --> 00:09:52,270
+ to what we had in the last
+
+357
+00:09:52,280 --> 00:09:53,729
+ video where we considered
+
+358
+00:09:53,739 --> 00:09:55,349
+ continuous functions.
+
+359
+00:09:55,460 --> 00:09:56,830
+ The distribution here is
+
+360
+00:09:56,840 --> 00:09:58,469
+ essentially given by a
+
+361
+00:09:58,479 --> 00:09:59,770
+ normal function F.
+
+362
+00:10:00,559 --> 00:10:01,960
+ And therefore, these
+
+363
+00:10:01,969 --> 00:10:03,619
+ distributions are just called
+
+364
+00:10:03,630 --> 00:10:05,179
+ regular distributions.
+
+365
+00:10:06,020 --> 00:10:07,630
+ To put this into a definition,
+
+366
+00:10:07,640 --> 00:10:09,159
+ you would say a distribution
+
+367
+00:10:09,169 --> 00:10:11,070
+ T is called regular
+
+368
+00:10:11,789 --> 00:10:13,150
+ if there is a locally
+
+369
+00:10:13,159 --> 00:10:14,909
+ integrable function F
+
+370
+00:10:14,919 --> 00:10:16,840
+ such that T is the
+
+371
+00:10:16,849 --> 00:10:18,450
+ same as TF
+
+372
+00:10:19,010 --> 00:10:20,729
+ so the linear map T can
+
+373
+00:10:20,739 --> 00:10:22,479
+ actually be written as an
+
+374
+00:10:22,489 --> 00:10:24,080
+ integral in this sense.
+
+375
+00:10:24,960 --> 00:10:26,669
+ So you could say these are
+
+376
+00:10:26,679 --> 00:10:28,200
+ the distributions that behave
+
+377
+00:10:28,210 --> 00:10:30,099
+ like normal functions as
+
+378
+00:10:30,109 --> 00:10:31,039
+ we already know it.
+
+379
+00:10:31,460 --> 00:10:33,090
+ But we also know there are
+
+380
+00:10:33,099 --> 00:10:34,710
+ much more distributions than
+
+381
+00:10:34,719 --> 00:10:35,020
+ that.
+
+382
+00:10:35,909 --> 00:10:37,760
+ Indeed, the delta distribution
+
+383
+00:10:37,770 --> 00:10:38,979
+ is not regular.
+
+384
+00:10:39,150 --> 00:10:40,419
+ And we can show this in the
+
+385
+00:10:40,429 --> 00:10:41,210
+ next video.
+
+386
+00:10:41,890 --> 00:10:43,289
+ Therefore, I hope I see you
+
+387
+00:10:43,299 --> 00:10:44,909
+ there and have a nice day.
+
+388
+00:10:44,989 --> 00:10:45,669
+ Bye.
+
