@@ -60,7 +60,7 @@ Now, when we deal with sequences we seldom write down such a map,
 
 16
 00:00:54,600 --> 00:00:57,480
-but rather an  infinite list of numbers.
+but rather an infinite list of numbers.
 
 17
 00:00:57,680 --> 00:01:02,350
@@ -392,7 +392,7 @@ Here we will define the notion of a convergent sequence of real numbers.
 
 99
 00:06:12,270 --> 00:06:17,750
-We say that a sequence "an" is convergent to a given number  "a"
+We say that a sequence "an" is convergent to a given number "a"
 
 100
 00:06:17,780 --> 00:06:23,200
@@ -568,7 +568,7 @@ where it's very obvious that we can't find such an "a".
 
 143
 00:08:51,380 --> 00:08:55,000
-But of course you really should write down a correct  proof for this.
+But of course you really should write down a correct proof for this.
 
 144
 00:08:55,750 --> 00:08:59,990

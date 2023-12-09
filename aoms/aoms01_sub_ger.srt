@@ -81,4 +81,3 @@ Ok, das ist das Kronecker-Delta.
 21
 00:01:26,397 --> 00:01:27,615
 Danke fürs Zuhören.
-

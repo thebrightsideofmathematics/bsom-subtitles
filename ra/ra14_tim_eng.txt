@@ -2,9 +2,9 @@ Real Analysis - Part 14 - Heine-Borel Theorem
 
 0:00 Introduction
 0:20 Sequentially compact set
-1:07 Empty set is compact 
-1:17 {5} is compact 
-1:50 R is not compact 
-2:10 Proof: [a,b] is compact 
+1:07 Empty set is compact
+1:17 {5} is compact
+1:50 R is not compact
+2:10 Proof: [a,b] is compact
 3:15 Heine-Borel theorem statement
 3:58 Proof of Heine-Borel theorem

@@ -24,7 +24,7 @@ Wenn es in der richtigen Reihenfolge ist,
 
 7
 00:00:28,208 --> 00:00:31,370
- also so wie man zählt, nämlich 1, 2, 3.
+also so wie man zählt, nämlich 1, 2, 3.
 
 8
 00:00:31,586 --> 00:00:33,554
@@ -133,4 +133,3 @@ Ok, das ist das Levi-Civita Symbol.
 34
 00:02:44,572 --> 00:02:46,178
 Danke fürs Zuhören!
-

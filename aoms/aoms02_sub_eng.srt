@@ -124,7 +124,7 @@ times the j-th component of "a" times the k-th component of "b".
 
 32
 00:02:33,786 --> 00:02:40,278
-In fact this is a formula some people use to define the cross product of two 3-dimensional vectors. 
+In fact this is a formula some people use to define the cross product of two 3-dimensional vectors.
 
 33
 00:02:41,443 --> 00:02:44,372
@@ -133,4 +133,3 @@ Ok, so this is the Levi-Civita symbol.
 34
 00:02:44,572 --> 00:02:46,178
 Thanks for listening!
-

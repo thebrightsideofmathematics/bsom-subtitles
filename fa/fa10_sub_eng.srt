@@ -1,1484 +1,1483 @@
 1
 00:00:00,479 --> 00:00:02,369
- Hello and welcome back to
+Hello and welcome back to
 
 2
 00:00:02,380 --> 00:00:03,509
- functional analysis.
+functional analysis.
 
 3
 00:00:03,599 --> 00:00:05,280
- And first many thanks to
+And first many thanks to
 
 4
 00:00:05,289 --> 00:00:06,380
- all the nice people that
+all the nice people that
 
 5
 00:00:06,389 --> 00:00:07,769
- support me on study or
+support me on study or
 
 6
 00:00:07,780 --> 00:00:08,489
- paypal.
+paypal.
 
 7
 00:00:09,180 --> 00:00:10,960
- And I can also tell you that
+And I can also tell you that
 
 8
 00:00:10,970 --> 00:00:12,470
- now you find the PDF
+now you find the PDF
 
 9
 00:00:12,479 --> 00:00:14,350
- versions of all new videos
+versions of all new videos
 
 10
 00:00:14,359 --> 00:00:15,600
- in the description below.
+in the description below.
 
 11
 00:00:16,430 --> 00:00:18,180
- So this is part 10 today
+So this is part 10 today
 
 12
 00:00:18,190 --> 00:00:19,739
- and we will still talk about
+and we will still talk about
 
 13
 00:00:19,750 --> 00:00:20,780
- inner products.
+inner products.
 
 14
 00:00:21,719 --> 00:00:23,010
- In particular, I want to
+In particular, I want to
 
 15
 00:00:23,020 --> 00:00:24,590
- prove the Cauchy Schwarz
+prove the Cauchy Schwarz
 
 16
 00:00:24,610 --> 00:00:25,430
- inequality
+inequality
 
 17
 00:00:26,379 --> 00:00:27,319
- depending where you come
+depending where you come
 
 18
 00:00:27,329 --> 00:00:27,809
- from.
+from.
 
 19
 00:00:27,829 --> 00:00:29,190
- The equality is known by
+The equality is known by
 
 20
 00:00:29,200 --> 00:00:30,280
- different names.
+different names.
 
 21
 00:00:30,290 --> 00:00:31,700
- But I stay here with the
+But I stay here with the
 
 22
 00:00:31,709 --> 00:00:32,598
- most common one.
+most common one.
 
 23
 00:00:33,270 --> 00:00:34,330
- And here it is named after the
+And here it is named after the
 
 24
 00:00:34,340 --> 00:00:35,770
- French mathematician Cauchy
+French mathematician Cauchy
 
 25
 00:00:36,119 --> 00:00:37,659
- and a German mathematician
+and a German mathematician
 
 26
 00:00:37,669 --> 00:00:38,119
- Schwarz.
+Schwarz.
 
 27
 00:00:39,060 --> 00:00:40,569
- Indeed, this inequality is
+Indeed, this inequality is
 
 28
 00:00:40,580 --> 00:00:42,270
- very important because it
+very important because it
 
 29
 00:00:42,279 --> 00:00:44,049
- holds for all inner products.
+holds for all inner products.
 
 30
 00:00:44,560 --> 00:00:45,770
- Therefore, let's choose an
+Therefore, let's choose an
 
 31
 00:00:45,779 --> 00:00:47,729
- F vector space X and an
+F vector space X and an
 
 32
 00:00:47,740 --> 00:00:48,529
- inner product.
+inner product.
 
 33
 00:00:49,369 --> 00:00:50,790
- And we also consider the
+And we also consider the
 
 34
 00:00:50,799 --> 00:00:52,369
- corresponding norm which
+corresponding norm which
 
 35
 00:00:52,380 --> 00:00:53,459
- is the square root of the
+is the square root of the
 
 36
 00:00:53,470 --> 00:00:54,229
- inner product.
+inner product.
 
 37
 00:00:54,880 --> 00:00:56,650
- And then with these notations,
+And then with these notations,
 
 38
 00:00:56,659 --> 00:00:58,119
- the following inequality
+the following inequality
 
 39
 00:00:58,130 --> 00:01:00,020
- holds, we
+holds, we
 
 40
 00:01:00,029 --> 00:01:01,389
- look at the inner product
+look at the inner product
 
 41
 00:01:01,400 --> 00:01:02,630
- X with Y.
+X with Y.
 
 42
 00:01:03,400 --> 00:01:04,489
- And because it could be in
+And because it could be in
 
 43
 00:01:04,500 --> 00:01:05,980
- general a complex number,
+general a complex number,
 
 44
 00:01:05,989 --> 00:01:07,120
- we need the absolute value
+we need the absolute value
 
 45
 00:01:07,129 --> 00:01:07,489
- here.
+here.
 
 46
 00:01:08,239 --> 00:01:09,849
- And then we can say this
+And then we can say this
 
 47
 00:01:09,860 --> 00:01:11,819
- is less or equal than the
+is less or equal than the
 
 48
 00:01:11,830 --> 00:01:13,419
- two norms multiplied.
+two norms multiplied.
 
 49
 00:01:14,339 --> 00:01:15,580
- And that's the whole Cauchy
+And that's the whole Cauchy
 
 50
 00:01:15,610 --> 00:01:16,919
- Schwarz inequality.
+Schwarz inequality.
 
 51
 00:01:17,930 --> 00:01:19,510
- Now we can visualize it with
+Now we can visualize it with
 
 52
 00:01:19,519 --> 00:01:21,139
- the same picture we had when
+the same picture we had when
 
 53
 00:01:21,150 --> 00:01:22,339
- we started with the inner
+we started with the inner
 
 54
 00:01:22,349 --> 00:01:24,059
- products in this
+products in this
 
 55
 00:01:24,069 --> 00:01:25,510
- multiplication X with
+multiplication X with
 
 56
 00:01:25,519 --> 00:01:27,199
- Y only the parallel
+Y only the parallel
 
 57
 00:01:27,209 --> 00:01:28,900
- part of Y, the yellow part
+part of Y, the yellow part
 
 58
 00:01:28,910 --> 00:01:30,050
- here should matter.
+here should matter.
 
 59
 00:01:30,779 --> 00:01:32,160
- Then this picture tells you,
+Then this picture tells you,
 
 60
 00:01:32,169 --> 00:01:33,319
- yeah, of course, the length
+yeah, of course, the length
 
 61
 00:01:33,330 --> 00:01:34,870
- of the yellow part is less
+of the yellow part is less
 
 62
 00:01:34,879 --> 00:01:36,199
- or equal than the length
+or equal than the length
 
 63
 00:01:36,209 --> 00:01:37,400
- of the wet arrow here.
+of the wet arrow here.
 
 64
 00:01:38,209 --> 00:01:39,669
- With this in mind, we also
+With this in mind, we also
 
 65
 00:01:39,680 --> 00:01:41,589
- get a result in which cases
+get a result in which cases
 
 66
 00:01:41,599 --> 00:01:43,120
- the equality here holds
+the equality here holds
 
 67
 00:01:43,900 --> 00:01:45,290
- indeed, this should only
+indeed, this should only
 
 68
 00:01:45,300 --> 00:01:46,730
- be the case when the arrows
+be the case when the arrows
 
 69
 00:01:46,739 --> 00:01:48,169
- go in the same direction.
+go in the same direction.
 
 70
 00:01:48,989 --> 00:01:50,760
- In other words, X and Y
+In other words, X and Y
 
 71
 00:01:50,769 --> 00:01:52,419
- are linearly dependent
+are linearly dependent
 
 72
 00:01:52,430 --> 00:01:53,099
- vectors.
+vectors.
 
 73
 00:01:53,739 --> 00:01:54,199
- OK.
+OK.
 
 74
 00:01:54,209 --> 00:01:55,419
- Now the picture gets us in
+Now the picture gets us in
 
 75
 00:01:55,430 --> 00:01:56,919
- the correct direction, but
+the correct direction, but
 
 76
 00:01:56,930 --> 00:01:58,230
- we don't have any choice.
+we don't have any choice.
 
 77
 00:01:58,239 --> 00:01:59,910
- We need to prove the inequality.
+We need to prove the inequality.
 
 78
 00:01:59,919 --> 00:02:00,319
- Now.
+Now.
 
 79
 00:02:01,160 --> 00:02:01,529
- OK.
+OK.
 
 80
 00:02:01,540 --> 00:02:02,709
- So let's start with an easy
+So let's start with an easy
 
 81
 00:02:02,720 --> 00:02:04,400
- case, let's call it the first
+case, let's call it the first
 
 82
 00:02:04,410 --> 00:02:06,389
- case where X is the zero
+case where X is the zero
 
 83
 00:02:06,400 --> 00:02:06,860
- vector.
+vector.
 
 84
 00:02:07,809 --> 00:02:09,270
- Of course, there we know
+Of course, there we know
 
 85
 00:02:09,288 --> 00:02:10,839
- the left hand side has to
+the left hand side has to
 
 86
 00:02:10,850 --> 00:02:11,589
- be zero
+be zero
 
 87
 00:02:12,830 --> 00:02:14,410
- simply by the linearity,
+simply by the linearity,
 
 88
 00:02:14,419 --> 00:02:15,940
- we can just pull out the
+we can just pull out the
 
 89
 00:02:15,949 --> 00:02:16,990
- factor zero.
+factor zero.
 
 90
 00:02:17,660 --> 00:02:18,679
- And of course, the right
+And of course, the right
 
 91
 00:02:18,690 --> 00:02:20,309
- hand side is also zero
+hand side is also zero
 
 92
 00:02:20,380 --> 00:02:22,190
- because the norm of X has
+because the norm of X has
 
 93
 00:02:22,199 --> 00:02:23,089
- to be zero here.
+to be zero here.
 
 94
 00:02:23,929 --> 00:02:25,440
- In particular, the general
+In particular, the general
 
 95
 00:02:25,449 --> 00:02:26,970
- inequality is
+inequality is
 
 96
 00:02:26,979 --> 00:02:28,649
- obviously fulfilled for this
+obviously fulfilled for this
 
 97
 00:02:28,660 --> 00:02:29,369
- simple case.
+simple case.
 
 98
 00:02:29,990 --> 00:02:31,570
- Now you might already guess
+Now you might already guess
 
 99
 00:02:31,580 --> 00:02:33,220
- the actual interesting case
+the actual interesting case
 
 100
 00:02:33,229 --> 00:02:34,559
- would be the second one
+would be the second one
 
 101
 00:02:35,320 --> 00:02:36,869
- here X is not a zero
+here X is not a zero
 
 102
 00:02:36,880 --> 00:02:38,419
- vector, which means we can
+vector, which means we can
 
 103
 00:02:38,429 --> 00:02:40,270
- divide by the norm of X.
+divide by the norm of X.
 
 104
 00:02:41,029 --> 00:02:42,789
- And that's what we do immediately,
+And that's what we do immediately,
 
 105
 00:02:42,800 --> 00:02:44,660
- I want to define X hat
+I want to define X hat
 
 106
 00:02:44,710 --> 00:02:46,160
- as the normalized vector
+as the normalized vector
 
 107
 00:02:46,169 --> 00:02:48,039
- X, this means
+X, this means
 
 108
 00:02:48,050 --> 00:02:50,039
- that X hat has length one.
+that X hat has length one.
 
 109
 00:02:50,050 --> 00:02:51,539
- So it just gives the direction
+So it just gives the direction
 
 110
 00:02:51,550 --> 00:02:53,300
- of the vector X and
+of the vector X and
 
 111
 00:02:53,309 --> 00:02:54,500
- then we calculate the inner
+then we calculate the inner
 
 112
 00:02:54,509 --> 00:02:56,070
- product with X hat and
+product with X hat and
 
 113
 00:02:56,080 --> 00:02:57,940
- Y and go into the
+Y and go into the
 
 114
 00:02:57,949 --> 00:02:59,500
- direction of X hat.
+direction of X hat.
 
 115
 00:03:00,850 --> 00:03:02,070
- Now, you might recognize
+Now, you might recognize
 
 116
 00:03:02,080 --> 00:03:03,660
- that because if we have
+that because if we have
 
 117
 00:03:03,669 --> 00:03:05,389
- considered the normal Euclidean
+considered the normal Euclidean
 
 118
 00:03:05,399 --> 00:03:07,070
- geometry in the plane, this
+geometry in the plane, this
 
 119
 00:03:07,080 --> 00:03:08,240
- picture would be completely
+picture would be completely
 
 120
 00:03:08,250 --> 00:03:09,009
- correct.
+correct.
 
 121
 00:03:09,199 --> 00:03:10,860
- And this expression is
+And this expression is
 
 122
 00:03:10,869 --> 00:03:12,830
- exactly this orange line
+exactly this orange line
 
 123
 00:03:13,559 --> 00:03:14,699
- by our abstraction.
+by our abstraction.
 
 124
 00:03:14,710 --> 00:03:16,179
- This should be the same here.
+This should be the same here.
 
 125
 00:03:16,190 --> 00:03:17,520
- So let's call the orange arrow
+So let's call the orange arrow
 
 126
 00:03:17,759 --> 00:03:19,009
- just y
+just y
 
 127
 00:03:19,020 --> 00:03:20,899
- parallel in the
+parallel in the
 
 128
 00:03:20,910 --> 00:03:22,039
- Euclidean geometry.
+Euclidean geometry.
 
 129
 00:03:22,050 --> 00:03:23,940
- This is known as the orthogonal
+This is known as the orthogonal
 
 130
 00:03:23,949 --> 00:03:25,800
- projection of Y on to
+projection of Y on to
 
 131
 00:03:25,809 --> 00:03:26,470
- X.
+X.
 
 132
 00:03:27,309 --> 00:03:28,550
- So it makes sense to do the
+So it makes sense to do the
 
 133
 00:03:28,559 --> 00:03:30,020
- same for a general in our
+same for a general in our
 
 134
 00:03:30,029 --> 00:03:30,619
- product.
+product.
 
 135
 00:03:31,460 --> 00:03:33,119
- Now the gray line here is
+Now the gray line here is
 
 136
 00:03:33,130 --> 00:03:34,639
- the orthogonal part which
+the orthogonal part which
 
 137
 00:03:34,649 --> 00:03:35,850
- we also can calculate.
+we also can calculate.
 
 138
 00:03:35,860 --> 00:03:37,630
- Now this is
+Now this is
 
 139
 00:03:37,639 --> 00:03:39,050
- simply given by Y
+simply given by Y
 
 140
 00:03:39,059 --> 00:03:40,729
- minus the parallel part.
+minus the parallel part.
 
 141
 00:03:41,520 --> 00:03:41,880
- OK.
+OK.
 
 142
 00:03:41,889 --> 00:03:43,220
- So we defined some vectors
+So we defined some vectors
 
 143
 00:03:43,229 --> 00:03:44,300
- we want to deal with.
+we want to deal with.
 
 144
 00:03:44,449 --> 00:03:46,380
- But now we need an idea how
+But now we need an idea how
 
 145
 00:03:46,389 --> 00:03:47,850
- to get to the inequality.
+to get to the inequality.
 
 146
 00:03:48,580 --> 00:03:50,100
- Indeed, the whole idea is
+Indeed, the whole idea is
 
 147
 00:03:50,110 --> 00:03:51,160
- that we can calculate the
+that we can calculate the
 
 148
 00:03:51,169 --> 00:03:52,940
- length or the norm of
+length or the norm of
 
 149
 00:03:52,949 --> 00:03:54,240
- this or formal part
+this or formal part
 
 150
 00:03:55,179 --> 00:03:56,910
- simply because we know the
+simply because we know the
 
 151
 00:03:56,919 --> 00:03:58,830
- norm can't be negative.
+norm can't be negative.
 
 152
 00:03:59,830 --> 00:04:01,399
- Now, on the line we can put
+Now, on the line we can put
 
 153
 00:04:01,410 --> 00:04:03,389
- in the definition and then
+in the definition and then
 
 154
 00:04:03,399 --> 00:04:05,149
- of course, also the definition
+of course, also the definition
 
 155
 00:04:05,160 --> 00:04:06,619
- of Y parallel.
+of Y parallel.
 
 156
 00:04:08,070 --> 00:04:09,169
- Now if you see something
+Now if you see something
 
 157
 00:04:09,179 --> 00:04:11,089
- like this calculating norms,
+like this calculating norms,
 
 158
 00:04:11,100 --> 00:04:12,570
- but you have an inner product,
+but you have an inner product,
 
 159
 00:04:12,600 --> 00:04:14,490
- it's better to use squares.
+it's better to use squares.
 
 160
 00:04:15,149 --> 00:04:16,769
- So square everything and
+So square everything and
 
 161
 00:04:16,779 --> 00:04:18,309
- the square roots will vanish.
+the square roots will vanish.
 
 162
 00:04:19,248 --> 00:04:20,878
- And now you can see on the
+And now you can see on the
 
 163
 00:04:20,889 --> 00:04:22,169
- right hand side, we have
+right hand side, we have
 
 164
 00:04:22,178 --> 00:04:23,868
- this long vector in the middle,
+this long vector in the middle,
 
 165
 00:04:24,058 --> 00:04:25,658
- in both components of the
+in both components of the
 
 166
 00:04:25,669 --> 00:04:26,378
- inner product.
+inner product.
 
 167
 00:04:27,299 --> 00:04:28,720
- So it looks like this.
+So it looks like this.
 
 168
 00:04:29,989 --> 00:04:31,170
- And in order to simplify
+And in order to simplify
 
 169
 00:04:31,179 --> 00:04:32,500
- this, we will use the
+this, we will use the
 
 170
 00:04:32,510 --> 00:04:33,410
- linearity.
+linearity.
 
 171
 00:04:34,209 --> 00:04:35,390
- And this linearity in the
+And this linearity in the
 
 172
 00:04:35,399 --> 00:04:36,950
- second component means we
+second component means we
 
 173
 00:04:36,959 --> 00:04:38,649
- can pull out this minus
+can pull out this minus
 
 174
 00:04:38,660 --> 00:04:39,350
- sign here.
+sign here.
 
 175
 00:04:39,929 --> 00:04:41,149
- So we have here a product
+So we have here a product
 
 176
 00:04:41,160 --> 00:04:43,000
- with Y minus the other
+with Y minus the other
 
 177
 00:04:43,010 --> 00:04:43,380
- part.
+part.
 
 178
 00:04:44,119 --> 00:04:45,390
- In the next step, we want
+In the next step, we want
 
 179
 00:04:45,399 --> 00:04:46,730
- to pull out the minus sign
+to pull out the minus sign
 
 180
 00:04:46,739 --> 00:04:48,570
- here And here, and we
+here And here, and we
 
 181
 00:04:48,579 --> 00:04:50,510
- know we can do that because
+know we can do that because
 
 182
 00:04:50,519 --> 00:04:51,679
- the inner product is
+the inner product is
 
 183
 00:04:51,690 --> 00:04:53,250
- conjugate linear in the
+conjugate linear in the
 
 184
 00:04:53,260 --> 00:04:54,369
- first argument.
+first argument.
 
 185
 00:04:54,989 --> 00:04:56,160
- So minus signs are not a
+So minus signs are not a
 
 186
 00:04:56,170 --> 00:04:56,769
- problem.
+problem.
 
 187
 00:04:56,779 --> 00:04:58,230
- And scalars get a complex
+And scalars get a complex
 
 188
 00:04:58,239 --> 00:04:58,989
- conjugation.
+conjugation.
 
 189
 00:04:59,570 --> 00:05:00,839
- So that's the first part
+So that's the first part
 
 190
 00:05:00,850 --> 00:05:01,750
- and the second part would
+and the second part would
 
 191
 00:05:01,760 --> 00:05:03,480
- be this vector with y?
+be this vector with y?
 
 192
 00:05:04,239 --> 00:05:05,380
- And of course, now we do
+And of course, now we do
 
 193
 00:05:05,390 --> 00:05:06,470
- the same with the second
+the same with the second
 
 194
 00:05:06,480 --> 00:05:07,480
- inner product here.
+inner product here.
 
 195
 00:05:08,829 --> 00:05:09,179
- OK.
+OK.
 
 196
 00:05:09,190 --> 00:05:11,049
- Here we have Y with the vector
+Here we have Y with the vector
 
 197
 00:05:11,059 --> 00:05:12,100
- on the right hand side.
+on the right hand side.
 
 198
 00:05:12,140 --> 00:05:13,730
- And now we have minus minus.
+And now we have minus minus.
 
 199
 00:05:13,739 --> 00:05:15,450
- So plus the rest.
+So plus the rest.
 
 200
 00:05:16,399 --> 00:05:17,600
- In fact, here we have the
+In fact, here we have the
 
 201
 00:05:17,609 --> 00:05:19,019
- same vector left and right
+same vector left and right
 
 202
 00:05:19,029 --> 00:05:19,959
- in the inner product.
+in the inner product.
 
 203
 00:05:20,619 --> 00:05:21,679
- Therefore, now comes the
+Therefore, now comes the
 
 204
 00:05:21,690 --> 00:05:23,160
- part where we can rewrite
+part where we can rewrite
 
 205
 00:05:23,170 --> 00:05:23,630
- everything.
+everything.
 
 206
 00:05:23,640 --> 00:05:24,109
- Again.
+Again.
 
 207
 00:05:24,640 --> 00:05:26,070
- The first thing is the norm
+The first thing is the norm
 
 208
 00:05:26,079 --> 00:05:27,190
- of Y squared.
+of Y squared.
 
 209
 00:05:27,970 --> 00:05:28,880
- For the two parts in the
+For the two parts in the
 
 210
 00:05:28,890 --> 00:05:30,549
- middle, we see they are almost
+middle, we see they are almost
 
 211
 00:05:30,559 --> 00:05:31,899
- the same, the one is the
+the same, the one is the
 
 212
 00:05:31,910 --> 00:05:33,260
- complex conjugate of the
+complex conjugate of the
 
 213
 00:05:33,269 --> 00:05:33,660
- other one.
+other one.
 
 214
 00:05:34,390 --> 00:05:35,440
- So we can write it in this
+So we can write it in this
 
 215
 00:05:35,450 --> 00:05:36,839
- way with parentheses, we
+way with parentheses, we
 
 216
 00:05:36,850 --> 00:05:38,209
- put a bar over the second
+put a bar over the second
 
 217
 00:05:38,220 --> 00:05:38,640
- part.
+part.
 
 218
 00:05:39,459 --> 00:05:41,079
- And finally, the last part
+And finally, the last part
 
 219
 00:05:41,089 --> 00:05:42,760
- is the norm of this vector
+is the norm of this vector
 
 220
 00:05:42,769 --> 00:05:43,440
- squared.
+squared.
 
 221
 00:05:44,380 --> 00:05:45,760
- In the next equality here,
+In the next equality here,
 
 222
 00:05:45,769 --> 00:05:47,079
- I want to simplify that even
+I want to simplify that even
 
 223
 00:05:47,089 --> 00:05:48,709
- more because you see
+more because you see
 
 224
 00:05:48,720 --> 00:05:50,450
- here's a complex number plus
+here's a complex number plus
 
 225
 00:05:50,459 --> 00:05:51,799
- the complex conjugate of
+the complex conjugate of
 
 226
 00:05:51,809 --> 00:05:53,350
- this number, which means
+this number, which means
 
 227
 00:05:53,359 --> 00:05:54,910
- this is two times the real
+this is two times the real
 
 228
 00:05:54,920 --> 00:05:56,559
- part of this complex
+part of this complex
 
 229
 00:05:56,570 --> 00:05:58,359
- number, which means that
+number, which means that
 
 230
 00:05:58,369 --> 00:05:59,869
- we can write it like this.
+we can write it like this.
 
 231
 00:06:00,790 --> 00:06:01,970
- And now in the third part,
+And now in the third part,
 
 232
 00:06:01,980 --> 00:06:03,500
- we can pull out the scalar
+we can pull out the scalar
 
 233
 00:06:03,940 --> 00:06:05,149
- which means it comes out
+which means it comes out
 
 234
 00:06:05,160 --> 00:06:06,850
- with the absolute value squared,
+with the absolute value squared,
 
 235
 00:06:07,649 --> 00:06:09,299
- you see it remains the norm
+you see it remains the norm
 
 236
 00:06:09,309 --> 00:06:10,799
- of x hat where we already
+of x hat where we already
 
 237
 00:06:10,809 --> 00:06:12,279
- know this is one.
+know this is one.
 
 238
 00:06:12,529 --> 00:06:14,339
- Now, finally, I want to simplify
+Now, finally, I want to simplify
 
 239
 00:06:14,350 --> 00:06:15,769
- the middle part here, which
+the middle part here, which
 
 240
 00:06:15,779 --> 00:06:16,839
- to be honest, we could have
+to be honest, we could have
 
 241
 00:06:16,850 --> 00:06:17,750
- done before.
+done before.
 
 242
 00:06:17,760 --> 00:06:18,970
- But then we would have done
+But then we would have done
 
 243
 00:06:18,980 --> 00:06:19,880
- it two times.
+it two times.
 
 244
 00:06:20,649 --> 00:06:22,190
- I want to show you visually
+I want to show you visually
 
 245
 00:06:22,200 --> 00:06:23,350
- what we want to do.
+what we want to do.
 
 246
 00:06:23,540 --> 00:06:25,230
- We pull this scalar out
+We pull this scalar out
 
 247
 00:06:25,239 --> 00:06:26,799
- from the first argument of
+from the first argument of
 
 248
 00:06:26,809 --> 00:06:28,510
- the inner product, but
+the inner product, but
 
 249
 00:06:28,519 --> 00:06:29,980
- then it gets a complex
+then it gets a complex
 
 250
 00:06:29,989 --> 00:06:30,679
- conjugation.
+conjugation.
 
 251
 00:06:31,549 --> 00:06:32,799
- So let's fill in the gaps
+So let's fill in the gaps
 
 252
 00:06:32,809 --> 00:06:33,220
- again.
+again.
 
 253
 00:06:33,230 --> 00:06:34,529
- And then you see we have
+And then you see we have
 
 254
 00:06:34,540 --> 00:06:36,100
- the same complex number left
+the same complex number left
 
 255
 00:06:36,109 --> 00:06:36,739
- and right.
+and right.
 
 256
 00:06:36,750 --> 00:06:38,130
- But the one is the complex
+But the one is the complex
 
 257
 00:06:38,140 --> 00:06:39,480
- conjugate of the other one.
+conjugate of the other one.
 
 258
 00:06:40,290 --> 00:06:41,510
- In other words, it's the
+In other words, it's the
 
 259
 00:06:41,519 --> 00:06:42,970
- absolute value of the complex
+absolute value of the complex
 
 260
 00:06:42,980 --> 00:06:44,149
- number squared.
+number squared.
 
 261
 00:06:44,880 --> 00:06:46,359
- And since that is clearly
+And since that is clearly
 
 262
 00:06:46,369 --> 00:06:47,940
- a real number, we can omit
+a real number, we can omit
 
 263
 00:06:47,950 --> 00:06:48,959
- the real part here.
+the real part here.
 
 264
 00:06:49,769 --> 00:06:50,989
- So in summary, we have the
+So in summary, we have the
 
 265
 00:06:51,000 --> 00:06:52,899
- norm of Y squared minus two
+norm of Y squared minus two
 
 266
 00:06:52,910 --> 00:06:54,309
- times this number,
+times this number,
 
 267
 00:06:54,910 --> 00:06:56,500
- but also plus one
+but also plus one
 
 268
 00:06:56,510 --> 00:06:57,869
- times the same number.
+times the same number.
 
 269
 00:06:58,869 --> 00:07:00,089
- Therefore, we can put both
+Therefore, we can put both
 
 270
 00:07:00,100 --> 00:07:01,420
- things together and have
+things together and have
 
 271
 00:07:01,429 --> 00:07:02,600
- a simple result here,
+a simple result here,
 
 272
 00:07:03,410 --> 00:07:05,369
- the norm of Y squared minus
+the norm of Y squared minus
 
 273
 00:07:05,380 --> 00:07:06,720
- the inner product in absolute
+the inner product in absolute
 
 274
 00:07:06,730 --> 00:07:07,540
- value squared.
+value squared.
 
 275
 00:07:08,359 --> 00:07:09,720
- So this is our right hand
+So this is our right hand
 
 276
 00:07:09,730 --> 00:07:11,529
- side and on the left, we
+side and on the left, we
 
 277
 00:07:11,540 --> 00:07:12,339
- have the zero.
+have the zero.
 
 278
 00:07:13,600 --> 00:07:14,739
- Hence, in the next step,
+Hence, in the next step,
 
 279
 00:07:14,750 --> 00:07:15,660
- I want to bring the inner
+I want to bring the inner
 
 280
 00:07:15,670 --> 00:07:17,339
- product to the other side.
+product to the other side.
 
 281
 00:07:18,380 --> 00:07:20,079
- Now, you can see we are almost
+Now, you can see we are almost
 
 282
 00:07:20,089 --> 00:07:21,670
- there with our inequality.
+there with our inequality.
 
 283
 00:07:21,679 --> 00:07:22,859
- The only thing missing is
+The only thing missing is
 
 284
 00:07:22,869 --> 00:07:23,929
- that we have to translate
+that we have to translate
 
 285
 00:07:23,940 --> 00:07:24,959
- back X hat
+back X hat
 
 286
 00:07:25,820 --> 00:07:27,119
- which is not so hard to do
+which is not so hard to do
 
 287
 00:07:27,130 --> 00:07:28,920
- because we define it as X
+because we define it as X
 
 288
 00:07:28,929 --> 00:07:30,670
- divided by the norm of X.
+divided by the norm of X.
 
 289
 00:07:31,359 --> 00:07:32,399
- Of course, we do the same
+Of course, we do the same
 
 290
 00:07:32,410 --> 00:07:34,190
- as always, we pull out one
+as always, we pull out one
 
 291
 00:07:34,200 --> 00:07:35,799
- divided by the norm of X.
+divided by the norm of X.
 
 292
 00:07:36,359 --> 00:07:37,959
- Hence, that's what we get.
+Hence, that's what we get.
 
 293
 00:07:37,970 --> 00:07:39,239
- And you see, we just have
+And you see, we just have
 
 294
 00:07:39,250 --> 00:07:40,839
- to multiply with the norm
+to multiply with the norm
 
 295
 00:07:40,850 --> 00:07:42,600
- of X squared on both sides.
+of X squared on both sides.
 
 296
 00:07:43,679 --> 00:07:45,010
- And then taking the square
+And then taking the square
 
 297
 00:07:45,019 --> 00:07:46,579
- root on both sides, we get
+root on both sides, we get
 
 298
 00:07:46,589 --> 00:07:48,070
- out our Cauchy Schwarz
+out our Cauchy Schwarz
 
 299
 00:07:48,079 --> 00:07:48,980
- inequality.
+inequality.
 
 300
 00:07:49,549 --> 00:07:51,130
- Well, that's the whole proof
+Well, that's the whole proof
 
 301
 00:07:51,140 --> 00:07:52,279
- of the inequality.
+of the inequality.
 
 302
 00:07:52,510 --> 00:07:54,170
- I will skip the part about
+I will skip the part about
 
 303
 00:07:54,179 --> 00:07:55,970
- the equality now because
+the equality now because
 
 304
 00:07:55,980 --> 00:07:57,790
- I want to use time to show
+I want to use time to show
 
 305
 00:07:57,799 --> 00:07:58,950
- you that the symbol we use
+you that the symbol we use
 
 306
 00:07:58,959 --> 00:08:00,600
- here is indeed the norm.
+here is indeed the norm.
 
 307
 00:08:00,609 --> 00:08:02,059
- So it fulfills the triangle
+So it fulfills the triangle
 
 308
 00:08:02,070 --> 00:08:03,029
- inequality.
+inequality.
 
 309
 00:08:03,190 --> 00:08:04,700
- And we will do that by
+And we will do that by
 
 310
 00:08:04,709 --> 00:08:06,220
- using the Cauchy Schwarz
+using the Cauchy Schwarz
 
 311
 00:08:06,230 --> 00:08:07,059
- inequality.
+inequality.
 
 312
 00:08:07,920 --> 00:08:09,880
- In fact, the triangle inequality
+In fact, the triangle inequality
 
 313
 00:08:09,890 --> 00:08:11,200
- is most of the time, the
+is most of the time, the
 
 314
 00:08:11,209 --> 00:08:12,820
- hardest part of a proof that
+hardest part of a proof that
 
 315
 00:08:12,829 --> 00:08:13,989
- something is a norm.
+something is a norm.
 
 316
 00:08:15,179 --> 00:08:16,779
- So let's do that very quickly.
+So let's do that very quickly.
 
 317
 00:08:16,790 --> 00:08:18,059
- Of course, we square the
+Of course, we square the
 
 318
 00:08:18,070 --> 00:08:18,839
- norm again
+norm again
 
 319
 00:08:19,820 --> 00:08:21,119
- because then we don't need
+because then we don't need
 
 320
 00:08:21,130 --> 00:08:22,369
- the square root, we can just
+the square root, we can just
 
 321
 00:08:22,380 --> 00:08:24,350
- write X plus YX
+write X plus YX
 
 322
 00:08:24,359 --> 00:08:26,000
- plus Y in the inner product.
+plus Y in the inner product.
 
 323
 00:08:26,420 --> 00:08:28,019
- The linearity now gets us
+The linearity now gets us
 
 324
 00:08:28,029 --> 00:08:29,920
- to a similar result as before
+to a similar result as before
 
 325
 00:08:30,809 --> 00:08:32,750
- namely the norm of X and
+namely the norm of X and
 
 326
 00:08:32,760 --> 00:08:33,619
- Y squared.
+Y squared.
 
 327
 00:08:33,630 --> 00:08:34,799
- And in the middle, we get
+And in the middle, we get
 
 328
 00:08:34,808 --> 00:08:36,479
- two times the real part of
+two times the real part of
 
 329
 00:08:36,489 --> 00:08:37,239
- the product.
+the product.
 
 330
 00:08:37,890 --> 00:08:39,210
- Now, of course, if we use
+Now, of course, if we use
 
 331
 00:08:39,219 --> 00:08:40,409
- the absolute value instead
+the absolute value instead
 
 332
 00:08:40,419 --> 00:08:42,020
- of the real part, it gets
+of the real part, it gets
 
 333
 00:08:42,030 --> 00:08:42,489
- bigger.
+bigger.
 
 334
 00:08:43,369 --> 00:08:44,710
- And of course, here we now
+And of course, here we now
 
 335
 00:08:44,719 --> 00:08:46,599
- can use our Cauchy Schwarz
+can use our Cauchy Schwarz
 
 336
 00:08:46,609 --> 00:08:47,510
- inequality.
+inequality.
 
 337
 00:08:48,080 --> 00:08:49,630
- And now knowing the binomial
+And now knowing the binomial
 
 338
 00:08:49,640 --> 00:08:51,109
- theorem, you see this is
+theorem, you see this is
 
 339
 00:08:51,119 --> 00:08:52,669
- just the square of the sum
+just the square of the sum
 
 340
 00:08:52,679 --> 00:08:53,729
- of the two norms
+of the two norms
 
 341
 00:08:54,320 --> 00:08:55,419
- taking the square root on
+taking the square root on
 
 342
 00:08:55,429 --> 00:08:56,109
- both sides.
+both sides.
 
 343
 00:08:56,119 --> 00:08:57,640
- You see this is simply the
+You see this is simply the
 
 344
 00:08:57,650 --> 00:08:59,130
- triangle inequality for the
+triangle inequality for the
 
 345
 00:08:59,140 --> 00:09:00,820
- norm we defined by the inner
+norm we defined by the inner
 
 346
 00:09:00,830 --> 00:09:01,349
- product.
+product.
 
 347
 00:09:02,169 --> 00:09:03,210
- The other two properties
+The other two properties
 
 348
 00:09:03,219 --> 00:09:04,609
- for norm shouldn't be a problem
+for norm shouldn't be a problem
 
 349
 00:09:04,619 --> 00:09:05,250
- to show.
+to show.
 
 350
 00:09:05,299 --> 00:09:06,789
- And therefore now it makes
+And therefore now it makes
 
 351
 00:09:06,799 --> 00:09:08,650
- sense to use this symbol
+sense to use this symbol
 
 352
 00:09:08,659 --> 00:09:09,770
- and call it a norm in an
+and call it a norm in an
 
 353
 00:09:09,780 --> 00:09:11,229
- inner product space.
+inner product space.
 
 354
 00:09:11,770 --> 00:09:12,229
- OK?
+OK?
 
 355
 00:09:12,239 --> 00:09:13,190
- I think that's good enough
+I think that's good enough
 
 356
 00:09:13,200 --> 00:09:13,909
- for today.
+for today.
 
 357
 00:09:13,929 --> 00:09:15,169
- In the next videos, we will
+In the next videos, we will
 
 358
 00:09:15,179 --> 00:09:16,590
- talk a little bit more about
+talk a little bit more about
 
 359
 00:09:16,599 --> 00:09:17,669
- the geometry.
+the geometry.
 
 360
 00:09:17,679 --> 00:09:18,989
- An inner product gives the
+An inner product gives the
 
 361
 00:09:19,000 --> 00:09:20,780
- space and I
+space and I
 
 362
 00:09:20,789 --> 00:09:22,280
- already told you if you need
+already told you if you need
 
 363
 00:09:22,289 --> 00:09:23,650
- it, you can download the
+it, you can download the
 
 364
 00:09:23,659 --> 00:09:25,169
- PDF version of this video
+PDF version of this video
 
 365
 00:09:25,179 --> 00:09:27,159
- in the description and of
+in the description and of
 
 366
 00:09:27,169 --> 00:09:28,679
- course use the comments if
+course use the comments if
 
 367
 00:09:28,690 --> 00:09:29,599
- you have questions.
+you have questions.
 
 368
 00:09:29,719 --> 00:09:30,979
- Otherwise I see you in the
+Otherwise I see you in the
 
 369
 00:09:30,989 --> 00:09:31,609
- next video.
+next video.
 
 370
 00:09:32,590 --> 00:09:33,609
- Have a nice day.
+Have a nice day.
 
 371
 00:09:33,700 --> 00:09:34,289
- Bye.
-
+Bye.

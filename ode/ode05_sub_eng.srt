@@ -52,7 +52,7 @@ given as "x dot" is equal to v(x), where v should be a continuous function.
 
 14
 00:01:20,471 --> 00:01:25,851
-We already talked about that this is the general form of ODEs, like  we want to consider them.
+We already talked about that this is the general form of ODEs, like we want to consider them.
 
 15
 00:01:26,051 --> 00:01:29,697
@@ -172,7 +172,7 @@ and now you might already guess. In order to solve this equation now, we will in
 
 44
 00:04:48,000 --> 00:04:53,171
-and namely we will simply integrate  from the given point 0 to a given point t.
+and namely we will simply integrate from the given point 0 to a given point t.
 
 45
 00:04:53,514 --> 00:04:58,325
@@ -593,4 +593,3 @@ Ok and with that we have seen some nice examples and I would say in the next vid
 149
 00:15:57,043 --> 00:16:00,696
 So I really hope that I see you there and have a nice day. Bye!
-

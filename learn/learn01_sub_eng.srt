@@ -104,7 +104,7 @@ You need to learn the basic stuff first and then you can move to more advanced s
 
 27
 00:02:38,029 --> 00:02:45,604
-In other words if it's really frustrating to learn a particular topic, you have to check what are the prerequisites you need 
+In other words if it's really frustrating to learn a particular topic, you have to check what are the prerequisites you need
 
 28
 00:02:45,804 --> 00:02:48,357
@@ -349,4 +349,3 @@ Moreover there you also find exercises such that you don't do the mistakes for l
 88
 00:08:28,059 --> 00:08:34,135
 So I really hope that video helped you and then let's meet in the next one. Have a nice day and bye.
-

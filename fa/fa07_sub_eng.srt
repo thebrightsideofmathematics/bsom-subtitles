@@ -1,1848 +1,1847 @@
 1
 00:00:00,449 --> 00:00:02,269
- Hello and welcome back to
+Hello and welcome back to
 
 2
 00:00:02,279 --> 00:00:03,490
- functional analysis.
+functional analysis.
 
 3
 00:00:03,559 --> 00:00:04,670
- And as always, I want to
+And as always, I want to
 
 4
 00:00:04,679 --> 00:00:06,099
- thank all the nice people
+thank all the nice people
 
 5
 00:00:06,110 --> 00:00:07,269
- that support this channel
+that support this channel
 
 6
 00:00:07,280 --> 00:00:08,779
- on Steady or paypal.
+on Steady or paypal.
 
 7
 00:00:09,569 --> 00:00:11,140
- Today we have part seven
+Today we have part seven
 
 8
 00:00:11,149 --> 00:00:12,829
- where we discuss examples
+where we discuss examples
 
 9
 00:00:12,840 --> 00:00:14,060
- of Banach spaces.
+of Banach spaces.
 
 10
 00:00:14,739 --> 00:00:16,040
- Please recall the picture
+Please recall the picture
 
 11
 00:00:16,049 --> 00:00:17,299
- from the last time where
+from the last time where
 
 12
 00:00:17,309 --> 00:00:18,450
- we learned that the Banach
+we learned that the Banach
 
 13
 00:00:18,489 --> 00:00:19,969
- space is on the one hand,
+space is on the one hand,
 
 14
 00:00:19,979 --> 00:00:21,340
- a real or complex vector
+a real or complex vector
 
 15
 00:00:21,350 --> 00:00:21,920
- space.
+space.
 
 16
 00:00:21,930 --> 00:00:23,170
- And on the other hand, a
+And on the other hand, a
 
 17
 00:00:23,180 --> 00:00:24,920
- complete metric space where
+complete metric space where
 
 18
 00:00:24,930 --> 00:00:26,659
- the connection is given by
+the connection is given by
 
 19
 00:00:26,670 --> 00:00:27,280
- the norm.
+the norm.
 
 20
 00:00:28,159 --> 00:00:29,899
- Of course, now we can find
+Of course, now we can find
 
 21
 00:00:29,909 --> 00:00:31,420
- a lot of examples.
+a lot of examples.
 
 22
 00:00:32,209 --> 00:00:33,419
- Let's start with the simplest
+Let's start with the simplest
 
 23
 00:00:33,430 --> 00:00:35,139
- one, you can just consider
+one, you can just consider
 
 24
 00:00:35,150 --> 00:00:36,380
- the real number line.
+the real number line.
 
 25
 00:00:37,380 --> 00:00:38,860
- Therefore, we already know
+Therefore, we already know
 
 26
 00:00:38,889 --> 00:00:40,840
- it's a one dimensional real
+it's a one dimensional real
 
 27
 00:00:40,849 --> 00:00:41,720
- vector space.
+vector space.
 
 28
 00:00:42,500 --> 00:00:43,919
- And we also know that we
+And we also know that we
 
 29
 00:00:43,930 --> 00:00:45,459
- can calculate lengths
+can calculate lengths
 
 30
 00:00:45,540 --> 00:00:47,180
- if we consider the absolute
+if we consider the absolute
 
 31
 00:00:47,189 --> 00:00:48,799
- value in the real numbers.
+value in the real numbers.
 
 32
 00:00:49,630 --> 00:00:50,819
- Indeed with our
+Indeed with our
 
 33
 00:00:50,830 --> 00:00:52,400
- definition, this is a
+definition, this is a
 
 34
 00:00:52,409 --> 00:00:54,400
- norm and then
+norm and then
 
 35
 00:00:54,409 --> 00:00:56,180
- you should know the associated
+you should know the associated
 
 36
 00:00:56,189 --> 00:00:57,959
- metric is given by this
+metric is given by this
 
 37
 00:00:57,970 --> 00:00:58,599
- formula.
+formula.
 
 38
 00:00:59,509 --> 00:01:00,909
- And that's just the normal
+And that's just the normal
 
 39
 00:01:00,919 --> 00:01:02,349
- metric we have in the real
+metric we have in the real
 
 40
 00:01:02,360 --> 00:01:02,930
- numbers.
+numbers.
 
 41
 00:01:03,720 --> 00:01:05,319
- And now from real analysis,
+And now from real analysis,
 
 42
 00:01:05,330 --> 00:01:06,809
- you should know that all
+you should know that all
 
 43
 00:01:06,819 --> 00:01:08,699
- the Cauchy sequences indeed
+the Cauchy sequences indeed
 
 44
 00:01:08,709 --> 00:01:09,980
- converge in R.
+converge in R.
 
 45
 00:01:10,830 --> 00:01:12,760
- In other words, are together
+In other words, are together
 
 46
 00:01:12,769 --> 00:01:14,180
- with this norm is a Bana
+with this norm is a Bana
 
 47
 00:01:14,370 --> 00:01:14,989
- space.
+space.
 
 48
 00:01:15,980 --> 00:01:17,519
- So this is our first.
+So this is our first.
 
 49
 00:01:17,529 --> 00:01:19,129
- And as you can see a very
+And as you can see a very
 
 50
 00:01:19,139 --> 00:01:20,209
- simple example,
+simple example,
 
 51
 00:01:20,839 --> 00:01:22,290
- however, we can consider
+however, we can consider
 
 52
 00:01:22,300 --> 00:01:23,910
- even a simple example.
+even a simple example.
 
 53
 00:01:24,760 --> 00:01:26,059
- And you might already guess
+And you might already guess
 
 54
 00:01:26,069 --> 00:01:27,410
- instead of a one dimensional
+instead of a one dimensional
 
 55
 00:01:27,419 --> 00:01:28,980
- vector space, we choose a
+vector space, we choose a
 
 56
 00:01:28,989 --> 00:01:30,699
- zero dimensional vector space.
+zero dimensional vector space.
 
 57
 00:01:31,599 --> 00:01:32,900
- This means that the zero
+This means that the zero
 
 58
 00:01:32,910 --> 00:01:34,769
- vector is the only vector
+vector is the only vector
 
 59
 00:01:34,779 --> 00:01:35,430
- in the space.
+in the space.
 
 60
 00:01:36,279 --> 00:01:37,760
- And of course, there's only
+And of course, there's only
 
 61
 00:01:37,769 --> 00:01:39,699
- one norm we can define
+one norm we can define
 
 62
 00:01:39,709 --> 00:01:41,569
- here because the zero
+here because the zero
 
 63
 00:01:41,580 --> 00:01:43,410
- vector has to have length
+vector has to have length
 
 64
 00:01:43,419 --> 00:01:43,930
- zero.
+zero.
 
 65
 00:01:44,959 --> 00:01:46,300
- Hence everything we need
+Hence everything we need
 
 66
 00:01:46,309 --> 00:01:47,569
- here is fulfilled.
+here is fulfilled.
 
 67
 00:01:47,739 --> 00:01:48,889
- We have a Banach space.
+We have a Banach space.
 
 68
 00:01:50,069 --> 00:01:51,430
- Of course, this is a very
+Of course, this is a very
 
 69
 00:01:51,440 --> 00:01:53,160
- boring one and not very
+boring one and not very
 
 70
 00:01:53,169 --> 00:01:53,779
- helpful.
+helpful.
 
 71
 00:01:54,589 --> 00:01:56,080
- Indeed, often it's a
+Indeed, often it's a
 
 72
 00:01:56,089 --> 00:01:58,019
- pathological one which means
+pathological one which means
 
 73
 00:01:58,029 --> 00:01:59,730
- that some theorem we prove
+that some theorem we prove
 
 74
 00:01:59,739 --> 00:02:01,680
- later for Banach spaces will
+later for Banach spaces will
 
 75
 00:02:01,690 --> 00:02:03,260
- not hold for this particular
+not hold for this particular
 
 76
 00:02:03,269 --> 00:02:03,739
- one here.
+one here.
 
 77
 00:02:04,660 --> 00:02:06,050
- Please keep that in mind
+Please keep that in mind
 
 78
 00:02:06,059 --> 00:02:07,489
- if you want to use the zero
+if you want to use the zero
 
 79
 00:02:07,500 --> 00:02:09,449
- Banach space as your example.
+Banach space as your example.
 
 80
 00:02:10,229 --> 00:02:11,820
- However, now let's continue
+However, now let's continue
 
 81
 00:02:11,830 --> 00:02:13,300
- with one of the most important
+with one of the most important
 
 82
 00:02:13,309 --> 00:02:14,059
- examples.
+examples.
 
 83
 00:02:14,919 --> 00:02:16,889
- This is the LP space written
+This is the LP space written
 
 84
 00:02:16,899 --> 00:02:18,190
- as LP
+as LP
 
 85
 00:02:18,380 --> 00:02:19,330
- NF
+NF
 
 86
 00:02:20,089 --> 00:02:21,729
- and denotes the natural numbers
+and denotes the natural numbers
 
 87
 00:02:21,740 --> 00:02:23,130
- and F is our field.
+and F is our field.
 
 88
 00:02:23,139 --> 00:02:25,070
- So the real or complex numbers
+So the real or complex numbers
 
 89
 00:02:25,759 --> 00:02:27,339
- and P is a real number
+and P is a real number
 
 90
 00:02:27,350 --> 00:02:28,960
- greater or equal than one,
+greater or equal than one,
 
 91
 00:02:29,039 --> 00:02:30,740
- but it could also be infinity.
+but it could also be infinity.
 
 92
 00:02:31,550 --> 00:02:33,339
- However, infinity is a special
+However, infinity is a special
 
 93
 00:02:33,350 --> 00:02:34,699
- case we consider later.
+case we consider later.
 
 94
 00:02:34,820 --> 00:02:36,600
- So here I exclude it.
+So here I exclude it.
 
 95
 00:02:37,690 --> 00:02:39,020
- Now, as I said, this
+Now, as I said, this
 
 96
 00:02:39,029 --> 00:02:40,949
- LPN F is defined
+LPN F is defined
 
 97
 00:02:40,960 --> 00:02:42,509
- as all the sequences in
+as all the sequences in
 
 98
 00:02:42,520 --> 00:02:44,470
- F that fulfill one condition.
+F that fulfill one condition.
 
 99
 00:02:45,229 --> 00:02:46,690
- So you immediately see the
+So you immediately see the
 
 100
 00:02:46,699 --> 00:02:48,009
- notation here makes sense.
+notation here makes sense.
 
 101
 00:02:48,020 --> 00:02:49,610
- This is the domain and this
+This is the domain and this
 
 102
 00:02:49,619 --> 00:02:51,009
- is the co domain for the
+is the co domain for the
 
 103
 00:02:51,020 --> 00:02:52,729
- map given by the sequence.
+map given by the sequence.
 
 104
 00:02:53,500 --> 00:02:54,899
- And Now this condition is
+And Now this condition is
 
 105
 00:02:54,910 --> 00:02:56,559
- given by the series where
+given by the series where
 
 106
 00:02:56,570 --> 00:02:58,039
- you add up all the sequence
+you add up all the sequence
 
 107
 00:02:58,050 --> 00:02:59,960
- members and we do it in the
+members and we do it in the
 
 108
 00:02:59,970 --> 00:03:01,720
- absolute value and to the
+absolute value and to the
 
 109
 00:03:01,729 --> 00:03:02,589
- power P.
+power P.
 
 110
 00:03:03,740 --> 00:03:05,080
- And if this series now
+And if this series now
 
 111
 00:03:05,089 --> 00:03:06,960
- converges, which means it's
+converges, which means it's
 
 112
 00:03:06,970 --> 00:03:08,399
- less than infinity, then
+less than infinity, then
 
 113
 00:03:08,410 --> 00:03:09,990
- the sequence is an LP.
+the sequence is an LP.
 
 114
 00:03:11,009 --> 00:03:12,449
- Often from the context, it's
+Often from the context, it's
 
 115
 00:03:12,460 --> 00:03:13,630
- clear if we are dealing with
+clear if we are dealing with
 
 116
 00:03:13,639 --> 00:03:15,229
- real or complex numbers and
+real or complex numbers and
 
 117
 00:03:15,240 --> 00:03:16,789
- what the index set of the
+what the index set of the
 
 118
 00:03:16,800 --> 00:03:17,820
- sequences is.
+sequences is.
 
 119
 00:03:17,830 --> 00:03:19,520
- And therefore one just writes
+And therefore one just writes
 
 120
 00:03:19,529 --> 00:03:20,860
- LP in this case.
+LP in this case.
 
 121
 00:03:22,059 --> 00:03:23,029
- Now, the first thing you
+Now, the first thing you
 
 122
 00:03:23,039 --> 00:03:24,440
- should note is that if we
+should note is that if we
 
 123
 00:03:24,449 --> 00:03:25,869
- ignore this condition and
+ignore this condition and
 
 124
 00:03:25,880 --> 00:03:27,649
- just consider the sequences,
+just consider the sequences,
 
 125
 00:03:27,759 --> 00:03:29,559
- then they form a vector space
+then they form a vector space
 
 126
 00:03:30,240 --> 00:03:32,009
- because adding and scaling
+because adding and scaling
 
 127
 00:03:32,020 --> 00:03:33,729
- is just given in a component
+is just given in a component
 
 128
 00:03:33,740 --> 00:03:34,529
- wise sense.
+wise sense.
 
 129
 00:03:35,449 --> 00:03:36,750
- Therefore, here we just have
+Therefore, here we just have
 
 130
 00:03:36,759 --> 00:03:38,410
- to show that LP is a
+to show that LP is a
 
 131
 00:03:38,419 --> 00:03:40,279
- subspace of this bigger vector
+subspace of this bigger vector
 
 132
 00:03:40,289 --> 00:03:40,779
- space.
+space.
 
 133
 00:03:41,990 --> 00:03:43,729
- However, what we also want
+However, what we also want
 
 134
 00:03:43,740 --> 00:03:45,229
- is a norm for this vector
+is a norm for this vector
 
 135
 00:03:45,240 --> 00:03:47,100
- space and
+space and
 
 136
 00:03:47,110 --> 00:03:48,710
- usually one just uses a
+usually one just uses a
 
 137
 00:03:48,720 --> 00:03:50,369
- P as an index.
+P as an index.
 
 138
 00:03:51,250 --> 00:03:52,550
- Now if we give the whole
+Now if we give the whole
 
 139
 00:03:52,559 --> 00:03:54,199
- sequence, the name X,
+sequence, the name X,
 
 140
 00:03:54,500 --> 00:03:56,350
- then we can calculate
+then we can calculate
 
 141
 00:03:56,360 --> 00:03:58,190
- the P norm of X
+the P norm of X
 
 142
 00:03:58,199 --> 00:04:00,130
- by using this number because
+by using this number because
 
 143
 00:04:00,139 --> 00:04:01,419
- we know it's finite.
+we know it's finite.
 
 144
 00:04:01,929 --> 00:04:03,130
- However, you might already
+However, you might already
 
 145
 00:04:03,139 --> 00:04:04,460
- see that the second property
+see that the second property
 
 146
 00:04:04,470 --> 00:04:05,729
- of a norm is not fulfilled.
+of a norm is not fulfilled.
 
 147
 00:04:05,740 --> 00:04:07,559
- In this case, we also need
+In this case, we also need
 
 148
 00:04:07,570 --> 00:04:09,110
- the PEF root outside.
+the PEF root outside.
 
 149
 00:04:10,080 --> 00:04:11,910
- If you set P equals to two,
+If you set P equals to two,
 
 150
 00:04:12,020 --> 00:04:13,380
- you will recognize something
+you will recognize something
 
 151
 00:04:13,389 --> 00:04:15,039
- similar to the Euclidean
+similar to the Euclidean
 
 152
 00:04:15,050 --> 00:04:16,160
- norm in RD.
+norm in RD.
 
 153
 00:04:17,048 --> 00:04:18,630
- Indeed, with similar arguments,
+Indeed, with similar arguments,
 
 154
 00:04:18,640 --> 00:04:20,260
- we can show that this now
+we can show that this now
 
 155
 00:04:20,269 --> 00:04:21,459
- gives us a norm.
+gives us a norm.
 
 156
 00:04:22,350 --> 00:04:23,739
- I emphasize that this is
+I emphasize that this is
 
 157
 00:04:23,750 --> 00:04:25,200
- not trivial to show that.
+not trivial to show that.
 
 158
 00:04:25,260 --> 00:04:26,850
- And indeed, I skip that here,
+And indeed, I skip that here,
 
 159
 00:04:26,859 --> 00:04:28,059
- but we will do it later
+but we will do it later
 
 160
 00:04:29,200 --> 00:04:29,470
- here.
+here.
 
 161
 00:04:29,480 --> 00:04:30,579
- In this video, I want to
+In this video, I want to
 
 162
 00:04:30,589 --> 00:04:32,549
- focus how we get the completeness
+focus how we get the completeness
 
 163
 00:04:32,559 --> 00:04:33,339
- of the space.
+of the space.
 
 164
 00:04:34,170 --> 00:04:35,589
- Hence, our claim is
+Hence, our claim is
 
 165
 00:04:35,600 --> 00:04:37,109
- LP together with this
+LP together with this
 
 166
 00:04:37,119 --> 00:04:38,899
- norm is a Banach space.
+norm is a Banach space.
 
 167
 00:04:39,700 --> 00:04:40,980
- The first part of the proof
+The first part of the proof
 
 168
 00:04:40,989 --> 00:04:42,910
- has to be that LP is an F
+has to be that LP is an F
 
 169
 00:04:42,920 --> 00:04:44,700
- vector space and that this
+vector space and that this
 
 170
 00:04:44,709 --> 00:04:46,589
- P norm is indeed a norm
+P norm is indeed a norm
 
 171
 00:04:46,600 --> 00:04:47,079
- on it.
+on it.
 
 172
 00:04:47,559 --> 00:04:49,239
- I already told you we don't
+I already told you we don't
 
 173
 00:04:49,250 --> 00:04:49,839
- do it here.
+do it here.
 
 174
 00:04:49,850 --> 00:04:51,549
- We assume it, we will prove
+We assume it, we will prove
 
 175
 00:04:51,559 --> 00:04:52,089
- it later.
+it later.
 
 176
 00:04:52,619 --> 00:04:53,769
- That's just because we need
+That's just because we need
 
 177
 00:04:53,779 --> 00:04:55,239
- a lot of technical details
+a lot of technical details
 
 178
 00:04:55,250 --> 00:04:55,959
- for this.
+for this.
 
 179
 00:04:55,989 --> 00:04:57,779
- And I think it will distract
+And I think it will distract
 
 180
 00:04:57,790 --> 00:04:59,429
- us from the important completeness
+us from the important completeness
 
 181
 00:04:59,440 --> 00:05:00,679
- part of the proof here.
+part of the proof here.
 
 182
 00:05:01,339 --> 00:05:02,559
- Now, in order to show the
+Now, in order to show the
 
 183
 00:05:02,570 --> 00:05:04,070
- completeness, we have to
+completeness, we have to
 
 184
 00:05:04,079 --> 00:05:05,720
- choose an arbitrary
+choose an arbitrary
 
 185
 00:05:05,950 --> 00:05:06,839
- Cauchy sequence.
+Cauchy sequence.
 
 186
 00:05:07,660 --> 00:05:09,079
- So this might be hard to
+So this might be hard to
 
 187
 00:05:09,089 --> 00:05:09,600
- understand.
+understand.
 
 188
 00:05:09,609 --> 00:05:11,600
- Now the queen X is
+Now the queen X is
 
 189
 00:05:11,609 --> 00:05:13,410
- a sequence in F and
+a sequence in F and
 
 190
 00:05:13,420 --> 00:05:14,920
- now we have to consider
+now we have to consider
 
 191
 00:05:14,929 --> 00:05:16,380
- sequences of
+sequences of
 
 192
 00:05:16,390 --> 00:05:17,200
- sequences.
+sequences.
 
 193
 00:05:18,059 --> 00:05:19,230
- Therefore, I choose here
+Therefore, I choose here
 
 194
 00:05:19,239 --> 00:05:21,149
- an upper index K to
+an upper index K to
 
 195
 00:05:21,160 --> 00:05:23,149
- denote the different sequences
+denote the different sequences
 
 196
 00:05:23,160 --> 00:05:25,029
- we have in our Cauchy sequence.
+we have in our Cauchy sequence.
 
 197
 00:05:25,750 --> 00:05:27,579
- And now we have to show that
+And now we have to show that
 
 198
 00:05:27,589 --> 00:05:29,160
- all the sequences here in
+all the sequences here in
 
 199
 00:05:29,170 --> 00:05:31,149
- a row converge to another
+a row converge to another
 
 200
 00:05:31,160 --> 00:05:32,410
- sequence, a limit.
+sequence, a limit.
 
 201
 00:05:33,529 --> 00:05:33,989
- OK?
+OK?
 
 202
 00:05:34,000 --> 00:05:35,519
- To get the right idea, let's
+To get the right idea, let's
 
 203
 00:05:35,529 --> 00:05:37,470
- write down some of the sequences.
+write down some of the sequences.
 
 204
 00:05:38,410 --> 00:05:39,970
- So here you see our Cauchy
+So here you see our Cauchy
 
 205
 00:05:39,980 --> 00:05:41,470
- sequence which goes from
+sequence which goes from
 
 206
 00:05:41,480 --> 00:05:42,320
- top to bottom.
+top to bottom.
 
 207
 00:05:43,230 --> 00:05:44,859
- Now, for example, our X one
+Now, for example, our X one
 
 208
 00:05:44,869 --> 00:05:46,290
- is a sequence in LP.
+is a sequence in LP.
 
 209
 00:05:46,420 --> 00:05:48,079
- So it consists of real or
+So it consists of real or
 
 210
 00:05:48,089 --> 00:05:49,630
- complex numbers in a row.
+complex numbers in a row.
 
 211
 00:05:50,290 --> 00:05:51,350
- And the same we can write
+And the same we can write
 
 212
 00:05:51,359 --> 00:05:53,209
- down for X two X three and
+down for X two X three and
 
 213
 00:05:53,220 --> 00:05:53,709
- so on.
+so on.
 
 214
 00:05:54,410 --> 00:05:55,500
- Now, if you look at this
+Now, if you look at this
 
 215
 00:05:55,510 --> 00:05:57,230
- picture, you see a lot of
+picture, you see a lot of
 
 216
 00:05:57,239 --> 00:05:59,109
- numbers in F in two different
+numbers in F in two different
 
 217
 00:05:59,119 --> 00:06:00,799
- directions from left to
+directions from left to
 
 218
 00:06:00,809 --> 00:06:02,500
- right and from top to bottom.
+right and from top to bottom.
 
 219
 00:06:03,269 --> 00:06:04,970
- And please keep in mind in
+And please keep in mind in
 
 220
 00:06:04,980 --> 00:06:06,929
- the end, we want the limit
+the end, we want the limit
 
 221
 00:06:06,940 --> 00:06:08,010
- here on the left.
+here on the left.
 
 222
 00:06:09,000 --> 00:06:10,459
- In order to find this, we
+In order to find this, we
 
 223
 00:06:10,470 --> 00:06:11,799
- can just look at the different
+can just look at the different
 
 224
 00:06:11,809 --> 00:06:13,640
- sequences we have here from
+sequences we have here from
 
 225
 00:06:13,649 --> 00:06:14,549
- top to bottom.
+top to bottom.
 
 226
 00:06:15,670 --> 00:06:16,989
- So maybe you just take the
+So maybe you just take the
 
 227
 00:06:17,000 --> 00:06:18,529
- fourth column here and then
+fourth column here and then
 
 228
 00:06:18,540 --> 00:06:19,890
- we look at the difference
+we look at the difference
 
 229
 00:06:19,899 --> 00:06:21,369
- between two members of the
+between two members of the
 
 230
 00:06:21,380 --> 00:06:22,010
- sequence.
+sequence.
 
 231
 00:06:22,890 --> 00:06:24,470
- So maybe we use K
+So maybe we use K
 
 232
 00:06:24,600 --> 00:06:26,559
- and L for the corresponding
+and L for the corresponding
 
 233
 00:06:26,570 --> 00:06:27,170
- index.
+index.
 
 234
 00:06:28,040 --> 00:06:29,489
- Now we want to put in the
+Now we want to put in the
 
 235
 00:06:29,500 --> 00:06:31,230
- information we already have,
+information we already have,
 
 236
 00:06:31,540 --> 00:06:32,910
- which means we consider here
+which means we consider here
 
 237
 00:06:32,920 --> 00:06:34,079
- the absolute value to the
+the absolute value to the
 
 238
 00:06:34,089 --> 00:06:35,010
- power of P.
+power of P.
 
 239
 00:06:35,700 --> 00:06:37,420
- And then we know this is
+And then we know this is
 
 240
 00:06:37,429 --> 00:06:39,220
- less or equal than
+less or equal than
 
 241
 00:06:39,230 --> 00:06:40,570
- summing up all other
+summing up all other
 
 242
 00:06:40,579 --> 00:06:41,480
- possibilities.
+possibilities.
 
 243
 00:06:42,450 --> 00:06:43,809
- That just means that we have
+That just means that we have
 
 244
 00:06:43,820 --> 00:06:45,529
- here all the other
+here all the other
 
 245
 00:06:45,540 --> 00:06:46,549
- columns as well.
+columns as well.
 
 246
 00:06:47,690 --> 00:06:49,519
- Of course, we do that because
+Of course, we do that because
 
 247
 00:06:49,529 --> 00:06:51,269
- here we have our P
+here we have our P
 
 248
 00:06:51,279 --> 00:06:52,579
- norm to the power P
+norm to the power P
 
 249
 00:06:53,420 --> 00:06:55,119
- and there we find our original
+and there we find our original
 
 250
 00:06:55,130 --> 00:06:56,600
- sequences again where we
+sequences again where we
 
 251
 00:06:56,609 --> 00:06:58,320
- know that they form a Cauchy
+know that they form a Cauchy
 
 252
 00:06:58,329 --> 00:06:58,920
- sequence.
+sequence.
 
 253
 00:06:59,779 --> 00:07:01,200
- Don't worry, I'll remind
+Don't worry, I'll remind
 
 254
 00:07:01,209 --> 00:07:02,690
- you what it means to be a
+you what it means to be a
 
 255
 00:07:02,820 --> 00:07:03,750
- Cauchy sequence here.
+Cauchy sequence here.
 
 256
 00:07:04,420 --> 00:07:06,209
- For all epsilon greater zero,
+For all epsilon greater zero,
 
 257
 00:07:06,220 --> 00:07:07,950
- we find an index and
+we find an index and
 
 258
 00:07:07,959 --> 00:07:09,209
- maybe we call it capital
+maybe we call it capital
 
 259
 00:07:09,220 --> 00:07:11,070
- K such that
+K such that
 
 260
 00:07:11,079 --> 00:07:12,149
- for all indices
+for all indices
 
 261
 00:07:12,160 --> 00:07:13,750
- afterwards K and
+afterwards K and
 
 262
 00:07:13,760 --> 00:07:15,679
- L we have that
+L we have that
 
 263
 00:07:15,690 --> 00:07:16,799
- the distance between two
+the distance between two
 
 264
 00:07:16,809 --> 00:07:18,679
- members here is less than
+members here is less than
 
 265
 00:07:18,690 --> 00:07:19,350
- epsilon.
+epsilon.
 
 266
 00:07:20,700 --> 00:07:22,390
- Now, if you look at the inequality
+Now, if you look at the inequality
 
 267
 00:07:22,399 --> 00:07:24,220
- above, you see that this
+above, you see that this
 
 268
 00:07:24,230 --> 00:07:26,200
- thing here is always greater
+thing here is always greater
 
 269
 00:07:26,209 --> 00:07:27,279
- than just looking at the
+than just looking at the
 
 270
 00:07:27,290 --> 00:07:29,119
- absolute value in one column.
+absolute value in one column.
 
 271
 00:07:30,000 --> 00:07:31,279
- Let's put that in here.
+Let's put that in here.
 
 272
 00:07:31,290 --> 00:07:32,959
- And then you can see this
+And then you can see this
 
 273
 00:07:32,970 --> 00:07:34,799
- sequence here of normal
+sequence here of normal
 
 274
 00:07:34,809 --> 00:07:36,070
- numbers in F.
+numbers in F.
 
 275
 00:07:36,079 --> 00:07:37,670
- So this column here is
+So this column here is
 
 276
 00:07:37,679 --> 00:07:39,500
- also a Cauchy sequence in
+also a Cauchy sequence in
 
 277
 00:07:39,510 --> 00:07:39,940
- F.
+F.
 
 278
 00:07:40,859 --> 00:07:42,390
- The value is just the normal
+The value is just the normal
 
 279
 00:07:42,399 --> 00:07:43,540
- norm in F.
+norm in F.
 
 280
 00:07:43,549 --> 00:07:44,559
- So the real numbers or the
+So the real numbers or the
 
 281
 00:07:44,570 --> 00:07:45,399
- complex numbers.
+complex numbers.
 
 282
 00:07:46,140 --> 00:07:47,390
- And we already discussed
+And we already discussed
 
 283
 00:07:47,399 --> 00:07:48,880
- this in the first example,
+this in the first example,
 
 284
 00:07:48,929 --> 00:07:50,399
- this is a Banach space.
+this is a Banach space.
 
 285
 00:07:51,470 --> 00:07:53,119
- In other words, this
+In other words, this
 
 286
 00:07:53,130 --> 00:07:54,540
- sequence has a limit
+sequence has a limit
 
 287
 00:07:55,429 --> 00:07:56,609
- and a suitable name should
+and a suitable name should
 
 288
 00:07:56,619 --> 00:07:58,589
- be x tilde with an index
+be x tilde with an index
 
 289
 00:07:58,600 --> 00:07:59,010
- four.
+four.
 
 290
 00:08:00,010 --> 00:08:01,910
- And this limit in F is what
+And this limit in F is what
 
 291
 00:08:01,920 --> 00:08:03,829
- we find if we go from top
+we find if we go from top
 
 292
 00:08:03,839 --> 00:08:05,410
- to bottom in the fourth
+to bottom in the fourth
 
 293
 00:08:05,420 --> 00:08:07,109
- column, of
+column, of
 
 294
 00:08:07,119 --> 00:08:08,450
- course, the four was just
+course, the four was just
 
 295
 00:08:08,459 --> 00:08:09,250
- an example.
+an example.
 
 296
 00:08:09,260 --> 00:08:11,029
- You can do all the things
+You can do all the things
 
 297
 00:08:11,040 --> 00:08:12,350
- here with another column
+here with another column
 
 298
 00:08:12,359 --> 00:08:12,940
- as well.
+as well.
 
 299
 00:08:12,950 --> 00:08:14,510
- So we can introduce an
+So we can introduce an
 
 300
 00:08:14,519 --> 00:08:16,100
- index M for example,
+index M for example,
 
 301
 00:08:16,820 --> 00:08:18,079
- and then I can change it
+and then I can change it
 
 302
 00:08:18,089 --> 00:08:19,500
- here everywhere.
+here everywhere.
 
 303
 00:08:20,209 --> 00:08:21,899
- Now, this means for all the
+Now, this means for all the
 
 304
 00:08:21,910 --> 00:08:23,320
- columns here, we find the
+columns here, we find the
 
 305
 00:08:23,329 --> 00:08:25,100
- corresponding limit X till
+corresponding limit X till
 
 306
 00:08:25,109 --> 00:08:26,739
- the M we have here at the
+the M we have here at the
 
 307
 00:08:26,750 --> 00:08:27,200
- bottom.
+bottom.
 
 308
 00:08:28,100 --> 00:08:29,850
- So indeed, what we get here
+So indeed, what we get here
 
 309
 00:08:29,859 --> 00:08:31,540
- on the right is a new
+on the right is a new
 
 310
 00:08:31,549 --> 00:08:33,159
- sequence with numbers in
+sequence with numbers in
 
 311
 00:08:33,169 --> 00:08:33,549
- F.
+F.
 
 312
 00:08:34,780 --> 00:08:36,140
- Of course, we can and we
+Of course, we can and we
 
 313
 00:08:36,150 --> 00:08:37,429
- should give it the name X
+should give it the name X
 
 314
 00:08:37,469 --> 00:08:38,969
- tilde, but we don't know
+tilde, but we don't know
 
 315
 00:08:38,979 --> 00:08:40,530
- yet if it's the limit here
+yet if it's the limit here
 
 316
 00:08:40,539 --> 00:08:41,359
- on the left.
+on the left.
 
 317
 00:08:42,299 --> 00:08:43,669
- This is what we still have
+This is what we still have
 
 318
 00:08:43,679 --> 00:08:44,408
- to show now.
+to show now.
 
 319
 00:08:45,369 --> 00:08:45,760
- OK.
+OK.
 
 320
 00:08:45,770 --> 00:08:47,659
- So the plan is to show that
+So the plan is to show that
 
 321
 00:08:47,669 --> 00:08:49,659
- XK minus X tilde
+XK minus X tilde
 
 322
 00:08:49,669 --> 00:08:51,619
- in the P norm goes to zero.
+in the P norm goes to zero.
 
 323
 00:08:52,260 --> 00:08:53,599
- Or in other words, for an
+Or in other words, for an
 
 324
 00:08:53,609 --> 00:08:55,489
- arbitrary epsilon, this should
+arbitrary epsilon, this should
 
 325
 00:08:55,500 --> 00:08:56,929
- be smaller than epsilon.
+be smaller than epsilon.
 
 326
 00:08:57,770 --> 00:08:58,119
- OK.
+OK.
 
 327
 00:08:58,130 --> 00:08:59,299
- So then let's write down
+So then let's write down
 
 328
 00:08:59,309 --> 00:09:00,229
- the P norm again.
+the P norm again.
 
 329
 00:09:01,099 --> 00:09:02,729
- So we have this series and
+So we have this series and
 
 330
 00:09:02,739 --> 00:09:04,309
- we need the P food again.
+we need the P food again.
 
 331
 00:09:04,450 --> 00:09:05,590
- But it's easier to write
+But it's easier to write
 
 332
 00:09:05,599 --> 00:09:06,479
- the power of P.
+the power of P.
 
 333
 00:09:06,489 --> 00:09:07,390
- On the other side.
+On the other side.
 
 334
 00:09:08,250 --> 00:09:09,559
- This just means that we used
+This just means that we used
 
 335
 00:09:09,570 --> 00:09:11,469
- to p-th root just in the end.
+to p-th root just in the end.
 
 336
 00:09:12,250 --> 00:09:13,400
- The first idea now would
+The first idea now would
 
 337
 00:09:13,409 --> 00:09:15,090
- be to push the limit process
+be to push the limit process
 
 338
 00:09:15,099 --> 00:09:15,940
- here outside.
+here outside.
 
 339
 00:09:15,950 --> 00:09:17,909
- So we write the limit of
+So we write the limit of
 
 340
 00:09:17,919 --> 00:09:19,219
- N to infinity.
+N to infinity.
 
 341
 00:09:20,140 --> 00:09:21,530
- So you see it's completely
+So you see it's completely
 
 342
 00:09:21,539 --> 00:09:22,159
- the same.
+the same.
 
 343
 00:09:22,169 --> 00:09:23,710
- But now we can discuss this
+But now we can discuss this
 
 344
 00:09:23,719 --> 00:09:25,359
- finite sum here on the right.
+finite sum here on the right.
 
 345
 00:09:26,130 --> 00:09:27,580
- However, we know that this
+However, we know that this
 
 346
 00:09:27,590 --> 00:09:29,039
- X till the N is
+X till the N is
 
 347
 00:09:29,049 --> 00:09:30,239
- also a limit.
+also a limit.
 
 348
 00:09:30,710 --> 00:09:32,280
- Hence, we can push that limit
+Hence, we can push that limit
 
 349
 00:09:32,289 --> 00:09:34,260
- out as well because the absolute
+out as well because the absolute
 
 350
 00:09:34,270 --> 00:09:35,989
- value is a continuous function
+value is a continuous function
 
 351
 00:09:36,000 --> 00:09:37,119
- and we just have a finite
+and we just have a finite
 
 352
 00:09:37,130 --> 00:09:37,679
- sum here.
+sum here.
 
 353
 00:09:38,510 --> 00:09:39,830
- Now, if you look back, you
+Now, if you look back, you
 
 354
 00:09:39,840 --> 00:09:41,460
- will see that this thing
+will see that this thing
 
 355
 00:09:41,469 --> 00:09:42,969
- here is what we can keep
+here is what we can keep
 
 356
 00:09:42,979 --> 00:09:44,729
- as small as we want.
+as small as we want.
 
 357
 00:09:45,599 --> 00:09:46,900
- We use again that we have
+We use again that we have
 
 358
 00:09:46,909 --> 00:09:48,320
- here the property of the
+here the property of the
 
 359
 00:09:48,530 --> 00:09:49,349
- Cauchy sequence.
+Cauchy sequence.
 
 360
 00:09:50,400 --> 00:09:51,659
- Therefore, for our given
+Therefore, for our given
 
 361
 00:09:51,669 --> 00:09:53,400
- epsilon, we choose our capital
+epsilon, we choose our capital
 
 362
 00:09:53,409 --> 00:09:55,140
- K such that we have this
+K such that we have this
 
 363
 00:09:56,039 --> 00:09:56,799
- at this point.
+at this point.
 
 364
 00:09:56,809 --> 00:09:58,080
- In the proof, we can't know
+In the proof, we can't know
 
 365
 00:09:58,090 --> 00:09:59,640
- how small this really should
+how small this really should
 
 366
 00:09:59,650 --> 00:10:00,099
- be.
+be.
 
 367
 00:10:00,109 --> 00:10:01,559
- Therefore, to be careful,
+Therefore, to be careful,
 
 368
 00:10:01,570 --> 00:10:03,229
- maybe we introduce an epsilon
+maybe we introduce an epsilon
 
 369
 00:10:03,239 --> 00:10:05,080
- prime and define it later
+prime and define it later
 
 370
 00:10:05,090 --> 00:10:05,469
- on.
+on.
 
 371
 00:10:06,140 --> 00:10:07,599
- Now, what we know from above
+Now, what we know from above
 
 372
 00:10:07,609 --> 00:10:09,599
- is that this whole thing
+is that this whole thing
 
 373
 00:10:09,840 --> 00:10:11,609
- is less than epsilon prime
+is less than epsilon prime
 
 374
 00:10:11,619 --> 00:10:12,559
- to the power P
+to the power P
 
 375
 00:10:13,520 --> 00:10:15,330
- as long as K and L
+as long as K and L
 
 376
 00:10:15,340 --> 00:10:16,760
- are bigger than the capital
+are bigger than the capital
 
 377
 00:10:16,770 --> 00:10:17,219
- K.
+K.
 
 378
 00:10:17,229 --> 00:10:18,539
- It's the same reasoning as
+It's the same reasoning as
 
 379
 00:10:18,549 --> 00:10:18,900
- here.
+here.
 
 380
 00:10:20,309 --> 00:10:20,679
- OK.
+OK.
 
 381
 00:10:20,690 --> 00:10:21,979
- So this is good information
+So this is good information
 
 382
 00:10:21,989 --> 00:10:23,799
- for us because it tells you
+for us because it tells you
 
 383
 00:10:23,809 --> 00:10:24,789
- we have here the nonne
+we have here the nonne
 
 384
 00:10:25,270 --> 00:10:26,880
- numbers that are bounded
+numbers that are bounded
 
 385
 00:10:26,890 --> 00:10:28,679
- from above by this constant,
+from above by this constant,
 
 386
 00:10:29,210 --> 00:10:30,640
- of course, then comes some
+of course, then comes some
 
 387
 00:10:30,650 --> 00:10:31,710
- limit process.
+limit process.
 
 388
 00:10:31,750 --> 00:10:33,309
- But we know in the worst
+But we know in the worst
 
 389
 00:10:33,320 --> 00:10:34,869
- case, this limit is
+case, this limit is
 
 390
 00:10:34,880 --> 00:10:36,599
- exactly this upper bound.
+exactly this upper bound.
 
 391
 00:10:37,359 --> 00:10:39,320
- So in summary, we know for
+So in summary, we know for
 
 392
 00:10:39,330 --> 00:10:40,859
- all K greater or capital
+all K greater or capital
 
 393
 00:10:40,869 --> 00:10:42,739
- K, this whole thing
+K, this whole thing
 
 394
 00:10:42,750 --> 00:10:44,609
- is less or equal
+is less or equal
 
 395
 00:10:44,619 --> 00:10:45,780
- than epsilon prime to the
+than epsilon prime to the
 
 396
 00:10:45,789 --> 00:10:46,580
- power P.
+power P.
 
 397
 00:10:47,440 --> 00:10:48,869
- And now is the point to take
+And now is the point to take
 
 398
 00:10:48,880 --> 00:10:50,380
- the pea food because we get
+the pea food because we get
 
 399
 00:10:50,390 --> 00:10:52,119
- rid of these two peas.
+rid of these two peas.
 
 400
 00:10:53,169 --> 00:10:54,710
- And now to get to the correct
+And now to get to the correct
 
 401
 00:10:54,719 --> 00:10:56,349
- result, we need epsilon prime
+result, we need epsilon prime
 
 402
 00:10:56,359 --> 00:10:58,229
- to be less than epsilon itself,
+to be less than epsilon itself,
 
 403
 00:10:58,559 --> 00:11:00,109
- which means we can define
+which means we can define
 
 404
 00:11:00,119 --> 00:11:01,909
- epsilon prime, for example,
+epsilon prime, for example,
 
 405
 00:11:02,030 --> 00:11:03,390
- as epsilon half.
+as epsilon half.
 
 406
 00:11:04,440 --> 00:11:05,599
- And now in the end, you can
+And now in the end, you can
 
 407
 00:11:05,609 --> 00:11:07,150
- put everything together for
+put everything together for
 
 408
 00:11:07,159 --> 00:11:08,840
- an abitrary chosen epsilon
+an abitrary chosen epsilon
 
 409
 00:11:08,849 --> 00:11:10,169
- greater zero, you find a
+greater zero, you find a
 
 410
 00:11:10,179 --> 00:11:12,049
- capital K such that for
+capital K such that for
 
 411
 00:11:12,059 --> 00:11:13,950
- all indices after the capital
+all indices after the capital
 
 412
 00:11:13,960 --> 00:11:15,380
- K, you find the
+K, you find the
 
 413
 00:11:15,390 --> 00:11:16,940
- inequality here, the
+inequality here, the
 
 414
 00:11:16,950 --> 00:11:18,489
- distance between XK
+distance between XK
 
 415
 00:11:18,500 --> 00:11:20,359
- minus X tilde is less
+minus X tilde is less
 
 416
 00:11:20,369 --> 00:11:22,349
- than epsilon and there we
+than epsilon and there we
 
 417
 00:11:22,359 --> 00:11:23,830
- have it X tilde is
+have it X tilde is
 
 418
 00:11:23,840 --> 00:11:25,469
- indeed the limit of
+indeed the limit of
 
 419
 00:11:25,479 --> 00:11:27,190
- XK with respect to the
+XK with respect to the
 
 420
 00:11:27,200 --> 00:11:27,619
- p-norm.
+p-norm.
 
 421
 00:11:28,909 --> 00:11:30,299
- The only thing missing is
+The only thing missing is
 
 422
 00:11:30,309 --> 00:11:32,090
- the explanation why X tilde
+the explanation why X tilde
 
 423
 00:11:32,099 --> 00:11:33,539
- is also an element in
+is also an element in
 
 424
 00:11:33,549 --> 00:11:34,130
- LP.
+LP.
 
 425
 00:11:34,809 --> 00:11:36,289
- However, this now follows
+However, this now follows
 
 426
 00:11:36,299 --> 00:11:38,090
- from all we know we know
+from all we know we know
 
 427
 00:11:38,099 --> 00:11:39,650
- here that the difference
+here that the difference
 
 428
 00:11:39,659 --> 00:11:40,729
- is an LP.
+is an LP.
 
 429
 00:11:41,000 --> 00:11:42,669
- And we also know that XK
+And we also know that XK
 
 430
 00:11:42,679 --> 00:11:43,570
- is an LP.
+is an LP.
 
 431
 00:11:44,400 --> 00:11:45,669
- Therefore, if you write X
+Therefore, if you write X
 
 432
 00:11:45,679 --> 00:11:47,049
- tilde in this way, which
+tilde in this way, which
 
 433
 00:11:47,059 --> 00:11:48,969
- means you subtract XK and
+means you subtract XK and
 
 434
 00:11:48,979 --> 00:11:49,760
- add it again.
+add it again.
 
 435
 00:11:49,859 --> 00:11:51,729
- Then you see the linear combination,
+Then you see the linear combination,
 
 436
 00:11:52,710 --> 00:11:54,609
- which means here's one part
+which means here's one part
 
 437
 00:11:54,619 --> 00:11:56,539
- in LP and here's one
+in LP and here's one
 
 438
 00:11:56,549 --> 00:11:57,530
- part in LP.
+part in LP.
 
 439
 00:11:58,690 --> 00:12:00,159
- Hence also the sum is an
+Hence also the sum is an
 
 440
 00:12:00,169 --> 00:12:02,070
- LP because we are dealing
+LP because we are dealing
 
 441
 00:12:02,080 --> 00:12:03,179
- with a vector space.
+with a vector space.
 
 442
 00:12:04,109 --> 00:12:05,239
- That's the part of the proof
+That's the part of the proof
 
 443
 00:12:05,250 --> 00:12:06,409
- at the beginning where we
+at the beginning where we
 
 444
 00:12:06,419 --> 00:12:07,539
- skip the details.
+skip the details.
 
 445
 00:12:07,549 --> 00:12:08,780
- But here we can use it.
+But here we can use it.
 
 446
 00:12:09,570 --> 00:12:11,049
- Of course, we will discuss
+Of course, we will discuss
 
 447
 00:12:11,059 --> 00:12:12,690
- this even further in upcoming
+this even further in upcoming
 
 448
 00:12:12,700 --> 00:12:13,489
- videos.
+videos.
 
 449
 00:12:13,500 --> 00:12:14,979
- But at this point, I really
+But at this point, I really
 
 450
 00:12:14,989 --> 00:12:16,830
- wanted to show you an important
+wanted to show you an important
 
 451
 00:12:16,849 --> 00:12:18,549
- and non trivial example of
+and non trivial example of
 
 452
 00:12:18,559 --> 00:12:19,349
- a Banach space.
+a Banach space.
 
 453
 00:12:20,200 --> 00:12:20,599
- OK?
+OK?
 
 454
 00:12:20,609 --> 00:12:21,580
- I hope I see you in the next
+I hope I see you in the next
 
 455
 00:12:21,590 --> 00:12:23,369
- videos where I first explain
+videos where I first explain
 
 456
 00:12:23,380 --> 00:12:24,869
- more concepts in functional
+more concepts in functional
 
 457
 00:12:24,880 --> 00:12:25,580
- analysis.
+analysis.
 
 458
 00:12:25,590 --> 00:12:27,099
- And afterwards we go into
+And afterwards we go into
 
 459
 00:12:27,109 --> 00:12:28,940
- more details for examples.
+more details for examples.
 
 460
 00:12:29,919 --> 00:12:31,440
- So thanks for listening and
+So thanks for listening and
 
 461
 00:12:31,450 --> 00:12:32,210
- see you later.
+see you later.
 
 462
 00:12:32,219 --> 00:12:32,859
- Bye.
-
+Bye.

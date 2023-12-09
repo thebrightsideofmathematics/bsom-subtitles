@@ -2,8 +2,8 @@ Multivariable Calculus - Part 20 - Sylvester's Criterion
 
 00:00 Intro
 00:54 Assumptions of Sylvester's Criterion
-02:07 Sylvester's Criterion for positive definite matrices 
-03:57 Sylvester's Criterion for negative definite matrices 
+02:07 Sylvester's Criterion for positive definite matrices
+03:57 Sylvester's Criterion for negative definite matrices
 04:45 Proof for diagonal matrices
 06:34 Example calculation
 08:57 Credits
