@@ -28,7 +28,7 @@ So what you should do here is, you either click overview network or on this butt
 
 8
 00:00:40,457 --> 00:00:47,058
-So the idea here is that each note represents a playlist on YouTube, a whole series
+So the idea here is that each node represents a playlist on YouTube, a whole series
 
 9
 00:00:47,258 --> 00:00:53,348
