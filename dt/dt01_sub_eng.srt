@@ -1,0 +1,1284 @@
+1
+00:00:00,790 --> 00:00:02,720
+ Hello and welcome to new
+
+2
+00:00:02,730 --> 00:00:04,059
+ video series where I want
+
+3
+00:00:04,070 --> 00:00:05,489
+ to show you an introduction
+
+4
+00:00:05,500 --> 00:00:06,769
+ into the theory of
+
+5
+00:00:06,780 --> 00:00:07,769
+ distributions
+
+6
+00:00:09,000 --> 00:00:09,239
+ Here,
+
+7
+00:00:09,250 --> 00:00:10,939
+ In part one, I want to start
+
+8
+00:00:10,949 --> 00:00:12,340
+ with the motivation for this
+
+9
+00:00:12,350 --> 00:00:12,979
+ new topic.
+
+10
+00:00:14,699 --> 00:00:15,920
+ When you start with real
+
+11
+00:00:15,930 --> 00:00:17,520
+ analysis, then you learn
+
+12
+00:00:17,530 --> 00:00:19,319
+ a lot of important concepts.
+
+13
+00:00:20,510 --> 00:00:21,889
+ For example, you learn what
+
+14
+00:00:21,899 --> 00:00:23,510
+ a function is, you learn
+
+15
+00:00:23,520 --> 00:00:24,729
+ what a limit is.
+
+16
+00:00:24,920 --> 00:00:26,559
+ And most importantly, you
+
+17
+00:00:26,569 --> 00:00:28,399
+ learn what a derivative is
+
+18
+00:00:29,879 --> 00:00:31,659
+ with these objects, you can
+
+19
+00:00:31,670 --> 00:00:33,099
+ already do a lot of
+
+20
+00:00:33,110 --> 00:00:34,060
+ mathematics.
+
+21
+00:00:34,330 --> 00:00:35,599
+ But in the end, you will
+
+22
+00:00:35,610 --> 00:00:37,049
+ reach other fields for
+
+23
+00:00:37,060 --> 00:00:38,740
+ example, differential
+
+24
+00:00:38,750 --> 00:00:39,639
+ equations
+
+25
+00:00:40,470 --> 00:00:42,099
+ for Fourier series
+
+26
+00:00:42,380 --> 00:00:44,090
+ and even the Fourier
+
+27
+00:00:44,099 --> 00:00:44,930
+ transform.
+
+28
+00:00:46,889 --> 00:00:48,369
+ And now here the problems
+
+29
+00:00:48,380 --> 00:00:50,150
+ begin because
+
+30
+00:00:50,159 --> 00:00:52,110
+ for differential equations
+
+31
+00:00:52,119 --> 00:00:53,889
+ also some solutions
+
+32
+00:00:53,900 --> 00:00:55,419
+ with sharp turns are
+
+33
+00:00:55,430 --> 00:00:56,889
+ interesting and important.
+
+34
+00:00:58,400 --> 00:01:00,060
+ And there you already know
+
+35
+00:01:00,139 --> 00:01:01,299
+ that the notion of a
+
+36
+00:01:01,310 --> 00:01:03,180
+ derivative is in some
+
+37
+00:01:03,189 --> 00:01:04,940
+ sense, too strong to
+
+38
+00:01:04,949 --> 00:01:06,779
+ consider functions with sharp
+
+39
+00:01:06,790 --> 00:01:08,449
+ turns because at a
+
+40
+00:01:08,459 --> 00:01:10,150
+ sharp turn, the function
+
+41
+00:01:10,160 --> 00:01:11,580
+ is not differentiable.
+
+42
+00:01:13,239 --> 00:01:14,459
+ Therefore, we need something
+
+43
+00:01:14,470 --> 00:01:16,250
+ new that can also deal with
+
+44
+00:01:16,260 --> 00:01:17,389
+ such solutions.
+
+45
+00:01:17,400 --> 00:01:19,139
+ So we would say we need
+
+46
+00:01:19,150 --> 00:01:20,699
+ something that can deal with
+
+47
+00:01:20,709 --> 00:01:22,169
+ more general solutions.
+
+48
+00:01:23,489 --> 00:01:23,970
+ OK.
+
+49
+00:01:23,980 --> 00:01:25,690
+ We will talk about this later
+
+50
+00:01:25,800 --> 00:01:26,319
+ Here,
+
+51
+00:01:26,330 --> 00:01:27,790
+ I want to start with an
+
+52
+00:01:27,800 --> 00:01:29,349
+ example and indeed, it's
+
+53
+00:01:29,360 --> 00:01:30,750
+ a very famous example.
+
+54
+00:01:31,940 --> 00:01:33,360
+ It goes back to the year
+
+55
+00:01:33,370 --> 00:01:35,279
+ 1927
+
+56
+00:01:35,510 --> 00:01:36,449
+ and to Paul Dirac,
+
+57
+00:01:38,550 --> 00:01:40,489
+ what he wanted was a derivative
+
+58
+00:01:40,500 --> 00:01:41,389
+ of a function.
+
+59
+00:01:42,250 --> 00:01:43,879
+ And we used letter H 
+
+60
+00:01:43,889 --> 00:01:45,610
+ because this function is
+
+61
+00:01:45,620 --> 00:01:47,129
+ most of the time known as
+
+62
+00:01:47,139 --> 00:01:48,370
+ the Heaviside function.
+
+63
+00:01:49,529 --> 00:01:51,330
+ In spite of having this fancy
+
+64
+00:01:51,339 --> 00:01:53,139
+ name, the function is indeed
+
+65
+00:01:53,150 --> 00:01:54,099
+ very simple.
+
+66
+00:01:56,059 --> 00:01:57,699
+ It is just zero on the
+
+67
+00:01:57,709 --> 00:01:59,669
+ negative axis and
+
+68
+00:01:59,680 --> 00:02:01,279
+ one on the positive
+
+69
+00:02:01,290 --> 00:02:01,860
+ axis.
+
+70
+00:02:03,849 --> 00:02:05,510
+ And now Dirac wanted
+
+71
+00:02:05,519 --> 00:02:07,029
+ to have a derivative of this
+
+72
+00:02:07,040 --> 00:02:07,699
+ function.
+
+73
+00:02:08,000 --> 00:02:09,710
+ And you see this is no
+
+74
+00:02:09,720 --> 00:02:11,649
+ problem at all outside
+
+75
+00:02:11,660 --> 00:02:12,389
+ of zero.
+
+76
+00:02:12,529 --> 00:02:14,240
+ But in zero, there is a
+
+77
+00:02:14,250 --> 00:02:14,750
+ jump.
+
+78
+00:02:16,190 --> 00:02:18,169
+ Hence, in the classical way,
+
+79
+00:02:18,300 --> 00:02:20,009
+ we have a problem at this
+
+80
+00:02:20,020 --> 00:02:20,770
+ one point.
+
+81
+00:02:22,509 --> 00:02:24,119
+ Now Dirac wanted a more
+
+82
+00:02:24,130 --> 00:02:25,889
+ general derivative and he
+
+83
+00:02:25,899 --> 00:02:27,850
+ called this one the delta
+
+84
+00:02:27,860 --> 00:02:28,449
+ function.
+
+85
+00:02:29,800 --> 00:02:31,699
+ Now more general here means
+
+86
+00:02:31,710 --> 00:02:32,869
+ of course, it is a
+
+87
+00:02:32,880 --> 00:02:34,339
+ generalization of the
+
+88
+00:02:34,350 --> 00:02:35,589
+ classical notion of a
+
+89
+00:02:35,600 --> 00:02:36,380
+ derivative.
+
+90
+00:02:37,449 --> 00:02:39,330
+ Hence, we can conclude that
+
+91
+00:02:39,339 --> 00:02:40,940
+ this new delta function
+
+92
+00:02:41,039 --> 00:02:42,429
+ has to be zero
+
+93
+00:02:42,600 --> 00:02:44,240
+ outside of this
+
+94
+00:02:44,250 --> 00:02:46,050
+ critical point X equals to
+
+95
+00:02:46,059 --> 00:02:46,630
+ zero.
+
+96
+00:02:51,080 --> 00:02:52,779
+ However, Dirac also
+
+97
+00:02:52,789 --> 00:02:54,509
+ wanted that the fundamental
+
+98
+00:02:54,520 --> 00:02:56,440
+ theorem of calculus still
+
+99
+00:02:56,449 --> 00:02:57,910
+ holds for this new function
+
+100
+00:02:59,970 --> 00:03:00,949
+ more concretely.
+
+101
+00:03:00,960 --> 00:03:02,669
+ This means we can write
+
+102
+00:03:02,679 --> 00:03:04,500
+ down for an arbitrarily
+
+103
+00:03:04,509 --> 00:03:05,910
+ small epsilon
+
+104
+00:03:06,600 --> 00:03:07,570
+ the following integral 
+
+105
+00:03:09,440 --> 00:03:10,660
+ which is just an
+
+106
+00:03:10,669 --> 00:03:12,589
+ integration around zero
+
+107
+00:03:12,600 --> 00:03:13,759
+ for a delta function.
+
+108
+00:03:13,970 --> 00:03:15,759
+ But now we know this is the
+
+109
+00:03:15,770 --> 00:03:17,509
+ derivative of the Heaviside 
+
+110
+00:03:17,520 --> 00:03:18,419
+ function.
+
+111
+00:03:18,429 --> 00:03:19,949
+ So we can put in
+
+112
+00:03:20,300 --> 00:03:21,820
+ the derivative of H here.
+
+113
+00:03:25,250 --> 00:03:27,080
+ And now if the fundamental
+
+114
+00:03:27,089 --> 00:03:28,940
+ theorem of calculus holds
+
+115
+00:03:28,949 --> 00:03:30,750
+ for these functions here
+
+116
+00:03:30,759 --> 00:03:32,690
+ we have of
+
+117
+00:03:32,720 --> 00:03:33,830
+ epsilon
+
+118
+00:03:33,889 --> 00:03:34,869
+ minus
+
+119
+00:03:35,429 --> 00:03:37,229
+ H of minus epsilon.
+
+120
+00:03:38,729 --> 00:03:40,289
+ Now, looking at the graph,
+
+121
+00:03:40,300 --> 00:03:42,149
+ we recognize that this is
+
+122
+00:03:42,160 --> 00:03:43,949
+ always one on the right hand
+
+123
+00:03:43,960 --> 00:03:45,889
+ side and always zero
+
+124
+00:03:45,899 --> 00:03:46,990
+ on the other side.
+
+125
+00:03:47,210 --> 00:03:49,130
+ So we have one minus zero
+
+126
+00:03:49,179 --> 00:03:51,020
+ or in other words, always
+
+127
+00:03:51,029 --> 00:03:51,389
+ one.
+
+128
+00:03:53,979 --> 00:03:55,470
+ Now this may look
+
+129
+00:03:55,479 --> 00:03:57,240
+ nice, but we
+
+130
+00:03:57,250 --> 00:03:59,229
+ already know that if we
+
+131
+00:03:59,240 --> 00:04:01,039
+ have these two things together,
+
+132
+00:04:01,250 --> 00:04:03,080
+ this delta can't be an
+
+133
+00:04:03,089 --> 00:04:04,270
+ ordinary function.
+
+134
+00:04:05,339 --> 00:04:06,610
+ Please recall.
+
+135
+00:04:06,619 --> 00:04:08,339
+ This first part tells
+
+136
+00:04:08,350 --> 00:04:10,009
+ us that delta
+
+137
+00:04:10,020 --> 00:04:11,320
+ is zero
+
+138
+00:04:11,330 --> 00:04:12,750
+ except for one
+
+139
+00:04:12,759 --> 00:04:13,330
+ point.
+
+140
+00:04:13,339 --> 00:04:14,779
+ So in our language, this
+
+141
+00:04:14,789 --> 00:04:16,529
+ would mean delta
+
+142
+00:04:16,540 --> 00:04:18,119
+ is zero almost
+
+143
+00:04:18,130 --> 00:04:18,809
+ everywhere.
+
+144
+00:04:20,069 --> 00:04:21,628
+ To be more concrete, I would
+
+145
+00:04:21,639 --> 00:04:23,598
+ say this holds with
+
+146
+00:04:23,609 --> 00:04:25,359
+ respect to the Lebesgue measure.
+
+147
+00:04:27,709 --> 00:04:29,660
+ And from this, we can conclude
+
+148
+00:04:29,730 --> 00:04:31,589
+ that every integral for
+
+149
+00:04:31,600 --> 00:04:33,140
+ this function has to be
+
+150
+00:04:33,149 --> 00:04:33,690
+ zero.
+
+151
+00:04:36,250 --> 00:04:38,190
+ In particular, the integral
+
+152
+00:04:38,200 --> 00:04:39,160
+ from before.
+
+153
+00:04:39,170 --> 00:04:41,010
+ So minus epsilon to
+
+154
+00:04:41,019 --> 00:04:42,589
+ epsilon of delta
+
+155
+00:04:42,600 --> 00:04:44,339
+ X is also
+
+156
+00:04:44,350 --> 00:04:46,209
+ zero for all epsilon,
+
+157
+00:04:47,929 --> 00:04:49,619
+ which means it can't be
+
+158
+00:04:49,630 --> 00:04:51,329
+ one as we wanted
+
+159
+00:04:51,339 --> 00:04:52,029
+ before.
+
+160
+00:04:52,290 --> 00:04:54,190
+ So here's our contradiction.
+
+161
+00:04:56,910 --> 00:04:58,609
+ Now it gets even worse
+
+162
+00:04:58,619 --> 00:05:00,390
+ because Dirac does not stop
+
+163
+00:05:00,399 --> 00:05:00,929
+ there.
+
+164
+00:05:01,220 --> 00:05:01,359
+ Dirac
+
+165
+00:05:01,660 --> 00:05:03,589
+ also wants to calculate with
+
+166
+00:05:03,600 --> 00:05:04,929
+ the derivatives of this new
+
+167
+00:05:04,940 --> 00:05:05,890
+ delta function.
+
+168
+00:05:07,269 --> 00:05:09,140
+ And now we see at this point,
+
+169
+00:05:09,350 --> 00:05:10,750
+ we have to put a
+
+170
+00:05:10,760 --> 00:05:12,420
+ meaning into the symbols
+
+171
+00:05:12,429 --> 00:05:12,730
+ here.
+
+172
+00:05:14,309 --> 00:05:16,209
+ In order to do this, we
+
+173
+00:05:16,220 --> 00:05:17,589
+ will define a new
+
+174
+00:05:17,600 --> 00:05:19,589
+ object and call this a
+
+175
+00:05:19,600 --> 00:05:20,510
+ distribution.
+
+176
+00:05:20,950 --> 00:05:22,429
+ And in the end, delta
+
+177
+00:05:22,630 --> 00:05:24,269
+ will be such a distribution.
+
+178
+00:05:25,209 --> 00:05:26,390
+ For the reasons you have
+
+179
+00:05:26,399 --> 00:05:28,250
+ seen above, we want to
+
+180
+00:05:28,260 --> 00:05:29,839
+ calculate as we have
+
+181
+00:05:29,850 --> 00:05:31,350
+ ordinary functions, this
+
+182
+00:05:31,359 --> 00:05:33,320
+ new notion distribution is
+
+183
+00:05:33,329 --> 00:05:35,200
+ also often called a
+
+184
+00:05:35,209 --> 00:05:36,510
+ generalized function.
+
+185
+00:05:37,459 --> 00:05:38,899
+ The overall idea for
+
+186
+00:05:38,910 --> 00:05:40,540
+ distributions is that we
+
+187
+00:05:40,549 --> 00:05:42,480
+ see these objects as
+
+188
+00:05:42,489 --> 00:05:43,480
+ densities.
+
+189
+00:05:43,640 --> 00:05:44,769
+ So here you should
+
+190
+00:05:44,779 --> 00:05:46,670
+ visualize a one
+
+191
+00:05:46,690 --> 00:05:48,250
+ dimensional rode or
+
+192
+00:05:48,260 --> 00:05:50,190
+ one dimensional bar
+
+193
+00:05:50,549 --> 00:05:52,459
+ where we have a mass
+
+194
+00:05:52,470 --> 00:05:53,239
+ density.
+
+195
+00:05:54,679 --> 00:05:56,269
+ Now, in this picture, the
+
+196
+00:05:56,279 --> 00:05:57,640
+ delta distribution or the
+
+197
+00:05:57,649 --> 00:05:59,250
+ delta function would be a
+
+198
+00:05:59,260 --> 00:06:01,140
+ singular density.
+
+199
+00:06:01,309 --> 00:06:02,899
+ So a density where
+
+200
+00:06:02,910 --> 00:06:04,730
+ all the mass is one
+
+201
+00:06:04,739 --> 00:06:05,279
+ point.
+
+202
+00:06:07,250 --> 00:06:07,750
+ OK.
+
+203
+00:06:07,760 --> 00:06:09,510
+ So let's do a picture for
+
+204
+00:06:09,519 --> 00:06:10,670
+ this visualization.
+
+205
+00:06:12,570 --> 00:06:13,929
+ The curve of an ordinary
+
+206
+00:06:13,940 --> 00:06:15,859
+ function may look like this.
+
+207
+00:06:17,260 --> 00:06:19,000
+ Now you should see this as
+
+208
+00:06:19,010 --> 00:06:20,760
+ the mass distribution
+
+209
+00:06:20,899 --> 00:06:22,769
+ on this one dimensional rode
+
+210
+00:06:22,779 --> 00:06:23,149
+ here.
+
+211
+00:06:24,019 --> 00:06:25,989
+ And this means here
+
+212
+00:06:26,000 --> 00:06:27,709
+ we have a high density
+
+213
+00:06:28,000 --> 00:06:29,489
+ and at this point, we have
+
+214
+00:06:29,500 --> 00:06:30,559
+ a low density.
+
+215
+00:06:32,109 --> 00:06:33,630
+ Now for finding the
+
+216
+00:06:33,640 --> 00:06:35,600
+ density in the real world,
+
+217
+00:06:35,609 --> 00:06:36,850
+ you would use a measurement
+
+218
+00:06:36,859 --> 00:06:38,850
+ device in
+
+219
+00:06:38,859 --> 00:06:40,549
+ mathematics, we then use
+
+220
+00:06:40,559 --> 00:06:42,440
+ so called test functions.
+
+221
+00:06:43,989 --> 00:06:45,750
+ So functions phi that
+
+222
+00:06:45,760 --> 00:06:47,109
+ should be nice enough.
+
+223
+00:06:47,119 --> 00:06:48,929
+ So at least continuous and
+
+224
+00:06:48,940 --> 00:06:50,529
+ localized in some sense
+
+225
+00:06:51,890 --> 00:06:53,230
+ for me, that means they are
+
+226
+00:06:53,239 --> 00:06:55,149
+ zero except for one
+
+227
+00:06:55,160 --> 00:06:56,190
+ small bump.
+
+228
+00:06:56,510 --> 00:06:58,200
+ And that's the region you
+
+229
+00:06:58,209 --> 00:06:58,779
+ measure in.
+
+230
+00:07:00,779 --> 00:07:02,040
+ Now, in order to find the
+
+231
+00:07:02,049 --> 00:07:03,779
+ mass in that region, we have
+
+232
+00:07:03,790 --> 00:07:05,200
+ to calculate an integral.
+
+233
+00:07:05,209 --> 00:07:06,649
+ So an integral over
+
+234
+00:07:06,660 --> 00:07:08,239
+ R function
+
+235
+00:07:08,250 --> 00:07:10,059
+ f and function
+
+236
+00:07:10,200 --> 00:07:10,480
+ Phi
+
+237
+00:07:14,149 --> 00:07:16,119
+ here we get out a real number
+
+238
+00:07:16,440 --> 00:07:17,839
+ which describes
+
+239
+00:07:17,850 --> 00:07:19,839
+ our density
+
+240
+00:07:20,119 --> 00:07:22,089
+ here in that region.
+
+241
+00:07:22,429 --> 00:07:24,269
+ Yeah, roughly in that way.
+
+242
+00:07:26,829 --> 00:07:28,570
+ And now the idea is that
+
+243
+00:07:28,579 --> 00:07:30,089
+ we use a lot of these
+
+244
+00:07:30,100 --> 00:07:31,260
+ small bumps.
+
+245
+00:07:31,290 --> 00:07:32,760
+ So we get out a lot of real
+
+246
+00:07:32,769 --> 00:07:33,679
+ numbers.
+
+247
+00:07:33,690 --> 00:07:34,950
+ In other words, we have a
+
+248
+00:07:34,959 --> 00:07:36,619
+ map that maps
+
+249
+00:07:36,920 --> 00:07:38,720
+ all the phis to
+
+250
+00:07:38,730 --> 00:07:40,359
+ these real numbers given
+
+251
+00:07:40,369 --> 00:07:41,149
+ by the integral.
+
+252
+00:07:42,480 --> 00:07:44,149
+ Or in other words, instead
+
+253
+00:07:44,160 --> 00:07:45,640
+ of looking at the function
+
+254
+00:07:45,649 --> 00:07:47,410
+ F itself, we can
+
+255
+00:07:47,420 --> 00:07:49,359
+ just look at the collection
+
+256
+00:07:49,380 --> 00:07:50,970
+ of all these real
+
+257
+00:07:50,980 --> 00:07:51,839
+ numbers here.
+
+258
+00:07:53,279 --> 00:07:54,679
+ Indeed, that is what we will
+
+259
+00:07:54,690 --> 00:07:56,100
+ do in the next videos, we
+
+260
+00:07:56,109 --> 00:07:57,410
+ will substitute the function
+
+261
+00:07:57,420 --> 00:07:59,329
+ F with this linear
+
+262
+00:07:59,339 --> 00:07:59,890
+ map.
+
+263
+00:08:01,380 --> 00:08:02,920
+ Now, the big advantage of
+
+264
+00:08:02,929 --> 00:08:04,720
+ this is of course, that
+
+265
+00:08:04,730 --> 00:08:06,440
+ now we can also deal with
+
+266
+00:08:06,450 --> 00:08:08,160
+ this strange delta function.
+
+267
+00:08:09,260 --> 00:08:10,750
+ Obviously, we can't draw
+
+268
+00:08:10,760 --> 00:08:12,239
+ a graph for this delta
+
+269
+00:08:12,250 --> 00:08:13,809
+ function because it's not
+
+270
+00:08:13,820 --> 00:08:14,799
+ an ordinary function.
+
+271
+00:08:16,369 --> 00:08:17,709
+ However, we have our
+
+272
+00:08:17,720 --> 00:08:19,260
+ visualization that it is
+
+273
+00:08:19,269 --> 00:08:20,649
+ a point mass.
+
+274
+00:08:20,790 --> 00:08:22,630
+ So this means it is zero
+
+275
+00:08:22,640 --> 00:08:24,299
+ except for one point
+
+276
+00:08:24,940 --> 00:08:26,519
+ and we have put that point
+
+277
+00:08:26,529 --> 00:08:27,440
+ in zero.
+
+278
+00:08:27,779 --> 00:08:29,589
+ So here we have a jump
+
+279
+00:08:29,959 --> 00:08:31,320
+ and this jump should be
+
+280
+00:08:31,329 --> 00:08:32,510
+ infinitely high.
+
+281
+00:08:34,669 --> 00:08:36,328
+ So what does this mean?
+
+282
+00:08:36,619 --> 00:08:38,179
+ Yeah, it means if you want
+
+283
+00:08:38,188 --> 00:08:40,049
+ to measure with our test
+
+284
+00:08:40,058 --> 00:08:41,688
+ functions, you get
+
+285
+00:08:41,698 --> 00:08:43,568
+ out the value of the test
+
+286
+00:08:43,578 --> 00:08:45,198
+ function at this one
+
+287
+00:08:45,208 --> 00:08:45,828
+ point.
+
+288
+00:08:49,059 --> 00:08:51,039
+ So this makes sense for our
+
+289
+00:08:51,049 --> 00:08:52,960
+ measurement devices here.
+
+290
+00:08:53,429 --> 00:08:55,390
+ And also for the integral
+
+291
+00:08:55,400 --> 00:08:57,080
+ we have seen before for the
+
+292
+00:08:57,090 --> 00:08:57,919
+ delta function.
+
+293
+00:08:59,500 --> 00:09:01,450
+ Indeed, we generalize this
+
+294
+00:09:01,460 --> 00:09:02,559
+ integral here.
+
+295
+00:09:02,919 --> 00:09:04,440
+ So now we want to put in
+
+296
+00:09:04,450 --> 00:09:05,929
+ a new function, delta
+
+297
+00:09:06,210 --> 00:09:08,179
+ function instead of f
+
+298
+00:09:08,190 --> 00:09:10,179
+ but we learn we can't see
+
+299
+00:09:10,190 --> 00:09:11,960
+ that as a real integral.
+ 
+300
+00:09:11,969 --> 00:09:13,830
+ What we have indeed is a
+
+301
+00:09:13,840 --> 00:09:15,000
+ generalization of this
+
+302
+00:09:15,010 --> 00:09:16,989
+ concept to this linear
+
+303
+00:09:17,000 --> 00:09:17,359
+ map.
+
+304
+00:09:19,750 --> 00:09:20,890
+ Well, I think that's good
+
+305
+00:09:20,900 --> 00:09:21,890
+ enough for today.
+
+306
+00:09:21,900 --> 00:09:23,130
+ So now you see the
+
+307
+00:09:23,140 --> 00:09:24,590
+ motivation for
+
+308
+00:09:24,599 --> 00:09:25,659
+ distributions.
+
+309
+00:09:25,849 --> 00:09:27,270
+ And in the next video, I
+
+310
+00:09:27,280 --> 00:09:28,739
+ will give the exact
+
+311
+00:09:28,750 --> 00:09:30,210
+ definition of such a
+
+312
+00:09:30,219 --> 00:09:30,969
+ distribution.
+
+313
+00:09:32,299 --> 00:09:33,840
+ This means that we will learn
+
+314
+00:09:33,849 --> 00:09:35,440
+ what the test functions are
+
+315
+00:09:35,450 --> 00:09:37,169
+ actually and also
+
+316
+00:09:37,179 --> 00:09:38,750
+ what this linear map then
+
+317
+00:09:38,760 --> 00:09:39,260
+ is
+
+318
+00:09:41,219 --> 00:09:42,479
+ then thank you very much
+
+319
+00:09:42,489 --> 00:09:43,760
+ for listening and see you
+
+320
+00:09:43,770 --> 00:09:44,440
+ next time.
+
+321
+00:09:44,849 --> 00:09:45,510
+ Bye.
+
