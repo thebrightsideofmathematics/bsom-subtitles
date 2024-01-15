@@ -1,0 +1,272 @@
+1
+00:00:00,471 --> 00:00:03,486
+Hello and welcome back to functional analysis
+
+2
+00:00:03,615 --> 00:00:08,829
+and as always I want to thank all the nice people that support this channel on Steady or Paypal.
+
+3
+00:00:09,214 --> 00:00:13,356
+Today's part 4 is about sequences, limits and closed sets.
+
+4
+00:00:14,214 --> 00:00:19,863
+So you see, we're still building up the foundations we need for doing functional analysis.
+
+5
+00:00:20,063 --> 00:00:27,678
+Now, for metric spaces it turns out that one can use sequences to describe the properties of a metric space.
+
+6
+00:00:28,343 --> 00:00:35,112
+You might already know, a sequence is just an ordered sets of points inside the metric space X,
+
+7
+00:00:35,771 --> 00:00:40,257
+because we give the points names, we usually see a notation like this
+
+8
+00:00:41,157 --> 00:00:44,871
+or in short you just write x_n with n in N.
+
+9
+00:00:45,643 --> 00:00:52,657
+Of course in the formal way you would say, you just have a map from the natural numbers into the metric space X,
+
+10
+00:00:53,486 --> 00:00:59,991
+because we can measure distances in a metric space, we can also talk about convergent sequences.
+
+11
+00:01:01,600 --> 00:01:08,729
+A sequence x_n in a metric space (X,d), which means all the x_n come from a set X,
+
+12
+00:01:08,929 --> 00:01:15,240
+is called convergent if there is a limit point we call x tilde.
+
+13
+00:01:15,800 --> 00:01:23,503
+So what we want is that the members of the sequence get closer and closer to this limit point x tilde.
+
+14
+00:01:24,329 --> 00:01:30,617
+Of course we already know how to measure such closeness. We can just use an arbitrary epsilon-ball.
+
+15
+00:01:31,200 --> 00:01:33,386
+It should be send that at x tilde,
+
+16
+00:01:33,387 --> 00:01:40,863
+but then no matter how small we choose the epsilon, almost all the members of the sequence should be inside this ball.
+
+17
+00:01:41,100 --> 00:01:48,712
+More exactly this means we find an index such that members with a bigger index lie inside the epsilon-ball.
+
+18
+00:01:49,514 --> 00:01:54,324
+Formally this reads then: for all epsilon greater 0,
+
+19
+00:01:55,029 --> 00:01:57,501
+there exists an index capital N
+
+20
+00:01:58,243 --> 00:02:02,020
+such that all the other indices greater or equal this capital N
+
+21
+00:02:02,943 --> 00:02:10,659
+fulfill that the distance between x_n and our limit point x tilde is less than epsilon.
+
+22
+00:02:11,471 --> 00:02:17,848
+In this case we then write x_n tends to x tilde if n goes to infinity.
+
+23
+00:02:18,048 --> 00:02:27,112
+Alternatively we also use the limit notation. So we write limit n to infinity of x_n is equal to x tilde.
+
+24
+00:02:27,312 --> 00:02:34,491
+If you see such notations please remind yourself that these are always given with respect to a metric d
+
+25
+00:02:34,691 --> 00:02:37,092
+and of course we can use such notations,
+
+26
+00:02:37,129 --> 00:02:43,940
+because in a metric space there can only be at most one x tilde that fulfills all of these things here.
+
+27
+00:02:44,643 --> 00:02:47,929
+You can easily show that using the triangle inequality.
+
+28
+00:02:48,571 --> 00:02:56,693
+Later we will see a lot of examples of convergent sequences. Therefore I would say we start here proving another important fact.
+
+29
+00:02:57,414 --> 00:03:04,139
+Here we look again at a subset of the metric space X and we can say that this one is closed, 
+
+30
+00:03:04,143 --> 00:03:10,645
+if and only if we can't leave the set from the inside by just using sequences.
+
+31
+00:03:11,229 --> 00:03:17,635
+More exactly this means that a limit such a sequence could have must lie in the set A.
+
+32
+00:03:18,414 --> 00:03:26,363
+This is fitting for our visualization, because closeness means that this boundary we see here already belongs to the set A.
+
+33
+00:03:26,457 --> 00:03:30,987
+Writing that down gives us then: for every convergent sequence a_n,
+
+34
+00:03:31,187 --> 00:03:34,941
+where a_n is just an element in capital A.
+
+35
+00:03:35,357 --> 00:03:42,589
+So it's a sequence inside A and usually one uses the sloppy notation writing it down as a subset of A.
+
+36
+00:03:43,243 --> 00:03:48,752
+The important part here is of course, we have a convergent sequence, but only in the sense of the definition.
+
+37
+00:03:48,952 --> 00:03:54,444
+So it's a convergent sequence in the space X. So it has a limit inside X.
+
+38
+00:03:54,644 --> 00:03:57,146
+However for the proposition we need more.
+
+39
+00:03:57,346 --> 00:04:04,011
+We need that the limit, that we know exists, is also an element of A.
+
+40
+00:04:04,814 --> 00:04:11,972
+Ok, so this is important because now we have a characterization for closed sets just by using sequences.
+
+41
+00:04:12,457 --> 00:04:16,439
+Ok, then let's do the proof, where we have to show 2 directions.
+
+42
+00:04:16,786 --> 00:04:21,979
+I want to start with the one from right to left, because we can just do the contraposition here.
+
+43
+00:04:22,843 --> 00:04:26,477
+Hence we have to assume that A is not closed.
+
+44
+00:04:27,271 --> 00:04:31,443
+Hence by definition the complement is not open.
+
+45
+00:04:31,643 --> 00:04:36,356
+Now please recall open means that for each point inside the set,
+
+46
+00:04:36,400 --> 00:04:42,768
+you find an epsilon-ball around this point, such that the whole ball is inside A^c in this case.
+
+47
+00:04:43,571 --> 00:04:49,210
+Not open then means that there is at least one x tilde where this is not the case.
+
+48
+00:04:49,543 --> 00:04:58,234
+So you find an x tilde here on the boundary such that you can use any epsilon-ball, but you always hit points in A.
+
+49
+00:04:58,714 --> 00:05:06,425
+Hence we conclude that we can construct a sequence a_n, where each a_n comes from one of these sets here,
+
+50
+00:05:06,625 --> 00:05:10,188
+where for example we set epsilon as 1 over n.
+
+51
+00:05:10,388 --> 00:05:15,562
+If we do that then we know that a_n converges to x tilde,
+
+52
+00:05:15,643 --> 00:05:20,473
+because we get closer and closer to x tilde if we increase the index n.
+
+53
+00:05:21,000 --> 00:05:22,729
+Ok, so this is our result.
+
+54
+00:05:22,755 --> 00:05:28,429
+We now have a sequence in A, which is convergent, but its limit is not in A.
+
+55
+00:05:28,629 --> 00:05:35,404
+Ok, so this was our proof by contraposition. Which means this implication is now finished.
+
+56
+00:05:35,757 --> 00:05:40,229
+So, let's do the other direction then, where I also want to use a contraposition.
+
+57
+00:05:40,771 --> 00:05:46,258
+Here we now assume that there is a convergent sequence in A where the limit is not in A
+
+58
+00:05:46,900 --> 00:05:51,284
+and as before I want to call this limit just x tilde.
+
+59
+00:05:51,286 --> 00:05:53,259
+So we have the same picture as here.
+
+60
+00:05:54,043 --> 00:05:56,268
+Now you know by the definition of the limit
+
+61
+00:05:56,468 --> 00:06:02,871
+you can use any epsilon-ball around x tilde, you will always hit points of the sequence.
+
+62
+00:06:02,923 --> 00:06:04,607
+So inside A
+
+63
+00:06:05,400 --> 00:06:11,664
+and this then means that A^c, the complement of A is not an open set.
+
+64
+00:06:12,114 --> 00:06:17,238
+However then by definition the set A itself is not a closed set
+
+65
+00:06:18,671 --> 00:06:23,611
+and as you can see this closes our proof here. The proposition is correct.
+
+66
+00:06:24,114 --> 00:06:30,472
+Maybe we also close the video here. In the next part we will talk about complete metric spaces
+
+67
+00:06:31,100 --> 00:06:36,691
+and there we will discuss some examples and you'll see why it is helpful to deal with sequences.
+
+68
+00:06:37,714 --> 00:06:42,029
+So, thanks for listening and hopefully I see you there. Bye!
+
