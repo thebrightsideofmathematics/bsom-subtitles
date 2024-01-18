@@ -1,0 +1,1768 @@
+1
+00:00:00,670 --> 00:00:02,529
+ Hello and welcome back to
+
+2
+00:00:02,539 --> 00:00:03,970
+ the next video in this
+
+3
+00:00:03,980 --> 00:00:04,769
+ series.
+
+4
+00:00:05,280 --> 00:00:07,269
+ I thank all the nice people
+
+5
+00:00:07,280 --> 00:00:08,689
+ that support this channel
+
+6
+00:00:08,699 --> 00:00:09,630
+ on Steady
+
+7
+00:00:10,510 --> 00:00:12,470
+ Well, this is measure theory
+
+8
+00:00:12,479 --> 00:00:13,779
+ part eight.
+
+9
+00:00:13,930 --> 00:00:15,359
+ And we are still talking
+
+10
+00:00:15,369 --> 00:00:17,049
+ about the monotone convergence
+
+11
+00:00:17,059 --> 00:00:17,670
+ theorem.
+
+12
+00:00:17,809 --> 00:00:19,590
+ But today I want to show
+
+13
+00:00:19,600 --> 00:00:21,329
+ you mainly the proof
+
+14
+00:00:21,340 --> 00:00:22,840
+ of this theorem
+
+15
+00:00:24,010 --> 00:00:25,600
+ for the start of this video.
+
+16
+00:00:25,709 --> 00:00:27,540
+ It might be helpful to
+
+17
+00:00:27,549 --> 00:00:29,350
+ give you a recap what the
+
+18
+00:00:29,360 --> 00:00:30,899
+ monotone convergence theorem
+
+19
+00:00:30,909 --> 00:00:32,729
+ states. For the
+
+20
+00:00:32,740 --> 00:00:34,479
+ ingredients, we need a measure
+
+21
+00:00:34,490 --> 00:00:35,939
+ space and
+
+22
+00:00:35,950 --> 00:00:37,380
+ measurable maps
+
+23
+00:00:38,139 --> 00:00:39,549
+ as always they are non-
+
+24
+00:00:39,560 --> 00:00:40,200
+ negative.
+
+25
+00:00:40,389 --> 00:00:41,880
+ And we have a whole sequence
+
+26
+00:00:41,889 --> 00:00:43,520
+ of such measurable maps.
+
+27
+00:00:44,040 --> 00:00:45,720
+ And in addition, we also
+
+28
+00:00:45,729 --> 00:00:47,169
+ have the limit where we call
+
+29
+00:00:47,180 --> 00:00:48,720
+ this just F without an
+
+30
+00:00:48,729 --> 00:00:49,279
+ index.
+
+31
+00:00:50,049 --> 00:00:50,389
+ OK.
+
+32
+00:00:50,400 --> 00:00:52,119
+ Because the theorem is called
+
+33
+00:00:52,130 --> 00:00:53,869
+ monotone convergence theorem.
+
+34
+00:00:53,880 --> 00:00:55,669
+ We need two things first,
+
+35
+00:00:55,680 --> 00:00:57,349
+ a monotonic property and
+
+36
+00:00:57,360 --> 00:00:58,869
+ also a convergent property.
+
+37
+00:00:59,680 --> 00:01:01,340
+ The first thing is therefore
+
+38
+00:01:01,349 --> 00:01:02,509
+ the sequence is
+
+39
+00:01:02,520 --> 00:01:04,379
+ monotonically increasing
+
+40
+00:01:05,069 --> 00:01:07,049
+ but only almost everywhere
+
+41
+00:01:07,058 --> 00:01:08,579
+ with respect to our measure
+
+42
+00:01:08,588 --> 00:01:08,869
+ mu
+
+43
+00:01:09,558 --> 00:01:11,049
+ And the second property I
+
+44
+00:01:11,058 --> 00:01:12,888
+ already told you F should
+
+45
+00:01:12,899 --> 00:01:14,329
+ be the limit of
+
+46
+00:01:14,338 --> 00:01:16,308
+ FN and the limit should
+
+47
+00:01:16,319 --> 00:01:18,219
+ be in the pointwise sense which
+
+48
+00:01:18,228 --> 00:01:19,719
+ means I fix a point
+
+49
+00:01:19,728 --> 00:01:21,369
+ X and then I have a normal
+
+50
+00:01:21,378 --> 00:01:23,109
+ limit of real numbers.
+
+51
+00:01:23,359 --> 00:01:25,088
+ However, as before, this
+
+52
+00:01:25,098 --> 00:01:26,738
+ property only has to hold
+
+53
+00:01:26,749 --> 00:01:28,088
+ almost everywhere.
+
+54
+00:01:28,900 --> 00:01:30,639
+ So much about the premise.
+
+55
+00:01:30,650 --> 00:01:32,400
+ Now let's talk about the
+
+56
+00:01:32,410 --> 00:01:33,169
+ conclusion.
+
+57
+00:01:33,830 --> 00:01:35,610
+ The theorem tells us that
+
+58
+00:01:35,620 --> 00:01:37,069
+ we can push the
+
+59
+00:01:37,080 --> 00:01:38,790
+ limit into the
+
+60
+00:01:38,800 --> 00:01:39,599
+ integral.
+
+61
+00:01:39,720 --> 00:01:41,410
+ This means that the sequence
+
+62
+00:01:41,419 --> 00:01:43,150
+ of integrals converges
+
+63
+00:01:43,160 --> 00:01:45,150
+ to an integral where in the
+
+64
+00:01:45,160 --> 00:01:46,779
+ integral there's the
+
+65
+00:01:46,790 --> 00:01:48,650
+ limit of the sequence.
+
+66
+00:01:51,000 --> 00:01:52,989
+ And of course, this is just
+
+67
+00:01:53,000 --> 00:01:54,050
+ our F here.
+
+68
+00:01:55,910 --> 00:01:57,550
+ And now we have again our
+
+69
+00:01:57,559 --> 00:01:59,050
+ monotone convergence
+
+70
+00:01:59,059 --> 00:01:59,569
+ theorem.
+
+71
+00:02:00,260 --> 00:02:02,050
+ However, I should tell you
+
+72
+00:02:02,059 --> 00:02:04,050
+ there is an alternative formulation
+
+73
+00:02:04,059 --> 00:02:05,750
+ of this theorem which is
+
+74
+00:02:05,760 --> 00:02:07,250
+ a little bit more general
+
+75
+00:02:08,100 --> 00:02:09,679
+ what you do there is you
+
+76
+00:02:09,690 --> 00:02:10,750
+ include also
+
+77
+00:02:10,758 --> 00:02:12,619
+ functions that have the
+
+78
+00:02:12,630 --> 00:02:14,479
+ symbol infinity as an
+
+79
+00:02:14,490 --> 00:02:15,160
+ outcome.
+
+80
+00:02:15,919 --> 00:02:17,580
+ Of course, then you have
+
+81
+00:02:17,589 --> 00:02:19,270
+ to extend the Borel Sigma
+
+82
+00:02:19,279 --> 00:02:20,860
+ algebra to this
+
+83
+00:02:20,869 --> 00:02:22,380
+ new bigger set
+
+84
+00:02:22,710 --> 00:02:24,229
+ and also extend the notion
+
+85
+00:02:24,240 --> 00:02:25,199
+ of measurable.
+
+86
+00:02:25,750 --> 00:02:26,809
+ And indeed, that's not a
+
+87
+00:02:26,820 --> 00:02:27,740
+ problem at all
+
+88
+00:02:29,070 --> 00:02:30,000
+ in the same way.
+
+89
+00:02:30,009 --> 00:02:31,509
+ Also the definition of the
+
+90
+00:02:31,520 --> 00:02:32,740
+ Integral does not change
+
+91
+00:02:32,750 --> 00:02:34,309
+ at all because in the worst
+
+92
+00:02:34,320 --> 00:02:35,919
+ case, as always, it could
+
+93
+00:02:35,929 --> 00:02:36,839
+ be infinity.
+
+94
+00:02:37,720 --> 00:02:39,279
+ The advantage of this formulation
+
+95
+00:02:39,289 --> 00:02:40,990
+ is now that you can get rid
+
+96
+00:02:41,000 --> 00:02:42,470
+ of the F completely.
+
+97
+00:02:43,250 --> 00:02:45,009
+ So we don't need this
+
+98
+00:02:45,020 --> 00:02:46,660
+ and we don't need
+
+99
+00:02:46,669 --> 00:02:47,470
+ this
+
+100
+00:02:48,479 --> 00:02:50,179
+ simply because everything
+
+101
+00:02:50,229 --> 00:02:52,009
+ follows from the monotonic
+
+102
+00:02:52,020 --> 00:02:53,800
+ property here, we have
+
+103
+00:02:53,809 --> 00:02:55,619
+ measurable functions and
+
+104
+00:02:55,630 --> 00:02:57,130
+ we know the supremum is also
+
+105
+00:02:57,139 --> 00:02:58,949
+ measurable and they are
+
+106
+00:02:58,960 --> 00:03:00,619
+ monotonically increasing.
+
+107
+00:03:00,669 --> 00:03:02,419
+ So we know the supremum is given
+
+108
+00:03:02,429 --> 00:03:03,789
+ almost everywhere as the
+
+109
+00:03:03,800 --> 00:03:04,259
+ limit.
+
+110
+00:03:05,350 --> 00:03:06,369
+ And there you see this is
+
+111
+00:03:06,380 --> 00:03:08,369
+ just a more compact formulation
+
+112
+00:03:08,380 --> 00:03:09,470
+ of the theorem.
+
+113
+00:03:09,770 --> 00:03:11,320
+ And as I told you before,
+
+114
+00:03:11,330 --> 00:03:12,380
+ in the worst case, you have
+
+115
+00:03:12,389 --> 00:03:13,979
+ infinity left and
+
+116
+00:03:13,990 --> 00:03:15,729
+ right in the conclusion here.
+
+117
+00:03:17,880 --> 00:03:19,419
+ Well, so this was the
+
+118
+00:03:19,429 --> 00:03:20,300
+ introduction.
+
+119
+00:03:20,309 --> 00:03:22,229
+ Now, let's look at
+
+120
+00:03:22,240 --> 00:03:23,000
+ the proof,
+
+121
+00:03:25,929 --> 00:03:27,220
+ of course, we use what we
+
+122
+00:03:27,229 --> 00:03:28,199
+ know we have a
+
+123
+00:03:28,210 --> 00:03:29,389
+ monotonically
+
+124
+00:03:29,399 --> 00:03:31,309
+ increasing sequence
+
+125
+00:03:31,320 --> 00:03:32,389
+ of functions.
+
+126
+00:03:34,270 --> 00:03:36,009
+ This property holds almost
+
+127
+00:03:36,020 --> 00:03:36,759
+ everywhere.
+
+128
+00:03:37,050 --> 00:03:38,330
+ And if you remember what
+
+129
+00:03:38,339 --> 00:03:39,710
+ we did in the last video,
+
+130
+00:03:39,740 --> 00:03:41,039
+ we know that we have the
+
+131
+00:03:41,050 --> 00:03:42,880
+ monotonicity property of
+
+132
+00:03:42,889 --> 00:03:43,970
+ the Lebesgue integral.
+
+133
+00:03:44,470 --> 00:03:46,089
+ This means that the integral
+
+134
+00:03:46,100 --> 00:03:47,669
+ conserves
+
+135
+00:03:47,679 --> 00:03:49,429
+ these inequalities.
+
+136
+00:03:52,839 --> 00:03:54,320
+ Now we have a monotonically
+
+137
+00:03:54,330 --> 00:03:56,210
+ increasing sequence of real
+
+138
+00:03:56,220 --> 00:03:57,600
+ numbers where also
+
+139
+00:03:57,610 --> 00:03:59,059
+ infinity can occur
+
+140
+00:03:59,990 --> 00:04:01,440
+ in the same sense, we can
+
+141
+00:04:01,449 --> 00:04:03,250
+ write down the inequality
+
+142
+00:04:03,259 --> 00:04:04,270
+ for all N.
+
+143
+00:04:04,279 --> 00:04:05,929
+ So we know that the limit
+
+144
+00:04:06,179 --> 00:04:08,009
+ is always bigger or equal
+
+145
+00:04:08,020 --> 00:04:09,850
+ than FN for
+
+146
+00:04:09,860 --> 00:04:11,639
+ all N and almost
+
+147
+00:04:11,649 --> 00:04:12,429
+ everywhere,
+
+148
+00:04:13,619 --> 00:04:14,800
+ simply because the limit
+
+149
+00:04:14,809 --> 00:04:16,279
+ is almost everywhere, the
+
+150
+00:04:16,290 --> 00:04:18,200
+ supremum and because
+
+151
+00:04:18,209 --> 00:04:19,920
+ this holds almost everywhere,
+
+152
+00:04:19,928 --> 00:04:21,829
+ we know it holds for the
+
+153
+00:04:21,850 --> 00:04:23,309
+ integral as well.
+
+154
+00:04:24,269 --> 00:04:26,179
+ And there you see, we already
+
+155
+00:04:26,190 --> 00:04:27,690
+ have one part of the
+
+156
+00:04:27,700 --> 00:04:28,720
+ equality here.
+
+157
+00:04:28,730 --> 00:04:29,649
+ We want to show.
+
+158
+00:04:29,799 --> 00:04:31,489
+ So let's call this star
+
+159
+00:04:31,500 --> 00:04:32,850
+ for a reference
+
+160
+00:04:33,989 --> 00:04:35,630
+ and let's show the one
+
+161
+00:04:35,640 --> 00:04:36,380
+ inequality.
+
+162
+00:04:36,390 --> 00:04:37,970
+ So we formed the limit on
+
+163
+00:04:37,980 --> 00:04:39,309
+ both sides here.
+
+164
+00:04:39,929 --> 00:04:41,070
+ Of course, we don't change
+
+165
+00:04:41,079 --> 00:04:42,160
+ the inequality here.
+
+166
+00:04:42,170 --> 00:04:43,609
+ And we have no limit on the
+
+167
+00:04:43,619 --> 00:04:44,809
+ right hand side because there's
+
+168
+00:04:44,820 --> 00:04:46,429
+ no N involved.
+
+169
+00:04:46,440 --> 00:04:48,170
+ And therefore we have this
+
+170
+00:04:48,179 --> 00:04:49,329
+ as the inequality.
+
+171
+00:04:50,049 --> 00:04:51,510
+ And this is exactly one
+
+172
+00:04:51,519 --> 00:04:53,420
+ part of our
+
+173
+00:04:53,429 --> 00:04:54,739
+ equality star.
+
+174
+00:04:55,850 --> 00:04:57,269
+ Do you see this was not so
+
+175
+00:04:57,279 --> 00:04:57,790
+ hard.
+
+176
+00:04:57,799 --> 00:04:59,579
+ This part comes immediately
+
+177
+00:05:00,380 --> 00:05:01,959
+ but for the other part we
+
+178
+00:05:01,970 --> 00:05:03,410
+ need to use the definition
+
+179
+00:05:03,420 --> 00:05:04,640
+ of the Lebesgue integral.
+
+180
+00:05:05,179 --> 00:05:06,839
+ And this always means that
+
+181
+00:05:06,850 --> 00:05:08,790
+ we go back to step or simple
+
+182
+00:05:08,799 --> 00:05:09,709
+ functions.
+
+183
+00:05:09,829 --> 00:05:11,480
+ Therefore, let h be an
+
+184
+00:05:11,489 --> 00:05:13,390
+ arbitrary chosen simple function
+
+185
+00:05:13,529 --> 00:05:15,130
+ that lies below
+
+186
+00:05:15,140 --> 00:05:16,559
+ our function F
+
+187
+00:05:19,089 --> 00:05:20,239
+ and also choose a
+
+188
+00:05:20,250 --> 00:05:21,709
+ fixed error
+
+189
+00:05:21,720 --> 00:05:22,589
+ epsilon
+
+190
+00:05:23,809 --> 00:05:24,559
+ at this point.
+
+191
+00:05:24,570 --> 00:05:26,049
+ I think a short sketch is
+
+192
+00:05:26,059 --> 00:05:27,730
+ very helpful to get the idea.
+
+193
+00:05:28,880 --> 00:05:30,720
+ Here is our function F
+
+194
+00:05:31,140 --> 00:05:32,779
+ and this one should be the
+
+195
+00:05:32,790 --> 00:05:34,630
+ step function H so maybe
+
+196
+00:05:34,640 --> 00:05:35,559
+ it looks like this.
+
+197
+00:05:37,890 --> 00:05:38,299
+ OK.
+
+198
+00:05:38,309 --> 00:05:40,220
+ So this would be the usual
+
+199
+00:05:40,230 --> 00:05:40,799
+ idea.
+
+200
+00:05:41,720 --> 00:05:43,609
+ Now we know we have the pointwise
+
+201
+00:05:43,619 --> 00:05:45,160
+ convergence of this
+
+202
+00:05:45,170 --> 00:05:46,500
+ sequence of functions to
+
+203
+00:05:46,510 --> 00:05:47,160
+ F.
+
+204
+00:05:47,170 --> 00:05:48,850
+ So maybe we can choose some
+
+205
+00:05:48,859 --> 00:05:50,179
+ FN that lies
+
+206
+00:05:51,019 --> 00:05:52,600
+ very close to F.
+
+207
+00:05:52,709 --> 00:05:54,359
+ So maybe this is
+
+208
+00:05:54,369 --> 00:05:56,029
+ our chosen FN.
+
+209
+00:05:57,299 --> 00:05:59,040
+ The idea of the epsilon is
+
+210
+00:05:59,049 --> 00:06:00,929
+ now that we can always push
+
+211
+00:06:00,940 --> 00:06:02,709
+ down the step function by
+
+212
+00:06:02,720 --> 00:06:03,640
+ this epsilon.
+
+213
+00:06:03,869 --> 00:06:05,390
+ So this would be epsilon
+
+214
+00:06:05,399 --> 00:06:06,619
+ and then the new step function
+
+215
+00:06:06,630 --> 00:06:07,549
+ looks like this.
+
+216
+00:06:08,220 --> 00:06:09,859
+ And this should then always
+
+217
+00:06:09,869 --> 00:06:11,760
+ be a step function that lies
+
+218
+00:06:11,769 --> 00:06:13,000
+ below FN.
+
+219
+00:06:14,200 --> 00:06:15,859
+ Hence I define now
+
+220
+00:06:15,869 --> 00:06:17,739
+ sets XN
+
+221
+00:06:17,929 --> 00:06:19,660
+ where I put in all the
+
+222
+00:06:19,670 --> 00:06:21,109
+ points X
+
+223
+00:06:22,290 --> 00:06:24,089
+ where FN of X
+
+224
+00:06:24,200 --> 00:06:25,549
+ is bigger than the
+
+225
+00:06:25,559 --> 00:06:27,260
+ shifted step function.
+
+226
+00:06:27,269 --> 00:06:28,609
+ And the shifted step function
+
+227
+00:06:28,619 --> 00:06:30,190
+ is just one minus
+
+228
+00:06:30,200 --> 00:06:32,029
+ epsilon h
+
+229
+00:06:34,200 --> 00:06:35,299
+ because we have our
+
+230
+00:06:35,309 --> 00:06:36,700
+ convergence of the
+
+231
+00:06:36,709 --> 00:06:38,670
+ sequence FN to F
+
+232
+00:06:38,679 --> 00:06:39,899
+ almost everywhere
+
+233
+00:06:40,420 --> 00:06:41,859
+ we know that
+
+234
+00:06:42,089 --> 00:06:43,899
+ almost every X
+
+235
+00:06:43,980 --> 00:06:45,730
+ in X lies
+
+236
+00:06:45,739 --> 00:06:47,410
+ in at least one of these
+
+237
+00:06:47,420 --> 00:06:47,929
+ XN.
+
+238
+00:06:48,929 --> 00:06:50,480
+ In other words, we can look
+
+239
+00:06:50,489 --> 00:06:52,399
+ at the union of all these
+
+240
+00:06:52,410 --> 00:06:54,369
+ XN and
+
+241
+00:06:54,380 --> 00:06:56,369
+ let's call it X tilde,
+
+242
+00:06:56,850 --> 00:06:58,450
+ then we know that the complement
+
+243
+00:06:58,459 --> 00:07:00,450
+ of X tilde is a set with
+
+244
+00:07:00,459 --> 00:07:01,489
+ measure zero.
+
+245
+00:07:04,390 --> 00:07:05,950
+ Knowing this, we can now
+
+246
+00:07:05,959 --> 00:07:07,429
+ look at the integral again.
+
+247
+00:07:08,549 --> 00:07:10,010
+ Now we start here with the
+
+248
+00:07:10,019 --> 00:07:11,089
+ left hand side.
+
+249
+00:07:11,100 --> 00:07:12,670
+ So I want to look at the
+
+250
+00:07:12,679 --> 00:07:14,529
+ integral of FN.
+
+251
+00:07:16,309 --> 00:07:17,890
+ This integral gets not
+
+252
+00:07:17,899 --> 00:07:19,850
+ bigger if I change the set
+
+253
+00:07:19,859 --> 00:07:20,850
+ to a smaller set.
+
+254
+00:07:20,859 --> 00:07:22,160
+ So here I want to choose
+
+255
+00:07:22,170 --> 00:07:23,010
+ XN
+
+256
+00:07:24,260 --> 00:07:25,700
+ Fn dmu.
+
+257
+00:07:26,350 --> 00:07:28,329
+ Now inside the set XN,
+
+258
+00:07:28,339 --> 00:07:30,239
+ we have this inequality
+
+259
+00:07:30,299 --> 00:07:31,570
+ and can use the normal
+
+260
+00:07:31,579 --> 00:07:33,390
+ monotonicity of the integral.
+
+261
+00:07:34,260 --> 00:07:35,250
+ Therefore, I have the same
+
+262
+00:07:35,260 --> 00:07:36,500
+ inequality here.
+
+263
+00:07:36,510 --> 00:07:38,109
+ And a new function inside
+
+264
+00:07:38,119 --> 00:07:39,480
+ the integral which is now
+
+265
+00:07:39,489 --> 00:07:40,959
+ one minus epsilon
+
+266
+00:07:40,970 --> 00:07:42,480
+  h dmu.
+
+267
+00:07:43,750 --> 00:07:45,070
+ And of course, we want to
+
+268
+00:07:45,079 --> 00:07:46,209
+ look at the limit.
+
+269
+00:07:46,369 --> 00:07:48,089
+ So we found the limit here
+
+270
+00:07:48,100 --> 00:07:49,250
+ on both sides,
+
+271
+00:07:49,880 --> 00:07:50,859
+ then we get
+
+272
+00:07:51,519 --> 00:07:52,420
+ limit
+
+273
+00:07:53,399 --> 00:07:54,829
+ of the integrals.
+
+274
+00:07:55,709 --> 00:07:57,250
+ And on the right hand side,
+
+275
+00:07:57,290 --> 00:07:59,089
+ we have the limit of
+
+276
+00:07:59,100 --> 00:08:00,329
+ these integrals.
+
+277
+00:08:01,149 --> 00:08:01,769
+ OK.
+
+278
+00:08:01,970 --> 00:08:03,720
+ At this point, I want to
+
+279
+00:08:03,730 --> 00:08:05,529
+ omit some details because
+
+280
+00:08:05,540 --> 00:08:06,869
+ otherwise we will lose our
+
+281
+00:08:06,880 --> 00:08:07,989
+ focus completely.
+
+282
+00:08:08,380 --> 00:08:10,010
+ What one can show now is
+
+283
+00:08:10,019 --> 00:08:11,890
+ that this is indeed
+
+284
+00:08:12,250 --> 00:08:13,869
+ the integral over
+
+285
+00:08:13,950 --> 00:08:14,720
+ X tilde.
+
+286
+00:08:15,260 --> 00:08:17,170
+ And we don't change the
+
+287
+00:08:17,179 --> 00:08:18,320
+ function at all.
+
+288
+00:08:19,459 --> 00:08:20,690
+ And what we need in the details
+
+289
+00:08:20,700 --> 00:08:22,239
+ is of course that this is
+
+290
+00:08:22,250 --> 00:08:23,109
+ a step function.
+
+291
+00:08:23,119 --> 00:08:24,820
+ So the integral is very easy.
+
+292
+00:08:25,140 --> 00:08:26,510
+ Essentially, it's just a
+
+293
+00:08:26,519 --> 00:08:27,880
+ sum of our measures.
+
+294
+00:08:28,619 --> 00:08:30,420
+ And we know that the
+
+295
+00:08:30,429 --> 00:08:31,799
+ sets here are
+
+296
+00:08:31,809 --> 00:08:33,760
+ increasing, you
+
+297
+00:08:33,770 --> 00:08:35,619
+ have to find the sets appropriately.
+
+298
+00:08:35,630 --> 00:08:36,830
+ But then you get out that
+
+299
+00:08:36,840 --> 00:08:38,260
+ you have a monotonically
+
+300
+00:08:38,270 --> 00:08:40,229
+ increasing sequence
+
+301
+00:08:40,239 --> 00:08:41,020
+ of sets.
+
+302
+00:08:41,789 --> 00:08:42,450
+ OK.
+
+303
+00:08:42,640 --> 00:08:43,700
+ In summary, I'll leave the
+
+304
+00:08:43,710 --> 00:08:44,969
+ details here for you.
+
+305
+00:08:44,979 --> 00:08:46,950
+ But remember we can do
+
+306
+00:08:46,960 --> 00:08:48,580
+ this because this is just
+
+307
+00:08:48,590 --> 00:08:50,010
+ a step function and integral.
+
+308
+00:08:50,020 --> 00:08:51,010
+ It's very easy there.
+
+309
+00:08:51,840 --> 00:08:52,200
+ OK.
+
+310
+00:08:52,210 --> 00:08:54,099
+ But after this, you see it
+
+311
+00:08:54,109 --> 00:08:55,219
+ doesn't make any difference
+
+312
+00:08:55,229 --> 00:08:57,059
+ to choose X tilde here or X
+
+313
+00:08:58,280 --> 00:08:59,359
+ because for the integral,
+
+314
+00:08:59,369 --> 00:09:01,320
+ it does not matter what happens
+
+315
+00:09:01,409 --> 00:09:03,140
+ on a set with measure
+
+316
+00:09:03,150 --> 00:09:03,729
+ zero.
+
+317
+00:09:04,280 --> 00:09:05,299
+ And in the last video, I
+
+318
+00:09:05,309 --> 00:09:06,799
+ have shown it explicitly
+
+319
+00:09:06,809 --> 00:09:07,969
+ for the step functions.
+
+320
+00:09:09,229 --> 00:09:09,929
+ OK.
+
+321
+00:09:09,940 --> 00:09:10,849
+ Now we have an
+
+322
+00:09:10,859 --> 00:09:12,729
+ inequality that holds
+
+323
+00:09:12,739 --> 00:09:14,530
+ for all epsilon here on the
+
+324
+00:09:14,539 --> 00:09:16,409
+ right hand side, this
+
+325
+00:09:16,419 --> 00:09:18,219
+ means now that we can choose
+
+326
+00:09:18,229 --> 00:09:19,630
+ the epsilon as
+
+327
+00:09:19,640 --> 00:09:21,340
+ small as we want.
+
+328
+00:09:22,229 --> 00:09:23,900
+ And therefore we have a
+
+329
+00:09:23,909 --> 00:09:25,719
+ limit process for the epsilon
+
+330
+00:09:25,729 --> 00:09:26,989
+ and still have the
+
+331
+00:09:27,000 --> 00:09:28,650
+ inequality if we
+
+332
+00:09:28,659 --> 00:09:30,530
+ would set epsilon to
+
+333
+00:09:30,539 --> 00:09:31,289
+ zero.
+
+334
+00:09:31,299 --> 00:09:33,159
+ So this means here we
+
+335
+00:09:33,169 --> 00:09:34,750
+ have the integral greater
+
+336
+00:09:34,760 --> 00:09:36,390
+ or equal than the
+
+337
+00:09:36,400 --> 00:09:37,229
+ integral.
+
+338
+00:09:37,309 --> 00:09:38,469
+ And here just h
+
+339
+00:09:38,909 --> 00:09:39,909
+ remains.
+
+340
+00:09:41,609 --> 00:09:43,270
+ Now in the same sense,
+
+341
+00:09:43,280 --> 00:09:44,909
+ this h was arbitrarily
+
+342
+00:09:44,919 --> 00:09:45,479
+ chosen.
+
+343
+00:09:45,989 --> 00:09:47,669
+ It was just a step function
+
+344
+00:09:47,679 --> 00:09:49,229
+ that lies below our
+
+345
+00:09:49,239 --> 00:09:50,299
+ function F.
+
+346
+00:09:51,440 --> 00:09:52,940
+ This means now that we can
+
+347
+00:09:52,950 --> 00:09:53,909
+ go to the supremum
+
+348
+00:09:54,219 --> 00:09:56,049
+ over all the step
+
+349
+00:09:56,059 --> 00:09:56,880
+ functions.
+
+350
+00:09:57,020 --> 00:09:58,229
+ And then we get on the right
+
+351
+00:09:58,239 --> 00:09:59,940
+ hand side, the integral of
+
+352
+00:09:59,950 --> 00:10:01,710
+ F and there you have
+
+353
+00:10:01,719 --> 00:10:01,960
+ it.
+
+354
+00:10:01,969 --> 00:10:03,630
+ This is the second part of
+
+355
+00:10:03,640 --> 00:10:05,260
+ our equality star.
+
+356
+00:10:05,710 --> 00:10:07,070
+ Both things together
+
+357
+00:10:07,210 --> 00:10:08,960
+ gives us the proof of the
+
+358
+00:10:08,969 --> 00:10:10,789
+ monotone convergence theorem.
+
+359
+00:10:11,940 --> 00:10:12,330
+ OK.
+
+360
+00:10:12,340 --> 00:10:13,719
+ For the end of the video,
+
+361
+00:10:13,849 --> 00:10:15,450
+ I want to show you an
+
+362
+00:10:15,460 --> 00:10:17,090
+ application of this very
+
+363
+00:10:17,099 --> 00:10:18,869
+ important monotone convergence
+
+364
+00:10:18,880 --> 00:10:19,320
+ theorem.
+
+365
+00:10:20,510 --> 00:10:22,409
+ One can always use this
+
+366
+00:10:22,419 --> 00:10:24,409
+ for series if
+
+367
+00:10:24,419 --> 00:10:26,309
+ you have any sequence of
+
+368
+00:10:26,320 --> 00:10:27,960
+ functions, then I use now the
+
+369
+00:10:27,979 --> 00:10:29,799
+ letter G that are
+
+370
+00:10:29,809 --> 00:10:31,479
+ non-negative and also
+
+371
+00:10:31,489 --> 00:10:32,369
+ measurable.
+
+372
+00:10:33,440 --> 00:10:35,119
+ Then you can apply the
+
+373
+00:10:35,130 --> 00:10:36,900
+ monotone convergence theorem.
+
+374
+00:10:37,530 --> 00:10:39,219
+ So here I use also to assume
+
+375
+00:10:39,229 --> 00:10:41,030
+ the infinity for the functions
+
+376
+00:10:41,289 --> 00:10:43,179
+ and measurable.
+
+377
+00:10:44,030 --> 00:10:45,659
+ So we don't need a monotonic
+
+378
+00:10:45,669 --> 00:10:46,580
+ behavior here.
+
+379
+00:10:47,890 --> 00:10:49,770
+ Then we can say that the
+
+380
+00:10:49,780 --> 00:10:50,710
+ series
+
+381
+00:10:51,320 --> 00:10:53,239
+ which now goes from one
+
+382
+00:10:53,250 --> 00:10:54,140
+ to infinity.
+
+383
+00:10:54,820 --> 00:10:56,309
+ This is also a well defined
+
+384
+00:10:56,320 --> 00:10:58,010
+ function and also measurable.
+
+385
+00:10:59,099 --> 00:11:00,659
+ The trick is now of course,
+
+386
+00:11:00,669 --> 00:11:02,239
+ that the partial sums
+
+387
+00:11:02,250 --> 00:11:03,700
+ form a monotonically
+
+388
+00:11:03,710 --> 00:11:05,179
+ increasing sequence of
+
+389
+00:11:05,190 --> 00:11:05,840
+ functions.
+
+390
+00:11:07,119 --> 00:11:08,840
+ Therefore, we can write down
+
+391
+00:11:08,849 --> 00:11:10,539
+ the integral of the
+
+392
+00:11:10,549 --> 00:11:11,419
+ series.
+
+393
+00:11:11,510 --> 00:11:13,179
+ So it goes to infinity.
+
+394
+00:11:13,559 --> 00:11:15,539
+ g n de mu
+
+395
+00:11:16,320 --> 00:11:18,179
+ is equal, putting
+
+396
+00:11:18,190 --> 00:11:20,080
+ the series outside the
+
+397
+00:11:20,090 --> 00:11:20,599
+ integrals
+
+398
+00:11:21,349 --> 00:11:23,340
+ So here's the series of
+
+399
+00:11:23,349 --> 00:11:24,429
+ the integrals
+
+400
+00:11:24,710 --> 00:11:25,869
+ So gn 
+
+401
+00:11:26,059 --> 00:11:26,770
+ d mu
+
+402
+00:11:27,780 --> 00:11:29,729
+ this means that the monotone
+
+403
+00:11:29,739 --> 00:11:31,690
+ convergence theorem allows
+
+404
+00:11:31,700 --> 00:11:33,130
+ us to switch
+
+405
+00:11:33,140 --> 00:11:34,599
+ integral and series.
+
+406
+00:11:35,479 --> 00:11:36,520
+ The only thing we have to
+
+407
+00:11:36,530 --> 00:11:38,299
+ put in is that we have
+
+408
+00:11:38,309 --> 00:11:40,039
+ non-negative measurable
+
+409
+00:11:40,049 --> 00:11:41,880
+ functions and we
+
+410
+00:11:41,890 --> 00:11:43,469
+ need no other assumptions
+
+411
+00:11:43,479 --> 00:11:43,960
+ at all.
+
+412
+00:11:44,789 --> 00:11:46,049
+ And there you see the power
+
+413
+00:11:46,059 --> 00:11:47,710
+ of this theorem, it gives
+
+414
+00:11:47,719 --> 00:11:49,179
+ you immediately such a nice
+
+415
+00:11:49,190 --> 00:11:50,250
+ property as this
+
+416
+00:11:51,450 --> 00:11:52,309
+ very well.
+
+417
+00:11:52,500 --> 00:11:53,919
+ That's all I wanted to tell
+
+418
+00:11:53,929 --> 00:11:55,830
+ you about the monotone convergence
+
+419
+00:11:55,840 --> 00:11:56,369
+ theorem.
+
+420
+00:11:56,429 --> 00:11:58,150
+ And I hope you learned
+
+421
+00:11:58,159 --> 00:11:59,460
+ how one can prove it.
+
+422
+00:11:59,549 --> 00:12:01,179
+ And more importantly, you
+
+423
+00:12:01,190 --> 00:12:02,969
+ now learned when you can
+
+424
+00:12:02,979 --> 00:12:04,700
+ apply it, you
+
+425
+00:12:04,710 --> 00:12:06,169
+ need a monotonically
+
+426
+00:12:06,179 --> 00:12:07,559
+ increasing sequence of
+
+427
+00:12:07,570 --> 00:12:09,109
+ functions that are non-
+
+428
+00:12:09,119 --> 00:12:09,900
+ negative.
+
+429
+00:12:10,679 --> 00:12:12,150
+ Later, we will see how we
+
+430
+00:12:12,159 --> 00:12:13,909
+ can weaken a little bit this
+
+431
+00:12:13,919 --> 00:12:14,590
+ assumption.
+
+432
+00:12:15,659 --> 00:12:17,369
+ However, for the moment this
+
+433
+00:12:17,380 --> 00:12:18,969
+ version here is powerful
+
+434
+00:12:18,979 --> 00:12:19,409
+ enough.
+
+435
+00:12:21,299 --> 00:12:22,869
+ In the following next videos
+
+436
+00:12:22,880 --> 00:12:24,489
+ we will talk about other
+
+437
+00:12:24,500 --> 00:12:26,059
+ convergence theorem that are
+
+438
+00:12:26,070 --> 00:12:27,349
+ also very important.
+
+439
+00:12:28,390 --> 00:12:29,890
+ I hope I see you there and
+
+440
+00:12:29,900 --> 00:12:31,500
+ of course, I wish you a nice
+
+441
+00:12:31,510 --> 00:12:31,929
+ day.
+
+442
+00:12:32,229 --> 00:12:32,849
+ Bye.
+
