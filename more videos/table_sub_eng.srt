@@ -1,0 +1,72 @@
+1
+00:00:00,300 --> 00:00:01,920
+Hello and welcome.
+
+2
+00:00:02,120 --> 00:00:05,639
+This is a quick video about a table you really should remember.
+
+3
+00:00:06,257 --> 00:00:17,282
+In the first row I give you an angle and we start with 0°, go to 30°, then to 45°, 60° and 90°.
+
+4
+00:00:17,482 --> 00:00:28,617
+Of course we can also do this in radians. So we have 0, pi/6, pi/4, pi/3 and pi/2.
+
+5
+00:00:29,171 --> 00:00:33,869
+Now, let's take the function sine and calculate the values of these angles.
+
+6
+00:00:34,069 --> 00:00:40,146
+The sin(0) is 0, but let's write it as 1/2 times sqrt(0).
+
+7
+00:00:40,346 --> 00:00:44,510
+The next value then reads 1/2 times the root of 1
+
+8
+00:00:44,710 --> 00:00:48,645
+and then we can continue to 1/2 * sqrt(2),
+
+9
+00:00:49,343 --> 00:00:53,976
+1/2 * sqrt(3) and 1/2 * sqrt(4).
+
+10
+00:00:54,176 --> 00:00:59,892
+Of course we could simplify these values here and obviously in calculations we should really do this,
+
+11
+00:01:00,092 --> 00:01:03,749
+but here it's much easier to remember the table in this way.
+
+12
+00:01:03,949 --> 00:01:08,971
+Now then the next nice thing is, it works for the cosine as well. Just the other way around.
+
+13
+00:01:09,114 --> 00:01:15,790
+We have 1/2*sqrt(4) for 0 and for pi/6 we have 1/2*sqrt(3),
+
+14
+00:01:15,990 --> 00:01:19,705
+then 1/2*sqrt(2). The same as for the sine
+
+15
+00:01:19,905 --> 00:01:27,161
+and 1/2*sqrt(1) for 60° and 1/2*sqrt(0) for 90°
+
+16
+00:01:27,361 --> 00:01:32,102
+and there we have it. This is the table you should remember and never forget.
+
+17
+00:01:32,302 --> 00:01:39,265
+Essentially you just have to remember these 5 angles here, because then you can fill out this whole table in your mind.
+
+18
+00:01:39,465 --> 00:01:43,314
+I hope this helps and see you next time. Bye!
+
