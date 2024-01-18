@@ -1,0 +1,2744 @@
+1
+00:00:00,860 --> 00:00:02,789
+ Hello and welcome back.
+
+2
+00:00:03,200 --> 00:00:04,920
+ And I want to thank all the
+
+3
+00:00:04,929 --> 00:00:06,480
+ nice people that support
+
+4
+00:00:06,489 --> 00:00:08,159
+ this channel on Steady
+
+5
+00:00:09,180 --> 00:00:10,220
+ here we continue
+
+6
+00:00:10,229 --> 00:00:11,869
+ now our measure theory
+
+7
+00:00:11,880 --> 00:00:13,720
+ series and today
+
+8
+00:00:13,729 --> 00:00:15,600
+ we do part seven.
+
+9
+00:00:16,530 --> 00:00:17,889
+ The most important topic
+
+10
+00:00:17,899 --> 00:00:19,409
+ for today will be the
+
+11
+00:00:19,420 --> 00:00:20,930
+ monotone convergence
+
+12
+00:00:20,940 --> 00:00:21,469
+ theorem.
+
+13
+00:00:22,399 --> 00:00:24,319
+ Before explaining this very
+
+14
+00:00:24,329 --> 00:00:26,170
+ important convergence theorem,
+
+15
+00:00:26,379 --> 00:00:27,860
+ I first want to start
+
+16
+00:00:27,870 --> 00:00:29,670
+ showing you some essential
+
+17
+00:00:29,680 --> 00:00:30,870
+ properties of the Lebesgue
+
+18
+00:00:31,100 --> 00:00:31,719
+ integral.
+
+19
+00:00:32,529 --> 00:00:34,450
+ Recall, we have introduced
+
+20
+00:00:34,459 --> 00:00:36,349
+ the Lebesgue integral for
+
+21
+00:00:36,360 --> 00:00:36,700
+ non-negative
+
+22
+00:00:37,349 --> 00:00:38,669
+ measurable
+
+23
+00:00:38,680 --> 00:00:40,669
+ functions defined on
+
+24
+00:00:40,680 --> 00:00:42,610
+ some measure space X.
+
+25
+00:00:43,220 --> 00:00:44,389
+ For such functions
+
+26
+00:00:44,400 --> 00:00:45,880
+ We now know that the Lebesgue
+
+27
+00:00:45,990 --> 00:00:47,909
+ integral is well-defined.
+
+28
+00:00:48,580 --> 00:00:49,669
+ And the notation we have
+
+29
+00:00:49,680 --> 00:00:51,439
+ chosen is this integral
+
+30
+00:00:51,450 --> 00:00:52,990
+ symbol where we put the measure
+
+31
+00:00:53,000 --> 00:00:54,310
+ space X here.
+
+32
+00:00:54,319 --> 00:00:56,150
+ The function F here and the
+
+33
+00:00:56,159 --> 00:00:58,080
+ measure itself goes in with
+
+34
+00:00:58,090 --> 00:00:59,959
+ the mu where mu is the
+
+35
+00:00:59,970 --> 00:01:01,680
+ measure defined on X.
+
+36
+00:01:02,970 --> 00:01:04,540
+ The integral is well-defined
+
+37
+00:01:04,550 --> 00:01:06,510
+ Now means that this
+
+38
+00:01:06,519 --> 00:01:08,459
+ symbol is a number
+
+39
+00:01:08,519 --> 00:01:09,839
+ between zero and
+
+40
+00:01:09,849 --> 00:01:10,809
+ infinity.
+
+41
+00:01:10,910 --> 00:01:12,239
+ And in the worst case, it
+
+42
+00:01:12,250 --> 00:01:14,150
+ could be the symbol infinity.
+
+43
+00:01:15,330 --> 00:01:16,750
+ Also recall
+
+44
+00:01:17,010 --> 00:01:18,949
+ this symbol was defined
+
+45
+00:01:18,959 --> 00:01:20,940
+ by a supremum over all
+
+46
+00:01:20,949 --> 00:01:22,699
+ step functions that lie point-
+
+47
+00:01:22,709 --> 00:01:24,379
+ wisely below F
+
+48
+00:01:25,489 --> 00:01:26,150
+ OK.
+
+49
+00:01:26,160 --> 00:01:27,970
+ Now I want to collect some
+
+50
+00:01:27,980 --> 00:01:29,540
+ properties that follow
+
+51
+00:01:29,550 --> 00:01:31,430
+ immediately from this definition.
+
+52
+00:01:32,230 --> 00:01:34,110
+ So let's choose two of
+
+53
+00:01:34,120 --> 00:01:35,790
+ these nice functions,
+
+54
+00:01:35,800 --> 00:01:37,500
+ which means they are non-
+
+55
+00:01:37,510 --> 00:01:39,309
+ negative and also
+
+56
+00:01:39,319 --> 00:01:40,309
+ measurable.
+
+57
+00:01:41,190 --> 00:01:42,930
+ Now we have the following.
+
+58
+00:01:42,940 --> 00:01:44,849
+ The first thing would be
+
+59
+00:01:44,860 --> 00:01:46,290
+ if both functions
+
+60
+00:01:46,300 --> 00:01:47,389
+ coincide,
+
+61
+00:01:48,190 --> 00:01:49,650
+ then also the
+
+62
+00:01:49,660 --> 00:01:51,290
+ integrals coincide.
+
+63
+00:01:52,360 --> 00:01:53,989
+ However, of course, this
+
+64
+00:01:54,000 --> 00:01:55,470
+ is trivially fulfilled.
+
+65
+00:01:56,400 --> 00:01:58,019
+ Therefore, I want to weaken
+
+66
+00:01:58,029 --> 00:01:59,129
+ the left hand side a little
+
+67
+00:01:59,139 --> 00:02:01,040
+ bit here, I want
+
+68
+00:02:01,050 --> 00:02:02,639
+ the functions to be equal
+
+69
+00:02:02,650 --> 00:02:03,849
+ mu-almost
+
+70
+00:02:03,860 --> 00:02:04,699
+ everywhere.
+
+71
+00:02:05,610 --> 00:02:07,169
+ The abbreviation one chooses
+
+72
+00:02:07,180 --> 00:02:08,949
+ here is always A
+
+73
+00:02:09,589 --> 00:02:10,029
+ E.
+
+74
+00:02:11,089 --> 00:02:13,009
+ So mu A E means
+
+75
+00:02:13,020 --> 00:02:14,910
+ mu-almost everywhere.
+
+76
+00:02:15,940 --> 00:02:17,350
+ This means now that the
+
+77
+00:02:17,360 --> 00:02:19,320
+ functions don't have to be
+
+78
+00:02:19,330 --> 00:02:21,199
+ equal, but they should be
+
+79
+00:02:21,210 --> 00:02:23,119
+ equal almost everywhere
+
+80
+00:02:23,130 --> 00:02:24,839
+ with respect to the measure
+
+81
+00:02:24,850 --> 00:02:26,839
+ mu. more
+
+82
+00:02:26,850 --> 00:02:27,679
+ concretely
+
+83
+00:02:27,690 --> 00:02:29,259
+ This whole property here
+
+84
+00:02:29,270 --> 00:02:30,559
+ means that you
+
+85
+00:02:30,570 --> 00:02:32,160
+ look at the set
+
+86
+00:02:32,169 --> 00:02:33,399
+ of all
+
+87
+00:02:33,410 --> 00:02:35,210
+ lowercase X in
+
+88
+00:02:35,220 --> 00:02:37,139
+ our X for
+
+89
+00:02:37,149 --> 00:02:38,830
+ which this property
+
+90
+00:02:38,839 --> 00:02:40,119
+ does not hold.
+
+91
+00:02:40,130 --> 00:02:41,770
+ So you have F of
+
+92
+00:02:41,779 --> 00:02:43,679
+ X unequal to
+
+93
+00:02:43,690 --> 00:02:44,919
+ G of X,
+
+94
+00:02:45,600 --> 00:02:47,220
+ then this whole set
+
+95
+00:02:47,229 --> 00:02:48,919
+ should be of measure
+
+96
+00:02:48,929 --> 00:02:50,619
+ zero with respect to our
+
+97
+00:02:50,630 --> 00:02:51,460
+ measure mu.
+
+98
+00:02:52,490 --> 00:02:53,770
+ In other words, if you put
+
+99
+00:02:53,779 --> 00:02:55,369
+ the whole set into the measure,
+
+100
+00:02:55,699 --> 00:02:57,210
+ you get out zero.
+
+101
+00:02:58,809 --> 00:03:00,210
+ This means that the Lebesgue
+
+102
+00:03:00,220 --> 00:03:01,800
+ integral cannot see
+
+103
+00:03:01,809 --> 00:03:03,559
+ things that happen on
+
+104
+00:03:03,570 --> 00:03:04,869
+ zero measure sets.
+
+105
+00:03:05,960 --> 00:03:07,509
+ Maybe for visualization,
+
+106
+00:03:07,520 --> 00:03:09,110
+ it's good to recall what
+
+107
+00:03:09,119 --> 00:03:11,020
+ we had for the Riemann integral.
+
+108
+00:03:12,339 --> 00:03:13,710
+ If you integrate a
+
+109
+00:03:13,720 --> 00:03:15,509
+ continuous function with
+
+110
+00:03:15,520 --> 00:03:17,339
+ our classical Riemann integral,
+
+111
+00:03:18,240 --> 00:03:19,460
+ you get out the
+
+112
+00:03:19,470 --> 00:03:21,139
+ area between
+
+113
+00:03:21,279 --> 00:03:23,130
+ the graph function and the
+
+114
+00:03:23,139 --> 00:03:23,839
+ X axis.
+
+115
+00:03:24,529 --> 00:03:26,100
+ And now if you change the
+
+116
+00:03:26,110 --> 00:03:27,789
+ function at one point,
+
+117
+00:03:27,979 --> 00:03:29,970
+ so the result is a non-
+
+118
+00:03:29,979 --> 00:03:31,710
+ continuous function now
+
+119
+00:03:32,490 --> 00:03:34,139
+ and then of course, you don't
+
+120
+00:03:34,149 --> 00:03:36,029
+ change the area here at
+
+121
+00:03:36,039 --> 00:03:37,729
+ all, which then
+
+122
+00:03:37,740 --> 00:03:39,669
+ means the integral is
+
+123
+00:03:39,679 --> 00:03:41,410
+ the same for
+
+124
+00:03:41,419 --> 00:03:42,240
+ Lebesgue integral.
+
+125
+00:03:42,250 --> 00:03:43,649
+ Now, this works in an
+
+126
+00:03:43,660 --> 00:03:44,889
+ abstract sense
+
+127
+00:03:45,899 --> 00:03:47,009
+ which means that you can
+
+128
+00:03:47,020 --> 00:03:48,720
+ change the function as much
+
+129
+00:03:48,729 --> 00:03:49,559
+ as you want.
+
+130
+00:03:49,570 --> 00:03:51,460
+ As long as the set
+
+131
+00:03:51,639 --> 00:03:53,339
+ of all these changes
+
+132
+00:03:53,350 --> 00:03:54,679
+ has measure zero.
+
+133
+00:03:55,679 --> 00:03:57,039
+ I will talk about this later
+
+134
+00:03:57,050 --> 00:03:57,899
+ in another video.
+
+135
+00:03:57,919 --> 00:03:59,380
+ When I show you a lot of
+
+136
+00:03:59,389 --> 00:04:01,190
+ examples. Here, I
+
+137
+00:04:01,199 --> 00:04:02,500
+ want to continue with the
+
+138
+00:04:02,509 --> 00:04:04,389
+ second property which is
+
+139
+00:04:04,399 --> 00:04:05,539
+ the monotonicity.
+
+140
+00:04:06,080 --> 00:04:07,699
+ It is descriptively given
+
+141
+00:04:07,710 --> 00:04:09,699
+ by saying that if a function
+
+142
+00:04:09,710 --> 00:04:11,449
+ is bigger than another one,
+
+143
+00:04:11,460 --> 00:04:13,419
+ then also the area here
+
+144
+00:04:13,429 --> 00:04:14,320
+ should be bigger.
+
+145
+00:04:15,179 --> 00:04:17,010
+ However, as before we
+
+146
+00:04:17,019 --> 00:04:18,450
+ need the less of equal sign
+
+147
+00:04:18,459 --> 00:04:19,790
+ only almost
+
+148
+00:04:19,798 --> 00:04:20,488
+ everywhere.
+
+149
+00:04:21,450 --> 00:04:22,890
+ And then we can conclude
+
+150
+00:04:22,899 --> 00:04:24,049
+ that the integral of
+
+151
+00:04:24,059 --> 00:04:25,700
+ F is less or
+
+152
+00:04:25,709 --> 00:04:27,700
+ equal than the integral of
+
+153
+00:04:27,709 --> 00:04:28,130
+ G.
+
+154
+00:04:29,970 --> 00:04:31,790
+ And now to the last property
+
+155
+00:04:31,799 --> 00:04:33,600
+ which is related to the first
+
+156
+00:04:33,609 --> 00:04:35,350
+ one, I want my function
+
+157
+00:04:35,359 --> 00:04:36,950
+ F to be zero
+
+158
+00:04:37,119 --> 00:04:38,790
+ and also mu-
+
+159
+00:04:38,799 --> 00:04:40,230
+ almost everywhere.
+
+160
+00:04:41,070 --> 00:04:42,989
+ Now, by using a, I know
+
+161
+00:04:43,000 --> 00:04:44,859
+ that the integral of F
+
+162
+00:04:44,869 --> 00:04:46,500
+ is therefore also
+
+163
+00:04:46,510 --> 00:04:48,429
+ zero because the integral
+
+164
+00:04:48,440 --> 00:04:49,890
+ of the zero function is zero.
+
+165
+00:04:50,760 --> 00:04:52,649
+ However, here I want to emphasize
+
+166
+00:04:52,660 --> 00:04:53,829
+ another direction.
+
+167
+00:04:54,640 --> 00:04:56,100
+ If the function has an integral
+
+168
+00:04:56,109 --> 00:04:57,750
+ of zero, then we
+
+169
+00:04:57,760 --> 00:04:59,459
+ already know that the function
+
+170
+00:04:59,470 --> 00:05:01,109
+ has to be zero mu-
+
+171
+00:05:01,119 --> 00:05:02,179
+ almost everywhere.
+
+172
+00:05:02,959 --> 00:05:04,260
+ Please don't forget that
+
+173
+00:05:04,269 --> 00:05:05,760
+ we only consider non-negative
+
+174
+00:05:06,130 --> 00:05:06,980
+ functions here.
+
+175
+00:05:07,769 --> 00:05:09,480
+ So all the areas we consider
+
+176
+00:05:09,489 --> 00:05:11,320
+ are above the X axis and
+
+177
+00:05:11,329 --> 00:05:12,230
+ therefore positive.
+
+178
+00:05:13,250 --> 00:05:15,019
+ Therefore, there is no cancellation
+
+179
+00:05:15,029 --> 00:05:16,700
+ whatsoever with positive
+
+180
+00:05:16,709 --> 00:05:17,429
+ and negative
+
+181
+00:05:17,440 --> 00:05:18,230
+ Areas here.
+
+182
+00:05:19,519 --> 00:05:21,230
+ Well, now I could say
+
+183
+00:05:21,239 --> 00:05:22,500
+ all the three properties
+
+184
+00:05:22,510 --> 00:05:23,829
+ are easy to prove.
+
+185
+00:05:23,839 --> 00:05:24,950
+ So you could do this for
+
+186
+00:05:24,959 --> 00:05:25,660
+ yourself.
+
+187
+00:05:26,130 --> 00:05:27,739
+ However, I also want you
+
+188
+00:05:27,750 --> 00:05:29,230
+ to learn some
+
+189
+00:05:29,239 --> 00:05:30,549
+ technical steps here.
+
+190
+00:05:30,559 --> 00:05:32,429
+ And therefore I will do the
+
+191
+00:05:32,440 --> 00:05:33,829
+ proof of B
+
+192
+00:05:34,790 --> 00:05:36,279
+ after seeing this proof,
+
+193
+00:05:36,290 --> 00:05:37,730
+ I think you will be
+
+194
+00:05:37,739 --> 00:05:39,369
+ capable of doing the proof
+
+195
+00:05:39,380 --> 00:05:41,170
+ A and C for yourself.
+
+196
+00:05:42,350 --> 00:05:44,190
+ If not, please ask in the
+
+197
+00:05:44,200 --> 00:05:46,040
+ comments for
+
+198
+00:05:46,049 --> 00:05:47,220
+ starting the proof.
+
+199
+00:05:47,230 --> 00:05:48,369
+ Let us choose a
+
+200
+00:05:48,380 --> 00:05:50,200
+ simple function h.
+
+201
+00:05:51,290 --> 00:05:53,130
+ This means that we have a
+
+202
+00:05:53,140 --> 00:05:54,549
+ representation with
+
+203
+00:05:54,559 --> 00:05:55,980
+ characteristic functions.
+
+204
+00:05:56,970 --> 00:05:58,489
+ So we know we can write it
+
+205
+00:05:58,579 --> 00:05:59,910
+ as a finite
+
+206
+00:05:59,920 --> 00:06:00,690
+ sum.
+
+207
+00:06:00,700 --> 00:06:02,510
+ Maybe we end with N
+
+208
+00:06:03,049 --> 00:06:04,500
+ and we have constant C
+
+209
+00:06:04,510 --> 00:06:06,309
+ I and also sets
+
+210
+00:06:06,320 --> 00:06:06,959
+ A I.
+
+211
+00:06:06,970 --> 00:06:08,750
+ When we put that into
+
+212
+00:06:08,760 --> 00:06:10,179
+ characteristic functions,
+
+213
+00:06:12,130 --> 00:06:13,579
+ the corresponding sets here
+
+214
+00:06:13,589 --> 00:06:15,029
+ should be measurable.
+
+215
+00:06:15,040 --> 00:06:16,450
+ And therefore, the simple
+
+216
+00:06:16,459 --> 00:06:17,690
+ function is always
+
+217
+00:06:17,700 --> 00:06:18,579
+ measurable.
+
+218
+00:06:19,410 --> 00:06:20,920
+ And the other property of
+
+219
+00:06:20,929 --> 00:06:22,470
+ a simple function is that
+
+220
+00:06:22,480 --> 00:06:23,750
+ it only has
+
+221
+00:06:23,760 --> 00:06:25,130
+ finitely many
+
+222
+00:06:25,140 --> 00:06:26,019
+ values.
+
+223
+00:06:26,929 --> 00:06:28,339
+ Therefore, there's
+
+224
+00:06:28,350 --> 00:06:30,209
+ always a canonical way to
+
+225
+00:06:30,220 --> 00:06:32,100
+ write down a representation
+
+226
+00:06:32,109 --> 00:06:33,589
+ for a simple function.
+
+227
+00:06:34,010 --> 00:06:35,769
+ You're forming the sum over
+
+228
+00:06:35,779 --> 00:06:36,959
+ all the values.
+
+229
+00:06:36,970 --> 00:06:38,309
+ So you have T
+
+230
+00:06:38,320 --> 00:06:40,130
+ in and now comes
+
+231
+00:06:40,140 --> 00:06:42,040
+ the image of the simple function.
+
+232
+00:06:42,049 --> 00:06:43,899
+ And I write that as h
+
+233
+00:06:43,910 --> 00:06:45,230
+ of X,
+
+234
+00:06:46,269 --> 00:06:47,890
+ then instead of C, we just
+
+235
+00:06:47,899 --> 00:06:49,790
+ have this T and
+
+236
+00:06:49,799 --> 00:06:51,769
+ then comes the characteristic
+
+237
+00:06:51,779 --> 00:06:53,269
+ function of a
+
+238
+00:06:53,279 --> 00:06:54,570
+ set I will now
+
+239
+00:06:54,579 --> 00:06:55,279
+ describe
+
+240
+00:06:56,390 --> 00:06:58,089
+ there we have all the X
+
+241
+00:06:58,100 --> 00:06:59,529
+ points that
+
+242
+00:06:59,540 --> 00:07:00,989
+ fulfill that.
+
+243
+00:07:01,000 --> 00:07:02,570
+ If I put in this
+
+244
+00:07:02,579 --> 00:07:04,380
+ point in my function, I
+
+245
+00:07:04,390 --> 00:07:06,209
+ get out this special
+
+246
+00:07:06,220 --> 00:07:06,690
+ T.
+
+247
+00:07:08,890 --> 00:07:10,019
+ Do you see this is a
+
+248
+00:07:10,029 --> 00:07:11,410
+ representation that is
+
+249
+00:07:11,420 --> 00:07:12,109
+ allowed.
+
+250
+00:07:12,750 --> 00:07:14,450
+ And often it is very helpful
+
+251
+00:07:14,459 --> 00:07:15,970
+ to choose this special one
+
+252
+00:07:16,200 --> 00:07:17,239
+ because you don't have to
+
+253
+00:07:17,250 --> 00:07:19,170
+ define N or the CIS or
+
+254
+00:07:19,179 --> 00:07:20,970
+ the A is you just write down
+
+255
+00:07:20,980 --> 00:07:21,519
+ this representation.
+
+256
+00:07:23,600 --> 00:07:25,579
+ And also the integral
+
+257
+00:07:25,589 --> 00:07:27,339
+ can then easily be written
+
+258
+00:07:27,350 --> 00:07:29,309
+ down as
+
+259
+00:07:29,320 --> 00:07:30,799
+ always, it is defined by
+
+260
+00:07:30,809 --> 00:07:31,720
+ our sum.
+
+261
+00:07:31,730 --> 00:07:33,630
+ And our summation goes
+
+262
+00:07:33,640 --> 00:07:35,429
+ over T in the
+
+263
+00:07:35,440 --> 00:07:36,739
+ image of H
+
+264
+00:07:37,579 --> 00:07:38,869
+ and then simply T
+
+265
+00:07:38,880 --> 00:07:40,829
+ times the measure of
+
+266
+00:07:40,839 --> 00:07:41,450
+ this set.
+
+267
+00:07:41,459 --> 00:07:42,119
+ So we have
+
+268
+00:07:42,130 --> 00:07:43,929
+ mu of the
+
+269
+00:07:43,940 --> 00:07:45,769
+ whole set where I write all
+
+270
+00:07:45,779 --> 00:07:47,119
+ the X that
+
+271
+00:07:47,130 --> 00:07:48,880
+ fulfill HX
+
+272
+00:07:48,920 --> 00:07:50,820
+ equals to this T.
+
+273
+00:07:52,089 --> 00:07:53,250
+ And to make it a little bit
+
+274
+00:07:53,260 --> 00:07:54,649
+ easier, you can
+
+275
+00:07:54,660 --> 00:07:56,309
+ always ignore the zero.
+
+276
+00:07:56,320 --> 00:07:57,799
+ So you omit the zero as an
+
+277
+00:07:57,809 --> 00:07:59,350
+ element in the image.
+
+278
+00:07:59,359 --> 00:08:00,589
+ And because you don't change
+
+279
+00:08:00,600 --> 00:08:02,100
+ anything for the integral
+
+280
+00:08:02,109 --> 00:08:03,519
+ here by multiplying with
+
+281
+00:08:03,529 --> 00:08:04,070
+ zero.
+
+282
+00:08:05,570 --> 00:08:07,029
+ The question for you is now
+
+283
+00:08:07,260 --> 00:08:08,910
+ what happens if we
+
+284
+00:08:08,920 --> 00:08:10,630
+ change the simple
+
+285
+00:08:10,640 --> 00:08:12,470
+ function on a
+
+286
+00:08:12,480 --> 00:08:14,220
+ set which has measure
+
+287
+00:08:14,230 --> 00:08:15,989
+ zero in
+
+288
+00:08:16,000 --> 00:08:17,309
+ order to investigate this,
+
+289
+00:08:17,320 --> 00:08:18,369
+ I need a little space here.
+
+290
+00:08:18,380 --> 00:08:20,309
+ So we push this one
+
+291
+00:08:20,320 --> 00:08:21,510
+ here to the bottom now.
+
+292
+00:08:22,540 --> 00:08:24,089
+ OK, maybe a quick sketch
+
+293
+00:08:24,100 --> 00:08:25,040
+ is helpful here.
+
+294
+00:08:25,170 --> 00:08:26,720
+ So this is the whole measure
+
+295
+00:08:26,730 --> 00:08:27,920
+ space X.
+
+296
+00:08:28,890 --> 00:08:30,350
+ And now let us split that
+
+297
+00:08:30,359 --> 00:08:31,670
+ up into two sets.
+
+298
+00:08:31,679 --> 00:08:33,669
+ So this one would be the
+
+299
+00:08:33,679 --> 00:08:35,390
+ big X tilde.
+
+300
+00:08:36,669 --> 00:08:38,609
+ And of course, the complement,
+
+301
+00:08:38,619 --> 00:08:40,249
+ the whole rest is just
+
+302
+00:08:40,258 --> 00:08:41,979
+ X tilde c.
+
+303
+00:08:41,989 --> 00:08:43,508
+ The compliment of X tilde,
+
+304
+00:08:44,280 --> 00:08:45,619
+ this means that our x is
+
+305
+00:08:45,630 --> 00:08:47,140
+ now divided into two
+
+306
+00:08:47,150 --> 00:08:47,820
+ sets.
+
+307
+00:08:49,320 --> 00:08:50,969
+ We want that
+
+308
+00:08:50,979 --> 00:08:52,820
+ the x tilde
+
+309
+00:08:52,830 --> 00:08:54,700
+ complement has
+
+310
+00:08:54,710 --> 00:08:55,820
+ measured zero.
+
+311
+00:08:58,349 --> 00:08:59,969
+ And with respect to this
+
+312
+00:08:59,979 --> 00:09:01,289
+ set, with measure zero, I
+
+313
+00:09:01,299 --> 00:09:02,770
+ want to change our simple
+
+314
+00:09:02,780 --> 00:09:03,210
+ function.
+
+315
+00:09:04,010 --> 00:09:05,179
+ And of course, I call it
+
+316
+00:09:05,229 --> 00:09:07,140
+ H tilde and define it
+
+317
+00:09:07,150 --> 00:09:08,419
+ by using two
+
+318
+00:09:08,429 --> 00:09:09,200
+ cases.
+
+319
+00:09:09,679 --> 00:09:10,940
+ The first case would be as
+
+320
+00:09:10,950 --> 00:09:11,530
+ before.
+
+321
+00:09:11,539 --> 00:09:13,469
+ So H tilda X
+
+322
+00:09:13,479 --> 00:09:15,250
+ is equal to HX for
+
+323
+00:09:15,260 --> 00:09:17,250
+ all X in
+
+324
+00:09:17,390 --> 00:09:18,340
+ X tilde.
+
+325
+00:09:19,239 --> 00:09:20,880
+ So nothing changes on the
+
+326
+00:09:20,890 --> 00:09:21,559
+ green set.
+
+327
+00:09:22,409 --> 00:09:23,929
+ But on the gray set, I will
+
+328
+00:09:23,940 --> 00:09:25,809
+ set it to a new value And
+
+329
+00:09:25,820 --> 00:09:27,190
+ I just choose an A.
+
+330
+00:09:27,320 --> 00:09:29,289
+ So this is for all X
+
+331
+00:09:29,299 --> 00:09:30,349
+ in X tilde
+
+332
+00:09:30,359 --> 00:09:32,190
+ compliment, and
+
+333
+00:09:32,200 --> 00:09:33,869
+ A is now just an arbitrary
+
+334
+00:09:33,880 --> 00:09:35,739
+ chosen positive number.
+
+335
+00:09:35,750 --> 00:09:37,429
+ So zero to infinity
+
+336
+00:09:39,000 --> 00:09:40,219
+ by definition, this is of
+
+337
+00:09:40,229 --> 00:09:41,770
+ course, again, a simple
+
+338
+00:09:41,780 --> 00:09:43,760
+ function because
+
+339
+00:09:43,770 --> 00:09:45,650
+ the set X tilde, I didn't
+
+340
+00:09:45,659 --> 00:09:46,090
+ say it.
+
+341
+00:09:46,099 --> 00:09:47,169
+ But of course, it should
+
+342
+00:09:47,179 --> 00:09:48,739
+ be in the Sigma algebra.
+
+343
+00:09:48,750 --> 00:09:50,419
+ So it should be measurable.
+
+344
+00:09:51,130 --> 00:09:52,789
+ And then we can write down
+
+345
+00:09:52,799 --> 00:09:54,570
+ again a representation
+
+346
+00:09:54,580 --> 00:09:56,169
+ for this step or simple
+
+347
+00:09:56,179 --> 00:09:56,630
+ function.
+
+348
+00:09:57,270 --> 00:09:58,739
+ I can use the representation
+
+349
+00:09:58,750 --> 00:09:59,530
+ from before.
+
+350
+00:09:59,539 --> 00:10:01,409
+ So now let's go over all
+
+351
+00:10:01,419 --> 00:10:02,929
+ the values of the
+
+352
+00:10:03,150 --> 00:10:04,849
+ original function h.
+
+353
+00:10:05,789 --> 00:10:07,090
+ And now I know it only
+
+354
+00:10:07,099 --> 00:10:08,940
+ occurs for X in
+
+355
+00:10:08,950 --> 00:10:09,539
+ X tilde.
+
+356
+00:10:09,549 --> 00:10:11,289
+ So I write down T
+
+357
+00:10:11,299 --> 00:10:12,729
+ times characteristic
+
+358
+00:10:12,739 --> 00:10:13,359
+ function.
+
+359
+00:10:13,510 --> 00:10:15,409
+ And now I put only the
+
+360
+00:10:15,419 --> 00:10:17,320
+ XS from X Tilde
+
+361
+00:10:17,570 --> 00:10:19,000
+ into this characteristic
+
+362
+00:10:19,010 --> 00:10:19,450
+ function.
+
+363
+00:10:20,080 --> 00:10:21,549
+ Not included in this sum
+
+364
+00:10:21,559 --> 00:10:22,979
+ is what happens outside of
+
+365
+00:10:22,989 --> 00:10:23,630
+ X tilde.
+
+366
+00:10:23,640 --> 00:10:25,380
+ And therefore we add
+
+367
+00:10:25,429 --> 00:10:26,820
+ this one as the value
+
+368
+00:10:26,830 --> 00:10:28,179
+ a times
+
+369
+00:10:28,239 --> 00:10:29,900
+ characteristic function.
+
+370
+00:10:29,960 --> 00:10:31,770
+ And now we have all the
+
+371
+00:10:31,780 --> 00:10:32,409
+ X
+
+372
+00:10:33,539 --> 00:10:35,070
+ in X where
+
+373
+00:10:35,080 --> 00:10:36,809
+ H tilda is equal to
+
+374
+00:10:36,820 --> 00:10:38,599
+ a but this is simply
+
+375
+00:10:38,609 --> 00:10:40,070
+ X tilde complement.
+
+376
+00:10:40,359 --> 00:10:42,049
+ So we can write in
+
+377
+00:10:42,059 --> 00:10:43,739
+ short just this
+
+378
+00:10:43,750 --> 00:10:45,270
+ X tilde compliment here.
+
+379
+00:10:46,390 --> 00:10:46,940
+ OK.
+
+380
+00:10:47,039 --> 00:10:48,570
+ I have explicitly written
+
+381
+00:10:48,580 --> 00:10:50,559
+ down the representation
+
+382
+00:10:50,609 --> 00:10:52,210
+ because then we can write
+
+383
+00:10:52,219 --> 00:10:54,010
+ down the integral as well.
+
+384
+00:10:54,210 --> 00:10:55,919
+ Now I of
+
+385
+00:10:55,929 --> 00:10:56,500
+ H tilde
+
+386
+00:10:58,429 --> 00:10:59,979
+ equal to the
+
+387
+00:10:59,989 --> 00:11:01,580
+ sum with T
+
+388
+00:11:01,630 --> 00:11:02,280
+ over
+
+389
+00:11:02,289 --> 00:11:03,940
+ HX
+
+390
+00:11:04,760 --> 00:11:06,450
+ and you will have t times
+
+391
+00:11:06,460 --> 00:11:08,150
+ the measure of this
+
+392
+00:11:08,159 --> 00:11:08,679
+ set
+
+393
+00:11:10,280 --> 00:11:12,250
+ plus a times
+
+394
+00:11:12,260 --> 00:11:13,890
+ the measure of this set,
+
+395
+00:11:15,140 --> 00:11:17,039
+ which is again, X tilde
+
+396
+00:11:17,049 --> 00:11:18,390
+ the compliment.
+
+397
+00:11:19,419 --> 00:11:21,359
+ However, you already know
+
+398
+00:11:21,380 --> 00:11:23,229
+ the measure of X tilde compliment
+
+399
+00:11:23,239 --> 00:11:23,799
+ is zero.
+
+400
+00:11:23,809 --> 00:11:25,270
+ So this whole thing here
+
+401
+00:11:25,280 --> 00:11:27,210
+ on the right, it's
+
+402
+00:11:27,219 --> 00:11:28,510
+ still zero.
+
+403
+00:11:29,469 --> 00:11:30,929
+ That simply means we can
+
+404
+00:11:30,940 --> 00:11:32,090
+ just omit it.
+
+405
+00:11:32,780 --> 00:11:34,179
+ And now you should see the
+
+406
+00:11:34,190 --> 00:11:36,140
+ differences above and below
+
+407
+00:11:36,320 --> 00:11:37,719
+ are not so big.
+
+408
+00:11:38,090 --> 00:11:39,419
+ The only real difference
+
+409
+00:11:39,429 --> 00:11:40,549
+ is to tilde the here
+
+410
+00:11:40,780 --> 00:11:42,340
+ because the zero does not
+
+411
+00:11:42,349 --> 00:11:43,280
+ make any difference.
+
+412
+00:11:43,289 --> 00:11:44,270
+ As I said before,
+
+413
+00:11:45,270 --> 00:11:46,929
+ our task is now to
+
+414
+00:11:46,940 --> 00:11:48,190
+ fill in the middle ground
+
+415
+00:11:48,200 --> 00:11:48,549
+ here.
+
+416
+00:11:49,909 --> 00:11:51,169
+ Now, it depends what you
+
+417
+00:11:51,179 --> 00:11:52,049
+ find easier.
+
+418
+00:11:52,059 --> 00:11:53,309
+ So maybe we come from the
+
+419
+00:11:53,320 --> 00:11:55,080
+ bottom and just use
+
+420
+00:11:55,789 --> 00:11:56,780
+ what we know there.
+
+421
+00:11:56,789 --> 00:11:57,530
+ So we have
+
+422
+00:11:58,429 --> 00:11:59,369
+ mu of
+
+423
+00:12:00,590 --> 00:12:02,380
+ the whole X
+
+424
+00:12:02,700 --> 00:12:03,580
+ and now we just split it
+
+425
+00:12:03,590 --> 00:12:04,919
+ up into X tilde
+
+426
+00:12:06,289 --> 00:12:08,000
+ where the condition is fulfilled
+
+427
+00:12:09,400 --> 00:12:10,359
+ union.
+
+428
+00:12:10,979 --> 00:12:12,820
+ And here we have
+
+429
+00:12:12,830 --> 00:12:14,409
+ just x tilde
+
+430
+00:12:14,419 --> 00:12:15,169
+ C.
+
+431
+00:12:18,250 --> 00:12:19,960
+ Now, obviously this is the
+
+432
+00:12:19,969 --> 00:12:21,409
+ same as the bottom part.
+
+433
+00:12:21,609 --> 00:12:23,169
+ And we know it's a disjoint
+
+434
+00:12:23,179 --> 00:12:25,119
+ union which means we
+
+435
+00:12:25,130 --> 00:12:27,030
+ can easily use the sigma
+
+436
+00:12:27,039 --> 00:12:27,919
+ additivity  here.
+
+437
+00:12:29,200 --> 00:12:31,099
+ Therefore, parentheses here
+
+438
+00:12:31,349 --> 00:12:32,539
+ and here I write
+
+439
+00:12:32,549 --> 00:12:33,950
+ plus or
+
+440
+00:12:33,960 --> 00:12:35,940
+ maybe first close
+
+441
+00:12:35,950 --> 00:12:37,760
+ parenthesis here as well.
+
+442
+00:12:38,659 --> 00:12:40,039
+ So this would be black
+
+443
+00:12:40,989 --> 00:12:42,960
+ then plus
+
+444
+00:12:43,140 --> 00:12:44,750
+ mu of
+
+445
+00:12:45,179 --> 00:12:46,090
+ this set.
+
+446
+00:12:47,570 --> 00:12:49,229
+ However, we already know
+
+447
+00:12:49,239 --> 00:12:51,150
+ that X tilde complement
+
+448
+00:12:51,219 --> 00:12:53,030
+ is a set with measure
+
+449
+00:12:53,039 --> 00:12:54,989
+ zero with or without this
+
+450
+00:12:55,000 --> 00:12:56,679
+ condition, it only gets
+
+451
+00:12:56,690 --> 00:12:58,070
+ smaller with the condition,
+
+452
+00:12:58,080 --> 00:12:59,989
+ which means this is still
+
+453
+00:13:00,000 --> 00:13:01,429
+ a set with measure
+
+454
+00:13:01,440 --> 00:13:02,030
+ zero.
+
+455
+00:13:03,460 --> 00:13:05,159
+ And now we have all the
+
+456
+00:13:05,169 --> 00:13:06,239
+ equalities here.
+
+457
+00:13:06,580 --> 00:13:08,059
+ We just add a zero here.
+
+458
+00:13:08,070 --> 00:13:09,179
+ So this is equal and this
+
+459
+00:13:09,190 --> 00:13:11,109
+ is equal, everything is equal,
+
+460
+00:13:11,119 --> 00:13:12,820
+ which means the integral
+
+461
+00:13:12,830 --> 00:13:14,710
+ of H tilde is equal to
+
+462
+00:13:14,719 --> 00:13:15,880
+ the integral of H.
+
+463
+00:13:16,369 --> 00:13:17,919
+ This means now that we can
+
+464
+00:13:17,929 --> 00:13:19,510
+ change the simple function
+
+465
+00:13:19,520 --> 00:13:21,219
+ on a set with measure
+
+466
+00:13:21,229 --> 00:13:22,919
+ zero as much as we want.
+
+467
+00:13:24,080 --> 00:13:25,780
+ Indeed, this is a very important
+
+468
+00:13:25,789 --> 00:13:26,469
+ result.
+
+469
+00:13:26,479 --> 00:13:27,900
+ And you can use that
+
+470
+00:13:28,090 --> 00:13:29,940
+ for proving some of these
+
+471
+00:13:29,950 --> 00:13:30,760
+ parts here.
+
+472
+00:13:30,789 --> 00:13:32,549
+ But we wanted to prove part
+
+473
+00:13:32,559 --> 00:13:33,010
+ B
+
+474
+00:13:34,950 --> 00:13:36,650
+ there, we have two measurable
+
+475
+00:13:36,659 --> 00:13:38,169
+ functions whether one
+
+476
+00:13:38,179 --> 00:13:39,820
+ is bigger than the other
+
+477
+00:13:39,830 --> 00:13:41,570
+ one almost everywhere.
+
+478
+00:13:42,400 --> 00:13:44,059
+ Therefore, now we know how
+
+479
+00:13:44,070 --> 00:13:45,690
+ to choose our x tilde.
+
+480
+00:13:48,510 --> 00:13:50,229
+ It simply should be the
+
+481
+00:13:50,239 --> 00:13:51,400
+ set of all x
+
+482
+00:13:53,599 --> 00:13:55,109
+ where F of
+
+483
+00:13:55,119 --> 00:13:56,700
+ X is less or
+
+484
+00:13:56,710 --> 00:13:58,469
+ equal than G of
+
+485
+00:13:58,479 --> 00:13:59,239
+ X.
+
+486
+00:14:00,340 --> 00:14:02,169
+ Then by assumption we
+
+487
+00:14:02,179 --> 00:14:04,020
+ also know that X tilde
+
+488
+00:14:04,059 --> 00:14:05,640
+ complement has
+
+489
+00:14:05,650 --> 00:14:06,859
+ measure zero.
+
+490
+00:14:07,359 --> 00:14:09,140
+ Well, then let's look at
+
+491
+00:14:09,150 --> 00:14:10,960
+ the integral of F
+
+492
+00:14:12,049 --> 00:14:13,419
+ by definition, it's the
+
+493
+00:14:13,429 --> 00:14:14,849
+ supremum of
+
+494
+00:14:14,859 --> 00:14:16,659
+ all integrals of step
+
+495
+00:14:16,669 --> 00:14:17,510
+ functions.
+
+496
+00:14:18,260 --> 00:14:20,200
+ And we denoted them by S
+
+497
+00:14:20,210 --> 00:14:22,159
+ plus where the
+
+498
+00:14:22,169 --> 00:14:23,500
+ step function or the simple
+
+499
+00:14:23,510 --> 00:14:25,219
+ function is less or
+
+500
+00:14:25,229 --> 00:14:26,909
+ equal than F.
+
+501
+00:14:28,380 --> 00:14:29,869
+ Now by the results from
+
+502
+00:14:29,880 --> 00:14:31,650
+ before we know that we
+
+503
+00:14:31,659 --> 00:14:33,340
+ don't change the integral
+
+504
+00:14:33,349 --> 00:14:35,000
+ value when we change the
+
+505
+00:14:35,010 --> 00:14:36,739
+ step function on a
+
+506
+00:14:36,750 --> 00:14:38,260
+ set with measure zero.
+
+507
+00:14:38,909 --> 00:14:40,179
+ Therefore, the supremum is
+
+508
+00:14:40,190 --> 00:14:41,719
+ still the same when I put
+
+509
+00:14:41,729 --> 00:14:43,299
+ in our step functions
+
+510
+00:14:43,549 --> 00:14:45,080
+ where I have H
+
+511
+00:14:45,119 --> 00:14:46,760
+ tilde less than
+
+512
+00:14:46,770 --> 00:14:48,159
+ F but
+
+513
+00:14:48,169 --> 00:14:49,929
+ only on
+
+514
+00:14:49,940 --> 00:14:50,880
+ X tilde.
+
+515
+00:14:53,169 --> 00:14:54,429
+ That is the whole point.
+
+516
+00:14:54,520 --> 00:14:56,289
+ If we change something outside
+
+517
+00:14:56,299 --> 00:14:57,989
+ of X tilde, we
+
+518
+00:14:58,000 --> 00:14:59,789
+ can't change I of
+
+519
+00:14:59,799 --> 00:15:00,690
+ H tilde.
+
+520
+00:15:00,849 --> 00:15:02,820
+ So the whole supremum is the
+
+521
+00:15:02,830 --> 00:15:04,059
+ same as the supremum here
+
+522
+00:15:04,070 --> 00:15:04,710
+ on the left.
+
+523
+00:15:05,830 --> 00:15:06,609
+ Very good.
+
+524
+00:15:06,619 --> 00:15:08,200
+ And now we can use what we
+
+525
+00:15:08,210 --> 00:15:09,859
+ know from F and
+
+526
+00:15:09,869 --> 00:15:11,549
+ G on
+
+527
+00:15:11,559 --> 00:15:13,500
+ X tilde G
+
+528
+00:15:13,510 --> 00:15:14,969
+ is always bigger than F.
+
+529
+00:15:14,979 --> 00:15:16,419
+ So we have here
+
+530
+00:15:16,429 --> 00:15:17,719
+ always this
+
+531
+00:15:17,729 --> 00:15:18,500
+ inequality.
+
+532
+00:15:19,359 --> 00:15:21,090
+ Hence, if we write down the
+
+533
+00:15:21,099 --> 00:15:22,549
+ same thing again,
+
+534
+00:15:23,070 --> 00:15:24,659
+ but now with G
+
+535
+00:15:24,669 --> 00:15:26,020
+ instead of F,
+
+536
+00:15:26,200 --> 00:15:27,989
+ then this set gets
+
+537
+00:15:28,000 --> 00:15:29,830
+ bigger than this set because
+
+538
+00:15:29,840 --> 00:15:31,640
+ there are more step functions
+
+539
+00:15:31,650 --> 00:15:33,640
+ maybe inside this set.
+
+540
+00:15:33,979 --> 00:15:35,200
+ Therefore, we have an
+
+541
+00:15:35,210 --> 00:15:37,010
+ inequality at
+
+542
+00:15:37,020 --> 00:15:37,869
+ this point.
+
+543
+00:15:40,039 --> 00:15:41,500
+ Now with the same reasoning
+
+544
+00:15:41,510 --> 00:15:43,309
+ as before the supremum
+
+545
+00:15:43,580 --> 00:15:45,059
+ is equal to the
+
+546
+00:15:45,070 --> 00:15:46,739
+ supremum where I
+
+547
+00:15:46,750 --> 00:15:48,739
+ ignore x tilde and
+
+548
+00:15:48,750 --> 00:15:50,049
+ use step functions
+
+549
+00:15:50,690 --> 00:15:52,289
+ on the whole set X.
+
+550
+00:15:53,530 --> 00:15:54,940
+ And this one is
+
+551
+00:15:54,950 --> 00:15:56,549
+ exactly the definition of
+
+552
+00:15:56,559 --> 00:15:58,440
+ the integral of
+
+553
+00:15:58,450 --> 00:15:59,859
+ our function G.
+
+554
+00:16:01,340 --> 00:16:02,539
+ And if we put everything
+
+555
+00:16:02,549 --> 00:16:04,380
+ together, so this one, the
+
+556
+00:16:04,390 --> 00:16:06,070
+ inequality and this
+
+557
+00:16:06,080 --> 00:16:08,000
+ one, we have proven our
+
+558
+00:16:08,010 --> 00:16:09,950
+ claim and this
+
+559
+00:16:09,960 --> 00:16:11,789
+ is the monotonicity property
+
+560
+00:16:11,799 --> 00:16:13,429
+ of the Lebesgue integral where
+
+561
+00:16:13,440 --> 00:16:14,960
+ we only need this
+
+562
+00:16:14,969 --> 00:16:16,109
+ inequality
+
+563
+00:16:16,489 --> 00:16:17,900
+ almost everywhere.
+
+564
+00:16:18,340 --> 00:16:18,760
+ OK.
+
+565
+00:16:18,770 --> 00:16:20,549
+ So this one was a long
+
+566
+00:16:20,559 --> 00:16:22,229
+ proof and I showed you all
+
+567
+00:16:22,239 --> 00:16:23,549
+ the technical details
+
+568
+00:16:24,210 --> 00:16:25,869
+ because we need them again.
+
+569
+00:16:26,090 --> 00:16:27,909
+ When we prove the monotone
+
+570
+00:16:27,919 --> 00:16:29,150
+ convergence theorem.
+
+571
+00:16:29,909 --> 00:16:31,349
+ However, maybe let's
+
+572
+00:16:31,359 --> 00:16:32,669
+ first state the
+
+573
+00:16:32,679 --> 00:16:34,299
+ monotone convergence
+
+574
+00:16:34,309 --> 00:16:34,770
+ theorem.
+
+575
+00:16:35,700 --> 00:16:37,559
+ Remember this was our
+
+576
+00:16:37,570 --> 00:16:39,369
+ goal from the beginning of
+
+577
+00:16:39,380 --> 00:16:40,000
+ the video.
+
+578
+00:16:42,590 --> 00:16:44,250
+ The first condition is that
+
+579
+00:16:44,260 --> 00:16:46,099
+ we have a measure space.
+
+580
+00:16:46,109 --> 00:16:47,820
+ So set X Sigma algebra
+
+581
+00:16:48,289 --> 00:16:49,460
+ and a measure mu.
+
+582
+00:16:50,140 --> 00:16:51,880
+ And we also have some
+
+583
+00:16:51,890 --> 00:16:52,409
+ nonne
+
+584
+00:16:53,000 --> 00:16:54,119
+ measurable
+
+585
+00:16:54,130 --> 00:16:55,000
+ functions
+
+586
+00:16:55,619 --> 00:16:57,299
+ FN and
+
+587
+00:16:57,309 --> 00:16:57,979
+ F
+
+588
+00:16:59,929 --> 00:17:01,840
+ from X to zero
+
+589
+00:17:01,929 --> 00:17:02,919
+ to infinity.
+
+590
+00:17:03,419 --> 00:17:04,680
+ And as I said, they are
+
+591
+00:17:04,689 --> 00:17:06,368
+ measurable for
+
+592
+00:17:06,380 --> 00:17:08,300
+ all N in
+
+593
+00:17:08,310 --> 00:17:08,719
+ N.
+
+594
+00:17:10,858 --> 00:17:12,160
+ And in addition, they
+
+595
+00:17:12,170 --> 00:17:13,650
+ satisfy two
+
+596
+00:17:13,660 --> 00:17:14,719
+ properties.
+
+597
+00:17:14,969 --> 00:17:16,170
+ First, they are
+
+598
+00:17:16,180 --> 00:17:17,420
+ monotonically
+
+599
+00:17:17,430 --> 00:17:18,348
+ increasing.
+
+600
+00:17:19,598 --> 00:17:21,388
+ So we have F one less or
+
+601
+00:17:21,398 --> 00:17:23,348
+ equal than F two, less or
+
+602
+00:17:23,358 --> 00:17:24,858
+ equal than F three
+
+603
+00:17:25,078 --> 00:17:26,188
+ and so on.
+
+604
+00:17:26,198 --> 00:17:27,338
+ And this holds
+
+605
+00:17:28,079 --> 00:17:29,430
+ almost everywhere.
+
+606
+00:17:29,439 --> 00:17:30,349
+ So mu
+
+607
+00:17:30,719 --> 00:17:32,349
+ almost everywhere.
+
+608
+00:17:32,770 --> 00:17:34,650
+ This always means that the
+
+609
+00:17:34,660 --> 00:17:36,560
+ points X where this condition
+
+610
+00:17:36,569 --> 00:17:38,150
+ is not satisfied
+
+611
+00:17:38,319 --> 00:17:40,069
+ form a set with
+
+612
+00:17:40,079 --> 00:17:41,189
+ measure zero.
+
+613
+00:17:42,140 --> 00:17:43,329
+ And the second condition
+
+614
+00:17:43,339 --> 00:17:45,109
+ is that the pointwise
+
+615
+00:17:45,119 --> 00:17:46,510
+ limit of the
+
+616
+00:17:46,520 --> 00:17:48,189
+ sequence of functions
+
+617
+00:17:49,239 --> 00:17:51,060
+ is equal to
+
+618
+00:17:51,069 --> 00:17:52,819
+ F of X
+
+619
+00:17:53,130 --> 00:17:54,900
+ also mu
+
+620
+00:17:55,000 --> 00:17:56,739
+ almost everywhere
+
+621
+00:17:57,239 --> 00:17:58,920
+ for X in X.
+
+622
+00:18:00,619 --> 00:18:00,910
+ OK.
+
+623
+00:18:00,920 --> 00:18:02,660
+ Here is now an X and we
+
+624
+00:18:02,670 --> 00:18:04,079
+ say it holds almost
+
+625
+00:18:04,089 --> 00:18:06,050
+ everywhere which just means
+
+626
+00:18:06,060 --> 00:18:07,709
+ OK, there is a set X tilde
+
+627
+00:18:07,719 --> 00:18:09,459
+ where this one holds and
+
+628
+00:18:09,469 --> 00:18:11,000
+ a compliment of X tilde
+
+629
+00:18:11,010 --> 00:18:12,510
+ has measured zero.
+
+630
+00:18:13,079 --> 00:18:14,099
+ And this one is just the
+
+631
+00:18:14,109 --> 00:18:16,040
+ common abbreviation of this.
+
+632
+00:18:16,359 --> 00:18:18,329
+ So we just say X and X mu-
+
+633
+00:18:18,339 --> 00:18:19,680
+ almost everywhere and then
+
+634
+00:18:19,689 --> 00:18:21,380
+ everyone knows what we mean.
+
+635
+00:18:22,390 --> 00:18:23,900
+ And now the monotone
+
+636
+00:18:23,910 --> 00:18:25,900
+ convergence theorem states
+
+637
+00:18:26,880 --> 00:18:28,359
+ that we can push the
+
+638
+00:18:28,369 --> 00:18:30,180
+ limit inside
+
+639
+00:18:30,339 --> 00:18:31,319
+ the integral.
+
+640
+00:18:31,819 --> 00:18:33,660
+ Hence the limit of
+
+641
+00:18:33,670 --> 00:18:34,939
+ the integrals
+
+642
+00:18:34,949 --> 00:18:36,469
+ f n d mu
+
+643
+00:18:37,449 --> 00:18:39,349
+ is equal to OK.
+
+644
+00:18:39,359 --> 00:18:41,040
+ Limit inside means
+
+645
+00:18:41,079 --> 00:18:42,449
+ integral over
+
+646
+00:18:42,459 --> 00:18:43,329
+ X.
+
+647
+00:18:43,349 --> 00:18:45,020
+ And the limit inside is
+
+648
+00:18:45,030 --> 00:18:46,989
+ just the function F
+
+649
+00:18:47,060 --> 00:18:48,359
+ mu-almost everywhere.
+
+650
+00:18:48,369 --> 00:18:49,550
+ So we can put
+
+651
+00:18:49,880 --> 00:18:51,209
+ f dmu here.
+
+652
+00:18:52,250 --> 00:18:53,540
+ And that is the convergence
+
+653
+00:18:53,550 --> 00:18:54,030
+ theorem.
+
+654
+00:18:54,040 --> 00:18:55,930
+ Now, you know, when you
+
+655
+00:18:55,939 --> 00:18:57,469
+ can push the limit
+
+656
+00:18:57,479 --> 00:18:59,219
+ inside the, the call, when
+
+657
+00:18:59,229 --> 00:19:01,189
+ you have a monotonic sequence
+
+658
+00:19:01,199 --> 00:19:01,910
+ of functions.
+
+659
+00:19:02,890 --> 00:19:04,489
+ Indeed, such convergence
+
+660
+00:19:04,500 --> 00:19:05,579
+ theorems are
+
+661
+00:19:05,589 --> 00:19:07,300
+ mostly the best
+
+662
+00:19:07,310 --> 00:19:08,989
+ advantages the
+
+663
+00:19:09,060 --> 00:19:10,430
+ Lebesgue integral has over
+
+664
+00:19:10,439 --> 00:19:11,510
+ the Riemann integral.
+
+665
+00:19:12,430 --> 00:19:14,199
+ And therefore, I really want
+
+666
+00:19:14,209 --> 00:19:15,869
+ to show you the proof of
+
+667
+00:19:15,880 --> 00:19:17,130
+ this monotone
+
+668
+00:19:17,140 --> 00:19:18,359
+ convergence theorem.
+
+669
+00:19:19,219 --> 00:19:20,959
+ However, this is a thing
+
+670
+00:19:20,969 --> 00:19:22,550
+ we will do in the next video
+
+671
+00:19:22,560 --> 00:19:24,300
+ because this video is
+
+672
+00:19:24,489 --> 00:19:26,239
+ already very long
+
+673
+00:19:26,969 --> 00:19:28,859
+ and it is good to do a short
+
+674
+00:19:28,869 --> 00:19:29,339
+ break.
+
+675
+00:19:30,349 --> 00:19:31,770
+ Maybe now recall
+
+676
+00:19:31,780 --> 00:19:33,630
+ everything we did here in
+
+677
+00:19:33,640 --> 00:19:34,390
+ this video.
+
+678
+00:19:34,619 --> 00:19:36,260
+ And then maybe you can
+
+679
+00:19:36,270 --> 00:19:37,930
+ come to the next video where
+
+680
+00:19:37,939 --> 00:19:39,329
+ we do the proof of the
+
+681
+00:19:39,339 --> 00:19:40,979
+ monotone convergence
+
+682
+00:19:40,989 --> 00:19:41,489
+ theorem.
+
+683
+00:19:42,209 --> 00:19:43,469
+ I really hope you will be
+
+684
+00:19:43,479 --> 00:19:43,849
+ there.
+
+685
+00:19:43,859 --> 00:19:45,739
+ So then see you next
+
+686
+00:19:45,750 --> 00:19:46,030
+ time.
+
