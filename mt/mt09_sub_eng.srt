@@ -1,0 +1,1164 @@
+1
+00:00:00,639 --> 00:00:02,509
+ Hello and welcome back to
+
+2
+00:00:02,519 --> 00:00:03,750
+ measure theory.
+
+3
+00:00:03,759 --> 00:00:04,230
+ First.
+
+4
+00:00:04,239 --> 00:00:05,619
+ Let me thank all the nice
+
+5
+00:00:05,630 --> 00:00:07,300
+ supporters on Steady.
+
+6
+00:00:08,500 --> 00:00:09,880
+ We have come very far in
+
+7
+00:00:09,890 --> 00:00:11,510
+ a series and reached now
+
+8
+00:00:11,520 --> 00:00:12,949
+ part nine,
+
+9
+00:00:14,090 --> 00:00:15,600
+ I was talking about the very
+
+10
+00:00:15,609 --> 00:00:17,530
+ important convergence theorems.
+
+11
+00:00:17,540 --> 00:00:19,090
+ And today I want to tell
+
+12
+00:00:19,100 --> 00:00:20,549
+ you about Fatou's Lemma.
+
+13
+00:00:21,659 --> 00:00:23,440
+ This lemma is much more
+
+14
+00:00:23,450 --> 00:00:24,690
+ important than it sounds
+
+15
+00:00:24,700 --> 00:00:25,450
+ first.
+
+16
+00:00:25,469 --> 00:00:26,959
+ However, it's not
+
+17
+00:00:26,969 --> 00:00:28,700
+ quite a convergence theorem,
+
+18
+00:00:28,709 --> 00:00:30,559
+ more or less half a convergence
+
+19
+00:00:30,569 --> 00:00:32,400
+ theorem, but it is
+
+20
+00:00:32,409 --> 00:00:34,220
+ so general that you can apply
+
+21
+00:00:34,229 --> 00:00:35,400
+ it very often.
+
+22
+00:00:36,080 --> 00:00:36,500
+ OK.
+
+23
+00:00:36,509 --> 00:00:38,439
+ Then let me explain you
+
+24
+00:00:38,450 --> 00:00:40,020
+ what the Lemma states.
+
+25
+00:00:40,830 --> 00:00:42,580
+ As always, we have a measure
+
+26
+00:00:42,590 --> 00:00:44,220
+ space consisting
+
+27
+00:00:44,229 --> 00:00:45,900
+ of a set, a Sigma
+
+28
+00:00:45,909 --> 00:00:47,099
+ algebra and a measure.
+
+29
+00:00:47,810 --> 00:00:49,409
+ And we also have a
+
+30
+00:00:49,419 --> 00:00:51,349
+ sequence of measurable
+
+31
+00:00:51,360 --> 00:00:52,189
+ functions.
+
+32
+00:00:53,060 --> 00:00:53,639
+ OK.
+
+33
+00:00:53,650 --> 00:00:54,810
+ Here I want to write down
+
+34
+00:00:54,819 --> 00:00:56,500
+ the codomain of the functions
+
+35
+00:00:56,689 --> 00:00:57,759
+ and there I have to tell
+
+36
+00:00:57,770 --> 00:00:58,759
+ you there are different
+
+37
+00:00:58,770 --> 00:01:00,639
+ possibilities and they
+
+38
+00:01:00,650 --> 00:01:02,549
+ lead to different variations
+
+39
+00:01:02,560 --> 00:01:03,509
+ of Fatou's lemma.
+
+40
+00:01:04,330 --> 00:01:05,949
+ However, I think the best
+
+41
+00:01:05,959 --> 00:01:07,910
+ way to describe it is again
+
+42
+00:01:07,919 --> 00:01:09,360
+ to choose non-negative
+
+43
+00:01:09,790 --> 00:01:10,580
+ functions.
+
+44
+00:01:11,089 --> 00:01:12,900
+ When I say non negative,
+
+45
+00:01:12,910 --> 00:01:14,349
+ then it's clear that the
+
+46
+00:01:14,360 --> 00:01:15,970
+ zero is included, but it's
+
+47
+00:01:15,980 --> 00:01:17,900
+ not clear if infinity
+
+48
+00:01:17,910 --> 00:01:18,580
+ is included.
+
+49
+00:01:19,370 --> 00:01:20,309
+ However, here, that's not
+
+50
+00:01:20,319 --> 00:01:20,720
+ a problem.
+
+51
+00:01:20,730 --> 00:01:22,110
+ We can just include it.
+
+52
+00:01:23,790 --> 00:01:25,449
+ And now to the statement
+
+53
+00:01:25,459 --> 00:01:26,650
+ of this lemma,
+
+54
+00:01:27,379 --> 00:01:28,680
+ because we are in the realm
+
+55
+00:01:28,690 --> 00:01:30,360
+ of the convergence theorems,
+
+56
+00:01:30,370 --> 00:01:32,120
+ the question would be again,
+
+57
+00:01:32,269 --> 00:01:34,050
+ OK, I have integral over
+
+58
+00:01:34,059 --> 00:01:35,319
+ X and a limit
+
+59
+00:01:35,330 --> 00:01:36,279
+ inside.
+
+60
+00:01:36,290 --> 00:01:37,879
+ Can I pull out
+
+61
+00:01:37,889 --> 00:01:38,980
+ this limit?
+
+62
+00:01:41,269 --> 00:01:42,589
+ However, Fatou's Lemma
+
+63
+00:01:42,599 --> 00:01:44,269
+ is a little bit more specific,
+
+64
+00:01:44,279 --> 00:01:46,150
+ it does not look at the limit
+
+65
+00:01:46,489 --> 00:01:48,319
+ rather than at the limit
+
+66
+00:01:48,330 --> 00:01:49,199
+ inferior.
+
+67
+00:01:50,010 --> 00:01:51,750
+ Now, Fatou's Lemma claims
+
+68
+00:01:51,849 --> 00:01:53,489
+ that if we look at the limit
+
+69
+00:01:53,500 --> 00:01:55,239
+ inferior of our sequence
+
+70
+00:01:55,250 --> 00:01:57,050
+ of functions FN, so
+
+71
+00:01:57,059 --> 00:01:57,790
+ here's d mu
+
+72
+00:02:00,750 --> 00:02:02,230
+ then I can pull out the limit
+
+73
+00:02:02,239 --> 00:02:03,809
+ inferior and then I have
+
+74
+00:02:03,819 --> 00:02:05,809
+ to limit inferior here of
+
+75
+00:02:05,819 --> 00:02:07,430
+ the numbers given by the
+
+76
+00:02:07,440 --> 00:02:08,770
+ integrals of FN.
+
+77
+00:02:09,600 --> 00:02:11,220
+ But we don't have an
+
+78
+00:02:11,229 --> 00:02:12,679
+ equality sign here,
+
+79
+00:02:12,990 --> 00:02:14,750
+ just an inequality sign.
+
+80
+00:02:15,089 --> 00:02:16,690
+ And Fatou tells us the
+
+81
+00:02:16,699 --> 00:02:18,429
+ left hand side can't be
+
+82
+00:02:18,440 --> 00:02:19,809
+ bigger than the right hand
+
+83
+00:02:19,820 --> 00:02:20,350
+ side.
+
+84
+00:02:21,649 --> 00:02:23,369
+ So you see the Lemma is not
+
+85
+00:02:23,380 --> 00:02:24,789
+ so strong as a convergence
+
+86
+00:02:24,800 --> 00:02:25,389
+ theorem.
+
+87
+00:02:25,619 --> 00:02:27,160
+ But please note that our
+
+88
+00:02:27,169 --> 00:02:29,059
+ requirements are very weak.
+
+89
+00:02:29,509 --> 00:02:31,059
+ We only need non-negative
+
+90
+00:02:31,550 --> 00:02:33,190
+ measurable maps.
+
+91
+00:02:33,199 --> 00:02:34,059
+ Nothing else.
+
+92
+00:02:34,750 --> 00:02:36,449
+ The actual convergence
+
+93
+00:02:36,460 --> 00:02:37,759
+ theorem that follows from
+
+94
+00:02:37,770 --> 00:02:39,350
+ this claim here is Lebegue's
+
+95
+00:02:39,720 --> 00:02:41,410
+ theorem which we will consider
+
+96
+00:02:41,419 --> 00:02:42,199
+ in the next video
+
+97
+00:02:43,149 --> 00:02:44,389
+ before showing you the proof
+
+98
+00:02:44,399 --> 00:02:45,460
+ of this nice lemma.
+
+99
+00:02:45,479 --> 00:02:47,320
+ Let me first explain
+
+100
+00:02:47,330 --> 00:02:49,210
+ what this new function liminf
+
+101
+00:02:49,220 --> 00:02:51,089
+ in of the sequence of functions
+
+102
+00:02:51,100 --> 00:02:52,169
+ actually is.
+
+103
+00:02:52,979 --> 00:02:54,139
+ Well, of course, it is a
+
+104
+00:02:54,149 --> 00:02:54,960
+ function
+
+105
+00:02:56,339 --> 00:02:57,600
+ which means it is
+
+106
+00:02:57,610 --> 00:02:59,460
+ defined on X
+
+107
+00:02:59,470 --> 00:03:00,919
+ and maps also
+
+108
+00:03:01,029 --> 00:03:02,710
+ into our non negative
+
+109
+00:03:02,720 --> 00:03:04,039
+ numbers including
+
+110
+00:03:04,440 --> 00:03:05,360
+ infinity.
+
+111
+00:03:06,429 --> 00:03:07,539
+ And now I want to give you
+
+112
+00:03:07,550 --> 00:03:08,449
+ the definition.
+
+113
+00:03:08,460 --> 00:03:09,770
+ So the functions are defined
+
+114
+00:03:09,779 --> 00:03:11,490
+ for all lower case X.
+
+115
+00:03:12,509 --> 00:03:14,089
+ And now we use what we know
+
+116
+00:03:14,100 --> 00:03:15,679
+ from the limit inferior.
+
+117
+00:03:15,880 --> 00:03:17,309
+ It is given by the
+
+118
+00:03:17,320 --> 00:03:18,940
+ limit of the infima
+
+119
+00:03:20,929 --> 00:03:22,809
+ but cut it at the beginning.
+
+120
+00:03:22,820 --> 00:03:24,029
+ So we go from
+
+121
+00:03:24,839 --> 00:03:26,339
+ N to infinity
+
+122
+00:03:27,360 --> 00:03:28,929
+ and then we look what happens
+
+123
+00:03:28,990 --> 00:03:30,779
+ when n goes to infinity.
+
+124
+00:03:32,089 --> 00:03:33,210
+ This is the definition of
+
+125
+00:03:33,220 --> 00:03:34,779
+ the limit inferior for a
+
+126
+00:03:34,789 --> 00:03:36,070
+ sequence of numbers.
+
+127
+00:03:36,080 --> 00:03:37,490
+ And here we just have numbers
+
+128
+00:03:37,500 --> 00:03:38,759
+ because we look at
+
+129
+00:03:39,350 --> 00:03:39,750
+ FX
+
+130
+00:03:41,460 --> 00:03:43,039
+ and they will see the lowest
+
+131
+00:03:43,050 --> 00:03:44,440
+ level that the infimum can
+
+132
+00:03:44,449 --> 00:03:46,160
+ have would be zero.
+
+133
+00:03:46,729 --> 00:03:48,520
+ But in the limit, of
+
+134
+00:03:48,529 --> 00:03:50,279
+ course, it could go to infinity.
+
+135
+00:03:50,289 --> 00:03:52,220
+ So we also have to include
+
+136
+00:03:52,229 --> 00:03:53,119
+ infinity
+
+137
+00:03:53,889 --> 00:03:55,259
+ also in the case when we
+
+138
+00:03:55,270 --> 00:03:56,960
+ would exclude infinity
+
+139
+00:03:56,970 --> 00:03:58,690
+ here because in a limit it
+
+140
+00:03:58,699 --> 00:03:59,380
+ could happen.
+
+141
+00:03:59,880 --> 00:04:01,520
+ And because we need the infinity
+
+142
+00:04:01,529 --> 00:04:03,100
+ symbol for this function,
+
+143
+00:04:03,110 --> 00:04:04,910
+ we can just add it from the
+
+144
+00:04:04,919 --> 00:04:05,550
+ beginning.
+
+145
+00:04:06,270 --> 00:04:07,770
+ And of course, it just makes
+
+146
+00:04:07,779 --> 00:04:08,889
+ the claim stronger.
+
+147
+00:04:09,839 --> 00:04:11,300
+ The beauty of this is that
+
+148
+00:04:11,309 --> 00:04:12,600
+ we know that the limit
+
+149
+00:04:12,610 --> 00:04:14,070
+ inferior is also
+
+150
+00:04:14,080 --> 00:04:14,970
+ measurable
+
+151
+00:04:15,639 --> 00:04:17,209
+ simply because you can easily
+
+152
+00:04:17,220 --> 00:04:18,959
+ show that if you put in
+
+153
+00:04:18,970 --> 00:04:20,940
+ measurable functions in
+
+154
+00:04:21,000 --> 00:04:22,600
+ infima are measurable
+
+155
+00:04:23,019 --> 00:04:24,779
+ and also limits of
+
+156
+00:04:24,790 --> 00:04:26,179
+ measurable functions are
+
+157
+00:04:26,190 --> 00:04:27,649
+ also measurable
+
+158
+00:04:28,160 --> 00:04:29,059
+ for the whole proof.
+
+159
+00:04:29,070 --> 00:04:30,899
+ Now it makes sense to use
+
+160
+00:04:30,910 --> 00:04:32,579
+ some abbreviations here,
+
+161
+00:04:33,510 --> 00:04:35,010
+ let's call the limit inferior
+
+162
+00:04:35,019 --> 00:04:36,820
+ just by G of X.
+
+163
+00:04:36,829 --> 00:04:38,010
+ So we have the function G
+
+164
+00:04:38,019 --> 00:04:39,290
+ now and
+
+165
+00:04:39,299 --> 00:04:41,130
+ also these functions
+
+166
+00:04:41,140 --> 00:04:42,839
+ here given by the
+
+167
+00:04:42,850 --> 00:04:44,790
+ infima let's call them
+
+168
+00:04:44,799 --> 00:04:46,529
+ GN of X.
+
+169
+00:04:47,399 --> 00:04:49,350
+ And of course, all the functions
+
+170
+00:04:49,359 --> 00:04:50,899
+ here are measurable
+
+171
+00:04:51,670 --> 00:04:53,130
+ and we get another information
+
+172
+00:04:53,140 --> 00:04:53,730
+ out here.
+
+173
+00:04:53,739 --> 00:04:55,609
+ These functions here are
+
+174
+00:04:55,619 --> 00:04:57,570
+ now monotonically increasing.
+
+175
+00:04:58,029 --> 00:04:59,720
+ So G one is less or
+
+176
+00:04:59,730 --> 00:05:01,190
+ equal than G two,
+
+177
+00:05:01,290 --> 00:05:02,690
+ less or equal than G
+
+178
+00:05:02,700 --> 00:05:03,390
+ three.
+
+179
+00:05:03,619 --> 00:05:04,850
+ And so on,
+
+180
+00:05:05,859 --> 00:05:07,130
+ this follows immediately
+
+181
+00:05:07,140 --> 00:05:08,779
+ from the definition of the
+
+182
+00:05:08,790 --> 00:05:09,480
+ infimum.
+
+183
+00:05:10,170 --> 00:05:11,799
+ Because if we shift the cut
+
+184
+00:05:11,809 --> 00:05:13,510
+ point and to divide
+
+185
+00:05:13,779 --> 00:05:15,709
+ the inimum can only get bigger,
+
+186
+00:05:15,720 --> 00:05:16,839
+ not smaller.
+
+187
+00:05:17,600 --> 00:05:17,989
+ OK.
+
+188
+00:05:18,000 --> 00:05:19,829
+ So we get out a sequence
+
+189
+00:05:19,839 --> 00:05:21,109
+ that is monotonically
+
+190
+00:05:21,119 --> 00:05:21,910
+ increasing.
+
+191
+00:05:22,609 --> 00:05:24,029
+ And of course, this would
+
+192
+00:05:24,040 --> 00:05:25,690
+ be very helpful for our proof
+
+193
+00:05:25,700 --> 00:05:27,489
+ now because we can
+
+194
+00:05:27,500 --> 00:05:29,250
+ use our convergence theorem,
+
+195
+00:05:29,380 --> 00:05:30,390
+ we already know.
+
+196
+00:05:30,750 --> 00:05:31,790
+ And of course, you know,
+
+197
+00:05:31,799 --> 00:05:33,589
+ it's the monotone convergence
+
+198
+00:05:33,600 --> 00:05:34,109
+ theorem.
+
+199
+00:05:35,100 --> 00:05:36,279
+ And indeed, with this, the
+
+200
+00:05:36,290 --> 00:05:37,820
+ proof is not so long
+
+201
+00:05:38,880 --> 00:05:40,100
+ on the left hand side, we
+
+202
+00:05:40,109 --> 00:05:41,540
+ have the limit inferior.
+
+203
+00:05:41,549 --> 00:05:43,459
+ And now I write that as
+
+204
+00:05:43,470 --> 00:05:45,209
+ the limit of our
+
+205
+00:05:45,220 --> 00:05:45,989
+ GNS
+
+206
+00:05:47,130 --> 00:05:48,859
+ indeed, that is just our
+
+207
+00:05:48,869 --> 00:05:49,980
+ limit inferior here.
+
+208
+00:05:51,089 --> 00:05:52,619
+ And now we want to pull out
+
+209
+00:05:52,630 --> 00:05:53,549
+ the limit here.
+
+210
+00:05:54,869 --> 00:05:56,570
+ And you know, now it's allowed
+
+211
+00:05:56,579 --> 00:05:58,230
+ by the monotone convergence
+
+212
+00:05:58,619 --> 00:05:58,640
+ theorem.
+
+213
+00:05:59,839 --> 00:06:01,730
+ And we also have the equality
+
+214
+00:06:01,739 --> 00:06:02,100
+ here.
+
+215
+00:06:02,850 --> 00:06:04,260
+ Please check with the last
+
+216
+00:06:04,269 --> 00:06:06,109
+ videos that we have indeed
+
+217
+00:06:06,119 --> 00:06:08,079
+ satisfied all the requirements
+
+218
+00:06:08,089 --> 00:06:08,579
+ of the theorem.
+
+219
+00:06:10,000 --> 00:06:11,380
+ Now the next step, I
+
+220
+00:06:11,390 --> 00:06:13,140
+ substitute the limit
+
+221
+00:06:13,149 --> 00:06:14,660
+ with the limit inferior
+
+222
+00:06:16,100 --> 00:06:17,529
+ simply because this is the
+
+223
+00:06:17,540 --> 00:06:18,760
+ thing we want to talk about
+
+224
+00:06:18,769 --> 00:06:19,559
+ in Fatou's Lemma.
+
+225
+00:06:21,000 --> 00:06:22,510
+ And of course here it's the
+
+226
+00:06:22,519 --> 00:06:24,119
+ same thing doesn't make any
+
+227
+00:06:24,130 --> 00:06:25,140
+ difference at all.
+
+228
+00:06:26,190 --> 00:06:28,000
+ However, in the end, we want
+
+229
+00:06:28,010 --> 00:06:29,739
+ FN and not GN in the
+
+230
+00:06:29,750 --> 00:06:30,609
+ integral here.
+
+231
+00:06:31,489 --> 00:06:33,010
+ Therefore, you can ask, what
+
+232
+00:06:33,019 --> 00:06:34,179
+ is the connection between
+
+233
+00:06:34,190 --> 00:06:35,709
+ G and and FN
+
+234
+00:06:36,570 --> 00:06:37,410
+ and then you look at the
+
+235
+00:06:37,420 --> 00:06:38,829
+ definition and see,
+
+236
+00:06:39,019 --> 00:06:40,640
+ OK, the G and is defined
+
+237
+00:06:40,649 --> 00:06:42,429
+ about all FK where
+
+238
+00:06:42,440 --> 00:06:43,869
+ K is bigger than N
+
+239
+00:06:44,609 --> 00:06:46,250
+ and then you choose the infimum,
+
+240
+00:06:46,260 --> 00:06:48,029
+ the smallest possible value.
+
+241
+00:06:48,679 --> 00:06:50,209
+ And therefore, of course
+
+242
+00:06:50,220 --> 00:06:52,179
+ GN is always less or
+
+243
+00:06:52,190 --> 00:06:53,790
+ equal than FN as
+
+244
+00:06:53,799 --> 00:06:54,640
+ being the infimum.
+
+245
+00:06:56,019 --> 00:06:57,769
+ So let's say that as we
+
+246
+00:06:57,779 --> 00:06:58,290
+ know
+
+247
+00:06:59,040 --> 00:07:00,920
+ GN, less or equal to FN
+
+248
+00:07:00,929 --> 00:07:02,640
+ for all N and
+
+249
+00:07:02,649 --> 00:07:03,950
+ now you want to use the
+
+250
+00:07:03,959 --> 00:07:05,679
+ monotonicity of the integral,
+
+251
+00:07:05,980 --> 00:07:07,570
+ which is a very nice property
+
+252
+00:07:07,579 --> 00:07:08,809
+ of the Lebegue integral.
+
+253
+00:07:08,820 --> 00:07:10,630
+ So if we have the inequality
+
+254
+00:07:10,640 --> 00:07:12,149
+ here, then it also
+
+255
+00:07:12,160 --> 00:07:14,049
+ holds for the integral.
+
+256
+00:07:16,179 --> 00:07:16,799
+ OK.
+
+257
+00:07:16,809 --> 00:07:18,760
+ So this inequality we now
+
+258
+00:07:18,769 --> 00:07:20,589
+ want to use here on the
+
+259
+00:07:20,600 --> 00:07:21,519
+ right hand side.
+
+260
+00:07:23,420 --> 00:07:24,649
+ So let me summarize what
+
+261
+00:07:24,660 --> 00:07:25,410
+ we have here.
+
+262
+00:07:26,190 --> 00:07:27,570
+ The left hand side is the
+
+263
+00:07:27,579 --> 00:07:28,890
+ limit inferior
+
+264
+00:07:28,899 --> 00:07:30,690
+ inside the integral.
+
+265
+00:07:32,179 --> 00:07:33,760
+ And on the right hand side,
+
+266
+00:07:33,769 --> 00:07:34,899
+ we can use this
+
+267
+00:07:34,910 --> 00:07:36,420
+ inequality, the limit
+
+268
+00:07:36,429 --> 00:07:38,040
+ inferior, conserve the
+
+269
+00:07:38,049 --> 00:07:39,940
+ inequality, which
+
+270
+00:07:39,950 --> 00:07:41,910
+ means we have here less or
+
+271
+00:07:41,920 --> 00:07:43,239
+ equal and limit
+
+272
+00:07:43,250 --> 00:07:44,899
+ inferior outside
+
+273
+00:07:47,670 --> 00:07:49,329
+ FNDmu.
+
+274
+00:07:50,720 --> 00:07:52,299
+ And there we have it that
+
+275
+00:07:52,309 --> 00:07:53,619
+ is Fatou's Lemma.
+
+276
+00:07:56,119 --> 00:07:57,720
+ You see the proof was not
+
+277
+00:07:57,730 --> 00:07:59,619
+ so hard and not so long because
+
+278
+00:07:59,630 --> 00:08:01,480
+ we could use our monotone
+
+279
+00:08:01,489 --> 00:08:02,859
+ convergence theorem here.
+
+280
+00:08:04,010 --> 00:08:04,549
+ OK.
+
+281
+00:08:04,559 --> 00:08:06,260
+ So I hope you learned something
+
+282
+00:08:06,269 --> 00:08:07,940
+ today and then you will see
+
+283
+00:08:07,950 --> 00:08:09,660
+ in the next video how we
+
+284
+00:08:09,670 --> 00:08:11,540
+ can apply Fatou's lemma.
+
+285
+00:08:12,420 --> 00:08:14,359
+ And then we can finally prove
+
+286
+00:08:14,369 --> 00:08:15,880
+ one of my favorite
+
+
+00:08:15,890 --> 00:08:16,760
+ theorems.
+
+288
+00:08:17,500 --> 00:08:18,160
+ OK.
+
+289
+00:08:18,170 --> 00:08:19,779
+ I wish you a very nice day
+
+290
+00:08:19,790 --> 00:08:21,239
+ and see you next time.
+
+291
+00:08:21,899 --> 00:08:22,359
+ Bye.
+
