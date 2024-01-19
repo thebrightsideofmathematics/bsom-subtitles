@@ -1,0 +1,399 @@
+1
+00:00:00,800 --> 00:00:07,040
+Hello and welcome to Manifolds, a video series 
+I started for everyone who wants to learn how  
+
+2
+00:00:07,040 --> 00:00:14,240
+to use calculus on surfaces and related topics. 
+However, before we start I really want to thank  
+
+3
+00:00:14,240 --> 00:00:20,160
+all the nice people who support this channel 
+on Steady, via Paypal, or by other means.  
+
+4
+00:00:20,160 --> 00:00:25,760
+Now, in part 1 of the course, I give you a short 
+overview and explain the definition of a topology. 
+
+5
+00:00:26,640 --> 00:00:33,280
+So let's start with a quick explanation what we 
+will discuss in this course. First, as I've already  
+
+6
+00:00:33,280 --> 00:00:40,880
+mentioned, the notion of a manifold generalizes the 
+concept of a surface in space. Such a surface we  
+
+7
+00:00:40,880 --> 00:00:47,360
+could visualize like this but the most popular 
+one would be the two-dimensional sphere.  
+
+8
+00:00:47,360 --> 00:00:54,880
+So this is the boundary of the ball and often called 
+S^2.  The 2 stands for the two dimensions we have  
+
+9
+00:00:54,880 --> 00:01:01,040
+when we just live on the surface. Now you might 
+already know some important applications where  
+
+10
+00:01:01,040 --> 00:01:08,800
+it is needed to calculate on the sphere. Especially
+in physics, it happens that some constraints force  
+
+11
+00:01:08,800 --> 00:01:16,400
+the motion to happen on the surface. Then questions 
+like finding a minimum or a maximum of a function  
+
+12
+00:01:16,400 --> 00:01:21,520
+are completely different because we can't 
+use our calculus for open domains anymore.
+
+13
+00:01:22,400 --> 00:01:28,240
+Therefore the overall question here will 
+be how to extend our calculation rules for  
+
+14
+00:01:28,240 --> 00:01:35,200
+surfaces and indeed abstract manifolds. In order 
+to do this we first have to understand what the  
+
+15
+00:01:35,200 --> 00:01:42,160
+fundamentals of such a surface are. So we start 
+with a quick overview of the field of topology.
+
+16
+00:01:43,200 --> 00:01:48,240
+Afterwards we will be able to define 
+differentiable manifolds as our subject of  
+
+17
+00:01:48,240 --> 00:01:56,240
+study. So you see the notion of differentiability 
+will be a crucial point in this course. Then next  
+
+18
+00:01:56,240 --> 00:02:03,280
+for these differentiable manifolds we will be able 
+to define so-called differential forms. At first  
+
+19
+00:02:03,280 --> 00:02:09,360
+glance these differential forms might look strange 
+because they are just given by one part of an  
+
+20
+00:02:09,360 --> 00:02:18,080
+integral like dx or d omega. However we will 
+define these objects in a rigorous way and indeed,  
+
+21
+00:02:18,080 --> 00:02:26,000
+in the end, also integrals with these differential 
+forms will make sense. Okay now the overall goal  
+
+22
+00:02:26,000 --> 00:02:32,800
+I have in mind for this course here is that we 
+will reach the generalized Stokes's theorem. Indeed  
+
+23
+00:02:32,800 --> 00:02:39,200
+this theorem will nicely form a connection between 
+a manifold and its boundary by using differential  
+
+24
+00:02:39,200 --> 00:02:46,160
+form. So this is the overview of the course and 
+i think we are ready to start with the first part  
+
+25
+00:02:46,160 --> 00:02:52,960
+and talk about topology. Now if you already have 
+a good knowledge of metric spaces you can use  
+
+26
+00:02:52,960 --> 00:02:59,840
+this as a starting point. Indeed a lot of notions 
+we have in topology are already formulated  
+
+27
+00:02:59,840 --> 00:03:07,040
+in metric spaces. Here please recall: a metric 
+space needs a set X and a distance function d.  
+
+28
+00:03:08,000 --> 00:03:13,360
+This means when we have to set X we can 
+measure distances between two points in X  
+
+29
+00:03:14,320 --> 00:03:19,280
+for example here x and y have a 
+distance given by a positive real number  
+
+30
+00:03:20,080 --> 00:03:27,040
+and this one is denoted by d(x,y). Now in the 
+case you see this the first time you can watch  
+
+31
+00:03:27,040 --> 00:03:32,320
+the first videos in my functional analysis 
+course to get familiar with metric spaces  
+
+32
+00:03:33,280 --> 00:03:40,000
+however the important thing here is that you 
+know how we can define open sets usually this  
+
+33
+00:03:40,000 --> 00:03:47,760
+works when we take so called open epsilon 
+balls. This means that B_epsilon(x) is a ball  
+
+34
+00:03:47,760 --> 00:03:55,760
+with radius epsilon and middle point x. Now by 
+using these epsilon balls we can say if a subset  
+
+35
+00:03:55,760 --> 00:04:04,320
+in the metric space is open. Hence here the notion 
+"open" for a subset depends on the chosen metric d. 
+
+36
+00:04:05,360 --> 00:04:11,840
+But then we can show that the collection of 
+all open sets fulfills some nice properties. 
+
+37
+00:04:11,840 --> 00:04:19,280
+For example if we take two open sets the intersection 
+is always also an open set with such properties  
+
+38
+00:04:19,280 --> 00:04:24,960
+in mind we see that for a lot of things we 
+do not need an explicit measure of distance  
+
+39
+00:04:25,760 --> 00:04:32,400
+just some neighborhood relation between the points 
+might be sufficient so roughly speaking we just  
+
+40
+00:04:32,400 --> 00:04:38,800
+need to know which points are neighbors of x are 
+close to x without measuring the explicit distance  
+
+41
+00:04:40,000 --> 00:04:43,920
+indeed the abstraction of 
+this idea leads to topology  
+
+42
+00:04:44,880 --> 00:04:50,640
+hence we just list all the sets that should be 
+open and then we deduce everything from them  
+
+43
+00:04:51,920 --> 00:04:55,840
+most importantly in this definition 
+we don't need a metric anymore  
+
+44
+00:04:57,200 --> 00:05:04,720
+however of course we still have a set X then what 
+we need is the collection of all subsets of X 
+
+45
+00:05:04,720 --> 00:05:11,920
+which we call the power set of X and denote 
+by P(X) therefore to say which sets are open  
+
+46
+00:05:11,920 --> 00:05:18,240
+we just have to take a subset of the power 
+set and this one is denoted by a curved T
+
+47
+00:05:19,360 --> 00:05:26,720
+in other words this T just stands for a collection 
+of subsets of X now these subsets should be the  
+
+48
+00:05:26,720 --> 00:05:33,680
+open sets therefore they have to fulfill all the 
+rules like in the metric space indeed we will  
+
+49
+00:05:33,680 --> 00:05:40,400
+fix three important properties here now the first 
+one is very simple we just say that the empty set  
+
+50
+00:05:40,400 --> 00:05:47,120
+and the whole space X are open sets. More 
+precisely they are elements of the collection T
+
+51
+00:05:48,080 --> 00:05:53,360
+then the second property I already 
+mentioned. If we take two open sets A and B
+
+52
+00:05:54,960 --> 00:06:02,480
+then this implies that the intersection is also 
+an open set finally the third and last property  
+
+53
+00:06:02,480 --> 00:06:09,600
+looks similarly but now for the union however you 
+might know in a metric space with the union and  
+
+54
+00:06:09,600 --> 00:06:16,320
+open sets we can do a lot. What I mean is it does 
+not matter how many open sets are in the union  
+
+55
+00:06:17,040 --> 00:06:24,080
+the result is always an open set as well hence 
+here we can look at the whole family of open sets  
+
+56
+00:06:25,280 --> 00:06:31,680
+so we look at A_i where i goes through any 
+fixed index set capital I and of course  
+
+57
+00:06:31,680 --> 00:06:38,160
+any subset in the family is an element of 
+t and then this implies that we can look at  
+
+58
+00:06:38,160 --> 00:06:45,920
+the big union i in i of the sets A_i and we 
+conclude this union is also an element in T
+
+59
+00:06:46,880 --> 00:06:52,400
+okay and there you see we condense the 
+properties of open sets for a metric space
+
+60
+00:06:52,400 --> 00:06:58,960
+into a new definition. Indeed with this definition 
+we can work and we don't need a metric anymore  
+
+61
+00:06:59,760 --> 00:07:06,720
+what we now have is a collection of subsets T 
+and we call it a topology on X and I already  
+
+62
+00:07:06,720 --> 00:07:14,400
+mentioned it a lot the elements of a topology are 
+called open sets therefore please always remember  
+
+63
+00:07:14,400 --> 00:07:21,600
+in the topology the property open is given by 
+definition and therefore open only makes sense  
+
+64
+00:07:21,600 --> 00:07:28,720
+with respect to a chosen topology. OK, I think it 
+will be very helpful when we look at some examples  
+
+65
+00:07:29,600 --> 00:07:36,720
+therefore let's start with the easiest examples so 
+the question is what is the simplest choice for T  
+
+66
+00:07:36,720 --> 00:07:42,160
+such that all the rules are fulfilled. Of
+course in order to satisfy the first rule  
+
+67
+00:07:42,160 --> 00:07:48,880
+we need at least the empty set and X involved 
+however if we leave it at that we already have  
+
+68
+00:07:48,880 --> 00:07:55,680
+a topology so what you should see is the second 
+and the third property are immediately satisfied  
+
+69
+00:07:56,480 --> 00:08:00,240
+simply because there are not many choices 
+for the intersection and the union  
+
+70
+00:08:01,040 --> 00:08:07,040
+hence this means that this is the topology 
+where all the non-trivial subsets are not open  
+
+71
+00:08:08,000 --> 00:08:14,400
+so maybe not the most interesting topology 
+to work with ok now you might already know  
+
+72
+00:08:14,400 --> 00:08:21,200
+we can also do the other extreme which means we 
+have the topology where all the subsets are open  
+
+73
+00:08:22,160 --> 00:08:28,240
+of course the power set of X is a topology 
+on X because there's no way to violate one  
+
+74
+00:08:28,240 --> 00:08:35,680
+of these rules the power set just contains 
+all the subsets and now in this topology all  
+
+75
+00:08:35,680 --> 00:08:40,400
+these subsets are open sets, therefore 
+we often call it the discrete topology.
+
+76
+00:08:41,360 --> 00:08:48,000
+On the other hand the first example is often 
+called the indiscrete topology. Of course both  
+
+77
+00:08:48,000 --> 00:08:53,120
+examples are not the most interesting topologies 
+but they are edge cases you should always have  
+
+78
+00:08:53,120 --> 00:08:58,800
+in mind. Okay maybe that's good enough for the 
+introduction today. Let's continue in the next  
+
+79
+00:08:58,800 --> 00:09:07,840
+video while working with the open sets. Therefore 
+I hope I see you there and have a nice day. Bye!
+
+80
+00:09:20,560 --> 00:09:21,060
+ 
+
