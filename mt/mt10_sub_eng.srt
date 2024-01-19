@@ -1,0 +1,1692 @@
+1
+00:00:00,779 --> 00:00:02,599
+ Hello and welcome back
+
+2
+00:00:02,609 --> 00:00:04,500
+ to measure theory first.
+
+3
+00:00:04,510 --> 00:00:06,449
+ As always, let me thank all
+
+4
+00:00:06,460 --> 00:00:08,010
+ the nice supporters on
+
+5
+00:00:08,020 --> 00:00:08,619
+ Steady.
+
+6
+00:00:09,560 --> 00:00:11,380
+ I am very happy to see that
+
+7
+00:00:11,390 --> 00:00:12,899
+ we have already reached
+
+8
+00:00:12,909 --> 00:00:14,229
+ part 10.
+
+9
+00:00:14,779 --> 00:00:16,520
+ And today we will do my
+
+10
+00:00:16,530 --> 00:00:17,780
+ favorite theory in the
+
+11
+00:00:17,840 --> 00:00:19,379
+ integration theory.
+
+12
+00:00:20,159 --> 00:00:21,270
+ And this is Lebesgue's
+
+13
+00:00:21,629 --> 00:00:23,440
+ dominated convergence
+
+14
+00:00:23,450 --> 00:00:24,110
+ theorem.
+
+15
+00:00:24,450 --> 00:00:25,879
+ Indeed, the name is quite
+
+16
+00:00:25,889 --> 00:00:27,860
+ fitting because it is as
+
+17
+00:00:27,870 --> 00:00:29,780
+ before a convergence theorem
+
+18
+00:00:30,530 --> 00:00:31,909
+ and something has to
+
+19
+00:00:31,920 --> 00:00:33,409
+ dominate the given
+
+20
+00:00:33,419 --> 00:00:33,990
+ function.
+
+21
+00:00:34,979 --> 00:00:36,639
+ Recall a convergence
+
+22
+00:00:36,650 --> 00:00:38,509
+ theorem tells you when
+
+23
+00:00:38,520 --> 00:00:40,340
+ you can pull in a
+
+24
+00:00:40,349 --> 00:00:41,680
+ limit into the
+
+25
+00:00:41,689 --> 00:00:42,360
+ integral.
+
+26
+00:00:43,099 --> 00:00:44,610
+ It turns out that this
+
+27
+00:00:44,619 --> 00:00:45,700
+ convergence theorem that
+
+28
+00:00:45,709 --> 00:00:47,560
+ is named after Lebesgue is
+
+29
+00:00:47,569 --> 00:00:49,520
+ very useful and you can apply
+
+30
+00:00:49,529 --> 00:00:50,319
+ it very often
+
+31
+00:00:51,540 --> 00:00:53,080
+ before I state the theorem,
+
+32
+00:00:53,090 --> 00:00:54,630
+ let me first start by
+
+33
+00:00:54,639 --> 00:00:56,520
+ introducing some notations.
+
+34
+00:00:57,439 --> 00:00:59,240
+ As always we choose a measure
+
+35
+00:00:59,250 --> 00:00:59,560
+ space.
+
+36
+00:00:59,569 --> 00:01:01,380
+ So set X and
+
+37
+00:01:01,389 --> 00:01:03,299
+ Sigma algebra A and a measure
+
+38
+00:01:03,310 --> 00:01:03,689
+ mu.
+
+39
+00:01:04,440 --> 00:01:06,360
+ Now we define a set of Lebesgue-
+
+40
+00:01:07,199 --> 00:01:08,199
+ integrable functions.
+
+41
+00:01:08,209 --> 00:01:10,019
+ Therefore, we use this curved
+
+42
+00:01:10,029 --> 00:01:11,680
+ L most of the
+
+43
+00:01:11,690 --> 00:01:13,540
+ time the set X and the Sigma
+
+44
+00:01:13,550 --> 00:01:15,230
+ algebra are so fixed in the
+
+45
+00:01:15,239 --> 00:01:16,730
+ context that only the
+
+46
+00:01:16,739 --> 00:01:18,209
+ measure can vary.
+
+47
+00:01:18,639 --> 00:01:20,610
+ And therefore, I just use
+
+48
+00:01:20,620 --> 00:01:22,089
+ mu here in a notation.
+
+49
+00:01:23,050 --> 00:01:24,150
+ In other cases, you would
+
+50
+00:01:24,160 --> 00:01:25,779
+ write the whole measure space
+
+51
+00:01:25,790 --> 00:01:27,720
+ here inside. The set
+
+52
+00:01:27,730 --> 00:01:29,669
+ is now defined as
+
+53
+00:01:29,870 --> 00:01:31,459
+ the set of all Lebesgue-
+
+54
+00:01:31,830 --> 00:01:32,809
+ integrable functions.
+
+55
+00:01:33,480 --> 00:01:34,540
+ Now the functions should
+
+56
+00:01:34,550 --> 00:01:36,500
+ be defined on
+
+57
+00:01:36,510 --> 00:01:38,419
+ X and have values in
+
+58
+00:01:38,430 --> 00:01:39,000
+ R.
+
+59
+00:01:39,449 --> 00:01:40,739
+ You could also generalize
+
+60
+00:01:40,750 --> 00:01:41,830
+ that to complex
+
+61
+00:01:41,839 --> 00:01:43,309
+ values in the end.
+
+62
+00:01:43,319 --> 00:01:45,010
+ But that's not so hard indeed.
+
+63
+00:01:45,440 --> 00:01:46,620
+ The important thing however
+
+64
+00:01:46,629 --> 00:01:47,699
+ is that they are
+
+65
+00:01:47,709 --> 00:01:48,650
+ measurable.
+
+66
+00:01:49,730 --> 00:01:51,550
+ Now, remember we defined the
+
+67
+00:01:51,559 --> 00:01:53,180
+ integral for
+
+68
+00:01:53,230 --> 00:01:54,800
+ non-negative functions.
+
+69
+00:01:55,279 --> 00:01:57,019
+ And for that reason, I look
+
+70
+00:01:57,029 --> 00:01:58,989
+ at the integral for the absolute
+
+71
+00:01:59,000 --> 00:02:00,930
+ value of F, this is a
+
+72
+00:02:00,940 --> 00:02:02,150
+ non-negative function and
+
+73
+00:02:02,160 --> 00:02:03,300
+ we know it's still
+
+74
+00:02:03,309 --> 00:02:04,269
+ measurable.
+
+75
+00:02:04,279 --> 00:02:06,250
+ So we can look at the integral,
+
+76
+00:02:07,080 --> 00:02:08,979
+ we know this exists in all
+
+77
+00:02:08,990 --> 00:02:10,899
+ cases, but in the worst case,
+
+78
+00:02:10,910 --> 00:02:12,139
+ it could be infinity.
+
+79
+00:02:12,880 --> 00:02:14,419
+ Hence integrable in this
+
+80
+00:02:14,429 --> 00:02:16,229
+ sense means it's not
+
+81
+00:02:16,240 --> 00:02:17,960
+ infinity, which means
+
+82
+00:02:17,970 --> 00:02:19,779
+ less than infinity.
+
+83
+00:02:21,139 --> 00:02:21,559
+ OK.
+
+84
+00:02:21,570 --> 00:02:22,770
+ So this is the important
+
+85
+00:02:22,779 --> 00:02:24,660
+ set here, the set of
+
+86
+00:02:24,669 --> 00:02:26,429
+ Lebesgue-integrable functions
+
+87
+00:02:26,440 --> 00:02:27,440
+ in this sense,
+
+88
+00:02:28,279 --> 00:02:29,630
+ maybe I should give you a
+
+89
+00:02:29,639 --> 00:02:31,059
+ small remark here,
+
+90
+00:02:31,509 --> 00:02:33,259
+ totally unnecessary in this
+
+91
+00:02:33,270 --> 00:02:33,970
+ context.
+
+92
+00:02:33,979 --> 00:02:35,080
+ But it will be important
+
+93
+00:02:35,089 --> 00:02:36,479
+ later there.
+
+94
+00:02:36,490 --> 00:02:37,839
+ You will be interested in
+
+95
+00:02:37,850 --> 00:02:39,490
+ the power for which the
+
+96
+00:02:39,500 --> 00:02:40,350
+ function is integrable
+
+97
+00:02:41,259 --> 00:02:42,419
+ this means that you have
+
+98
+00:02:42,429 --> 00:02:44,169
+ here, the exponent, the power
+
+99
+00:02:44,179 --> 00:02:44,679
+ one.
+
+100
+00:02:44,800 --> 00:02:46,660
+ And you also put it on
+
+101
+00:02:46,669 --> 00:02:47,559
+ the L
+
+102
+00:02:48,589 --> 00:02:49,910
+ in short, you then call it
+
+103
+00:02:49,919 --> 00:02:51,360
+ just the L one
+
+104
+00:02:51,369 --> 00:02:53,350
+ space for such
+
+105
+00:02:53,360 --> 00:02:53,789
+ functions.
+
+106
+00:02:53,800 --> 00:02:55,699
+ You can also define the integral
+
+107
+00:02:55,710 --> 00:02:57,279
+ just by looking at the
+
+108
+00:02:57,289 --> 00:02:58,470
+ positive and the negative
+
+109
+00:02:58,479 --> 00:03:00,229
+ part here separately.
+
+110
+00:03:00,710 --> 00:03:02,600
+ This means that for F in
+
+111
+00:03:02,610 --> 00:03:03,970
+ our L one
+
+112
+00:03:03,979 --> 00:03:04,740
+ space,
+
+113
+00:03:06,660 --> 00:03:08,570
+ we write the function F
+
+114
+00:03:08,580 --> 00:03:10,440
+ as the combination of two
+
+115
+00:03:10,449 --> 00:03:12,210
+ non-negative functions and
+
+116
+00:03:12,220 --> 00:03:14,039
+ I call this first one F
+
+117
+00:03:14,050 --> 00:03:15,869
+ plus and the second one
+
+118
+00:03:15,899 --> 00:03:16,910
+ F minus
+
+119
+00:03:17,759 --> 00:03:19,179
+ and the combination is given
+
+120
+00:03:19,190 --> 00:03:20,570
+ by a minus sign.
+
+121
+00:03:20,820 --> 00:03:22,539
+ And, and the idea is F
+
+122
+00:03:22,550 --> 00:03:24,199
+ plus F minus
+
+123
+00:03:24,380 --> 00:03:25,889
+ are non-negative.
+
+124
+00:03:27,039 --> 00:03:27,339
+ OK.
+
+125
+00:03:27,350 --> 00:03:29,199
+ Maybe a short picture for
+
+126
+00:03:29,210 --> 00:03:29,690
+ this.
+
+127
+00:03:31,039 --> 00:03:32,699
+ If this is the
+
+128
+00:03:32,710 --> 00:03:34,500
+ graph of the function F,
+
+129
+00:03:36,339 --> 00:03:38,320
+ then this part here
+
+130
+00:03:38,600 --> 00:03:40,440
+ is the graph of our function
+
+131
+00:03:40,449 --> 00:03:41,669
+ F plus.
+
+132
+00:03:45,339 --> 00:03:47,080
+ And of course, this part
+
+133
+00:03:47,089 --> 00:03:48,889
+ here then is
+
+134
+00:03:48,899 --> 00:03:50,619
+ the graph corresponding
+
+135
+00:03:50,630 --> 00:03:51,869
+ to F minus.
+
+136
+00:03:51,880 --> 00:03:53,500
+ It's not exactly F minus,
+
+137
+00:03:53,509 --> 00:03:54,550
+ this would be
+
+138
+00:03:54,910 --> 00:03:56,460
+ minus F
+
+139
+00:03:56,470 --> 00:03:57,080
+ minus.
+
+140
+00:03:58,080 --> 00:04:00,029
+ However, obviously adding
+
+141
+00:04:00,039 --> 00:04:01,669
+ both these functions gives
+
+142
+00:04:01,679 --> 00:04:03,429
+ you back our original F.
+
+143
+00:04:04,699 --> 00:04:06,570
+ Now you may immediately believe
+
+144
+00:04:06,580 --> 00:04:08,279
+ me that for all functions
+
+145
+00:04:08,289 --> 00:04:09,970
+ F, you can split them up
+
+146
+00:04:09,979 --> 00:04:11,399
+ into these two parts
+
+147
+00:04:12,089 --> 00:04:13,740
+ in the positive part above
+
+148
+00:04:13,750 --> 00:04:14,690
+ the X axis.
+
+149
+00:04:14,699 --> 00:04:16,428
+ And the negative part below
+
+150
+00:04:16,440 --> 00:04:17,329
+ the X axis,
+
+151
+00:04:18,558 --> 00:04:20,269
+ we have to do this because
+
+152
+00:04:20,278 --> 00:04:22,058
+ we only define the integral
+
+153
+00:04:22,069 --> 00:04:23,898
+ for non-negative functions.
+
+154
+00:04:23,908 --> 00:04:25,899
+ As you remember, the
+
+155
+00:04:25,910 --> 00:04:27,299
+ idea is then I have an
+
+156
+00:04:27,309 --> 00:04:29,140
+ integral for F plus
+
+157
+00:04:29,269 --> 00:04:31,149
+ and also an integral for
+
+158
+00:04:31,160 --> 00:04:32,209
+ F minus.
+
+159
+00:04:32,450 --> 00:04:34,279
+ And then I will subtract
+
+160
+00:04:34,290 --> 00:04:36,149
+ the areas then I
+
+161
+00:04:36,160 --> 00:04:37,809
+ don't get out the area
+
+162
+00:04:37,980 --> 00:04:39,940
+ but I get out an orientated
+
+163
+00:04:39,950 --> 00:04:41,809
+ area where I
+
+164
+00:04:41,820 --> 00:04:43,450
+ subtract the parts that
+
+165
+00:04:43,459 --> 00:04:45,269
+ lie below the X axis.
+
+166
+00:04:46,160 --> 00:04:47,359
+ This is the integral notion
+
+167
+00:04:47,369 --> 00:04:48,100
+ we want.
+
+168
+00:04:48,109 --> 00:04:49,660
+ And we also have this for
+
+169
+00:04:49,670 --> 00:04:50,809
+ the Riemann integral, as
+
+170
+00:04:50,820 --> 00:04:51,579
+ you remember.
+
+171
+00:04:52,440 --> 00:04:54,420
+ Hence, therefore, the definition
+
+172
+00:04:54,429 --> 00:04:56,209
+ is given as the
+
+173
+00:04:56,220 --> 00:04:58,140
+ following symbol, the integral
+
+174
+00:04:58,149 --> 00:04:59,940
+ over X for the
+
+175
+00:04:59,950 --> 00:05:01,739
+ function F dmu
+
+176
+00:05:02,070 --> 00:05:03,630
+ defined as
+
+177
+00:05:04,320 --> 00:05:05,600
+ the well-defined integral
+
+178
+00:05:05,609 --> 00:05:06,700
+ of F plus
+
+179
+00:05:07,369 --> 00:05:09,339
+ has a non-negative function minus
+
+180
+00:05:10,320 --> 00:05:11,700
+ The well-defined value
+
+181
+00:05:12,200 --> 00:05:13,559
+ for the integral F minus,
+
+182
+00:05:15,089 --> 00:05:16,970
+ both parts have a
+
+183
+00:05:16,980 --> 00:05:18,190
+ positive value.
+
+184
+00:05:18,329 --> 00:05:19,839
+ And we also know it's
+
+185
+00:05:19,850 --> 00:05:21,709
+ finite by this
+
+186
+00:05:21,720 --> 00:05:22,589
+ assumption here.
+
+187
+00:05:23,630 --> 00:05:24,709
+ Therefore, the subtraction
+
+188
+00:05:24,720 --> 00:05:25,890
+ is no problem at all.
+
+189
+00:05:25,899 --> 00:05:27,450
+ We get out a real number
+
+190
+00:05:27,459 --> 00:05:27,970
+ in the end.
+
+191
+00:05:28,640 --> 00:05:29,260
+ OK.
+
+192
+00:05:29,269 --> 00:05:30,839
+ Now you know what the integral
+
+193
+00:05:30,850 --> 00:05:32,359
+ symbol is for measurable
+
+194
+00:05:32,369 --> 00:05:34,250
+ functions with real values.
+
+195
+00:05:35,390 --> 00:05:37,029
+ I skipped some details for
+
+196
+00:05:37,040 --> 00:05:38,179
+ the definition of F plus
+
+197
+00:05:38,190 --> 00:05:39,970
+ and F minus because I think
+
+198
+00:05:39,980 --> 00:05:41,160
+ the picture is sufficient
+
+199
+00:05:41,170 --> 00:05:41,410
+ here.
+
+200
+00:05:42,440 --> 00:05:42,829
+ OK.
+
+201
+00:05:42,839 --> 00:05:44,200
+ Now I can finally
+
+202
+00:05:44,209 --> 00:05:45,619
+ state Lebesgue's
+
+203
+00:05:45,630 --> 00:05:47,619
+ dominated convergence theorem.
+
+204
+00:05:48,619 --> 00:05:50,170
+ What we need here is a
+
+205
+00:05:50,179 --> 00:05:52,079
+ sequence of functions and
+
+206
+00:05:52,089 --> 00:05:54,059
+ I call it FN defined on
+
+207
+00:05:54,070 --> 00:05:55,670
+ X and they can
+
+208
+00:05:55,679 --> 00:05:57,559
+ have real values now
+
+209
+00:05:58,070 --> 00:05:59,079
+ and of course, they should
+
+210
+00:05:59,089 --> 00:06:00,390
+ be measurable.
+
+211
+00:06:01,309 --> 00:06:03,230
+ Of course, you can visualize
+
+212
+00:06:03,239 --> 00:06:05,070
+ this always as
+
+213
+00:06:05,079 --> 00:06:06,769
+ sequence of graphs.
+
+214
+00:06:06,839 --> 00:06:08,799
+ So this would be F one.
+
+215
+00:06:09,250 --> 00:06:11,119
+ And then the next thing would
+
+216
+00:06:11,130 --> 00:06:12,910
+ be here as F two
+
+217
+00:06:15,420 --> 00:06:17,019
+ and then here at F three
+
+218
+00:06:17,029 --> 00:06:18,279
+ and so on.
+
+219
+00:06:19,000 --> 00:06:20,899
+ For such a sequence of functions
+
+220
+00:06:20,910 --> 00:06:22,500
+ you can always ask
+
+221
+00:06:22,510 --> 00:06:24,260
+ about the pointwise limit.
+
+222
+00:06:25,130 --> 00:06:26,959
+ This means that you fix a
+
+223
+00:06:26,970 --> 00:06:28,649
+ point X on the X
+
+224
+00:06:28,660 --> 00:06:30,390
+ axis and
+
+225
+00:06:30,399 --> 00:06:32,100
+ look at the values for the
+
+226
+00:06:32,109 --> 00:06:32,589
+ functions.
+
+227
+00:06:32,600 --> 00:06:34,350
+ So you have one value here,
+
+228
+00:06:34,609 --> 00:06:35,910
+ the next one here.
+
+229
+00:06:36,109 --> 00:06:37,339
+ So you get out a
+
+230
+00:06:37,350 --> 00:06:39,230
+ normal sequence of
+
+231
+00:06:39,239 --> 00:06:40,170
+ real numbers.
+
+232
+00:06:40,859 --> 00:06:42,559
+ Therefore, you can ask what
+
+233
+00:06:42,570 --> 00:06:44,079
+ happens with this
+
+234
+00:06:44,089 --> 00:06:45,519
+ normal sequence of
+
+235
+00:06:45,529 --> 00:06:46,160
+ numbers.
+
+236
+00:06:47,519 --> 00:06:49,209
+ If it is convergent, you
+
+237
+00:06:49,220 --> 00:06:51,140
+ get out a limit which is
+
+238
+00:06:51,149 --> 00:06:52,859
+ then a point here.
+
+239
+00:06:54,149 --> 00:06:55,579
+ In the case, you can do this
+
+240
+00:06:55,589 --> 00:06:57,390
+ for all X here, you get
+
+241
+00:06:57,399 --> 00:06:58,869
+ out a lot of points here.
+
+242
+00:06:58,880 --> 00:07:00,019
+ And indeed, you get out a
+
+243
+00:07:00,029 --> 00:07:01,720
+ new graph and therefore a
+
+244
+00:07:01,730 --> 00:07:02,720
+ new function.
+
+245
+00:07:03,890 --> 00:07:05,200
+ And this is the pointwise
+
+246
+00:07:05,209 --> 00:07:06,309
+ limit function.
+
+247
+00:07:06,320 --> 00:07:08,070
+ And we will call it just
+
+248
+00:07:08,079 --> 00:07:08,750
+ F here.
+
+249
+00:07:09,470 --> 00:07:11,070
+ And this is what I also want
+
+250
+00:07:11,079 --> 00:07:12,890
+ to put into the assumptions
+
+251
+00:07:12,899 --> 00:07:14,170
+ of our theorem here.
+
+252
+00:07:15,010 --> 00:07:16,500
+ This means that we also have
+
+253
+00:07:16,510 --> 00:07:17,750
+ our function F here
+
+254
+00:07:17,809 --> 00:07:19,000
+ also with the
+
+255
+00:07:19,010 --> 00:07:19,890
+ values.
+
+256
+00:07:19,989 --> 00:07:21,950
+ And the following property,
+
+257
+00:07:23,390 --> 00:07:25,339
+ if we fix a point X
+
+258
+00:07:25,480 --> 00:07:26,859
+ for all our functions
+
+259
+00:07:26,869 --> 00:07:28,709
+ FN, then this should
+
+260
+00:07:28,720 --> 00:07:30,579
+ be convergent to
+
+261
+00:07:30,589 --> 00:07:31,809
+ F of X.
+
+262
+00:07:33,549 --> 00:07:34,890
+ And I told you we want this
+
+263
+00:07:34,899 --> 00:07:36,850
+ property for all
+
+264
+00:07:36,859 --> 00:07:38,570
+ X on the X axis.
+
+265
+00:07:38,589 --> 00:07:40,209
+ So for all lower
+
+266
+00:07:40,220 --> 00:07:42,200
+ case X in our capital
+
+267
+00:07:42,209 --> 00:07:44,079
+ X, however,
+
+268
+00:07:44,089 --> 00:07:45,679
+ you know, we are in the realm
+
+269
+00:07:45,690 --> 00:07:46,989
+ of measure theory,
+
+270
+00:07:47,660 --> 00:07:49,250
+ this means we don't need
+
+271
+00:07:49,260 --> 00:07:50,959
+ this property exactly
+
+272
+00:07:50,970 --> 00:07:51,700
+ everywhere.
+
+273
+00:07:52,220 --> 00:07:53,690
+ It's sufficient that we have
+
+274
+00:07:53,700 --> 00:07:55,440
+ it almost everywhere,
+
+275
+00:07:56,429 --> 00:07:58,399
+ almost always means
+
+276
+00:07:58,410 --> 00:08:00,019
+ with respect to our measure
+
+277
+00:08:00,029 --> 00:08:00,709
+ mu here.
+
+278
+00:08:01,549 --> 00:08:03,160
+ And in short, we write this
+
+279
+00:08:03,170 --> 00:08:04,380
+ as mu
+
+280
+00:08:04,730 --> 00:08:06,440
+ almost everywhere.
+
+281
+00:08:07,829 --> 00:08:09,589
+ Please recall that this
+
+282
+00:08:09,600 --> 00:08:11,299
+ means exactly that the
+
+283
+00:08:11,309 --> 00:08:13,170
+ set where this does
+
+284
+00:08:13,179 --> 00:08:14,709
+ not hold is a
+
+285
+00:08:14,720 --> 00:08:16,040
+ set of measure
+
+286
+00:08:16,049 --> 00:08:16,910
+ zero.
+
+287
+00:08:17,390 --> 00:08:19,369
+ So mu of the set
+
+288
+00:08:19,380 --> 00:08:20,809
+ is equal to zero.
+
+289
+00:08:21,839 --> 00:08:22,420
+ OK.
+
+290
+00:08:22,529 --> 00:08:24,250
+ So until now the assumptions
+
+291
+00:08:24,260 --> 00:08:25,420
+ are not so strange,
+
+292
+00:08:26,440 --> 00:08:28,299
+ you have a sequence of measurable
+
+293
+00:08:28,309 --> 00:08:30,100
+ functions and also
+
+294
+00:08:30,149 --> 00:08:32,000
+ the pointwise limit of
+
+295
+00:08:32,010 --> 00:08:33,010
+ this sequence.
+
+296
+00:08:33,869 --> 00:08:35,169
+ And now you could ask a lot
+
+297
+00:08:35,179 --> 00:08:36,669
+ of questions are the
+
+298
+00:08:36,679 --> 00:08:38,390
+ functions integrable?
+
+299
+00:08:38,400 --> 00:08:40,169
+ So do they lie in our
+
+300
+00:08:40,179 --> 00:08:41,289
+ L one space.
+
+301
+00:08:41,880 --> 00:08:43,419
+ And if they do, what about
+
+302
+00:08:43,429 --> 00:08:44,859
+ our point was estimate function
+
+303
+00:08:44,869 --> 00:08:46,770
+ F then and more
+
+304
+00:08:46,780 --> 00:08:48,179
+ importantly, can I
+
+305
+00:08:48,190 --> 00:08:49,609
+ swap the limit
+
+306
+00:08:49,619 --> 00:08:51,549
+ And the integral? Or in
+
+307
+00:08:51,559 --> 00:08:53,349
+ other words, can I pull
+
+308
+00:08:53,359 --> 00:08:54,909
+ in the limit into the
+
+309
+00:08:54,919 --> 00:08:55,549
+ integral?
+
+310
+00:08:56,450 --> 00:08:57,849
+ Now Lebesgue's dominated
+
+311
+00:08:57,859 --> 00:08:59,669
+ convergence theorem says
+
+312
+00:08:59,679 --> 00:09:01,469
+ yes to all of these
+
+313
+00:09:01,479 --> 00:09:02,309
+ questions,
+
+314
+00:09:02,780 --> 00:09:04,619
+ if we add one
+
+315
+00:09:04,630 --> 00:09:05,750
+ more assumption
+
+316
+00:09:06,539 --> 00:09:08,479
+ and this is where the dominated
+
+317
+00:09:08,489 --> 00:09:09,599
+ comes into the play,
+
+318
+00:09:10,669 --> 00:09:11,869
+ we have that the absolute
+
+319
+00:09:11,880 --> 00:09:13,650
+ value of all these
+
+320
+00:09:13,659 --> 00:09:15,039
+ functions is
+
+321
+00:09:15,049 --> 00:09:16,900
+ bounded by a function
+
+322
+00:09:16,909 --> 00:09:17,369
+ G.
+
+323
+00:09:18,080 --> 00:09:19,030
+ Of course, you should read
+
+324
+00:09:19,039 --> 00:09:20,320
+ this point wisely.
+
+325
+00:09:20,330 --> 00:09:22,190
+ So if you put in an X
+
+326
+00:09:22,200 --> 00:09:24,049
+ here, this inequality
+
+327
+00:09:24,059 --> 00:09:25,679
+ holds the
+
+328
+00:09:25,690 --> 00:09:27,130
+ function G now has the
+
+329
+00:09:27,140 --> 00:09:28,520
+ property that it is
+
+330
+00:09:28,530 --> 00:09:30,260
+ integrable, which means it
+
+331
+00:09:30,270 --> 00:09:31,849
+ comes from our L one
+
+332
+00:09:31,859 --> 00:09:32,479
+ space
+
+333
+00:09:34,059 --> 00:09:35,679
+ and obviously it should be
+
+334
+00:09:35,690 --> 00:09:37,419
+ the same G for
+
+335
+00:09:37,429 --> 00:09:38,159
+ all N.
+
+336
+00:09:41,450 --> 00:09:43,440
+ Now this G is what one
+
+337
+00:09:43,450 --> 00:09:45,419
+ usually calls an integrable
+
+338
+00:09:45,859 --> 00:09:46,909
+ majorant.
+
+339
+00:09:47,380 --> 00:09:48,520
+ So this is what Lebesgue's
+
+340
+00:09:48,770 --> 00:09:50,619
+ dominated convergence theorem
+
+341
+00:09:50,630 --> 00:09:52,570
+ indeed needs it needs an
+
+342
+00:09:52,580 --> 00:09:54,250
+ integrable majorant.
+
+343
+00:09:54,679 --> 00:09:56,280
+ So a function that
+
+344
+00:09:56,289 --> 00:09:58,229
+ lies above all
+
+345
+00:09:58,239 --> 00:09:59,469
+ the other functions here.
+
+346
+00:10:00,590 --> 00:10:01,929
+ This means it's not important
+
+347
+00:10:01,940 --> 00:10:03,349
+ what exactly the function
+
+348
+00:10:03,359 --> 00:10:04,130
+ G is.
+
+349
+00:10:04,140 --> 00:10:05,479
+ You only need this
+
+350
+00:10:05,489 --> 00:10:07,250
+ inequality and you
+
+351
+00:10:07,260 --> 00:10:09,049
+ need that it's integrable
+
+352
+00:10:09,059 --> 00:10:10,969
+ from these two properties.
+
+353
+00:10:10,979 --> 00:10:12,739
+ Now, all the other things
+
+354
+00:10:12,750 --> 00:10:14,500
+ follow, for
+
+355
+00:10:14,510 --> 00:10:16,179
+ example, if you know
+
+356
+00:10:16,210 --> 00:10:17,719
+ that G has a finite
+
+357
+00:10:17,729 --> 00:10:19,630
+ integral, then all the
+
+358
+00:10:19,640 --> 00:10:21,020
+ other functions should be
+
+359
+00:10:21,030 --> 00:10:21,960
+ also integrable.
+
+360
+00:10:23,489 --> 00:10:23,950
+ OK.
+
+361
+00:10:23,960 --> 00:10:25,710
+ So let's write that down
+
+362
+00:10:25,719 --> 00:10:27,630
+ as the implication of the
+
+363
+00:10:27,640 --> 00:10:28,190
+ theorem,
+
+364
+00:10:30,960 --> 00:10:32,539
+ all the functions F
+
+365
+00:10:32,559 --> 00:10:34,520
+ one F two
+
+366
+00:10:34,549 --> 00:10:36,500
+ F three and so on
+
+367
+00:10:36,669 --> 00:10:38,299
+ lie in our
+
+368
+00:10:38,380 --> 00:10:39,979
+ L one space.
+
+369
+00:10:41,989 --> 00:10:43,729
+ And we can say the same
+
+370
+00:10:43,890 --> 00:10:45,380
+ for our point west limit
+
+371
+00:10:45,390 --> 00:10:46,239
+ function F.
+
+372
+00:10:47,159 --> 00:10:48,809
+ Of course, we know it should
+
+373
+00:10:48,820 --> 00:10:50,580
+ be measurable as a limit,
+
+374
+00:10:50,809 --> 00:10:52,469
+ but it's also
+
+375
+00:10:52,760 --> 00:10:53,099
+ integrable.
+
+376
+00:10:54,099 --> 00:10:55,369
+ Now let's look at the integrals
+
+377
+00:10:55,469 --> 00:10:56,820
+ we know
+
+378
+00:10:57,229 --> 00:10:59,179
+ for all FN, the
+
+379
+00:10:59,190 --> 00:11:00,760
+ integral will exist
+
+380
+00:11:01,179 --> 00:11:02,710
+ and defines a real
+
+381
+00:11:02,719 --> 00:11:03,239
+ number.
+
+382
+00:11:04,119 --> 00:11:05,390
+ Therefore, we have here a
+
+383
+00:11:05,400 --> 00:11:07,210
+ new sequence of real numbers
+
+384
+00:11:07,219 --> 00:11:09,140
+ and we can ask what is the
+
+385
+00:11:09,150 --> 00:11:09,700
+ limit?
+
+386
+00:11:11,580 --> 00:11:13,039
+ And the answer is you can
+
+387
+00:11:13,049 --> 00:11:14,200
+ pull the limit
+
+388
+00:11:14,210 --> 00:11:16,000
+ inside and there we
+
+389
+00:11:16,010 --> 00:11:17,440
+ have our pointwise limit
+
+390
+00:11:17,450 --> 00:11:18,219
+ of f_n.
+
+391
+00:11:18,229 --> 00:11:19,799
+ So this is what we called
+
+392
+00:11:19,809 --> 00:11:20,359
+ F
+
+393
+00:11:22,010 --> 00:11:23,469
+ and that's now Lebesgue's
+
+394
+00:11:23,479 --> 00:11:24,729
+ dominated convergence theorem
+
+395
+00:11:26,070 --> 00:11:27,700
+ as a convergence theorem,
+
+396
+00:11:27,710 --> 00:11:29,669
+ it tells you when you are
+
+397
+00:11:29,679 --> 00:11:31,549
+ allowed to push the limit
+
+398
+00:11:31,719 --> 00:11:33,130
+ inside the integral.
+
+399
+00:11:34,159 --> 00:11:36,099
+ And here you see, you just
+
+400
+00:11:36,109 --> 00:11:37,690
+ have to find a suitable
+
+401
+00:11:37,700 --> 00:11:39,559
+ function G nothing more.
+
+402
+00:11:40,440 --> 00:11:41,919
+ And that is the reason why
+
+403
+00:11:41,929 --> 00:11:43,250
+ this theorem is so
+
+404
+00:11:43,260 --> 00:11:45,099
+ useful and you can apply
+
+405
+00:11:45,109 --> 00:11:45,979
+ it very often.
+
+406
+00:11:47,210 --> 00:11:47,590
+ OK?
+
+407
+00:11:47,599 --> 00:11:49,210
+ I hope you're also intrigued
+
+408
+00:11:49,219 --> 00:11:51,119
+ by the theorem as much as I
+
+409
+00:11:51,130 --> 00:11:52,830
+ am and that you will
+
+410
+00:11:52,840 --> 00:11:54,169
+ watch the next video in the
+
+411
+00:11:54,179 --> 00:11:54,830
+ series
+
+412
+00:11:55,700 --> 00:11:57,340
+ where I of course show
+
+413
+00:11:57,349 --> 00:11:59,099
+ you the whole proof of
+
+414
+00:11:59,109 --> 00:12:00,820
+ this dominated convergence
+
+415
+00:12:00,830 --> 00:12:01,309
+ theorem.
+
+416
+00:12:02,239 --> 00:12:04,200
+ And after this, I can show
+
+417
+00:12:04,210 --> 00:12:06,020
+ you a lot of examples
+
+418
+00:12:06,030 --> 00:12:07,950
+ where Lebesgue's dominated convergence
+
+419
+00:12:07,960 --> 00:12:09,780
+ theorem is very important.
+
+420
+00:12:10,520 --> 00:12:10,869
+ OK.
+
+421
+00:12:10,880 --> 00:12:12,549
+ Thank you very much for listening
+
+422
+00:12:12,559 --> 00:12:13,789
+ and see you next time.
+
+423
+00:12:13,960 --> 00:12:14,590
+ Bye.
+
