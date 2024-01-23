@@ -1,0 +1,279 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hello and welcome.
+
+2
+00:00:02,000 --> 00:00:06,740
+Today I show you how to calculate the kernel of a given matrix.
+
+3
+00:00:06,740 --> 00:00:13,447
+And this will be an easy example of a 3x4 matrix.
+
+4
+00:00:13,447 --> 00:00:18,000
+Well, this is the matrix, we will consider here.
+
+5
+00:00:18,000 --> 00:00:24,708
+And we will consider it over the real numbers,
+and as you can see, it has 3 rows.
+
+6
+00:00:24,708 --> 00:00:32,102
+So 3x4 and 4 is the number of the columns here.
+
+7
+00:00:32,102 --> 00:00:36,248
+However, first of all, you have to know what the kernel is.
+
+8
+00:00:36,248 --> 00:00:45,467
+So the kernel of a matrix A is, by definition, the set of all vectors that are sent to 0 by this matrix.
+
+9
+00:00:45,467 --> 00:00:55,815
+So this means that we have here all vectors x and they come from R^4, since we have 4 columns here.
+
+10
+00:00:55,815 --> 00:01:04,131
+So we need a vector with 4 rows and then we can give Ax a meaning. So Ax.
+
+11
+00:01:04,131 --> 00:01:11,548
+So this will be a vector in R^3 and this goes to the zero vector in R^3.
+
+12
+00:01:11,548 --> 00:01:22,149
+So Ax = 0.
+Well, this subspace of R^4 is exactly the kernel of A.
+
+13
+00:01:22,149 --> 00:01:28,289
+And as you can see, this is just a system of linear equations.
+
+14
+00:01:28,289 --> 00:01:36,934
+So we calculate the kernel by solving the system of linear equations given by the matrix and the right-hand side: 0.
+
+15
+00:01:36,934 --> 00:01:44,867
+Therefore, this means that we can row operations  on this system of linear equations, here.
+
+16
+00:01:44,867 --> 00:01:48,867
+And they don't change the system, so the solution set!
+
+17
+00:01:48,867 --> 00:01:58,867
+We want the solution set here for the kernel. So we can just do row operations on this matrix inside the kernel here.
+
+18
+00:01:58,867 --> 00:02:02,867
+And we don't change the kernel! So this is what we do now.
+
+19
+00:02:02,867 --> 00:02:08,867
+We want to change the second and the third row.
+
+20
+00:02:08,867 --> 00:02:14,104
+In such a way that we can create zeros here in the first column.
+
+21
+00:02:14,104 --> 00:02:25,067
+So, meaning, we have to add, on the second row, a multiple of the first row. And this is just 3.
+
+22
+00:02:25,067 --> 00:02:32,067
+So, -3 times the first row gives us what we want here.
+
+23
+00:02:32,067 --> 00:02:41,934
+So 0 here; there we have -2; and -2; and 1.
+
+24
+00:02:41,934 --> 00:02:51,400
+Then, we do the same for the third row. So third row minus 4 times the first row.
+
+25
+00:02:51,400 --> 00:03:06,000
+And then we have the zero as wanted, and -8 (so -4 -4); and -8 as well; and +4 here.
+
+26
+00:03:06,000 --> 00:03:13,000
+Okay, now we have the zeros in the first column and we want to do the same in the second column as well.
+
+27
+00:03:13,000 --> 00:03:15,134
+So we want to create a zero here.
+
+28
+00:03:15,134 --> 00:03:29,267
+As you can see, this is very easy now. So the new third row here gets just 4 times the new second row here.
+
+29
+00:03:29,267 --> 00:03:34,334
+And just with minus again.
+
+30
+00:03:34,334 --> 00:03:41,808
+And then we get: 0, 0, 0, 0.
+So very boring here.
+
+31
+00:03:41,808 --> 00:03:50,067
+But, of course, this was obvious since just the third row here is just a multiple of the second row.
+
+32
+00:03:50,067 --> 00:03:57,734
+And now we are finished since we arrived at the so-called row echelon form here.
+
+33
+00:03:57,734 --> 00:04:07,467
+Or in other words, just a triangle form here since all elements below this diagonal here are zero.
+
+34
+00:04:07,467 --> 00:04:11,467
+This is what we want. Then the system is solved.
+
+35
+00:04:11,467 --> 00:04:23,067
+Now, we call these variables here, given by these non-zero elements in each column, the bound variables (= leading variables).
+
+36
+00:04:23,067 --> 00:04:31,000
+And the other ones here, so the 2 here, are the free variables.
+
+37
+00:04:31,000 --> 00:04:35,067
+And now we can just write it down.
+
+38
+00:04:35,067 --> 00:04:45,267
+The second row here is an equation. So please keep in mind that we just have the equation with right-hand side zero.
+
+39
+00:04:45,267 --> 00:05:00,267
+That means that we have, here for the second row, we have -2 times x_2  minus 2 x_3 plus x_4 is equal to zero.
+
+40
+00:05:00,267 --> 00:05:05,000
+So, now we already set here the free variables.
+
+41
+00:05:05,000 --> 00:05:12,534
+So, we can just choose here another letter, maybe an alpha and here a beta.
+
+42
+00:05:12,534 --> 00:05:20,934
+And then, we can just write the bound variable in terms of the free variables.
+
+43
+00:05:20,934 --> 00:05:28,800
+So here x_2 (so this implies) x_2 is equal to minus alpha.
+
+44
+00:05:28,800 --> 00:05:30,480
+(so we just divide by 2)
+
+45
+00:05:30,480 --> 00:05:34,800
+Plus one half beta.
+
+46
+00:05:34,800 --> 00:05:51,734
+And the equation in the first row gives us x_1 plus x_2 plus 2 times x_3 plus x_4  equals to zero.
+
+47
+00:05:51,734 --> 00:06:02,334
+But we already know that we can write (maybe I put this here into orange)
+
+48
+00:06:02,334 --> 00:06:09,000
+We can write x_2 as minus alpha plus one half beta.
+
+49
+00:06:09,000 --> 00:06:17,000
+We know that this here is just 2 times alpha and this is just beta.
+
+50
+00:06:17,000 --> 00:06:32,134
+So we can write x_1 also in terms of alpha and beta. And this is just minus alpha (so 2 alpha minus one)
+
+51
+00:06:32,134 --> 00:06:39,267
+And minus three half beta.
+
+52
+00:06:39,267 --> 00:06:50,467
+Of course, this is the solution set of our system of linear equations given by Ax = 0.
+
+53
+00:06:50,467 --> 00:06:55,267
+So now we can just write the solution set, that is the kernel.
+
+54
+00:06:55,267 --> 00:07:06,000
+So, set brackets here and then we have the vector. So it's minus alpha minus three half beta.
+
+55
+00:07:06,000 --> 00:07:12,200
+This comes from the x_1 component. And then we have the x_2 component.
+
+56
+00:07:12,200 --> 00:07:24,667
+Minus alpha plus one half beta. And x_3 and x_4 were the free variables, so just alpha and beta here.
+
+57
+00:07:24,667 --> 00:07:33,067
+And most importantly, don't forget to write "alpha, beta are coming from R". So they are elements in R.
+
+58
+00:07:33,067 --> 00:07:35,667
+And this is the whole solution set.
+
+59
+00:07:35,667 --> 00:07:41,667
+So an arbitrary vector given in this form where alpha and beta are coming from R.
+
+60
+00:07:41,667 --> 00:07:50,734
+So, of course, we can split this up into two vectors. So we use the alpha coefficient.
+
+61
+00:07:50,734 --> 00:07:57,467
+Then we have the vector: -1, -1, 1, and zero.
+
+62
+00:07:57,467 --> 00:08:09,067
+Plus beta and the vector with coefficients in front of beta, so: minus three half, plus one half, 0 and 1.
+
+63
+00:08:09,067 --> 00:08:17,000
+And the same again: we have to mention that alpha and beta are coming from the real numbers.
+
+64
+00:08:17,000 --> 00:08:23,934
+So obviously, this is the same set. So we just wrote the vector in another way.
+
+65
+00:08:23,934 --> 00:08:29,534
+And this is the whole kernel. And by our calculation, we know
+
+66
+00:08:29,534 --> 00:08:39,134
+that these two vectors here are linearly independent and therefore form a basis of the kernel.
+
+67
+00:08:39,134 --> 00:08:44,867
+Of this kernel of A.
+
+68
+00:08:44,867 --> 00:08:54,800
+That means: for this example, the kernel is a two-dimensional subset of R^4.
+
+69
+00:08:54,800 --> 00:09:02,198
+And this is all for today. Thank you for watching!
+
