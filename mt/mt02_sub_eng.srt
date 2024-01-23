@@ -72,7 +72,7 @@ This result is very helpful if you want to have a lot of properties that your me
 
 19
 00:01:56,729 --> 00:02:05,914
-Then you can just put the properties in different A_i's and then just form a union to get out a sigma algebra,
+Then you can just put the properties in different A_i's and then just form an *INTERSECTION* to get out a sigma algebra,
 
 20
 00:02:06,043 --> 00:02:09,229
