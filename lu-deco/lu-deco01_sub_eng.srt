@@ -1,0 +1,353 @@
+1
+00:00:00,060 --> 00:00:06,990
+Hello and welcome! First I want to thank all the 
+nice people that support this channel on Steady!  
+
+2
+00:00:06,990 --> 00:00:15,090
+Today I want to show you the LU decomposition 
+for a square matrix. This means that we rewrite
+
+3
+00:00:15,090 --> 00:00:21,960
+our matrix as a product of two matrices, where on 
+the one side we have a lower triangular matrix L  
+
+4
+00:00:21,960 --> 00:00:29,610
+and on the other side we have an upper triangular 
+matrix U. Now in this video I want to show you the  
+
+5
+00:00:29,610 --> 00:00:38,100
+algorithm with the help of one example. I choose 
+a  4x4-matrix and I call it A. Here you  
+
+6
+00:00:38,100 --> 00:00:44,340
+see this looks like a nice example. However it's 
+not a trivial one. Now I can immediately tell you  
+
+7
+00:00:44,340 --> 00:00:51,780
+that doing the LU decomposition is basically just 
+an expanded Gaussian elimination. Therefore please  
+
+8
+00:00:51,780 --> 00:00:57,930
+remember you can do the Gaussian elimination 
+by just using row operations. And what you get  
+
+9
+00:00:57,930 --> 00:01:06,030
+out is an upper triangular matrix in the end and 
+this is exactly the U in our LU decomposition.
+
+10
+00:01:06,030 --> 00:01:12,840
+At this point I can give you a warning: we will not 
+use row exchanges in this example here. Indeed  
+
+11
+00:01:12,840 --> 00:01:19,200
+it's essential for the LU decomposition that 
+you don't use row exchanges while applying the  
+
+12
+00:01:19,200 --> 00:01:25,920
+algorithm. This means that if you have a matrix 
+where you really need row exchanges in the  
+
+13
+00:01:25,920 --> 00:01:32,730
+Gaussian elimination, then you should apply these 
+all beforehand and then just use the algorithm
+
+14
+00:01:32,730 --> 00:01:40,470
+I now show you. Okay, then I would say we start with 
+our nice example here. The first step is always  
+
+15
+00:01:40,470 --> 00:01:50,130
+to include an identity matrix with the right size.
+Here it would be 4x4-matrix, so I use 1, 1,
+
+16
+00:01:50,130 --> 00:01:59,040
+1, 1 on the diagonal and the rest are zeros. And 
+on the right hand side I just copy my matrix from  
+
+17
+00:01:59,040 --> 00:02:05,310
+before. Obviously, the equality still holds because 
+we just multiply with the identity matrix.
+
+18
+00:02:05,310 --> 00:02:13,740
+And now we see: we almost have our LU decomposition here. 
+We will transform the identity matrix into a  
+
+19
+00:02:13,740 --> 00:02:21,330
+lower triangular matrix, so we will fill in numbers 
+here but not here, and we will transform this one  
+
+20
+00:02:21,330 --> 00:02:28,320
+to an upper triangular matrix.
+This means that we now just use the normal Gaussian elimination on  
+
+21
+00:02:28,320 --> 00:02:36,240
+the right, but now we also memorize all the steps 
+with the help of the matrix on the left.
+
+22
+00:02:36,240 --> 00:02:42,570
+Okay, you will see a immediately how this works with the first step. 
+Okay so I copied the first row because we  
+
+23
+00:02:42,570 --> 00:02:48,840
+won't change it but we will change all the other 
+rows.
+Now in the first Gaussian elimination step we  
+
+24
+00:02:48,840 --> 00:02:57,420
+use this number as a pivot and we want to generate zeros below it.
+Therefore to get a 0 here in the  
+
+25
+00:02:57,420 --> 00:03:04,200
+second row we have to use two times the first row. 
+Hence we can write this as: use the second  
+
+26
+00:03:04,200 --> 00:03:15,030
+row minus (-2) times the first row.
+Of course, we could rewrite this as plus 2 times the first  
+
+27
+00:03:15,030 --> 00:03:22,020
+row but for the LU decomposition is always helpful  to use a minus sign here.
+This means that we always  
+
+28
+00:03:22,020 --> 00:03:30,270
+subtract multiples of another row.
+This is very helpful because this number here we subtract is  
+
+29
+00:03:30,270 --> 00:03:38,340
+the number we will put in the matrix L.
+Where to put it is very easy because here we generated a 0.
+
+30
+00:03:38,340 --> 00:03:46,020
+And at the exact same position we put the 
+new number in the matrix L. And in the same way,
+
+31
+00:03:46,020 --> 00:03:52,680
+it works for all other positions here.
+Now with the matrix multiplication you see that this is  
+
+32
+00:03:52,680 --> 00:03:59,640
+indeed the correct sign we chose because if you 
+multiply 2 with (-2) here you get out  
+
+33
+00:03:59,640 --> 00:04:06,840
+indeed -4 as we want.
+However still we have to do our calculation here so we do our  
+
+34
+00:04:06,840 --> 00:04:14,100
+Gaussian elimination step which means we have the 0 here as wanted; here we have 1; here we have
+
+35
+00:04:14,100 --> 00:04:21,720
+also 1; and there we have 2.
+OK, now we can do 
+the same thing for the third row which means we  
+
+36
+00:04:21,720 --> 00:04:27,960
+take the third row and we have to subtract a 
+multiple of the first row, which is here just
+
+37
+00:04:27,960 --> 00:04:35,910
+3 times the first row.
+OK, now you know the 
+multiple we subtract, so 3 is the number we  
+
+38
+00:04:35,910 --> 00:04:41,400
+put at the right position here. And of course 
+we also have to do the calculation which is 0  
+
+39
+00:04:41,400 --> 00:04:52,140
+here, minus 4, minus 7, and minus 6 here.
+Again we can 
+check that our sign was correct: so if you multiply  
+
+40
+00:04:52,140 --> 00:05:00,420
+this column with this row, we get out 2 times 3, 
+so our 6. And finally we can do the whole thing  
+
+41
+00:05:00,420 --> 00:05:07,170
+for the last row. So I take the fourth row and I 
+look at the multiple of the row I have  
+
+42
+00:05:07,170 --> 00:05:14,520
+to subtract. And here it is 2 times the first row.
+And now you already know we have to put this  
+
+43
+00:05:14,520 --> 00:05:22,080
+2 into our matrix L. And also the calculation 
+in last row is not so hard: we have the 0 here,
+
+44
+00:05:22,080 --> 00:05:31,350
+here we have 8, so 1 remains, and here we have 
+minus 8, and there 4.
+Well now we are finished  
+
+45
+00:05:31,350 --> 00:05:37,740
+with our first column because everything is 0 here.
+Now we go to our next column, so the second  
+
+46
+00:05:37,740 --> 00:05:43,800
+column, which means this is our new pivot.
+So the procedure would be exactly the same, we now just  
+
+47
+00:05:43,800 --> 00:05:50,970
+produce the zeros here. 
+OK, in order to do this,
+let's start a new line. So let's copy everything  
+
+48
+00:05:50,970 --> 00:05:57,360
+and then do the same Gaussian elimination as 
+before. We can copy the first two rows because  
+
+49
+00:05:57,360 --> 00:06:04,470
+we won't change them anymore. The first step is 
+of course to generate a 0 here, which means that  
+
+50
+00:06:04,470 --> 00:06:12,360
+we take the third row and use the second row to 
+change it. Now you see we have to add 4 times the  
+
+51
+00:06:12,360 --> 00:06:21,000
+second row to get a 0 here; and therefore we write 
+it as subtracting minus 4 times the second row.
+
+52
+00:06:21,000 --> 00:06:30,450
+And now this multiple is the number we put here at the right position: minus 4.
+And our calculation  
+
+53
+00:06:30,450 --> 00:06:40,050
+in the third row gives us here 0, 0.
+Here we have 4 and minus 7 so minus 3, and here we have 2.
+
+54
+00:06:40,050 --> 00:06:47,160
+So let's to the next step which means generate 
+a zero here. So take the fourth row and subtract  
+
+55
+00:06:47,160 --> 00:06:55,980
+the second row, so minus 1 times the second row.
+And again this one is the thing we put here in our  
+
+56
+00:06:55,980 --> 00:07:03,750
+matrix L. And the last calculation here is very 
+easy: we just have 0, 0, -9, and 2.
+
+57
+00:07:03,750 --> 00:07:11,370
+Okay very good, so now you see we just need one 
+last step in our Gaussian elimination. So let's  
+
+58
+00:07:11,370 --> 00:07:17,850
+do that very quickly now. Well, I copied everything 
+again except the last row because this is the only  
+
+59
+00:07:17,850 --> 00:07:23,490
+one we change now. And you immediately see what 
+we need we just have to change the 4th row  
+
+60
+00:07:23,490 --> 00:07:31,410
+by subtracting 3 times the third row. And 
+as before the number we subtract is the number  
+
+61
+00:07:31,410 --> 00:07:39,450
+we put in here. Then we just have to zeros here and (-4) here.
+And there you have it that's our  
+
+62
+00:07:39,450 --> 00:07:47,070
+LU decomposition. On the left we have our lower 
+triangular matrix, which we call L, and we want  
+
+63
+00:07:47,070 --> 00:07:53,010
+to choose it with only 1s on the diagonal. And 
+you see that is exactly what we get out with this  
+
+64
+00:07:53,010 --> 00:08:00,090
+algorithm. And on the right hand side you see this 
+is our upper triangular matrix U. There on the  
+
+65
+00:08:00,090 --> 00:08:07,140
+diagonal everything can happen. Now please recall that you get U by just using Gaussian elimination  
+
+66
+00:08:07,140 --> 00:08:15,420
+and L by saving all these steps in the Gaussian 
+elimination. Therefore the matrix multiplication  
+
+67
+00:08:15,420 --> 00:08:23,520
+here gives us, in fact, our original matrix back.
+However just in the case that we don't need to  
+
+68
+00:08:23,520 --> 00:08:30,990
+use row exchanges in the Gaussian elimination. How to deal with this and how to generalize the whole  
+
+69
+00:08:30,990 --> 00:08:37,890
+concept here, I can show you in another video.
+For now, I hope this example really helped you such  
+
+70
+00:08:37,890 --> 00:08:45,270
+that you now can calculate an LU decomposition 
+of a matrix. And then: see you next time! Bye!
+
