@@ -1,0 +1,596 @@
+1
+00:00:00,779 --> 00:00:02,759
+ Hello and welcome to this
+
+2
+00:00:02,769 --> 00:00:04,590
+ new series about multi-
+
+3
+00:00:04,869 --> 00:00:06,119
+ variable calculus.
+
+4
+00:00:07,030 --> 00:00:08,590
+ This will be a video course
+
+5
+00:00:08,600 --> 00:00:10,039
+ where I explain things
+
+6
+00:00:10,050 --> 00:00:11,560
+ concerning functions
+
+7
+00:00:11,569 --> 00:00:13,359
+ defined on R^n
+
+8
+00:00:14,300 --> 00:00:15,869
+ For example, we will talk
+
+9
+00:00:15,880 --> 00:00:17,840
+ a lot about derivatives like
+
+10
+00:00:17,850 --> 00:00:19,159
+ partial derivatives,
+
+11
+00:00:19,170 --> 00:00:21,079
+ directional derivatives and
+
+12
+00:00:21,090 --> 00:00:22,430
+ total derivatives.
+
+13
+00:00:23,200 --> 00:00:24,579
+ However, before we start
+
+14
+00:00:24,590 --> 00:00:26,139
+ with this, I really want
+
+15
+00:00:26,149 --> 00:00:27,870
+ to thank all the nice people
+
+16
+00:00:27,879 --> 00:00:29,649
+ who make such new video courses
+
+17
+00:00:29,659 --> 00:00:30,940
+ like this possible.
+
+18
+00:00:31,770 --> 00:00:33,470
+ And there please don't forget
+
+19
+00:00:33,479 --> 00:00:35,180
+ if you support me on Steady,
+
+20
+00:00:35,189 --> 00:00:36,819
+ you get access to the PDF
+
+21
+00:00:36,830 --> 00:00:38,349
+ versions and quizzes for
+
+22
+00:00:38,360 --> 00:00:39,470
+ all the videos.
+
+23
+00:00:40,369 --> 00:00:41,939
+ Speaking of other videos,
+
+24
+00:00:41,950 --> 00:00:43,639
+ I can tell you it will be
+
+25
+00:00:43,650 --> 00:00:45,490
+ helpful that first you watch
+
+26
+00:00:45,500 --> 00:00:47,139
+ my real analysis course
+
+27
+00:00:47,900 --> 00:00:49,759
+ simply because there we
+
+28
+00:00:49,770 --> 00:00:51,029
+ discuss the normal
+
+29
+00:00:51,040 --> 00:00:52,560
+ calculus in one
+
+30
+00:00:52,569 --> 00:00:53,240
+ variable.
+
+31
+00:00:54,279 --> 00:00:56,139
+ In other words, multivariable
+
+32
+00:00:56,150 --> 00:00:57,930
+ calculus will extend
+
+33
+00:00:57,939 --> 00:00:59,259
+ this series here.
+
+34
+00:01:00,139 --> 00:01:01,779
+ However, of course, you don't
+
+35
+00:01:01,790 --> 00:01:03,349
+ need to understand everything
+
+36
+00:01:03,360 --> 00:01:05,099
+ in real analysis to start
+
+37
+00:01:05,110 --> 00:01:06,500
+ with this multivariable
+
+38
+00:01:06,510 --> 00:01:07,709
+ calculus course.
+
+39
+00:01:08,400 --> 00:01:09,980
+ Moreover, soon you will
+
+40
+00:01:09,989 --> 00:01:11,819
+ notice that we will extend
+
+41
+00:01:11,830 --> 00:01:13,660
+ a lot of notions from one
+
+42
+00:01:13,669 --> 00:01:15,410
+ variable here to several
+
+43
+00:01:15,419 --> 00:01:16,480
+ variables there.
+
+44
+00:01:17,449 --> 00:01:19,190
+ And exactly for this reason,
+
+45
+00:01:19,260 --> 00:01:20,919
+ also my linear algebra
+
+46
+00:01:20,930 --> 00:01:22,510
+ course can help you there.
+
+47
+00:01:23,569 --> 00:01:25,180
+ This is what you will understand
+
+48
+00:01:25,190 --> 00:01:26,940
+ immediately when we write
+
+49
+00:01:26,949 --> 00:01:28,529
+ down functions from
+
+50
+00:01:28,540 --> 00:01:30,300
+ R^n to R^m.
+
+51
+00:01:31,430 --> 00:01:32,790
+ In the linear algebra course,
+
+52
+00:01:32,800 --> 00:01:34,510
+ such functions would
+
+53
+00:01:34,519 --> 00:01:36,139
+ be linear functions.
+
+54
+00:01:36,870 --> 00:01:38,849
+ However, here in multivariable
+
+55
+00:01:38,860 --> 00:01:40,739
+ calculus, we will consider
+
+56
+00:01:40,750 --> 00:01:42,419
+ a lot of different functions
+
+57
+00:01:42,430 --> 00:01:43,980
+ from R^n to R^m.
+
+58
+00:01:44,889 --> 00:01:46,250
+ But still, we will
+
+59
+00:01:46,260 --> 00:01:47,709
+ ask if we can
+
+60
+00:01:47,720 --> 00:01:49,589
+ approximate these functions
+
+61
+00:01:49,599 --> 00:01:51,069
+ with linear functions
+
+62
+00:01:52,110 --> 00:01:53,769
+ which as you might know from
+
+63
+00:01:53,779 --> 00:01:55,220
+ the one variable case
+
+64
+00:01:55,230 --> 00:01:56,779
+ leads to the notion of
+
+65
+00:01:56,790 --> 00:01:57,860
+ derivatives.
+
+66
+00:01:58,870 --> 00:02:00,699
+ Moreover, you also know
+
+67
+00:02:00,709 --> 00:02:02,599
+ such derivatives can help
+
+68
+00:02:02,610 --> 00:02:04,080
+ finding maxima and
+
+69
+00:02:04,089 --> 00:02:05,720
+ minima of functions.
+
+70
+00:02:06,910 --> 00:02:08,529
+ And now with this course,
+
+71
+00:02:08,538 --> 00:02:10,320
+ we will be able to do this
+
+72
+00:02:10,330 --> 00:02:12,160
+ for quantities of interest
+
+73
+00:02:12,169 --> 00:02:13,610
+ that depend on several
+
+74
+00:02:13,619 --> 00:02:14,360
+ factors.
+
+75
+00:02:15,419 --> 00:02:17,039
+ And indeed, you will see
+
+76
+00:02:17,050 --> 00:02:18,740
+ we have a lot of applications
+
+77
+00:02:18,750 --> 00:02:19,320
+ for this.
+
+78
+00:02:20,190 --> 00:02:21,550
+ In addition, this course
+
+79
+00:02:21,559 --> 00:02:22,919
+ now can help you to
+
+80
+00:02:22,929 --> 00:02:24,720
+ understand my more advanced
+
+81
+00:02:24,729 --> 00:02:25,440
+ courses.
+
+82
+00:02:26,389 --> 00:02:28,039
+ Indeed quite fitting after
+
+83
+00:02:28,050 --> 00:02:29,929
+ this will be my manifolds
+
+84
+00:02:29,940 --> 00:02:30,649
+ course.
+
+85
+00:02:31,539 --> 00:02:32,970
+ And also functional
+
+86
+00:02:32,979 --> 00:02:34,589
+ analysis will generalize
+
+87
+00:02:34,600 --> 00:02:36,199
+ a lot of topics from here.
+
+88
+00:02:37,059 --> 00:02:38,800
+ And lastly, I can tell you
+
+89
+00:02:38,809 --> 00:02:40,679
+ if you know how to deal with
+
+90
+00:02:40,690 --> 00:02:42,320
+ multivariable calculus,
+
+91
+00:02:42,330 --> 00:02:44,000
+ you also know how to deal
+
+92
+00:02:44,009 --> 00:02:45,520
+ with complex analysis.
+
+93
+00:02:46,529 --> 00:02:48,119
+ So in some sense here, you
+
+94
+00:02:48,130 --> 00:02:49,839
+ can use a lot of facts for
+
+95
+00:02:49,850 --> 00:02:51,649
+ functions from R² into
+
+96
+00:02:51,660 --> 00:02:52,309
+ R².
+
+97
+00:02:53,220 --> 00:02:53,679
+ OK.
+
+98
+00:02:53,690 --> 00:02:55,100
+ Now I think we can talk a
+
+99
+00:02:55,110 --> 00:02:56,600
+ little bit about the topics
+
+100
+00:02:56,610 --> 00:02:58,080
+ you can expect here.
+
+101
+00:02:58,830 --> 00:03:00,259
+ First, we start very
+
+102
+00:03:00,270 --> 00:03:02,000
+ simple and talk about
+
+103
+00:03:02,009 --> 00:03:03,600
+ continuous functions.
+
+104
+00:03:04,410 --> 00:03:06,160
+ So we will extend the definition
+
+105
+00:03:06,169 --> 00:03:08,119
+ of continuity that we
+
+106
+00:03:08,130 --> 00:03:09,949
+ learned in real analysis.
+
+107
+00:03:10,779 --> 00:03:12,570
+ Then in a similar sense,
+
+108
+00:03:12,580 --> 00:03:14,380
+ we will generalize the notion
+
+109
+00:03:14,389 --> 00:03:16,110
+ of a derivative from one
+
+110
+00:03:16,119 --> 00:03:18,029
+ variable. However,
+
+111
+00:03:18,039 --> 00:03:19,580
+ it turns out there are a
+
+112
+00:03:19,589 --> 00:03:21,330
+ lot of different possibilities
+
+113
+00:03:21,339 --> 00:03:22,020
+ for that.
+
+114
+00:03:22,029 --> 00:03:23,440
+ And therefore, we will talk
+
+115
+00:03:23,449 --> 00:03:25,059
+ about partial derivatives,
+
+116
+00:03:25,070 --> 00:03:26,979
+ directional derivatives and
+
+117
+00:03:26,990 --> 00:03:28,270
+ total derivatives.
+
+118
+00:03:29,220 --> 00:03:31,169
+ Indeed, we will see all
+
+119
+00:03:31,179 --> 00:03:32,619
+ of these notions will be
+
+120
+00:03:32,630 --> 00:03:33,770
+ important for us.
+
+121
+00:03:34,550 --> 00:03:36,220
+ Moreover, by using
+
+122
+00:03:36,229 --> 00:03:37,889
+ these things here, we can
+
+123
+00:03:37,899 --> 00:03:39,770
+ generalize an important theorem
+
+124
+00:03:39,779 --> 00:03:41,229
+ from real analysis,
+
+125
+00:03:41,300 --> 00:03:43,289
+ namely Taylor's theorem.
+
+126
+00:03:44,199 --> 00:03:45,679
+ So I would say this is a
+
+127
+00:03:45,690 --> 00:03:47,229
+ very important fact
+
+128
+00:03:47,330 --> 00:03:48,899
+ but also the most
+
+129
+00:03:48,910 --> 00:03:50,369
+ important fact for multi-
+
+130
+00:03:50,380 --> 00:03:52,149
+ variable calculus will be
+
+131
+00:03:52,160 --> 00:03:53,580
+ the implicit function
+
+132
+00:03:53,589 --> 00:03:54,259
+ theorem.
+
+133
+00:03:55,089 --> 00:03:56,889
+ In fact, this is a result
+
+134
+00:03:56,899 --> 00:03:58,449
+ that is used in a lot of
+
+135
+00:03:58,460 --> 00:03:59,369
+ applications
+
+136
+00:04:00,259 --> 00:04:01,639
+ and in a similar way, the
+
+137
+00:04:01,649 --> 00:04:03,429
+ next one here is also used
+
+138
+00:04:03,440 --> 00:04:04,080
+ a lot,
+
+139
+00:04:04,089 --> 00:04:05,910
+ it's the famous method of
+
+140
+00:04:06,410 --> 00:04:07,630
+ Lagrange multipliers.
+
+141
+00:04:08,399 --> 00:04:08,839
+ OK.
+
+142
+00:04:08,850 --> 00:04:10,220
+ There we have it, this is
+
+143
+00:04:10,229 --> 00:04:11,820
+ the overview of the course
+
+144
+00:04:11,830 --> 00:04:13,190
+ and we start in the next
+
+145
+00:04:13,199 --> 00:04:15,100
+ video with continuity.
+
+146
+00:04:16,048 --> 00:04:17,649
+ Therefore, I would say let's
+
+147
+00:04:17,660 --> 00:04:19,149
+ meet there and have a nice
+
+148
+00:04:19,160 --> 00:04:19,589
+ day.
+
+149
+00:04:19,640 --> 00:04:20,390
+ Bye.
+
