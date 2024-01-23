@@ -1,0 +1,5 @@
+0:00 Introduction
+0:30 Riemann integral
+2:00 Problems of Riemann integral
+7:50 Riemann integral definition
+9:13 Lebesgue integral - idea

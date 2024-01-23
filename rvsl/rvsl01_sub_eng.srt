@@ -1,0 +1,816 @@
+1
+00:00:00,000 --> 00:00:04,500
+Hello and welcome to Riemann integral vs. Lebesgue integral.
+
+2
+00:00:04,600 --> 00:00:09,842
+Often students ask me why we have two integral notions at all. 
+
+3
+00:00:09,942 --> 00:00:15,482
+Or why we need the Lebesgue integral when we already have the Riemann integral.
+
+4
+00:00:15,582 --> 00:00:22,500
+In this video, I explain why we go from the classical integral definition, which is the Riemann integral,
+
+5
+00:00:22,600 --> 00:00:26,100
+to the more modern one, which is the Lebesgue integral.
+
+6
+00:00:26,200 --> 00:00:29,700
+However, let us first start with the Riemann integral.
+
+7
+00:00:29,800 --> 00:00:36,300
+Here, we want to integrate a function f that starts from R and goes into R.
+
+8
+00:00:36,400 --> 00:00:43,900
+So a normal function defined on the real line and with values in the real line.
+
+9
+00:00:44,000 --> 00:00:50,500
+And as you should know, this integral is related to the calculation of an area below a graph.
+
+10
+00:00:50,600 --> 00:00:56,100
+So let me do a rough drawing of the graph of the function f here.
+
+11
+00:00:56,200 --> 00:01:03,700
+And consider an interval on the real line. So maybe start with a and go to b.
+
+12
+00:01:03,800 --> 00:01:14,500
+Then we are talking about this area below the graph. So exactly this one.
+
+13
+00:01:14,600 --> 00:01:25,100
+In short, this means the Riemann integral of the function f, from the interval [a,b], is related to this area here.
+
+14
+00:01:25,200 --> 00:01:33,700
+Therefore, we have the well-known idea to choose a partition of the x-axis and to approximate this area by choosing rectangles.
+
+15
+00:01:33,800 --> 00:01:39,300
+And this approximation is known as the lower sum or the upper sum.
+
+16
+00:01:39,400 --> 00:01:44,900
+So what I draw here is the well-known lower sum.
+
+17
+00:01:45,000 --> 00:01:48,500
+And if we now choose finer and finer partitions, 
+
+18
+00:01:48,600 --> 00:01:54,800
+we call this limit of the lower or upper sums the Riemann integral if the limit is well-defined.
+
+19
+00:01:54,900 --> 00:01:58,400
+Well, this was a short summary of the Riemann integral.
+
+20
+00:01:58,500 --> 00:02:02,000
+And now we immediately find some problems here. 
+
+21
+00:02:02,100 --> 00:02:07,600
+These problems give us a reason to define another integral notion.
+
+22
+00:02:07,700 --> 00:02:15,200
+Firstly, it is difficult to expand the Riemann integral to higher dimensions.
+
+23
+00:02:15,900 --> 00:02:23,400
+Yes, you can expand to higher dimensions. So it is possible but very laborious.
+
+24
+00:02:23,500 --> 00:02:25,600
+For example, if we would have a 2 here.
+
+25
+00:02:26,700 --> 00:02:34,200
+This means that the x-axis here is now a two-dimensional space.
+So we can't use rectangles for the partition.
+
+26
+00:02:35,300 --> 00:02:37,100
+Of course, we now could use cuboids.
+
+27
+00:02:37,200 --> 00:02:56,200
+So this is the two-dimensional space in the domain of definition R^2;
+then our partition is now just rectangles in the plane.
+And our integral approximation now is given by cuboids. So maybe in this way.
+
+28
+00:02:56,600 --> 00:03:07,200
+As you can see, it gets very technical and it will be much more
+work with additional dimension. Just one more dimension but you have to much more work.
+
+29
+00:03:07,300 --> 00:03:11,500
+For example, to build the limit process in the end.
+
+30
+00:03:11,600 --> 00:03:16,400
+This is directly clear if we consider the domain of definition here.
+
+31
+00:03:16,500 --> 00:03:25,400
+In the one-dimensional case, we only had an interval, which is an easy thing
+since it starts with a and ends with b. Just an interval.
+
+32
+00:03:25,500 --> 00:03:33,700
+But even if we add even one dimension more.
+So here is the picture, x1, x2, f(x1,x2).
+
+33
+00:03:33,800 --> 00:03:38,300
+So even if we even add just one dimension, there are a lot of more possibilities.
+
+34
+00:03:38,400 --> 00:03:44,000
+For example, the domain of definition for the function could be a circle in this plane.
+
+35
+00:03:44,100 --> 00:03:47,600
+So let us focus on the domain of definition now.
+
+36
+00:03:47,700 --> 00:04:00,200
+So I draw another picture, just the x1, x2 axis;
+and then we find the circle just there. 
+Now, what we now want to do is to choose a partition of the circle and put the cuboids above.
+
+37
+00:04:00,300 --> 00:04:17,400
+However, fo course, this is not exactly possible. So we can put rectangles inside the circle here.
+But as you can see: we even need a limit process to approximate the circle in the domain.
+
+38
+00:04:17,500 --> 00:04:23,000
+Again I say it: it is feasible but it's a lot more technical work.
+
+39
+00:04:23,100 --> 00:04:29,600
+In summary, this is one problem of the Riemann integral, 
+we directly understand. 
+
+40
+00:04:29,700 --> 00:04:33,200
+It is much more work to do this in higher dimensions. 
+
+41
+00:04:33,300 --> 00:04:38,700
+The second problem of the Riemann integral, and what you should know
+from this one dimensional case,
+
+42
+00:04:38,800 --> 00:04:44,350
+It is that we need some continuity property for the functions
+we want to integrate 
+
+43
+00:04:44,450 --> 00:04:45,950
+in other words:
+
+44
+00:04:46,050 --> 00:04:49,050
+we have some dependence on continuity.
+
+45
+00:04:49,150 --> 00:04:57,650
+Recall that in the best case, the function we want to integrate
+should be continuous. Then we don't have any problems.
+
+46
+00:04:57,750 --> 00:05:05,350
+However, if have discontinuity points, then there should be only finitely many of them.
+
+47
+00:05:05,450 --> 00:05:10,050
+But if we have infinitely many, it can destroy the integrability of the function.
+
+48
+00:05:10,150 --> 00:05:12,650
+I hope you know the typical example.
+
+49
+00:05:12,750 --> 00:05:18,250
+So an easy function that you can't integrate using the Riemann integral.
+
+50
+00:05:18,350 --> 00:05:23,450
+Hence, the dependence here is, indeed, a disadvantage of the Riemann integral.
+
+51
+00:05:23,550 --> 00:05:31,250
+Now the most important disadvantage of the Riemann integral is the relationship to limit processes.
+
+52
+00:05:31,350 --> 00:05:44,850
+The question here is in which situations is it allowed to interchange
+some limit processes? Or in other words, can I pull in the limit sign inside the integral sign.
+
+53
+00:05:44,950 --> 00:05:48,050
+So let me show this in an example.
+
+54
+00:05:48,150 --> 00:05:50,150
+So we have the limit n to infinity
+
+55
+00:05:50,250 --> 00:05:55,750
+and we integrate a function from a to b (so this is sequence of functions f_n)
+
+56
+00:05:55,850 --> 00:06:00,050
+and we integrate them with respect to x.
+
+57
+00:06:00,150 --> 00:06:08,850
+The question is then: when is allowed to pull or push the limit inside the integral.
+
+58
+00:06:08,950 --> 00:06:12,850
+When does this equality hold?
+
+59
+00:06:12,950 --> 00:06:17,450
+For the Riemann integral, we don't have many possibilities here.
+
+60
+00:06:17,550 --> 00:06:23,050
+We also need the uniform convergence of this sequence of functions.
+
+61
+00:06:23,150 --> 00:06:28,650
+only then we know that is allowed to pull the limit inside the integral.
+
+62
+00:06:28,750 --> 00:06:35,250
+However, this uniform convergence is a very strong notion, 
+
+63
+00:06:35,350 --> 00:06:36,850
+and in some sense, it's related to the continuity, again. 
+
+64
+00:06:36,950 --> 00:06:40,450
+And therefore, we want to weaken this notion.
+
+65
+00:06:40,550 --> 00:06:47,050
+Indeed, we have a lot of examples where there is no
+uniform convergence of the sequences of functions at all,
+
+66
+00:06:47,150 --> 00:06:50,250
+and we still have the same result on both sides. 
+
+67
+00:06:50,350 --> 00:06:56,550
+Hence we know it should be possible to generalise this convergence theorem.
+
+68
+00:06:57,250 --> 00:07:00,150
+However, not by using the Riemann integral.
+
+69
+00:07:00,250 --> 00:07:06,750
+The Riemann integral is just not flexible enough to prove such a convergence theorem.
+
+70
+00:07:06,850 --> 00:07:14,350
+Well these are three important points that show the difficulties
+we may have when we use the Riemann integral. 
+
+71
+00:07:14,450 --> 00:07:26,950
+Most importantly, we have a wish to the generalisation to higher dimensions.
+So we want an integral notion that is not restricted to one dimension. 
+
+72
+00:07:27,050 --> 00:07:34,550
+So we don't want to do all the work again if we just change the space of the domain of definition here.
+
+73
+00:07:34,650 --> 00:07:39,150
+We want an integral that works in every dimension the same.
+
+74
+00:07:39,250 --> 00:07:42,750
+In order to understand this generalisation,
+
+75
+00:07:42,850 --> 00:07:45,350
+we need more technical details.
+
+76
+00:07:45,450 --> 00:07:49,950
+Hence, I would suggest, we start with the Riemann integral.
+
+77
+00:07:50,050 --> 00:07:58,550
+Again, we do some sketch (so we have the x- and the y-axis). We also have a function, where I draw the graph in green.
+
+78
+00:07:58,650 --> 00:08:05,050
+So we have a function with values in the real numbers.
+
+79
+00:08:05,150 --> 00:08:14,550
+For the Riemann integral we now choose a partition of the x-axis as before;
+and now we can calculate the upper and lower sum. 
+
+80
+00:08:14,650 --> 00:08:16,150
+Here I have drawn the lower sum.
+
+81
+00:08:16,250 --> 00:08:23,450
+This means that we take the infimum in each subinterval for the height of the rectangles.
+
+82
+00:08:23,550 --> 00:08:29,050
+And for the upper sum, we will take the supremum.
+
+83
+00:08:29,150 --> 00:08:32,650
+So here, for example, this rectangle. Hence we get the upper sum.
+
+84
+00:08:32,750 --> 00:08:42,050
+If the difference between the upper and lower sum can be made
+arbitrarily small, for a finer partition, 
+
+85
+00:08:42,150 --> 00:08:45,650
+then we can define the Riemann integral.
+
+86
+00:08:45,750 --> 00:08:51,250
+Then you can define it as the supremum of the lower sums or the infimum of the upper sums.
+
+87
+00:08:51,350 --> 00:08:58,550
+This is then the same value
+and this value is then called the Riemann integral for the function f in the intervall [a,b].
+
+88
+00:08:58,650 --> 00:09:07,150
+In order to this, it was necessary that we have a function that goes from the real numbers into the real numbers. 
+
+89
+00:09:07,250 --> 00:09:12,050
+Otherwise, we can't do the partition of the x-axis, and we don't have a height.
+
+90
+00:09:12,150 --> 00:09:16,650
+The idea of the Lebesgue integral is now different.
+
+91
+00:09:16,750 --> 00:09:18,250
+
+92
+00:09:18,350 --> 00:09:23,850
+As you have seen before, it was very restrictive to find a partition of the domain of definition.
+
+93
+00:09:23,950 --> 00:09:27,050
+(if it is not R itself)
+
+94
+00:09:27,150 --> 00:09:29,650
+If, for example, we have a three-dimensional space, 
+
+95
+00:09:29,750 --> 00:09:33,450
+then we can't find a partition easily.
+
+96
+00:09:33,550 --> 00:09:37,050
+But we map still in the real numbers.
+
+97
+00:09:37,150 --> 00:09:41,150
+So the right-hand side is still the same since we consider functions,
+
+98
+00:09:41,250 --> 00:09:43,750
+so functions with values in the real numbers.
+
+99
+00:09:43,850 --> 00:09:47,850
+So this is the same, but the left-hand side not the same.
+
+100
+00:09:47,950 --> 00:09:51,450
+This means that the domain of definition, the left-hand side here, 
+
+101
+00:09:51,550 --> 00:10:00,050
+can be very high-, or even very abstract,
+and therefore, we don't know what a meaningful partition of the left-hand side should be.
+
+102
+00:10:00,150 --> 00:10:06,650
+Just because we don't have these simple intervals in a higher dimensional or abstract space.
+
+103
+00:10:06,650 --> 00:10:13,250
+However, on the right-hand side, we still find the real numbers, the one-dimensional space of the real numbers. 
+
+104
+00:10:13,250 --> 00:10:21,350
+So instead of finding for a partition of the x-axis;
+it would be easier to just find a partition of the y-axis.
+
+105
+00:10:21,450 --> 00:10:25,550
+And indeed, this is what the Lebesgue integral does.
+
+106
+00:10:25,650 --> 00:10:36,880
+Although, this is not the way, the Lebesgue measure is normally introduced.
+However it is still a very good idea to visualise the Lebesgue integral.
+
+107
+00:10:36,950 --> 00:10:40,450
+So let us draw the graph again.
+
+108
+00:10:40,550 --> 00:10:52,050
+And keep in mind, the x-axis may be high-dimensional or even abstract, but the y-axis is still the real line.
+
+109
+00:10:52,150 --> 00:10:59,650
+And that is what we decompose now.
+Since this is only the real line, we can find the same interval partition as before.
+
+110
+00:10:59,750 --> 00:11:03,250
+So we choose some values and define some intervals here.
+
+111
+00:11:03,350 --> 00:11:09,550
+So this is a partition of the real line as we did before on the Riemann integral on the x-axis.
+
+112
+00:11:09,750 --> 00:11:19,250
+So maybe we call these partition elements C_i,
+while in the Riemann integral we usually call them x_i.
+
+113
+00:11:19,350 --> 00:11:27,350
+Maybe as a reminder: In the Riemann integral we defined an upper sum
+of some partition of the x-axis.
+
+114
+00:11:27,450 --> 00:11:35,950
+So you would write U(P)
+and this is the sum of the rectangles,
+
+115
+00:11:36,050 --> 00:11:50,050
+which means we have the sum and then choose the supremum 
+inside the interval times the length Delta x_i.
+
+116
+00:11:50,150 --> 00:12:02,450
+And you can do the same for the lower sum L(P),
+given by infimum in the given interval
+
+117
+00:12:07,550 --> 00:12:15,050
+times the length of the rectangles/intervals
+Delta x_i.
+
+118
+00:12:15,150 --> 00:12:17,650
+In this way, we defined the Riemann integral. 
+
+119
+00:12:17,750 --> 00:12:23,250
+However, now we want to decompose the y-axis,
+for getting the Lebesgue integral.
+
+120
+00:12:23,350 --> 00:12:29,850
+We have the following picture.
+For example, this line here ...
+
+121
+00:12:29,950 --> 00:12:44,450
+... this value gives you this line from here
+and we have this line here.
+
+122
+00:12:44,550 --> 00:12:50,550
+Now, we want to find all the parts of the function
+that lie between these two lines.
+
+123
+00:12:50,650 --> 00:12:55,150
+So meaning: inside this interval in the real line.
+
+124
+00:12:55,250 --> 00:13:04,750
+This means that we don't draw rectangles like before, but we look at which parts of the function
+fall between these two lines.
+
+125
+00:13:04,850 --> 00:13:17,350
+So we find here that we have a part on the left-hand side,
+so we find all the arguments in x, that lie in this set,
+
+126
+00:13:17,450 --> 00:13:23,950
+are sent to values inside this interval by the function f.
+
+127
+00:13:24,050 --> 00:13:25,550
+And we also have here a part of the function.
+
+128
+00:13:25,650 --> 00:13:34,150
+And we find all the arguments of x that are sent 
+
+129
+00:13:34,250 --> 00:13:36,750
+to the interval.
+
+130
+00:13:37,850 --> 00:13:44,350
+Now these two parts are associated to the decomposition/partition of the y-axis, c_i, we chose.
+
+131
+00:13:45,450 --> 00:13:50,950
+This is similar to the idea of the Riemann integral,
+
+132
+00:13:51,050 --> 00:13:53,150
+but we immediately see
+
+133
+00:13:53,250 --> 00:13:59,550
+that the decomposition of the x-axis below here is not connected.
+
+134
+00:13:59,650 --> 00:14:03,150
+Then we have different sets that are not connected like the intervals
+that we saw before.
+
+135
+00:14:03,250 --> 00:14:08,750
+And this is the whole idea. Instead of choosing a fixed partition of the x-axis,
+
+136
+00:14:08,850 --> 00:14:13,650
+we now choose a partition of the y-axis, of the values of the function.
+
+137
+00:14:13,750 --> 00:14:17,050
+And then we get a useful partition of the x-axis
+
+138
+00:14:17,150 --> 00:14:18,650
+that we can work with.
+
+139
+00:14:19,750 --> 00:14:26,250
+Now the next question could be how to measure these lengths
+on the x-axis below.
+
+140
+00:14:26,350 --> 00:14:36,850
+Therefore on the domain of definition which is here
+R^3, (or it could be some space)
+
+141
+00:14:36,950 --> 00:14:42,450
+We need a so-called measure.
+We want to measure volumes in the space.
+
+142
+00:14:42,550 --> 00:14:47,750
+This means that we want to measure the size of sets
+inside this space.
+
+143
+00:14:47,850 --> 00:14:58,350
+For example, if this space is R, we measure lengths.
+In R^2, we measure areas.
+In R^3, we measure volumes of sets.
+
+144
+00:14:58,450 --> 00:15:02,950
+But, in an abstract sense, we will always speak of VOLUMES.
+
+145
+00:15:03,050 --> 00:15:13,550
+Hence, on the x-axis here we could choose a general measure space. We just have to know how to measure
+the size of sets,
+
+146
+00:15:13,650 --> 00:15:15,150
+the volumes of sets!
+
+147
+00:15:15,250 --> 00:15:18,750
+Such a measure space is usually denoted by Ω.
+
+148
+00:15:18,850 --> 00:15:20,350
+
+149
+00:15:20,450 --> 00:15:27,950
+This means that in the end we will have an integral that
+works on all functions that are defined on some measure space Ω.
+
+150
+00:15:28,350 --> 00:15:31,350
+Indeed, this is all we need to define the integral.
+
+151
+00:15:31,450 --> 00:15:36,950
+Now you see how we could define
+an "upper sum" in some sense.
+
+152
+00:15:37,050 --> 00:15:39,550
+So we take these c_i here,
+
+153
+00:15:39,650 --> 00:15:56,150
+and now I want the c_i to be this one. So the c_i is this stripe here.
+So this would be an upper sum of the integral if we know the measure of these sets together.
+
+154
+00:15:56,250 --> 00:16:04,750
+Of course, these blue sets are the preimage of this interval under the function f.
+
+155
+00:16:04,850 --> 00:16:06,900
+Maybe we just call it A.
+
+156
+00:16:07,000 --> 00:16:13,000
+Now if I call the measure we have here in our measure space just by
+μ,
+
+157
+00:16:13,100 --> 00:16:17,600
+then we calculate this generalised rectangle.
+
+158
+00:16:17,700 --> 00:16:35,200
+It is c_i (the height) times the length on the bottom. This is the measure of our set A, μ(A).
+Now we have one part of the whole integral and now we can do it for the whole partition.
+
+159
+00:16:35,300 --> 00:16:45,300
+So we have a finite sum over i.
+c_i times μ(Ai)
+Of course, I should also put an index i on the preimage. Then we have a sum.
+
+160
+00:16:45,400 --> 00:16:50,900
+Since we chose a finite partition on the y-axis, we have finite sum here.
+
+161
+00:16:50,900 --> 00:16:56,000
+and it will be the upper or lower sum depending which
+
+162
+00:16:56,100 --> 00:16:57,000
+c_i we chose here.
+
+163
+00:16:57,300 --> 00:17:02,200
+Then again, with some limit process with finer partitions
+
+164
+00:17:02,300 --> 00:17:04,800
+we will get the Lebesgue integral.
+
+165
+00:17:04,900 --> 00:17:08,400
+Usually denoted by integral f dμ.
+
+166
+00:17:08,500 --> 00:17:13,000
+Since it is now depending on the measure we chose on the x-axis.
+
+167
+00:17:13,100 --> 00:17:21,600
+This construction now works with arbitrary measure spaces,
+since the x-axis does not need a partition any more.
+
+168
+00:17:24,700 --> 00:17:31,200
+We just need a partition of the axis that is R anyway.
+However, in this case, we really need the notion of a measure,
+
+169
+00:17:31,300 --> 00:17:33,800
+even in one dimension.
+
+170
+00:17:33,900 --> 00:17:36,400
+So here, in R, we know what the length of a subinterval is,
+
+171
+00:17:36,500 --> 00:17:40,000
+it is simply the difference between the right side
+and the left side.
+
+172
+00:17:40,100 --> 00:17:42,200
+But here we need more.
+
+173
+00:17:42,300 --> 00:17:51,800
+Or in other words:
+In the Riemann integral we only measured the lengths of intervals
+but in the Lebesgue integral we can have any fragmentation
+
+174
+00:17:51,900 --> 00:17:54,900
+and we have to know the measure of this fragmentation.
+
+175
+00:17:55,000 --> 00:17:59,500
+But if we know how to measure any set in the real line,
+
+176
+00:17:59,600 --> 00:18:02,100
+then we have a very robust integral definition.
+
+177
+00:18:02,200 --> 00:18:07,700
+Well this generalizes the Riemann integral and eliminates
+
+178
+00:18:07,800 --> 00:18:11,000
+all problems we had in higher dimensions.
+
+179
+00:18:11,100 --> 00:18:19,600
+Since this measure theory works for any dimension you want. We just have to know how to measure volumes.
+
+180
+00:18:19,700 --> 00:18:30,200
+We have also eliminated the problem of dependency on continuity
+since we can now measure the size of the set of points where
+there is discontinuity.
+
+181
+00:18:30,300 --> 00:18:40,800
+For example, if we had a set with infinite points of discontinuity,
+but the measure of this whole set was 0,
+
+182
+00:18:40,900 --> 00:18:44,000
+we don't have a problem in the definition of the integral at all.
+
+183
+00:18:44,100 --> 00:18:49,100
+And also for the last point, so these limit processes,
+
+184
+00:18:49,200 --> 00:18:51,100
+we have good answers for.
+
+185
+00:18:51,200 --> 00:18:58,700
+We will see that we have very good limit theorems
+that describe these limit processes
+for the Lebesgue integral.
+
+186
+00:18:58,800 --> 00:19:05,300
+Even strong results for the one-dimensional case but also in the general case of measure spaces.
+
+187
+00:19:05,400 --> 00:19:12,900
+Okay, to sum it up, the Riemann integral is the classical notion,
+it may be easier to understand at a beginner level,
+
+188
+00:19:13,000 --> 00:19:14,500
+but in the end, everyone wants to work with the Lebesgue integral.
+
+189
+00:19:14,600 --> 00:19:16,100
+Thank you very much and see you next time.
+
