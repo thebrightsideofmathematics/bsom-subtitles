@@ -1,0 +1,6 @@
+
+00:00 Recap sigma algebra
+00:50 Intersections of sigma algebra
+02:18 Generated sigma algebra
+04:38 Example
+08:30 Definition Borel sigma algebra
