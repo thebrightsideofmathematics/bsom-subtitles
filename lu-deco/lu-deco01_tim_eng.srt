@@ -1,0 +1,7 @@
+0:00 Introduction
+0:33 Example
+1:45 First step
+2:41 Eliminating the first column
+5:35  Eliminating the second column
+7:10 Eliminating the third column
+7:38 LU decomposition
