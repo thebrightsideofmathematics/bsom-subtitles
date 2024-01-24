@@ -1,0 +1,11 @@
+00:00 Introduction
+00:26 Measure - Definition
+03:08 Empty set has measure zero
+03:35 Additivity
+05:59 Sigma-additivity
+07:54 Summary
+08:43 Measure space
+09:18 Examples
+09:40 Counting measure
+12:30 Dirac measure
+14:12 Lebesgue measure
