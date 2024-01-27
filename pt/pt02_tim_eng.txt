@@ -1,0 +1,10 @@
+Probability Theory - Part 2
+
+00:00 Idea of a probability measure
+01:40 Requirements
+04:19 Sigma algebra
+05:50 Sigma additivity
+06:31 Definition probability measure
+07:22 Example
+08:57 Exercise about properties of probability measures
+09:30 Outro
