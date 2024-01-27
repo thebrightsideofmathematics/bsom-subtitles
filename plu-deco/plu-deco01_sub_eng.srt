@@ -1,0 +1,1056 @@
+1
+00:00:00,400 --> 00:00:02,150
+ Hello and welcome to this
+
+2
+00:00:02,160 --> 00:00:03,819
+ video about linear algebra.
+
+3
+00:00:03,950 --> 00:00:05,230
+ And as always many, many
+
+4
+00:00:05,239 --> 00:00:06,800
+ thanks to all the nice people
+
+5
+00:00:06,809 --> 00:00:07,989
+ that support me on Steady
+
+6
+00:00:08,000 --> 00:00:08,819
+ or paypal.
+
+7
+00:00:09,210 --> 00:00:10,699
+ If you want a PDF version
+
+8
+00:00:10,710 --> 00:00:12,329
+ of this video, the link is
+
+9
+00:00:12,340 --> 00:00:13,779
+ in the description. Today's
+
+10
+00:00:13,789 --> 00:00:15,239
+ topic is the so-called
+
+11
+00:00:15,250 --> 00:00:16,639
+ plu decomposition
+
+12
+00:00:16,649 --> 00:00:17,299
+ for matrices.
+
+13
+00:00:17,969 --> 00:00:19,780
+ You can see this as a supplemental
+
+14
+00:00:19,790 --> 00:00:21,270
+ video if you have already
+
+15
+00:00:21,280 --> 00:00:22,780
+ watched my video about the
+
+16
+00:00:22,790 --> 00:00:23,979
+ LU decomposition.
+
+17
+00:00:24,719 --> 00:00:26,209
+ In other words, this is just
+
+18
+00:00:26,219 --> 00:00:27,280
+ a generalization.
+
+19
+00:00:27,719 --> 00:00:29,600
+ However, L still stands for
+
+20
+00:00:29,610 --> 00:00:31,090
+ a lower triangular matrix.
+
+21
+00:00:31,100 --> 00:00:33,000
+ Hence it's always a square
+
+22
+00:00:33,009 --> 00:00:34,709
+ matrix but
+
+23
+00:00:34,720 --> 00:00:36,349
+ U in general is not a
+
+24
+00:00:36,360 --> 00:00:38,040
+ square matrix because it
+
+25
+00:00:38,049 --> 00:00:39,360
+ always needs to be of the
+
+26
+00:00:39,369 --> 00:00:41,159
+ same size as the original
+
+27
+00:00:41,169 --> 00:00:42,959
+ matrix we want to decompose.
+
+28
+00:00:43,419 --> 00:00:44,759
+ So what we want to get out
+
+29
+00:00:44,770 --> 00:00:46,290
+ here is this so-called row
+
+30
+00:00:46,380 --> 00:00:47,529
+ echelon form.
+
+31
+00:00:47,810 --> 00:00:49,259
+ Please note for a square
+
+32
+00:00:49,270 --> 00:00:50,750
+ matrix, this would be an
+
+33
+00:00:50,759 --> 00:00:52,240
+ upper triangular matrix.
+
+34
+00:00:52,250 --> 00:00:53,720
+ So we still denote it by
+
+35
+00:00:53,729 --> 00:00:54,099
+ U.
+
+36
+00:00:54,770 --> 00:00:56,080
+ And the last ingredient we
+
+37
+00:00:56,090 --> 00:00:57,709
+ have here is the matrix P
+
+38
+00:00:57,720 --> 00:00:59,290
+ which saves all the row
+
+39
+00:00:59,299 --> 00:01:00,729
+ exchanges we have to do.
+
+40
+00:01:01,150 --> 00:01:02,389
+ Therefore, this is what we
+
+41
+00:01:02,400 --> 00:01:04,309
+ call a permutation matrix.
+
+42
+00:01:04,510 --> 00:01:04,870
+ OK.
+
+43
+00:01:04,879 --> 00:01:06,209
+ Now you know the three parts
+
+44
+00:01:06,220 --> 00:01:07,269
+ of the decomposition.
+
+45
+00:01:07,279 --> 00:01:08,949
+ So let's calculate them for
+
+46
+00:01:08,959 --> 00:01:10,709
+ an example, I want the
+
+47
+00:01:10,720 --> 00:01:12,610
+ matrix A to be a four times
+
+48
+00:01:12,620 --> 00:01:13,669
+ five matrix
+
+49
+00:01:14,440 --> 00:01:15,440
+ there we have it.
+
+50
+00:01:15,449 --> 00:01:16,730
+ This is the matrix I have
+
+51
+00:01:16,739 --> 00:01:17,760
+ chosen for today.
+
+52
+00:01:18,220 --> 00:01:19,580
+ Now, if you want to start
+
+53
+00:01:19,589 --> 00:01:21,120
+ here with your common LU
+
+54
+00:01:21,129 --> 00:01:22,739
+ decomposition, you immediately
+
+55
+00:01:22,750 --> 00:01:23,739
+ find the problem.
+
+56
+00:01:24,250 --> 00:01:25,809
+ You can't use the zero as
+
+57
+00:01:25,819 --> 00:01:27,599
+ a pivot to eliminate all
+
+58
+00:01:27,610 --> 00:01:28,639
+ the other numbers in the
+
+59
+00:01:28,650 --> 00:01:29,500
+ first column.
+
+60
+00:01:29,790 --> 00:01:31,000
+ Hence, the first step you
+
+61
+00:01:31,010 --> 00:01:32,569
+ need to do is to go through
+
+62
+00:01:32,580 --> 00:01:34,550
+ the column to find a nonzero
+
+63
+00:01:34,559 --> 00:01:36,279
+ element to use as a pivot.
+
+64
+00:01:37,309 --> 00:01:37,720
+ OK.
+
+65
+00:01:37,730 --> 00:01:39,279
+ We find it in the *second* row.
+
+66
+00:01:39,290 --> 00:01:40,910
+ Therefore, we need to exchange
+
+67
+00:01:40,919 --> 00:01:42,180
+ the first and the second
+
+68
+00:01:42,190 --> 00:01:42,550
+ row.
+
+69
+00:01:42,980 --> 00:01:44,620
+ Now a permutation matrix
+
+70
+00:01:44,629 --> 00:01:46,489
+ that exchanges row one with
+
+71
+00:01:46,500 --> 00:01:48,339
+ row two looks like this.
+
+72
+00:01:48,989 --> 00:01:50,220
+ It's simply a four times
+
+73
+00:01:50,230 --> 00:01:51,769
+ four identity matrix where
+
+74
+00:01:51,779 --> 00:01:53,160
+ we flip the two rows, we're
+
+75
+00:01:53,169 --> 00:01:55,089
+ interested in an important
+
+76
+00:01:55,099 --> 00:01:56,940
+ property is now if we square
+
+77
+00:01:56,949 --> 00:01:58,839
+ that matrix, we get out our
+
+78
+00:01:58,849 --> 00:02:00,220
+ identity matrix.
+
+79
+00:02:00,349 --> 00:02:01,750
+ Hence, this is our first
+
+80
+00:02:01,760 --> 00:02:02,120
+ step.
+
+81
+00:02:02,129 --> 00:02:03,480
+ We just apply the identity
+
+82
+00:02:03,489 --> 00:02:04,629
+ matrix on the left.
+
+83
+00:02:05,199 --> 00:02:06,580
+ Then in the next step, we
+
+84
+00:02:06,589 --> 00:02:08,130
+ multiply one of the two
+
+85
+00:02:08,139 --> 00:02:09,839
+ matrices to the right, which
+
+86
+00:02:09,850 --> 00:02:11,289
+ means we exchange the two
+
+87
+00:02:11,300 --> 00:02:11,940
+ rows here.
+
+88
+00:02:12,639 --> 00:02:14,449
+ Afterwards, we have our pivot
+
+89
+00:02:14,460 --> 00:02:15,649
+ at the correct position.
+
+90
+00:02:16,330 --> 00:02:17,800
+ This means that we now can
+
+91
+00:02:17,809 --> 00:02:19,539
+ put the L matrix into the
+
+92
+00:02:19,550 --> 00:02:19,940
+ game.
+
+93
+00:02:20,360 --> 00:02:21,470
+ It should be a four times
+
+94
+00:02:21,479 --> 00:02:22,300
+ four matrix.
+
+95
+00:02:22,309 --> 00:02:24,130
+ So we start as usual with
+
+96
+00:02:24,139 --> 00:02:25,220
+ the identity matrix.
+
+97
+00:02:25,990 --> 00:02:27,110
+ And now we have to do the
+
+98
+00:02:27,119 --> 00:02:28,649
+ Gaussian elimination in the
+
+99
+00:02:28,660 --> 00:02:29,529
+ first column.
+
+100
+00:02:30,089 --> 00:02:31,710
+ So we want to generate zeros
+
+101
+00:02:31,720 --> 00:02:33,419
+ below the pivot which means
+
+102
+00:02:33,429 --> 00:02:34,970
+ that we are already finished
+
+103
+00:02:34,979 --> 00:02:35,410
+ here.
+
+104
+00:02:35,949 --> 00:02:37,699
+ In other words, second row
+
+105
+00:02:37,710 --> 00:02:39,559
+ minus zero (times) the first
+
+106
+00:02:39,570 --> 00:02:41,490
+ row. And the zero
+
+107
+00:02:41,500 --> 00:02:43,410
+ then goes into the L matrix.
+
+108
+00:02:44,100 --> 00:02:45,210
+ So this was easy.
+
+109
+00:02:45,220 --> 00:02:46,910
+ So let's go to the next number
+
+110
+00:02:46,919 --> 00:02:47,919
+ which is two.
+
+111
+00:02:48,320 --> 00:02:50,160
+ So third row minus
+
+112
+00:02:50,169 --> 00:02:52,000
+ two times the first row
+
+113
+00:02:52,529 --> 00:02:54,270
+ and the multiple we subtract
+
+114
+00:02:54,279 --> 00:02:56,139
+ is the number that goes into
+
+115
+00:02:56,149 --> 00:02:57,130
+ the L matrix.
+
+116
+00:02:57,600 --> 00:02:58,850
+ Also not so hard.
+
+117
+00:02:58,860 --> 00:03:00,289
+ The only number that changes
+
+118
+00:03:00,300 --> 00:03:01,649
+ is the five that gets to
+
+119
+00:03:01,660 --> 00:03:02,210
+ a three.
+
+120
+00:03:02,639 --> 00:03:03,850
+ And the last number in the
+
+121
+00:03:03,860 --> 00:03:05,149
+ column is the one.
+
+122
+00:03:05,479 --> 00:03:06,949
+ So we subtract one.
+
+123
+00:03:07,369 --> 00:03:08,639
+ And as before, this is the
+
+124
+00:03:08,649 --> 00:03:10,110
+ number that goes into the
+
+125
+00:03:10,119 --> 00:03:10,910
+ L matrix.
+
+126
+00:03:11,470 --> 00:03:13,380
+ And with that, we are finished
+
+127
+00:03:13,389 --> 00:03:15,339
+ with the first Gaussian elimination.
+
+128
+00:03:16,029 --> 00:03:17,100
+ Then in the next step, we
+
+129
+00:03:17,110 --> 00:03:18,490
+ go to the next column and
+
+130
+00:03:18,500 --> 00:03:19,729
+ choose the next pivot.
+
+131
+00:03:19,740 --> 00:03:21,449
+ And we see it's nonzero.
+
+132
+00:03:21,460 --> 00:03:22,860
+ So we don't need any row
+
+133
+00:03:22,869 --> 00:03:23,869
+ exchanges here.
+
+134
+00:03:24,449 --> 00:03:25,660
+ Otherwise we do the same
+
+135
+00:03:25,669 --> 00:03:27,110
+ as before we generate
+
+136
+00:03:27,119 --> 00:03:28,679
+ zeros below the pivot.
+
+137
+00:03:29,380 --> 00:03:30,550
+ In the first step, we just
+
+138
+00:03:30,559 --> 00:03:31,809
+ have to subtract one.
+
+139
+00:03:32,500 --> 00:03:34,300
+ And as before this one goes
+
+140
+00:03:34,309 --> 00:03:36,279
+ immediately to our L matrix.
+
+141
+00:03:36,910 --> 00:03:38,000
+ On the other side, we get
+
+142
+00:03:38,009 --> 00:03:39,690
+ a lot of zeros and one
+
+143
+00:03:39,699 --> 00:03:40,039
+ here.
+
+144
+00:03:40,770 --> 00:03:41,869
+ And then in the next step,
+
+145
+00:03:41,880 --> 00:03:43,410
+ we have to subtract two times
+
+146
+00:03:43,419 --> 00:03:44,240
+ the second row.
+
+147
+00:03:44,710 --> 00:03:46,070
+ This too then goes as
+
+148
+00:03:46,080 --> 00:03:48,050
+ always into the L matrix.
+
+149
+00:03:48,550 --> 00:03:49,789
+ And with that calculation,
+
+150
+00:03:49,800 --> 00:03:50,869
+ we are finished with the
+
+151
+00:03:50,880 --> 00:03:52,500
+ second column, let's go to
+
+152
+00:03:52,509 --> 00:03:53,270
+ the third column.
+
+153
+00:03:53,929 --> 00:03:54,389
+ OK.
+
+154
+00:03:54,399 --> 00:03:56,100
+ So this is not a pivot,
+
+155
+00:03:56,279 --> 00:03:57,949
+ but this is also not a pivot.
+
+156
+00:03:58,000 --> 00:03:59,639
+ So there are no pivots in
+
+157
+00:03:59,649 --> 00:04:00,550
+ the third column.
+
+158
+00:04:01,229 --> 00:04:02,690
+ This means that this column
+
+159
+00:04:02,699 --> 00:04:04,279
+ is finished, we have to go
+
+160
+00:04:04,289 --> 00:04:05,220
+ to the next column.
+
+161
+00:04:05,929 --> 00:04:07,580
+ However, there we also find
+
+162
+00:04:07,589 --> 00:04:09,460
+ a zero which is not a pivot,
+
+163
+00:04:09,570 --> 00:04:11,199
+ but there is another pivot
+
+164
+00:04:11,210 --> 00:04:11,800
+ below.
+
+165
+00:04:12,889 --> 00:04:14,029
+ And with that, we know what
+
+166
+00:04:14,039 --> 00:04:15,470
+ to do, we have to do a row
+
+167
+00:04:15,479 --> 00:04:16,190
+ exchange.
+
+168
+00:04:16,980 --> 00:04:18,358
+ In order to do that, we will
+
+169
+00:04:18,369 --> 00:04:19,890
+ insert the identity matrix
+
+170
+00:04:19,899 --> 00:04:20,298
+ again.
+
+171
+00:04:21,029 --> 00:04:22,869
+ So this is again a permutation
+
+172
+00:04:22,880 --> 00:04:24,559
+ matrix squared where we have
+
+173
+00:04:24,570 --> 00:04:26,200
+ now the permutation matrix,
+
+174
+00:04:26,209 --> 00:04:27,920
+ third row to
+
+175
+00:04:27,929 --> 00:04:29,589
+ fourth row, of
+
+176
+00:04:29,600 --> 00:04:30,880
+ course, one of them, we can
+
+177
+00:04:30,890 --> 00:04:32,119
+ apply to the right hand side
+
+178
+00:04:32,130 --> 00:04:34,040
+ again to get our row exchange.
+
+179
+00:04:34,549 --> 00:04:35,760
+ Indeed, there we get what
+
+180
+00:04:35,769 --> 00:04:36,250
+ we want.
+
+181
+00:04:36,260 --> 00:04:37,720
+ Now we have to pivot at the
+
+182
+00:04:37,730 --> 00:04:38,600
+ correct position.
+
+183
+00:04:39,350 --> 00:04:40,839
+ However, the permutation
+
+184
+00:04:40,850 --> 00:04:42,230
+ matrix is not at the correct
+
+185
+00:04:42,239 --> 00:04:43,130
+ position yet.
+
+186
+00:04:43,160 --> 00:04:44,399
+ We need that on the left
+
+187
+00:04:44,440 --> 00:04:45,019
+ hand side.
+
+188
+00:04:45,820 --> 00:04:47,390
+ Therefore, in the next step,
+
+189
+00:04:47,399 --> 00:04:48,859
+ we will also add the identity
+
+190
+00:04:48,869 --> 00:04:50,589
+ matrix on the left hand side.
+
+191
+00:04:51,299 --> 00:04:52,679
+ So here again, we have the
+
+192
+00:04:52,690 --> 00:04:54,320
+ permutation matrix squared.
+
+193
+00:04:55,119 --> 00:04:56,709
+ Now, you know, when we apply
+
+194
+00:04:56,720 --> 00:04:58,369
+ this matrix to the right,
+
+195
+00:04:58,410 --> 00:04:59,929
+ we will exchange these two
+
+196
+00:04:59,940 --> 00:05:00,660
+ rows here.
+
+197
+00:05:01,089 --> 00:05:02,679
+ However, if we apply this
+
+198
+00:05:02,690 --> 00:05:04,480
+ matrix to the left, we will
+
+199
+00:05:04,489 --> 00:05:05,799
+ exchange the corresponding
+
+200
+00:05:05,809 --> 00:05:06,459
+ columns.
+
+201
+00:05:07,220 --> 00:05:09,140
+ Nevertheless, this is exactly
+
+202
+00:05:09,149 --> 00:05:10,790
+ what we do in the next step.
+
+203
+00:05:10,799 --> 00:05:12,470
+ First exchanging the
+
+204
+00:05:12,480 --> 00:05:14,029
+ rows looks like this.
+
+205
+00:05:14,690 --> 00:05:16,589
+ And afterwards, we exchanged
+
+206
+00:05:16,600 --> 00:05:18,450
+ the columns which
+
+207
+00:05:18,459 --> 00:05:19,850
+ results in this
+
+208
+00:05:19,859 --> 00:05:20,609
+ matrix.
+
+209
+00:05:21,140 --> 00:05:22,690
+ The good thing is you see
+
+210
+00:05:22,700 --> 00:05:24,170
+ we get again a lower
+
+211
+00:05:24,179 --> 00:05:25,399
+ triangular matrix
+
+212
+00:05:26,040 --> 00:05:27,709
+ but don't oversee that this
+
+213
+00:05:27,720 --> 00:05:29,160
+ really changes the matrix
+
+214
+00:05:29,170 --> 00:05:30,170
+ L from before.
+
+215
+00:05:30,339 --> 00:05:31,529
+ The good thing is you can
+
+216
+00:05:31,540 --> 00:05:33,059
+ remember the whole operation
+
+217
+00:05:33,070 --> 00:05:34,269
+ by just doing the row
+
+218
+00:05:34,390 --> 00:05:36,070
+ exchange in the blue part
+
+219
+00:05:36,079 --> 00:05:36,420
+ here.
+
+220
+00:05:37,059 --> 00:05:38,329
+ However, of course, now you
+
+221
+00:05:38,339 --> 00:05:39,500
+ have seen where it really
+
+222
+00:05:39,510 --> 00:05:40,179
+ comes from.
+
+223
+00:05:40,959 --> 00:05:41,299
+ OK.
+
+224
+00:05:41,309 --> 00:05:42,779
+ Now that everything is in
+
+225
+00:05:42,790 --> 00:05:44,670
+ the right order, we can continue
+
+226
+00:05:44,679 --> 00:05:45,540
+ our procedure.
+
+227
+00:05:46,250 --> 00:05:47,510
+ This means that we want to
+
+228
+00:05:47,519 --> 00:05:49,269
+ generate a zero here, but
+
+229
+00:05:49,279 --> 00:05:50,510
+ it's already there, which
+
+230
+00:05:50,519 --> 00:05:51,790
+ means that we are finished
+
+231
+00:05:51,799 --> 00:05:53,640
+ with this column in the
+
+232
+00:05:53,649 --> 00:05:55,000
+ next column, we then find
+
+233
+00:05:55,010 --> 00:05:56,660
+ the pivot which is here,
+
+234
+00:05:56,739 --> 00:05:58,079
+ but we don't have to generate
+
+235
+00:05:58,089 --> 00:05:59,070
+ zeros anymore.
+
+236
+00:05:59,630 --> 00:06:01,320
+ Indeed, this was our last
+
+237
+00:06:01,329 --> 00:06:02,859
+ step in the whole calculation.
+
+238
+00:06:02,890 --> 00:06:04,559
+ We have found the row echelon
+
+239
+00:06:04,570 --> 00:06:05,760
+ form here on the right hand
+
+240
+00:06:05,769 --> 00:06:06,160
+ side.
+
+241
+00:06:06,910 --> 00:06:07,320
+ OK.
+
+242
+00:06:07,329 --> 00:06:08,739
+ So there we have our matrix
+
+243
+00:06:08,869 --> 00:06:09,410
+ U.
+
+244
+00:06:10,339 --> 00:06:12,119
+ And this is our matrix
+
+245
+00:06:12,130 --> 00:06:14,109
+ L and the
+
+246
+00:06:14,119 --> 00:06:15,279
+ last part is what we still
+
+247
+00:06:15,290 --> 00:06:16,299
+ can multiply.
+
+248
+00:06:16,309 --> 00:06:17,970
+ But then we get our matrix
+
+249
+00:06:17,980 --> 00:06:18,429
+ P.
+
+250
+00:06:19,339 --> 00:06:20,489
+ We've reached our goal.
+
+251
+00:06:20,500 --> 00:06:22,450
+ Our matrix A from the beginning
+
+252
+00:06:22,459 --> 00:06:24,320
+ is given as P times
+
+253
+00:06:24,329 --> 00:06:26,290
+ L times U and
+
+254
+00:06:26,299 --> 00:06:27,750
+ therefore we call this the
+
+255
+00:06:27,760 --> 00:06:29,279
+ PLU decomposition.
+
+256
+00:06:30,059 --> 00:06:30,429
+ OK?
+
+257
+00:06:30,440 --> 00:06:31,489
+ I think that's good enough
+
+258
+00:06:31,500 --> 00:06:32,720
+ for this example.
+
+259
+00:06:32,779 --> 00:06:34,279
+ I hope you can now apply
+
+260
+00:06:34,290 --> 00:06:35,880
+ the whole procedure to another
+
+261
+00:06:35,890 --> 00:06:37,790
+ matrix A and with
+
+262
+00:06:37,799 --> 00:06:39,329
+ that, thanks for listening
+
+263
+00:06:39,339 --> 00:06:40,470
+ and see you next time.
+
+264
+00:06:40,480 --> 00:06:41,089
+ Bye.
+

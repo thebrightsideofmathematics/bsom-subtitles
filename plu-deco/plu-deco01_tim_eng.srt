@@ -1,0 +1,6 @@
+0:00 Introduction
+1:13 Example
+2:00 Row exchange
+2:30 Gaussian elimination
+4:20 Next row exchange
+5:45 Last step
