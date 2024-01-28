@@ -1,0 +1,1899 @@
+1
+00:00:00,560 --> 00:00:02,440
+ Hallo und herzlich willkommen.
+
+2
+00:00:02,640 --> 00:00:04,349
+ Heute erzähle ich, wie man
+
+3
+00:00:04,360 --> 00:00:05,869
+ für eine Matrix die
+
+4
+00:00:05,880 --> 00:00:07,340
+ Dimension und die
+
+5
+00:00:07,349 --> 00:00:08,979
+ Basis ihres Bildes
+
+6
+00:00:08,989 --> 00:00:09,939
+ beziehungsweise
+
+7
+00:00:09,960 --> 00:00:11,529
+ Ihres Kernes bestimmt,
+
+8
+00:00:12,720 --> 00:00:13,729
+ dazu nehmen wir uns hier
+
+9
+00:00:13,739 --> 00:00:15,250
+ einfach mal ein Beispiel
+
+10
+00:00:15,260 --> 00:00:16,959
+ einer drei x vier Matrix
+
+11
+00:00:16,969 --> 00:00:17,329
+ her.
+
+12
+00:00:18,090 --> 00:00:19,579
+ Wenn wir jetzt sowieso Bild
+
+13
+00:00:19,590 --> 00:00:21,139
+ und Kern gleichzeitig bestimmen
+
+14
+00:00:21,149 --> 00:00:22,729
+ wollen, dann machen wir genau
+
+15
+00:00:22,739 --> 00:00:24,510
+ das, was wir machen würden,
+
+16
+00:00:24,520 --> 00:00:25,879
+ wenn wir sowieso den Kern
+
+17
+00:00:25,889 --> 00:00:27,780
+ ausrechnen oder ein lineares
+
+18
+00:00:27,790 --> 00:00:29,370
+ Gleichungsystem lösen,
+
+19
+00:00:29,379 --> 00:00:30,729
+ nämlich wir bringen die
+
+20
+00:00:30,739 --> 00:00:31,760
+ Matrix auf Zeilenstufenform.
+
+21
+00:00:34,069 --> 00:00:35,669
+ Das bedeutet, ich schreibe
+
+22
+00:00:35,680 --> 00:00:36,619
+ die erste Zeile noch mal
+
+23
+00:00:36,630 --> 00:00:38,509
+ hin, und dann operieren wir
+
+24
+00:00:38,520 --> 00:00:40,220
+ mit dieser auf den andern
+
+25
+00:00:40,229 --> 00:00:40,680
+ Zeilen.
+
+26
+00:00:40,840 --> 00:00:41,869
+ Also hier sehen wir schon
+
+27
+00:00:41,880 --> 00:00:43,240
+ die vier wollen wir eliminieren
+
+28
+00:00:43,250 --> 00:00:44,240
+ und die acht,
+
+29
+00:00:45,150 --> 00:00:46,290
+ das bedeutet ich nehme die
+
+30
+00:00:46,299 --> 00:00:48,250
+ zweite Zeile nun und ziehe
+
+31
+00:00:48,259 --> 00:00:49,909
+ zweimal die
+
+32
+00:00:49,919 --> 00:00:51,610
+ erste ab, da
+
+33
+00:00:51,619 --> 00:00:53,500
+ steht hier eine 0 da
+
+34
+00:00:53,509 --> 00:00:54,479
+ steht hier eine 0
+
+35
+00:00:55,310 --> 00:00:56,930
+ dann steht hier
+
+36
+00:00:57,869 --> 00:00:59,500
+ minus fünf und
+
+37
+00:00:59,509 --> 00:01:00,500
+ minus drei.
+
+38
+00:01:01,430 --> 00:01:02,669
+ Ja, der gleiche Spaß in der
+
+39
+00:01:02,680 --> 00:01:03,979
+ dritten Zeile bedeutet nun
+
+40
+00:01:04,129 --> 00:01:05,669
+ Wir nehmen uns diese her,
+
+41
+00:01:06,010 --> 00:01:07,220
+ ja und ziehen viermal die
+
+42
+00:01:07,230 --> 00:01:07,879
+ erste ab,
+
+43
+00:01:10,019 --> 00:01:10,760
+ dann haben wir auch hier
+
+44
+00:01:10,769 --> 00:01:12,629
+ eine 0 dort eine 0
+
+45
+00:01:13,199 --> 00:01:14,699
+ dort haben wir minus
+
+46
+00:01:14,709 --> 00:01:16,129
+ 12 und 17,
+
+47
+00:01:16,819 --> 00:01:17,779
+ also fünf,
+
+48
+00:01:18,930 --> 00:01:19,730
+ und dort haben wir minus
+
+49
+00:01:19,889 --> 00:01:21,620
+ acht und 11, also
+
+50
+00:01:21,629 --> 00:01:22,190
+ drei.
+
+51
+00:01:22,750 --> 00:01:23,750
+ Nun seht ihr, an dem Beispiel
+
+52
+00:01:23,760 --> 00:01:24,949
+ sind wir schon fast zu Ende,
+
+53
+00:01:25,129 --> 00:01:26,169
+ es fehlt nur noch der letzte
+
+54
+00:01:26,180 --> 00:01:26,790
+ Gaußschritt.
+
+55
+00:01:26,800 --> 00:01:27,720
+ Das heißt wir nehmen jetzt
+
+56
+00:01:27,730 --> 00:01:29,650
+ hier die neue dritte Zeile
+
+57
+00:01:29,790 --> 00:01:31,680
+ ja und addieren die
+
+58
+00:01:31,690 --> 00:01:32,800
+ zweite darauf
+
+59
+00:01:35,739 --> 00:01:36,830
+ und nach dem Rechenschritt
+
+60
+00:01:36,839 --> 00:01:37,910
+ sind wir auch fertig, denn
+
+61
+00:01:37,919 --> 00:01:39,750
+ das ist genau unsere Zeilen-
+
+62
+00:01:39,760 --> 00:01:41,339
+ stufenform wie gewollt.
+
+63
+00:01:41,709 --> 00:01:42,480
+ Ja, vielleicht geben wir
+
+64
+00:01:42,489 --> 00:01:43,889
+ der mal einen Namen; nennen wir
+
+65
+00:01:43,900 --> 00:01:44,500
+ sie A'
+
+66
+00:01:46,230 --> 00:01:47,660
+ Zeilenstufenform bedeutet natürlich
+
+67
+00:01:47,669 --> 00:01:49,190
+ genau, wir haben hier diese
+
+68
+00:01:49,199 --> 00:01:50,959
+ Stufen und alle Nullzeilen,
+
+69
+00:01:50,970 --> 00:01:52,400
+ wenn sie existieren
+
+70
+00:01:52,440 --> 00:01:53,989
+ sind am Boden
+
+71
+00:01:54,029 --> 00:01:55,430
+ ganz unten in der Matrix
+
+72
+00:01:56,699 --> 00:01:57,930
+ und an den Ecken der
+
+73
+00:01:58,389 --> 00:02:00,339
+ Ja der Stufen finden wir
+
+74
+00:02:00,349 --> 00:02:02,150
+ die sogenannten Pivot-Elemente
+
+75
+00:02:04,260 --> 00:02:05,230
+ was ihr euch nun sehr gut
+
+76
+00:02:05,239 --> 00:02:06,870
+ merken könnt ist, sobald
+
+77
+00:02:06,879 --> 00:02:07,889
+ ihr die Zeilenstufenform
+
+78
+00:02:07,900 --> 00:02:09,639
+ erreicht habt, habt ihr auch
+
+79
+00:02:09,649 --> 00:02:10,990
+ diese Dimension hier gegeben.
+
+80
+00:02:12,929 --> 00:02:14,380
+ Den Kern bestimmt er nämlich
+
+81
+00:02:14,389 --> 00:02:16,199
+ ja damit, indem er die
+
+82
+00:02:16,210 --> 00:02:17,699
+ freien Variablen auf die
+
+83
+00:02:17,710 --> 00:02:19,399
+ rechte Seite bringt, ja und
+
+84
+00:02:19,410 --> 00:02:20,820
+ damit das Gleichungssystem
+
+85
+00:02:20,830 --> 00:02:21,570
+ gelöst habt.
+
+86
+00:02:21,899 --> 00:02:23,309
+ Vielleicht noch mal zur Erinnerung
+
+87
+00:02:23,320 --> 00:02:24,710
+ die freien Variablen
+
+88
+00:02:25,059 --> 00:02:26,770
+ liegen dort ja oder sind
+
+89
+00:02:26,779 --> 00:02:28,580
+ die Variablen, die zu
+
+90
+00:02:28,589 --> 00:02:30,220
+ den Spalten korrespondieren,
+
+91
+00:02:30,460 --> 00:02:32,009
+ die kein Pivot-Element haben
+
+92
+00:02:32,850 --> 00:02:34,570
+ In diesem fall ist das nämlich
+
+93
+00:02:34,880 --> 00:02:36,779
+ x_2 und x_4
+
+94
+00:02:38,380 --> 00:02:40,279
+ Demnach sind die freien Variablen
+
+95
+00:02:40,360 --> 00:02:42,320
+ genau die Freiheitsgrade,
+
+96
+00:02:42,339 --> 00:02:44,059
+ die ihr in dem Kern von A
+
+97
+00:02:44,070 --> 00:02:45,839
+ habt oder in der
+
+98
+00:02:45,850 --> 00:02:46,550
+ Lösungsmenge des Gleichungssystems
+
+99
+00:02:48,380 --> 00:02:49,630
+ Dementsprechend gibt die
+
+100
+00:02:49,639 --> 00:02:51,259
+ Anzahl der freien Variablen
+
+101
+00:02:51,320 --> 00:02:53,029
+ genau die Dimension des
+
+102
+00:02:53,039 --> 00:02:53,750
+ Kernes an.
+
+103
+00:02:53,759 --> 00:02:55,619
+ Und in diesem Fall ist es
+
+104
+00:02:55,630 --> 00:02:56,309
+ zwei.
+
+105
+00:02:57,419 --> 00:02:58,529
+ Also fehlt jetzt nur noch
+
+106
+00:02:58,539 --> 00:03:00,460
+ die Dimension des Bildes.
+
+107
+00:03:01,279 --> 00:03:02,210
+ Ja wenn ihr euch vielleicht
+
+108
+00:03:02,220 --> 00:03:03,220
+ an die Dimensionsformel
+
+109
+00:03:03,229 --> 00:03:04,940
+ erinnert, die sagt genau
+
+110
+00:03:04,949 --> 00:03:06,429
+ aus, dass die zwei
+
+111
+00:03:06,440 --> 00:03:08,119
+ Dimensionen addiert
+
+112
+00:03:08,520 --> 00:03:10,330
+ ja exakt die Dimension des
+
+113
+00:03:10,339 --> 00:03:12,100
+ Raumes ist der reingesteckt
+
+114
+00:03:12,110 --> 00:03:14,050
+ wird ja oder auf dem Matrizen-
+
+115
+00:03:14,059 --> 00:03:15,600
+ level gesprochen die Anzahl
+
+116
+00:03:15,610 --> 00:03:17,550
+ der Spalten und
+
+117
+00:03:17,559 --> 00:03:19,029
+ gerade deswegen kann man
+
+118
+00:03:19,039 --> 00:03:20,570
+ die Dimension des Bildes
+
+119
+00:03:20,580 --> 00:03:22,160
+ eben auch in der Zeilenstufenform
+
+120
+00:03:22,169 --> 00:03:22,729
+ ablesen.
+
+121
+00:03:22,929 --> 00:03:23,889
+ Es ist nämlich gerade die
+
+122
+00:03:23,899 --> 00:03:25,630
+ Anzahl der Pivotelemente
+
+123
+00:03:25,889 --> 00:03:27,770
+ das genau die abhängigen
+
+124
+00:03:27,779 --> 00:03:29,009
+ Variablen darstellt.
+
+125
+00:03:29,809 --> 00:03:31,240
+ Demnach in unserem Beispiel
+
+126
+00:03:31,410 --> 00:03:32,710
+ auch zwei
+
+127
+00:03:33,860 --> 00:03:35,589
+ wunderbar, die Dimension
+
+128
+00:03:35,600 --> 00:03:37,110
+ hier in der Überschrift haben
+
+129
+00:03:37,119 --> 00:03:38,419
+ wir schon mal abgehakt
+
+130
+00:03:39,059 --> 00:03:40,220
+ der nächste Schritt ist dann
+
+131
+00:03:40,440 --> 00:03:42,350
+ jeweils eine Basis des
+
+132
+00:03:42,360 --> 00:03:44,270
+ Bildes und des Kerns anzugeben
+
+133
+00:03:45,160 --> 00:03:46,380
+ und wie viele Elemente in
+
+134
+00:03:46,389 --> 00:03:47,800
+ dieser Basis drin stehen
+
+135
+00:03:47,809 --> 00:03:49,149
+ müssen wissen wir jetzt ja schon.
+
+136
+00:03:49,479 --> 00:03:51,309
+ Ja es sind genau die! Die Dimension gibt
+
+137
+00:03:51,320 --> 00:03:52,589
+ die Anzahl der Elemente einer
+
+138
+00:03:52,600 --> 00:03:53,210
+ Basis an.
+
+139
+00:03:53,479 --> 00:03:54,610
+ Also wir brauchen zwei Basiselemente
+
+140
+00:03:54,910 --> 00:03:56,550
+ für den Kern zu beschreiben
+
+141
+00:03:56,600 --> 00:03:58,479
+ und zwei Basiselemente um
+
+142
+00:03:58,490 --> 00:03:59,630
+ das Bild zu beschreiben.
+
+143
+00:04:00,520 --> 00:04:01,250
+ Nun soll ich hier vielleicht
+
+144
+00:04:01,259 --> 00:04:02,779
+ zwei wichtige Punkte einbringen,
+
+145
+00:04:03,250 --> 00:04:04,649
+ nämlich wenn wir die
+
+146
+00:04:04,660 --> 00:04:06,220
+ Matrix ja operieren
+
+147
+00:04:06,229 --> 00:04:07,970
+ verändern, deswegen schreibe
+
+148
+00:04:07,979 --> 00:04:09,360
+ ich hier am Ende auch A Strich
+
+149
+00:04:09,369 --> 00:04:10,929
+ ist es eben nicht mehr die
+
+150
+00:04:10,940 --> 00:04:12,669
+ ursprüngliche Matrix A
+
+151
+00:04:13,110 --> 00:04:14,500
+ Ja, wenn wir das tun mit
+
+152
+00:04:14,509 --> 00:04:16,190
+ Zeilenoperationen, um sie
+
+153
+00:04:16,200 --> 00:04:17,649
+ letztendlich auf Zeilenstufenform
+
+154
+00:04:17,660 --> 00:04:19,369
+ zu bringen, dann
+
+155
+00:04:19,380 --> 00:04:20,488
+ ändern wir natürlich Dinge.
+
+156
+00:04:21,748 --> 00:04:23,239
+ Wichtig zu wissen ist nämlich
+
+157
+00:04:23,289 --> 00:04:24,699
+ Wir ändern das Bild
+
+158
+00:04:24,709 --> 00:04:26,639
+ tatsächlich mit Zeilenoperationen.
+
+159
+00:04:28,130 --> 00:04:29,739
+ Was wir aber nicht ändern,
+
+160
+00:04:29,799 --> 00:04:30,750
+ ist der Kern.
+
+161
+00:04:31,070 --> 00:04:32,500
+ Der Kern der Matrix ist gleich
+
+162
+00:04:32,510 --> 00:04:34,059
+ der Kern der Matrix gleich
+
+163
+00:04:34,070 --> 00:04:36,010
+ der Kern der Matrix. Das ist
+
+164
+00:04:36,019 --> 00:04:37,459
+ gerade die Idee der Zeilen-
+
+165
+00:04:37,470 --> 00:04:38,420
+ umformungen, dass
+
+166
+00:04:38,429 --> 00:04:40,279
+ wir die Lösungsmenge
+
+167
+00:04:40,290 --> 00:04:42,019
+ leicht bestimmen können und
+
+168
+00:04:42,029 --> 00:04:42,980
+ das ist ja auch, was ich
+
+169
+00:04:42,989 --> 00:04:44,540
+ hier in verschiedenen Videos
+
+170
+00:04:44,549 --> 00:04:45,739
+ schon öfter gemacht habe,
+
+171
+00:04:46,010 --> 00:04:47,579
+ auf seinen Zeilenstufenform gebracht
+
+172
+00:04:47,589 --> 00:04:48,769
+ und dann den Kern
+
+173
+00:04:48,829 --> 00:04:50,049
+ hingeschrieben, indem wir
+
+174
+00:04:50,059 --> 00:04:51,619
+ die freien Variablen nach
+
+175
+00:04:51,630 --> 00:04:53,130
+ rechts bringen, das heißt,
+
+176
+00:04:53,140 --> 00:04:54,350
+ das sollte nicht das Problem
+
+177
+00:04:54,359 --> 00:04:56,019
+ sein, schaut euch die passenden
+
+178
+00:04:56,029 --> 00:04:57,279
+ Videos noch nochmal an, und
+
+179
+00:04:57,290 --> 00:04:58,000
+ dann könnt ihr auch eine
+
+180
+00:04:58,010 --> 00:04:59,630
+ Basis des Kerns direkt
+
+181
+00:04:59,640 --> 00:05:00,160
+ hinschreiben.
+
+182
+00:05:01,200 --> 00:05:02,220
+ Die Frage, die übrig bleibt,
+
+183
+00:05:02,230 --> 00:05:04,000
+ ist nun Was ist mit dem Bild?
+
+184
+00:05:04,299 --> 00:05:05,459
+ Dadurch, dass wir das Bild
+
+185
+00:05:05,470 --> 00:05:07,140
+ ändern, können wir aus der
+
+186
+00:05:07,149 --> 00:05:08,850
+ Matrix nicht mehr das Bild
+
+187
+00:05:08,859 --> 00:05:09,559
+ ablesen.
+
+188
+00:05:09,839 --> 00:05:10,959
+ Ja, vielleicht nochmals Erinnerung
+
+189
+00:05:11,119 --> 00:05:13,079
+ Das Bild ist das, was die
+
+190
+00:05:13,089 --> 00:05:14,679
+ Matrix mit ihren Spalten
+
+191
+00:05:14,690 --> 00:05:16,640
+ aufspannt, und
+
+192
+00:05:16,649 --> 00:05:18,019
+ da wir nun wissen, dass das
+
+193
+00:05:18,029 --> 00:05:19,350
+ Bild zweidimensional ist,
+
+194
+00:05:19,369 --> 00:05:20,739
+ wissen wir auch Wir brauchen
+
+195
+00:05:20,750 --> 00:05:21,899
+ gar nicht alle vier spalten.
+
+196
+00:05:22,100 --> 00:05:23,320
+ Ja, wir können welche weglassen
+
+197
+00:05:23,329 --> 00:05:24,279
+ wir brauchen nämlich nur
+
+198
+00:05:24,290 --> 00:05:26,239
+ zwei und nun ist die
+
+199
+00:05:26,250 --> 00:05:27,630
+ Frage na welche zwei nehmen
+
+200
+00:05:27,640 --> 00:05:28,970
+ wir denn welche dürfen wir
+
+201
+00:05:28,980 --> 00:05:29,739
+ denn weglassen?
+
+202
+00:05:30,410 --> 00:05:31,459
+ Was wir nämlich brauchen
+
+203
+00:05:31,470 --> 00:05:32,769
+ sind zwei linear
+
+204
+00:05:32,779 --> 00:05:34,149
+ unabhängige Vektoren
+
+205
+00:05:34,160 --> 00:05:34,809
+ beziehungsweise
+
+206
+00:05:34,820 --> 00:05:36,450
+ Spalten. Zwei
+
+207
+00:05:36,459 --> 00:05:38,179
+ Bektoren auf lineare Unabhängigkeit
+
+208
+00:05:38,190 --> 00:05:39,739
+ zu überprüfen ist meistens
+
+209
+00:05:39,750 --> 00:05:41,700
+ kein Problem auch drei Stück
+
+210
+00:05:41,709 --> 00:05:42,820
+ geht unter Umständen noch.
+
+211
+00:05:42,869 --> 00:05:44,630
+ Wenn die Anzahl größer
+
+212
+00:05:44,640 --> 00:05:45,000
+ wird.
+
+213
+00:05:45,089 --> 00:05:46,260
+ Dann wollen wir das unter
+
+214
+00:05:46,269 --> 00:05:47,910
+ Umständen umgehen nochmal
+
+215
+00:05:47,920 --> 00:05:48,980
+ zu überprüfen, dass unsere
+
+216
+00:05:48,989 --> 00:05:50,640
+ Wahl auch linear unabhängig
+
+217
+00:05:50,649 --> 00:05:51,130
+ ist.
+
+218
+00:05:51,529 --> 00:05:52,950
+ Genau das liefert uns aber
+
+219
+00:05:52,959 --> 00:05:54,739
+ die Zeilenstufenform, denn
+
+220
+00:05:54,750 --> 00:05:55,619
+ hier haben wir die Nullen
+
+221
+00:05:55,769 --> 00:05:56,890
+ das heißt wir sehen zum Beispiel
+
+222
+00:05:57,230 --> 00:05:59,119
+ der Vektor hier ja ist
+
+223
+00:05:59,130 --> 00:06:00,239
+ linear abhängig mit dem Vektor
+
+224
+00:06:00,279 --> 00:06:00,380
+ da,
+
+225
+00:06:02,209 --> 00:06:03,290
+ das ist ja einfach ein Vielfaches
+
+226
+00:06:03,299 --> 00:06:04,609
+ voneinander, aber wir sehen
+
+227
+00:06:04,619 --> 00:06:06,450
+ auch der Vektor und der Vektor
+
+228
+00:06:06,459 --> 00:06:08,440
+ zusammen sind linear unabhängig
+
+229
+00:06:08,450 --> 00:06:09,519
+ ja, aber dort eine Null steht und
+
+230
+00:06:09,529 --> 00:06:10,540
+ dort eben nicht
+
+231
+00:06:11,640 --> 00:06:12,390
+ und so kann man das auch
+
+232
+00:06:12,399 --> 00:06:13,989
+ weiter treiben mit beliebig
+
+233
+00:06:14,000 --> 00:06:14,850
+ vielen Vektoren.
+
+234
+00:06:14,980 --> 00:06:16,790
+ Wenn man diese wählt ja in
+
+235
+00:06:16,799 --> 00:06:18,519
+ denen die Pivotelemente stehen
+
+236
+00:06:18,720 --> 00:06:19,730
+ ja wie viele es auch immer
+
+237
+00:06:19,739 --> 00:06:21,200
+ sind so bilden die immer
+
+238
+00:06:21,209 --> 00:06:23,010
+ ein linear unabhängiges System.
+
+239
+00:06:23,649 --> 00:06:25,380
+ Wohl gemerkt aber nicht von
+
+240
+00:06:25,390 --> 00:06:27,269
+ unserem Bild A sondern nur
+
+241
+00:06:27,279 --> 00:06:29,239
+ von Bild A strich wir
+
+242
+00:06:29,250 --> 00:06:30,589
+ haben das Bild ja tatsächlich
+
+243
+00:06:30,600 --> 00:06:31,149
+ geändert,
+
+244
+00:06:32,220 --> 00:06:33,429
+ deswegen ist dann die Idee
+
+245
+00:06:33,519 --> 00:06:35,109
+ wir wählen einfach von der
+
+246
+00:06:35,119 --> 00:06:36,390
+ ursprünglichen Matrix
+
+247
+00:06:36,459 --> 00:06:38,220
+ genau die Spalten 
+
+248
+00:06:38,320 --> 00:06:39,660
+ zu denen wir die Pivot-
+
+249
+00:06:39,679 --> 00:06:41,160
+ Elemente in der Zeilen-
+
+250
+00:06:41,170 --> 00:06:42,149
+ stufenform haben.
+
+251
+00:06:42,420 --> 00:06:43,820
+ Also in unserm Beispiel
+
+252
+00:06:44,149 --> 00:06:44,869
+ diese zwei.
+
+253
+00:06:45,890 --> 00:06:46,839
+ Wir wissen nämlich jetzt
+
+254
+00:06:46,850 --> 00:06:48,839
+ auch, dass diese zwei
+
+255
+00:06:48,850 --> 00:06:50,450
+ linear unabhängig sind oder
+
+256
+00:06:50,459 --> 00:06:51,839
+ wie viele es auch immer sind,
+
+257
+00:06:53,109 --> 00:06:55,089
+ denn Zeilenumformungen ändern
+
+258
+00:06:55,100 --> 00:06:56,609
+ eben nichts an der linearen
+
+259
+00:06:56,619 --> 00:06:57,440
+ Unabhängigkeit
+
+260
+00:06:58,549 --> 00:06:59,859
+ oder anders herum gedreht:
+
+261
+00:06:59,890 --> 00:07:01,559
+ Ja wenn wir von hier ausgehen,
+
+262
+00:07:01,570 --> 00:07:02,730
+ können wir die Zeilenoperationen
+
+263
+00:07:02,739 --> 00:07:04,559
+ rückgängig machen und landen
+
+264
+00:07:04,670 --> 00:07:06,000
+ auf diesen zwei Vektoren
+
+265
+00:07:06,049 --> 00:07:07,700
+ und wissen die sind immer
+
+266
+00:07:07,709 --> 00:07:09,119
+ noch linear unabhängig
+
+267
+00:07:09,940 --> 00:07:10,989
+ und das ist auch genau das
+
+268
+00:07:11,000 --> 00:07:11,959
+ was man tun soll.
+
+269
+00:07:12,309 --> 00:07:13,970
+ Ja wenn man die Basis des
+
+270
+00:07:13,980 --> 00:07:15,230
+ Bildes bestimmen will und
+
+271
+00:07:15,239 --> 00:07:17,000
+ sowieso die Zeilenstufenform
+
+272
+00:07:17,010 --> 00:07:17,829
+ vorliegen hat.
+
+273
+00:07:17,989 --> 00:07:19,359
+ Ja in dem Fall hat man sie
+
+274
+00:07:19,369 --> 00:07:20,529
+ vorliegen weil man ja auch
+
+275
+00:07:20,540 --> 00:07:21,950
+ den Kern bestimmen will und
+
+276
+00:07:21,959 --> 00:07:23,480
+ dann braucht man im besten
+
+277
+00:07:23,489 --> 00:07:24,179
+ Falle wirklich die Zeilenstufenform.
+
+278
+00:07:25,910 --> 00:07:26,779
+ gut, dann schreiben wir das
+
+279
+00:07:26,790 --> 00:07:27,869
+ jetzt noch zum Abschluss
+
+280
+00:07:28,260 --> 00:07:29,820
+ als Lösung auf also
+
+281
+00:07:30,109 --> 00:07:31,519
+ Basis des Bildes
+
+282
+00:07:32,339 --> 00:07:34,130
+ oder besser gesagt eine Basis
+
+283
+00:07:34,140 --> 00:07:36,010
+ des Bildes von A ja
+
+284
+00:07:36,019 --> 00:07:37,709
+ sind diese zwei Vektoren
+
+285
+00:07:37,720 --> 00:07:38,200
+ zusammen
+
+286
+00:07:38,570 --> 00:07:39,829
+ Ja und weil wir eine Ordnung
+
+287
+00:07:39,839 --> 00:07:40,989
+ in eine Basis bringen wollen
+
+288
+00:07:41,000 --> 00:07:42,119
+ machen wir auch die runden
+
+289
+00:07:42,130 --> 00:07:44,010
+ Klammern dann kommt diese
+
+290
+00:07:44,019 --> 00:07:45,940
+ Spalte und dann die andere
+
+291
+00:07:45,950 --> 00:07:46,459
+ Spalte
+
+292
+00:07:49,010 --> 00:07:50,190
+ und genau so würden wir hier
+
+293
+00:07:50,200 --> 00:07:51,739
+ noch als Ergebnis hinschreiben.
+
+294
+00:07:52,480 --> 00:07:54,220
+ Eine Basis des Kernes
+
+295
+00:07:54,269 --> 00:07:55,649
+ ist eine Menge
+
+296
+00:07:55,910 --> 00:07:57,730
+ oder ein Paar aus
+
+297
+00:07:57,739 --> 00:07:58,510
+ zwei Vektoren.
+
+298
+00:07:59,570 --> 00:08:00,760
+ Ja, zur Vollständigkeit kann
+
+299
+00:08:00,769 --> 00:08:02,500
+ ich das gerne noch mal vorrechnen
+
+300
+00:08:02,619 --> 00:08:03,540
+ Ja, für alle, die das schon
+
+301
+00:08:03,549 --> 00:08:05,220
+ kennen, ist das Video
+
+302
+00:08:05,230 --> 00:08:06,670
+ jetzt ja wahrscheinlich am
+
+303
+00:08:06,679 --> 00:08:08,279
+ Ende, aber das macht ja nichts,
+
+304
+00:08:09,640 --> 00:08:10,890
+ man geht dann immer von unten
+
+305
+00:08:10,899 --> 00:08:12,350
+ nach oben, und die dritte
+
+306
+00:08:12,359 --> 00:08:13,529
+ Zeile sagt sowieso nichts
+
+307
+00:08:13,540 --> 00:08:13,899
+ mehr aus.
+
+308
+00:08:13,910 --> 00:08:15,660
+ Es ist eine Nullzeile, also
+
+309
+00:08:15,709 --> 00:08:17,290
+ haben wir die zweite Zeile
+
+310
+00:08:17,299 --> 00:08:18,589
+ als erstes zu untersuchen.
+
+311
+00:08:18,600 --> 00:08:20,450
+ Das ist minus fünf mal
+
+312
+00:08:20,959 --> 00:08:22,739
+ Ja x_3 ist die dritte
+
+313
+00:08:22,750 --> 00:08:23,670
+ Variable
+
+314
+00:08:23,859 --> 00:08:24,820
+ Minus
+
+315
+00:08:25,209 --> 00:08:27,179
+ dreimal x_4 und
+
+316
+00:08:27,190 --> 00:08:28,760
+ x_4 ist eine freie Variable.
+
+317
+00:08:29,299 --> 00:08:30,179
+ Na ja, wir wollen den Kern
+
+318
+00:08:30,190 --> 00:08:31,220
+ also auf der rechten Seite
+
+319
+00:08:31,230 --> 00:08:33,109
+ steht die Null und nun formen
+
+320
+00:08:33,119 --> 00:08:34,890
+ wir das um, so dass wir die
+
+321
+00:08:34,900 --> 00:08:36,190
+ freien Varianten rechts haben
+
+322
+00:08:36,200 --> 00:08:37,489
+ und die abhängigen
+
+323
+00:08:37,659 --> 00:08:39,340
+ links. Das ist
+
+324
+00:08:39,349 --> 00:08:41,140
+ x_3 ist gleich minus 3/5 x_4
+
+325
+00:08:41,650 --> 00:08:43,150
+ Das ist unsere
+
+326
+00:08:43,750 --> 00:08:45,460
+ freie Variable und das
+
+327
+00:08:45,469 --> 00:08:47,390
+ ist die abhängige Variable,
+
+328
+00:08:47,590 --> 00:08:49,500
+ also alles gut, dann
+
+329
+00:08:49,510 --> 00:08:50,640
+ haben wir die erste Zeile,
+
+330
+00:08:50,650 --> 00:08:52,390
+ die sagt zwei x eins
+
+331
+00:08:52,750 --> 00:08:54,330
+ plus x zwei
+
+332
+00:08:54,929 --> 00:08:56,900
+ plus drei x drei,
+
+333
+00:08:57,479 --> 00:08:59,260
+ plus zwei x vier ist gleich
+
+334
+00:08:59,270 --> 00:09:00,809
+ null auch da das gleiche
+
+335
+00:09:00,820 --> 00:09:02,479
+ Spiel Ja,
+
+336
+00:09:02,500 --> 00:09:04,010
+ wir ersetzen natürlich jetzt
+
+337
+00:09:04,020 --> 00:09:05,669
+ x drei in der Gleichung und
+
+338
+00:09:05,679 --> 00:09:06,679
+ dann haben wir nur noch freie
+
+339
+00:09:06,690 --> 00:09:08,520
+ Variablen außer x
+
+340
+00:09:08,530 --> 00:09:09,770
+ eins und danach wollen wir
+
+341
+00:09:09,780 --> 00:09:10,359
+ es umformen.
+
+342
+00:09:10,369 --> 00:09:11,159
+ Das heißt hier steht das
+
+343
+00:09:11,169 --> 00:09:13,099
+ x eins ist gleich dann
+
+344
+00:09:13,109 --> 00:09:14,440
+ machen wir die Rechnung und
+
+345
+00:09:14,450 --> 00:09:15,080
+ ich schreibe jetzt mal das
+
+346
+00:09:15,090 --> 00:09:16,280
+ Ergebnis einfach auf
+
+347
+00:09:17,440 --> 00:09:18,599
+ und nicht vergessen hier
+
+348
+00:09:18,609 --> 00:09:19,820
+ am Ende noch durch zwei zu
+
+349
+00:09:19,830 --> 00:09:21,320
+ teilen, wenn wir alles auf
+
+350
+00:09:21,330 --> 00:09:22,080
+ die rechte Seite bringen
+
+351
+00:09:22,090 --> 00:09:23,849
+ hier noch durch zwei um x
+
+352
+00:09:23,859 --> 00:09:25,130
+ eins auch wirklich alleine
+
+353
+00:09:25,140 --> 00:09:26,599
+ auf der linken Seite zu haben.
+
+354
+00:09:26,630 --> 00:09:27,559
+ So und dann hab ich jetzt
+
+355
+00:09:27,570 --> 00:09:28,979
+ hier minus ein halb x zwei
+
+356
+00:09:28,989 --> 00:09:30,799
+ minus ein zehntel x
+
+357
+00:09:30,809 --> 00:09:32,539
+ vier so auch hier alles
+
+358
+00:09:32,549 --> 00:09:34,219
+ gut die abhängige variable
+
+359
+00:09:34,229 --> 00:09:36,219
+ steht links alleine und rechts
+
+360
+00:09:36,229 --> 00:09:37,559
+ stehen nur noch die zwei
+
+361
+00:09:37,840 --> 00:09:39,250
+ ja freien Variablen.
+
+362
+00:09:40,640 --> 00:09:41,260
+ Ja dann schreibe ich den
+
+363
+00:09:41,270 --> 00:09:42,299
+ Kern mal ausführlich noch
+
+364
+00:09:42,309 --> 00:09:43,820
+ mal hin jetzt haben wir ja
+
+365
+00:09:43,830 --> 00:09:44,479
+ alles gegeben.
+
+366
+00:09:44,900 --> 00:09:46,429
+ Also der Kern von A
+
+367
+00:09:46,710 --> 00:09:48,590
+ ist nun die Menge alle
+
+368
+00:09:48,599 --> 00:09:50,330
+ Vektoren na die halt so
+
+369
+00:09:50,340 --> 00:09:52,309
+ aussieht mit x eins x zwei
+
+370
+00:09:52,570 --> 00:09:54,409
+ x drei x vier aber
+
+371
+00:09:54,419 --> 00:09:56,099
+ nur x drei
+
+372
+00:09:56,520 --> 00:09:57,809
+ x zwei und x vier
+
+373
+00:09:57,820 --> 00:09:59,070
+ entschuldigung also wir haben
+
+374
+00:09:59,080 --> 00:10:01,000
+ x zwei und x vier sind
+
+375
+00:10:01,010 --> 00:10:02,530
+ die variablen die wir frei
+
+376
+00:10:02,539 --> 00:10:03,210
+ wählen können.
+
+377
+00:10:03,669 --> 00:10:05,419
+ Ja also nur für die können
+
+378
+00:10:05,429 --> 00:10:06,789
+ wir beliebige Zahlen
+
+379
+00:10:06,799 --> 00:10:08,719
+ einsetzen und das schreiben
+
+380
+00:10:08,729 --> 00:10:09,390
+ wir auch so in die Menge
+
+381
+00:10:09,400 --> 00:10:09,859
+ hinein.
+
+382
+00:10:10,119 --> 00:10:11,659
+ Also X zwei und X vier sind
+
+383
+00:10:11,669 --> 00:10:13,440
+ ja beliebig, die zwei andern
+
+384
+00:10:13,450 --> 00:10:14,840
+ ergeben sich durch die beliebigen
+
+385
+00:10:14,849 --> 00:10:16,179
+ variablen x zwei x vier.
+
+386
+00:10:16,539 --> 00:10:17,929
+ Ja deswegen sind ja die abhängigen
+
+387
+00:10:17,940 --> 00:10:19,270
+ variablen und wie sie sich
+
+388
+00:10:19,280 --> 00:10:20,419
+ ergeben sehen wir auch hier,
+
+389
+00:10:20,429 --> 00:10:22,330
+ also x eins hat jetzt hier
+
+390
+00:10:22,530 --> 00:10:24,190
+ minus 1/2 x
+
+391
+00:10:24,270 --> 00:10:25,359
+ zwei minus 1/10 x
+
+392
+00:10:27,000 --> 00:10:28,510
+ vier stehen und x drei
+
+393
+00:10:28,520 --> 00:10:30,469
+ hat na ja, minus drei
+
+394
+00:10:31,030 --> 00:10:32,400
+ fünftel x_4
+
+395
+00:10:32,690 --> 00:10:34,419
+ dastehen so
+
+396
+00:10:34,429 --> 00:10:36,090
+ sieht ein allgemeiner Lösungsvektor
+
+397
+00:10:36,159 --> 00:10:37,809
+ aus und weil das meisten
+
+398
+00:10:37,820 --> 00:10:38,650
+ nicht so gut zu erkennen
+
+399
+00:10:38,659 --> 00:10:40,539
+ ist, zieht man den am besten
+
+400
+00:10:40,549 --> 00:10:41,489
+ noch auseinander.
+
+401
+00:10:41,979 --> 00:10:42,880
+ Ja auch das habe ich schon
+
+402
+00:10:42,890 --> 00:10:43,599
+ öfter gemacht.
+
+403
+00:10:43,859 --> 00:10:44,719
+ Das heißt wir schreiben jetzt
+
+404
+00:10:44,729 --> 00:10:46,580
+ nur noch die ja x_zwei
+
+405
+00:10:46,590 --> 00:10:48,330
+ Variable mal den
+
+406
+00:10:48,340 --> 00:10:50,080
+ Vektor der es ergibt plus
+
+407
+00:10:51,010 --> 00:10:52,940
+ die x vier Variablen mal
+
+408
+00:10:53,059 --> 00:10:54,719
+ Vektor der sich ergibt und
+
+409
+00:10:54,729 --> 00:10:55,630
+ hinten daran ändert sich
+
+410
+00:10:55,640 --> 00:10:55,969
+ gar nichts.
+
+411
+00:10:55,979 --> 00:10:56,880
+ Das sind aber auch die freien
+
+412
+00:10:56,890 --> 00:10:57,590
+ Variablen.
+
+413
+00:11:00,929 --> 00:11:02,080
+ Ja und das sind jetzt unsere
+
+414
+00:11:02,109 --> 00:11:03,989
+ zwei Vektoren hier ja und
+
+415
+00:11:04,000 --> 00:11:05,260
+ alle Vektoren die jetzt so
+
+416
+00:11:05,270 --> 00:11:06,940
+ hier auftreten wissen
+
+417
+00:11:06,950 --> 00:11:08,090
+ wir sind linear
+
+418
+00:11:08,099 --> 00:11:09,780
+ unabhängig nach dem gleichen
+
+419
+00:11:09,789 --> 00:11:11,140
+ Prinzip wie vorhin.
+
+420
+00:11:11,880 --> 00:11:13,130
+ Wir wissen ja auch der Kern
+
+421
+00:11:13,140 --> 00:11:14,489
+ muss zweidimensional sein,
+
+422
+00:11:14,580 --> 00:11:16,070
+ das heißt die zwei Vektoren
+
+423
+00:11:16,080 --> 00:11:17,690
+ spannen den ganzen Kern auf.
+
+424
+00:11:17,869 --> 00:11:18,909
+ Ja und hier steht ja nichts
+
+425
+00:11:18,919 --> 00:11:20,390
+ anderes als der Spann
+
+426
+00:11:20,979 --> 00:11:22,950
+ dementsprechend ja sind diese
+
+427
+00:11:22,960 --> 00:11:24,090
+ auch linear unabhängig
+
+428
+00:11:25,109 --> 00:11:26,489
+ oder in anderen Worten wenn
+
+429
+00:11:26,500 --> 00:11:27,570
+ wir jetzt hier die Basis
+
+430
+00:11:27,580 --> 00:11:28,750
+ ausfüllen wollen, schreiben
+
+431
+00:11:28,760 --> 00:11:30,599
+ wir genau die zwei Vektoren
+
+432
+00:11:30,609 --> 00:11:32,059
+ hinein und dann ist die
+
+433
+00:11:32,070 --> 00:11:33,869
+ Aufgabe wirklich gelöst
+
+434
+00:11:34,580 --> 00:11:35,950
+ aber hier sieht man man kann's
+
+435
+00:11:35,960 --> 00:11:36,530
+ vielleicht noch ein bisschen
+
+436
+00:11:36,539 --> 00:11:38,150
+ verschönern ja also wir strecken
+
+437
+00:11:38,159 --> 00:11:39,489
+ die Vektoren mit dem andern
+
+438
+00:11:39,500 --> 00:11:40,099
+ Faktor.
+
+439
+00:11:40,460 --> 00:11:41,409
+ Ja die richtung bleibt die
+
+440
+00:11:41,419 --> 00:11:42,760
+ gleiche, deswegen bilden
+
+441
+00:11:42,770 --> 00:11:43,849
+ sie immer noch eine Basis
+
+442
+00:11:44,049 --> 00:11:45,280
+ und hier sieht man ja da
+
+443
+00:11:45,289 --> 00:11:47,090
+ ein Faktor zwei rein macht
+
+444
+00:11:47,099 --> 00:11:47,789
+ das ein bisschen schöner,
+
+445
+00:11:47,799 --> 00:11:49,309
+ steht hier minus eins und
+
+446
+00:11:49,320 --> 00:11:50,539
+ steht hier aber die zwei
+
+447
+00:11:50,549 --> 00:11:52,020
+ und die Null skaliert ändert
+
+448
+00:11:52,030 --> 00:11:52,599
+ gar nichts.
+
+449
+00:11:53,119 --> 00:11:54,969
+ Und hier ein Faktor Zehn wird's
+
+450
+00:11:54,979 --> 00:11:56,080
+ ein bisschen schöner machen
+
+451
+00:11:56,429 --> 00:11:57,390
+ dann fallen halt genau die
+
+452
+00:11:57,400 --> 00:11:58,739
+ Brüche weg haben hier Null
+
+453
+00:11:59,020 --> 00:12:00,729
+ und da haben wir jetzt minus
+
+454
+00:12:00,739 --> 00:12:02,539
+ sechs und dort haben wir
+
+455
+00:12:02,549 --> 00:12:02,969
+ zehn
+
+456
+00:12:04,500 --> 00:12:05,390
+ und das war auch schon die
+
+457
+00:12:05,400 --> 00:12:06,229
+ ganze Aufgabe.
+
+458
+00:12:06,280 --> 00:12:07,510
+ Wir haben zu erst die Dimensionen
+
+459
+00:12:07,520 --> 00:12:08,830
+ bestimmt in der Zeilen- 
+
+460
+00:12:08,840 --> 00:12:10,419
+ stufenform und dann
+
+461
+00:12:10,520 --> 00:12:12,330
+ haben wir jeweils eine Basis
+
+462
+00:12:12,340 --> 00:12:14,239
+ von Bild und Kern bestimmt
+
+463
+00:12:14,539 --> 00:12:15,729
+ Kern lief wie immer.
+
+464
+00:12:15,739 --> 00:12:16,799
+ Um beim Bild mussten wir gar
+
+465
+00:12:16,809 --> 00:12:17,969
+ nicht viel rechnen, weil
+
+466
+00:12:17,979 --> 00:12:19,630
+ wir sie aus der ursprünglichen
+
+467
+00:12:19,640 --> 00:12:21,340
+ Matrix herausgelesen haben.
+
+468
+00:12:23,799 --> 00:12:25,200
+ Dann verabschiede ich mich
+
+469
+00:12:25,210 --> 00:12:27,000
+ und verbleibe mit einer wichtigen
+
+470
+00:12:27,010 --> 00:12:27,640
+ Empfehlung.
+
+471
+00:12:28,390 --> 00:12:30,200
+ Bitte übt das hier ja nur
+
+472
+00:12:30,210 --> 00:12:31,440
+ durch Übung kann man das
+
+473
+00:12:31,450 --> 00:12:32,840
+ wirklich in den Kopf kriegen
+
+474
+00:12:33,400 --> 00:12:34,880
+ und dann gerne auch bis zum
+
+475
+00:12:34,890 --> 00:12:35,429
+ nächsten Mal

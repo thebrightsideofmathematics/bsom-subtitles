@@ -1,0 +1,8 @@
+0:00 Einführung
+0:36 Zeilenstufenform berechnen
+1:38 Zeilenstufenform
+2:10 Dimensionen ablesen
+4:21 Kern bestimmen
+5:00 Bild bestimmen
+7:30 Basis des Bildes aufschreiben
+7:50 Basis des Kerns aufschreiben
