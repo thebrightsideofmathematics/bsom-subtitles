@@ -1,0 +1,5 @@
+00:00 Intro
+00:17 Bayes's theorem
+01:20 Law of total Probability
+04:51 Example: Monty Hall problem
+09:35 Outro
