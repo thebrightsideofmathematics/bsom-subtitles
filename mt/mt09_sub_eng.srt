@@ -372,7 +372,7 @@
 
 94
 00:02:37,770 --> 00:02:39,350
- this claim here is Lebegue's
+ this claim here is Lebesgue's
 
 95
 00:02:39,720 --> 00:02:41,410
@@ -1004,7 +1004,7 @@
 
 252
 00:07:07,579 --> 00:07:08,809
- of the Lebegue integral.
+ of the Lebesgue integral.
 
 253
 00:07:08,820 --> 00:07:10,630
