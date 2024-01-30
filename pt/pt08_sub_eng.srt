@@ -4,7 +4,7 @@ Hello and welcome back to probability theory.
 
 2
 00:00:03,719 --> 00:00:09,086
-and as you know, first i want to thank all the nice people that support this channel on Steady or Paypal.
+and as you know, first I want to thank all the nice people that support this channel on Steady or Paypal.
 
 3
 00:00:09,400 --> 00:00:17,257
@@ -40,7 +40,7 @@ Hence with this part we can put both equations together.
 
 11
 00:00:53,931 --> 00:01:03,992
-Which leads us for left hand side to P(A|B) times P(B) and on the right hand side it leads us to P(B|A) times P(A).
+Which leads us for left-hand side to P(A|B) times P(B) and on the right hand side it leads us to P(B|A) times P(A).
 
 12
 00:01:04,471 --> 00:01:08,144
@@ -52,7 +52,7 @@ In this order it's easy to remember, because here we have the condition B and P(
 
 14
 00:01:16,429 --> 00:01:20,743
-Ok, at the end of the video i can show you how we can use this formula.
+Ok, at the end of the video I can show you how we can use this formula.
 
 15
 00:01:20,943 --> 00:01:25,141
@@ -248,7 +248,7 @@ We just use it to compute a probability with the 2 laws above.
 
 63
 00:05:08,351 --> 00:05:11,635
-However i still have to explain how this whole puzzle works.
+However I still have to explain how this whole puzzle works.
 
 64
 00:05:11,835 --> 00:05:18,436
@@ -288,7 +288,7 @@ So you can either keep the original door or you can switch.
 
 73
 00:05:47,492 --> 00:05:52,373
-and now i can already tell you, switching has the higher probability to getting the car.
+and now I can already tell you, switching has the higher probability to getting the car.
 
 74
 00:05:52,986 --> 00:05:56,688
@@ -352,7 +352,7 @@ Therefore we also now the probability of s_3 under the condition c_2.
 
 89
 00:07:02,773 --> 00:07:06,511
-Because this is what i told you, he opens one of the 2 remaining doors.
+Because this is what I told you, he opens one of the 2 remaining doors.
 
 90
 00:07:06,727 --> 00:07:08,547
@@ -388,7 +388,7 @@ Indeed this will be our last step here.
 
 98
 00:07:43,643 --> 00:07:49,262
-So we want to know: what is the probability of getting the car when i switch the door in the third step.
+So we want to know: what is the probability of getting the car when I switch the door in the third step.
 
 99
 00:07:49,877 --> 00:07:52,422
@@ -416,7 +416,7 @@ Therefore often you see Bayes's theorem in this formulation.
 
 105
 00:08:16,426 --> 00:08:21,712
-Ok, now here on the right hand side we have a problem, because we don't know what P(s_3) is.
+Ok, now here on the right-hand side we have a problem, because we don't know what P(s_3) is.
 
 106
 00:08:21,712 --> 00:08:28,132
@@ -484,5 +484,5 @@ However of course the goal here was not winning a car, but rather seeing the app
 
 122
 00:09:42,339 --> 00:09:48,837
-Ok with this i think it's good enough for today and i hope i see you in the next video. Have a nice day and Bye! :) :)
+Ok with this I think it's good enough for today and I hope I see you in the next video. Have a nice day and Bye! :) :)
 
