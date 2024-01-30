@@ -364,7 +364,7 @@ Then you can define it as the supremum of the lower sums or the infimum of the u
 87
 00:08:51,350 --> 00:08:58,550
 This is then the same value
-and this value is then called the Riemann integral for the function f in the intervall [a,b].
+and this value is then called the Riemann integral for the function f in the interval [a,b].
 
 88
 00:08:58,650 --> 00:09:07,150
