@@ -180,7 +180,7 @@ In other words, are together
 
 46
 00:01:12,769 --> 00:01:14,180
-with this norm is a Bana
+with this norm is a Banach
 
 47
 00:01:14,370 --> 00:01:14,989
@@ -1628,7 +1628,7 @@ put everything together for
 
 408
 00:11:07,159 --> 00:11:08,840
-an abitrary chosen epsilon
+an arbitrarily chosen epsilon
 
 409
 00:11:08,849 --> 00:11:10,169
