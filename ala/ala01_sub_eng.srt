@@ -216,7 +216,7 @@ This now could be any field, but often it's either the real number line or the c
 
 55
 00:05:49,152 --> 00:05:53,665
-Of course the choice of the field definitely depends on which problem you want to takle,
+Of course the choice of the field definitely depends on which problem you want to tackle,
 
 56
 00:05:53,865 --> 00:05:57,485

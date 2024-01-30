@@ -492,7 +492,7 @@
 
 124
 00:03:18,009 --> 00:03:19,720
- there's no X tilda in the
+ there's no X tilde in the
 
 125
 00:03:19,729 --> 00:03:21,559
@@ -952,7 +952,7 @@
 
 239
 00:06:26,559 --> 00:06:27,950
- with the limit X tilda
+ with the limit X tilde
 
 240
 00:06:27,959 --> 00:06:29,929

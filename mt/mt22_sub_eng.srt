@@ -1968,7 +1968,7 @@ Phi, we already have the
 
 493
 00:13:04,440 --> 00:13:05,820
-Sigma subadditivityv.
+Sigma subadditivity.
 
 494
 00:13:06,809 --> 00:13:08,469

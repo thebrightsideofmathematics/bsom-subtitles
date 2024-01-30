@@ -628,7 +628,7 @@
 
 158
 00:04:11,580 --> 00:04:13,410
- the same point as X tilda
+ the same point as X tilde
 
 159
 00:04:13,419 --> 00:04:14,050
@@ -924,11 +924,11 @@
 
 232
 00:06:10,910 --> 00:06:12,839
- tilda into the parentheses
+ tilde into the parentheses
 
 233
 00:06:12,869 --> 00:06:14,440
- and then you see X tilda
+ and then you see X tilde
 
 234
 00:06:14,500 --> 00:06:16,059
