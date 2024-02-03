@@ -1,0 +1,11 @@
+Abstract Linear Algebra - Part 9
+
+00:00 Introduction
+00:39 Change-of-basis matrix
+01:58 Example - explanation
+02:50 Example in R²
+05:10 First transition matrix
+05:54 Second transition matrix
+06:39 Composition of change-of-basis
+07:51 Gaussian elimination for product
+11:41 Credits
