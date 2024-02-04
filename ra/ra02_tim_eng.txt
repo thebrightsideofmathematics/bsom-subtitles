@@ -5,3 +5,4 @@
 01:50 Examples
 06:06 Definition of convergence and divergence
 08:55 Example and Archimedean property
+11:56 Credits
