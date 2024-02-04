@@ -1,2 +1,7 @@
 ﻿Real Analysis - Part 2 - Sequences and limits
 
+00:00 Introduction
+00:15 Definition of a sequence
+01:50 Examples
+06:06 Definition of convergence and divergence
+08:55 Example and Archimedean property

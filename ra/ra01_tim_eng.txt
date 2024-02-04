@@ -1,1 +1,7 @@
 ﻿Real Analysis - Part 1 - Introduction
+
+00:00 Introduction
+00:27 Topic of real analysis
+01:31 Requirements
+02:05 Axioms of the real numbers
+03:54 Credits
