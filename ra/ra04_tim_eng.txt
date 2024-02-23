@@ -1,0 +1,7 @@
+﻿Real Analysis - Part 4
+
+00:00 Intro
+00:18 Limit of a sequence
+01:16 Theorem on limits
+03:48 Example
+06:22 Outro
