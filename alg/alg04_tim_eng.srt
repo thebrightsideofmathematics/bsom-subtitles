@@ -1,0 +1,8 @@
+Algebra - Part 4
+
+00:00 Introduction
+00:55 Semigroup with inverses
+01:42 First definition of a group
+03:16 Second definition of a group
+05:00 Proof for equivalence of definitions
+10:10 Credits
