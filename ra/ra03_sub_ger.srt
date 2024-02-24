@@ -40,7 +40,7 @@ Der Beweis funktioniert durch Widerspruch.
 
 11
 00:00:39,790 --> 00:00:43,180
-Bedeutet wir nehmen an, dass die Folge ein Limit "a" besitzt.
+Bedeutet wir nehmen an, dass die Folge einen Grenzwert "a" besitzt.
 
 12
 00:00:44,090 --> 00:00:46,490
@@ -344,7 +344,7 @@ Dafür müsst ihr euch nur an die Definition von Konvergenz erinnern.
 
 87
 00:05:05,900 --> 00:05:08,480
-Wir wissen es existiert ein Limit namens "a"
+Wir wissen es existiert ein Grenzwert namens "a"
 
 88
 00:05:08,480 --> 00:05:12,180
@@ -428,7 +428,7 @@ Mit diesem Wissen, können wir zum nächsten wichtigen Fakt über Folgen kommen.
 
 108
 00:06:13,460 --> 00:06:17,740
-Ihr wisst, dass wenn wir eine konvergente Folge haben, dann finden ihr ein Limit "a",
+Ihr wisst, dass wenn wir eine konvergente Folge haben, dann finden wir einen Grenzwert "a",
 
 109
 00:06:17,780 --> 00:06:20,460
@@ -436,11 +436,11 @@ aber dieses "a" ist tatsächlich eindeutig.
 
 110
 00:06:21,260 --> 00:06:25,150
-Daher sind wir in der Lage, über DAS Limit von der konvergente Folge zu sprechen.
+Daher sind wir in der Lage, über DEN Grenzwert der konvergenten Folge zu sprechen.
 
 111
 00:06:25,950 --> 00:06:29,430
-Somit mach die Notation"limit a_n" Sinn.
+Somit mach die Notation "limit a_n" Sinn.
 
 112
 00:06:30,050 --> 00:06:33,350
@@ -448,7 +448,7 @@ Lass uns das Video mit dem Beweis dazu beenden.
 
 113
 00:06:33,980 --> 00:06:38,280
-Wir nehmen an, dass wir zwei verschieden Limits "a" und "ã" haben.
+Wir nehmen an, dass wir zwei verschiedene Grenzwerte "a" und "ã" haben.
 
 114
 00:06:38,610 --> 00:06:43,210
@@ -568,7 +568,7 @@ und dann teilen wir das in zwei Teile
 
 143
 00:08:21,520 --> 00:08:25,150
-und ab diesen Punkt wissen wir, durch unsere Annahme von 2 Limits,
+und ab diesen Punkt wissen wir, durch unsere Annahme von 2 Grenzwerten,
 
 144
 00:08:25,160 --> 00:08:27,700
@@ -612,7 +612,7 @@ Dieser Fakt hier werden wir für den gesamten Kurs nutzen.
 
 154
 00:08:55,010 --> 00:08:58,800
-Daher merkt euch bitte, dass eine konvergente Folge nur ein eindeutiges Limit hat.
+Daher merkt euch bitte, dass eine konvergente Folge nur einen eindeutigen Grenzwert hat.
 
 155
 00:08:59,670 --> 00:09:01,760
