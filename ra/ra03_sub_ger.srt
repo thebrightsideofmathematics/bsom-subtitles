@@ -1,0 +1,624 @@
+1
+00:00:00,410 --> 00:00:03,410
+Hallo und willkommen zurück zur reellen analysis
+
+2
+00:00:04,170 --> 00:00:09,500
+und wie immer, vielen lieben dank an all die netten Leute, die diesen Kanal auf Steady oder Paypal unterstützen.
+
+3
+00:00:09,990 --> 00:00:14,590
+Im heutigen Teil 3, werde ich euch mehr über konvergierenden Folgen erzählen.
+
+4
+00:00:15,240 --> 00:00:19,000
+Dafür wäre ein Beispiel ein guter Startpunkt.
+
+5
+00:00:19,840 --> 00:00:22,040
+Wir haben hier die Folge (a_n)
+
+6
+00:00:22,250 --> 00:00:25,250
+geben als -1 hoch n.
+
+7
+00:00:25,640 --> 00:00:28,740
+Das war ein Beispiel aus dem letzten Video,
+
+8
+00:00:28,750 --> 00:00:32,800
+aber jetzt werden wir zeigen, dass diese Folge nicht konvergiert.
+
+9
+00:00:33,470 --> 00:00:36,960
+In anderen Worten: wir beweisen, dass diese Folge divergiert.
+
+10
+00:00:37,590 --> 00:00:39,790
+Der Beweis funktioniert durch Widerspruch.
+
+11
+00:00:39,790 --> 00:00:43,180
+Bedeutet wir nehmen an, dass die Folge ein Limit "a" besitzt.
+
+12
+00:00:44,090 --> 00:00:46,490
+Das könnte irgendeine Zahl auf der Zahlenstrahl sein,
+
+13
+00:00:46,510 --> 00:00:48,800
+an der sich die Folge immer weiter annähert.
+
+14
+00:00:49,360 --> 00:00:51,440
+Wenn ihr aber auf den Zahlenstrahl schaut,
+
+15
+00:00:51,450 --> 00:00:53,950
+seht ihr direkt, dass dies nicht möglich ist,
+
+16
+00:00:54,530 --> 00:00:57,430
+weil die Folge immer zwischen -1 und 1 hin und her springt.
+
+17
+00:00:58,420 --> 00:01:01,020
+Daher ist es irrelevant, wo wir "a" setzten,
+
+18
+00:01:01,370 --> 00:01:05,750
+da wir immer unendlich viele Punkte finden werden, die weit weg von "a" sind.
+
+19
+00:01:06,710 --> 00:01:10,000
+Natürlich sollte dies nicht bei einer konvergierenden Folge passieren.
+
+20
+00:01:10,990 --> 00:01:14,780
+Jetzt müssen wir unsere Idee nur noch formell aufschreiben.
+
+21
+00:01:15,840 --> 00:01:17,750
+Eine gute Idee für den Anfang wäre es,
+
+22
+00:01:17,770 --> 00:01:20,860
+die explizite Definition von Konvergenz aufzuschreiben.
+
+23
+00:01:21,510 --> 00:01:24,410
+Diese besagt, dass für JEDE kleine Zahl Epsilon
+
+24
+00:01:24,430 --> 00:01:26,430
+finden wir einen Index "N"
+
+25
+00:01:26,460 --> 00:01:29,250
+sodass für alle Indizes danach gilt,
+
+26
+00:01:29,270 --> 00:01:34,050
+dass der Abstand zwischen "a_n" und "a" kleiner als ein gegebenes Epsilon ist.
+
+27
+00:01:34,860 --> 00:01:40,640
+Was wir jetzt hier einsetzten können ist, dass der Abstand zwischen -1 und 1 genau 2 ist.
+
+28
+00:01:41,500 --> 00:01:45,380
+Ok, jetzt wäre die Idee, dass wir uns einen so kleinen Wert für Epsilon aussuchen,
+
+29
+00:01:45,390 --> 00:01:47,860
+sodass die Epsilon-Umgebung um "a" herum
+
+30
+00:01:47,870 --> 00:01:50,870
+nicht mehr -1 und 1 gleichzeitig beinhalten kann.
+
+31
+00:01:51,370 --> 00:01:54,470
+Wir brauchen also eine Zahl die kleiner oder gleich 1 ist.
+
+32
+00:01:54,510 --> 00:01:56,210
+Lass uns daher die 1 wählen.
+
+33
+00:01:57,000 --> 00:02:00,900
+Nach definition finden wir für dieses Epsilon ein N.
+
+34
+00:02:01,830 --> 00:02:07,310
+Wir wissen jetzt, dass die Distanz von "a_n" zu "a" kleiner als unser gewähltes Epsilon ist
+
+35
+00:02:07,730 --> 00:02:12,100
+und natürlich haben wir dieses Ergebnis auch für das nächste Objekt in der Folge.
+
+36
+00:02:12,790 --> 00:02:16,260
+Das gilt natürlich für unendlich viele Objekte aus der Folge,
+
+37
+00:02:16,270 --> 00:02:17,800
+aber wir brauchen hier nur die 2,
+
+38
+00:02:18,350 --> 00:02:22,740
+weil wir wissen, dass einer der beiden Indizes gerade und das andere dementsprechend ungerade sein muss.
+
+39
+00:02:23,600 --> 00:02:25,130
+Wir bekommen also beide Resultate raus.
+
+40
+00:02:25,140 --> 00:02:26,829
+-1 and 1.
+
+41
+00:02:27,670 --> 00:02:30,000
+Hier seht ihr vielleicht schon das Problem was wir haben.
+
+42
+00:02:30,030 --> 00:02:33,530
+Wir messen beide Distanzen, die beide kleiner als 1 sind,
+
+43
+00:02:33,620 --> 00:02:36,820
+aber die Distanz zwischen -1 und 1 ist immer noch 2.
+
+44
+00:02:37,440 --> 00:02:40,630
+Deswegen sollte dass der Dreiecksungleichung widersprechen.
+
+45
+00:02:41,390 --> 00:02:42,800
+Ok, dann lasst uns das aufschreiben.
+
+46
+00:02:43,030 --> 00:02:45,630
+Als erstes stellen wir fest, dass wenn wir die beiden Distanzen addieren,
+
+47
+00:02:45,670 --> 00:02:47,760
+wir eine Nummer die kleiner als 2 ist, bekommen
+
+48
+00:02:48,320 --> 00:02:50,110
+und auf der anderen Seite wissen wir schon,
+
+49
+00:02:50,110 --> 00:02:52,910
+dass die Distanz zwischen -1 und 1 genau 2 ergibt.
+
+50
+00:02:54,010 --> 00:02:57,900
+Ok und jetzt wäre die Idee, dass wir eine Umleitung, mit "a" in der Mitte, gehen.
+
+51
+00:02:58,650 --> 00:03:02,050
+Mit anderen Worten möchte ich "a" in den Betrag bekommen.
+
+52
+00:03:02,900 --> 00:03:07,800
+Also lasst uns "-a + a" hier schreiben und benutzten die Dreiecksungleichung.
+
+53
+00:03:08,670 --> 00:03:09,560
+Hier solltet ihr jetzt sehen,
+
+54
+00:03:09,560 --> 00:03:13,160
+dass das exakt das Selbe ist, was wir vorher schon auf die rechte Seite geschrieben hatten.
+
+55
+00:03:13,900 --> 00:03:18,900
+Was uns sofort zu unseren Widerspruch führt, weil wir 2 ist kleiner als 2 haben.
+
+56
+00:03:19,730 --> 00:03:23,720
+Das ist falsch. Weswegen unsere Voraussetzung falsch sein muss
+
+57
+00:03:24,400 --> 00:03:27,600
+oder anders gesagt. Die Folge ist tatsächlich divergent.
+
+58
+00:03:28,500 --> 00:03:33,900
+Ok, also hier haben wir eine Folge, die nicht die schöne Konvergenz Eigenschaft hat,
+
+59
+00:03:33,940 --> 00:03:35,990
+aber sie hat dennoch ein paar Eigenschaften
+
+60
+00:03:36,730 --> 00:03:40,860
+und eine wichtige davon ist, dass die Folge beschränkt ist.
+
+61
+00:03:41,510 --> 00:03:44,600
+Lass uns daher einmal definieren, was eine beschränkte Folge ist.
+
+62
+00:03:45,720 --> 00:03:48,910
+Lass dafür "a_n" eine Folge der natürlichen Zahlen sein
+
+63
+00:03:48,940 --> 00:03:50,940
+und dann nennen wir sie beschränkt,
+
+64
+00:03:51,830 --> 00:03:54,450
+wenn eine reelle Zahl "C" existiert,
+
+65
+00:03:55,290 --> 00:03:57,990
+sodass für alle Objekte der Folge gilt,
+
+66
+00:03:58,540 --> 00:04:03,000
+dass die Distanz "a_n" zu 0 kleiner oder gleich "C" ist.
+
+67
+00:04:03,760 --> 00:04:05,760
+Wir können es am Zahlenstrahl visualisieren,
+
+68
+00:04:05,770 --> 00:04:08,970
+indem wir die zwei Grenzen "-C" und "C" setzten
+
+69
+00:04:09,530 --> 00:04:13,330
+und dann lebt die ganze Folge von "a_n" da drin
+
+70
+00:04:14,030 --> 00:04:16,420
+und falls wir nicht in der Lage sind so ein "C" zu finden,
+
+71
+00:04:16,420 --> 00:04:18,820
+nennen wir die Folge unbeschränkt.
+
+72
+00:04:19,410 --> 00:04:22,480
+Ihr habt bereits eine beschränkte Folge gesehen.
+
+73
+00:04:22,540 --> 00:04:24,240
+Nämlich an dem Beispiel vom Anfang.
+
+74
+00:04:25,100 --> 00:04:27,440
+Dort können wir einfach "C" als 1 definieren
+
+75
+00:04:28,120 --> 00:04:30,120
+und dann seht ihr, dass das Bild passt.
+
+76
+00:04:30,990 --> 00:04:33,590
+Tatsächlich haben wir aber schon mehrere solcher Beispiele gesehen,
+
+77
+00:04:33,650 --> 00:04:35,940
+weil der folgende Fakt gilt.
+
+78
+00:04:36,600 --> 00:04:41,600
+Wenn wir eine konvergierende Folge haben, können wir daraus schließen, dass diese auch beschränkt ist.
+
+79
+00:04:41,970 --> 00:04:44,040
+Das gilt aber nicht in die andere Richtung,
+
+80
+00:04:44,050 --> 00:04:46,440
+wie wir es schon am ersten Beispiel des Tages gesehen haben.
+
+81
+00:04:47,020 --> 00:04:50,650
+Einen weiteren wichtigen Fakt, den ihr euch merken solltet, ist die Kontraposition.
+
+82
+00:04:51,460 --> 00:04:54,000
+Wenn wir eine unbeschränkte Folge haben,
+
+83
+00:04:54,020 --> 00:04:56,560
+wissen wir schon, dass sie nicht konvergent sein kann.
+
+84
+00:04:57,290 --> 00:04:59,290
+Also lasst uns diesen wichtigen Fakt beweisen.
+
+85
+00:04:59,290 --> 00:05:01,000
+Dies ist tatsächlich nicht so schwer.
+
+86
+00:05:01,520 --> 00:05:05,100
+Dafür müsst ihr euch nur an die Definition von Konvergenz erinnern.
+
+87
+00:05:05,900 --> 00:05:08,480
+Wir wissen es existiert ein Limit namens "a"
+
+88
+00:05:08,480 --> 00:05:12,180
+sodass wir etwas haben, was wir mit diesem Bild hier visualisieren können.
+
+89
+00:05:12,690 --> 00:05:17,280
+Fast alle Punkte liegen in der Epsilon-Umgebung um "a" herum.
+
+90
+00:05:17,920 --> 00:05:20,290
+Daher bekommt ihr etwas, wie in dem Bild weiter oben.
+
+91
+00:05:20,290 --> 00:05:25,120
+Wir müssen einfach "C" oder "-C" als "a + Epsilon" definieren
+
+92
+00:05:25,140 --> 00:05:29,000
+oder als das Objekt, was am weitesten von der Epsilon-Umgebung entfernt ist.
+
+93
+00:05:29,560 --> 00:05:30,860
+Um es einmal in eine Formel zu packen.
+
+94
+00:05:30,860 --> 00:05:35,580
+Wir definieren "C" als die maximalste Zahl aus dieser endlichen Zahlenmenge,
+
+95
+00:05:36,380 --> 00:05:38,360
+wenn wir den Betrag von diesen nehmen.
+
+96
+00:05:38,370 --> 00:05:40,370
+Somit haben wir kein Problem, durch das Vorzeichen.
+
+97
+00:05:40,390 --> 00:05:43,070
+Wir haben einfach eine positive Zahl als "C"
+
+98
+00:05:43,650 --> 00:05:46,640
+und wenn wir "|a| + Epsilon" schreiben,
+
+99
+00:05:46,820 --> 00:05:50,510
+bekommen wir eine Grenze raus, die am weitesten von 0 entfernt ist.
+
+100
+00:05:50,970 --> 00:05:52,970
+Es könnte dieses oder das anderen sein.
+
+101
+00:05:53,060 --> 00:05:55,659
+Abhängig davon, wo 0 auf dem Zahlenstrahl liegt.
+
+102
+00:05:56,460 --> 00:05:58,720
+Hier ist es wichtig zu beachten, dass "C"
+
+103
+00:05:58,730 --> 00:06:00,660
+offensichtlich positiv sein muss.
+
+104
+00:06:00,670 --> 00:06:03,670
+Wir müssen aber nicht das kleinstmögliche "C" finden.
+
+105
+00:06:04,000 --> 00:06:05,400
+Wir müssen nur "C" finden
+
+106
+00:06:05,920 --> 00:06:08,320
+und genau das bekommen wir durch diese Definition hier.
+
+107
+00:06:09,090 --> 00:06:12,970
+Mit diesem Wissen, können wir zum nächsten wichtigen Fakt über Folgen kommen.
+
+108
+00:06:13,460 --> 00:06:17,740
+Ihr wisst, dass wenn wir eine konvergente Folge haben, dann finden ihr ein Limit "a",
+
+109
+00:06:17,780 --> 00:06:20,460
+aber dieses "a" ist tatsächlich eindeutig.
+
+110
+00:06:21,260 --> 00:06:25,150
+Daher sind wir in der Lage, über DAS Limit von der konvergente Folge zu sprechen.
+
+111
+00:06:25,950 --> 00:06:29,430
+Somit mach die Notation"limit a_n" Sinn.
+
+112
+00:06:30,050 --> 00:06:33,350
+Lass uns das Video mit dem Beweis dazu beenden.
+
+113
+00:06:33,980 --> 00:06:38,280
+Wir nehmen an, dass wir zwei verschieden Limits "a" und "ã" haben.
+
+114
+00:06:38,610 --> 00:06:43,210
+Dies bedeutet, dass der Abstand zwischen den beiden Punkten, größer als 0 ist.
+
+115
+00:06:43,750 --> 00:06:46,110
+Wenn ihr dies auf dem Zahlenstrahl visualisiert,
+
+116
+00:06:46,130 --> 00:06:48,520
+seht ihr direkt, dass das nicht funktioniert,
+
+117
+00:06:49,470 --> 00:06:51,990
+weil für ein zufälliges Epsilon, because you know, for an arbitrary epsilon
+
+118
+00:06:52,000 --> 00:06:56,300
+liegen die Folgemitgleider irgendwann innerhalb der Epsilon-Umgebung
+
+119
+00:06:56,830 --> 00:06:59,820
+und das würde für sowohl "a" als auch "ã" gelten.
+
+120
+00:07:00,490 --> 00:07:04,000
+Dies ist offensichtlich ein Widerspruch, sobald Epsilon klein genug ist.
+
+121
+00:07:04,300 --> 00:07:06,910
+Ausgenommen von endlich vielen Folgemitgliedern,
+
+122
+00:07:06,920 --> 00:07:10,520
+können wir nicht alle Folgemitglieder innerhalb dieser Epsilon-Umgebung
+
+123
+00:07:10,530 --> 00:07:11,560
+und dieser hier haben.
+
+124
+00:07:12,380 --> 00:07:15,570
+Das widerspricht ganz klar, die Definition von Konvergenz.
+
+125
+00:07:16,210 --> 00:07:18,210
+In diesem Sinne, sagt dieses Bild schon alles aus.
+
+126
+00:07:18,220 --> 00:07:20,770
+Jetzt müssen wir das nur noch in Formeln packen
+
+127
+00:07:21,260 --> 00:07:22,630
+oder in anderen Worten
+
+128
+00:07:22,650 --> 00:07:26,100
+wähle ein Epsilon, was klein genug ist, damit dieses Bild funktioniert.
+
+129
+00:07:26,740 --> 00:07:30,240
+Ihr seht, dass es kleiner als der Abstand zwischen "a" und "ã" sein muss.
+
+130
+00:07:30,260 --> 00:07:32,750
+Lass uns also ein viertel von dieser Distanz nehmen.
+
+131
+00:07:33,300 --> 00:07:36,100
+Das ist nun unser Epsilon.
+
+132
+00:07:37,020 --> 00:07:39,409
+Nach der Definition von Konvergenz, 
+
+133
+00:07:39,410 --> 00:07:42,700
+finden wir für dieses Epsilon ein "N"
+
+134
+00:07:43,230 --> 00:07:47,830
+und alle Folgemitglieder nach diesem "N" erfüllen das.
+
+135
+00:07:48,550 --> 00:07:52,350
+Durch unsere Vorrausetzung gilt das Gleiche für "ã"
+
+136
+00:07:53,040 --> 00:07:57,540
+und das "N", welcher wir für "ã" finden, nennen wir "Ñ"
+
+137
+00:07:58,270 --> 00:08:01,410
+Daher können wir jetzt ein "n" wählen, 
+
+138
+00:08:01,420 --> 00:08:04,220
+welches größer als "N" und "Ñ" ist.
+
+139
+00:08:04,810 --> 00:08:08,210
+Wir setzten es einfach größer oder gleich, des Maximums
+
+140
+00:08:08,740 --> 00:08:12,440
+und dann wollen wir wieder die Dreiecksungleichung benutzen.
+
+141
+00:08:12,890 --> 00:08:17,280
+Bedeutet, wir packen zwischen "a" und "ã" unser "a_n"
+
+142
+00:08:17,900 --> 00:08:20,680
+und dann teilen wir das in zwei Teile
+
+143
+00:08:21,520 --> 00:08:25,150
+und ab diesen Punkt wissen wir, durch unsere Annahme von 2 Limits,
+
+144
+00:08:25,160 --> 00:08:27,700
+dass dies hier kleiner als Epsilon ist
+
+145
+00:08:27,760 --> 00:08:29,760
+und das hier auch.
+
+146
+00:08:29,960 --> 00:08:33,549
+Indem wir die Definition von Epsilon benutzen bekommen wir raus,
+
+147
+00:08:34,110 --> 00:08:37,409
+dass die linke Seite kleiner als die rechte Seite ist.
+
+148
+00:08:37,539 --> 00:08:39,730
+Welche die Hälfte von der linken Seite ist.
+
+149
+00:08:40,260 --> 00:08:42,620
+Da wir aber hier positive Zahlen haben, 
+
+150
+00:08:42,640 --> 00:08:44,130
+kann das nicht sein
+
+151
+00:08:45,060 --> 00:08:46,640
+und somit haben wir unseren ganzen Beweis.
+
+152
+00:08:46,830 --> 00:08:49,620
+Was tatsächlich einfach nur das Bild ist, was ich euch vorher gezeigt hatte.
+
+153
+00:08:50,080 --> 00:08:54,180
+Dieser Fakt hier werden wir für den gesamten Kurs nutzen.
+
+154
+00:08:55,010 --> 00:08:58,800
+Daher merkt euch bitte, dass eine konvergente Folge nur ein eindeutiges Limit hat.
+
+155
+00:08:59,670 --> 00:09:01,760
+Ich hoffe ich sehe euch im nächsten Video.
+
+156
+00:09:01,850 --> 00:09:03,850
+Habt einen schönen Tag! Tschüss!
+
