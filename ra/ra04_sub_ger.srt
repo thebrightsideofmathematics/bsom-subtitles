@@ -1,0 +1,432 @@
+1
+00:00:00,470 --> 00:00:03,170
+Hallo und willkommen zur Reellen Analysis
+
+2
+00:00:03,770 --> 00:00:09,150
+und wie immer, vielen lieben Dank an all die netten Leute, die diesen Kanal auf Paypal oder Patreon unterstützen.
+
+3
+00:00:09,780 --> 00:00:13,700
+Im heutigen Teil 4, werden wir über so genannte Grenzwertsätze reden.
+
+4
+00:00:14,340 --> 00:00:17,820
+Wenn ihr mit Folgen arbeitet, werdet ihr sie die ganze Zeit anwenden.
+
+5
+00:00:18,640 --> 00:00:20,040
+Dafür erinnert euch bitte.
+
+6
+00:00:20,060 --> 00:00:24,350
+Das ist wie wir eine Folge bezeichnen, die aus reellen zahlen "a_n" besteht
+
+7
+00:00:25,110 --> 00:00:28,200
+und wenn diese Folge zu einem Punkt "a" konvergiert,
+
+8
+00:00:28,450 --> 00:00:30,490
+haben wir eine Notation für diesen Grenzwert.
+
+9
+00:00:31,180 --> 00:00:33,180
+Eine Möglichkeit für die Schreibweise wäre
+
+10
+00:00:33,190 --> 00:00:37,180
+limit "n nach unendlich" von "a_n" ist gleich "a"
+
+11
+00:00:38,250 --> 00:00:41,350
+und eine weitere Möglichkeit wäre es einen Pfeil zu benutzen,
+
+12
+00:00:41,370 --> 00:00:45,450
+wo wir "n nach unendlich" ran schreiben und dann geht's nach "a"
+
+13
+00:00:46,370 --> 00:00:48,370
+Beide bedeuten exakt das Gleiche.
+
+14
+00:00:48,380 --> 00:00:51,180
+Nämlich die Definition der Konvergenz.
+
+15
+00:00:51,760 --> 00:00:53,710
+In diesem Bild könnt ihr es nochmal sehen.
+
+16
+00:00:53,730 --> 00:00:59,450
+Für alle Epsilon, werden die Folgemitglieder irgendwann alle innerhalb der Epsilon-Umgebung von "a" liegen
+
+17
+00:01:00,340 --> 00:01:03,750
+und jetzt werden wir darüber reden, was mit der Konvergenz passiert,
+
+18
+00:01:03,770 --> 00:01:06,510
+wenn wir 2 konvergierende Folgen miteinander verbinden
+
+19
+00:01:07,070 --> 00:01:10,460
+und dann bekommen wir noch ein paar Regeln, wie wir mit den Grenzwerten davon umgehen.
+
+20
+00:01:11,300 --> 00:01:14,480
+All dies können wir in ein paar netten Theorems packen.
+
+21
+00:01:15,770 --> 00:01:18,460
+Lasst uns diese einfach Grenzwertsätze nennen.
+
+22
+00:01:19,020 --> 00:01:20,060
+Dies bedeutet einfach,
+
+23
+00:01:20,080 --> 00:01:23,760
+dass ein eindeutiger Grenzwert "a" existiert für diese Folge
+
+24
+00:01:23,780 --> 00:01:27,280
+und ein eindeutiges "b" für diese Folge hier.
+
+25
+00:01:27,850 --> 00:01:31,380
+Ok, lasst uns jetzt diese Folgen mithilfe eines Graphen visualisieren.
+
+26
+00:01:32,140 --> 00:01:35,740
+Z.B. können wir hier die Folge "a_n" aufmalen.
+
+27
+00:01:35,770 --> 00:01:39,900
+Das sind also a_1, a_2, a_3, a_4 und so weiter
+
+28
+00:01:40,350 --> 00:01:42,840
+und auf der selben weise können wir uns "b_n" anschauen.
+
+29
+00:01:42,860 --> 00:01:45,340
+Also b_1, b_2 und so weiter
+
+30
+00:01:45,870 --> 00:01:48,950
+und hier könnt ihr sehen, dass wir ganz einfach eine neue Folge formen können,
+
+31
+00:01:48,970 --> 00:01:52,250
+indem wir einfach die beiden Folgen an jedem Punkt miteinander verbinden.
+
+32
+00:01:53,050 --> 00:01:55,420
+Z.B. könnten wir die Werte miteinander addieren
+
+33
+00:01:55,450 --> 00:01:57,300
+und damit bekommen wir eine neue Folge raus,
+
+34
+00:01:57,310 --> 00:01:58,610
+die wir die Summe nennen können.
+
+35
+00:01:59,190 --> 00:02:01,280
+Die offensichtliche Frage wäre hier nun,
+
+36
+00:02:01,290 --> 00:02:03,390
+was passiert wenn "n" in Richtung unendlich geht?
+
+37
+00:02:03,930 --> 00:02:07,920
+Immerhin wissen wir schon, dass "a_n" und "b_n" konvergieren,
+
+38
+00:02:08,389 --> 00:02:13,270
+daher wäre es schon, wenn die neue Folge "a_n + b_n" dies auch tuen würde
+
+39
+00:02:13,980 --> 00:02:16,660
+und tatsächlich wäre dies unser erstes Resultat.
+
+40
+00:02:17,210 --> 00:02:22,110
+Wir haben gegeben, dass die neue Folge "a_n + b_n" auch konvergiert.
+
+41
+00:02:22,280 --> 00:02:24,680
+Der Grenzwert ist also eindeutig definiert.
+
+42
+00:02:25,070 --> 00:02:26,550
+Tatsächlich haben wir haben noch mehr.
+
+43
+00:02:26,560 --> 00:02:28,329
+Wir können diesen direkt ausrechnen.
+
+44
+00:02:28,890 --> 00:02:32,270
+Es ist einfach nur die Summe der beiden Grenzwerten, die wir schon kennen.
+
+45
+00:02:33,030 --> 00:02:36,790
+Mit anderen Worten können wir den Grenzwert reinziehen, wenn wir eine Summe haben.
+
+46
+00:02:37,240 --> 00:02:40,740
+Vorausgesetzt, dass diese beiden Grenzwerte überhaupt existieren.
+
+47
+00:02:41,440 --> 00:02:43,630
+Wir können dies sehr oft benutzen,
+
+48
+00:02:43,640 --> 00:02:47,310
+wenn wir Grenzwerte berechnen wollen und ein Plus Zeichen mit involviert ist.
+
+49
+00:02:47,730 --> 00:02:52,350
+Das schöne hier ist, dass es genau so bei Multiplikation funktioniert.
+
+50
+00:02:53,060 --> 00:02:56,660
+Hier können wir den Grenzwert einfach in das Produkt tuen.
+
+51
+00:02:57,110 --> 00:03:01,020
+In anderen Worten. Diese neue Folge hier, ist auch konvergent,
+
+52
+00:03:01,030 --> 00:03:03,600
+wenn wir zwei konvergierende Folgen zusammen tuen.
+
+53
+00:03:04,400 --> 00:03:09,100
+Ok. Ich kann euch sagen, dass genau das Gleiche auch für die inversen Operatoren gilt.
+
+54
+00:03:09,160 --> 00:03:11,350
+Nämlich Subtraktion und Division.
+
+55
+00:03:11,950 --> 00:03:15,900
+Lasst uns das vielleicht mal aufschreiben für die neue Folge, die durch diesen Bruch gegeben ist.
+
+56
+00:03:16,560 --> 00:03:20,500
+Natürlich müssen wir hier darauf achten, dass der Nenner niemals 0 ist,
+
+57
+00:03:20,520 --> 00:03:22,990
+damit der Bruch immer definiert ist.
+
+58
+00:03:23,570 --> 00:03:28,079
+Dann können wir das limit sowohl in den Zähler als auch in den Nenner schreiben.
+
+59
+00:03:28,090 --> 00:03:31,490
+Vorausgesetzt der Grenzwert hier ist auch nicht 0.
+
+60
+00:03:31,970 --> 00:03:36,560
+Unter diesen Voraussetzungen bekommen wir jedoch das Selbe Ergebnis, wie für die Multiplikation.
+
+61
+00:03:37,440 --> 00:03:40,730
+Ok, damit haben wir die 3 wichtigen Grenzwertsätze,
+
+62
+00:03:40,980 --> 00:03:42,170
+die ihr euch unbedingt merken solltet.
+
+63
+00:03:42,700 --> 00:03:47,180
+Diese können wir einfach beweisen, indem wir, wie immer, unsere Epsilon-N definition benutzen.
+
+64
+00:03:47,960 --> 00:03:51,860
+Da der Beweis ähnlich funktioniert, wie die bisherigen auch,
+
+65
+00:03:51,890 --> 00:03:53,280
+lasse ich ihn erstmal aus.
+
+66
+00:03:53,840 --> 00:03:58,040
+Er ist jedoch wirklich nicht schwer, weshalb wir besser die Zeit nutzen um ein typisches Beispiel zu betrachten.
+
+67
+00:03:58,740 --> 00:04:03,060
+Lass uns also die neue Folge "c_n" betrachten, die durch diesen Bruch für alle "n" gegeben ist
+
+68
+00:04:03,480 --> 00:04:04,750
+und Fragen uns,
+
+69
+00:04:04,770 --> 00:04:07,150
+ob diese konvergiert?
+
+70
+00:04:07,760 --> 00:04:09,850
+Und wenn ja, was wäre der Grenzwert?
+
+71
+00:04:10,310 --> 00:04:12,740
+Auf dem ersten Blick ist es nicht so offensichtlich,
+
+72
+00:04:12,750 --> 00:04:15,000
+weil wir nicht so eine Form wie oben gegeben haben.
+
+73
+00:04:15,130 --> 00:04:17,720
+Wir haben sowohl hier als auch dort keine konvergierende Folge.
+
+74
+00:04:18,459 --> 00:04:22,740
+Tatsächlich wird die Zahl immer größer, wenn "n" steigt.
+
+75
+00:04:22,990 --> 00:04:26,250
+Jedoch solltet ihr sehen, dass der Term "n^2"
+
+76
+00:04:26,270 --> 00:04:28,850
+der wichtigste Rolle zum Thema Wachstum spielt.
+
+77
+00:04:29,460 --> 00:04:31,820
+Mit anderen Worten, wenn "n" sehr groß ist,
+
+78
+00:04:31,840 --> 00:04:35,350
+sind nur diese beiden Teile, wichtig für unsere Rechnung.
+
+79
+00:04:35,760 --> 00:04:37,400
+Daher bleibt weiterhin die Frage
+
+80
+00:04:37,409 --> 00:04:39,780
+wie können wir damit korrekt umgehen?
+
+81
+00:04:40,400 --> 00:04:42,400
+Tatsächlich funktioniert es immer auf die selbe art und weise.
+
+82
+00:04:42,409 --> 00:04:46,320
+Wir erweitern den ganzen Bruch durch die höchste Potenz.
+
+83
+00:04:46,770 --> 00:04:52,850
+In diesem Fall multiplizieren wir den Zähler und den Nenner mit 1 geteilt durch n^2.
+
+84
+00:04:53,600 --> 00:04:55,800
+Dann seht ihr, dass das sich weg kürzt
+
+85
+00:04:55,830 --> 00:04:58,600
+und wir bekommen eine Folge, die wir bereits kennen.
+
+86
+00:04:59,070 --> 00:05:00,860
+Also die Konstante 2
+
+87
+00:05:00,870 --> 00:05:02,800
+dann 5 geteilt durch n und
+
+88
+00:05:02,810 --> 00:05:04,310
+-1 geteilt durch "n^2"
+
+89
+00:05:04,830 --> 00:05:07,370
+und ähnlich für den Nenner.
+
+90
+00:05:08,050 --> 00:05:13,150
+Erinnert euch daran, dass wir bereits gezeigt haben, dass 1 geteilt durch "n" sich zur 0 nähert.
+
+91
+00:05:13,670 --> 00:05:16,270
+Somit ist es konvergent mit Grenzwert 0.
+
+92
+00:05:16,820 --> 00:05:19,690
+Durch den Grenzwertsatz aus part b
+
+93
+00:05:19,710 --> 00:05:22,950
+wissen wir auch, dass 1 geteilt durch "n^2" den Grenzwert 0 hat.
+
+94
+00:05:23,680 --> 00:05:26,340
+Daher bekommen wir durch die Kombination von allen Grenzwertsätzen raus,
+
+95
+00:05:26,400 --> 00:05:29,890
+dass diese Teile alle nach 0 gehen
+
+96
+00:05:29,980 --> 00:05:34,400
+und das Einzige was übrig bleibt im Limit ist 2 geteilt durch -5.
+
+97
+00:05:35,010 --> 00:05:40,440
+Genauer gesagt, hier bleibt nach dem Limes nur noch 2 + 0 - 0 übrig
+
+98
+00:05:40,460 --> 00:05:44,050
+und hier -5 + 0 + 0.
+
+99
+00:05:44,760 --> 00:05:48,950
+Somit ist -2 geteilt durch 5 der Grenzwert für "c_n".
+
+100
+00:05:49,800 --> 00:05:54,260
+Somit haben wir gezeigt, dass die Folge konvergiert,
+
+101
+00:05:54,280 --> 00:05:57,659
+ohne dass wir die Definition mit Epsilon und "N" benutzen mussten.
+
+102
+00:05:58,640 --> 00:06:02,220
+Ihr seht also, dass die Grenzwertsätze euer Leben um einiges einfacher machen.
+
+103
+00:06:02,920 --> 00:06:05,020
+Abgesehen von all diesen Eigenschaften
+
+104
+00:06:05,030 --> 00:06:08,110
+erfüllt der Grenzwert auch eine Eigenschaft für die Monotonie. 
+
+105
+00:06:08,490 --> 00:06:12,360
+Die ist sehr hilfreich um die Grenzwerte auszurechnen.
+
+106
+00:06:12,840 --> 00:06:17,320
+Daher werde ich sie euch im nächsten Video zeigen, zusammen mit mehr Beispielen.
+
+107
+00:06:17,890 --> 00:06:20,470
+Ich hoffe ich sehe euch dann und habt einen schönen Tag.
+
+108
+00:06:20,890 --> 00:06:21,370
+Bye!
+
