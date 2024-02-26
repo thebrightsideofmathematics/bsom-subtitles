@@ -1,0 +1,11 @@
+﻿Real Analysis - Part 7
+
+00:00 Intro
+00:14 Convergent sequences
+00:54 Different property of a sequence
+02:09 Definition Cauchy sequence
+02:16 Connection to convergent sequences
+03:14 Dedekind completeness
+03:47 Sketch of proof
+07:35 Application for monotonic sequences
+08:44 Credits
