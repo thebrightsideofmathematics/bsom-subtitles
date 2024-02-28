@@ -1,0 +1,1344 @@
+1
+00:00:00,709 --> 00:00:02,529
+ Hello and welcome back to
+
+2
+00:00:02,539 --> 00:00:04,210
+ new video about measure
+
+3
+00:00:04,219 --> 00:00:04,900
+ theory.
+
+4
+00:00:05,090 --> 00:00:06,369
+ And as always, I want to
+
+5
+00:00:06,380 --> 00:00:08,069
+ thank all the nice people
+
+6
+00:00:08,079 --> 00:00:09,270
+ that support this channel
+
+7
+00:00:09,279 --> 00:00:10,829
+ on Steady.
+
+8
+00:00:10,840 --> 00:00:11,520
+ In this,
+
+9
+00:00:11,529 --> 00:00:13,050
+ and in the next videos I
+
+10
+00:00:13,060 --> 00:00:14,840
+ want to talk about so called
+
+11
+00:00:14,850 --> 00:00:15,939
+ outer measures.
+
+12
+00:00:16,879 --> 00:00:18,430
+ And with this topic, we come
+
+13
+00:00:18,440 --> 00:00:20,030
+ back to the foundations of
+
+14
+00:00:20,040 --> 00:00:20,979
+ measure theory.
+
+15
+00:00:22,069 --> 00:00:23,709
+ In fact, after using Carathéodory
+
+16
+00:00:24,409 --> 00:00:26,159
+ extension theorem, many
+
+17
+00:00:26,170 --> 00:00:28,000
+ times, I now want to
+
+18
+00:00:28,010 --> 00:00:29,959
+ actually prove it. In
+
+19
+00:00:29,969 --> 00:00:30,950
+ order to do that,
+
+20
+00:00:30,959 --> 00:00:32,909
+ we need some suitable tools
+
+21
+00:00:33,020 --> 00:00:34,770
+ and we find out that the
+
+22
+00:00:34,779 --> 00:00:36,470
+ outer measures are indeed
+
+23
+00:00:36,479 --> 00:00:37,909
+ these important tools.
+
+24
+00:00:38,770 --> 00:00:40,450
+ For this reason, I can tell
+
+25
+00:00:40,459 --> 00:00:42,270
+ you that for understanding
+
+26
+00:00:42,279 --> 00:00:44,119
+ the idea of measure theory,
+
+27
+00:00:44,259 --> 00:00:45,490
+ you don't really need the
+
+28
+00:00:45,500 --> 00:00:46,700
+ outer measures at all.
+
+29
+00:00:46,979 --> 00:00:48,310
+ But if you want to go into
+
+30
+00:00:48,319 --> 00:00:49,869
+ the technical details and
+
+31
+00:00:49,880 --> 00:00:51,389
+ maybe prove such an important
+
+32
+00:00:51,400 --> 00:00:53,090
+ theorem here, then you can't
+
+33
+00:00:53,099 --> 00:00:54,380
+ avoid the outer measures.
+
+34
+00:00:55,439 --> 00:00:57,340
+ The name comes from the circumstance
+
+35
+00:00:57,349 --> 00:00:59,200
+ that one wants to approximate
+
+36
+00:00:59,209 --> 00:01:00,939
+ a set from the outside.
+
+37
+00:01:01,060 --> 00:01:02,220
+ But we will talk about this
+
+38
+00:01:02,229 --> 00:01:02,720
+ later.
+
+39
+00:01:03,340 --> 00:01:04,849
+ However, in this context,
+
+40
+00:01:04,860 --> 00:01:06,760
+ I should emphasize that both
+
+41
+00:01:06,769 --> 00:01:08,540
+ words here are connected.
+
+42
+00:01:08,569 --> 00:01:10,400
+ Outer measure is indeed a
+
+43
+00:01:10,410 --> 00:01:11,339
+ new notion.
+
+44
+00:01:12,290 --> 00:01:13,610
+ What I want to tell you here
+
+45
+00:01:13,620 --> 00:01:15,510
+ is that "outer" is
+
+46
+00:01:15,519 --> 00:01:16,989
+ not an attribute for
+
+47
+00:01:17,000 --> 00:01:18,540
+ measure. In
+
+48
+00:01:18,550 --> 00:01:19,260
+ particular,
+
+49
+00:01:19,269 --> 00:01:20,930
+ it's important to note that
+
+50
+00:01:20,940 --> 00:01:22,660
+ outer measures don't have
+
+51
+00:01:22,669 --> 00:01:24,480
+ to be measures in the
+
+52
+00:01:24,489 --> 00:01:25,220
+ usual sense.
+
+53
+00:01:26,190 --> 00:01:27,580
+ With this heads up at the
+
+54
+00:01:27,589 --> 00:01:29,319
+ beginning, I can however
+
+55
+00:01:29,330 --> 00:01:30,769
+ reassure you that the
+
+56
+00:01:30,779 --> 00:01:32,300
+ construction of such outer
+
+57
+00:01:32,309 --> 00:01:34,160
+ measures is not so complicated
+
+58
+00:01:34,169 --> 00:01:34,599
+ at all.
+
+59
+00:01:35,480 --> 00:01:37,099
+ Basically, I would say it's
+
+60
+00:01:37,110 --> 00:01:38,680
+ even easier than for the
+
+61
+00:01:38,690 --> 00:01:40,580
+ usual measures we had before
+
+62
+00:01:40,750 --> 00:01:42,190
+ because we don't need a Sigma
+
+63
+00:01:42,199 --> 00:01:43,220
+ algebra at the beginning.
+
+64
+00:01:44,050 --> 00:01:44,550
+ OK.
+
+65
+00:01:44,559 --> 00:01:45,730
+ I don't want to keep you
+
+66
+00:01:45,739 --> 00:01:47,099
+ in suspense any longer,
+
+67
+00:01:47,300 --> 00:01:49,230
+ and therefore I present now
+
+68
+00:01:49,239 --> 00:01:50,150
+ the definition.
+
+69
+00:01:51,919 --> 00:01:53,260
+ Not so surprising,
+
+70
+00:01:53,269 --> 00:01:55,019
+ also an outer measure is
+
+71
+00:01:55,029 --> 00:01:56,629
+ first of all just a
+
+72
+00:01:56,639 --> 00:01:58,180
+ map defined
+
+73
+00:01:58,230 --> 00:01:59,819
+ on some subsets
+
+74
+00:01:59,830 --> 00:02:01,540
+ of a chosen fixed set
+
+75
+00:02:01,550 --> 00:02:02,019
+ X.
+
+76
+00:02:03,150 --> 00:02:04,970
+ Indeed admissible are now
+
+77
+00:02:04,980 --> 00:02:06,889
+ all subsets of X,
+
+78
+00:02:06,900 --> 00:02:08,169
+ and, therefore, we can choose
+
+79
+00:02:08,179 --> 00:02:08,970
+ the power set.
+
+80
+00:02:09,750 --> 00:02:11,008
+ And for the values we are
+
+81
+00:02:11,020 --> 00:02:12,970
+ already used to choose the
+
+82
+00:02:12,979 --> 00:02:14,449
+ non-negative numbers where
+
+83
+00:02:14,460 --> 00:02:15,690
+ we include the symbol
+
+84
+00:02:15,699 --> 00:02:16,529
+ infinity.
+
+85
+00:02:17,559 --> 00:02:19,460
+ Now, such a map which I
+
+86
+00:02:19,470 --> 00:02:21,220
+ now denote by Phi
+
+87
+00:02:21,229 --> 00:02:22,479
+ to distinguish it from a
+
+88
+00:02:22,490 --> 00:02:23,979
+ normal measure, which we
+
+89
+00:02:23,990 --> 00:02:25,619
+ would denote by mu is
+
+90
+00:02:25,630 --> 00:02:27,399
+ called an outer measure if
+
+91
+00:02:27,410 --> 00:02:29,050
+ the following three conditions
+
+92
+00:02:29,059 --> 00:02:29,860
+ are fulfilled.
+
+93
+00:02:30,630 --> 00:02:32,089
+ So please don't forget that
+
+94
+00:02:32,100 --> 00:02:33,690
+ we always want to generalize
+
+95
+00:02:33,699 --> 00:02:35,449
+ or abstract how the
+
+96
+00:02:35,460 --> 00:02:37,259
+ normal measuring of volumes
+
+97
+00:02:37,270 --> 00:02:38,479
+ in space would work.
+
+98
+00:02:39,470 --> 00:02:40,649
+ Therefore, we would never
+
+99
+00:02:40,660 --> 00:02:42,160
+ demand any crazy
+
+100
+00:02:42,169 --> 00:02:43,729
+ properties from this function
+
+101
+00:02:43,740 --> 00:02:44,360
+ phi here.
+
+102
+00:02:45,270 --> 00:02:46,539
+ Hence the first property
+
+103
+00:02:46,550 --> 00:02:48,449
+ you already know if we put
+
+104
+00:02:48,460 --> 00:02:50,350
+ in the empty set in the map,
+
+105
+00:02:50,860 --> 00:02:52,809
+ we must get out zero.
+
+106
+00:02:54,139 --> 00:02:55,449
+ The empty set should not
+
+107
+00:02:55,460 --> 00:02:56,720
+ have any volume.
+
+108
+00:02:57,399 --> 00:02:59,110
+ Also the next property makes
+
+109
+00:02:59,119 --> 00:02:59,410
+ sense
+
+110
+00:02:59,419 --> 00:03:01,130
+ in this picture. If we look
+
+111
+00:03:01,139 --> 00:03:02,929
+ at a subset A of
+
+112
+00:03:02,940 --> 00:03:04,059
+ another set B
+
+113
+00:03:04,979 --> 00:03:06,570
+ and maybe we visualize that
+
+114
+00:03:06,580 --> 00:03:08,139
+ first here in the picture.
+
+115
+00:03:08,149 --> 00:03:09,690
+ So we have to set X, we have
+
+116
+00:03:09,699 --> 00:03:11,580
+ a subset B inside of the
+
+117
+00:03:11,589 --> 00:03:13,320
+ set and there are
+
+118
+00:03:13,330 --> 00:03:15,080
+ also a subset A
+
+119
+00:03:15,130 --> 00:03:16,399
+ inside of B.
+
+120
+00:03:18,059 --> 00:03:19,199
+ What does this mean for the
+
+121
+00:03:19,210 --> 00:03:20,020
+ volumes?
+
+122
+00:03:20,029 --> 00:03:21,639
+ Of course, the volume of
+
+123
+00:03:21,649 --> 00:03:23,559
+ A should be smaller or in
+
+124
+00:03:23,570 --> 00:03:25,139
+ the best case, the same as
+
+125
+00:03:25,149 --> 00:03:26,199
+ the volume of B.
+
+126
+00:03:27,240 --> 00:03:29,059
+ So we have here less or
+
+127
+00:03:29,070 --> 00:03:29,820
+ equal.
+
+128
+00:03:31,539 --> 00:03:32,820
+ And that is what we call
+
+129
+00:03:32,830 --> 00:03:34,820
+ the monotonicity of the outer
+
+130
+00:03:34,830 --> 00:03:35,279
+ measure.
+
+131
+00:03:36,130 --> 00:03:37,869
+ Please note this property
+
+132
+00:03:37,880 --> 00:03:39,869
+ we also had for an ordinary
+
+133
+00:03:39,880 --> 00:03:40,350
+ measure.
+
+134
+00:03:40,630 --> 00:03:42,070
+ It was just something we
+
+135
+00:03:42,080 --> 00:03:43,710
+ didn't demand in the definition
+
+136
+00:03:43,830 --> 00:03:45,029
+ because it followed from
+
+137
+00:03:45,039 --> 00:03:45,990
+ the other properties.
+
+138
+00:03:47,270 --> 00:03:48,729
+ And now the third property
+
+139
+00:03:48,740 --> 00:03:50,320
+ is something you might also
+
+140
+00:03:50,330 --> 00:03:51,089
+ recognize.
+
+141
+00:03:52,009 --> 00:03:53,509
+ Let's take a sequence of
+
+142
+00:03:53,520 --> 00:03:54,169
+ subsets,
+
+143
+00:03:54,179 --> 00:03:56,020
+ so let's call them A
+
+144
+00:03:56,029 --> 00:03:57,630
+ one, A two and so on
+
+145
+00:03:57,679 --> 00:03:59,389
+ from the power set
+
+146
+00:03:59,399 --> 00:04:00,240
+ of X.
+
+147
+00:04:01,369 --> 00:04:02,639
+ And for this sequence then
+
+148
+00:04:02,649 --> 00:04:04,639
+ holds that the union
+
+149
+00:04:05,419 --> 00:04:06,850
+ measured with our map
+
+150
+00:04:06,860 --> 00:04:07,740
+ phi
+
+151
+00:04:08,759 --> 00:04:10,639
+ is smaller or equal
+
+152
+00:04:10,649 --> 00:04:12,419
+ than when we add up
+
+153
+00:04:12,429 --> 00:04:13,740
+ all the volumes
+
+154
+00:04:13,750 --> 00:04:14,649
+ separately.
+
+155
+00:04:15,699 --> 00:04:16,760
+ This is now something that
+
+156
+00:04:16,769 --> 00:04:18,238
+ we also can easily
+
+157
+00:04:18,250 --> 00:04:19,670
+ visualize in this picture
+
+158
+00:04:19,678 --> 00:04:20,040
+ here.
+
+159
+00:04:20,298 --> 00:04:22,239
+ So if we form the union
+
+160
+00:04:22,250 --> 00:04:23,829
+ of both A one and A
+
+161
+00:04:23,839 --> 00:04:25,350
+ two, well, we
+
+162
+00:04:25,359 --> 00:04:27,320
+ calculate the area here
+
+163
+00:04:27,540 --> 00:04:28,440
+ which is of course
+
+164
+00:04:28,450 --> 00:04:30,019
+ smaller than
+
+165
+00:04:30,029 --> 00:04:31,640
+ adding the volume or the
+
+166
+00:04:31,649 --> 00:04:33,380
+ area here for A one
+
+167
+00:04:33,429 --> 00:04:35,230
+ plus the area of A
+
+168
+00:04:35,239 --> 00:04:37,000
+ two simply because
+
+169
+00:04:37,010 --> 00:04:38,399
+ we add this intersection
+
+170
+00:04:38,410 --> 00:04:39,359
+ two times.
+
+171
+00:04:40,239 --> 00:04:41,760
+ You see, we don't need
+
+172
+00:04:41,769 --> 00:04:43,380
+ disjoint sets here, which means
+
+173
+00:04:43,390 --> 00:04:45,079
+ we can have intersections
+
+174
+00:04:45,089 --> 00:04:46,519
+ and they occur on the right
+
+175
+00:04:46,529 --> 00:04:47,179
+ hand side.
+
+176
+00:04:47,260 --> 00:04:48,730
+ So in general, we will
+
+177
+00:04:48,739 --> 00:04:50,390
+ have an inequality in
+
+178
+00:04:50,399 --> 00:04:51,140
+ general here.
+
+179
+00:04:51,970 --> 00:04:53,200
+ And because we have it for
+
+180
+00:04:53,209 --> 00:04:54,959
+ countable many subsets,
+
+181
+00:04:55,190 --> 00:04:56,440
+ you see, we have an index
+
+182
+00:04:56,450 --> 00:04:57,619
+ in the natural numbers N.
+
+183
+00:04:57,630 --> 00:04:59,489
+ here, we call it the
+
+184
+00:04:59,500 --> 00:05:00,709
+ sigma-subadditivity.
+
+185
+00:05:01,869 --> 00:05:03,690
+ And that is all we need to
+
+186
+00:05:03,700 --> 00:05:04,970
+ get an outer measure.
+
+187
+00:05:05,730 --> 00:05:07,329
+ When you see these properties,
+
+188
+00:05:07,339 --> 00:05:09,040
+ you might think this is
+
+189
+00:05:09,049 --> 00:05:10,779
+ indeed a good substitution
+
+190
+00:05:10,790 --> 00:05:12,739
+ or abstraction for
+
+191
+00:05:12,750 --> 00:05:14,559
+ measuring normal volumes.
+
+192
+00:05:15,339 --> 00:05:17,049
+ However, you already know
+
+193
+00:05:17,079 --> 00:05:18,790
+ that this can't work for
+
+194
+00:05:18,799 --> 00:05:20,450
+ the whole power set if you
+
+195
+00:05:20,459 --> 00:05:22,000
+ consider the important Lebesgue
+
+196
+00:05:22,010 --> 00:05:22,450
+ measure.
+
+197
+00:05:23,239 --> 00:05:24,529
+ And you also see here in
+
+198
+00:05:24,540 --> 00:05:26,519
+ part C that we don't have
+
+199
+00:05:26,529 --> 00:05:28,519
+ the equality if we consider
+
+200
+00:05:28,529 --> 00:05:30,049
+ pairwise disjoint sets
+
+201
+00:05:30,059 --> 00:05:31,739
+ something we usually call
+
+202
+00:05:31,750 --> 00:05:33,079
+ Sigma additivity.
+
+203
+00:05:34,109 --> 00:05:35,489
+ Hence a natural question
+
+204
+00:05:35,500 --> 00:05:37,390
+ here is if I start
+
+205
+00:05:37,399 --> 00:05:39,010
+ with an outer measure, Phi,
+
+206
+00:05:39,070 --> 00:05:40,549
+ how do I get an ordinary
+
+207
+00:05:40,559 --> 00:05:41,529
+ measure mu?
+
+208
+00:05:42,070 --> 00:05:43,480
+ Or in other words, how do
+
+209
+00:05:43,489 --> 00:05:45,279
+ I get also for the map
+
+210
+00:05:45,290 --> 00:05:47,179
+ Phi the Sigma additivity?
+
+211
+00:05:48,149 --> 00:05:49,809
+ And we already know this
+
+212
+00:05:49,820 --> 00:05:51,040
+ won't work for the whole
+
+213
+00:05:51,049 --> 00:05:51,709
+ power set.
+
+214
+00:05:52,359 --> 00:05:53,700
+ Therefore, the first thing
+
+215
+00:05:53,709 --> 00:05:55,000
+ we should do is to
+
+216
+00:05:55,010 --> 00:05:56,579
+ restrict the sets we
+
+217
+00:05:56,589 --> 00:05:57,220
+ consider.
+
+218
+00:05:57,929 --> 00:05:59,549
+ And this leads us to our
+
+219
+00:05:59,559 --> 00:06:00,670
+ next definition,
+
+220
+00:06:01,640 --> 00:06:03,220
+ we only want to look at some
+
+221
+00:06:03,230 --> 00:06:05,019
+ good sets that we
+
+222
+00:06:05,029 --> 00:06:05,820
+ can measure.
+
+223
+00:06:06,019 --> 00:06:07,059
+ And in the end, they will
+
+224
+00:06:07,070 --> 00:06:08,500
+ form a Sigma algebra again.
+
+225
+00:06:09,579 --> 00:06:11,260
+ And the name for such a
+
+226
+00:06:11,269 --> 00:06:12,369
+ good set
+
+227
+00:06:12,690 --> 00:06:13,760
+ is phi-
+
+228
+00:06:14,010 --> 00:06:15,019
+ measurable.
+
+229
+00:06:16,010 --> 00:06:17,429
+ And we use that name
+
+230
+00:06:17,760 --> 00:06:19,260
+ if for all other
+
+231
+00:06:19,269 --> 00:06:20,040
+ subsets.
+
+232
+00:06:20,649 --> 00:06:21,820
+ And now I choose to letter
+
+233
+00:06:21,829 --> 00:06:23,579
+ Q for another subset,
+
+234
+00:06:24,679 --> 00:06:26,390
+ we have the following add
+
+235
+00:06:26,399 --> 00:06:27,390
+ activity rule.
+
+236
+00:06:28,059 --> 00:06:29,809
+ The best thing is again to
+
+237
+00:06:29,820 --> 00:06:31,440
+ visualize that in a picture.
+
+238
+00:06:31,450 --> 00:06:33,160
+ So there's a set A and
+
+239
+00:06:33,170 --> 00:06:35,000
+ here's another set Q.
+
+240
+00:06:36,230 --> 00:06:38,019
+ Now the set A splits
+
+241
+00:06:38,029 --> 00:06:39,959
+ this set Q into two
+
+242
+00:06:39,970 --> 00:06:41,170
+ parts, the one
+
+243
+00:06:41,179 --> 00:06:43,089
+ inside A and the
+
+244
+00:06:43,100 --> 00:06:44,850
+ other one outside
+
+245
+00:06:44,859 --> 00:06:45,209
+ A.
+
+246
+00:06:46,390 --> 00:06:48,170
+ Or by using formulas, here
+
+247
+00:06:48,179 --> 00:06:49,720
+ we have the inner part and
+
+248
+00:06:49,730 --> 00:06:51,130
+ here we have the part outside
+
+249
+00:06:51,140 --> 00:06:52,910
+ A and now we
+
+250
+00:06:52,920 --> 00:06:54,600
+ measure both sets by
+
+251
+00:06:54,609 --> 00:06:56,119
+ using our map phi
+
+252
+00:06:56,440 --> 00:06:57,459
+ and add them up.
+
+253
+00:06:58,929 --> 00:07:00,390
+ And now we would say this
+
+254
+00:07:00,399 --> 00:07:02,029
+ measurement is meaningful
+
+255
+00:07:02,040 --> 00:07:03,869
+ if we get out the measure
+
+256
+00:07:03,880 --> 00:07:04,339
+ of Q.
+
+257
+00:07:04,350 --> 00:07:05,920
+ Again, this
+
+258
+00:07:05,929 --> 00:07:07,519
+ means that we call a set
+
+259
+00:07:07,529 --> 00:07:08,799
+ a phi-
+
+260
+00:07:08,809 --> 00:07:10,579
+ measurable if it's so
+
+261
+00:07:10,589 --> 00:07:12,140
+ good that it divides
+
+262
+00:07:12,149 --> 00:07:13,920
+ every other set Q
+
+263
+00:07:13,929 --> 00:07:15,739
+ into two parts such
+
+264
+00:07:15,750 --> 00:07:17,670
+ that there our map
+
+265
+00:07:17,679 --> 00:07:19,559
+ phi is indeed additive.
+
+266
+00:07:20,730 --> 00:07:22,559
+ Obviously, this is the first
+
+267
+00:07:22,570 --> 00:07:24,350
+ step to the Sigma additivity
+
+268
+00:07:24,359 --> 00:07:24,920
+ we want.
+
+269
+00:07:25,839 --> 00:07:26,899
+ Now, what I really should
+
+270
+00:07:26,910 --> 00:07:28,579
+ add here is that in some
+
+271
+00:07:28,589 --> 00:07:30,059
+ books, you might find the
+
+272
+00:07:30,070 --> 00:07:31,559
+ definition as
+
+273
+00:07:31,649 --> 00:07:33,100
+ greater and equal.
+
+274
+00:07:33,880 --> 00:07:35,260
+ The reason for that is that
+
+275
+00:07:35,269 --> 00:07:36,649
+ it does not make any difference
+
+276
+00:07:36,660 --> 00:07:38,260
+ at all because for an outer
+
+277
+00:07:38,269 --> 00:07:39,579
+ measure, you have the other
+
+278
+00:07:39,589 --> 00:07:41,179
+ inequality here in the
+
+279
+00:07:41,190 --> 00:07:41,820
+ definition.
+
+280
+00:07:42,730 --> 00:07:44,290
+ Hence, you could define it
+
+281
+00:07:44,299 --> 00:07:45,549
+ in this weaker sense.
+
+282
+00:07:45,559 --> 00:07:47,190
+ But still, it means the same
+
+283
+00:07:47,200 --> 00:07:47,470
+ thing.
+
+284
+00:07:48,279 --> 00:07:49,899
+ Well, let's end this video
+
+285
+00:07:49,910 --> 00:07:51,140
+ with some cliffhanger.
+
+286
+00:07:51,170 --> 00:07:52,350
+ But of course, I will go
+
+287
+00:07:52,359 --> 00:07:53,980
+ into more detail in the next
+
+288
+00:07:53,989 --> 00:07:54,459
+ video.
+
+289
+00:07:55,290 --> 00:07:56,589
+ The important proposition
+
+290
+00:07:56,600 --> 00:07:58,290
+ here is written in the following
+
+291
+00:07:58,299 --> 00:08:00,290
+ way, if we have an
+
+292
+00:08:00,299 --> 00:08:01,989
+ outer measure on the
+
+293
+00:08:02,000 --> 00:08:02,980
+ set X,
+
+294
+00:08:03,660 --> 00:08:05,640
+ then the collection of all
+
+295
+00:08:05,649 --> 00:08:07,359
+ these good sets here.
+
+296
+00:08:07,420 --> 00:08:09,160
+ And let's call them A
+
+297
+00:08:09,170 --> 00:08:10,529
+ with index Phi
+
+298
+00:08:11,429 --> 00:08:13,260
+ forms a Sigma
+
+299
+00:08:13,269 --> 00:08:13,929
+ algebra.
+
+300
+00:08:14,959 --> 00:08:16,390
+ Of course, that makes our
+
+301
+00:08:16,399 --> 00:08:18,109
+ good sets even better
+
+302
+00:08:18,500 --> 00:08:19,970
+ because this is the first
+
+303
+00:08:19,980 --> 00:08:21,630
+ part we need for our measure.
+
+304
+00:08:22,640 --> 00:08:24,470
+ In fact, if we define a map
+
+305
+00:08:24,480 --> 00:08:26,399
+ mu on the
+
+306
+00:08:26,410 --> 00:08:28,089
+ Sigma algebra A phi
+
+307
+00:08:29,440 --> 00:08:30,739
+ and how can we define it
+
+308
+00:08:30,750 --> 00:08:31,739
+ very easily?
+
+309
+00:08:31,750 --> 00:08:33,030
+ We just use our Phi
+
+310
+00:08:33,039 --> 00:08:34,820
+ from before.
+
+311
+00:08:34,830 --> 00:08:36,580
+ So we have mu
+
+312
+00:08:36,590 --> 00:08:38,229
+ of A is the same
+
+313
+00:08:38,239 --> 00:08:40,099
+ thing as putting A into
+
+314
+00:08:40,109 --> 00:08:41,869
+ phi and what
+
+315
+00:08:41,880 --> 00:08:43,679
+ comes out is a beautiful
+
+316
+00:08:43,690 --> 00:08:44,320
+ measure.
+
+317
+00:08:45,419 --> 00:08:46,929
+ So you see this is
+
+318
+00:08:46,940 --> 00:08:48,450
+ indeed a very nice
+
+319
+00:08:48,460 --> 00:08:49,109
+ result.
+
+320
+00:08:49,909 --> 00:08:51,169
+ And then in the next video,
+
+321
+00:08:51,219 --> 00:08:53,090
+ I will show you some examples
+
+322
+00:08:53,099 --> 00:08:54,530
+ of outer measures and then
+
+323
+00:08:54,539 --> 00:08:55,900
+ you will see that it's not
+
+324
+00:08:55,909 --> 00:08:57,489
+ hard at all to construct
+
+325
+00:08:57,500 --> 00:08:57,729
+ them.
+
+326
+00:08:58,739 --> 00:09:00,309
+ In addition, this proposition
+
+327
+00:09:00,320 --> 00:09:01,909
+ then will help us to get
+
+328
+00:09:01,919 --> 00:09:03,750
+ out an ordinary measure as
+
+329
+00:09:03,760 --> 00:09:04,309
+ we want.
+
+330
+00:09:05,140 --> 00:09:06,169
+ And of course, if you're
+
+331
+00:09:06,179 --> 00:09:07,500
+ interested, we will also
+
+332
+00:09:07,510 --> 00:09:08,799
+ prove this proposition.
+
+333
+00:09:09,640 --> 00:09:10,179
+ OK.
+
+334
+00:09:10,190 --> 00:09:11,520
+ Thank you for listening and
+
+335
+00:09:11,530 --> 00:09:12,500
+ see you next time.
+
+336
+00:09:12,520 --> 00:09:13,140
+ Bye.
+
