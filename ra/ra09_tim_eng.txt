@@ -1,0 +1,10 @@
+﻿Real Analysis - Part 9
+
+00:00 Intro
+00:13 Definition of subsequences
+01:40 Example
+03:26 General fact about subsequences
+04:00 Example with a divergent sequence
+05:04 Definition accumulation value
+06:49 Alternative definition of accumulation values
+07:47 Credits

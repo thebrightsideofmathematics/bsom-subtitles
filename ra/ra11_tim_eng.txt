@@ -1,0 +1,9 @@
+﻿Real Analysis - Part 11
+
+00:00 Intro
+00:20 Example
+02:07 Improper accumulation value
+03:34 Definition limit superior and limit inferior
+04:29 Why do we use these names and notations?
+06:45 Fact
+08:24 Credits

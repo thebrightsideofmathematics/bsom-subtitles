@@ -1,0 +1,9 @@
+﻿Real Analysis - Part 12
+
+00:00 Intro
+00:37 Example
+01:31 Properties of lim sup and lim inf
+03:00 Properties for combining 2 sequences
+04:53 Example summation of 2 sequences
+06:00 Example product of 2 sequences
+06:57 Credits
