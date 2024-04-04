@@ -1,0 +1,12 @@
+﻿Real Analysis - Part 13
+
+00:00 Intro
+00:14 Recalling (epsilon-)neighbourhoods
+01:33 Example: neighbourhoods
+02:43 Definition open sets
+04:00 Definition closed set
+04:43 Examples
+06:11 Criterion for checking closeness with the help of sequences
+06:44 Example for the criterion
+07:40 Definition compact sets
+08:58 Credits

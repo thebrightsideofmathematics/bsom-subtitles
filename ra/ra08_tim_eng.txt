@@ -1,0 +1,9 @@
+﻿Real Analysis - Part 8
+
+00:00 Intro
+00:21 Recalling the monotone convergence criterion
+00:55 Introducing the example
+01:21 Proving monotonicity
+04:49 Proving bounded from above
+08:55 End result of the example
+09:46 Credits
