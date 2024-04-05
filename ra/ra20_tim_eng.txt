@@ -1,0 +1,13 @@
+﻿Real Analysis - Part 20
+
+00:00 Intro
+00:50 Recalling the geometric series
+01:26 Proposition
+02:33 Ratio test
+03:43 Proof of the ratio test
+05:14 Example using the ratio test
+07:01 Root test
+07:37 Proof of the root test
+08:21 Example using the root test
+09:15 Root criterion (limit form)
+10:58 Credits

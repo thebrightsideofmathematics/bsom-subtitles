@@ -1,0 +1,9 @@
+﻿Real Analysis - Part 17
+
+00:00 Intro
+00:36 Properties of series
+02:20 Cauchy Criterion
+03:46 Proof
+05:29 Example
+07:15 Conclusion
+08:47 Credits
