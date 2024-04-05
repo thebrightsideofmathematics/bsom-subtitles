@@ -1,0 +1,11 @@
+﻿Real Analysis - Part 19
+
+00:00 Intro
+00:21 Absolutely convergent
+00:47 Absolutely convergent implies convergent
+02:06 Implication doesn't work in the other direction
+02:45 Majorant criterion
+04:16 Proof of majorant criterion
+05:31 Minorant criterion
+06:30 Example for the minorant criterion
+07:44 Credits
