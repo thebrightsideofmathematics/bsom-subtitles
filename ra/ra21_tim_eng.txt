@@ -1,0 +1,10 @@
+﻿Real Analysis - Part 21
+
+00:00 Intro
+00:17 Meaning of reordering of series
+01:13 Example: Reordering can change the value
+02:32 2nd Example with a convergent series
+04:58 Definition Reordering
+06:10 Theorem for abs. convergent series
+06:39 Proof of the Theorem
+12:22 Credits

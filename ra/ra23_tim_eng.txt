@@ -1,0 +1,8 @@
+﻿Real Analysis - Part 23
+
+00:00 Intro
+00:19 Definition function
+01:06 Continuous function
+02:20 Definition bounded function
+03:36 Definition sequence of functions
+05:57 Credits
