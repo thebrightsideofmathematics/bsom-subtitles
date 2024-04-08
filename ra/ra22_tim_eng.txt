@@ -1,0 +1,8 @@
+﻿Real Analysis - Part 22
+
+00:00 Intro
+00:38 Looking at finite sums
+02:30 Definition Cauchy Product
+04:07 Theorem about abs. convergence
+04:49 Example for the theorem
+07:51 Credits
