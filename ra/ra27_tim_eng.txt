@@ -1,0 +1,8 @@
+﻿Real Analysis - Part 27
+
+00:00 Intro
+00:18 Definition Continuity
+01:22 Special case (holes in the domain of definition)
+02:56 Extended definition of continuity
+03:48 Examples
+09:28 Credits

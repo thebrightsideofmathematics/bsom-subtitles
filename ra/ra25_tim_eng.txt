@@ -1,0 +1,9 @@
+﻿Real Analysis - Part 25
+
+00:00 Intro
+00:44 Uniform convergence
+02:52 Measuring distance between functions
+04:30 Uniform convergence using supremum norm
+05:06 Example
+06:28 Uniform convergence is stronger than pointwise convergence
+07:30 Credits
