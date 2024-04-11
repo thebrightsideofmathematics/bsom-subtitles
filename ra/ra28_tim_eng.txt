@@ -1,0 +1,6 @@
+﻿Real Analysis - Part 28
+
+00:00 Intro
+00:40 Epsilon-Delta criterion
+04:32 Proof
+08:28 Credits
