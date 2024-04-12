@@ -476,7 +476,7 @@
 
 120
 00:03:11,110 --> 00:03:12,729
- The Koshi sequence is therefore
+ The Cauchy sequence is therefore
 
 121
 00:03:12,740 --> 00:03:14,419
@@ -496,7 +496,7 @@
 
 125
 00:03:19,729 --> 00:03:21,559
- definition of a Koshi sequence.
+ definition of a Cauchy sequence.
 
 126
 00:03:22,410 --> 00:03:23,899
@@ -544,7 +544,7 @@
 
 137
 00:03:40,360 --> 00:03:42,100
- Koshi sequences converge.
+ Cauchy sequences converge.
 
 138
 00:03:43,029 --> 00:03:44,250
