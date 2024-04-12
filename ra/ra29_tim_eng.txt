@@ -1,0 +1,8 @@
+﻿Real Analysis - Part 29
+
+00:00 Intro
+00:14 Recalling continuity 
+01:25 Combining 2 continuous functions
+03:07 Composition of functions
+05:55 Proof for composition of functions
+07:27 Credits
