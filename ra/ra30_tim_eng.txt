@@ -1,0 +1,7 @@
+﻿Real Analysis - Part 30
+
+00:00 Intro
+00:14 A special property of continuous functions
+01:09 Theorem about images of compact sets
+03:25 Proof of the Theorem
+06:33 Credits

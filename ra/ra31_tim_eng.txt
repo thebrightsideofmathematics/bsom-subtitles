@@ -1,0 +1,7 @@
+﻿Real Analysis - Part 31
+
+00:00 Intro
+00:14 Uniform convergence for sequence of functions
+01:09 Theorem for uniform limit of continuous functions
+02:18 Proof of the Theorem
+07:41 Credits
