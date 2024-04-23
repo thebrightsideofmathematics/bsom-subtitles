@@ -1,0 +1,6 @@
+00:00 Introduction
+00:57 Definition "diagonalizable"
+03:50 Example
+05:35 Jordan blocks
+07:00 Jordan boxes
+11:49 Recipe
