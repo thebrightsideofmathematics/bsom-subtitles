@@ -1,0 +1,454 @@
+0:00:00.000,0:00:07.890
+Hello and welcome to this video about a topic in 
+linear algebra and as always first I want to thank
+
+0:00:07.890,0:00:14.580
+all the nice people that support this channel 
+on Steady. The topic for today is the so-called
+
+0:00:14.580,0:00:21.990
+Jordan normal form. This one is such an important 
+problem that I will do a couple of videos about it.
+
+0:00:21.990,0:00:28.890
+This one is now part 1 where I want to talk a 
+little bit about the concept of the Jordan normal
+
+0:00:28.890,0:00:35.460
+form. Now I should immediately mention that the 
+name comes from an French mathematician called
+
+0:00:35.460,0:00:43.110
+Camille Jordan. However since most people use the 
+English pronunciation I will also do this for
+
+0:00:43.110,0:00:52.500
+these videos. Ok so let's start with something you 
+should already know. Now let A be a square matrix
+
+0:00:52.500,0:01:03.000
+with real or complex numbers as entries. Then we 
+call A diagonalizable if there is an invertible
+
+0:01:03.000,0:01:10.050
+matrix X of the same size such that this matrix 
+transforms the matrix A into a diagonal matrix.
+
+0:01:10.050,0:01:23.850
+More concretely, this means X inverse A X equals a
+diagonal matrix D, or equivalently we can say that
+
+0:01:23.850,0:01:35.370
+we can decompose the matrix A into 3 matrices X 
+then D and then X inverse. Therefore this is what
+
+0:01:35.370,0:01:43.050
+we call a matrix decomposition, and it might be 
+helpful for a lot of calculations. For example if
+
+0:01:43.050,0:01:49.770
+you want to calculate powers of the matrix A, you 
+can just use this decomposition and essentially
+
+0:01:49.770,0:01:56.010
+you just need the powers of the diagonal matrix 
+D, which is very easy because you just have the
+
+0:01:56.010,0:02:03.090
+entries on the diagonal where you calculate 
+the powers of these numbers. However this only
+
+0:02:03.090,0:02:11.190
+works in the special case where the matrix A is 
+diagonalizable. Therefore the natural question
+
+0:02:11.190,0:02:18.600
+would be how can we generalize that for all 
+square matrices. And we will find out that the
+
+0:02:18.600,0:02:25.470
+correct substitution in the general case would 
+be to choose here a Jordan normal form. Now I can
+
+0:02:25.470,0:02:33.660
+already tell you that in our context such Jordan 
+normal form always exists which means if I choose
+
+0:02:33.660,0:02:42.480
+a square matrix with complex-valued entries, 
+then we have always a Jordan normal form.
+
+0:02:42.480,0:02:51.240
+Two important things I should point out here: first I 
+speak of a Jordan normal form which means J is not
+
+0:02:51.240,0:02:57.300
+uniquely given in general there could be several 
+Jordan normal forms which should be similar in
+
+0:02:57.300,0:03:04.650
+some sense. Secondly the complex numbers on the 
+left also include the real numbers so we could
+
+0:03:04.650,0:03:12.330
+have a matrix a which only has real numbers as 
+entries. However this does not necessarily mean
+
+0:03:12.330,0:03:21.930
+that also J has only real numbers as entries. Here 
+we maybe really need two complex numbers. Okay if
+
+0:03:21.930,0:03:28.770
+we have a Jordan normal form, it also means we have 
+an invertible matrix X as before such that we have
+
+0:03:28.770,0:03:38.130
+the matrix decomposition.Please also note if A is 
+diagonalizable, this Jordan normal form has to be the
+
+0:03:38.130,0:03:45.870
+diagonal matrix from before. So we have indeed a 
+generalization: J could be a diagonal matrix but in
+
+0:03:45.870,0:03:54.780
+general it is not. Okay let's look at an example. I 
+want to choose a matrix which is large enough such
+
+0:03:54.780,0:04:02.820
+that we can talk about all possible cases that can 
+happen. So I choose a matrix which is 9 times 9 and
+
+0:04:02.820,0:04:12.930
+now I assume that we already know the eigenvalues 
+of A. I want 2 3 & 4 as eigenvalues and I also
+
+0:04:12.930,0:04:18.720
+want to know the algebraic multiplicities 
+and we choose the algebraic multiplicity of
+
+0:04:18.720,0:04:32.510
+2 as 3 and 4 for 3 and 2 for 4. So please remember the 
+algebraic multiplicity is by definition how
+
+0:04:32.510,0:04:40.940
+often one finds the eigenvalue as a zero in the 
+characteristic polynomial. Hence if we add up all
+
+0:04:40.940,0:04:49.220
+the algebraic multiplicities we have to get out 9 
+again. Therefore we know such a case can happen and
+
+0:04:49.220,0:04:57.260
+now we can think about different possibilities.
+If the matrix A was diagnosable, we would find
+
+0:04:57.260,0:05:04.010
+as a Jordan normal form just a diagonal matrix 
+where we find these eigenvalues on the diagonal.
+
+0:05:04.010,0:05:10.700
+Of course, there are different possibilities for 
+the order of these eigenvalues, but we know
+
+0:05:10.700,0:05:17.690
+how often there should occur, exactly with the 
+algebraic multiplicities. However what we really want
+
+0:05:17.690,0:05:25.100
+for the Jordan normal form is to group the same 
+eigenvalues. In addition as an option you could
+
+0:05:25.100,0:05:32.540
+say I also want that the eigenvalues increase 
+and then indeed the order is fixed. Putting the
+
+0:05:32.540,0:05:39.410
+eigenvalues into these groups is what we 
+usually call Jordan blocks. This means that
+
+0:05:39.410,0:05:45.920
+we have exactly three Jordan blocks here: for each 
+distinct eigenvalue we have exactly one Jordan
+
+0:05:45.920,0:05:53.030
+block. Hence the first thing you should remember is 
+that the algebraic multiplicity gives you the size
+
+0:05:53.030,0:05:59.900
+of the corresponding Jordan block. So you see this 
+is the first step in a Jordan normal form we have
+
+0:05:59.900,0:06:07.670
+such Jordan blocks on the diagonal. Of course the 
+interesting thing is now what happens inside such
+
+0:06:07.670,0:06:13.190
+a Jordan block but I can already tell you they 
+are independent so it does not matter with which
+
+0:06:13.190,0:06:21.920
+one you start your calculations. Okay then let's 
+start discussing the red one: since we didn't fix
+
+0:06:21.920,0:06:28.490
+the matrix A, I just gave you the eigenvalues 
+and the algebraic multiplicities, we can't do
+
+0:06:28.490,0:06:36.320
+any calculations, but we can look which different 
+possibilities could happen. To be more precise, we
+
+0:06:36.320,0:06:44.990
+have these Jordan blocks and the size, but we don't 
+know what is up here inside the block, but we know
+
+0:06:44.990,0:06:51.950
+there are only a few possibilities. The first case 
+I already mentioned: we could have diagonalizable
+
+0:06:51.950,0:07:00.440
+matrix A which means for this block here we have 
+zeros outside of the diagonal with 2s. We usually
+
+0:07:00.440,0:07:07.220
+emphasize that by drawing a new box here where 
+all the nonzero numbers are. So we have one box
+
+0:07:07.220,0:07:17.120
+here, we have one small box here, and one here. And 
+these are now called Jordan boxes inside the big
+
+0:07:17.120,0:07:24.050
+Jordan block. Now we already know where this comes 
+from because, besides of the algebraic multiplicity,
+
+0:07:24.050,0:07:31.100
+we also have the geometric multiplicity. And 
+because we are here in the diagonalizable case,
+
+0:07:31.100,0:07:38.660
+we know the geometric multiplicity has to be the 
+same as the algebraic multiplicity. So here 3. And
+
+0:07:38.660,0:07:46.580
+this 3 corresponds to the 3 Jordan boxes inside 
+the block. Hence you might have already have
+
+0:07:46.580,0:07:53.360
+guessed that we find different cases for different 
+geometric multiplicities. So the next case would be
+
+0:07:53.360,0:08:01.700
+geometric multiplicity of 2 which already means 
+that we just have two Jordan boxes. Please note
+
+0:08:01.700,0:08:09.800
+from the geometric multiplicity we only know the 
+number of the boxes not the size, but here we don't
+
+0:08:09.800,0:08:18.410
+have any choice. We know we can have one box of 
+size two and one of size one. Of course, we could
+
+0:08:18.410,0:08:24.080
+change the order of the boxes, but this would be 
+essentially the same so normally we would ignore
+
+0:08:24.080,0:08:33.080
+the order. Most importantly here to remember is 
+that in a Jordan box above the diagonal you always
+
+0:08:33.080,0:08:41.870
+find 1s. So, here would be one one. Okay and the 
+last case here is of course just having one Jordan
+
+0:08:41.870,0:08:52.220
+box. So geometric multiplicity of one means one 
+box fills out the whole Jordan block. This also
+
+0:08:52.220,0:08:59.330
+means that we have the ones above the diagonal 
+so one here and here the other one. And now these
+
+0:08:59.330,0:09:06.770
+are all the three possibilities we have for our 
+three times three Jordan block. Here the geometric
+
+0:09:06.770,0:09:13.820
+multiplicity tells us in which case we are. However 
+this will change now if we look at it four times
+
+0:09:13.820,0:09:20.930
+for Jordan block. Okay then let's copy the light 
+blue one here and then of course the first case
+
+0:09:20.930,0:09:27.920
+would be to have four small Jordan boxes. As before 
+this corresponds to the geometric multiplicity
+
+0:09:27.920,0:09:34.940
+of four and then we don't have any other choice 
+than to choose the smallest Jordan box here which
+
+0:09:34.940,0:09:41.660
+means one times one and then we can have four of 
+them. A similar thing happens now if we look at
+
+0:09:41.660,0:09:49.490
+the geometric multiplicity of 3. So we have three 
+boxes. Here you see if we want three boxes we need
+
+0:09:49.490,0:09:58.220
+one two times two box and two one times one boxes. 
+As before if we are not interested in the order
+
+0:09:58.220,0:10:05.840
+of the boxes, this one is the only possibility for 
+geometric multiplicity of three. Okay and of course
+
+0:10:05.840,0:10:14.150
+we don't forget the one here. Now in the next case 
+so geometric multiplicity of 2, we have indeed two
+
+0:10:14.150,0:10:20.150
+different possibilities. Maybe that's not so 
+surprising because if you want to choose two
+
+0:10:20.150,0:10:28.460
+Jordan boxes, you can immediately see that you can 
+choose two big ones so this one and this one or
+
+0:10:28.460,0:10:37.850
+you choose a very large one, so a three times three 
+box and a small one. They are indeed different now
+
+0:10:37.850,0:10:44.930
+because the sizes don't coincide. Now this is 
+very important to note: in this case it's not
+
+0:10:44.930,0:10:51.410
+sufficient to know just the algebraic and the 
+geometric multiplicity to conclude how the Jordan
+
+0:10:51.410,0:10:58.640
+block has to look. It was sufficient in the case 
+of above because the block was very small. Here the
+
+0:10:58.640,0:11:04.400
+block is bigger but it's still sufficient to know 
+the geometric and algebraic multiplicity here and
+
+0:11:04.400,0:11:11.980
+here but not here anymore. And that's important 
+because you have to know where you need more
+
+0:11:11.980,0:11:19.180
+calculations than just the multiplicities. Okay 
+so you have seen an example here and of course
+
+0:11:19.180,0:11:23.770
+for the sake of completeness I give you here the 
+last possibility when the geometric multiplicity
+
+0:11:23.770,0:11:32.020
+is just 1. However this always means the same we 
+just have one box so the box fills out the whole
+
+0:11:32.020,0:11:39.220
+Jordan block. Well maybe that's good enough for 
+an introduction how the Jordan normal form looks
+
+0:11:39.220,0:11:46.810
+like. For the end of this video I want to give you 
+a short recipe how to calculate the Jordan normal
+
+0:11:46.810,0:11:53.800
+form for a given matrix. And in the next video 
+I will do this then in all detail with a good
+
+0:11:53.800,0:12:00.160
+example. Ok so the first step here you already 
+know you have to calculate all the eigenvalues.
+
+0:12:00.160,0:12:08.500
+So maybe we call them just lambda with index 1 2 
+and so on and we say they are all different and
+
+0:12:08.500,0:12:16.900
+we have K of them. I've already told you the Jordan 
+blocks which means the eigenvalues are independent
+
+0:12:16.900,0:12:23.290
+so you can start with any of them. However in the 
+end you have to do it for all of them so the next
+
+0:12:23.290,0:12:29.920
+steps you do for all eigenvalues separately. 
+This step you might have already done you
+
+0:12:29.920,0:12:37.330
+look how often occurs lambda i as a zero in the 
+characteristic polynomial and then you calculate
+
+0:12:37.330,0:12:44.710
+the geometric multiplicity of lambda i and this 
+one is nothing more than calculating the kernel
+
+0:12:44.710,0:12:54.250
+of the matrix minus lambda i times the identity 
+matrix where use this one here. And then we look
+
+0:12:54.250,0:13:00.400
+at the dimension: the dimension of the eigenspace 
+which is this kernel is exactly the geometric
+
+0:13:00.400,0:13:07.360
+multiplicity. Now from the discussion above you 
+know you might be already finished here because
+
+0:13:07.360,0:13:14.770
+in some cases the Jordan block is determined just 
+by the algebraic and geometric multiplicity. If not
+
+0:13:14.770,0:13:24.710
+we need the next step where you calculate the 
+next powers of A - lambda i identity matrix so
+
+0:13:24.710,0:13:31.400
+first you would square the matrix then look at 
+the kernel and then calculate the dimension of
+
+0:13:31.400,0:13:39.470
+this one. There you get more information and indeed 
+in general you have to calculate all these powers
+
+0:13:39.470,0:13:45.500
+until this dimension does not change any more.
+If you have never seen that before it might
+
+0:13:45.500,0:13:52.430
+look complicated but in the next video we'll see 
+it is not. For the end I should also mention that
+
+0:13:52.430,0:14:01.280
+we just talked about the Jordan normal form J but 
+not about the matrix X. Again remember we wanted
+
+0:14:01.280,0:14:08.390
+this matrix decomposition. Now if we also want to 
+calculate this matrix X which is invertible we
+
+0:14:08.390,0:14:14.450
+have to do a little bit more than just this 
+recipe. Here this is what I also show you in
+
+0:14:14.450,0:14:20.180
+another video and I will also show you there an 
+example so that you get a feeling how to calculate
+
+0:14:20.180,0:14:27.230
+everything. Okay so that's good enough for today 
+so thanks for listening and see you next time bye
+
+0:14:52.150,0:14:52.650
+you
