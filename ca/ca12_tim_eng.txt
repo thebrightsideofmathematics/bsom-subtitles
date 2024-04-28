@@ -1,0 +1,7 @@
+Complex Analysis - Part 12 - Exp, Cos and Sin as Power Series
+
+00:00 Intro
+00:12 Derivatives of power series
+01:28 Exponential function as a power series
+03:28 Cosine as a power series 
+08:56 Sine as a power series
