@@ -1,0 +1,11 @@
+00:00 Introduction
+01:00 Statement for Cosine Formula
+01:51 Note about finite sum of Cosine functions
+07:10 Lemma about Sine Formula
+08:40 Proof of Lemma
+17:13 Visualization of Lemma
+18:00 Theorem (Cosine Formula)
+18:30 Proof of Theorem
+22:22 Applying Weierstrass M-Test
+23:57 Find integration constant
+25:23 Credits
