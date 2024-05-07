@@ -1,0 +1,7 @@
+00:00 Introduction
+00:45 Real trigonometric polynomials
+01:30 Subspace of trigonometric polynomials
+02:41 Inner product for trigonometric polynomials
+04:11 Examples
+11:54 Result: OB for trigonometric polynomials
+12:55 Credits
