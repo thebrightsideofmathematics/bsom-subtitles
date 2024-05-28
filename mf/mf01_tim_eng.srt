@@ -1,0 +1,9 @@
+Manifolds - Part 1
+
+00:00 Introduction
+00:20 Overview
+02:24 Stoke's theorem as the goal
+02:56 Metric Spaces
+04:56 Definition Topology
+07:29 Simple examples of topological spaces
+09:07 Credits
