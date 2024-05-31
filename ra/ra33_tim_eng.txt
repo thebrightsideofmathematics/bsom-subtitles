@@ -1,8 +1,8 @@
 ﻿Real Analysis - Part 33
 
 00:00 Intro
-00:25 Exponential function
-03:27 Logarithm function
+00:25 Exponential Function
+03:27 Logarithm Function
 05:00 Polynomials
-05:33 Power series
+05:33 Power Series
 08:49 Credits
