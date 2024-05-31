@@ -1,0 +1,8 @@
+﻿Real Analysis - Part 32
+
+00:00 Intro
+00:14 Introducing the intermediate value theorem
+01:26 Definition Intermediate value theorem
+02:29 Corollary 
+02:56 Proof of the intermediate value theorem
+08:16 Credits
