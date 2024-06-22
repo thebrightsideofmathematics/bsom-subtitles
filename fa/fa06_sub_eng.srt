@@ -5,322 +5,322 @@ as always I want to thank all the nice people that
 
 2
 00:00:06,780 --> 00:00:14,760
-support the channel on study or PayPal today's 
-part 6 finally is about Banner spaces we will
+support the channel on Steady or PayPal today's 
+part 6 finally is about Banach spaces. We will
 
 3
 00:00:14,760 --> 00:00:20,340
-later see that a so-called Banner space is indeed 
+later see that a so-called Banach space is indeed 
 one of the most important objects in functional
 
 4
 00:00:20,340 --> 00:00:28,140
-analysis in its core it's just a vector space but 
-with more analytical structure on it in order to
+analysis. In its core it's just a vector space but 
+with more analytical structure on it. In order to
 
 5
 00:00:28,140 --> 00:00:34,980
-understand such Banner space we first have to 
-Define what enormous for this I will use the
+understand such a Banach space we first have to 
+define what a norm is. For this, I will use the
 
 6
 00:00:34,980 --> 00:00:42,420
-letter F to denote a field of numbers however here 
-it will always be the wheel or the complex numbers
+letter F to denote a field of numbers. However here 
+it will always be the real or the complex numbers.
 
 7
 00:00:43,500 --> 00:00:48,660
-of course this makes our life easier because we 
-don't have to write down the definition two times
+Of course, this makes our life easier because we 
+don't have to write down the definition two times.
 
 8
 00:00:49,740 --> 00:00:55,800
-now we have a set X that also carries some 
-operations such that it is a vector space
+Now we have a set X that also carries some 
+operations such that it is a vector space.
 
 9
 00:00:57,000 --> 00:01:04,140
 F Vector space always means that the scaling 
-of vectors is done with numbers form f this
+of vectors is done with numbers form F. This
 
 10
 00:01:04,140 --> 00:01:10,800
-means if f is R you can scale with real numbers 
-and in the case that f is C you can scale even
+means if F is R you can scale with real numbers 
+and in the case that F is C you can scale even
 
 11
 00:01:10,800 --> 00:01:19,320
-with complex numbers the usual visualization for 
-points in a vector space is given by arrows it's
+with complex numbers. The usual visualization for 
+points in a vector space is given by arrows. It's
 
 12
 00:01:19,320 --> 00:01:24,720
 a good idea because you see the two operations 
-scaling and adding two vectors immediately
+scaling and adding two vectors immediately.
 
 13
 00:01:25,560 --> 00:01:31,680
-however from the analytical point of view it would 
-be also nice to know how long such an error is
+However from the analytical point of view it would 
+be also nice to know how long such an arrow is.
 
 14
 00:01:32,520 --> 00:01:36,660
-measuring such length is what we 
-call in the abstract sense and Norm
+Measuring such a length is what we 
+call in the abstract sense and norm.
 
 15
 00:01:37,500 --> 00:01:43,140
-the symbol one uses for a norm are just two 
-lines on the left and two lines on the right
+The symbol one uses for a norm are just two 
+lines on the left and two lines on the right.
 
 16
 00:01:43,980 --> 00:01:49,380
-and because we are measuring a length the only 
-possible values should be non-negative numbers
+And because we are measuring a length, the only 
+possible values should be non-negative numbers.
 
 17
 00:01:50,340 --> 00:01:56,160
-this means that each Vector in X gets 
-a number which is positive or zero
+This means that each Vector in X gets 
+a number which is positive or zero,
 
 18
 00:01:56,160 --> 00:02:00,840
 and this map we get we call a norm 
-if it fulfills three properties
+if it fulfills three properties.
 
 19
 00:02:01,920 --> 00:02:06,540
-since you already know Matrix you might 
-easily guess some of the details here
+Since you already know metrics you might 
+easily guess some of the details here.
 
 20
 00:02:07,500 --> 00:02:13,920
-for example in a we find the positive definite 
-part which means if we have the length 0
+For example in (a) we find the positive definite 
+part which means if we have the length 0,
 
 21
 00:02:15,480 --> 00:02:21,240
 then this is equivalent for having the 
-zero vector or in other words the zero
+zero vector, or in other words the zero
 
 22
 00:02:21,240 --> 00:02:26,400
-Vector has length 0 which makes sense 
+vector has length 0 (which makes sense)
 but it's also the only one with length 0.
 
 23
 00:02:27,000 --> 00:02:34,140
-now Part B explains what happens to the length 
-when we scale a vector scaling here means we
+Now Part (b) explains what happens to the length 
+when we scale a vector. Scaling here means we
 
 24
 00:02:34,140 --> 00:02:41,760
-have a vector X and multiply it from the 
-left with a scalar so a number in F in the
+have a vector x and multiply it from the 
+left with a scalar so a number in F. In the
 
 25
 00:02:41,760 --> 00:02:47,460
 picture you always visualize that with the arrow 
-getting longer or smaller depending on Lambda
+getting longer or smaller depending on Lambda.
 
 26
 00:02:48,540 --> 00:02:55,800
-hence the norm has to satisfy this which means the 
-length gets also multiplied by this Factor Lambda
+Hence the norm has to satisfy this which means the 
+length gets also multiplied by this Factor Lambda.
 
 27
 00:02:57,480 --> 00:03:03,240
-however Lambda could be a negative number or 
+However Lambda could be a negative number or 
 even a complex one such that this only makes
 
 28
 00:03:03,240 --> 00:03:10,380
-sense if we consider the absolute value of Lambda 
-now depending what f is r or C we have here the
+sense if we consider the absolute value of Lambda.
+Now depending what F is, R or C, we have here the
 
 29
 00:03:10,380 --> 00:03:15,900
 absolute value in the real numbers or in the 
-complex numbers therefore this part B now tells
+complex numbers. Therefore this part (b) now tells
 
 30
 00:03:15,900 --> 00:03:23,100
-you that the norm is always absolutely homogeneous 
-so you can always pull out scalars but outside of
+you that the norm is always absolutely homogeneous.
+So you can always pull out scalars but outside of
 
 31
 00:03:23,100 --> 00:03:29,520
-the norm they always get absolute values okay so 
+the norm they always get absolute values. Okay so 
 we are in a vector space we have two operations
 
 32
 00:03:29,520 --> 00:03:34,920
-the scalar multiplication we had in B and now in C 
-we have to explain what happens under the addition
+the scalar multiplication we had in (b) and now in (c) 
+we have to explain what happens under the addition.
 
 33
 00:03:35,700 --> 00:03:41,880
-so let's look at two vectors X and 
-Y you already know how to visualize
+So let's look at two vectors x and 
+y. You already know how to visualize
 
 34
 00:03:41,880 --> 00:03:46,980
-the addition in a vector space you just put 
-the two errors together to get out the sum
+the addition in a vector space: you just put 
+the two arrows together to get out the sum.
 
 35
 00:03:48,000 --> 00:03:53,820
-then you see the triangle here and you think 
+Then you see the triangle here and you think 
 that the length the norm should fulfill the
 
 36
 00:03:53,820 --> 00:04:00,420
 normal geometry in this sense this means 
-that it satisfies the triangle inequality
+that it satisfies the triangle inequality.
 
 37
 00:04:01,860 --> 00:04:06,960
-it looks similar what we have for the Matrix but 
+It looks similar what we have for the metrics but 
 keep in mind here's with respect to the vector
 
 38
 00:04:06,960 --> 00:04:14,160
-addition therefore the norm is not a linear map in 
+addition. Therefore the norm is not a linear map in 
 general because you can pull out the addition but
 
 39
 00:04:14,160 --> 00:04:20,820
-what you get is only an inequality now you might 
+what you get is only an inequality. Now you might 
 already guess that a vector space together with a
 
 40
 00:04:20,820 --> 00:04:27,600
-chosen Norm gets a special name and you are white 
-this pair is what we simply call a normed space
+chosen norm gets a special name and you are right.
+This pair is what we simply call a normed space.
 
 41
 00:04:28,680 --> 00:04:34,560
-so what we have is a real or complex Vector space 
+So what we have is a real or complex vector space 
 where we can measure the length in a meaningful
 
 42
 00:04:34,560 --> 00:04:41,040
-way now you might ask what is the connection 
-to the Matrix basis we defined at the beginning
-
+way. Now you might ask what is the connection 
+to the metric spaces we defined at the beginning
+s
 43
 00:04:41,040 --> 00:04:47,460
-of this video series since the property A 
-and C look very similar the norm could be
+of this video series. Since the property (a) 
+and (c) look very similar, the norm could be
 
 44
 00:04:47,460 --> 00:04:52,860
-a special case of a metric indeed this one is 
-an important fact you always should remember
+a special case of a metric. Indeed this one is 
+an important fact you always should remember.
 
 45
 00:04:53,940 --> 00:05:01,020
-if you have a norm for the vector Space X you can 
-immediately Define a metric so maybe let's put the
+If you have a norm for the vector space X, you can 
+immediately define a metric. So maybe let's put the
 
 46
 00:05:01,020 --> 00:05:06,960
 norm in the index of the metric and then we can 
-Define the distance between two points X and Y
+define the distance between two points x and y.
 
 47
 00:05:07,860 --> 00:05:13,740
-if we look at the elements of the set X we 
-should think of the end points of the errors
+If we look at the elements of the set X, we 
+should think of the end points of the arrows,
 
 48
 00:05:14,640 --> 00:05:19,620
 and then the distance between the two points 
-should be given by the connection Vector which
+should be given by the connection vector which
 
 49
 00:05:19,620 --> 00:05:28,140
-is x minus y and then we take the length of it 
-in fact this then defines a metric for the set X
+is x minus y and then we take the length of it.
+In fact, this then defines a metric for the set X.
 
 50
 00:05:29,220 --> 00:05:32,640
-this one is not hard to show 
-I advise you to try it out
+This one is not hard to show.
+I advise you to try it out.
 
 51
 00:05:33,300 --> 00:05:38,460
-so proving the three properties of the metric 
-by just using the three properties of the norm
+So proving the three properties of the metric 
+by just using the three properties of the norm.
 
 52
 00:05:39,660 --> 00:05:45,780
-now the most important thing to remember here is 
+Now the most important thing to remember here is 
 because we always have this definition in mind and
 
 53
 00:05:45,780 --> 00:05:52,200
-Norm space is indeed a special case of a metric 
-space in particular all the definitions we have
+a normed space is indeed a special case of a metric 
+space. In particular all the definitions we have
 
 54
 00:05:52,200 --> 00:06:00,840
-for metric spaces also work for Norm spaces so for 
-example closeness openness and so on and with this
+for metric spaces also work for normed spaces. So for 
+example closedness, openness and so on. And with this
 
 55
 00:06:00,840 --> 00:06:06,900
-in mind we can now eventually Define what the 
-banner space is so it could happen that our new
+in mind we can now eventually define what a
+Banach space is. So it could happen that our new
 
 56
 00:06:06,900 --> 00:06:15,000
-metric space here x d is a complete one this one 
+metric space here (X,d) is a complete one. This one 
 is a very nice property which we discussed in the
 
 57
 00:06:15,000 --> 00:06:23,460
-last video all the crochet sequences converge we 
-don't have holes in this metric space in this case
+last video. All the Cauchy sequences converge. We 
+don't have holes in this metric space. In this case
 
 58
 00:06:23,460 --> 00:06:31,620
-then the original Norm space acts with its Norm 
-gets a special name we call it a banner space
+then the original normed space, X with its norm,
+gets a special name: we call it a Banach space.
 
 59
 00:06:32,640 --> 00:06:38,580
-okay so now you know the definition of one of 
-the most important objects in functional analysis
+Okay so now you know the definition of one of 
+the most important objects in functional analysis.
 
 60
 00:06:39,300 --> 00:06:46,200
-so you see we have ingredients from the algebraic 
-side and also from the analytical side on the one
+So you see we have ingredients from the algebraic 
+side and also from the analytical side. On the one
 
 61
 00:06:46,200 --> 00:06:52,800
-hand we have a wheel or complex Vector space and 
-on the other hand we have a complete metric space
+hand we have a real or complex vector space and 
+on the other hand we have a complete metric space.
 
 62
 00:06:54,120 --> 00:06:58,740
-and the thing that connects both 
-sides very smoothly is our Norm
+And the thing that connects both 
+sides very smoothly is our norm.
 
 63
 00:06:59,700 --> 00:07:04,620
-so please keep that in mind we don't have any 
+So please keep that in mind we don't have any 
 metric here we have the metric that comes from
 
 64
 00:07:04,620 --> 00:07:11,700
-this Norm and by definition the norm can 
-deal with the algebraic operations so this
+this norm and by definition the norm can 
+deal with the algebraic operations. So this
 
 65
 00:07:11,700 --> 00:07:18,480
-is how I see a banner space in the abstract 
+is how I see a Banach space in the abstract 
 sense to get more concrete we will look at a
 
 66
