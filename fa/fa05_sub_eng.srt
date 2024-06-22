@@ -760,11 +760,11 @@
 
 191
 00:05:03,070 --> 00:05:04,809
- show we just choose an avatar
+ show we just choose an arbitrary
 
 192
 00:05:04,920 --> 00:05:06,059
- echo sequence here.
+ Cauchy sequence here.
 
 193
 00:05:06,799 --> 00:05:08,459
