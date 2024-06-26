@@ -1588,11 +1588,11 @@ And now is the point to take
 
 398
 00:10:48,880 --> 00:10:50,380
-the pea food because we get
+the pth root because we get
 
 399
 00:10:50,390 --> 00:10:52,119
-rid of these two peas.
+rid of these two p's.
 
 400
 00:10:53,169 --> 00:10:54,710
