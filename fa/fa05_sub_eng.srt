@@ -20,7 +20,7 @@
 
 6
 00:00:07,480 --> 00:00:08,789
- on Steady or paypal.
+ on Steady or PayPal.
 
 7
 00:00:09,619 --> 00:00:11,159
@@ -28,7 +28,7 @@
 
 8
 00:00:11,170 --> 00:00:13,020
- kochi sequences and complete
+ Cauchy sequences and complete
 
 9
 00:00:13,029 --> 00:00:14,000
@@ -48,7 +48,7 @@
 
 13
 00:00:19,719 --> 00:00:21,229
- Our metric space has as I
+ Our metric space has as a
 
 14
 00:00:21,239 --> 00:00:23,159
@@ -80,11 +80,11 @@
 
 21
 00:00:33,930 --> 00:00:35,360
- is the whole space is a
+ is the whole space, is a
 
 22
 00:00:35,369 --> 00:00:37,240
- close set inside
+ closed set inside
 
 23
 00:00:37,250 --> 00:00:38,279
@@ -124,7 +124,7 @@
 
 32
 00:00:51,159 --> 00:00:52,930
- the subset being a
+ the subset. Being a
 
 33
 00:00:52,939 --> 00:00:54,430
@@ -136,11 +136,11 @@
 
 35
 00:00:56,110 --> 00:00:56,750
- X tilde.
+ x tilde
 
 36
 00:00:56,759 --> 00:00:57,900
- And of course, it has to
+ and of course, it has to
 
 37
 00:00:57,909 --> 00:00:58,650
@@ -152,15 +152,15 @@
 
 39
 00:01:00,610 --> 00:01:02,069
- was now the set is closed.
+ was now; the set is closed,
 
 40
 00:01:02,080 --> 00:01:03,849
- If the limit is also in the
+ if the limit is also in the
 
 41
 00:01:03,860 --> 00:01:05,800
- subset of course here you
+ subset. Of course here you
 
 42
 00:01:05,809 --> 00:01:06,970
@@ -168,11 +168,11 @@
 
 43
 00:01:06,980 --> 00:01:08,720
- is true because the subset
+ is true, because the subset
 
 44
 00:01:08,730 --> 00:01:10,489
- 03 is the whole space
+ (0,3) is the whole space
 
 45
 00:01:10,519 --> 00:01:10,970
@@ -188,31 +188,31 @@
 
 48
 00:01:14,760 --> 00:01:15,629
- is the following
+ is the following.
 
 49
 00:01:16,550 --> 00:01:18,129
- what is about a sequence
+ what is about the sequence
 
 50
 00:01:18,139 --> 00:01:19,319
- one over N
+ 1 over N?
 
 51
 00:01:19,919 --> 00:01:21,529
- clearly this is a sequence
+ Clearly this is a sequence
 
 52
 00:01:21,540 --> 00:01:23,169
- in X first member is
+ in X. First member is
 
 53
 00:01:23,180 --> 00:01:24,660
- one next one is one
+ 1, next one is 1/2
 
 54
 00:01:24,669 --> 00:01:25,919
- half and so on.
+ and so on.
 
 55
 00:01:25,930 --> 00:01:27,199
@@ -240,7 +240,7 @@
 
 61
 00:01:34,790 --> 00:01:36,160
- XNXM.
+ x_n, x_m.
 
 62
 00:01:36,480 --> 00:01:37,959
@@ -252,7 +252,7 @@
 
 64
 00:01:39,739 --> 00:01:41,599
- X and M get larger and
+ x and m get larger and
 
 65
 00:01:41,610 --> 00:01:42,120
@@ -264,11 +264,11 @@
 
 67
 00:01:44,160 --> 00:01:44,550
- way.
+ way,
 
 68
 00:01:44,620 --> 00:01:45,650
- But the important thing is
+ but the important thing is
 
 69
 00:01:45,660 --> 00:01:47,029
@@ -288,15 +288,15 @@
 
 73
 00:01:52,370 --> 00:01:53,430
- not converge
+ not converge.
 
 74
 00:01:54,160 --> 00:01:55,440
- for our example, this is
+ For our example, this is
 
 75
 00:01:55,449 --> 00:01:57,059
- easy to see because the
+ easy to see, because the
 
 76
 00:01:57,069 --> 00:01:58,760
@@ -316,7 +316,7 @@
 
 80
 00:02:02,480 --> 00:02:04,260
- However, zero is not an
+ However, zero is not in
 
 81
 00:02:04,269 --> 00:02:05,889
@@ -324,11 +324,11 @@
 
 82
 00:02:05,900 --> 00:02:07,389
- zero in our universe.
+ zero in our universe
 
 83
 00:02:07,400 --> 00:02:07,699
- Here.
+ here.
 
 84
 00:02:08,419 --> 00:02:10,309
@@ -340,7 +340,7 @@
 
 86
 00:02:11,779 --> 00:02:13,259
- sequence which should
+ sequence, which should
 
 87
 00:02:13,270 --> 00:02:14,869
@@ -348,7 +348,7 @@
 
 88
 00:02:14,880 --> 00:02:16,539
- point in the space where
+ point in the space, where
 
 89
 00:02:16,550 --> 00:02:17,660
@@ -388,7 +388,7 @@
 
 98
 00:02:32,229 --> 00:02:34,179
- XD sequences
+ (X, d) sequences
 
 99
 00:02:34,190 --> 00:02:35,729
@@ -396,7 +396,7 @@
 
 100
 00:02:35,740 --> 00:02:37,389
- here are called kochi
+ here are called cauchy
 
 101
 00:02:37,399 --> 00:02:38,160
@@ -404,11 +404,11 @@
 
 102
 00:02:39,100 --> 00:02:39,949
- More concretely.
+ More concretely
 
 103
 00:02:39,960 --> 00:02:41,630
- This means for all
+ this means for all
 
 104
 00:02:41,639 --> 00:02:43,440
@@ -420,15 +420,15 @@
 
 106
 00:02:46,000 --> 00:02:47,979
- N in N such
+ N in N, such
 
 107
 00:02:47,990 --> 00:02:49,669
- that for all in
+ that for all indices
 
 108
 00:02:49,869 --> 00:02:51,839
- this is an M greater than
+ n, m greater than
 
 109
 00:02:51,850 --> 00:02:53,410
@@ -444,7 +444,7 @@
 
 112
 00:02:56,300 --> 00:02:58,080
- XNXM is arbitrarily
+ x_n, x_m is arbitrarily
 
 113
 00:02:58,089 --> 00:02:59,940
@@ -456,11 +456,11 @@
 
 115
 00:03:02,250 --> 00:03:03,479
- of this limit before
+ of this limit before.
 
 116
 00:03:04,270 --> 00:03:05,210
- what you should be able to
+ What you should be able to
 
 117
 00:03:05,220 --> 00:03:06,869
@@ -468,7 +468,7 @@
 
 118
 00:03:06,880 --> 00:03:08,509
- conversion sequence, then
+ convergent sequence, then
 
 119
 00:03:08,520 --> 00:03:10,289
@@ -492,7 +492,7 @@
 
 124
 00:03:18,009 --> 00:03:19,720
- there's no X tilde in the
+ there's no x tilde in the
 
 125
 00:03:19,729 --> 00:03:21,559
@@ -512,7 +512,7 @@
 
 129
 00:03:26,919 --> 00:03:28,300
- for the convergence sequences.
+ for the convergent sequences.
 
 130
 00:03:29,029 --> 00:03:30,289
@@ -520,7 +520,7 @@
 
 131
 00:03:30,300 --> 00:03:32,089
- the problem, this does not
+ the problem. This does not
 
 132
 00:03:32,100 --> 00:03:33,089
@@ -592,7 +592,7 @@
 
 149
 00:03:59,949 --> 00:04:01,740
- general result here because
+ general result here, because
 
 150
 00:04:01,750 --> 00:04:03,240
@@ -624,7 +624,7 @@
 
 157
 00:04:13,470 --> 00:04:14,839
- metric space RD in
+ metric space (R, d) in
 
 158
 00:04:14,850 --> 00:04:16,839
@@ -648,7 +648,7 @@
 
 163
 00:04:23,058 --> 00:04:24,928
- RD is a complete metric
+ (R,d) is a complete metric
 
 164
 00:04:24,938 --> 00:04:25,389
@@ -680,7 +680,7 @@
 
 171
 00:04:35,100 --> 00:04:37,019
- the close subsets with the
+ the closed subsets with the
 
 172
 00:04:37,029 --> 00:04:37,809
@@ -788,7 +788,7 @@
 
 198
 00:05:16,510 --> 00:05:17,630
- Then we know there is in
+ Then we know there is a
 
 199
 00:05:17,640 --> 00:05:19,250
@@ -800,7 +800,7 @@
 
 201
 00:05:20,690 --> 00:05:22,549
- created and end fulfill this
+ created than N fulfill this
 
 202
 00:05:22,559 --> 00:05:22,890
@@ -812,7 +812,7 @@
 
 204
 00:05:25,089 --> 00:05:26,959
- between XN and XM is
+ between x_n and x_m is
 
 205
 00:05:26,970 --> 00:05:28,739
@@ -852,11 +852,11 @@
 
 214
 00:05:42,320 --> 00:05:44,260
- which again means that XN
+ which again means that x_n
 
 215
 00:05:44,269 --> 00:05:45,899
- is the same as XM.
+ is the same as x_m.
 
 216
 00:05:46,380 --> 00:05:47,859
@@ -868,7 +868,7 @@
 
 218
 00:05:49,779 --> 00:05:51,769
- Only finally many before
+ Only finitely many before
 
 219
 00:05:51,940 --> 00:05:53,019
@@ -900,7 +900,7 @@
 
 226
 00:06:03,839 --> 00:06:05,820
- space X at
+ space X. At
 
 227
 00:06:05,829 --> 00:06:07,220
@@ -952,7 +952,7 @@
 
 239
 00:06:26,559 --> 00:06:27,950
- with the limit X tilde
+ with the limit x tilde
 
 240
 00:06:27,959 --> 00:06:29,929
