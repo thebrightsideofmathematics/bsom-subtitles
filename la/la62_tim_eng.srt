@@ -1,0 +1,10 @@
+Linear Algebra - Part 62 - Recipe for Calculating Eigenvectors
+
+00:00 Intro
+00:50 Algebraic and geometric multiplicities 
+01:33 Recipe
+06:09 3x3 example
+06:31 Step 1: eigenvalues
+09:17 Step 2: eigenspaces
+14:50 Step 3: eigenvectors
+16:02 Credits
