@@ -748,7 +748,7 @@ understand.
 
 188
 00:05:09,609 --> 00:05:11,600
-Now the queen x is
+Now the green x (red x [dark version]) is
 
 189
 00:05:11,609 --> 00:05:13,410
