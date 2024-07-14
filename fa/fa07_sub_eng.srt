@@ -4,11 +4,11 @@ Hello and welcome back to
 
 2
 00:00:02,279 --> 00:00:03,490
-functional analysis.
+functional analysis
 
 3
 00:00:03,559 --> 00:00:04,670
-And as always, I want to
+and as always, I want to
 
 4
 00:00:04,679 --> 00:00:06,099
@@ -20,7 +20,7 @@ that support this channel
 
 6
 00:00:07,280 --> 00:00:08,779
-on Steady or paypal.
+on Steady or PayPal.
 
 7
 00:00:09,569 --> 00:00:11,140
@@ -40,7 +40,7 @@ Please recall the picture
 
 11
 00:00:16,049 --> 00:00:17,299
-from the last time where
+from the last time, where
 
 12
 00:00:17,309 --> 00:00:18,450
@@ -72,7 +72,7 @@ the connection is given by
 
 19
 00:00:26,670 --> 00:00:27,280
-the norm.
+a norm.
 
 20
 00:00:28,159 --> 00:00:29,899
@@ -100,7 +100,7 @@ Therefore, we already know
 
 26
 00:00:38,889 --> 00:00:40,840
-it's a one dimensional real
+it's a one-dimensional real
 
 27
 00:00:40,849 --> 00:00:41,720
@@ -112,7 +112,7 @@ And we also know that we
 
 29
 00:00:43,930 --> 00:00:45,459
-can calculate lengths
+can calculate lengths,
 
 30
 00:00:45,540 --> 00:00:47,180
@@ -176,7 +176,7 @@ converge in R.
 
 45
 00:01:10,830 --> 00:01:12,760
-In other words, are together
+In other words, R together
 
 46
 00:01:12,769 --> 00:01:14,180
@@ -188,31 +188,31 @@ space.
 
 48
 00:01:15,980 --> 00:01:17,519
-So this is our first.
+So this is our first
 
 49
 00:01:17,529 --> 00:01:19,129
-And as you can see a very
+and as you can see a very
 
 50
 00:01:19,139 --> 00:01:20,209
-simple example,
+simple example.
 
 51
 00:01:20,839 --> 00:01:22,290
-however, we can consider
+However, we can consider
 
 52
 00:01:22,300 --> 00:01:23,910
-even a simple example.
+even a simpler example
 
 53
 00:01:24,760 --> 00:01:26,059
-And you might already guess
+and you might already guess
 
 54
 00:01:26,069 --> 00:01:27,410
-instead of a one dimensional
+instead of a one-dimensional
 
 55
 00:01:27,419 --> 00:01:28,980
@@ -220,7 +220,7 @@ vector space, we choose a
 
 56
 00:01:28,989 --> 00:01:30,699
-zero dimensional vector space.
+zero-dimensional vector space.
 
 57
 00:01:31,599 --> 00:01:32,900
@@ -244,7 +244,7 @@ one norm we can define
 
 62
 00:01:39,709 --> 00:01:41,569
-here because the zero
+here, because the zero
 
 63
 00:01:41,580 --> 00:01:43,410
@@ -328,19 +328,19 @@ examples.
 
 83
 00:02:14,919 --> 00:02:16,889
-This is the LP space written
+This is the L^p space written
 
 84
 00:02:16,899 --> 00:02:18,190
-as LP
+as L^p
 
 85
 00:02:18,380 --> 00:02:19,330
-NF
+(N, F).
 
 86
 00:02:20,089 --> 00:02:21,729
-and denotes the natural numbers
+N denotes the natural numbers
 
 87
 00:02:21,740 --> 00:02:23,130
@@ -352,7 +352,7 @@ So the real or complex numbers
 
 89
 00:02:25,759 --> 00:02:27,339
-and P is a real number
+and p is a real number
 
 90
 00:02:27,350 --> 00:02:28,960
@@ -380,7 +380,7 @@ Now, as I said, this
 
 96
 00:02:39,029 --> 00:02:40,949
-LPN F is defined
+L^p(N, F) is defined
 
 97
 00:02:40,960 --> 00:02:42,509
@@ -404,7 +404,7 @@ This is the domain and this
 
 102
 00:02:49,619 --> 00:02:51,009
-is the co domain for the
+is the codomain for the
 
 103
 00:02:51,020 --> 00:02:52,729
@@ -432,7 +432,7 @@ absolute value and to the
 
 109
 00:03:01,729 --> 00:03:02,589
-power P.
+power p.
 
 110
 00:03:03,740 --> 00:03:05,080
@@ -448,7 +448,7 @@ less than infinity, then
 
 113
 00:03:08,410 --> 00:03:09,990
-the sequence is an LP.
+the sequence is an L^p.
 
 114
 00:03:11,009 --> 00:03:12,449
@@ -476,7 +476,7 @@ And therefore one just writes
 
 120
 00:03:19,529 --> 00:03:20,860
-LP in this case.
+L^p in this case.
 
 121
 00:03:22,059 --> 00:03:23,029
@@ -496,7 +496,7 @@ just consider the sequences,
 
 125
 00:03:27,759 --> 00:03:29,559
-then they form a vector space
+then they form a vector space,
 
 126
 00:03:30,240 --> 00:03:32,009
@@ -516,7 +516,7 @@ Therefore, here we just have
 
 130
 00:03:36,759 --> 00:03:38,410
-to show that LP is a
+to show that L^p is a
 
 131
 00:03:38,419 --> 00:03:40,279
@@ -544,7 +544,7 @@ usually one just uses a
 
 137
 00:03:48,720 --> 00:03:50,369
-P as an index.
+p as an index.
 
 138
 00:03:51,250 --> 00:03:52,550
@@ -552,7 +552,7 @@ Now if we give the whole
 
 139
 00:03:52,559 --> 00:03:54,199
-sequence, the name X,
+sequence, the name x,
 
 140
 00:03:54,500 --> 00:03:56,350
@@ -560,7 +560,7 @@ then we can calculate
 
 141
 00:03:56,360 --> 00:03:58,190
-the P norm of X
+the p-norm of x
 
 142
 00:03:58,199 --> 00:04:00,130
@@ -588,11 +588,11 @@ In this case, we also need
 
 148
 00:04:07,570 --> 00:04:09,110
-the PEF root outside.
+the p-th root outside.
 
 149
 00:04:10,080 --> 00:04:11,910
-If you set P equals to two,
+If you set p equals to two,
 
 150
 00:04:12,020 --> 00:04:13,380
@@ -600,11 +600,11 @@ you will recognize something
 
 151
 00:04:13,389 --> 00:04:15,039
-similar to the Euclidean
+similar to the euclidean
 
 152
 00:04:15,050 --> 00:04:16,160
-norm in RD.
+norm in (R, d).
 
 153
 00:04:17,048 --> 00:04:18,630
@@ -632,15 +632,15 @@ And indeed, I skip that here,
 
 159
 00:04:26,859 --> 00:04:28,059
-but we will do it later
+but we will do it later.
 
 160
 00:04:29,200 --> 00:04:29,470
-here.
+Here,
 
 161
 00:04:29,480 --> 00:04:30,579
-In this video, I want to
+in this video, I want to
 
 162
 00:04:30,589 --> 00:04:32,549
@@ -656,7 +656,7 @@ Hence, our claim is
 
 165
 00:04:35,600 --> 00:04:37,109
-LP together with this
+L^p together with this
 
 166
 00:04:37,119 --> 00:04:38,899
@@ -668,15 +668,15 @@ The first part of the proof
 
 168
 00:04:40,989 --> 00:04:42,910
-has to be that LP is an F
+has to be that L^p is an
 
 169
 00:04:42,920 --> 00:04:44,700
-vector space and that this
+F-vector space and that this
 
 170
 00:04:44,709 --> 00:04:46,589
-P norm is indeed a norm
+p-norm is indeed a norm
 
 171
 00:04:46,600 --> 00:04:47,079
@@ -708,11 +708,11 @@ a lot of technical details
 
 178
 00:04:55,250 --> 00:04:55,959
-for this.
+for this
 
 179
 00:04:55,989 --> 00:04:57,779
-And I think it will distract
+and I think it will distract
 
 180
 00:04:57,790 --> 00:04:59,429
@@ -748,7 +748,7 @@ understand.
 
 188
 00:05:09,609 --> 00:05:11,600
-Now the queen X is
+Now the queen x is
 
 189
 00:05:11,609 --> 00:05:13,410
@@ -772,7 +772,7 @@ Therefore, I choose here
 
 194
 00:05:19,239 --> 00:05:21,149
-an upper index K to
+an upper index k to
 
 195
 00:05:21,160 --> 00:05:23,149
@@ -800,11 +800,11 @@ sequence, a limit.
 
 201
 00:05:33,529 --> 00:05:33,989
-OK?
+OK,
 
 202
 00:05:34,000 --> 00:05:35,519
-To get the right idea, let's
+to get the right idea, let's
 
 203
 00:05:35,529 --> 00:05:37,470
@@ -824,15 +824,15 @@ top to bottom.
 
 207
 00:05:43,230 --> 00:05:44,859
-Now, for example, our X one
+Now, for example, our x(1)
 
 208
 00:05:44,869 --> 00:05:46,290
-is a sequence in LP.
+is a sequence in L^p,
 
 209
 00:05:46,420 --> 00:05:48,079
-So it consists of real or
+so it consists of real or
 
 210
 00:05:48,089 --> 00:05:49,630
@@ -844,7 +844,7 @@ And the same we can write
 
 212
 00:05:51,359 --> 00:05:53,209
-down for X two X three and
+down for x(2), x(3) and
 
 213
 00:05:53,220 --> 00:05:53,709
@@ -920,11 +920,11 @@ sequence.
 
 231
 00:06:22,890 --> 00:06:24,470
-So maybe we use K
+So maybe we use k
 
 232
 00:06:24,600 --> 00:06:26,559
-and L for the corresponding
+and l for the corresponding
 
 233
 00:06:26,570 --> 00:06:27,170
@@ -948,11 +948,11 @@ the absolute value to the
 
 238
 00:06:34,089 --> 00:06:35,010
-power of P.
+power of p
 
 239
 00:06:35,700 --> 00:06:37,420
-And then we know this is
+and then we know this is
 
 240
 00:06:37,429 --> 00:06:39,220
@@ -984,11 +984,11 @@ Of course, we do that because
 
 247
 00:06:49,529 --> 00:06:51,269
-here we have our P
+here we have our
 
 248
 00:06:51,279 --> 00:06:52,579
-norm to the power P
+p-norm to the power p
 
 249
 00:06:53,420 --> 00:06:55,119
@@ -1040,11 +1040,11 @@ for all indices
 
 261
 00:07:12,160 --> 00:07:13,750
-afterwards K and
+afterwards k and
 
 262
 00:07:13,760 --> 00:07:15,679
-L we have that
+l we have that
 
 263
 00:07:15,690 --> 00:07:16,799
@@ -1108,7 +1108,7 @@ F.
 
 278
 00:07:40,859 --> 00:07:42,390
-The value is just the normal
+The absolute value is just the normal
 
 279
 00:07:42,399 --> 00:07:43,540
@@ -1196,7 +1196,7 @@ So we can introduce an
 
 300
 00:08:14,519 --> 00:08:16,100
-index M for example,
+index m for example,
 
 301
 00:08:16,820 --> 00:08:18,079
@@ -1215,12 +1215,12 @@ Now, this means for all the
 columns here, we find the
 
 305
-00:08:23,329 --> 00:08:25,100
-corresponding limit X till
+00:08:23,329 --> 00:08:25,400
+corresponding limit x tilde_m
 
 306
-00:08:25,109 --> 00:08:26,739
-the M we have here at the
+00:08:25,409 --> 00:08:26,739
+we have here at the
 
 307
 00:08:26,750 --> 00:08:27,200
@@ -1248,7 +1248,7 @@ Of course, we can and we
 
 313
 00:08:36,150 --> 00:08:37,429
-should give it the name X
+should give it the name x
 
 314
 00:08:37,469 --> 00:08:38,969
@@ -1280,11 +1280,11 @@ So the plan is to show that
 
 321
 00:08:47,669 --> 00:08:49,659
-XK minus X tilde
+x^(k) minus x tilde
 
 322
 00:08:49,669 --> 00:08:51,619
-in the P norm goes to zero.
+in the p-norm goes to zero.
 
 323
 00:08:52,260 --> 00:08:53,599
@@ -1308,7 +1308,7 @@ So then let's write down
 
 328
 00:08:59,309 --> 00:09:00,229
-the P norm again.
+the p-norm again.
 
 329
 00:09:01,099 --> 00:09:02,729
@@ -1316,7 +1316,7 @@ So we have this series and
 
 330
 00:09:02,739 --> 00:09:04,309
-we need the P food again.
+we need the p-th root again.
 
 331
 00:09:04,450 --> 00:09:05,590
@@ -1324,11 +1324,11 @@ But it's easier to write
 
 332
 00:09:05,599 --> 00:09:06,479
-the power of P.
+the power of p
 
 333
 00:09:06,489 --> 00:09:07,390
-On the other side.
+on the other side.
 
 334
 00:09:08,250 --> 00:09:09,559
@@ -1380,7 +1380,7 @@ However, we know that this
 
 346
 00:09:27,590 --> 00:09:29,039
-X till the N is
+x tilde_n is
 
 347
 00:09:29,049 --> 00:09:30,239
@@ -1492,11 +1492,11 @@ is less than epsilon prime
 
 374
 00:10:11,619 --> 00:10:12,559
-to the power P
+to the power p
 
 375
 00:10:13,520 --> 00:10:15,330
-as long as K and L
+as long as k and l
 
 376
 00:10:15,340 --> 00:10:16,760
@@ -1524,11 +1524,11 @@ So this is good information
 
 382
 00:10:21,989 --> 00:10:23,799
-for us because it tells you
+for us, because it tells you
 
 383
 00:10:23,809 --> 00:10:24,789
-we have here the nonne
+we have here the non-negative
 
 384
 00:10:25,270 --> 00:10:26,880
@@ -1536,19 +1536,19 @@ numbers that are bounded
 
 385
 00:10:26,890 --> 00:10:28,679
-from above by this constant,
+from above by this constant.
 
 386
 00:10:29,210 --> 00:10:30,640
-of course, then comes some
+Of course, then comes some
 
 387
 00:10:30,650 --> 00:10:31,710
-limit process.
+limit process,
 
 388
 00:10:31,750 --> 00:10:33,309
-But we know in the worst
+but we know in the worst
 
 389
 00:10:33,320 --> 00:10:34,869
@@ -1564,7 +1564,7 @@ So in summary, we know for
 
 392
 00:10:39,330 --> 00:10:40,859
-all K greater or capital
+all k greater or equal capital
 
 393
 00:10:40,869 --> 00:10:42,739
@@ -1580,7 +1580,7 @@ than epsilon prime to the
 
 396
 00:10:45,789 --> 00:10:46,580
-power P.
+power p.
 
 397
 00:10:47,440 --> 00:10:48,869
@@ -1652,11 +1652,11 @@ inequality here, the
 
 414
 00:11:16,950 --> 00:11:18,489
-distance between XK
+distance between x^(k)
 
 415
 00:11:18,500 --> 00:11:20,359
-minus X tilde is less
+minus x tilde is less
 
 416
 00:11:20,369 --> 00:11:22,349
@@ -1664,7 +1664,7 @@ than epsilon and there we
 
 417
 00:11:22,359 --> 00:11:23,830
-have it X tilde is
+have it x tilde is
 
 418
 00:11:23,840 --> 00:11:25,469
@@ -1672,7 +1672,7 @@ indeed the limit of
 
 419
 00:11:25,479 --> 00:11:27,190
-XK with respect to the
+x^(k) with respect to the
 
 420
 00:11:27,200 --> 00:11:27,619
@@ -1684,7 +1684,7 @@ The only thing missing is
 
 422
 00:11:30,309 --> 00:11:32,090
-the explanation why X tilde
+the explanation why x tilde
 
 423
 00:11:32,099 --> 00:11:33,539
@@ -1692,7 +1692,7 @@ is also an element in
 
 424
 00:11:33,549 --> 00:11:34,130
-LP.
+L^p.
 
 425
 00:11:34,809 --> 00:11:36,289
@@ -1700,7 +1700,7 @@ However, this now follows
 
 426
 00:11:36,299 --> 00:11:38,090
-from all we know we know
+from all we know. We know
 
 427
 00:11:38,099 --> 00:11:39,650
@@ -1708,19 +1708,19 @@ here that the difference
 
 428
 00:11:39,659 --> 00:11:40,729
-is an LP.
+is an L^p
 
 429
 00:11:41,000 --> 00:11:42,669
-And we also know that XK
+and we also know that x^(k)
 
 430
 00:11:42,679 --> 00:11:43,570
-is an LP.
+is an L^p.
 
 431
 00:11:44,400 --> 00:11:45,669
-Therefore, if you write X
+Therefore, if you write x
 
 432
 00:11:45,679 --> 00:11:47,049
@@ -1728,7 +1728,7 @@ tilde in this way, which
 
 433
 00:11:47,059 --> 00:11:48,969
-means you subtract XK and
+means you subtract x^(k) and
 
 434
 00:11:48,979 --> 00:11:49,760
@@ -1744,11 +1744,11 @@ which means here's one part
 
 437
 00:11:54,619 --> 00:11:56,539
-in LP and here's one
+in L^p and here's one
 
 438
 00:11:56,549 --> 00:11:57,530
-part in LP.
+part in L^p.
 
 439
 00:11:58,690 --> 00:12:00,159
@@ -1756,7 +1756,7 @@ Hence also the sum is an
 
 440
 00:12:00,169 --> 00:12:02,070
-LP because we are dealing
+L^p because we are dealing
 
 441
 00:12:02,080 --> 00:12:03,179
@@ -1772,11 +1772,11 @@ at the beginning where we
 
 444
 00:12:06,419 --> 00:12:07,539
-skip the details.
+skipped the details,
 
 445
 00:12:07,549 --> 00:12:08,780
-But here we can use it.
+but here we can use it.
 
 446
 00:12:09,570 --> 00:12:11,049
@@ -1788,11 +1788,11 @@ this even further in upcoming
 
 448
 00:12:12,700 --> 00:12:13,489
-videos.
+videos,
 
 449
 00:12:13,500 --> 00:12:14,979
-But at this point, I really
+but at this point, I really
 
 450
 00:12:14,989 --> 00:12:16,830
@@ -1800,7 +1800,7 @@ wanted to show you an important
 
 451
 00:12:16,849 --> 00:12:18,549
-and non trivial example of
+and non-trivial example of
 
 452
 00:12:18,559 --> 00:12:19,349
@@ -1808,7 +1808,7 @@ a Banach space.
 
 453
 00:12:20,200 --> 00:12:20,599
-OK?
+OK,
 
 454
 00:12:20,609 --> 00:12:21,580
@@ -1824,11 +1824,11 @@ more concepts in functional
 
 457
 00:12:24,880 --> 00:12:25,580
-analysis.
+analysis
 
 458
 00:12:25,590 --> 00:12:27,099
-And afterwards we go into
+and afterwards we go into
 
 459
 00:12:27,109 --> 00:12:28,940
