@@ -16,7 +16,7 @@ all my great supporters on
 
 5
 00:00:07,190 --> 00:00:08,390
-Steady and paypal.
+Steady and PayPal.
 
 6
 00:00:08,539 --> 00:00:10,029
@@ -32,23 +32,23 @@ these videos.
 
 9
 00:00:12,819 --> 00:00:14,770
-So thanks a lot in
+So thanks a lot! In
 
 10
 00:00:14,779 --> 00:00:15,800
-functional analysis.
+functional analysis
 
 11
 00:00:15,810 --> 00:00:17,159
-We've already reached part
+we've already reached part
 
 12
 00:00:17,170 --> 00:00:17,629
-12.
+12
 
 13
 00:00:17,719 --> 00:00:19,329
-And today we will talk about
+and today we will talk about
 
 14
 00:00:19,340 --> 00:00:20,479
@@ -84,11 +84,11 @@ metric d_X and a set
 
 22
 00:00:32,799 --> 00:00:34,250
-Y with a metric d_Y.
+Y with a metric d_Y
 
 23
 00:00:35,340 --> 00:00:37,080
-And now we consider a map
+and now we consider a map
 
 24
 00:00:37,090 --> 00:00:38,840
@@ -100,7 +100,7 @@ And now such a map is called
 
 26
 00:00:41,790 --> 00:00:42,810
-continuous.
+continuous,
 
 27
 00:00:43,630 --> 00:00:45,389
@@ -112,7 +112,7 @@ open sets are always
 
 29
 00:00:47,310 --> 00:00:48,819
-open more
+open. More
 
 30
 00:00:48,830 --> 00:00:50,080
@@ -132,7 +132,7 @@ So now this usually denotes
 
 34
 00:00:56,139 --> 00:00:57,580
-the preimage of B but I
+the preimage of B, but I
 
 35
 00:00:57,590 --> 00:00:58,509
@@ -152,7 +152,7 @@ here.
 
 39
 00:01:01,819 --> 00:01:03,520
-I think that's helpful because
+I think that's helpful, because
 
 40
 00:01:03,529 --> 00:01:05,190
@@ -163,12 +163,12 @@ every time you see the brackets,
 you know this is not the
 
 42
-00:01:06,500 --> 00:01:07,910
-inverse map, it's the pre
+00:01:06,500 --> 00:01:07,710
+inverse map, it's the
 
 43
-00:01:08,040 --> 00:01:08,430
-image.
+00:01:07,740 --> 00:01:08,430
+preimage.
 
 44
 00:01:09,629 --> 00:01:09,919
@@ -192,15 +192,15 @@ any open set B in
 
 49
 00:01:16,750 --> 00:01:18,540
-Y OK.
+Y. OK.
 
 50
 00:01:18,550 --> 00:01:20,379
-So this is the former definition.
+So this is the formal definition
 
 51
 00:01:20,519 --> 00:01:21,639
-And now I can give you a
+and now I can give you a
 
 52
 00:01:21,650 --> 00:01:23,300
@@ -212,23 +212,23 @@ So we have our metric space
 
 54
 00:01:25,529 --> 00:01:26,849
-X on the left hand side,
+X on the left-hand side,
 
 55
 00:01:26,860 --> 00:01:27,900
-on the right hand side, we
+on the right-hand side, we
 
 56
 00:01:27,910 --> 00:01:29,379
-have our metric space Y.
+have our metric space Y
 
 57
 00:01:29,440 --> 00:01:31,069
-And in between, we have the
+and in between, we have the
 
 58
-00:01:31,080 --> 00:01:31,720
-map.
+00:01:31,080 --> 00:01:31,820
+map f.
 
 59
 00:01:33,000 --> 00:01:34,389
@@ -244,7 +244,7 @@ we find the corresponding
 
 62
 00:01:38,050 --> 00:01:39,540
-preimage on the left hand
+preimage on the left-hand
 
 63
 00:01:39,550 --> 00:01:39,940
@@ -252,11 +252,11 @@ side.
 
 64
 00:01:40,720 --> 00:01:42,480
-Now the property continuous
+Now, the property continuous
 
 65
 00:01:42,489 --> 00:01:44,000
-means that if you start with
+means that, if you start with
 
 66
 00:01:44,010 --> 00:01:45,419
@@ -264,19 +264,19 @@ an open set here, you'll
 
 67
 00:01:45,430 --> 00:01:47,019
-also get an open set here
+also get an open set here.
 
 68
 00:01:47,550 --> 00:01:48,919
-by thinking about boundary
+By thinking about boundary
 
 69
 00:01:48,930 --> 00:01:49,339
-points.
+points,
 
 70
 00:01:49,349 --> 00:01:50,980
-This means that if you don't
+this means that if you don't
 
 71
 00:01:50,989 --> 00:01:52,199
@@ -320,19 +320,19 @@ You know, this is always
 
 81
 00:02:06,239 --> 00:02:07,699
-possible because you are
+possible, because you are
 
 82
 00:02:07,709 --> 00:02:08,589
-in an open set.
+in an open set
 
 83
 00:02:09,268 --> 00:02:10,458
-And then you know, on the
+and then you know, on the
 
 84
 00:02:10,467 --> 00:02:12,378
-right hand side, the output
+right-hand side, the output
 
 85
 00:02:12,389 --> 00:02:13,968
@@ -380,7 +380,7 @@ In some sense, I can repeat
 
 96
 00:02:29,270 --> 00:02:30,820
-what I told you before we
+what I told you before. We
 
 97
 00:02:30,830 --> 00:02:32,479
@@ -388,39 +388,39 @@ choose any output on the
 
 98
 00:02:32,490 --> 00:02:33,380
-left hand side.
+left-hand side
 
 99
 00:02:33,960 --> 00:02:35,639
-And let's call it X tilde.
+and let's call it x tilde
 
 100
 00:02:36,779 --> 00:02:38,619
-And also let's look at any
+and also let's look at any
 
 101
 00:02:38,630 --> 00:02:40,479
-sequence XN that
+sequence x_n that
 
 102
 00:02:40,490 --> 00:02:42,039
-converges to X tilde.
+converges to x tilde
 
 103
 00:02:42,770 --> 00:02:44,350
-And then it should hold that
+and then it should hold that
 
 104
 00:02:44,360 --> 00:02:46,059
-the new sequence F of
+the new sequence f of
 
 105
 00:02:46,070 --> 00:02:47,869
-XN is convergent
+x_n is convergent
 
 106
 00:02:47,880 --> 00:02:49,339
-to F of X tilde.
+to f of x tilde.
 
 107
 00:02:50,380 --> 00:02:51,720
@@ -428,23 +428,23 @@ In other words, every
 
 108
 00:02:51,729 --> 00:02:52,940
-convergence sequence on the
+convergent sequence on the
 
 109
 00:02:52,949 --> 00:02:54,300
-left hand side gets
+left-hand side gets
 
 110
 00:02:54,309 --> 00:02:56,080
-translated into a convergence
+translated into a convergent
 
 111
 00:02:56,089 --> 00:02:56,520
-sequence.
+sequence
 
 112
 00:02:56,529 --> 00:02:57,699
-On the right hand side,
+on the right-hand side.
 
 113
 00:02:58,449 --> 00:02:59,860
@@ -460,7 +460,7 @@ work with the notion sequentially
 
 116
 00:03:02,830 --> 00:03:04,679
-continuous because we just
+continuous, because we just
 
 117
 00:03:04,690 --> 00:03:05,960
@@ -500,7 +500,7 @@ For that reason, we will
 
 126
 00:03:18,559 --> 00:03:20,369
-simply use the word continuous
+simply use the word continuous,
 
 127
 00:03:20,479 --> 00:03:21,929
@@ -516,23 +516,23 @@ However, I wanted to show
 
 130
 00:03:25,899 --> 00:03:27,649
-you both definitions because
+you both definitions, because
 
 131
 00:03:27,660 --> 00:03:29,190
-if you don't work in magic
+if you don't work in metric
 
 132
 00:03:29,199 --> 00:03:29,889
-spaces.
+spaces,
 
 133
 00:03:29,899 --> 00:03:31,669
-But in general topological
+but in general topological
 
 134
 00:03:31,679 --> 00:03:33,309
-spaces in general,
+spaces, in general
 
 135
 00:03:33,320 --> 00:03:34,720
@@ -576,7 +576,7 @@ The first one would be choosing
 
 145
 00:03:48,199 --> 00:03:49,630
-XDX as the
+(X, d_x) as the
 
 146
 00:03:49,639 --> 00:03:51,110
@@ -588,11 +588,11 @@ So where X is any non
 
 148
 00:03:53,720 --> 00:03:54,429
-empty set?
+empty set.
 
 149
 00:03:55,160 --> 00:03:56,339
-Now, on the right hand side,
+Now, on the right-hand side,
 
 150
 00:03:56,350 --> 00:03:57,419
@@ -612,15 +612,15 @@ space.
 
 154
 00:04:02,089 --> 00:04:03,330
-Now let's look at the map
+Now let's look at a map
 
 155
 00:04:03,339 --> 00:04:05,259
-F from X to Y.
+f from X to Y
 
 156
 00:04:06,339 --> 00:04:07,720
-And then we can conclude
+and then we can conclude
 
 157
 00:04:07,729 --> 00:04:09,520
@@ -632,7 +632,7 @@ continuous.
 
 159
 00:04:11,020 --> 00:04:12,669
-This is simply the case because
+This is simply the case, because
 
 160
 00:04:12,679 --> 00:04:14,039
@@ -668,11 +668,11 @@ you see a discrete metric
 
 168
 00:04:25,799 --> 00:04:27,299
-space on the left hand side,
+space on the left-hand side.
 
 169
 00:04:27,940 --> 00:04:29,500
-now another general example,
+Now another general example
 
 170
 00:04:29,510 --> 00:04:31,260
@@ -696,11 +696,11 @@ spaces and then
 
 175
 00:04:37,649 --> 00:04:39,070
-fix A Y zero.
+fix a y_0
 
 176
 00:04:39,079 --> 00:04:39,720
-And Y.
+in Y.
 
 177
 00:04:40,600 --> 00:04:42,179
@@ -712,11 +712,11 @@ know that the map
 
 179
 00:04:43,910 --> 00:04:45,540
-F that sends all the
+f that sends all the
 
 180
 00:04:45,549 --> 00:04:47,260
-X to Y zero
+x to y_0
 
 181
 00:04:47,420 --> 00:04:49,059
@@ -744,7 +744,7 @@ Simply by looking at this
 
 187
 00:04:56,920 --> 00:04:58,309
-part where you know this
+part, where you know this
 
 188
 00:04:58,320 --> 00:04:59,670
@@ -752,19 +752,19 @@ is always fulfilled.
 
 189
 00:05:00,390 --> 00:05:01,670
-The left hand side is always
+The left-hand side is always
 
 190
 00:05:01,679 --> 00:05:02,410
-Y zero.
+y_0.
 
 191
 00:05:02,420 --> 00:05:03,790
-The right hand side is always
+The right-hand side is always
 
 192
 00:05:03,799 --> 00:05:04,429
-Y zero.
+y_0.
 
 193
 00:05:04,440 --> 00:05:06,209
@@ -772,27 +772,27 @@ So we stay at the limit point
 
 194
 00:05:06,220 --> 00:05:08,089
-for all N OK.
+for all n. OK,
 
 195
 00:05:08,100 --> 00:05:09,269
-With this in mind, let's
+with this in mind, let's
 
 196
 00:05:09,279 --> 00:05:11,040
-go to two other examples.
+go to two other examples
 
 197
 00:05:11,049 --> 00:05:12,559
-I find very important
+I find very important.
 
 198
 00:05:13,380 --> 00:05:14,820
-for the first example, I
+For the first example, I
 
 199
 00:05:14,829 --> 00:05:16,679
-want to look at a norm space.
+want to look at a normed space.
 
 200
 00:05:17,309 --> 00:05:18,549
@@ -816,23 +816,23 @@ with the standard metric
 
 205
 00:05:24,709 --> 00:05:26,239
-given by the absolute value?
+given by the absolute value
 
 206
 00:05:26,920 --> 00:05:28,339
-And now the map I want to
+and now the map I want to
 
 207
 00:05:28,350 --> 00:05:30,059
-consider is F given
+consider is f given
 
 208
 00:05:30,070 --> 00:05:31,700
-by X to R
+by X to R,
 
 209
 00:05:32,269 --> 00:05:33,760
-where an element X is
+where an element x is
 
 210
 00:05:33,769 --> 00:05:35,299
@@ -840,11 +840,11 @@ sent to the norm of
 
 211
 00:05:35,309 --> 00:05:35,839
-X.
+x
 
 212
 00:05:36,339 --> 00:05:38,140
-And now our claim is that
+and now our claim is; that
 
 213
 00:05:38,149 --> 00:05:39,799
@@ -876,7 +876,7 @@ continuous.
 
 220
 00:05:47,959 --> 00:05:49,559
-Hence let XN be a
+Hence let x_n be a
 
 221
 00:05:49,570 --> 00:05:51,290
@@ -884,19 +884,19 @@ sequence in X with
 
 222
 00:05:51,299 --> 00:05:53,019
-limit point X tilde.
+limit point x tilde
 
 223
 00:05:53,880 --> 00:05:55,380
-And then we look what happens
+and then we look what happens
 
 224
 00:05:55,390 --> 00:05:56,980
-when we apply the map F.
+when we apply the map f.
 
 225
 00:05:57,700 --> 00:05:59,619
-Of course, F of XN is just
+Of course, f of x_n is just
 
 226
 00:05:59,630 --> 00:06:01,579
@@ -904,7 +904,7 @@ by definition the norm of
 
 227
 00:06:01,589 --> 00:06:02,100
-XN.
+x_n.
 
 228
 00:06:03,130 --> 00:06:04,410
@@ -912,7 +912,7 @@ Now we have to bring in the
 
 229
 00:06:04,420 --> 00:06:06,109
-limit point because that's
+limit point, because that's
 
 230
 00:06:06,119 --> 00:06:07,489
@@ -936,11 +936,11 @@ So we add a zero here
 
 235
 00:06:14,790 --> 00:06:16,600
-inside the norm, we
+inside the norm. We
 
 236
 00:06:16,609 --> 00:06:18,489
-do that because then we
+do that, because then we
 
 237
 00:06:18,500 --> 00:06:19,730
@@ -952,19 +952,19 @@ inequality.
 
 239
 00:06:20,540 --> 00:06:22,299
-So I write X and minus
+So I write x_n minus
 
 240
 00:06:22,309 --> 00:06:23,839
-X tilde in the norm
+x tilde in the norm
 
 241
 00:06:23,850 --> 00:06:25,529
-plus the norm of XT.
+plus the norm of x tilde
 
 242
 00:06:26,630 --> 00:06:28,140
-And then we know the first
+and then we know, the first
 
 243
 00:06:28,149 --> 00:06:29,529
@@ -972,19 +972,19 @@ part is just the distance
 
 244
 00:06:29,540 --> 00:06:31,239
-between XN and X
+between x_n and x
 
 245
 00:06:31,250 --> 00:06:31,700
-tilde.
+tilde
 
 246
 00:06:31,910 --> 00:06:33,779
-And the second part is just
+and the second part is just
 
 247
 00:06:33,790 --> 00:06:34,970
-F of X tilde.
+f of x tilde.
 
 248
 00:06:35,820 --> 00:06:37,549
@@ -996,11 +996,11 @@ that the distance between
 
 250
 00:06:38,739 --> 00:06:40,640
-XN and X tilde goes to
+x_n and x tilde goes to
 
 251
 00:06:40,649 --> 00:06:42,260
-zero when N goes to
+zero when n goes to
 
 252
 00:06:42,269 --> 00:06:42,959
@@ -1008,23 +1008,23 @@ infinity.
 
 253
 00:06:43,799 --> 00:06:45,220
-Hence doing a limit on both
+Hence doing the limit on both
 
 254
 00:06:45,230 --> 00:06:45,679
-sides.
+sides,
 
 255
 00:06:45,690 --> 00:06:47,140
-We get that the limit of
+we get that the limit of
 
 256
 00:06:47,149 --> 00:06:48,910
-F of XN is less or
+f(x_n) is less or
 
 257
 00:06:48,920 --> 00:06:50,559
-equal than F of X til
+equal than f(x tilde)
 
 258
 00:06:51,640 --> 00:06:51,959
@@ -1060,15 +1060,15 @@ Therefore, we start with
 
 266
 00:07:00,220 --> 00:07:01,989
-F of X tilde, which is just
+f of x tilde, which is just
 
 267
 00:07:02,000 --> 00:07:03,579
-the norm of X tilde
+the norm of x tilde.
 
 268
 00:07:04,380 --> 00:07:05,609
-doing a similar thing than
+Doing a similar thing than
 
 269
 00:07:05,619 --> 00:07:07,160
@@ -1076,7 +1076,7 @@ before we just put in
 
 270
 00:07:07,170 --> 00:07:08,239
-XN.
+x_n.
 
 271
 00:07:09,140 --> 00:07:10,959
@@ -1084,7 +1084,7 @@ So subtracting and adding
 
 272
 00:07:10,970 --> 00:07:12,660
-again, of course,
+again. Of course,
 
 273
 00:07:12,670 --> 00:07:14,179
@@ -1092,11 +1092,11 @@ now we doing the triangle
 
 274
 00:07:14,190 --> 00:07:16,179
-inequality gives us X tilde
+inequality gives us x tilde
 
 275
 00:07:16,190 --> 00:07:17,690
-the minus XN in the
+ minus x_n in the
 
 276
 00:07:17,700 --> 00:07:19,450
@@ -1104,27 +1104,27 @@ norm plus the norm of
 
 277
 00:07:19,459 --> 00:07:21,239
-XN, which is a
+x_n, which is a
 
 278
 00:07:21,250 --> 00:07:22,820
-similar result as before
+similar result as before,
 
 279
 00:07:22,829 --> 00:07:24,660
-because we have XT the
+because we have x tilde,
 
 280
 00:07:24,670 --> 00:07:26,149
-XN in the metric
+x_n in the metric
 
 281
 00:07:26,230 --> 00:07:27,769
-plus F of
+plus f of
 
 282
 00:07:27,779 --> 00:07:28,250
-XN.
+x_n.
 
 283
 00:07:29,010 --> 00:07:29,989
@@ -1132,35 +1132,35 @@ Now, I don't have to tell
 
 284
 00:07:30,000 --> 00:07:31,309
-you applying the limit on
+you, applying the limit on
 
 285
 00:07:31,320 --> 00:07:32,109
-both sides.
+both sides,
 
 286
 00:07:32,119 --> 00:07:33,829
-We get the inequality the
+we get the inequality the
 
 287
 00:07:33,839 --> 00:07:34,589
-other way around.
+other way around
 
 288
 00:07:35,429 --> 00:07:36,720
-And with that, our proof
+and with that, our proof
 
 289
 00:07:36,730 --> 00:07:38,130
-is finished because we have
+is finished, because we have
 
 290
 00:07:38,140 --> 00:07:39,799
-shown that the sequence F
+shown that the sequence f
 
 291
 00:07:39,809 --> 00:07:41,790
-of XN converges
+of x_n converges
 
 292
 00:07:41,799 --> 00:07:43,279
@@ -1168,7 +1168,7 @@ with respect to the metric
 
 293
 00:07:43,290 --> 00:07:45,170
-in R to F of X tilde.
+in R to f of x tilde.
 
 294
 00:07:45,899 --> 00:07:47,649
@@ -1200,7 +1200,7 @@ So let's choose X as an inner
 
 301
 00:07:56,589 --> 00:07:58,130
-product space where we already
+product space, where we already
 
 302
 00:07:58,140 --> 00:07:59,910
@@ -1208,11 +1208,11 @@ know it's also a metric
 
 303
 00:07:59,920 --> 00:08:00,470
-space.
+space
 
 304
 00:08:01,049 --> 00:08:02,369
-And why should we just the
+and Y should just be the
 
 305
 00:08:02,380 --> 00:08:04,089
@@ -1224,7 +1224,7 @@ standard metric given by
 
 307
 00:08:05,720 --> 00:08:06,649
-the absolute value?
+the absolute value.
 
 308
 00:08:07,029 --> 00:08:08,239
@@ -1240,7 +1240,7 @@ fix the first one with a
 
 311
 00:08:11,220 --> 00:08:12,670
-given X zero.
+given x_zero.
 
 312
 00:08:13,260 --> 00:08:14,730
@@ -1248,7 +1248,7 @@ Now the map we consider is
 
 313
 00:08:14,739 --> 00:08:16,570
-F defined from X to
+f defined from X to
 
 314
 00:08:16,579 --> 00:08:17,079
@@ -1264,15 +1264,15 @@ vector X is sent to the inner
 
 317
 00:08:20,640 --> 00:08:22,549
-product X zero with
+product x_0 with
 
 318
 00:08:22,559 --> 00:08:23,079
-X.
+x
 
 319
 00:08:23,670 --> 00:08:25,279
-And the claim is again, this
+and the claim is again, this
 
 320
 00:08:25,290 --> 00:08:27,200
@@ -1296,11 +1296,11 @@ Of course, the procedure
 
 325
 00:08:33,119 --> 00:08:34,400
-should be the same as before
+should be the same as before.
 
 326
 00:08:34,409 --> 00:08:35,919
-we consider any point X
+We consider any point x
 
 327
 00:08:35,950 --> 00:08:37,659
@@ -1320,11 +1320,11 @@ do it in one step when considering
 
 331
 00:08:42,940 --> 00:08:44,739
-the absolute value of F of
+the absolute value of f of
 
 332
 00:08:44,750 --> 00:08:46,729
-XN minus F of X
+x_n minus f of x
 
 333
 00:08:46,739 --> 00:08:47,150
@@ -1336,15 +1336,15 @@ In other words, this is the
 
 335
 00:08:49,020 --> 00:08:50,469
-inner product X zero with
+inner product x_0 with
 
 336
 00:08:50,479 --> 00:08:52,340
-XN and X zero with
+x_n and x_0 with
 
 337
 00:08:52,349 --> 00:08:54,280
-X tilde using
+x tilde. Using
 
 338
 00:08:54,289 --> 00:08:55,609
@@ -1356,7 +1356,7 @@ that together.
 
 340
 00:08:56,229 --> 00:08:57,510
-So we have just one in a
+So we have just one inner
 
 341
 00:08:57,520 --> 00:08:58,119
@@ -1372,11 +1372,11 @@ like that, you know, you
 
 344
 00:09:01,640 --> 00:09:03,270
-can apply Cauchy Schwarz,
+can apply Cauchy-Schwarz.
 
 345
 00:09:04,000 --> 00:09:05,159
-this means that we have the
+This means that we have the
 
 346
 00:09:05,169 --> 00:09:07,099
@@ -1384,7 +1384,7 @@ inequality I will abbreviate
 
 347
 00:09:07,109 --> 00:09:08,229
-with CS
+with C.S
 
 348
 00:09:08,940 --> 00:09:10,159
@@ -1392,15 +1392,15 @@ and it tells us we have the
 
 349
 00:09:10,169 --> 00:09:11,760
-norm of X zero times the
+norm of x_0 times the
 
 350
 00:09:11,770 --> 00:09:13,460
-norm of XN minus
+norm of x_n minus
 
 351
 00:09:13,510 --> 00:09:14,260
-X tilde.
+x tilde.
 
 352
 00:09:14,750 --> 00:09:16,179
@@ -1408,7 +1408,7 @@ Since this last part is the
 
 353
 00:09:16,190 --> 00:09:17,890
-distance between XN and X
+distance between x_n and x
 
 354
 00:09:17,900 --> 00:09:19,820
@@ -1416,7 +1416,7 @@ tilde, we know this goes
 
 355
 00:09:19,830 --> 00:09:21,320
-to zero when N goes to
+to zero when n goes to
 
 356
 00:09:21,330 --> 00:09:21,979
@@ -1424,7 +1424,7 @@ infinity.
 
 357
 00:09:22,710 --> 00:09:24,090
-Moreover, the whole right
+Moreover, the whole right-
 
 358
 00:09:24,099 --> 00:09:25,650
@@ -1432,35 +1432,35 @@ hand side goes to zero
 
 359
 00:09:25,659 --> 00:09:27,239
-when N goes to infinity.
+when n goes to infinity.
 
 360
 00:09:27,940 --> 00:09:29,260
-In conclusion, also the left
+In conclusion, also the left-
 
 361
 00:09:29,270 --> 00:09:31,030
-hand side goes to zero because
+hand side goes to zero, because
 
 362
 00:09:31,039 --> 00:09:32,359
-it was non negative from
+it was non-negative from
 
 363
 00:09:32,369 --> 00:09:32,940
-the beginning.
+the beginning
 
 364
 00:09:33,830 --> 00:09:35,479
-And then we know the sequence
+and then we know the sequence
 
 365
 00:09:35,489 --> 00:09:37,440
-FX N converges to F
+f(x_n) converges to f
 
 366
 00:09:37,450 --> 00:09:38,150
-of X til
+of x tilde.
 
 367
 00:09:39,090 --> 00:09:39,469
@@ -1476,11 +1476,11 @@ inner product is a continuous
 
 370
 00:09:42,460 --> 00:09:44,070
-map in the second argument.
+map in the second argument
 
 371
 00:09:44,700 --> 00:09:46,070
-And by symmetry or using
+and by symmetry or using
 
 372
 00:09:46,080 --> 00:09:47,359
@@ -1508,15 +1508,15 @@ for a lot of proofs we will
 
 378
 00:09:54,049 --> 00:09:54,960
-do in the future.
+do in the future
 
 379
 00:09:55,059 --> 00:09:56,109
-And I'll show you one.
+and I'll show you one
 
 380
 00:09:56,119 --> 00:09:58,000
-Now indeed,
+now. Indeed,
 
 381
 00:09:58,010 --> 00:09:59,130
@@ -1536,23 +1536,23 @@ space and a subset U
 
 385
 00:10:03,520 --> 00:10:05,090
-and then U perp the orthogonal
+and then U perp, the orthogonal
 
 386
 00:10:05,099 --> 00:10:06,630
-complement of U
+complement of U,
 
 387
 00:10:06,640 --> 00:10:08,559
-is always a close subset
+is always a closed subset.
 
 388
 00:10:09,270 --> 00:10:10,549
-proving this is not hard
+Proving this is not hard
 
 389
 00:10:10,559 --> 00:10:12,280
-at all because now we know
+at all, because now we know
 
 390
 00:10:12,289 --> 00:10:13,500
@@ -1560,7 +1560,7 @@ all the things we need.
 
 391
 00:10:13,890 --> 00:10:15,559
-Now please recall part four
+Now, please recall part four
 
 392
 00:10:15,570 --> 00:10:17,000
@@ -1568,7 +1568,7 @@ of the series where I
 
 393
 00:10:17,010 --> 00:10:18,789
-described close sets with
+described closed sets with
 
 394
 00:10:18,799 --> 00:10:19,919
@@ -1588,23 +1588,23 @@ set itself where we know
 
 398
 00:10:24,770 --> 00:10:25,900
-it's convergent.
+it's convergent,
 
 399
 00:10:25,909 --> 00:10:27,640
-But first just in the space
+but first just in the space
 
 400
 00:10:27,650 --> 00:10:29,570
-X, now when we can
+X. Now when we can
 
 401
 00:10:29,580 --> 00:10:31,169
-show that the limit X tilde
+show that the limit x tilde
 
 402
 00:10:31,179 --> 00:10:33,130
-is also in U perp then
+is also in U perp, then
 
 403
 00:10:33,140 --> 00:10:34,770
@@ -1620,7 +1620,7 @@ So now we just have to use
 
 406
 00:10:37,250 --> 00:10:38,700
-the definition of U perp
+the definition of U perp,
 
 407
 00:10:39,299 --> 00:10:41,020
@@ -1628,15 +1628,15 @@ which means that inner product
 
 408
 00:10:41,030 --> 00:10:42,940
-of XN with U is
+of x_n with u is
 
 409
 00:10:42,950 --> 00:10:44,590
-always zero, no matter
+always zero. No matter
 
 410
 00:10:44,599 --> 00:10:45,840
-which U we choose.
+which u we choose.
 
 411
 00:10:46,330 --> 00:10:47,739
@@ -1644,7 +1644,7 @@ Since this equation holds
 
 412
 00:10:47,750 --> 00:10:49,400
-for all N, we can look at
+for all n, we can look at
 
 413
 00:10:49,409 --> 00:10:51,039
@@ -1652,15 +1652,15 @@ the limit and know this is
 
 414
 00:10:51,049 --> 00:10:51,940
-also zero.
+also zero
 
 415
 00:10:52,719 --> 00:10:54,500
-And now we know we can pull
+and now we know we can pull
 
 416
 00:10:54,510 --> 00:10:56,059
-in the limit here because
+in the limit here, because
 
 417
 00:10:56,070 --> 00:10:57,900
@@ -1668,7 +1668,7 @@ this is just the continuity
 
 418
 00:10:57,909 --> 00:10:59,859
-of the map G we stated before.
+of the map g we stated before.
 
 419
 00:11:00,739 --> 00:11:02,210
@@ -1676,15 +1676,15 @@ In other words, we just have
 
 420
 00:11:02,219 --> 00:11:04,030
-X tilde with U is equal to
+x tilde with u is equal to
 
 421
 00:11:04,039 --> 00:11:04,530
-zero.
+zero
 
 422
 00:11:05,000 --> 00:11:06,390
-And since this holds for
+and since this holds for
 
 423
 00:11:06,400 --> 00:11:08,340
@@ -1696,19 +1696,19 @@ this is just the definition
 
 425
 00:11:09,750 --> 00:11:11,669
-of U perp X tilde is
+of U perp. x tilde is
 
 426
 00:11:11,679 --> 00:11:12,830
-also in U perp.
+also in U perp
 
 427
 00:11:13,530 --> 00:11:14,669
-And this is exactly what
+and this is exactly what
 
 428
 00:11:14,679 --> 00:11:16,469
-we wanted to show the a formal
+we wanted to show the orthogonal
 
 429
 00:11:16,479 --> 00:11:17,950
@@ -1716,11 +1716,11 @@ complement is always a
 
 430
 00:11:17,960 --> 00:11:18,820
-close set.
+closed set
 
 431
 00:11:19,539 --> 00:11:21,349
-And you have seen this immediately
+and you have seen, this immediately
 
 432
 00:11:21,359 --> 00:11:22,919
@@ -1732,7 +1732,7 @@ of the inner product.
 
 434
 00:11:24,799 --> 00:11:25,200
-OK?
+OK.
 
 435
 00:11:25,210 --> 00:11:26,159
@@ -1752,7 +1752,7 @@ and please check out the
 
 439
 00:11:29,219 --> 00:11:31,179
-PDFs if you want of
+PDFs if you want. Of
 
 440
 00:11:31,190 --> 00:11:32,130
