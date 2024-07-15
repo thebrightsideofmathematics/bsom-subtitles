@@ -20,7 +20,7 @@ that support my channel on
 
 6
 00:00:07,789 --> 00:00:08,920
-Steady or paypal.
+Steady or PayPal.
 
 7
 00:00:09,739 --> 00:00:11,229
@@ -76,11 +76,11 @@ Afterwards, we introduced
 
 20
 00:00:31,290 --> 00:00:33,240
-norms for vector spaces.
+norms for vector spaces
 
 21
 00:00:34,029 --> 00:00:35,229
-And there we learned that
+and there we learned that
 
 22
 00:00:35,240 --> 00:00:36,569
@@ -148,7 +148,7 @@ space.
 
 38
 00:00:59,779 --> 00:01:01,349
-The user notation one uses
+The usual notation one uses
 
 39
 00:01:01,360 --> 00:01:03,009
@@ -164,15 +164,15 @@ So what we have is one vector
 
 42
 00:01:06,790 --> 00:01:08,349
-X on the left hand side and
+x on the left-hand side and
 
 43
 00:01:08,360 --> 00:01:09,970
-another vector Y on the right
+another vector y on the right-
 
 44
 00:01:09,980 --> 00:01:11,809
-hand side, a nice
+hand side. A nice
 
 45
 00:01:11,819 --> 00:01:13,290
@@ -180,7 +180,7 @@ visualization for this would
 
 46
 00:01:13,300 --> 00:01:15,169
-be to have the vector X on
+be to have the vector x on
 
 47
 00:01:15,180 --> 00:01:16,360
@@ -188,7 +188,7 @@ the horizontal line
 
 48
 00:01:17,169 --> 00:01:18,930
-and the vector Y in another
+and the vector y in another
 
 49
 00:01:18,940 --> 00:01:20,349
@@ -204,11 +204,11 @@ we find an angle which we
 
 52
 00:01:24,620 --> 00:01:25,599
-could call alpha.
+could call alpha
 
 53
 00:01:25,610 --> 00:01:26,330
-For example.
+for example.
 
 54
 00:01:27,120 --> 00:01:28,629
@@ -224,23 +224,23 @@ two vectors where only the
 
 57
 00:01:31,900 --> 00:01:33,279
-component of Y
+component of y
 
 58
 00:01:33,300 --> 00:01:34,889
-interdiction of X is
+in the direction of x is
 
 59
 00:01:34,900 --> 00:01:36,459
-needed in the
+needed. In the
 
 60
 00:01:36,470 --> 00:01:37,050
-picture.
+picture
 
 61
 00:01:37,059 --> 00:01:38,400
-This would mean that we have
+this would mean that we have
 
 62
 00:01:38,410 --> 00:01:40,099
@@ -276,7 +276,7 @@ It is simply the length of
 
 70
 00:01:50,900 --> 00:01:52,389
-Y times the
+y times the
 
 71
 00:01:52,800 --> 00:01:53,900
@@ -292,11 +292,11 @@ be multiplied with the length
 
 74
 00:01:58,220 --> 00:01:59,519
-of the AX.
+of the arrow x
 
 75
 00:02:00,389 --> 00:02:02,209
-And this formula now explains
+and this formula now explains
 
 76
 00:02:02,220 --> 00:02:03,529
@@ -320,7 +320,7 @@ It does not explain what
 
 81
 00:02:07,919 --> 00:02:09,258
-the norm should mean here
+a norm should mean here
 
 82
 00:02:09,369 --> 00:02:10,820
@@ -364,11 +364,11 @@ In order to do that, we now
 
 92
 00:02:24,500 --> 00:02:26,289
-finally state the definition
+finally state the definition.
 
 93
 00:02:27,240 --> 00:02:28,720
-as usual, we use the letter
+As usual, we use the letter
 
 94
 00:02:28,729 --> 00:02:30,539
@@ -380,7 +380,7 @@ C and then X
 
 96
 00:02:32,500 --> 00:02:34,199
-should be just an F vector
+should be just an F-vector
 
 97
 00:02:34,210 --> 00:02:34,660
@@ -396,15 +396,15 @@ just a map where we use these
 
 100
 00:02:38,990 --> 00:02:39,839
-angle brackets.
+angle brackets
 
 101
 00:02:39,850 --> 00:02:41,520
-Again, the
+again. The
 
 102
 00:02:41,529 --> 00:02:43,389
-input is two vectors such
+input is two vectors, such
 
 103
 00:02:43,399 --> 00:02:44,639
@@ -428,7 +428,7 @@ a number.
 
 108
 00:02:50,270 --> 00:02:51,850
-So is scalar in F
+So a scalar in F
 
 109
 00:02:52,500 --> 00:02:53,970
@@ -440,7 +440,7 @@ that if we are in the complex
 
 111
 00:02:55,820 --> 00:02:57,309
-numbers in a complex vector
+numbers, in a complex vector
 
 112
 00:02:57,320 --> 00:02:58,699
@@ -492,11 +492,11 @@ Now, such a map is called
 
 124
 00:03:13,600 --> 00:03:14,380
-an inner product.
+an inner product,
 
 125
 00:03:14,389 --> 00:03:16,360
-If it fulfills three properties.
+if it fulfills three properties.
 
 126
 00:03:16,919 --> 00:03:18,110
@@ -520,7 +520,7 @@ This means that if we put
 
 131
 00:03:23,779 --> 00:03:25,729
-the same vector X into both
+the same vector x into both
 
 132
 00:03:25,740 --> 00:03:27,289
@@ -528,11 +528,11 @@ sides, then the
 
 133
 00:03:27,300 --> 00:03:28,539
-outcome should be a nonne
+outcome should be a non-negative
 
 134
 00:03:29,300 --> 00:03:30,970
-real number no matter if
+real number. No matter if
 
 135
 00:03:30,979 --> 00:03:31,949
@@ -560,7 +560,7 @@ vector.
 
 141
 00:03:40,050 --> 00:03:41,779
-In other words, XX is
+In other words, <x,x> is
 
 142
 00:03:41,789 --> 00:03:43,720
@@ -568,7 +568,7 @@ zero if and only if
 
 143
 00:03:43,729 --> 00:03:45,100
-X is the zero vector.
+x is the zero vector.
 
 144
 00:03:45,830 --> 00:03:47,110
@@ -608,11 +608,11 @@ we exchange the two vectors
 
 153
 00:04:00,020 --> 00:04:01,020
-in the inner product
+in the inner product.
 
 154
 00:04:01,929 --> 00:04:03,130
-having a picture from above
+Having a picture from above
 
 155
 00:04:03,139 --> 00:04:04,830
@@ -640,7 +640,7 @@ So this should be
 
 161
 00:04:11,820 --> 00:04:13,380
-YNX.
+<y,x>.
 
 162
 00:04:14,649 --> 00:04:16,178
@@ -700,7 +700,7 @@ in a complex case, we want
 
 176
 00:04:37,980 --> 00:04:39,709
-to get out a real number
+to get out a real number,
 
 177
 00:04:39,720 --> 00:04:41,029
@@ -716,7 +716,7 @@ So therefore, if we exchange
 
 180
 00:04:43,940 --> 00:04:45,640
-it to vector here, we also
+these two vector here, we also
 
 181
 00:04:45,649 --> 00:04:47,609
@@ -736,7 +736,7 @@ symmetry or just
 
 185
 00:04:52,790 --> 00:04:54,450
-symmetry if we are in a real
+symmetry, if we are in a real
 
 186
 00:04:54,459 --> 00:04:54,899
@@ -756,19 +756,19 @@ the linearity.
 
 190
 00:05:00,700 --> 00:05:02,089
-The linearity makes sense.
+The linearity makes sense,
 
 191
 00:05:02,100 --> 00:05:03,070
-If you look at the picture
+if you look at the picture
 
 192
 00:05:03,079 --> 00:05:04,720
-again, if you scale
+again. If you scale
 
 193
 00:05:04,730 --> 00:05:06,230
-Y or if you add another
+y or if you add another
 
 194
 00:05:06,239 --> 00:05:08,209
@@ -776,11 +776,11 @@ vector, then you could just
 
 195
 00:05:08,220 --> 00:05:09,790
-do the same with the outcome
+do the same with the outcome.
 
 196
 00:05:10,690 --> 00:05:11,910
-for the formula, we then
+For the formula, we then
 
 197
 00:05:11,920 --> 00:05:13,049
@@ -788,15 +788,15 @@ need two vectors.
 
 198
 00:05:13,059 --> 00:05:14,640
-So let's call them why one
+So let's call them y_1
 
 199
 00:05:14,649 --> 00:05:16,309
-and why two and add them
+and y_2 and add them.
 
 200
 00:05:17,589 --> 00:05:18,529
-the inner product should
+The inner product should
 
 201
 00:05:18,540 --> 00:05:19,670
@@ -844,7 +844,7 @@ like this, which means
 
 212
 00:05:33,519 --> 00:05:34,769
-that on the right hand side,
+that on the right-hand side,
 
 213
 00:05:34,779 --> 00:05:36,459
@@ -864,7 +864,7 @@ that only works in the second
 
 217
 00:05:41,649 --> 00:05:43,269
-component because if you
+component, because if you
 
 218
 00:05:43,279 --> 00:05:44,640
@@ -880,7 +880,7 @@ to use property two.
 
 221
 00:05:48,299 --> 00:05:49,619
-And that one tells you you
+And that one tells you, you
 
 222
 00:05:49,630 --> 00:05:50,799
@@ -888,11 +888,11 @@ don't have any problem in
 
 223
 00:05:50,809 --> 00:05:51,670
-the real case.
+the real case,
 
 224
 00:05:51,679 --> 00:05:53,239
-But in the complex case,
+but in the complex case,
 
 225
 00:05:53,250 --> 00:05:55,109
@@ -956,11 +956,11 @@ So that's the whole definition
 
 240
 00:06:15,679 --> 00:06:16,829
-of an inner product.
+of an inner product
 
 241
 00:06:16,950 --> 00:06:18,350
-And the vector space X
+and the vector space X
 
 242
 00:06:18,359 --> 00:06:20,059
@@ -1008,7 +1008,7 @@ formula from above.
 
 253
 00:06:36,019 --> 00:06:37,989
-So we set the norm of X
+So we set the norm of x
 
 254
 00:06:38,000 --> 00:06:39,320
@@ -1028,11 +1028,11 @@ It's indeed easy to show
 
 258
 00:06:44,940 --> 00:06:46,559
-that this defines a norm.
+that this defines a norm
 
 259
 00:06:47,250 --> 00:06:48,910
-And if we need to be careful
+and if we need to be careful
 
 260
 00:06:48,920 --> 00:06:50,420
@@ -1052,11 +1052,11 @@ Now, to close this video,
 
 264
 00:06:55,820 --> 00:06:57,540
-I tell you now what a Hilbert
+I'll tell you now what a Hilbert
 
 265
 00:06:57,549 --> 00:06:59,399
-space is an
+space is. An
 
 266
 00:06:59,410 --> 00:07:00,799
@@ -1068,11 +1068,11 @@ means X together with an
 
 268
 00:07:02,510 --> 00:07:04,489
-inner product, it's
+inner product, is
 
 269
 00:07:04,500 --> 00:07:06,209
-called a Hilbert space
+called a Hilbert space,
 
 270
 00:07:07,260 --> 00:07:08,730
@@ -1080,11 +1080,11 @@ if X together with the
 
 271
 00:07:08,739 --> 00:07:10,619
-corresponding norm is a ban
+corresponding norm is a banach
 
 272
 00:07:10,630 --> 00:07:11,380
-of space.
+space.
 
 273
 00:07:12,040 --> 00:07:13,920
@@ -1092,7 +1092,7 @@ So this means we have a vector
 
 274
 00:07:13,929 --> 00:07:15,339
-space where we can measure
+space, where we can measure
 
 275
 00:07:15,350 --> 00:07:16,950
@@ -1104,7 +1104,7 @@ also a complete metric space.
 
 277
 00:07:19,779 --> 00:07:20,239
-OK?
+OK,
 
 278
 00:07:20,250 --> 00:07:21,149
