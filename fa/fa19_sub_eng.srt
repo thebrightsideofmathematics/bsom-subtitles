@@ -4,11 +4,11 @@ Hello and welcome back to
 
 2
 00:00:02,299 --> 00:00:03,589
-functional analysis.
+functional analysis
 
 3
 00:00:03,710 --> 00:00:04,929
-And as always, I want to
+and as always, I want to
 
 4
 00:00:04,940 --> 00:00:06,320
@@ -20,7 +20,7 @@ that support this channel
 
 6
 00:00:07,599 --> 00:00:09,039
-on study or paypal.
+on Steady or PayPal.
 
 7
 00:00:09,729 --> 00:00:11,689
@@ -48,27 +48,27 @@ Hölder and indeed, they are
 
 13
 00:00:19,360 --> 00:00:20,309
-all related.
+all related,
 
 14
 00:00:20,319 --> 00:00:21,850
-But here we look at the simplest
+but here we look at the simplest
 
 15
 00:00:21,860 --> 00:00:23,639
-one, it's the one that
+one. It's the one that
 
 16
 00:00:23,649 --> 00:00:24,979
-holds in FN.
+holds in F^n
 
 17
 00:00:24,989 --> 00:00:26,739
-And for P greater than one
+and for p greater than one.
 
 18
 00:00:27,450 --> 00:00:29,190
-for each such number P, there
+For each such number p, there
 
 19
 00:00:29,200 --> 00:00:30,870
@@ -76,7 +76,7 @@ is a Hölder conjugate which
 
 20
 00:00:30,879 --> 00:00:32,119
-we call P prime.
+we call p prime.
 
 21
 00:00:32,909 --> 00:00:34,080
@@ -96,7 +96,7 @@ to one.
 
 25
 00:00:38,180 --> 00:00:39,729
-This is an important relation
+This is an important relation,
 
 26
 00:00:39,740 --> 00:00:41,130
@@ -104,11 +104,11 @@ because every time we use
 
 27
 00:00:41,139 --> 00:00:42,750
-P prime, this is what we
+p prime, this is what we
 
 28
 00:00:42,759 --> 00:00:44,529
-mean instead of P
+mean. Instead of p
 
 29
 00:00:44,540 --> 00:00:46,099
@@ -116,7 +116,7 @@ prime, a lot of people just
 
 30
 00:00:46,110 --> 00:00:46,830
-use Q.
+use q.
 
 31
 00:00:47,630 --> 00:00:48,979
@@ -124,11 +124,11 @@ However, here I want to use
 
 32
 00:00:48,990 --> 00:00:50,790
-Q as another variable to
+q as another variable to
 
 33
 00:00:50,799 --> 00:00:52,590
-tell you again what the P
+tell you again what the p-
 
 34
 00:00:52,599 --> 00:00:53,380
@@ -140,11 +140,11 @@ Or today, I would better
 
 36
 00:00:55,250 --> 00:00:57,049
-say the Q norm of a vector
+say the q-norm of a vector
 
 37
 00:00:57,060 --> 00:00:57,450
-X.
+x.
 
 38
 00:00:58,250 --> 00:01:00,080
@@ -156,19 +156,19 @@ the entries in the absolute
 
 40
 00:01:01,580 --> 00:01:03,049
-value to the power q.
+value to the power q
 
 41
 00:01:03,709 --> 00:01:05,370
-And then we take the q-th root
+and then we take the q-th root
 
 42
 00:01:05,379 --> 00:01:06,290
-of the whole thing.
+of the whole thing
 
 43
 00:01:07,069 --> 00:01:08,470
-And this is what we do for
+and this is what we do for
 
 44
 00:01:08,480 --> 00:01:09,980
@@ -184,23 +184,23 @@ Now Hölder inequality will
 
 47
 00:01:14,279 --> 00:01:15,849
-connect the P norm the P
+connect the p-norm the p
 
 48
 00:01:15,860 --> 00:01:17,550
-prime norm and the one
+prime-norm and the 1-
 
 49
 00:01:17,559 --> 00:01:19,489
-norm indeed, it's one
+norm. Indeed, it's one
 
 50
 00:01:19,500 --> 00:01:20,839
-nice short formula.
+nice short formula,
 
 51
 00:01:20,849 --> 00:01:22,160
-You always should remember.
+you always should remember.
 
 52
 00:01:22,989 --> 00:01:24,510
@@ -216,7 +216,7 @@ you to remember the important
 
 55
 00:01:27,709 --> 00:01:29,610
-inequality putting two
+inequality. Putting two
 
 56
 00:01:29,620 --> 00:01:31,250
@@ -232,7 +232,7 @@ has the product in the components.
 
 59
 00:01:35,239 --> 00:01:36,930
-So X to Y two in the
+So x_2, y_2 in the
 
 60
 00:01:36,940 --> 00:01:38,559
@@ -240,23 +240,23 @@ second component and
 
 61
 00:01:38,569 --> 00:01:39,849
-XN times Y.
+x_n times y_n
 
 62
 00:01:39,860 --> 00:01:41,580
-And in the last component,
+in the last component.
 
 63
 00:01:41,940 --> 00:01:43,760
-then for all vectors X and
+Then for all vectors x and
 
 64
 00:01:43,769 --> 00:01:45,650
-Y we have that the one norm
+y, we have that the 1-norm
 
 65
 00:01:45,660 --> 00:01:47,440
-of the vector XY
+of the vector xy
 
 66
 00:01:47,940 --> 00:01:49,430
@@ -264,19 +264,19 @@ is less or equal than the
 
 67
 00:01:49,440 --> 00:01:51,309
-P norm of X times the P
+p-norm of x times the p
 
 68
 00:01:51,319 --> 00:01:52,720
-prime norm of Y.
+prime-norm of y
 
 69
 00:01:53,379 --> 00:01:54,830
-And that's what we call a
+and that's what we call
 
 70
 00:01:54,839 --> 00:01:56,029
-less inequality.
+Hölder's inequality.
 
 71
 00:01:56,580 --> 00:01:57,720
@@ -292,15 +292,15 @@ it's better to write it immediately
 
 74
 00:02:00,919 --> 00:02:02,599
-in this way, on the one
+in this way. On the one
 
 75
 00:02:02,610 --> 00:02:04,269
-hand, it's easier to remember.
+hand, it's easier to remember
 
 76
 00:02:04,360 --> 00:02:05,680
-And on the other hand, we
+and on the other hand, we
 
 77
 00:02:05,690 --> 00:02:06,919
@@ -332,15 +332,15 @@ However, that's not what
 
 84
 00:02:15,490 --> 00:02:16,770
-we do today today.
+we do today. Today
 
 85
 00:02:16,779 --> 00:02:18,149
-We prove with four vectors
+we prove it for vectors
 
 86
 00:02:18,160 --> 00:02:18,869
-in FN.
+in F^n.
 
 87
 00:02:19,649 --> 00:02:20,880
@@ -376,7 +376,7 @@ We just look at positive
 
 95
 00:02:30,600 --> 00:02:32,550
-numbers A B and
+numbers a, b and
 
 96
 00:02:32,559 --> 00:02:33,850
@@ -384,7 +384,7 @@ then we conclude that the
 
 97
 00:02:33,860 --> 00:02:35,529
-product of A B is
+product of ab is
 
 98
 00:02:35,539 --> 00:02:37,210
@@ -400,7 +400,7 @@ So what you should see here
 
 101
 00:02:39,639 --> 00:02:41,160
-is that P greater than one
+is that p greater than one
 
 102
 00:02:41,169 --> 00:02:42,850
@@ -416,19 +416,19 @@ So as before you can choose
 
 105
 00:02:45,949 --> 00:02:47,669
-P greater one as you want,
+p greater one as you want,
 
 106
 00:02:47,690 --> 00:02:49,470
-but then P prime is fixed.
+but then p prime is fixed.
 
 107
 00:02:50,000 --> 00:02:51,610
-For example, for P equals
+For example, for p equals
 
 108
 00:02:51,619 --> 00:02:53,570
-to two, we have P prime equals
+to two, we have p prime equals
 
 109
 00:02:53,580 --> 00:02:54,110
@@ -448,11 +448,11 @@ here is correct.
 
 113
 00:02:59,300 --> 00:03:00,479
-So please check that.
+So please check that,
 
 114
 00:03:00,490 --> 00:03:01,759
-But for all other cases,
+but for all other cases,
 
 115
 00:03:01,770 --> 00:03:03,380
@@ -488,11 +488,11 @@ then you can choose any two
 
 123
 00:03:14,399 --> 00:03:14,779
-points.
+points
 
 124
 00:03:14,789 --> 00:03:15,630
-As you want.
+as you want.
 
 125
 00:03:15,710 --> 00:03:16,929
@@ -504,7 +504,7 @@ be always above the graph.
 
 127
 00:03:19,110 --> 00:03:20,940
-This property is called convex
+This property is called convex,
 
 128
 00:03:20,949 --> 00:03:22,509
@@ -532,27 +532,27 @@ we call the function just
 
 134
 00:03:29,460 --> 00:03:29,910
-F.
+f.
 
 135
 00:03:30,360 --> 00:03:31,990
-Now by denoting the two points
+Now, by denoting the two points
 
 136
 00:03:32,000 --> 00:03:33,669
-by X and Y, we can form a
+by x and y, we can form a
 
 137
 00:03:33,679 --> 00:03:35,410
-convex combination of X and
+convex combination of x and
 
 138
 00:03:35,419 --> 00:03:37,369
-Y and put that into the function
+y and put that into the function
 
 139
 00:03:37,380 --> 00:03:39,300
-F which means we get out
+f. Which means we get out
 
 140
 00:03:39,309 --> 00:03:40,220
@@ -568,7 +568,7 @@ combination is just a special
 
 143
 00:03:43,949 --> 00:03:45,179
-linear combination where
+linear combination, where
 
 144
 00:03:45,190 --> 00:03:46,940
@@ -592,19 +592,19 @@ also get a convex combination
 
 149
 00:03:52,300 --> 00:03:53,789
-with the images, which means
+with the images. Which means
 
 150
 00:03:53,800 --> 00:03:55,029
-we have here instead of X
+we have here instead of x
 
 151
 00:03:55,039 --> 00:03:56,899
-and Y, just F of X
+and y, just f(x)
 
 152
 00:03:56,940 --> 00:03:57,899
-and F of Y.
+and f(y).
 
 153
 00:03:58,309 --> 00:03:59,770
@@ -616,11 +616,11 @@ the blue graph means we have
 
 155
 00:04:01,210 --> 00:04:02,669
-fear our inequality
+here our inequality.
 
 156
 00:04:03,410 --> 00:04:04,949
-which we now want to use
+Which we now want to use
 
 157
 00:04:04,960 --> 00:04:06,229
@@ -632,7 +632,7 @@ Lambda should be one over
 
 159
 00:04:08,350 --> 00:04:10,110
-P and then one minus
+p and then one minus
 
 160
 00:04:10,119 --> 00:04:11,509
@@ -640,15 +640,15 @@ lambda should be one over
 
 161
 00:04:11,520 --> 00:04:12,240
-P prime.
+p prime.
 
 162
 00:04:12,729 --> 00:04:13,789
-Maybe that's not so clear.
+Maybe that's not so clear
 
 163
 00:04:13,800 --> 00:04:15,360
-But for X I want to put in
+but for x I want to put in
 
 164
 00:04:15,369 --> 00:04:16,720
@@ -656,7 +656,7 @@ the natural logarithm of
 
 165
 00:04:16,730 --> 00:04:18,108
-A to the power P
+a to the power p
 
 166
 00:04:18,459 --> 00:04:19,640
@@ -664,15 +664,15 @@ and the similar thing for
 
 167
 00:04:19,649 --> 00:04:21,559
-Y but now with B and P
+y but now with b and p
 
 168
 00:04:21,570 --> 00:04:23,540
-prime, of course, this
+prime. Of course, this
 
 169
 00:04:23,549 --> 00:04:25,059
-all fits together because
+all fits together, because
 
 170
 00:04:25,070 --> 00:04:26,329
@@ -684,7 +684,7 @@ rules, we can bring this
 
 172
 00:04:27,790 --> 00:04:29,559
-power in front where it cancels
+power in front, where it cancels
 
 173
 00:04:29,570 --> 00:04:30,779
@@ -692,7 +692,7 @@ out. Hence,
 
 174
 00:04:30,790 --> 00:04:31,779
-on the left hand side, we
+on the left-hand side, we
 
 175
 00:04:31,790 --> 00:04:33,029
@@ -700,7 +700,7 @@ have the two logarithms in
 
 176
 00:04:33,040 --> 00:04:33,940
-the function F.
+the function f.
 
 177
 00:04:34,320 --> 00:04:36,089
@@ -708,11 +708,11 @@ Now using the next logarithm
 
 178
 00:04:36,100 --> 00:04:36,619
-rule.
+rule
 
 179
 00:04:36,630 --> 00:04:38,239
-And the fact that the exponential
+and the fact that the exponential
 
 180
 00:04:38,250 --> 00:04:39,820
@@ -724,19 +724,19 @@ of the logarithm, we have
 
 182
 00:04:41,190 --> 00:04:42,859
-just A B on the left hand
+just ab on the left-hand
 
 183
 00:04:42,869 --> 00:04:43,290
-side.
+side
 
 184
 00:04:43,750 --> 00:04:44,980
-And now you see the idea
+and now you see the idea
 
 185
 00:04:44,989 --> 00:04:46,390
-of the whole proof, we want
+of the whole proof. We want
 
 186
 00:04:46,399 --> 00:04:48,140
@@ -748,11 +748,11 @@ already finished with the
 
 188
 00:04:49,390 --> 00:04:50,179
-left part
+left part.
 
 189
 00:04:50,920 --> 00:04:51,940
-regarding the right hand
+Regarding the right-hand
 
 190
 00:04:51,950 --> 00:04:53,220
@@ -768,7 +768,7 @@ Now this looks more complicated
 
 193
 00:04:56,880 --> 00:04:58,230
-than it really is because
+than it really is, because
 
 194
 00:04:58,239 --> 00:04:59,500
@@ -784,11 +784,11 @@ here.
 
 197
 00:05:01,579 --> 00:05:03,170
-Hence this all vanishes.
+Hence this all vanishes
 
 198
 00:05:03,179 --> 00:05:04,309
-And what remains is what
+and what remains is what
 
 199
 00:05:04,320 --> 00:05:05,309
@@ -804,15 +804,15 @@ correct and we can use it
 
 202
 00:05:08,839 --> 00:05:10,750
-to prove Hölder's inequality
+to prove Hölder's inequality.
 
 203
 00:05:11,260 --> 00:05:12,410
-starting with the proof.
+Starting with the proof,
 
 204
 00:05:12,420 --> 00:05:13,480
-Let's first consider the
+let's first consider the
 
 205
 00:05:13,489 --> 00:05:14,420
@@ -828,19 +828,19 @@ we look what happens when
 
 208
 00:05:17,559 --> 00:05:19,239
-X is the zero vector or
+x is the zero vector or
 
 209
 00:05:19,250 --> 00:05:20,579
-Y is the zero vector.
+y is the zero vector,
 
 210
 00:05:21,179 --> 00:05:22,459
-But of course, this is not
+but of course, this is not
 
 211
 00:05:22,470 --> 00:05:23,899
-a problem for us because
+a problem for us, because
 
 212
 00:05:23,910 --> 00:05:25,269
@@ -848,15 +848,15 @@ by the definition of all
 
 213
 00:05:25,279 --> 00:05:26,799
-the norms here we have that
+the norms here, we have that
 
 214
 00:05:26,809 --> 00:05:28,250
-the left hand side is zero
+the left-hand side is zero
 
 215
 00:05:28,260 --> 00:05:29,459
-and the right hand side is
+and the right-hand side is
 
 216
 00:05:29,470 --> 00:05:29,850
@@ -876,7 +876,7 @@ case, we can divide and bring
 
 220
 00:05:35,540 --> 00:05:36,660
-everything to the left hand
+everything to the left-hand
 
 221
 00:05:36,670 --> 00:05:37,070
@@ -892,11 +892,11 @@ bring this inside the norm
 
 224
 00:05:40,619 --> 00:05:42,290
-and divide X by its P
+and divide x by its p-
 
 225
 00:05:42,299 --> 00:05:44,250
-norm and Y by its P prime
+norm and y by its p prime-
 
 226
 00:05:44,260 --> 00:05:44,640
@@ -916,7 +916,7 @@ bring in now the whole sum
 
 230
 00:05:49,350 --> 00:05:51,299
-of the one norm here we have
+of the 1-norm. Here we have
 
 231
 00:05:51,309 --> 00:05:52,649
@@ -928,23 +928,23 @@ norm into the sum and then
 
 233
 00:05:54,260 --> 00:05:55,299
-into the absolute value.
+into the absolute value
 
 234
 00:05:55,989 --> 00:05:56,929
-And there you should see
+and there you should see
 
 235
 00:05:56,940 --> 00:05:58,679
-now that we have two positive
+now, that we have two positive
 
 236
 00:05:58,690 --> 00:06:00,149
-numbers which we could call
+numbers, which we could call
 
 237
 00:06:00,160 --> 00:06:01,989
-A and B and then apply
+a and b and then apply
 
 238
 00:06:02,000 --> 00:06:03,899
@@ -952,7 +952,7 @@ Young's inequality inside
 
 239
 00:06:03,910 --> 00:06:04,459
-a sum.
+the sum.
 
 240
 00:06:04,980 --> 00:06:06,380
@@ -960,7 +960,7 @@ So at this point, we get
 
 241
 00:06:06,390 --> 00:06:07,690
-the inequality sign in
+the inequality sign in.
 
 242
 00:06:08,399 --> 00:06:08,700
@@ -972,15 +972,15 @@ The first term is one over
 
 244
 00:06:10,019 --> 00:06:11,940
-P times XJ
+p times x_j
 
 245
 00:06:11,950 --> 00:06:13,739
-to the power P divided by
+to the power p divided by
 
 246
 00:06:13,750 --> 00:06:15,450
-the P norm to the power P.
+the p-norm to the power p.
 
 247
 00:06:15,950 --> 00:06:17,410
@@ -996,11 +996,11 @@ the sum over both parts.
 
 250
 00:06:20,739 --> 00:06:22,329
-So here we just have P prime
+So here we just have p prime
 
 251
 00:06:22,339 --> 00:06:23,799
-and J instead of X.
+and j instead of x.
 
 252
 00:06:24,220 --> 00:06:25,769
@@ -1016,11 +1016,11 @@ see is what we have in
 
 255
 00:06:28,290 --> 00:06:29,600
-enumerator together with
+the numerator together with
 
 256
 00:06:29,609 --> 00:06:31,109
-the sum is the same as the
+the sum, is the same as the
 
 257
 00:06:31,119 --> 00:06:32,809
@@ -1036,15 +1036,15 @@ Hence, the only things that
 
 260
 00:06:35,769 --> 00:06:37,640
-remain is one over P here
+remain is one over p here
 
 261
 00:06:37,649 --> 00:06:39,160
-and one over P prime here.
+and one over p prime here
 
 262
 00:06:39,630 --> 00:06:40,880
-And by the definition of
+and by the definition of
 
 263
 00:06:40,890 --> 00:06:42,470
@@ -1052,15 +1052,15 @@ the Hölder conjugate this
 
 264
 00:06:42,480 --> 00:06:43,480
-is simply one.
+is simply one
 
 265
 00:06:44,000 --> 00:06:45,540
-And with this, we have proven
+and with this, we have proven
 
 266
 00:06:45,549 --> 00:06:47,200
-Hölders inequality because
+Hölder's inequality, because
 
 267
 00:06:47,209 --> 00:06:48,630
@@ -1068,7 +1068,7 @@ you can bring this one on
 
 268
 00:06:48,640 --> 00:06:49,760
-the right hand side again,
+the right-hand side again,
 
 269
 00:06:49,769 --> 00:06:50,440
@@ -1088,11 +1088,11 @@ need Hölder's inequality to
 
 273
 00:06:55,640 --> 00:06:57,309
-prove another inequality.
+prove another inequality
 
 274
 00:06:57,739 --> 00:06:58,839
-And this one will be the
+and this one will be the
 
 275
 00:06:58,850 --> 00:07:00,149
@@ -1108,7 +1108,7 @@ Essentially, it's just the
 
 278
 00:07:02,940 --> 00:07:04,869
-triangle inequality for our LP
+triangle inequality for our l^p
 
 279
 00:07:04,880 --> 00:07:05,470
