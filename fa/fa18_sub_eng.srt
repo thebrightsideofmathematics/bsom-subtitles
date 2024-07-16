@@ -4,11 +4,11 @@ Hello and welcome back to
 
 2
 00:00:02,220 --> 00:00:03,490
-functional analysis.
+functional analysis
 
 3
 00:00:03,670 --> 00:00:05,289
-And as always many, many
+and as always many, many
 
 4
 00:00:05,300 --> 00:00:07,070
@@ -20,7 +20,7 @@ that support me on Steady
 
 6
 00:00:08,460 --> 00:00:09,250
-or paypal.
+or PayPal.
 
 7
 00:00:10,020 --> 00:00:11,390
@@ -28,11 +28,11 @@ We've already reached part
 
 8
 00:00:11,399 --> 00:00:12,829
-18 in our course.
+18 in our course
 
 9
 00:00:12,840 --> 00:00:14,090
-And today we want to talk
+and today we want to talk
 
 10
 00:00:14,100 --> 00:00:16,010
@@ -68,11 +68,11 @@ been to extend the notion
 
 18
 00:00:27,959 --> 00:00:29,469
-of finite a little bit,
+of finiteness a little bit.
 
 19
 00:00:30,229 --> 00:00:31,709
-a similar thing we will now
+A similar thing we will now
 
 20
 00:00:31,719 --> 00:00:33,220
@@ -80,11 +80,11 @@ do for operators
 
 21
 00:00:33,849 --> 00:00:34,310
-here.
+Here
 
 22
 00:00:34,319 --> 00:00:36,080
-The analogon of finite would
+the analogon of finiteness would
 
 23
 00:00:36,090 --> 00:00:37,799
@@ -104,11 +104,11 @@ So let's look at an operator
 
 27
 00:00:41,889 --> 00:00:43,340
-from FN to
+from F^n to
 
 28
 00:00:43,349 --> 00:00:45,319
-FM on both sides,
+F^m. On both sides,
 
 29
 00:00:45,330 --> 00:00:46,889
@@ -160,15 +160,15 @@ between finite dimensional
 
 41
 00:01:00,599 --> 00:01:02,479
-norm spaces is always
+normed spaces is always
 
 42
 00:01:02,490 --> 00:01:03,340
-continuous.
+continuous
 
 43
 00:01:03,729 --> 00:01:04,888
-And of course, you already
+and of course, you already
 
 44
 00:01:04,900 --> 00:01:06,330
@@ -204,11 +204,11 @@ in our finite dimensional
 
 52
 00:01:17,279 --> 00:01:18,769
-norm space FM.
+normed space F^m
 
 53
 00:01:19,199 --> 00:01:20,610
-And there you know this is
+and there you know this is
 
 54
 00:01:20,620 --> 00:01:22,089
@@ -228,19 +228,19 @@ we just get when we form
 
 58
 00:01:27,000 --> 00:01:28,410
-the closure of this set,
+the closure of this set.
 
 59
 00:01:28,819 --> 00:01:30,389
-this means that we just can
+This means that we just can
 
 60
 00:01:30,400 --> 00:01:32,260
-use a bar over the set.
+use a bar over the set
 
 61
 00:01:32,989 --> 00:01:34,449
-And then we get a set that
+and then we get a set that
 
 62
 00:01:34,459 --> 00:01:36,330
@@ -248,7 +248,7 @@ is always compact in
 
 63
 00:01:36,339 --> 00:01:36,919
-FM.
+F^m.
 
 64
 00:01:37,629 --> 00:01:38,989
@@ -260,7 +260,7 @@ now know what a compact
 
 66
 00:01:40,519 --> 00:01:41,290
-operators.
+operators is.
 
 67
 00:01:42,250 --> 00:01:43,470
@@ -272,11 +272,11 @@ of the unit ball and form
 
 69
 00:01:45,150 --> 00:01:45,819
-the closure.
+the closure
 
 70
 00:01:45,830 --> 00:01:47,309
-And this set is compact,
+and this set is compact,
 
 71
 00:01:47,319 --> 00:01:49,279
@@ -304,11 +304,11 @@ consider the identity
 
 77
 00:01:56,739 --> 00:01:57,580
-operator.
+operator
 
 78
 00:01:57,589 --> 00:01:58,330
-In LP.
+in l^p.
 
 79
 00:01:59,110 --> 00:02:00,610
@@ -320,7 +320,7 @@ just means we take a sequence
 
 81
 00:02:02,319 --> 00:02:03,980
-X and send it to itself.
+x and send it to itself.
 
 82
 00:02:04,449 --> 00:02:05,779
@@ -332,7 +332,7 @@ image of the unit ball is
 
 84
 00:02:07,110 --> 00:02:08,660
-not so hard, it stays the
+not so hard. It stays the
 
 85
 00:02:08,669 --> 00:02:09,380
@@ -352,7 +352,7 @@ So we use the bars again.
 
 89
 00:02:14,490 --> 00:02:15,580
-So what you have on the right
+So what you have on the right-
 
 90
 00:02:15,589 --> 00:02:17,009
@@ -360,11 +360,11 @@ hand side is just a closed
 
 91
 00:02:17,029 --> 00:02:18,429
-unit ball in LP.
+unit ball in l^p
 
 92
 00:02:19,089 --> 00:02:20,169
-And there we know from the
+and there we know from the
 
 93
 00:02:20,179 --> 00:02:21,820
@@ -372,7 +372,7 @@ last video it's closed and
 
 94
 00:02:21,830 --> 00:02:23,789
-bounded but not compact.
+bounded, but not compact.
 
 95
 00:02:24,509 --> 00:02:25,570
@@ -380,15 +380,15 @@ Hence, we have something
 
 96
 00:02:25,580 --> 00:02:25,809
-here.
+here,
 
 97
 00:02:25,820 --> 00:02:27,350
-We would not call a compact
+we would not call a compact
 
 98
 00:02:27,360 --> 00:02:29,059
-operator because the image
+operator, because the image
 
 99
 00:02:29,070 --> 00:02:30,509
@@ -428,7 +428,7 @@ the formal definition.
 
 108
 00:02:43,210 --> 00:02:45,139
-So we need two norm spaces
+So we need two normed spaces
 
 109
 00:02:45,149 --> 00:02:46,789
@@ -436,7 +436,7 @@ and often there will be Banach
 
 110
 00:02:46,800 --> 00:02:48,449
-spaces then a
+spaces. Then a
 
 111
 00:02:48,460 --> 00:02:49,910
@@ -452,31 +452,31 @@ Y is called
 
 114
 00:02:52,729 --> 00:02:53,559
-compact.
+compact,
 
 115
 00:02:54,050 --> 00:02:55,720
-If we have the thing we discussed
+if we have the thing we discussed
 
 116
 00:02:55,729 --> 00:02:57,199
-before that this set
+before, that this set
 
 117
 00:02:57,210 --> 00:02:58,880
-here is compact.
+here is compact
 
 118
 00:02:58,889 --> 00:03:00,699
-In Y therefore, in the
+in Y. Therefore, in the
 
 119
 00:03:00,710 --> 00:03:02,509
-case that Y is a finer
+case that Y is a finite
 
 120
 00:03:02,520 --> 00:03:04,250
-dimensional norm space, this
+dimensional normed space, this
 
 121
 00:03:04,259 --> 00:03:05,559
@@ -504,7 +504,7 @@ we now look at a common
 
 127
 00:03:12,720 --> 00:03:14,559
-example, let's
+example. Let's
 
 128
 00:03:14,570 --> 00:03:16,139
@@ -532,11 +532,11 @@ send that to another function
 
 134
 00:03:23,860 --> 00:03:24,710
-in the same space.
+in the same space
 
 135
 00:03:25,360 --> 00:03:26,820
-And as often the space of
+and as often the space of
 
 136
 00:03:26,830 --> 00:03:28,139
@@ -544,7 +544,7 @@ continuous functions should
 
 137
 00:03:28,149 --> 00:03:29,740
-carry the supreme norm.
+carry the supremum norm.
 
 138
 00:03:30,509 --> 00:03:32,270
@@ -556,7 +556,7 @@ the operator T to a function
 
 140
 00:03:33,970 --> 00:03:35,880
-F and then we get out a new
+f and then we get out a new
 
 141
 00:03:35,889 --> 00:03:36,520
@@ -572,7 +572,7 @@ function does at a given
 
 144
 00:03:39,419 --> 00:03:41,410
-point S where S comes from
+point s, where s comes from
 
 145
 00:03:41,419 --> 00:03:42,330
@@ -596,7 +596,7 @@ by an integral from 0 to
 
 150
 00:03:49,199 --> 00:03:50,690
-F involved, but
+f involved, but
 
 151
 00:03:50,699 --> 00:03:52,570
@@ -604,15 +604,15 @@ also a fixed function
 
 152
 00:03:52,580 --> 00:03:53,050
-K.
+k
 
 153
 00:03:53,550 --> 00:03:54,570
-And this function should
+and this function should
 
 154
 00:03:54,580 --> 00:03:56,500
-get the variable S and also
+get the variable s and also
 
 155
 00:03:56,509 --> 00:03:57,550
@@ -620,7 +620,7 @@ the integration variable
 
 156
 00:03:57,559 --> 00:03:57,949
-T.
+t.
 
 157
 00:03:58,720 --> 00:03:59,949
@@ -652,7 +652,7 @@ the unit interval.
 
 164
 00:04:10,100 --> 00:04:11,360
-Now, since the function K
+Now, since the function k
 
 165
 00:04:11,369 --> 00:04:12,759
@@ -660,7 +660,7 @@ goes into the definition
 
 166
 00:04:12,770 --> 00:04:14,710
-of T I put it into the
+of T, I put it into the
 
 167
 00:04:14,720 --> 00:04:15,509
@@ -672,7 +672,7 @@ OK, then let's check if
 
 169
 00:04:17,700 --> 00:04:19,059
-TK is indeed a
+T_k is indeed a
 
 170
 00:04:19,070 --> 00:04:20,339
@@ -688,7 +688,7 @@ need here is that the function
 
 173
 00:04:24,239 --> 00:04:25,609
-K is defined on a
+k is defined on a
 
 174
 00:04:25,619 --> 00:04:26,709
@@ -700,15 +700,15 @@ So it's not just continuous,
 
 176
 00:04:28,720 --> 00:04:30,660
-it's uniformly continuous
+it's uniformly continuous.
 
 177
 00:04:31,420 --> 00:04:32,730
-to refresh your memory.
+To refresh your memory,
 
 178
 00:04:32,739 --> 00:04:34,059
-Let's write down what this
+let's write down what this
 
 179
 00:04:34,070 --> 00:04:34,929
@@ -716,11 +716,11 @@ exactly means.
 
 180
 00:04:35,720 --> 00:04:37,540
-For all epsilon crater zero,
+For all epsilon greater zero,
 
 181
 00:04:37,549 --> 00:04:39,260
-there exists a delta crater
+there exists a delta greater
 
 182
 00:04:39,269 --> 00:04:41,140
@@ -732,11 +732,11 @@ all points we put in and
 
 184
 00:04:42,869 --> 00:04:44,440
-now we need two variables.
+now we need two variables
 
 185
 00:04:45,010 --> 00:04:46,339
-And for them, it should hold
+and for them, it should hold
 
 186
 00:04:46,350 --> 00:04:47,779
@@ -756,7 +756,7 @@ epsilon.
 
 190
 00:04:52,059 --> 00:04:53,100
-On the left hand side, we
+On the left-hand side, we
 
 191
 00:04:53,109 --> 00:04:54,170
@@ -764,11 +764,11 @@ measure the distance with
 
 192
 00:04:54,179 --> 00:04:55,720
-the Euclidean norm in R two.
+the Euclidean norm in R^2
 
 193
 00:04:55,929 --> 00:04:57,100
-And on the right hand side,
+and on the right-hand side,
 
 194
 00:04:57,109 --> 00:04:58,399
@@ -776,7 +776,7 @@ we measure with the Euclidean
 
 195
 00:04:58,410 --> 00:05:00,239
-norm in R one, which is the
+norm in R^1, which is the
 
 196
 00:05:00,250 --> 00:05:00,940
@@ -788,7 +788,7 @@ Why we need the uniform continuity
 
 198
 00:05:03,609 --> 00:05:05,299
-here we see in a moment.
+here, we see in a moment.
 
 199
 00:05:05,869 --> 00:05:06,859
@@ -836,11 +836,11 @@ functions.
 
 210
 00:05:23,850 --> 00:05:25,140
-Checking the continuity.
+Checking the continuity
 
 211
 00:05:25,149 --> 00:05:26,549
-Then means we look at the
+then means we look at the
 
 212
 00:05:26,559 --> 00:05:28,029
@@ -860,7 +860,7 @@ So this should be small when
 
 216
 00:05:32,070 --> 00:05:33,579
-the points as one and two
+the points s_1 and s_2
 
 217
 00:05:33,589 --> 00:05:34,630
@@ -876,7 +876,7 @@ and then we can look what
 
 220
 00:05:38,299 --> 00:05:38,859
-happens?
+happens.
 
 221
 00:05:39,750 --> 00:05:40,730
@@ -912,19 +912,19 @@ Then of course, we pull in
 
 229
 00:05:50,649 --> 00:05:52,239
-the absolute value then we
+the absolute value. Then we
 
 230
 00:05:52,250 --> 00:05:53,279
-get an inequality.
+get an inequality
 
 231
 00:05:54,130 --> 00:05:55,589
-And with this, we have everything
+and with this, we have everything
 
 232
 00:05:55,600 --> 00:05:57,369
-we need because this one
+we need, because this one
 
 233
 00:05:57,380 --> 00:05:59,000
@@ -932,23 +932,23 @@ here is less than a supremum
 
 234
 00:05:59,059 --> 00:05:59,989
-norm of F.
+norm of f
 
 235
 00:06:00,140 --> 00:06:01,899
-And this one by the uniform
+and this one by the uniform
 
 236
 00:06:01,910 --> 00:06:03,859
-continuity of K can be as
+continuity of k can be as
 
 237
 00:06:03,869 --> 00:06:05,149
-small as we want.
+small as we want
 
 238
 00:06:05,890 --> 00:06:07,390
-And exactly this is what
+and exactly this is what
 
 239
 00:06:07,399 --> 00:06:08,670
@@ -980,7 +980,7 @@ Therefore, we can choose
 
 246
 00:06:18,450 --> 00:06:20,000
-as one as two from the unit
+s_1, s_2 from the unit
 
 247
 00:06:20,010 --> 00:06:21,799
@@ -988,43 +988,43 @@ interval such that the distance
 
 248
 00:06:21,809 --> 00:06:22,950
-is less than delta
+is less than delta.
 
 249
 00:06:23,510 --> 00:06:25,489
-for this as one as two here.
+For this s_1, s_2 here
 
 250
 00:06:25,500 --> 00:06:27,420
-And the same T on both sides,
+and the same t on both sides,
 
 251
 00:06:27,429 --> 00:06:28,910
-we can apply what we know
+we can apply what we know,
 
 252
 00:06:28,980 --> 00:06:30,779
-that this is less than epsilon
+that this is less than epsilon.
 
 253
 00:06:31,579 --> 00:06:33,500
-by using also that this one
+By using also that this one
 
 254
 00:06:33,510 --> 00:06:34,570
-is less than the supreme
+is less than the supremum
 
 255
 00:06:34,720 --> 00:06:35,160
-norm.
+norm,
 
 256
 00:06:35,170 --> 00:06:36,260
-We are finished with the
+we are finished with the
 
 257
 00:06:36,269 --> 00:06:37,820
-whole integral, it's
+whole integral. It's
 
 258
 00:06:37,829 --> 00:06:39,690
@@ -1032,15 +1032,15 @@ simply less than epsilon
 
 259
 00:06:39,700 --> 00:06:41,179
-times the supreme norm.
+times the supremum norm
 
 260
 00:06:41,739 --> 00:06:43,239
-And because the supreme norm
+and because the supremum norm
 
 261
 00:06:43,250 --> 00:06:44,910
-of F is just a constant in
+of f is just a constant in
 
 262
 00:06:44,920 --> 00:06:46,440
@@ -1056,7 +1056,7 @@ is indeed continuous.
 
 265
 00:06:50,339 --> 00:06:51,700
-So we can note our
+So we can note, our
 
 266
 00:06:51,709 --> 00:06:53,109
@@ -1064,7 +1064,7 @@ operator as written as
 
 267
 00:06:53,119 --> 00:06:54,950
-here is well defined.
+here, is well defined.
 
 268
 00:06:55,769 --> 00:06:57,390
@@ -1128,11 +1128,11 @@ exists a delta such that
 
 283
 00:07:19,880 --> 00:07:21,869
-for all S one S two and all
+for all s_1, s_3 and all
 
 284
 00:07:21,880 --> 00:07:23,600
-G in A, we have the
+g in A, we have the
 
 285
 00:07:23,609 --> 00:07:24,959
@@ -1156,15 +1156,15 @@ change some names.
 
 290
 00:07:30,940 --> 00:07:32,260
-I used the name G for the
+I used the name g for the
 
 291
 00:07:32,269 --> 00:07:33,540
-function here because we
+function here, because we
 
 292
 00:07:33,549 --> 00:07:35,279
-already had a function F
+already had a function f
 
 293
 00:07:35,940 --> 00:07:37,269
@@ -1172,7 +1172,7 @@ and of course, we needed
 
 294
 00:07:37,279 --> 00:07:38,859
-the names as one as two for
+the names s_1, s_2 for
 
 295
 00:07:38,869 --> 00:07:39,660
@@ -1192,11 +1192,11 @@ definition of a being
 
 299
 00:07:44,290 --> 00:07:46,279
-uniformly equi continuous.
+uniformly equicontinuous
 
 300
 00:07:46,350 --> 00:07:48,119
-And it's the same thing as
+and it's the same thing as
 
 301
 00:07:48,130 --> 00:07:49,119
@@ -1216,11 +1216,11 @@ proven that A is indeed
 
 305
 00:07:54,290 --> 00:07:56,220
-uniformly equi continuous
+uniformly equicontinuous
 
 306
 00:07:56,970 --> 00:07:58,029
-at this point, you might
+at this point. You might
 
 307
 00:07:58,040 --> 00:07:59,609
@@ -1264,15 +1264,15 @@ operator norm.
 
 317
 00:08:13,619 --> 00:08:14,989
-So we have the supreme of
+So we have the supremum of
 
 318
 00:08:15,000 --> 00:08:16,839
-all the norms of the images
+all the norms of the images,
 
 319
 00:08:16,850 --> 00:08:18,600
-where F has norm one
+where f has norm one
 
 320
 00:08:19,040 --> 00:08:20,230
@@ -1280,15 +1280,15 @@ by the definition of the
 
 321
 00:08:20,239 --> 00:08:21,230
-supreme norm.
+supremum norm.
 
 322
 00:08:21,239 --> 00:08:22,769
-This is the supreme over
+This is the supremum over
 
 323
 00:08:22,779 --> 00:08:24,670
-all s where we calculate
+all s, where we calculate
 
 324
 00:08:24,679 --> 00:08:25,690
@@ -1312,15 +1312,15 @@ the integral and get an inequality
 
 329
 00:08:31,920 --> 00:08:32,308
-out.
+out
 
 330
 00:08:32,820 --> 00:08:34,308
-And with this, we are almost
+and with this, we are almost
 
 331
 00:08:34,320 --> 00:08:35,840
-finished because the last
+finished, because the last
 
 332
 00:08:35,849 --> 00:08:37,590
@@ -1328,19 +1328,19 @@ part here is less or
 
 333
 00:08:37,599 --> 00:08:38,849
-equal than the supreme norm
+equal than the supremum norm
 
 334
 00:08:38,859 --> 00:08:39,229
-of F.
+of f
 
 335
 00:08:39,969 --> 00:08:41,260
-And this is by assumption
+and this is by assumption
 
 336
 00:08:41,270 --> 00:08:43,028
-just one, this
+just one. This
 
 337
 00:08:43,039 --> 00:08:44,239
@@ -1348,7 +1348,7 @@ means that we don't need
 
 338
 00:08:44,249 --> 00:08:45,708
-the outer supreme anymore
+the outer supremum anymore
 
 339
 00:08:45,778 --> 00:08:47,179
@@ -1372,7 +1372,7 @@ or equal than the supremum
 
 344
 00:08:54,659 --> 00:08:56,419
-norm of our function K.
+norm of our function k.
 
 345
 00:08:56,859 --> 00:08:58,320
@@ -1388,19 +1388,19 @@ It's only important that
 
 348
 00:09:01,609 --> 00:09:03,500
-it is constant because then
+it is constant, because then
 
 349
 00:09:03,510 --> 00:09:05,280
-we know that TK is a
+we know that T_k is a
 
 350
 00:09:05,289 --> 00:09:06,500
-bounded operator.
+bounded operator
 
 351
 00:09:06,950 --> 00:09:08,780
-And now finally comes our
+and now finally comes our
 
 352
 00:09:08,789 --> 00:09:10,609
@@ -1408,11 +1408,11 @@ conclusion, we can apply
 
 353
 00:09:11,090 --> 00:09:11,590
-ATSA Ascoli.
+Arzelà–Ascoli.
 
 354
 00:09:12,280 --> 00:09:13,830
-This said the image of the
+This set, the image of the
 
 355
 00:09:13,840 --> 00:09:15,690
@@ -1420,7 +1420,7 @@ unit ball is uniformly
 
 356
 00:09:15,700 --> 00:09:17,630
-equi continuous and bounded.
+equicontinuous and bounded.
 
 357
 00:09:18,340 --> 00:09:19,940
@@ -1432,23 +1432,23 @@ hold for the closure of the
 
 359
 00:09:21,119 --> 00:09:21,630
-set.
+set
 
 360
 00:09:21,820 --> 00:09:23,669
-And by Arzelà–Ascoli, we now
+and by Arzelà–Ascoli, we now
 
 361
 00:09:23,679 --> 00:09:25,020
-have a compact set.
+have a compact set
 
 362
 00:09:25,530 --> 00:09:27,070
-And by our definition, we
+and by our definition, we
 
 363
 00:09:27,080 --> 00:09:28,909
-also know TK
+also know T_k,
 
 364
 00:09:29,010 --> 00:09:30,750
