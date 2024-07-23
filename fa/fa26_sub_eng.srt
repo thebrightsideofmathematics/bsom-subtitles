@@ -4,11 +4,11 @@ Hello and welcome back to
 
 2
 00:00:02,250 --> 00:00:03,619
-functional analysis.
+functional analysis
 
 3
 00:00:03,779 --> 00:00:05,480
-And as always, many thanks
+and as always, many thanks
 
 4
 00:00:05,489 --> 00:00:06,760
@@ -20,15 +20,15 @@ support this channel on Steady
 
 6
 00:00:08,289 --> 00:00:09,119
-or paypal.
+or PayPal.
 
 7
 00:00:09,630 --> 00:00:11,199
-This is part 26.
+This is part 26
 
 8
 00:00:11,319 --> 00:00:12,420
-And I still want to show
+and I still want to show
 
 9
 00:00:12,430 --> 00:00:13,960
@@ -52,7 +52,7 @@ theorem, also known as the
 
 14
 00:00:21,299 --> 00:00:22,709
-Banach Schauder theorem.
+Banach-Schauder theorem.
 
 15
 00:00:23,469 --> 00:00:25,010
@@ -76,7 +76,7 @@ start explaining what an
 
 20
 00:00:30,180 --> 00:00:31,920
-open map is the
+open map is. The
 
 21
 00:00:31,930 --> 00:00:33,549
@@ -112,11 +112,11 @@ to Y.
 
 29
 00:00:43,849 --> 00:00:45,630
-Now such a map F gets the
+Now such a map f gets the
 
 30
 00:00:45,639 --> 00:00:47,540
-name open if it sends
+name open, if it sends
 
 31
 00:00:47,549 --> 00:00:49,290
@@ -140,7 +140,7 @@ X, then the
 
 36
 00:00:56,970 --> 00:00:58,759
-image F of A should
+image f(A) should
 
 37
 00:00:58,770 --> 00:01:00,360
@@ -184,7 +184,7 @@ look at some examples.
 
 47
 00:01:14,720 --> 00:01:16,660
-First, a very general example
+First, a very general example,
 
 48
 00:01:16,669 --> 00:01:18,120
@@ -212,7 +212,7 @@ map, which means we have
 
 54
 00:01:25,379 --> 00:01:27,120
-an inverse map F to the
+an inverse map f to the
 
 55
 00:01:27,129 --> 00:01:28,410
@@ -240,7 +240,7 @@ Having these two assumptions.
 
 61
 00:01:36,980 --> 00:01:38,830
-The map F from X to Y
+The map f from X to Y
 
 62
 00:01:38,839 --> 00:01:40,610
@@ -268,15 +268,15 @@ It simply means when you
 
 68
 00:01:49,080 --> 00:01:50,489
-have an open set on the right
+have an open set on the right-
 
 69
 00:01:50,500 --> 00:01:52,239
-hand side, the pre image
+hand side, the preimage
 
 70
 00:01:52,250 --> 00:01:53,779
-on the left hand side is
+on the left-hand side is
 
 71
 00:01:53,790 --> 00:01:55,180
@@ -288,11 +288,11 @@ Of course, everything looks
 
 73
 00:01:56,870 --> 00:01:58,300
-very similar here.
+very similar. Here
 
 74
 00:01:58,309 --> 00:01:59,589
-You see we have the inverse
+you see we have the inverse
 
 75
 00:01:59,599 --> 00:02:01,519
@@ -308,19 +308,19 @@ the space X which is on the
 
 78
 00:02:05,430 --> 00:02:06,739
-right hand side of the inverse
+right-hand side of the inverse
 
 79
 00:02:06,750 --> 00:02:07,220
-map.
+map
 
 80
 00:02:07,230 --> 00:02:08,339
-But on the left hand side
+but on the left-hand side
 
 81
 00:02:08,350 --> 00:02:09,820
-in the picture, so don't
+in the picture. So don't
 
 82
 00:02:09,830 --> 00:02:10,800
@@ -328,7 +328,7 @@ get confused here.
 
 83
 00:02:11,380 --> 00:02:13,270
-Then we go to the pre image
+Then we go to the preimage
 
 84
 00:02:13,279 --> 00:02:14,860
@@ -348,11 +348,11 @@ You could think this is an
 
 88
 00:02:18,529 --> 00:02:20,220
-overload for a notation but
+overload for the notation, but
 
 89
 00:02:20,229 --> 00:02:21,880
-indeed it fits together
+indeed it fits together,
 
 90
 00:02:21,889 --> 00:02:23,660
@@ -364,7 +364,7 @@ the image of A and
 
 92
 00:02:25,419 --> 00:02:25,839
-F.
+f.
 
 93
 00:02:26,440 --> 00:02:27,759
@@ -380,7 +380,7 @@ by our bijective map
 
 96
 00:02:30,770 --> 00:02:31,789
-F.
+f.
 
 97
 00:02:31,860 --> 00:02:33,210
@@ -408,7 +408,7 @@ However, it's completely
 
 103
 00:02:40,389 --> 00:02:41,970
-different because it goes
+different, because it goes
 
 104
 00:02:41,979 --> 00:02:42,960
@@ -456,23 +456,23 @@ which means the absolute
 
 115
 00:02:57,710 --> 00:02:58,309
-value.
+value
 
 116
 00:02:58,440 --> 00:03:00,279
-And I want to send X to
+and I want to send x to
 
 117
 00:03:00,289 --> 00:03:01,160
-X cubed.
+x cubed.
 
 118
 00:03:02,009 --> 00:03:03,639
-This has to be an open map
+This has to be an open map,
 
 119
 00:03:03,649 --> 00:03:05,300
-because F is bijective
+because f is bijective
 
 120
 00:03:05,470 --> 00:03:06,669
@@ -496,7 +496,7 @@ Just look what happens when
 
 125
 00:03:12,580 --> 00:03:14,100
-we send X to X
+we send x to x
 
 126
 00:03:14,110 --> 00:03:14,720
@@ -508,11 +508,11 @@ Of course, we can't use the
 
 128
 00:03:16,500 --> 00:03:18,169
-general example here because
+general example here, because
 
 129
 00:03:18,179 --> 00:03:19,690
-it's simply not bijective
+it's simply not bijective,
 
 130
 00:03:20,250 --> 00:03:21,529
@@ -528,7 +528,7 @@ Of course, this is not the
 
 133
 00:03:24,020 --> 00:03:25,899
-case, it's not an open map.
+case. It's not an open map.
 
 134
 00:03:25,910 --> 00:03:27,130
@@ -556,19 +556,19 @@ the interval 0 to
 
 140
 00:03:36,110 --> 00:03:36,550
-4.
+4
 
 141
 00:03:37,360 --> 00:03:38,779
-And there you see this is
+and there you see this is
 
 142
 00:03:38,789 --> 00:03:40,710
-not an open set in R
+not an open set in R.
 
 143
 00:03:41,369 --> 00:03:42,740
-Now with your new knowledge,
+Now, with your new knowledge,
 
 144
 00:03:42,750 --> 00:03:44,460
@@ -596,11 +596,11 @@ here is that we need Banach
 
 150
 00:03:51,710 --> 00:03:53,300
-spaces on the left and the
+spaces on the left- and the
 
 151
 00:03:53,309 --> 00:03:54,179
-right hand side.
+right-hand side.
 
 152
 00:03:54,699 --> 00:03:55,949
@@ -612,7 +612,7 @@ spaces is essential here.
 
 154
 00:03:58,500 --> 00:04:00,119
-Now for bounded linear
+Now, for bounded linear
 
 155
 00:04:00,130 --> 00:04:02,100
@@ -640,11 +640,11 @@ if and only if
 
 161
 00:04:09,710 --> 00:04:11,259
-T is an open map.
+T is an open map
 
 162
 00:04:12,050 --> 00:04:13,889
-And that is the famous
+and that is the famous
 
 163
 00:04:13,899 --> 00:04:15,350
@@ -668,7 +668,7 @@ Banach spaces is a strong
 
 168
 00:04:23,239 --> 00:04:25,158
-property because
+property, because
 
 169
 00:04:25,169 --> 00:04:26,928
@@ -688,7 +688,7 @@ surprising and easy to
 
 173
 00:04:32,609 --> 00:04:34,549
-prove the actual work
+prove. The actual work
 
 174
 00:04:34,559 --> 00:04:36,109
@@ -696,7 +696,7 @@ one has to do from the left
 
 175
 00:04:36,119 --> 00:04:37,279
-to the right hand side.
+to the right-hand side.
 
 176
 00:04:37,910 --> 00:04:39,130
@@ -708,11 +708,11 @@ first implication is a good
 
 178
 00:04:40,790 --> 00:04:41,880
-exercise for you.
+exercise for you,
 
 179
 00:04:42,000 --> 00:04:43,450
-But for the other one, we
+but for the other one, we
 
 180
 00:04:43,459 --> 00:04:44,790
@@ -752,7 +752,7 @@ Hence please watch the next
 
 189
 00:04:57,739 --> 00:04:59,609
-video because this consequence
+video, because this consequence
 
 190
 00:04:59,619 --> 00:05:01,429
