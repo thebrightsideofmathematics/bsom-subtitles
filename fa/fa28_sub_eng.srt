@@ -4,11 +4,11 @@
 
 2
 00:00:02,210 --> 00:00:03,730
- functional analysis.
+ functional analysis
 
 3
 00:00:04,280 --> 00:00:05,489
- And there's always many,
+ and as always many,
 
 4
 00:00:05,500 --> 00:00:06,889
@@ -20,15 +20,15 @@
 
 6
 00:00:07,960 --> 00:00:09,779
- channel on Steady or paypal.
+ channel on Steady or PayPal.
 
 7
 00:00:10,329 --> 00:00:10,729
- Today.
+ Today
 
 8
 00:00:10,739 --> 00:00:12,520
- In part 28 we will talk
+ in part 28 we will talk
 
 9
 00:00:12,529 --> 00:00:14,220
@@ -52,23 +52,23 @@
 
 14
 00:00:20,370 --> 00:00:21,229
- For this.
+ For this
 
 15
 00:00:21,239 --> 00:00:22,840
- Please recall when we have
+ please recall when we have
 
 16
 00:00:22,850 --> 00:00:24,209
- a square matrix A
+ a square matrix A,
 
 17
 00:00:24,770 --> 00:00:26,469
- which means we have N rows
+ which means we have n rows
 
 18
 00:00:26,479 --> 00:00:28,440
- and N columns and the entries
+ and n columns and the entries
 
 19
 00:00:28,450 --> 00:00:29,760
@@ -76,11 +76,11 @@
 
 20
 00:00:29,770 --> 00:00:30,319
- numbers.
+ numbers,
 
 21
 00:00:31,059 --> 00:00:32,580
- Then we are able to talk
+ then we are able to talk
 
 22
 00:00:32,590 --> 00:00:34,069
@@ -88,7 +88,7 @@
 
 23
 00:00:34,080 --> 00:00:34,290
- a.
+ A.
 
 24
 00:00:34,959 --> 00:00:36,330
@@ -100,15 +100,15 @@
 
 26
 00:00:38,319 --> 00:00:39,119
- eigenvalue.
+ eigenvalue,
 
 27
 00:00:39,840 --> 00:00:41,669
- If we find a corresponding
+ if we find a corresponding
 
 28
 00:00:41,680 --> 00:00:43,419
- eigenvector more
+ eigenvector. More
 
 29
 00:00:43,430 --> 00:00:44,900
@@ -116,7 +116,7 @@
 
 30
 00:00:44,909 --> 00:00:46,779
- exists a vector X
+ exists a vector x
 
 31
 00:00:46,790 --> 00:00:48,509
@@ -128,11 +128,11 @@
 
 33
 00:00:50,590 --> 00:00:52,340
- AX is equal to
+ Ax is equal to
 
 34
 00:00:52,349 --> 00:00:53,130
- lambda X.
+ lambda x.
 
 35
 00:00:53,909 --> 00:00:55,270
@@ -144,7 +144,7 @@
 
 37
 00:00:56,759 --> 00:00:58,750
- X is reduced to a scalar
+ x is reduced to a scalar
 
 38
 00:00:58,759 --> 00:01:00,549
@@ -168,7 +168,7 @@
 
 43
 00:01:05,800 --> 00:01:07,360
- bring lambda X to the left
+ bring lambda x to the left-
 
 44
 00:01:07,370 --> 00:01:08,989
@@ -184,7 +184,7 @@
 
 47
 00:01:12,059 --> 00:01:13,669
- that sends this vector X
+ that sends this vector x
 
 48
 00:01:13,680 --> 00:01:14,910
@@ -200,7 +200,7 @@
 
 51
 00:01:18,680 --> 00:01:20,370
- contains more than just a
+ contains more than just the
 
 52
 00:01:20,379 --> 00:01:21,209
@@ -232,7 +232,7 @@
 
 59
 00:01:31,080 --> 00:01:33,050
- X to the vector A
+ x to the vector A
 
 60
 00:01:33,230 --> 00:01:34,099
@@ -240,7 +240,7 @@
 
 61
 00:01:34,169 --> 00:01:35,309
- IX.
+ Ix.
 
 62
 00:01:36,190 --> 00:01:37,410
@@ -252,7 +252,7 @@
 
 64
 00:01:38,940 --> 00:01:40,690
- is equivalent to say that
+ is equivalent to saying that
 
 65
 00:01:40,699 --> 00:01:41,970
@@ -296,11 +296,11 @@
 
 75
 00:01:54,129 --> 00:01:55,410
- N for the columns.
+ n for the columns.
 
 76
 00:01:56,019 --> 00:01:57,370
- This number N is the
+ This number n is the
 
 77
 00:01:57,379 --> 00:01:58,809
@@ -308,11 +308,11 @@
 
 78
 00:01:58,819 --> 00:02:00,559
- input for this map here.
+ input for this map here
 
 79
 00:02:01,220 --> 00:02:02,680
- And in the following sense,
+ and in the following sense,
 
 80
 00:02:02,690 --> 00:02:03,930
@@ -328,7 +328,7 @@
 
 83
 00:02:06,720 --> 00:02:08,110
- out on the right hand side
+ out on the right-hand side
 
 84
 00:02:08,119 --> 00:02:09,500
@@ -344,11 +344,11 @@
 
 87
 00:02:12,720 --> 00:02:13,750
- be bigger than N.
+ be bigger than n
 
 88
 00:02:13,860 --> 00:02:15,539
- And in the case, it is less
+ and in the case, it is less
 
 89
 00:02:15,550 --> 00:02:16,910
@@ -384,11 +384,11 @@
 
 97
 00:02:28,710 --> 00:02:30,179
- for square matrices.
+ for square matrices
 
 98
 00:02:30,190 --> 00:02:31,660
- And this map that
+ and this map, that
 
 99
 00:02:31,669 --> 00:02:32,910
@@ -428,7 +428,7 @@
 
 108
 00:02:46,759 --> 00:02:48,710
- this W nullity theorem will
+ this rank nullity theorem will
 
 109
 00:02:48,720 --> 00:02:49,910
@@ -444,7 +444,7 @@
 
 112
 00:02:53,809 --> 00:02:55,679
- for which the invert of this
+ for which the invertibility of this
 
 113
 00:02:55,690 --> 00:02:56,899
@@ -476,15 +476,15 @@
 
 120
 00:03:06,910 --> 00:03:07,440
- To put it.
+ To put it
 
 121
 00:03:07,449 --> 00:03:08,740
- In other words, X is the
+ in other words, X is the
 
 122
 00:03:08,750 --> 00:03:10,550
- generalization of CN
+ generalization of C^n
 
 123
 00:03:10,669 --> 00:03:12,500
@@ -512,11 +512,11 @@
 
 129
 00:03:20,679 --> 00:03:22,389
- of the complex numbers.
+ of the complex numbers
 
 130
 00:03:22,929 --> 00:03:24,589
- And usually it's denoted
+ and usually it's denoted
 
 131
 00:03:24,600 --> 00:03:26,250
@@ -560,15 +560,15 @@
 
 141
 00:03:41,550 --> 00:03:43,160
- case again and get out a
+ case again and get out the
 
 142
-00:03:43,169 --> 00:03:44,389
- set of all the E
+00:03:43,169 --> 00:03:43,389
+ set of all the
 
 143
-00:03:44,580 --> 00:03:45,199
- values.
+00:03:43,580 --> 00:03:45,199
+ eigenvalues.
 
 144
 00:03:45,940 --> 00:03:47,080
@@ -596,23 +596,23 @@
 
 150
 00:03:54,779 --> 00:03:56,389
- resolvent set of T.
+ resolvent set of T
 
 151
 00:03:56,949 --> 00:03:58,720
- And this one is denoted by
+ and this one is denoted by
 
 152
 00:03:58,729 --> 00:03:59,789
- a lower case W
+ a lower case rho.
 
 153
 00:04:00,830 --> 00:04:02,389
- the set looks very similar.
+ The set looks very similar,
 
 154
 00:04:02,399 --> 00:04:03,850
- But now we look at all the
+ but now we look at all the
 
 155
 00:04:03,860 --> 00:04:05,789
@@ -632,7 +632,7 @@
 
 159
 00:04:11,750 --> 00:04:13,550
- the good points because there
+ the good points, because there
 
 160
 00:04:13,559 --> 00:04:15,130
@@ -652,11 +652,11 @@
 
 164
 00:04:18,839 --> 00:04:19,608
- analysis.
+ analysis
 
 165
 00:04:19,619 --> 00:04:21,220
- And therefore, you see we
+ and therefore, you see we
 
 166
 00:04:21,230 --> 00:04:23,029
@@ -704,7 +704,7 @@
 
 177
 00:04:38,970 --> 00:04:40,579
- spaces because only
+ spaces, because only
 
 178
 00:04:40,589 --> 00:04:41,890
@@ -724,7 +724,7 @@
 
 182
 00:04:46,429 --> 00:04:48,140
- spaces because as we will
+ spaces, because as we will
 
 183
 00:04:48,149 --> 00:04:49,459
@@ -844,11 +844,11 @@
 
 212
 00:05:32,359 --> 00:05:32,790
- do.
+ do
 
 213
 00:05:32,799 --> 00:05:33,890
- And in the case that this
+ and in the case that this
 
 214
 00:05:33,899 --> 00:05:35,630
@@ -876,15 +876,15 @@
 
 220
 00:05:42,739 --> 00:05:44,640
- nontrivial kernel which
+ non-trivial kernel which
 
 221
 00:05:44,649 --> 00:05:46,440
- means we have eigenvectors
+ means we have eigenvectors.
 
 222
 00:05:47,250 --> 00:05:48,649
- in the sense, these points
+ In this sense, these points
 
 223
 00:05:48,660 --> 00:05:50,130
@@ -952,15 +952,15 @@
 
 239
 00:06:11,950 --> 00:06:13,709
- property to have almost a
+ property to have almost the
 
 240
 00:06:13,720 --> 00:06:14,679
- space X.
+ space X
 
 241
 00:06:15,329 --> 00:06:16,519
- And this would mean that
+ and this would mean that
 
 242
 00:06:16,529 --> 00:06:18,220
@@ -980,11 +980,11 @@
 
 246
 00:06:23,160 --> 00:06:25,100
- definition, both names
+ definition. Both names
 
 247
 00:06:25,109 --> 00:06:26,630
- are chosen in this way because
+ are chosen in this way, because
 
 248
 00:06:26,640 --> 00:06:28,170
@@ -1020,15 +1020,15 @@
 
 256
 00:06:38,489 --> 00:06:39,750
- gets all other points
+ gets all other points.
 
 257
 00:06:40,549 --> 00:06:40,929
- here.
+ Here
 
 258
 00:06:40,940 --> 00:06:42,290
- The operator is injective
+ the operator is injective,
 
 259
 00:06:42,299 --> 00:06:43,429
@@ -1052,11 +1052,11 @@
 
 264
 00:06:49,890 --> 00:06:51,200
- is the whole set X.
+ is the whole set X,
 
 265
 00:06:51,209 --> 00:06:52,959
- We simply say the range
+ we simply say the range
 
 266
 00:06:52,970 --> 00:06:54,450
