@@ -1,0 +1,13 @@
+Linear Algebra - Part 38
+
+00:00 Intro
+00:30 Solutions for systems of linear equations
+01:11 Visualization of range and kernel
+02:46 Existence needs range of A
+03:01 Uniqueness needs kernel of A
+03:13 The set of solutions is an affine subspace
+04:18 Concrete description of the set of solutions
+05:45 Proof of S = v + Ker(A)
+08:52 Row operations don't change the set of solutions
+09:51 Recipe for finding the set of solutions
+11:00 Credits
