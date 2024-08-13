@@ -1,0 +1,9 @@
+Abstract Linear Algebra - Part 5
+
+00:00 Introduction
+00:37 Assumptions
+02:31 Definition: Coordinates with respect to a basis
+03:40 Coordinate vector
+03:58 Picture for the idea
+06:44 Definition: basis isomorphism
+08:32 Credits
