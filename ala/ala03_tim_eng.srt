@@ -1,0 +1,10 @@
+Abstract Linear Algebra - Part 3
+
+00:00 Introduction
+00:36 Abstract vector space
+01:38 Behaviour of the zero vector
+03:00 Proof for the formulas
+07:13 Linear subspaces = special vector spaces
+10:00 Definition of linear subspace
+12:02 Example quadratic polynomials
+14:07 Credits
