@@ -3,4 +3,6 @@ Complex Analysis - Part 10 - Uniform Convergence
 0:00 Intro
 0:40 Uniform convergence definition
 2:17 Power series are holomorphic
+2:31 Correction: codomain for the power series should be given by ℂ
+3:25 Uniform convergence for power series
 7:01 Credits
