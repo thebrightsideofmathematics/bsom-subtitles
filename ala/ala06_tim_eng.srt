@@ -1,0 +1,10 @@
+Abstract Linear Algebra - Part 6
+
+00:00 Introduction
+00:33 Span in the function space 
+01:27 Is this a basis?
+02:03 Checking for linear independence
+05:40 Reformulating as matrix-vector multiplication
+06:52 Uniquely solvable?
+08:52 Basis isomorphism
+11:16 Credits

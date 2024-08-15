@@ -1,0 +1,14 @@
+Abstract Linear Algebra - Part 4
+
+00:00 Introduction
+00:36 Definition of polynomial spaces
+02:27 Definition: linear combination
+03:38 Definition: span of a subspace
+04:44 Definition: generating set for a subspace
+05:29 Definition: linear independent sets
+06:36 Definition: basis of a subspace
+07:57 Definition: dimension of a subspace
+09:18 Examples for polynomial spaces
+11:25 Example for infinite-dimensional vector space
+11:44 Example for matrices
+12:42 Credits

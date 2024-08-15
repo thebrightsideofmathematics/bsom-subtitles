@@ -1,0 +1,9 @@
+Abstract Linear Algebra - Part 2
+
+00:00 Introduction
+00:36 Definition of a vector space
+01:39 Examples
+02:48 Function Spaces
+08:01 Polynomial Space
+10:00 Linear Subspace
+11:55 Credits
