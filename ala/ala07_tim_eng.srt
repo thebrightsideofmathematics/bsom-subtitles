@@ -1,0 +1,10 @@
+Abstract Linear Algebra - Part 7
+
+00:00 Introduction
+00:44 Two bases for a vector space 
+02:53 Change of basis
+03:20 Basis isomorphism properties
+04:13 Example (change of basis in polynomial space)
+07:35 Switching from old to new coordinates
+09:35 Change of basis is a linear map
+10:57 Credits
