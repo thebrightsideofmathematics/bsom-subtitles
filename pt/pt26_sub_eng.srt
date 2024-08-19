@@ -72,11 +72,11 @@ formulating these two inequalities for
 
 19
 00:00:46,079 --> 00:00:52,079
-probability space so we have a sample
+a probability space. So we have a sample
 
 20
 00:00:48,960 --> 00:00:53,800
-space Omega a sigma algebra a and a
+space Omega, a sigma algebra A, and a
 
 21
 00:00:52,079 --> 00:00:56,840
@@ -88,11 +88,11 @@ P and there I can already tell you the
 
 23
 00:00:56,840 --> 00:01:02,399
-power of maros inequality and chabby
+power of Markov's inequality and Chebyshev's
 
 24
 00:00:59,399 --> 00:01:06,000
-chf's inqu quality lies in the fact that
+inequality lies in the fact that
 
 25
 00:01:02,399 --> 00:01:08,920
@@ -104,19 +104,19 @@ and as we will see now they are also not
 
 27
 00:01:08,920 --> 00:01:14,400
-hard to prove at all so let's start with
+hard to prove at all. So let's start with
 
 28
 00:01:12,080 --> 00:01:15,880
-the first one here let's start with
+the first one here. Let's start with
 
 29
 00:01:14,400 --> 00:01:18,600
-markov's
+Markov's
 
 30
 00:01:15,880 --> 00:01:21,479
-inequality this one holds for any random
+inequality. This one holds for any random
 
 31
 00:01:18,600 --> 00:01:24,640
@@ -132,19 +132,19 @@ from Omega into R so as always we
 
 34
 00:01:28,079 --> 00:01:33,119
-consider real Valu random
+consider real valued random
 
 35
 00:01:30,840 --> 00:01:36,240
-variables however what we actually need
+variables. However what we actually need
 
 36
 00:01:33,119 --> 00:01:39,280
-for maros inequality is a non- negative
+for Markov's inequality is a non-negative
 
 37
 00:01:36,240 --> 00:01:42,759
-random variable therefore what we do is
+random variable. Therefore what we do is
 
 38
 00:01:39,280 --> 00:01:46,119
@@ -160,7 +160,7 @@ values and it satisfies what we call
 
 41
 00:01:49,079 --> 00:01:53,159
-markov's
+Markov's
 
 42
 00:01:50,439 --> 00:01:56,280
@@ -216,7 +216,7 @@ then we divide that by Epsilon to the
 
 55
 00:02:26,879 --> 00:02:32,879
-power p as well so this is Mark of
+power p as well so this is Markov's
 
 56
 00:02:30,160 --> 00:02:36,680
@@ -376,7 +376,7 @@ less or equal here so it's easy to see
 
 95
 00:04:22,600 --> 00:04:29,120
-and this is the whole Mark of inequality
+and this is the whole Markov's inequality
 
 96
 00:04:25,400 --> 00:04:32,240
@@ -592,7 +592,7 @@ this to the left hand side you see that
 
 149
 00:06:55,039 --> 00:06:59,639
-we have proven Mark of's
+we have proven Markov's
 
 150
 00:06:57,240 --> 00:07:01,919
@@ -620,7 +620,7 @@ the first application we have is to use
 
 156
 00:07:13,080 --> 00:07:18,560
-it to prove the famous chabby chfs
+it to prove the famous Chebyshev's
 
 157
 00:07:16,120 --> 00:07:21,840
@@ -880,7 +880,7 @@ should immediately see that this looks
 
 221
 00:10:16,120 --> 00:10:21,680
-exactly like the statement in Markos
+exactly like the statement in Markov's
 
 222
 00:10:19,360 --> 00:10:24,839
@@ -892,7 +892,7 @@ of two here involved in the variance we
 
 224
 00:10:24,839 --> 00:10:30,920
-should use Markos inequality for p is
+should use Markov's inequality for p is
 
 225
 00:10:27,839 --> 00:10:33,440
@@ -900,7 +900,7 @@ equal to 2 and there you see this is the
 
 226
 00:10:30,920 --> 00:10:37,680
-reason why we have formulated Markos
+reason why we have formulated Markov's
 
 227
 00:10:33,440 --> 00:10:39,839
@@ -944,7 +944,7 @@ our random varable X so exactly what
 
 237
 00:11:01,560 --> 00:11:07,279
-chabby chf's inequality
+Chebyshev's inequality
 
 238
 00:11:04,000 --> 00:11:10,959
