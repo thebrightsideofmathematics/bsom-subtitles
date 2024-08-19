@@ -148,15 +148,15 @@ random variable. Therefore what we do is
 
 38
 00:01:39,280 --> 00:01:46,119
-to go through the absolute value of x
+to go to the absolute value of X
 
 39
 00:01:42,759 --> 00:01:49,079
-because this one now has non- negative
+because this one now has non-negative
 
 40
 00:01:46,119 --> 00:01:50,439
-values and it satisfies what we call
+values. And it satisfies what we call
 
 41
 00:01:49,079 --> 00:01:53,159
@@ -164,15 +164,15 @@ Markov's
 
 42
 00:01:50,439 --> 00:01:56,280
-inequality and in short this one just
+inequality. And in short this one just
 
 43
 00:01:53,159 --> 00:01:59,039
-Compares a probability with the
+compares a probability with the
 
 44
 00:01:56,280 --> 00:02:01,360
-expectation more precisely we look at
+expectation. More precisely, we look at
 
 45
 00:01:59,039 --> 00:02:04,560
@@ -180,11 +180,11 @@ the probability that the absolute value
 
 46
 00:02:01,360 --> 00:02:07,560
-of x is greater or equal than a given
+of X is greater or equal than a given
 
 47
 00:02:04,560 --> 00:02:09,759
-Epsilon so this is the given event which
+Epsilon. So this is the given event which
 
 48
 00:02:07,560 --> 00:02:12,200
@@ -192,7 +192,7 @@ we can measure with our probability
 
 49
 00:02:09,759 --> 00:02:15,440
-measure and the probability that comes
+measure. And the probability that comes
 
 50
 00:02:12,200 --> 00:02:17,879
@@ -200,7 +200,7 @@ out is less or equal than an
 
 51
 00:02:15,440 --> 00:02:19,920
-expectation indeed we can write
+expectation. Indeed we can write
 
 52
 00:02:17,879 --> 00:02:23,720
@@ -208,7 +208,7 @@ expectation of the random variable
 
 53
 00:02:19,920 --> 00:02:26,879
-absolute value of x to the power p and
+absolute value of X to the power p. And
 
 54
 00:02:23,720 --> 00:02:30,160
@@ -216,7 +216,7 @@ then we divide that by Epsilon to the
 
 55
 00:02:26,879 --> 00:02:32,879
-power p as well so this is Markov's
+power p as well. So this is Markov's
 
 56
 00:02:30,160 --> 00:02:36,680
@@ -224,7 +224,7 @@ inequality and it holds no matter which
 
 57
 00:02:32,879 --> 00:02:38,640
-positive Epsilon or P we choose in this
+positive Epsilon or p we choose. In this
 
 58
 00:02:36,680 --> 00:02:41,440
@@ -236,19 +236,19 @@ particular it also holds for p is equal
 
 60
 00:02:41,440 --> 00:02:47,480
-to 1 and exactly this case we can
+to 1. And exactly this case we can
 
 61
 00:02:44,680 --> 00:02:50,319
-immediately visualize this is not
+immediately visualize. This is not
 
 62
 00:02:47,480 --> 00:02:53,360
-complicated at all let's sketch a graph
+complicated at all: let's sketch a graph
 
 63
 00:02:50,319 --> 00:02:55,239
-for our random variable X or as you
+for our random variable X. Or as you
 
 64
 00:02:53,360 --> 00:02:57,400
@@ -256,11 +256,11 @@ already know we actually want to have
 
 65
 00:02:55,239 --> 00:03:00,560
-the non- negative random variable
+the non-negative random variable
 
 66
 00:02:57,400 --> 00:03:03,599
-absolute value of x hence here the
+absolute value of X. Hence here the
 
 67
 00:03:00,560 --> 00:03:04,680
@@ -272,11 +272,11 @@ space
 
 69
 00:03:04,680 --> 00:03:11,360
-Omega and then the values of X just give
+Omega. And then the values of X just give
 
 70
 00:03:08,040 --> 00:03:14,840
-us a graph in this picture and now what
+us a graph in this picture. And now what
 
 71
 00:03:11,360 --> 00:03:17,920
@@ -284,7 +284,7 @@ we can do is just fix an Epsilon here on
 
 72
 00:03:14,840 --> 00:03:20,720
-the Y AIS and then we immediately
+the Y-axis. And then we immediately
 
 73
 00:03:17,920 --> 00:03:23,879
@@ -292,15 +292,15 @@ recognize the samples where the absolute
 
 74
 00:03:20,720 --> 00:03:26,879
-value of x is greater or equal than
+value of X is greater or equal than
 
 75
 00:03:23,879 --> 00:03:30,159
-Epsilon more precisely we just find them
+Epsilon. More precisely we just find them
 
 76
 00:03:26,879 --> 00:03:32,480
-here and there so in the picture we can
+here and there. So in the picture we can
 
 77
 00:03:30,159 --> 00:03:36,200
@@ -308,7 +308,7 @@ just project them back to the sample
 
 78
 00:03:32,480 --> 00:03:39,159
-space Omega hence the subset in Omega we
+space Omega. Hence the subset in Omega we
 
 79
 00:03:36,200 --> 00:03:42,280
@@ -316,7 +316,7 @@ want to measure is this one combined
 
 80
 00:03:39,159 --> 00:03:44,120
-with that one in other words by
+with that one. In other words by
 
 81
 00:03:42,280 --> 00:03:46,760
@@ -328,23 +328,23 @@ measure P we already have the left hand
 
 83
 00:03:46,760 --> 00:03:53,480
-side here and now if you multiply this
+side here. And now if you multiply this
 
 84
 00:03:50,480 --> 00:03:56,680
-by the value Epsilon we get out the two
+by the value Epsilon, we get out the two
 
 85
 00:03:53,480 --> 00:04:00,519
-rectangles here so you can say what we
+rectangles here. So you can say what we
 
 86
 00:03:56,680 --> 00:04:03,120
-have is these two areas added
+have is these two areas added.
 
 87
 00:04:00,519 --> 00:04:05,959
-however on the other hand you know that
+However on the other hand you know that
 
 88
 00:04:03,120 --> 00:04:08,959
@@ -352,7 +352,7 @@ the expectation of a random variable is
 
 89
 00:04:05,959 --> 00:04:11,319
-given by the whole integral hence
+given by the whole integral. Hence
 
 90
 00:04:08,959 --> 00:04:13,959
@@ -364,7 +364,7 @@ integral is bigger than just the two
 
 92
 00:04:13,959 --> 00:04:19,040
-rectangles here or in general we
+rectangles here. Or in general we
 
 93
 00:04:16,680 --> 00:04:22,600
@@ -372,7 +372,7 @@ immediately have the inequality with
 
 94
 00:04:19,040 --> 00:04:25,400
-less or equal here so it's easy to see
+less or equal here. So it's easy to see
 
 95
 00:04:22,600 --> 00:04:29,120
@@ -380,7 +380,7 @@ and this is the whole Markov's inequality
 
 96
 00:04:25,400 --> 00:04:32,240
-for the case p is equal to 1 and in fact
+for the case p is equal to 1. And in fact
 
 97
 00:04:29,120 --> 00:04:35,120
@@ -388,11 +388,11 @@ this idea here already covers the whole
 
 98
 00:04:32,240 --> 00:04:38,680
-proof the only thing we have to do now
+proof. The only thing we have to do now
 
 99
 00:04:35,120 --> 00:04:40,600
-is to extend it to any P this means here
+is to extend it to any p. This means here
 
 100
 00:04:38,680 --> 00:04:42,960
@@ -400,11 +400,11 @@ in the picture instead of the absolute
 
 101
 00:04:40,600 --> 00:04:46,039
-value of x we consider the absolute
+value of X we consider the absolute
 
 102
 00:04:42,960 --> 00:04:48,280
-value of x to the^ P this does not
+value of X to the power p. This does not
 
 103
 00:04:46,039 --> 00:04:52,240
@@ -412,19 +412,19 @@ change so much because the set we
 
 104
 00:04:48,280 --> 00:04:54,320
-calculate here is the same for any P so
+calculate here is the same for any p. So
 
 105
 00:04:52,240 --> 00:04:57,160
-if we have a lowercase Omega which
+if we have a lowercase omega which
 
 106
 00:04:54,320 --> 00:05:00,080
-satisfies the one inequality it also
+satisfies the one inequality, it also
 
 107
 00:04:57,160 --> 00:05:02,680
-satisfies the other one simply because
+satisfies the other one. Simply because
 
 108
 00:05:00,080 --> 00:05:05,639
@@ -432,7 +432,7 @@ the power of p is a monotonically
 
 109
 00:05:02,680 --> 00:05:08,240
-increasing function therefore the
+increasing function. Therefore the
 
 110
 00:05:05,639 --> 00:05:11,680
@@ -440,7 +440,7 @@ measured probability here is also
 
 111
 00:05:08,240 --> 00:05:14,360
-exactly the same and now as before we
+exactly the same. And now as before we
 
 112
 00:05:11,680 --> 00:05:16,680
@@ -452,15 +452,15 @@ value we have but now the value is
 
 114
 00:05:16,680 --> 00:05:23,360
-Epsilon to the power P so let's simply
+Epsilon to the power p. So let's simply
 
 115
 00:05:19,440 --> 00:05:25,479
-put Epsilon to the power P to both sides
+put Epsilon to the power p to both sides.
 
 116
 00:05:23,360 --> 00:05:27,800
-and now here on the right hand side we
+And now here on the right hand side we
 
 117
 00:05:25,479 --> 00:05:30,840
@@ -480,23 +480,23 @@ in between namely we introduce the
 
 121
 00:05:36,440 --> 00:05:42,199
-indicator function this one you know we
+indicator function. This one you know we
 
 122
 00:05:39,400 --> 00:05:45,319
-write it with a bolt one where in the
+write it with a bold one where in the
 
 123
 00:05:42,199 --> 00:05:48,440
-index we find the corresponding set and
+index we find the corresponding set. And
 
 124
 00:05:45,319 --> 00:05:51,720
-here we have the set where X to^ P is
+here we have the set where X to power p is
 
 125
 00:05:48,440 --> 00:05:54,319
-greater or equal than Epsilon to the^ p
+greater or equal than Epsilon to the power p
 
 126
 00:05:51,720 --> 00:05:55,840
@@ -508,7 +508,7 @@ calculate the
 
 128
 00:05:55,840 --> 00:06:00,560
-expectation which is exactly the
+expectation, which is exactly the
 
 129
 00:05:58,199 --> 00:06:03,840
@@ -516,7 +516,7 @@ probability here on on the left hand
 
 130
 00:06:00,560 --> 00:06:06,400
-side so we still have equalities here
+side. So we still have equalities here
 
 131
 00:06:03,840 --> 00:06:09,479
@@ -524,7 +524,7 @@ and in the next step we can pull in the
 
 132
 00:06:06,400 --> 00:06:12,120
-factor Epsilon to the power P which
+factor Epsilon to the power p which
 
 133
 00:06:09,479 --> 00:06:15,039
@@ -532,7 +532,7 @@ means now we have an expectation of a
 
 134
 00:06:12,120 --> 00:06:17,599
-step function and there you can look
+step function. And there you can look
 
 135
 00:06:15,039 --> 00:06:20,680
@@ -540,7 +540,7 @@ back to the picture where we exactly
 
 136
 00:06:17,599 --> 00:06:23,800
-have this function there so the graph
+have this function there. So the graph
 
 137
 00:06:20,680 --> 00:06:27,039
@@ -548,7 +548,7 @@ has a line here and there and otherwise
 
 138
 00:06:23,800 --> 00:06:28,960
-it's at zero however the crucial part
+it's at zero. However the crucial part
 
 139
 00:06:27,039 --> 00:06:31,960
@@ -560,7 +560,7 @@ function lies below the graph of the
 
 141
 00:06:31,960 --> 00:06:38,000
-function X to the^ P hence the
+function X to the power p hence the
 
 142
 00:06:35,199 --> 00:06:41,440
@@ -572,7 +572,7 @@ expectation tells us that we have the
 
 144
 00:06:41,440 --> 00:06:47,080
-inequality so in the calculation here we
+inequality. So in the calculation here we
 
 145
 00:06:44,080 --> 00:06:49,800
@@ -580,11 +580,11 @@ get that we have less or equal than the
 
 146
 00:06:47,080 --> 00:06:52,840
-expectation of the absolute value of x
+expectation of the absolute value of X
 
 147
 00:06:49,800 --> 00:06:55,039
-to the power p and now if you compare
+to the power p. And now if you compare
 
 148
 00:06:52,840 --> 00:06:57,240
@@ -604,7 +604,7 @@ quick and the whole idea was in the
 
 152
 00:07:01,919 --> 00:07:07,919
-picture above in other words what we see
+picture above. In other words what we see
 
 153
 00:07:05,120 --> 00:07:10,759
@@ -624,11 +624,11 @@ it to prove the famous Chebyshev's
 
 157
 00:07:16,120 --> 00:07:21,840
-inequality this one can be used to
+inequality. This one can be used to
 
 158
 00:07:18,560 --> 00:07:23,879
-estimate How likely it is to be off from
+estimate how likely it is to be off from
 
 159
 00:07:21,840 --> 00:07:26,840
@@ -636,7 +636,7 @@ the expectation of a given random
 
 160
 00:07:23,879 --> 00:07:29,280
-variable and again the power of this
+variable. And again the power of this
 
 161
 00:07:26,840 --> 00:07:32,000
@@ -648,11 +648,11 @@ this estimate for any random variable
 
 163
 00:07:32,000 --> 00:07:36,280
-where the expectation is defined
+where the expectation is defined.
 
 164
 00:07:34,599 --> 00:07:38,440
-therefore this is the only assumption we
+Therefore this is the only assumption we
 
 165
 00:07:36,280 --> 00:07:42,560
@@ -660,7 +660,7 @@ have here we have a chosen random
 
 166
 00:07:38,440 --> 00:07:45,319
-variable X and there we want that e of X
+variable X and there we want that E of X
 
 167
 00:07:42,560 --> 00:07:47,039
@@ -672,7 +672,7 @@ that that the expectation of the
 
 169
 00:07:47,039 --> 00:07:52,520
-absolute value of x is finite indeed
+absolute value of X is finite. Indeed
 
 170
 00:07:50,759 --> 00:07:54,720
@@ -684,7 +684,7 @@ random variable X because otherwise the
 
 172
 00:07:54,720 --> 00:08:00,360
-formulation would not make sense and as
+formulation would not make sense. And as
 
 173
 00:07:57,599 --> 00:08:02,879
@@ -696,7 +696,7 @@ at the set where we deviate from the
 
 175
 00:08:02,879 --> 00:08:09,240
-expectation of X more precisely we want
+expectation of X. More precisely we want
 
 176
 00:08:06,159 --> 00:08:12,680
@@ -704,7 +704,7 @@ to see how likely it is to be off by a
 
 177
 00:08:09,240 --> 00:08:15,080
-given Epsilon in other words these are
+given Epsilon. In other words these are
 
 178
 00:08:12,680 --> 00:08:16,879
@@ -716,7 +716,7 @@ where we are not in an Epsilon
 
 180
 00:08:16,879 --> 00:08:23,759
-neighborhood of the expectation for the
+neighbourhood of the expectation for the
 
 181
 00:08:19,840 --> 00:08:25,800
@@ -736,15 +736,15 @@ of the the random variable X gives us an
 
 185
 00:08:31,599 --> 00:08:36,519
-upper Bound for this
+upper bound for this
 
 186
 00:08:33,760 --> 00:08:41,599
-probability more concretely we have the
+probability. More concretely we have the
 
 187
 00:08:36,519 --> 00:08:44,560
-variance of x / Epsilon s moreover you
+variance of X divided by Epsilon squared. Moreover you
 
 188
 00:08:41,599 --> 00:08:48,399
@@ -756,7 +756,7 @@ only useful if the variance of X is also
 
 190
 00:08:48,399 --> 00:08:54,720
-a finite number but if we have that then
+a finite number. But if we have that then
 
 191
 00:08:51,640 --> 00:08:56,800
@@ -768,7 +768,7 @@ for the probability that a random
 
 193
 00:08:56,800 --> 00:09:02,360
-variable deviates from its mean and
+variable deviates from its mean. And
 
 194
 00:08:59,920 --> 00:09:05,959
@@ -776,7 +776,7 @@ indeed it does not matter which Epsilon
 
 195
 00:09:02,360 --> 00:09:08,240
-greater than zero you choose here okay
+greater than zero you choose here. Okay
 
 196
 00:09:05,959 --> 00:09:11,360
@@ -788,7 +788,7 @@ say we can try to write down a proof for
 
 198
 00:09:11,360 --> 00:09:16,560
-it and there what we can immediately do
+it. And there what we can immediately do
 
 199
 00:09:14,040 --> 00:09:18,600
@@ -800,15 +800,15 @@ consider a random variable where the
 
 201
 00:09:18,600 --> 00:09:24,720
-expectation is zero so in other words we
+expectation is zero. So in other words we
 
 202
 00:09:22,079 --> 00:09:27,920
-just consider X tilder which is given as
+just consider X tilde which is given as
 
 203
 00:09:24,720 --> 00:09:29,880
-x minus the expectation this is really
+X minus the expectation. This is really
 
 204
 00:09:27,920 --> 00:09:33,680
@@ -816,11 +816,11 @@ helpful because it means that the
 
 205
 00:09:29,880 --> 00:09:37,839
-variance of XA is just given as the
+variance of X tilde is just given as the
 
 206
 00:09:33,680 --> 00:09:39,720
-expectation of X squ so here you see we
+expectation of X tilde squared. So here you see we
 
 207
 00:09:37,839 --> 00:09:41,399
@@ -832,15 +832,15 @@ calculating
 
 209
 00:09:41,399 --> 00:09:47,120
-variances in particular you should see
+variances. In particular you should see
 
 210
 00:09:44,040 --> 00:09:50,079
-that the variance of X and xti are
+that the variance of X and X tilde are
 
 211
 00:09:47,120 --> 00:09:53,079
-exactly the same this is simply because
+exactly the same. This is simply because
 
 212
 00:09:50,079 --> 00:09:56,640
@@ -852,7 +852,7 @@ and the variance of a constant is always
 
 214
 00:09:56,640 --> 00:10:02,320
-zero okay so this is the whole idea to
+zero. Okay so this is the whole idea to
 
 215
 00:09:59,440 --> 00:10:05,000
@@ -860,7 +860,7 @@ simplify the inequality and now we can
 
 216
 00:10:02,320 --> 00:10:07,600
-write it down so the left hand side here
+write it down. So the left hand side here
 
 217
 00:10:05,000 --> 00:10:10,320
@@ -872,7 +872,7 @@ have the probability where absolute
 
 219
 00:10:10,320 --> 00:10:16,120
-value of xtia is involved but there you
+value of X tilde is involved. But there you
 
 220
 00:10:13,800 --> 00:10:19,360
@@ -888,7 +888,7 @@ inequality and since we have the power
 
 223
 00:10:21,680 --> 00:10:27,839
-of two here involved in the variance we
+of two here involved in the variance, we
 
 224
 00:10:24,839 --> 00:10:30,920
@@ -896,7 +896,7 @@ should use Markov's inequality for p is
 
 225
 00:10:27,839 --> 00:10:33,440
-equal to 2 and there you see this is the
+equal to 2. And there you see this is the
 
 226
 00:10:30,920 --> 00:10:37,680
@@ -904,7 +904,7 @@ reason why we have formulated Markov's
 
 227
 00:10:33,440 --> 00:10:39,839
-inequality for all values P okay and now
+inequality for all values p. Okay and now
 
 228
 00:10:37,680 --> 00:10:41,600
@@ -916,11 +916,11 @@ get a fraction where we have the
 
 230
 00:10:41,600 --> 00:10:47,760
-expectation of x to the S and Epsilon
+expectation of X tilde squared and Epsilon
 
 231
 00:10:45,279 --> 00:10:50,000
-squared in the denominator and now
+squared in the denominator. And now
 
 232
 00:10:47,760 --> 00:10:52,279
@@ -932,7 +932,7 @@ matter if we have the absolute value or
 
 234
 00:10:52,279 --> 00:10:58,360
-not in other words what we have in the
+not. In other words what we have in the
 
 235
 00:10:55,200 --> 00:11:01,560
@@ -940,7 +940,7 @@ numerator here is just the variance of
 
 236
 00:10:58,360 --> 00:11:04,000
-our random varable X so exactly what
+our random variable X. So exactly what
 
 237
 00:11:01,560 --> 00:11:07,279
@@ -948,11 +948,11 @@ Chebyshev's inequality
 
 238
 00:11:04,000 --> 00:11:10,959
-stated therefore the proof here is
+stated. Therefore the proof here is
 
 239
 00:11:07,279 --> 00:11:14,240
-already finished so our general result
+already finished. So our general result
 
 240
 00:11:10,959 --> 00:11:17,480
@@ -972,7 +972,7 @@ here for a lot of probability
 
 244
 00:11:22,959 --> 00:11:27,880
-distributions therefore we can use it
+distributions. Therefore we can use it
 
 245
 00:11:25,120 --> 00:11:30,160
@@ -988,25 +988,12 @@ and I would say we first should look at
 
 248
 00:11:32,360 --> 00:11:38,680
-some concrete examples so let's do that
+some concrete examples. So let's do that
 
 249
 00:11:35,920 --> 00:11:42,020
-with the next video so really hope we
+with the next video. So really hope we
 
 250
 00:11:38,680 --> 00:11:48,029
 meet there again and have a nice day
-
-251
-00:11:42,020 --> 00:11:48,029
-[Music]
-
-252
-00:11:48,440 --> 00:11:55,760
-bye-bye come to the bright side of my
-
-253
-00:11:57,930 --> 00:12:00,600
-[Music]
-
