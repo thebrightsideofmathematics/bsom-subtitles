@@ -4,11 +4,11 @@
 
 2
 00:00:02,400 --> 00:00:04,019
- probability theory.
+ probability theory
 
 3
 00:00:04,699 --> 00:00:05,920
- And as you already know,
+ and as you already know,
 
 4
 00:00:05,929 --> 00:00:07,289
@@ -20,11 +20,11 @@
 
 6
 00:00:08,529 --> 00:00:09,859
- this channel on study or
+ this channel on Steady or
 
 7
 00:00:09,869 --> 00:00:10,479
- paypal.
+ PayPal.
 
 8
 00:00:11,149 --> 00:00:12,649
@@ -44,7 +44,7 @@
 
 12
 00:00:17,280 --> 00:00:19,040
- So here you already see this
+ So here you already see, this
 
 13
 00:00:19,049 --> 00:00:20,659
@@ -120,7 +120,7 @@
 
 31
 00:00:48,439 --> 00:00:49,110
- PX.
+ P_X.
 
 32
 00:00:49,979 --> 00:00:51,419
@@ -140,7 +140,7 @@
 
 36
 00:00:56,900 --> 00:00:58,750
- of both cases we had so the
+ of both cases we had, so the
 
 37
 00:00:58,759 --> 00:01:00,590
@@ -148,7 +148,7 @@
 
 38
 00:01:00,599 --> 00:01:02,509
- continuous one both are
+ continuous one, both are
 
 39
 00:01:02,520 --> 00:01:03,389
@@ -184,7 +184,7 @@
 
 47
 00:01:16,099 --> 00:01:16,519
- Here.
+ Here,
 
 48
 00:01:16,529 --> 00:01:18,019
@@ -276,11 +276,11 @@
 
 70
 00:01:49,629 --> 00:01:51,239
- Let's go to the definition.
+ Let's go to the definition
 
 71
 00:01:51,250 --> 00:01:53,129
- Now, the assumptions
+ now. The assumptions
 
 72
 00:01:53,139 --> 00:01:54,410
@@ -292,7 +292,7 @@
 
 74
 00:01:54,910 --> 00:01:56,680
- So we have omega A P as a
+ So we have Omega, A, P as a
 
 75
 00:01:56,690 --> 00:01:58,459
@@ -308,15 +308,15 @@
 
 78
 00:02:02,169 --> 00:02:03,980
- variable but a real valued
+ variable, but a real valued
 
 79
 00:02:03,989 --> 00:02:05,949
- one implicitly.
+ one. Implicitly
 
 80
 00:02:05,959 --> 00:02:07,190
- This means we have the Borel
+ this means we have the Borel
 
 81
 00:02:07,379 --> 00:02:08,949
@@ -340,7 +340,7 @@
 
 86
 00:02:14,710 --> 00:02:15,570
- FX.
+ F_X.
 
 87
 00:02:16,399 --> 00:02:17,740
@@ -352,7 +352,7 @@
 
 89
 00:02:19,160 --> 00:02:20,889
- F of X is always the
+ F of x is always the
 
 90
 00:02:20,899 --> 00:02:22,369
@@ -372,11 +372,11 @@
 
 94
 00:02:28,710 --> 00:02:30,690
- is the co domain of X
+ is the codomain of X
 
 95
 00:02:30,869 --> 00:02:32,850
- is the domain of FX.
+ is the domain of F_X.
 
 96
 00:02:33,850 --> 00:02:34,190
@@ -388,7 +388,7 @@
 
 98
 00:02:35,559 --> 00:02:37,479
- unit interval FX
+ unit interval F_X
 
 99
 00:02:37,490 --> 00:02:39,429
@@ -400,7 +400,7 @@
 
 101
 00:02:42,179 --> 00:02:44,070
- case X into the function
+ case x into the function
 
 102
 00:02:44,100 --> 00:02:45,550
@@ -416,7 +416,7 @@
 
 105
 00:02:48,979 --> 00:02:50,919
- infinity to X.
+ infinity to x.
 
 106
 00:02:51,639 --> 00:02:53,220
@@ -424,19 +424,19 @@
 
 107
 00:02:53,229 --> 00:02:55,220
- PX, the distribution,
+ P_X, the distribution.
 
 108
 00:02:55,229 --> 00:02:56,860
- the probability distribution
+ The probability distribution
 
 109
 00:02:56,869 --> 00:02:58,500
- of the random variable X.
+ of the random variable X
 
 110
 00:02:59,309 --> 00:03:01,110
- And with this, you see that's
+ and with this, you see that's
 
 111
 00:03:01,119 --> 00:03:02,970
@@ -448,7 +448,7 @@
 
 113
 00:03:05,050 --> 00:03:06,899
- So we include here all possible.
+ So we include here all possible
 
 114
 00:03:06,910 --> 00:03:08,710
@@ -456,7 +456,7 @@
 
 115
 00:03:08,720 --> 00:03:09,949
- given point X
+ given point x
 
 116
 00:03:10,729 --> 00:03:12,309
@@ -488,11 +488,11 @@
 
 123
 00:03:22,880 --> 00:03:23,990
- lower case X.
+ lower case x
 
 124
 00:03:24,919 --> 00:03:26,300
- And we have learned this
+ and we have learned this
 
 125
 00:03:26,309 --> 00:03:27,860
@@ -512,7 +512,7 @@
 
 129
 00:03:31,830 --> 00:03:33,610
- function FX is called the
+ function F_X is called the
 
 130
 00:03:33,619 --> 00:03:35,130
@@ -564,7 +564,7 @@
 
 142
 00:03:54,619 --> 00:03:55,550
- for FX.
+ for F_X.
 
 143
 00:03:56,289 --> 00:03:57,869
@@ -576,7 +576,7 @@
 
 145
 00:04:00,179 --> 00:04:01,940
- They immediately follow because
+ They immediately follow, because
 
 146
 00:04:01,949 --> 00:04:03,520
@@ -584,7 +584,7 @@
 
 147
 00:04:03,649 --> 00:04:05,240
- to define F of X.
+ to define F(x).
 
 148
 00:04:05,919 --> 00:04:07,619
@@ -592,7 +592,7 @@
 
 149
 00:04:07,630 --> 00:04:09,369
- lowercase X here smaller
+ lowercase x here smaller
 
 150
 00:04:09,380 --> 00:04:11,139
@@ -600,11 +600,11 @@
 
 151
 00:04:11,149 --> 00:04:12,880
- X to minus infinity,
+ x to minus infinity,
 
 152
 00:04:12,949 --> 00:04:14,929
- we would get PX of
+ we would get P_X of
 
 153
 00:04:14,940 --> 00:04:16,010
@@ -628,11 +628,11 @@
 
 158
 00:04:21,670 --> 00:04:22,730
- sent to zero.
+ send to zero.
 
 159
 00:04:23,549 --> 00:04:25,410
- Hence FX has
+ Hence F_X has
 
 160
 00:04:25,420 --> 00:04:27,049
@@ -652,23 +652,23 @@
 
 164
 00:04:32,290 --> 00:04:34,230
- X goes to plus infinity
+ x goes to plus infinity.
 
 165
 00:04:35,119 --> 00:04:36,399
- there, it's also not hard
+ There, it's also not hard
 
 166
 00:04:36,410 --> 00:04:37,660
- to see when X
+ to see, when x
 
 167
 00:04:37,670 --> 00:04:38,540
- increases.
+ increases
 
 168
 00:04:38,549 --> 00:04:40,250
- We include more and more
+ we include more and more
 
 169
 00:04:40,260 --> 00:04:41,579
@@ -688,7 +688,7 @@
 
 173
 00:04:45,429 --> 00:04:47,410
- So we have PX of R
+ So we have P_X of R
 
 174
 00:04:48,339 --> 00:04:50,109
@@ -708,7 +708,7 @@
 
 178
 00:04:53,579 --> 00:04:55,109
- always sent to one.
+ always send to one.
 
 179
 00:04:56,010 --> 00:04:56,510
@@ -724,7 +724,7 @@
 
 182
 00:04:59,380 --> 00:05:00,350
- for FX.
+ for F_X.
 
 183
 00:05:01,369 --> 00:05:03,179
@@ -736,7 +736,7 @@
 
 185
 00:05:04,730 --> 00:05:06,380
- FX is monotonically
+ F_X is monotonically
 
 186
 00:05:06,390 --> 00:05:07,140
@@ -744,23 +744,23 @@
 
 187
 00:05:08,049 --> 00:05:08,359
- Here.
+ Here
 
 188
 00:05:08,369 --> 00:05:09,470
- Please recall.
+ please recall
 
 189
 00:05:09,480 --> 00:05:11,160
- This means if we go from
+ this means if we go from
 
 190
 00:05:11,170 --> 00:05:13,160
- one point X one to a larger
+ one point x_1 to a larger
 
 191
 00:05:13,170 --> 00:05:15,130
- point X two, the
+ point x_2, the
 
 192
 00:05:15,140 --> 00:05:16,350
@@ -800,11 +800,11 @@
 
 201
 00:05:29,399 --> 00:05:31,119
- of the set have a smaller
+ of this set have a smaller
 
 202
 00:05:31,130 --> 00:05:32,470
- measure all the same.
+ measure or the same.
 
 203
 00:05:33,380 --> 00:05:34,970
@@ -832,11 +832,11 @@
 
 209
 00:05:44,059 --> 00:05:45,739
- I say this because it tells
+ I say this, because it tells
 
 210
 00:05:45,750 --> 00:05:47,690
- us that FX is right
+ us that F_X is right-
 
 211
 00:05:47,700 --> 00:05:48,589
@@ -852,15 +852,15 @@
 
 214
 00:05:53,230 --> 00:05:54,649
- but it is continuous.
+ but it is continuous,
 
 215
 00:05:54,660 --> 00:05:56,190
- If you just look from the
+ if you just look from the
 
 216
 00:05:56,200 --> 00:05:58,010
- right hand side, this
+ right-hand side. This
 
 217
 00:05:58,019 --> 00:05:59,369
@@ -868,19 +868,19 @@
 
 218
 00:05:59,380 --> 00:06:01,019
- the right limit here where
+ the right limit here, where
 
 219
 00:06:01,029 --> 00:06:02,679
- X is always larger than the
+ x is always larger than the
 
 220
 00:06:02,690 --> 00:06:03,739
- point X zero.
+ point x_0
 
 221
 00:06:04,390 --> 00:06:05,890
- And then right continuity
+ and then right-continuity
 
 222
 00:06:05,899 --> 00:06:07,540
@@ -888,15 +888,15 @@
 
 223
 00:06:07,549 --> 00:06:09,209
- always FX at the
+ always F_X at the
 
 224
 00:06:09,220 --> 00:06:10,369
- point X zero.
+ point x_0
 
 225
 00:06:11,220 --> 00:06:12,670
- And this is the property
+ and this is the property
 
 226
 00:06:12,679 --> 00:06:14,010
@@ -904,7 +904,7 @@
 
 227
 00:06:14,119 --> 00:06:15,040
- FX.
+ F_X.
 
 228
 00:06:15,850 --> 00:06:17,570
@@ -912,19 +912,19 @@
 
 229
 00:06:17,579 --> 00:06:19,000
- the graph, you can see a
+ the graph, you can see 
 
 230
 00:06:19,010 --> 00:06:20,839
- buff at each
+ above. At each
 
 231
 00:06:20,850 --> 00:06:22,510
- jump point as this one.
+ jump point as this one
 
 232
 00:06:22,630 --> 00:06:24,279
- The field in circle has to
+ the filled in circle has to
 
 233
 00:06:24,290 --> 00:06:25,579
@@ -952,31 +952,31 @@
 
 239
 00:06:31,859 --> 00:06:33,649
- We include X here in
+ We include x here in
 
 240
 00:06:33,660 --> 00:06:34,570
- this interval.
+ this interval
 
 241
 00:06:35,230 --> 00:06:36,600
- And the jump in the graph
+ and the jump in the graph
 
 242
 00:06:36,609 --> 00:06:38,390
- would mean that the singleton
+ would mean that the singleton,
 
 243
 00:06:38,399 --> 00:06:40,170
- just with the point X has
+ just with the point x, has
 
 244
 00:06:40,179 --> 00:06:41,609
- a non zero probability.
+ a non-zero probability
 
 245
 00:06:42,299 --> 00:06:43,519
- And this non zero
+ and this non-zero
 
 246
 00:06:43,540 --> 00:06:45,070
@@ -1012,7 +1012,7 @@
 
 254
 00:06:55,769 --> 00:06:57,750
- we have, we take the
+ we have. We take the
 
 255
 00:06:57,760 --> 00:06:59,579
@@ -1040,11 +1040,11 @@
 
 261
 00:07:07,959 --> 00:07:08,880
- parameters.
+ parameters
 
 262
 00:07:09,579 --> 00:07:10,799
- And the simplest case would
+ and the simplest case would
 
 263
 00:07:10,809 --> 00:07:12,230
@@ -1052,11 +1052,11 @@
 
 264
 00:07:12,239 --> 00:07:14,040
- be zero and the standard
+ be 0 and the standard
 
 265
 00:07:14,049 --> 00:07:15,720
- deviation to be one.
+ deviation to be 1.
 
 266
 00:07:16,459 --> 00:07:17,959
@@ -1064,15 +1064,15 @@
 
 267
 00:07:17,970 --> 00:07:19,640
- this is not a problem because
+ this is not a problem, because
 
 268
 00:07:19,649 --> 00:07:20,940
- now we discuss it,
+ now we discuss it.
 
 269
 00:07:21,779 --> 00:07:23,359
- it's an absolutely continuous
+ It's an absolutely continuous
 
 270
 00:07:23,369 --> 00:07:24,970
@@ -1088,11 +1088,11 @@
 
 273
 00:07:28,279 --> 00:07:28,799
- function.
+ function
 
 274
 00:07:29,640 --> 00:07:31,339
- And indeed, this one is
+ and indeed, this one is
 
 275
 00:07:31,350 --> 00:07:32,859
@@ -1112,27 +1112,27 @@
 
 279
 00:07:37,440 --> 00:07:38,630
- Gaussian function,
+ Gaussian function.
 
 280
 00:07:39,390 --> 00:07:40,980
- which means it's given by
+ Which means it's given by
 
 281
 00:07:40,989 --> 00:07:42,739
- E to the power minus
+ e to the power minus
 
 282
 00:07:42,750 --> 00:07:44,299
- one half X
+ 1/2 * x
 
 283
 00:07:44,309 --> 00:07:44,850
- squared.
+ squared
 
 284
 00:07:45,980 --> 00:07:47,339
- And the correct normalization
+ and the correct normalization
 
 285
 00:07:47,350 --> 00:07:48,829
