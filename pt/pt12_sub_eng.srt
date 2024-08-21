@@ -1136,7 +1136,7 @@
 
 285
 00:07:47,350 --> 00:07:48,829
- in font would be given by
+ in front would be given by
 
 286
 00:07:48,839 --> 00:07:50,679
@@ -1144,7 +1144,7 @@
 
 287
 00:07:50,690 --> 00:07:52,480
- root of two times pi
+ root of two times pi.
 
 288
 00:07:53,260 --> 00:07:54,839
@@ -1164,7 +1164,7 @@
 
 292
 00:07:59,489 --> 00:08:01,140
- calculate the CD F.
+ calculate the CDF.
 
 293
 00:08:01,929 --> 00:08:03,209
@@ -1188,11 +1188,11 @@
 
 298
 00:08:10,220 --> 00:08:10,809
- X.
+ x
 
 299
 00:08:11,549 --> 00:08:12,779
- And then we only have to
+ and then we only have to
 
 300
 00:08:12,790 --> 00:08:14,529
@@ -1208,7 +1208,7 @@
 
 303
 00:08:17,730 --> 00:08:19,500
- However, here, because X
+ However, here, because x
 
 304
 00:08:19,510 --> 00:08:21,410
@@ -1220,27 +1220,27 @@
 
 306
 00:08:22,579 --> 00:08:23,850
- So let's choose T
+ So let's choose t.
 
 307
 00:08:24,640 --> 00:08:26,500
- now, for the normal distribution,
+ Now, for the normal distribution,
 
 308
 00:08:26,510 --> 00:08:28,279
- we can simplify this
+ we can not simplify this
 
 309
 00:08:28,290 --> 00:08:29,720
- integral immediately.
+ integral immediately,
 
 310
 00:08:29,799 --> 00:08:31,100
- But of course, we can draw
+ but of course, we can draw
 
 311
 00:08:31,160 --> 00:08:31,839
- a graph.
+ the graph.
 
 312
 00:08:32,640 --> 00:08:34,099
@@ -1252,11 +1252,11 @@
 
 314
 00:08:35,869 --> 00:08:36,700
- and increase.
+ and increase
 
 315
 00:08:36,849 --> 00:08:38,419
- And in the end in the limit,
+ and in the end in the limit,
 
 316
 00:08:38,429 --> 00:08:39,200
@@ -1264,11 +1264,11 @@
 
 317
 00:08:39,210 --> 00:08:41,179
- +11 important
+ +1. One important
 
 318
 00:08:41,190 --> 00:08:42,500
- property you see here is
+ property you see here is,
 
 319
 00:08:42,510 --> 00:08:44,380
@@ -1299,24 +1299,24 @@
  I would suggest that we now
 
 326
-00:08:53,330 --> 00:08:54,450
- go into our
+00:08:53,330 --> 00:08:54,150
+ go into
 
 327
-00:08:54,460 --> 00:08:55,359
- studio
+00:08:54,160 --> 00:08:55,359
+ Rstudio.
 
 328
 00:08:56,650 --> 00:08:57,140
- here.
+ Here
 
 329
 00:08:57,150 --> 00:08:58,130
- The first thing we should
+ the first thing we should
 
 330
 00:08:58,140 --> 00:09:00,010
- check is the health function.
+ check is the help function.
 
 331
 00:09:00,020 --> 00:09:01,219
@@ -1328,7 +1328,7 @@
 
 333
 00:09:03,750 --> 00:09:05,450
- Indeed here, you see we have
+ Indeed here you see we have
 
 334
 00:09:05,460 --> 00:09:06,229
@@ -1360,15 +1360,15 @@
 
 341
 00:09:15,340 --> 00:09:16,570
- with the norm.
+ with dnorm.
 
 342
 00:09:17,239 --> 00:09:18,940
- On the other hand, the CD
+ On the other hand the CDF,
 
 343
 00:09:18,950 --> 00:09:20,400
- F, the distribution
+ the distribution
 
 344
 00:09:20,409 --> 00:09:22,020
@@ -1376,15 +1376,15 @@
 
 345
 00:09:22,030 --> 00:09:22,890
- P norm.
+ pnorm
 
 346
-00:09:23,809 --> 00:09:25,659
- And the last one here, Ar
+00:09:23,809 --> 00:09:25,649
+ and the last one here,
 
 347
-00:09:25,890 --> 00:09:27,179
- nom will just give us a
+00:09:25,655 --> 00:09:27,179
+ rnorm will just give us a
 
 348
 00:09:27,190 --> 00:09:28,869
@@ -1460,11 +1460,11 @@
 
 366
 00:09:54,890 --> 00:09:56,640
- around and plot the CD
+ around and plot the CDF
 
 367
 00:09:56,650 --> 00:09:58,190
- F and the PDF.
+ and the PDF.
 
 368
 00:09:58,849 --> 00:10:00,229
@@ -1472,11 +1472,11 @@
 
 369
 00:10:00,239 --> 00:10:01,309
- a whole sequence.
+ the whole sequence.
 
 370
 00:10:01,320 --> 00:10:03,150
- So let's set X to the
+ So let's set x to the
 
 371
 00:10:03,159 --> 00:10:04,849
@@ -1496,15 +1496,15 @@
 
 375
 00:10:09,400 --> 00:10:11,390
- 0.01
+ 0.01.
 
 376
 00:10:12,390 --> 00:10:13,489
- let's hit enter.
+ Let's hit enter
 
 377
 00:10:13,500 --> 00:10:14,909
- And then we see the result
+ and then we see the result
 
 378
 00:10:14,919 --> 00:10:15,390
@@ -1535,12 +1535,12 @@
  into the density function
 
 385
-00:10:25,719 --> 00:10:27,539
- which was given by the
+00:10:25,719 --> 00:10:27,439
+ which was given by
 
 386
-00:10:27,549 --> 00:10:28,190
- norm.
+00:10:27,449 --> 00:10:28,190
+ dnorm.
 
 387
 00:10:31,039 --> 00:10:31,489
@@ -1580,15 +1580,15 @@
 
 396
 00:10:45,210 --> 00:10:46,359
- points X.
+ points x.
 
 397
 00:10:46,369 --> 00:10:47,809
- So we put in X
+ So we put in x
 
 398
 00:10:47,820 --> 00:10:49,750
- comma the norm of X
+ comma dnorm of x
 
 399
 00:10:51,090 --> 00:10:52,409
@@ -1600,7 +1600,7 @@
 
 401
 00:10:54,320 --> 00:10:55,940
- X is equal to zero.
+ x is equal to zero.
 
 402
 00:10:56,729 --> 00:10:57,309
@@ -1611,24 +1611,24 @@
  Then I would say in the same
 
 404
-00:10:58,969 --> 00:11:00,830
- way we can plot this CD
+00:10:58,969 --> 00:11:00,030
+ way we can plot the
 
 405
-00:11:00,840 --> 00:11:01,289
- F.
+00:11:00,040 --> 00:11:01,289
+ CDF.
 
 406
 00:11:01,340 --> 00:11:02,630
- So we take X
+ So we take x
 
 407
 00:11:02,640 --> 00:11:04,510
- comma P norm
+ comma pnorm
 
 408
 00:11:04,520 --> 00:11:05,429
- of X.
+ of x.
 
 409
 00:11:07,880 --> 00:11:09,460
@@ -1696,7 +1696,7 @@
 
 425
 00:11:32,039 --> 00:11:33,099
- are norm
+ rnorm
 
 426
 00:11:34,440 --> 00:11:36,059
@@ -1748,11 +1748,11 @@
 
 438
 00:11:55,510 --> 00:11:56,820
- 6000.
+ 6000
 
 439
 00:11:59,219 --> 00:12:00,739
- And here again, we
+ and here again, we
 
 440
 00:12:00,750 --> 00:12:02,090
@@ -1768,11 +1768,11 @@
 
 443
 00:12:05,119 --> 00:12:06,200
- the whole thing again.
+ the whole thing again
 
 444
 00:12:07,380 --> 00:12:09,159
- And as you can see, we don't
+ and as you can see, we don't
 
 445
 00:12:09,169 --> 00:12:10,109
@@ -1784,11 +1784,11 @@
 
 447
 00:12:12,739 --> 00:12:14,500
- also increase the number
+ also increase the number.
 
 448
 00:12:16,429 --> 00:12:17,789
- in another video, I already
+ In another video, I already
 
 449
 00:12:17,799 --> 00:12:19,289
