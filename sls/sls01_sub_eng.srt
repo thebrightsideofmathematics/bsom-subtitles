@@ -1,0 +1,635 @@
+1
+00:00:00,299 --> 00:00:05,400
+hello and welcome to start learning sets
+
+2
+00:00:03,720 --> 00:00:07,799
+a video course where I give you a quick
+
+3
+00:00:05,400 --> 00:00:10,200
+introduction into set theory
+
+4
+00:00:07,799 --> 00:00:12,420
+however first many many thanks to all
+
+5
+00:00:10,200 --> 00:00:14,940
+the nice people on Steady or PayPal who
+
+6
+00:00:12,420 --> 00:00:17,340
+make these videos possible now for
+
+7
+00:00:14,940 --> 00:00:19,140
+learning mathematics set theory is so
+
+8
+00:00:17,340 --> 00:00:21,480
+important because you can describe
+
+9
+00:00:19,140 --> 00:00:24,420
+everything in mathematics using just
+
+10
+00:00:21,480 --> 00:00:26,939
+sets indeed you could see the field of
+
+11
+00:00:24,420 --> 00:00:29,160
+logic together with the set theory as
+
+12
+00:00:26,939 --> 00:00:31,619
+the foundation of mathematics
+
+13
+00:00:29,160 --> 00:00:34,260
+this works as follows in the language of
+
+14
+00:00:31,619 --> 00:00:37,200
+logic we describe the axioms we want the
+
+15
+00:00:34,260 --> 00:00:39,480
+axioms of set theory this means that we
+
+16
+00:00:37,200 --> 00:00:40,440
+have a list of propositions assumed to
+
+17
+00:00:39,480 --> 00:00:42,660
+be true
+
+18
+00:00:40,440 --> 00:00:44,399
+then that's our starting point we have
+
+19
+00:00:42,660 --> 00:00:46,020
+to start somewhere we have to put
+
+20
+00:00:44,399 --> 00:00:48,660
+something in first
+
+21
+00:00:46,020 --> 00:00:51,360
+and all the things we logically get out
+
+22
+00:00:48,660 --> 00:00:53,879
+form our world of mathematics
+
+23
+00:00:51,360 --> 00:00:55,739
+in this way we then reach our goal we
+
+24
+00:00:53,879 --> 00:00:58,680
+can do mathematics
+
+25
+00:00:55,739 --> 00:01:00,780
+however this path is way too long and
+
+26
+00:00:58,680 --> 00:01:02,879
+needs a lot of time such that you should
+
+27
+00:01:00,780 --> 00:01:05,640
+never do that at the beginning of your
+
+28
+00:01:02,879 --> 00:01:07,680
+mathematical career thankfully there is
+
+29
+00:01:05,640 --> 00:01:09,720
+a very nice shortcut that works so good
+
+30
+00:01:07,680 --> 00:01:13,500
+that you can do a lot of mathematics
+
+31
+00:01:09,720 --> 00:01:15,240
+without bothering about the axioms on
+
+32
+00:01:13,500 --> 00:01:17,760
+this path we just learned a little bit
+
+33
+00:01:15,240 --> 00:01:20,460
+of propositional logic and something we
+
+34
+00:01:17,760 --> 00:01:22,320
+call naive set theory okay the name
+
+35
+00:01:20,460 --> 00:01:24,540
+seems a little bit strange we will just
+
+36
+00:01:22,320 --> 00:01:26,460
+call it set theory and indeed the only
+
+37
+00:01:24,540 --> 00:01:28,080
+difference is that we don't write down
+
+38
+00:01:26,460 --> 00:01:30,420
+all the axioms
+
+39
+00:01:28,080 --> 00:01:33,240
+with this and the propositional logic we
+
+40
+00:01:30,420 --> 00:01:35,220
+learned in the last videos we can go to
+
+41
+00:01:33,240 --> 00:01:37,500
+doing mathematics
+
+42
+00:01:35,220 --> 00:01:40,140
+Now by having this picture in mind let's
+
+43
+00:01:37,500 --> 00:01:42,659
+go to the start of set theory
+
+44
+00:01:40,140 --> 00:01:43,500
+so let's start by saying what
+
+45
+00:01:42,659 --> 00:01:45,840
+a set is.
+
+46
+00:01:43,500 --> 00:01:48,479
+one often says a set is just a
+
+47
+00:01:45,840 --> 00:01:51,360
+collection of distinct objects into a
+
+48
+00:01:48,479 --> 00:01:52,799
+whole. So the idea would be if we have
+
+49
+00:01:51,360 --> 00:01:55,140
+some objects
+
+50
+00:01:52,799 --> 00:01:57,840
+for example here four different objects
+
+51
+00:01:55,140 --> 00:01:59,159
+then the set puts them all together into
+
+52
+00:01:57,840 --> 00:02:01,020
+a collection
+
+53
+00:01:59,159 --> 00:02:03,479
+there see this is not a correct
+
+54
+00:02:01,020 --> 00:02:05,399
+definition it's just the idea we have in
+
+55
+00:02:03,479 --> 00:02:07,500
+mind written down
+
+56
+00:02:05,399 --> 00:02:09,599
+hence it means that by putting the
+
+57
+00:02:07,500 --> 00:02:12,900
+objects together we get out a new thing
+
+58
+00:02:09,599 --> 00:02:15,420
+we could call here the set M so what
+
+59
+00:02:12,900 --> 00:02:17,220
+makes the set M are the objects so we
+
+60
+00:02:15,420 --> 00:02:19,080
+have a natural relation between the
+
+61
+00:02:17,220 --> 00:02:21,060
+objects and the set
+
+62
+00:02:19,080 --> 00:02:24,239
+now in order to make everything easier
+
+63
+00:02:21,060 --> 00:02:27,360
+we call such an object x inside a set M
+
+64
+00:02:24,239 --> 00:02:30,420
+just an element of M
+
+65
+00:02:27,360 --> 00:02:31,379
+or even better we use a short formula
+
+66
+00:02:30,420 --> 00:02:34,560
+for this
+
+67
+00:02:31,379 --> 00:02:37,080
+so we use this special e for element and
+
+68
+00:02:34,560 --> 00:02:38,879
+read it as X in m
+
+69
+00:02:37,080 --> 00:02:41,640
+so for the example on the right hand
+
+70
+00:02:38,879 --> 00:02:43,500
+side we would write the circle with A is
+
+71
+00:02:41,640 --> 00:02:46,440
+an element of M
+
+72
+00:02:43,500 --> 00:02:48,480
+moreover If x is not such an object of
+
+73
+00:02:46,440 --> 00:02:51,239
+the collection we write a similar thing
+
+74
+00:02:48,480 --> 00:02:53,519
+x is not an element in M
+
+75
+00:02:51,239 --> 00:02:54,420
+there we would use the line through the
+
+76
+00:02:53,519 --> 00:02:56,340
+e
+
+77
+00:02:54,420 --> 00:02:59,459
+now on the right hand side for the
+
+78
+00:02:56,340 --> 00:03:01,260
+example we would write this D is not an
+
+79
+00:02:59,459 --> 00:03:03,300
+element in M
+
+80
+00:03:01,260 --> 00:03:05,940
+now at this point because you know some
+
+81
+00:03:03,300 --> 00:03:08,400
+logic I can say that this new notation
+
+82
+00:03:05,940 --> 00:03:10,440
+is just a short notation for the
+
+83
+00:03:08,400 --> 00:03:12,239
+negation of this statement
+
+84
+00:03:10,440 --> 00:03:15,360
+there you have it we see the element
+
+85
+00:03:12,239 --> 00:03:18,180
+relations as logical statements
+
+86
+00:03:15,360 --> 00:03:20,879
+and because a set is defined by these
+
+87
+00:03:18,180 --> 00:03:23,340
+element relations we can just define a
+
+88
+00:03:20,879 --> 00:03:25,739
+set by giving all the elements
+
+89
+00:03:23,340 --> 00:03:27,959
+for this one usually uses the curly
+
+90
+00:03:25,739 --> 00:03:30,180
+brackets as we did before
+
+91
+00:03:27,959 --> 00:03:34,620
+so this is a set that has the number two
+
+92
+00:03:30,180 --> 00:03:37,080
+the number 5 and the number 6 as elements
+
+93
+00:03:34,620 --> 00:03:39,959
+so inside the curly brackets we have a
+
+94
+00:03:37,080 --> 00:03:41,940
+list of all the elements and please note
+
+95
+00:03:39,959 --> 00:03:43,799
+the order does not matter because we
+
+96
+00:03:41,940 --> 00:03:45,780
+only need the element relation so
+
+97
+00:03:43,799 --> 00:03:47,819
+there's no order inside the set
+
+98
+00:03:45,780 --> 00:03:50,280
+now another useful notation we can
+
+99
+00:03:47,819 --> 00:03:53,519
+introduce now is when I want to give the
+
+100
+00:03:50,280 --> 00:03:56,580
+set a new name for example A. Then I
+
+101
+00:03:53,519 --> 00:03:58,440
+would write colon equality
+
+102
+00:03:56,580 --> 00:04:01,260
+and we would read that the left hand
+
+103
+00:03:58,440 --> 00:04:03,000
+side is defined by the right hand side
+
+104
+00:04:01,260 --> 00:04:05,220
+so it's an assignment which should
+
+105
+00:04:03,000 --> 00:04:07,860
+remind you that the new name a new
+
+106
+00:04:05,220 --> 00:04:10,319
+variable is introduced at this point
+
+107
+00:04:07,860 --> 00:04:12,540
+okay now before we go into the details
+
+108
+00:04:10,319 --> 00:04:15,780
+of set theory I first want to show you
+
+109
+00:04:12,540 --> 00:04:18,120
+some examples of sets that we use later
+
+110
+00:04:15,780 --> 00:04:21,359
+the first one is the empty set which is
+
+111
+00:04:18,120 --> 00:04:23,759
+the unique set that has no elements at all
+
+112
+00:04:21,359 --> 00:04:26,220
+and the notation we use is just a circle
+
+113
+00:04:23,759 --> 00:04:28,740
+with a line through it
+
+114
+00:04:26,220 --> 00:04:30,300
+however other people just use the empty
+
+115
+00:04:28,740 --> 00:04:32,400
+curly brackets
+
+116
+00:04:30,300 --> 00:04:34,979
+now the following number sets we will
+
+117
+00:04:32,400 --> 00:04:37,320
+define later correctly but here I can
+
+118
+00:04:34,979 --> 00:04:38,400
+already show you the symbols we use for
+
+119
+00:04:37,320 --> 00:04:40,860
+them
+
+120
+00:04:38,400 --> 00:04:43,500
+for the natural numbers starting with 1
+
+121
+00:04:40,860 --> 00:04:46,080
+we use the N as a symbol
+
+122
+00:04:43,500 --> 00:04:50,340
+and for the natural numbers including 0
+
+123
+00:04:46,080 --> 00:04:52,380
+I use the same N with an index 0. Ff we
+
+124
+00:04:50,340 --> 00:04:54,540
+include the negative numbers as well we
+
+125
+00:04:52,380 --> 00:04:56,520
+call them the integers and denote them
+
+126
+00:04:54,540 --> 00:04:58,860
+by capital Z
+
+127
+00:04:56,520 --> 00:05:01,020
+in later videos we will properly define
+
+128
+00:04:58,860 --> 00:05:03,060
+these sets but for the moment it's a
+
+129
+00:05:01,020 --> 00:05:04,500
+good thing that we have the number sets
+
+130
+00:05:03,060 --> 00:05:05,759
+such that we can write down some
+
+131
+00:05:04,500 --> 00:05:07,680
+examples
+
+132
+00:05:05,759 --> 00:05:09,479
+therefore I assume that you already know
+
+133
+00:05:07,680 --> 00:05:10,800
+at least some things about natural
+
+134
+00:05:09,479 --> 00:05:13,080
+numbers
+
+135
+00:05:10,800 --> 00:05:14,940
+now later when we are ready for it we
+
+136
+00:05:13,080 --> 00:05:18,600
+can also Define the rational numbers
+
+137
+00:05:14,940 --> 00:05:22,620
+denoted by Q the real numbers denoted by
+
+138
+00:05:18,600 --> 00:05:24,900
+R and the complex numbers denoted by C
+
+139
+00:05:22,620 --> 00:05:27,780
+okay now the natural question for you
+
+140
+00:05:24,900 --> 00:05:30,539
+would be how can we define sets without
+
+141
+00:05:27,780 --> 00:05:32,880
+writing down all the elements
+
+142
+00:05:30,539 --> 00:05:34,440
+for example for the natural numbers you
+
+143
+00:05:32,880 --> 00:05:35,580
+already see the problem with this
+
+144
+00:05:34,440 --> 00:05:38,280
+approach
+
+145
+00:05:35,580 --> 00:05:40,759
+now in order to efficiently do this we
+
+146
+00:05:38,280 --> 00:05:43,380
+have to go back to logic and talk about
+
+147
+00:05:40,759 --> 00:05:45,360
+quantifiers and predicates
+
+148
+00:05:43,380 --> 00:05:47,580
+indeed I already mentioned what a predicate
+
+149
+00:05:45,360 --> 00:05:50,400
+is it's something with a variable
+
+150
+00:05:47,580 --> 00:05:53,580
+for example x and it becomes a logical
+
+151
+00:05:50,400 --> 00:05:56,220
+statement if we set a value for x
+
+152
+00:05:53,580 --> 00:05:58,320
+therefore x in N would be a nice
+
+153
+00:05:56,220 --> 00:06:00,720
+example of a predicate
+
+154
+00:05:58,320 --> 00:06:03,900
+and quantifiers are just reversed
+
+155
+00:06:00,720 --> 00:06:06,000
+letters A and E and we will talk about
+
+156
+00:06:03,900 --> 00:06:08,460
+them in the next video
+
+157
+00:06:06,000 --> 00:06:10,310
+okay I hope I see you there and have a
+
+158
+00:06:08,460 --> 00:06:28,589
+nice day bye
+
+159
+00:06:10,310 --> 00:06:28,589
+[Music]
