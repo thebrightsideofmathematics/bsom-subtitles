@@ -4,11 +4,11 @@
 
 2
 00:00:02,059 --> 00:00:03,559
- to distributions.
+ to distributions
 
 3
 00:00:03,960 --> 00:00:05,369
- And first, as always, I want
+ and first, as always, I want
 
 4
 00:00:05,380 --> 00:00:06,849
@@ -20,7 +20,7 @@
 
 6
 00:00:07,920 --> 00:00:09,289
- on Steady or paypal.
+ on Steady or PayPal.
 
 7
 00:00:09,670 --> 00:00:11,130
@@ -44,11 +44,11 @@
 
 12
 00:00:17,950 --> 00:00:19,329
- singular distribution
+ singular distribution.
 
 13
 00:00:19,850 --> 00:00:21,309
- more concretely, this means
+ More concretely, this means
 
 14
 00:00:21,319 --> 00:00:22,709
@@ -56,19 +56,19 @@
 
 15
 00:00:22,719 --> 00:00:24,370
- integrable function F
+ integrable function f
 
 16
 00:00:25,149 --> 00:00:26,819
- defined on RN with
+ defined on R^n with
 
 17
 00:00:26,829 --> 00:00:28,600
- values in R or C as
+ values in R or C, as
 
 18
 00:00:28,610 --> 00:00:30,090
- always with the
+ always, with the
 
 19
 00:00:30,100 --> 00:00:31,670
@@ -80,7 +80,7 @@
 
 21
 00:00:33,299 --> 00:00:34,680
- TF of Phi.
+ T_f of Phi.
 
 22
 00:00:35,349 --> 00:00:36,830
@@ -92,11 +92,11 @@
 
 24
 00:00:38,540 --> 00:00:40,509
- functions Phi, OK.
+ functions Phi. OK.
 
 25
 00:00:40,520 --> 00:00:42,439
- Now, as a reminder TF of
+ Now, as a reminder T_f of
 
 26
 00:00:42,450 --> 00:00:44,310
@@ -108,11 +108,11 @@
 
 28
 00:00:45,520 --> 00:00:47,200
- So we integrate FX
+ So we integrate f(x)
 
 29
 00:00:47,209 --> 00:00:49,130
- times Phi X and
+ times Phi(x) and
 
 30
 00:00:49,139 --> 00:00:50,130
@@ -120,11 +120,11 @@
 
 31
 00:00:50,139 --> 00:00:51,869
- last video that for locally
+ last video that for a locally
 
 32
 00:00:51,880 --> 00:00:53,360
- integral with function F,
+ integrable function f,
 
 33
 00:00:53,369 --> 00:00:54,689
@@ -156,11 +156,11 @@
 
 40
 00:01:02,959 --> 00:01:04,650
- Now, our claim here is for
+ Now, our claim here is, for
 
 41
 00:01:04,660 --> 00:01:06,459
- no F this equality is
+ no f this equality is
 
 42
 00:01:06,470 --> 00:01:07,180
@@ -172,11 +172,11 @@
 
 44
 00:01:09,230 --> 00:01:10,199
- exercise.
+ exercise
 
 45
 00:01:10,230 --> 00:01:11,760
- And here I want to show you
+ and here I want to show you
 
 46
 00:01:11,769 --> 00:01:12,739
@@ -200,7 +200,7 @@
 
 51
 00:01:19,239 --> 00:01:20,190
- F.
+ f.
 
 52
 00:01:20,199 --> 00:01:21,449
@@ -208,15 +208,15 @@
 
 53
 00:01:21,750 --> 00:01:23,059
- function where we usually
+ function, where we usually
 
 54
 00:01:23,069 --> 00:01:24,389
- use this symbol here.
+ use this symbol here
 
 55
 00:01:24,870 --> 00:01:26,559
- And now this property here
+ and now this property here
 
 56
 00:01:26,569 --> 00:01:28,269
@@ -236,7 +236,7 @@
 
 60
 00:01:32,139 --> 00:01:33,489
- function F itself.
+ function f itself.
 
 61
 00:01:33,980 --> 00:01:35,790
@@ -248,7 +248,7 @@
 
 63
 00:01:37,290 --> 00:01:39,250
- assumption when we integrate
+ assumption, when we integrate
 
 64
 00:01:39,260 --> 00:01:40,690
@@ -276,7 +276,7 @@
 
 70
 00:01:49,089 --> 00:01:50,830
- X is less or equal than
+ x is less or equal than
 
 71
 00:01:50,839 --> 00:01:51,279
@@ -300,7 +300,7 @@
 
 76
 00:01:59,160 --> 00:02:00,519
- number A which is a
+ number "a" which is a
 
 77
 00:02:00,529 --> 00:02:02,250
@@ -324,15 +324,15 @@
 
 82
 00:02:08,440 --> 00:02:09,669
- dimension is two
+ dimension is two.
 
 83
 00:02:10,399 --> 00:02:11,429
- there, we just have this
+ There, we just have this
 
 84
 00:02:11,440 --> 00:02:13,139
- circle where we integrate
+ circle, where we integrate
 
 85
 00:02:13,149 --> 00:02:14,539
@@ -348,7 +348,7 @@
 
 88
 00:02:17,669 --> 00:02:19,600
- 0.0 to the origin
+ point 0, to the origin,
 
 89
 00:02:19,610 --> 00:02:21,250
@@ -380,7 +380,7 @@
 
 96
 00:02:29,889 --> 00:02:31,580
- infinitely many circles
+ infinitely many circles,
 
 97
 00:02:31,589 --> 00:02:33,169
@@ -388,7 +388,7 @@
 
 98
 00:02:33,179 --> 00:02:34,660
- K as the radius.
+ k as the radius.
 
 99
 00:02:35,050 --> 00:02:36,860
@@ -400,11 +400,11 @@
 
 101
 00:02:38,210 --> 00:02:39,979
- 1/3 and so on.
+ 1/3 and so on
 
 102
 00:02:40,419 --> 00:02:41,800
- And then our idea is that
+ and then our idea is that
 
 103
 00:02:41,809 --> 00:02:43,600
@@ -432,7 +432,7 @@
 
 109
 00:02:51,649 --> 00:02:53,360
- formalize this even more
+ formalize this even more,
 
 110
 00:02:53,479 --> 00:02:54,830
@@ -472,11 +472,11 @@
 
 119
 00:03:06,160 --> 00:03:08,070
- what to do because here
+ what to do, because here
 
 120
 00:03:08,080 --> 00:03:09,699
- we have a disjoint union,
+ we have a disjoint union.
 
 121
 00:03:10,259 --> 00:03:11,839
@@ -500,11 +500,11 @@
 
 126
 00:03:18,330 --> 00:03:19,710
- here is very natural.
+ here is very natural,
 
 127
 00:03:19,720 --> 00:03:20,869
- But it's the thing we have
+ but it's the thing we have
 
 128
 00:03:20,880 --> 00:03:22,520
@@ -532,7 +532,7 @@
 
 134
 00:03:31,070 --> 00:03:32,860
- is an infinite sum a series
+ is an infinite sum, a series
 
 135
 00:03:32,869 --> 00:03:34,619
@@ -556,11 +556,11 @@
 
 140
 00:03:41,529 --> 00:03:42,139
- zero.
+ zero
 
 141
 00:03:42,639 --> 00:03:44,220
- And we know even more if
+ and we know even more if
 
 142
 00:03:44,229 --> 00:03:45,619
@@ -584,7 +584,7 @@
 
 147
 00:03:53,070 --> 00:03:54,929
- and I take one half because
+ and I take one half, because
 
 148
 00:03:54,940 --> 00:03:56,300
@@ -592,11 +592,11 @@
 
 149
 00:03:56,309 --> 00:03:57,259
- than one.
+ than one
 
 150
 00:03:57,389 --> 00:03:58,800
- And this is what we need
+ and this is what we need
 
 151
 00:03:58,809 --> 00:03:59,860
@@ -604,11 +604,11 @@
 
 152
 00:04:00,490 --> 00:04:00,869
- OK.
+ OK
 
 153
 00:04:00,880 --> 00:04:02,380
- And now we can just summarize
+ and now we can just summarize
 
 154
 00:04:02,389 --> 00:04:03,210
@@ -624,11 +624,11 @@
 
 157
 00:04:06,779 --> 00:04:07,949
- greater than zero.
+ greater than zero,
 
 158
 00:04:08,380 --> 00:04:09,979
- Such that the integral
+ such that the integral
 
 159
 00:04:09,990 --> 00:04:11,830
@@ -636,7 +636,7 @@
 
 160
 00:04:11,839 --> 00:04:13,809
- a number B which is smaller
+ a number b which is smaller
 
 161
 00:04:13,820 --> 00:04:14,789
@@ -648,7 +648,7 @@
 
 163
 00:04:16,640 --> 00:04:18,410
- told you if we make the
+ told you, if we make the
 
 164
 00:04:18,420 --> 00:04:20,190
@@ -748,7 +748,7 @@
 
 188
 00:04:54,839 --> 00:04:56,130
- to finish the proof
+ to finish the proof,
 
 189
 00:04:56,679 --> 00:04:58,250
@@ -780,7 +780,7 @@
 
 196
 00:05:06,779 --> 00:05:08,769
- the video series, it was
+ the video series. It was
 
 197
 00:05:08,779 --> 00:05:10,750
@@ -812,11 +812,11 @@
 
 204
 00:05:20,519 --> 00:05:22,399
- would be just such a bump
+ would be just such a bump.
 
 205
 00:05:23,109 --> 00:05:24,410
- where the maximum is
+ Where the maximum is
 
 206
 00:05:24,420 --> 00:05:25,989
@@ -860,11 +860,11 @@
 
 216
 00:05:37,339 --> 00:05:39,130
- little bit with this epsilon,
+ little bit with this epsilon.
 
 217
 00:05:39,549 --> 00:05:41,309
- it should be zero outside
+ It should be zero outside
 
 218
 00:05:41,320 --> 00:05:43,290
@@ -888,11 +888,11 @@
 
 223
 00:05:50,500 --> 00:05:52,070
- to divide by epsilon.
+ to divide by epsilon
 
 224
 00:05:52,579 --> 00:05:53,970
- And then you see this was
+ and then you see, this was
 
 225
 00:05:53,980 --> 00:05:55,540
@@ -908,7 +908,7 @@
 
 228
 00:05:58,019 --> 00:05:59,839
- the same just zoom to
+ the same. Just zoomed to
 
 229
 00:05:59,850 --> 00:06:01,160
@@ -928,11 +928,11 @@
 
 233
 00:06:04,459 --> 00:06:05,480
- this test function
+ this test function.
 
 234
 00:06:06,209 --> 00:06:07,869
- by assumption this integral
+ By assumption this integral
 
 235
 00:06:07,880 --> 00:06:09,420
@@ -940,7 +940,7 @@
 
 236
 00:06:09,429 --> 00:06:11,029
- distribution which means
+ distributio. Which means
 
 237
 00:06:11,040 --> 00:06:12,380
@@ -964,11 +964,11 @@
 
 242
 00:06:18,880 --> 00:06:20,420
- here, it makes everything
+ here. It makes everything
 
 243
 00:06:20,429 --> 00:06:21,790
- easier because we can just
+ easier, because we can just
 
 244
 00:06:21,799 --> 00:06:23,640
@@ -996,7 +996,7 @@
 
 250
 00:06:30,250 --> 00:06:32,019
- pull out the supreme norm
+ pull out the supremum norm
 
 251
 00:06:32,029 --> 00:06:33,119
@@ -1012,15 +1012,15 @@
 
 254
 00:06:36,269 --> 00:06:38,040
- where we integrate over to
+ where we integrate over, to
 
 255
 00:06:38,049 --> 00:06:39,049
- the epsilon ball.
+ the epsilon ball,
 
 256
 00:06:39,459 --> 00:06:41,170
- Because outside of the epsilon
+ because outside of the epsilon
 
 257
 00:06:41,179 --> 00:06:42,609
@@ -1052,27 +1052,27 @@
 
 264
 00:06:51,140 --> 00:06:51,779
- function.
+ function
 
 265
 00:06:52,109 --> 00:06:53,630
- And then you see only this
+ and then you see, only this
 
 266
 00:06:53,640 --> 00:06:55,250
- integral here remains
+ integral here remains.
 
 267
 00:06:55,420 --> 00:06:57,279
- first, the supremum here
+ First, the supremum here
 
 268
 00:06:57,290 --> 00:06:58,660
- we already know it's the
+ we already know, it's the
 
 269
 00:06:58,670 --> 00:07:00,149
- value at zero more
+ value at zero. More
 
 270
 00:07:00,160 --> 00:07:01,690
@@ -1080,23 +1080,23 @@
 
 271
 00:07:01,700 --> 00:07:02,609
- left hand side.
+ left-hand side
 
 272
 00:07:03,140 --> 00:07:04,660
- And the second part here
+ and the second part here
 
 273
 00:07:04,670 --> 00:07:06,079
- is equal to B
+ is equal to b.
 
 274
 00:07:06,380 --> 00:07:08,339
- however, B was smaller
+ However, b was smaller
 
 275
 00:07:08,350 --> 00:07:10,339
- than one half, which
+ than one half. Which
 
 276
 00:07:10,350 --> 00:07:12,220
@@ -1120,23 +1120,23 @@
 
 281
 00:07:19,070 --> 00:07:19,799
- one half.
+ one half
 
 282
 00:07:20,290 --> 00:07:21,609
- And such a positive real
+ and such a positive real
 
 283
 00:07:21,619 --> 00:07:23,369
- number does not exist.
+ number does not exist
 
 284
 00:07:24,029 --> 00:07:25,769
- And this is indeed our wanted
+ and this is indeed our wanted
 
 285
 00:07:25,779 --> 00:07:27,440
- contradiction in
+ contradiction. In
 
 286
 00:07:27,450 --> 00:07:29,190
@@ -1144,7 +1144,7 @@
 
 287
 00:07:29,200 --> 00:07:30,869
- integral function F for the
+ integrable function f for the
 
 288
 00:07:30,880 --> 00:07:32,559
@@ -1176,7 +1176,7 @@
 
 295
 00:07:39,489 --> 00:07:40,609
- will show you what we can
+ will show you, what we can
 
 296
 00:07:40,619 --> 00:07:42,220
