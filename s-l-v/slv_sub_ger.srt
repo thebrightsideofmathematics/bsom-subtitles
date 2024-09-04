@@ -1,0 +1,164 @@
+1
+00:00:00,429 --> 00:00:05,482
+Hallo und herzlich willkommen zu einem kurzen Video über das Sainte-Laguë-Verfahren,
+
+2
+00:00:05,682 --> 00:00:09,678
+was verwendet wird um die Sitzverteilung nach einer Wahl zu bestimmen.
+
+3
+00:00:09,878 --> 00:00:12,900
+Andere Namen für das gleiche Verfahren sind einfach
+
+4
+00:00:12,943 --> 00:00:16,613
+Divisorverfahren mit Standardrundung oder Webster-Methode.
+
+5
+00:00:17,043 --> 00:00:20,928
+Das Problem was solch ein Problem lösen möchte ist ganz einfach zu erklären.
+
+6
+00:00:21,057 --> 00:00:25,973
+Nach einer Wahl haben wir ziemlich viele Stimmen, verteilt auf unterschiedliche Parteien
+
+7
+00:00:26,400 --> 00:00:32,163
+und diese sollen nun zugeordnet werden, zu einer repräsentativen  Sitzverteilung in einem Parlament.
+
+8
+00:00:32,386 --> 00:00:38,702
+Üblicherweise ist aber die Anzahl der Sitze deutlich kleiner als die Anzahl der abgegebenen Stimmen.
+
+9
+00:00:39,100 --> 00:00:44,301
+Das ist natürlich kein Problem, da wir einfach ein gewöhnlichen Dreisatz durchführen können,
+
+10
+00:00:44,357 --> 00:00:46,379
+um so eine Zuordnung zu erhalten.
+
+11
+00:00:46,643 --> 00:00:50,928
+Zum Beispiel könnten wir sagen, dass wir 119 Sitze zu besetzten haben
+
+12
+00:00:51,128 --> 00:00:56,799
+und dann stimmt 119 mit der Gesamtanzahl der abgegebenen Stimmen überein.
+
+13
+00:00:56,999 --> 00:01:00,729
+Oder um es genauer zu sagen, wir haben die Anzahl der gültigen Stimmen,
+
+14
+00:01:00,787 --> 00:01:04,482
+die sich auf die Parteien verteilen, die überhaupt berücksichtig werden.
+
+15
+00:01:05,014 --> 00:01:11,089
+So, für dieses Beispiel haben wir hier die Gesamtsumme und die soll 119 Sitzen entsprechen.
+
+16
+00:01:11,514 --> 00:01:20,633
+In anderen Worten wir können hier einfach dividieren und erhalten das 1 Sitz, eben gerade 18004 Stimmen entspricht
+
+17
+00:01:21,314 --> 00:01:27,759
+und klarerweise haben wir hier standardmäßig gerundet, um eine ganzzahlige Anzahl von Stimmen zu bekommen
+
+18
+00:01:28,286 --> 00:01:30,340
+und nun wissen wir mit dem üblichen Dreisatz,
+
+19
+00:01:30,414 --> 00:01:34,925
+dass wir diese Zahlen hier einfach mit dieser Zahl hier dividieren müssen,
+
+20
+00:01:35,125 --> 00:01:37,532
+um die entsprechenden Anzahl der Sitze zu bekommen
+
+21
+00:01:37,843 --> 00:01:42,480
+und deswegen nennen wir diese Zahl hier unseren Divisor.
+
+22
+00:01:42,843 --> 00:01:48,057
+So und das bedeutet nun, im nächsten Schritt hier, können wir einfach alle Zahlen durch D dividieren
+
+23
+00:01:48,186 --> 00:01:49,986
+und dann bekommen wir Sitze heraus.
+
+24
+00:01:50,129 --> 00:01:53,586
+Das bedeutet aber auch, dass wir standardmäßig runden müssen
+
+25
+00:01:53,914 --> 00:01:58,357
+und dann sehen wir auch direkt, dass das das einzige Problem sein könnte, was hier auftritt.
+
+26
+00:01:58,500 --> 00:02:05,250
+Nämlich, Rundungsfehler können sich addieren und dann bekommen wir nicht die Gesamtanzahl von 119 Sitzen heraus.
+
+27
+00:02:05,857 --> 00:02:07,286
+Genau das passiert hier.
+
+28
+00:02:07,357 --> 00:02:15,256
+Nämlich, in dem Beispiel bekommen wir 42, 40, 6, 7, 10 und 15, was sich addiert auf 120 Sitze.
+
+29
+00:02:15,257 --> 00:02:18,609
+Das bedeutet wir haben einen Sitz zu viel, dass können wir nicht machen,
+
+30
+00:02:18,809 --> 00:02:21,748
+da wir die Anzahl der Sitze fest vorgeschrieben haben.
+
+31
+00:02:21,948 --> 00:02:28,397
+Man könnte natürlich sagen, dass man solch kleine Abweichungen akzeptiert, aber das ist nicht das Zeil dieses Verfahrens.
+
+32
+00:02:28,597 --> 00:02:31,408
+Das Ziel ist wirklich die Sitze zu behalten
+
+33
+00:02:31,608 --> 00:02:35,621
+und daraus folgt nun, dass der Divisor D hier zu klein gewählt ist.
+
+34
+00:02:35,821 --> 00:02:41,830
+Den ein Sitz bräuchte mehr Stimmen, sodass das ganze Verfahren auf 119 Sitze kommt.
+
+35
+00:02:42,030 --> 00:02:46,900
+Das heißt was man nun macht, ist mit dieser Zahl hier immer höher zu gehen, bis sich etwas ändert.
+
+36
+00:02:47,400 --> 00:02:51,596
+Man macht die Rechnung also immer wieder, was ja kein Problem ist, denn es sind einfache Divisionen
+
+37
+00:02:52,243 --> 00:02:59,655
+und tatsächlich sehen wir dann, dass wir ein passenden Divisor finden, wenn wir ihn mit 18054 Stimmen festsetzen
+
+38
+00:03:00,143 --> 00:03:01,580
+und damit sind wir fertig.
+
+39
+00:03:01,780 --> 00:03:06,706
+Die Sitze sind verteilt, das Verfahren ist abgeschlossen und es ist wirklich leicht nachzuvollziehen.
+
+40
+00:03:07,114 --> 00:03:12,988
+Das heißt für jedes Wahlergebnis kann jeder selbst in einer kleinen Excel-Tabelle direkt die Sitzverteilung ausrechnen
+
+41
+00:03:13,343 --> 00:03:17,714
+und damit gerne bis zum nächsten Mathevideo. Tschüss!
+
