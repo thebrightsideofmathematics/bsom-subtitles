@@ -1,0 +1,11 @@
+Abstract Linear Algebra - Part 8
+
+00:00 Introduction
+00:47 Picture for change of basis
+02:01 What happens with the first unit vector?
+03:23 Representation by a matrix
+04:24 Change-of-basis matrix
+05:20 Picture for the transition matrix
+06:40 Inverse of the transformation Matrix
+07:10 Example with polynomials
+10:38 Credits
