@@ -28,7 +28,7 @@ Denn nach einer Wahl haben wir ganz viele Stimmen, die sich auf unterschiedliche
 
 8
 00:00:31,244 --> 00:00:38,443
-Aber dann auf der anderen Seite haben wir eine deutlich kleinere Anzahl von Sitzen, die wir repräsentativ besetzten wollen.
+Aber dann auf der anderen Seite haben wir eine deutlich kleinere Anzahl von Sitzen, die wir repräsentativ besetzten wollen.
 
 9
 00:00:38,643 --> 00:00:42,443
@@ -80,7 +80,7 @@ dass wir hier einfach mit Q dividieren müssen, um die Anzahl der Sitze für jed
 
 21
 00:01:42,874 --> 00:01:49,697
-Die Sache ist nun aber auch dort, dass wir gewöhnlicherweise keine ganze Zahl,für die Anzahl der Sitze, bekommen
+Die Sache ist nun aber auch dort, dass wir gewöhnlicherweise keine ganze Zahl, für die Anzahl der Sitze, bekommen
 
 22
 00:01:49,897 --> 00:01:55,483
@@ -120,7 +120,7 @@ und tatsächlich hier ist es ganz einfach zu sehen. Wir haben die 9, die 8 und d
 
 31
 00:02:37,887 --> 00:02:44,861
-Deswegen bekommen genau diese 4 Parteien jeweils einen zusätzlichen Sitz und die anderen gehen leer aus
+Deswegen bekommen genau diese 4 Parteien jeweils einen zusätzlichen Sitz und die anderen gehen leer aus
 
 32
 00:02:45,143 --> 00:02:47,102
