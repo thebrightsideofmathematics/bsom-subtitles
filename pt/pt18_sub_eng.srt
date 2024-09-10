@@ -1,0 +1,328 @@
+1
+00:00:00,371 --> 00:00:04,039
+Hello and welcome back to probability theory.
+
+2
+00:00:04,239 --> 00:00:11,769
+We've already reached part 18 in the series and we are still talking about the variance and the standard deviation.
+
+3
+00:00:11,969 --> 00:00:17,678
+More precisely today we will prove some important formulas that hold for independent random variables.
+
+4
+00:00:18,814 --> 00:00:23,604
+However before we start with this, a big thank you to all my supporters on Steady.
+
+5
+00:00:24,029 --> 00:00:28,927
+You can also support this channel via PayPal or by other means, mentioned in the description
+
+6
+00:00:29,300 --> 00:00:34,653
+and as a supporter, you have access to PDF versions and quizzes for all the videos.
+
+7
+00:00:34,853 --> 00:00:37,556
+Ok, then let's start with the topic of today.
+
+8
+00:00:37,756 --> 00:00:41,799
+Let's talk about some properties of the variance and the standard deviation
+
+9
+00:00:41,999 --> 00:00:47,943
+and as I said before, we will formulate this for 2 independent random variables X and Y.
+
+10
+00:00:48,514 --> 00:00:53,440
+Moreover we already know from the last videos, that the variance is only well defined,
+
+11
+00:00:53,514 --> 00:00:57,183
+if the integral of the random variables squared exists
+
+12
+00:00:57,886 --> 00:01:03,391
+or in other words the expectation of X squared has to be a finite number
+
+13
+00:01:03,591 --> 00:01:07,014
+and of course the same we also need for the random variable Y.
+
+14
+00:01:07,071 --> 00:01:11,533
+Which means the expectation of Y squared has to be a finite number as well.
+
+15
+00:01:11,733 --> 00:01:17,870
+OK, with this we now know the variance and the standard deviation of X and Y exist.
+
+16
+00:01:18,471 --> 00:01:21,786
+So all of these are well defined real numbers.
+
+17
+00:01:22,286 --> 00:01:27,933
+However, now we are also able to say something about the sum of the 2 random variables.
+
+18
+00:01:28,133 --> 00:01:32,973
+More concretely we can now calculate the variance of X + Y
+
+19
+00:01:33,173 --> 00:01:38,431
+and maybe it's not a big surprise for you. In this case the variance is indeed additive.
+
+20
+00:01:39,000 --> 00:01:42,653
+This means we can simply pull out the plus sign here.
+
+21
+00:01:43,186 --> 00:01:48,544
+However here please don't forget, it's important that the two random variables here are independent.
+
+22
+00:01:49,157 --> 00:01:55,209
+OK, so this is the addition and now you might ask: what happens when we scale a random variable?
+
+23
+00:01:55,409 --> 00:02:01,230
+So the question is what is the variance of Lambda times X, where Lambda is a real number
+
+24
+00:02:01,743 --> 00:02:05,799
+and in fact, we can pull out this Lambda factor, but with a square.
+
+25
+00:02:06,214 --> 00:02:11,538
+So we can simplify our variance here, but we shouldn't forget this square outside.
+
+26
+00:02:11,738 --> 00:02:18,169
+OK, now you might have the idea, that we should formulate the second rule here for the standard deviation as well,
+
+27
+00:02:18,369 --> 00:02:21,794
+because there the square should vanish in the definition.
+
+28
+00:02:21,994 --> 00:02:29,627
+There please recall, the standard deviation Sigma of Lambda times X, is simply the square root of the variance.
+
+29
+00:02:29,827 --> 00:02:34,357
+This means indeed here on the right-hand side the square of Lambda vanishes,
+
+30
+00:02:34,358 --> 00:02:36,568
+but now we have the absolute value there.
+
+31
+00:02:36,768 --> 00:02:41,708
+This makes sense, because the standard deviation has to be always positive.
+
+32
+00:02:42,286 --> 00:02:47,582
+Hence also here you should remember, you can pull out a scalar from the standard deviation,
+
+33
+00:02:47,614 --> 00:02:50,390
+but then you should forget about the minus signs.
+
+34
+00:02:51,029 --> 00:02:56,519
+In other words if you just look at positive number, this is a homogeneous property.
+
+35
+00:02:57,171 --> 00:03:03,146
+Now, I would say all the 3 rules here, you should remember, because you can use them in calculations.
+
+36
+00:03:03,346 --> 00:03:06,819
+However, of course first we should prove them.
+
+37
+00:03:07,300 --> 00:03:09,492
+Indeed this is not a hard proof,
+
+38
+00:03:09,500 --> 00:03:14,786
+because we can immediately use the formula we have for the variance given by the expectations.
+
+39
+00:03:15,400 --> 00:03:20,935
+This means the variance of X + Y is given by the difference of two expectations.
+
+40
+00:03:21,343 --> 00:03:27,981
+Please recall in the first one we have the square inside the expectation and in the second one outside
+
+41
+00:03:28,271 --> 00:03:35,440
+and now the good thing we can use here is, that the properties of the expectation, we have already discussed in part 15.
+
+42
+00:03:35,640 --> 00:03:43,534
+In particular we know the expectation is linear and of course this should be something that can help us here.
+
+43
+00:03:44,329 --> 00:03:49,402
+However first here, let's expand the square inside the expectation.
+
+44
+00:03:49,771 --> 00:03:54,725
+So this is X squared + 2 times X times Y + Y squared.
+
+45
+00:03:54,925 --> 00:03:59,547
+So not so complicated and in the next step we can use the linearity here.
+
+46
+00:03:59,747 --> 00:04:04,286
+Moreover here on the right-hand side, we can use the linearity immediately.
+
+47
+00:04:04,486 --> 00:04:12,169
+So we have the expectation of X + the expectation of Y and still we have to square the whole thing.
+
+48
+00:04:12,700 --> 00:04:18,424
+Ok, then in the next step let's use the linearity of the expectation here in the first part.
+
+49
+00:04:18,814 --> 00:04:22,190
+So we can pull out the additions and the scalars.
+
+50
+00:04:22,390 --> 00:04:33,654
+Hence first we have expectation of X squared + 2 times the expectation of X times Y + the expectation of Y squared.
+
+51
+00:04:33,854 --> 00:04:39,891
+Ok, then on the other hand here the second part we can expand the square as well.
+
+52
+00:04:40,091 --> 00:04:43,941
+So this means first we have the expectation of X squared,
+
+53
+00:04:44,600 --> 00:04:53,896
+then minus 2 times the expectation of X times the expectation of Y and finally we have this squared expectation of Y.
+
+54
+00:04:54,529 --> 00:05:01,850
+Ok at this point you should see, we can already put this term together with this term to get the variance of X
+
+55
+00:05:02,171 --> 00:05:09,727
+and in the same sense this expectation here and that expectation there gives us the variance of Y.
+
+56
+00:05:09,927 --> 00:05:14,536
+So you see we have already reached what we want here on the right-hand side.
+
+57
+00:05:15,014 --> 00:05:19,950
+Therefore the only question is what is with the 2 remaining terms here?
+
+58
+00:05:20,443 --> 00:05:23,966
+So maybe first to answer this let's put them together.
+
+59
+00:05:24,629 --> 00:05:31,643
+So it's two times then the expectation of X times Y minus the expectation of X times the expectation of Y.
+
+60
+00:05:31,843 --> 00:05:35,725
+So at this point we know this whole term should be 0
+
+61
+00:05:36,157 --> 00:05:41,690
+and indeed there the independence of the 2 random variables X and Y comes in,
+
+62
+00:05:41,890 --> 00:05:49,490
+because if they are independent, then this expectation here is just the product of 2 expectations.
+
+63
+00:05:49,986 --> 00:05:53,704
+That's also something we have stated in part 15.
+
+64
+00:05:54,214 --> 00:06:03,860
+So the conclusion here is, the whole term inside the parentheses here is 0 and this finishes the proof of part (a).
+
+65
+00:06:04,286 --> 00:06:12,737
+So now let's go to part (b). In fact, part (b) is much easier, because only one random variable is involved here,
+
+66
+00:06:13,229 --> 00:06:17,517
+but again we can use the formula with the expectations for the variance.
+
+67
+00:06:17,971 --> 00:06:23,901
+So first we have the expectation, where the random variables is squared and then we square the expectation
+
+68
+00:06:24,101 --> 00:06:28,838
+and now you should see in both terms we can pull out a Lambda squared.
+
+69
+00:06:29,271 --> 00:06:33,442
+Again simply by using the linearity of the expectation.
+
+70
+00:06:33,642 --> 00:06:38,746
+Ok and then the only thing we have to do now is to factor out the Lambda squared,
+
+71
+00:06:39,057 --> 00:06:43,490
+because then only the difference of the two expectations remains
+
+72
+00:06:43,690 --> 00:06:49,791
+and we have used this formula so often now, that you immediately see this is the variance of X.
+
+73
+00:06:49,991 --> 00:06:59,269
+In other words we have proven part (b) and also not a surprise at all from part (b), we now can derive part (c).
+
+74
+00:06:59,469 --> 00:07:05,676
+Essentially part (c) was the same thing, but now for the standard deviation instead of the variance.
+
+75
+00:07:06,200 --> 00:07:10,850
+Hence the only thing we have to do here, is to take the square root of the variance
+
+76
+00:07:11,271 --> 00:07:16,349
+and then by using part (b), we see we have the square root of Lambda squared
+
+77
+00:07:16,843 --> 00:07:21,329
+and indeed this is simply now the absolute value of Lambda
+
+78
+00:07:21,471 --> 00:07:27,716
+and the other factor is just this square root of the variance of X, which is the standard deviation of X.
+
+79
+00:07:28,129 --> 00:07:32,241
+Ok and with this you see the whole proof is finished.
+
+80
+00:07:32,441 --> 00:07:39,494
+So as I said please remember all these properties, all the formulas here, because you can use them in calculations
+
+81
+00:07:40,114 --> 00:07:43,786
+and indeed how to do that, we will see in the next videos.
+
+82
+00:07:43,871 --> 00:07:48,143
+Therefore I really hope that I see you there and have a nice day. Bye!
+
