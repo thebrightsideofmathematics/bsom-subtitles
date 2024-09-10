@@ -1,0 +1,152 @@
+1
+00:00:00,329 --> 00:00:06,171
+Hallo und herzlich Willkommen zu diesem kurzen Video. Das sogenannte Hare/Niemeyer-Verfahren.
+
+2
+00:00:06,220 --> 00:00:11,002
+Ein Verfahren was verwendet wird um die Sitzverteilung nach einer Wahl zu bestimmen.
+
+3
+00:00:11,202 --> 00:00:14,243
+Andere Namen für exakt das gleiche Verfahren sind
+
+4
+00:00:14,357 --> 00:00:17,267
+Quotenverfahren mit Ausgleich nach größten Resten
+
+5
+00:00:17,467 --> 00:00:20,793
+und im englischsprachigen Raum Hamilton's method.
+
+6
+00:00:20,993 --> 00:00:25,330
+Das Problem was dieses Verfahren nun lösen möchte, ist ganz einfach zu erklären.
+
+7
+00:00:25,331 --> 00:00:31,044
+Denn nach einer Wahl haben wir ganz viele Stimmen, die sich auf unterschiedliche Parteien verteilen können.
+
+8
+00:00:31,244 --> 00:00:38,443
+Aber dann auf der anderen Seite haben wir eine deutlich kleinere Anzahl von Sitzen, die wir repräsentativ besetzten wollen.
+
+9
+00:00:38,643 --> 00:00:42,443
+Das bedeutet wir müssen nur einen gewöhnlichen Dreisatz durchführen,
+
+10
+00:00:42,555 --> 00:00:47,720
+um eine Zuordnung zwischen der Anzahl der Stimmen und der Anzahl der Sitze zu bekommen.
+
+11
+00:00:47,920 --> 00:00:55,162
+In diesem Beispiel entsprechen also diese mehr als 2 Millionen Stimmen gerade 119 Sitzen im Parlament.
+
+12
+00:00:55,500 --> 00:01:00,484
+Zusätzlich sollte ich natürlich erwähnen, dass ich auf der linken Seite nur die Anzahl der gültigen Stimmen,
+
+13
+00:01:00,684 --> 00:01:03,744
+für die Parteien die wir überhaupt berücksichtigen nehmen
+
+14
+00:01:03,944 --> 00:01:08,257
+und nun nach der Logik des Dreisatzes können wir hier einfach dividieren,
+
+15
+00:01:08,286 --> 00:01:11,872
+um zu sehen wie viele Stimmen einem Sitz entsprechen.
+
+16
+00:01:12,072 --> 00:01:18,548
+Üblicherweise ist das keine ganze Zahl und im Hare/Niemeyer-Verfahren wird auch nicht gerundet.
+
+17
+00:01:18,900 --> 00:01:26,576
+Ok und nun die Zahl, die wir dort herausbekommen nennen wir oft die Hare-Quote und ich bezeichne sie mit Q hier
+
+18
+00:01:26,776 --> 00:01:33,718
+und klarer weise sagt sie uns einfach nur, wie viele Stimmen man braucht, um genau einen Sitz im Parlament zu bekommen.
+
+19
+00:01:33,918 --> 00:01:36,554
+Daraus folgt nun aber auch mit unserem Dreisatz,
+
+20
+00:01:36,600 --> 00:01:42,674
+dass wir hier einfach mit Q dividieren müssen, um die Anzahl der Sitze für jede Partei zu bekommen.
+
+21
+00:01:42,874 --> 00:01:49,697
+Die Sache ist nun aber auch dort, dass wir gewöhnlicherweise keine ganze Zahl, für die Anzahl der Sitze, bekommen
+
+22
+00:01:49,897 --> 00:01:55,483
+und genau dort sagt uns das Hare/Niemeyer-Verfahren, wie wir damit umgehen sollen.
+
+23
+00:01:55,683 --> 00:01:57,996
+In der Tat gibt es einfach nur 2 Schritte.
+
+24
+00:01:58,196 --> 00:02:03,341
+Wobei im ersten Schritt erstmal jede Partei die Anzahl der Sitze vor dem Komma bekommt.
+
+25
+00:02:03,541 --> 00:02:07,970
+Mit anderen Worten, im ersten Schritt wird einfach abgerundet.
+
+26
+00:02:08,371 --> 00:02:13,747
+Das bedeutet aber auch, dass man eigentlich in allen Fällen zu wenig Sitze besetzt hat.
+
+27
+00:02:13,947 --> 00:02:21,343
+In dem Beispiel hier, sehen wir, dass exakt 4 Sitze fehlen und gerade deswegen gibt es noch einen zweiten Schritt.
+
+28
+00:02:21,500 --> 00:02:27,157
+Hier werden noch 4 zusätzliche Sitze verteilt und die Regel ist auch ganz einfach zu merken.
+
+29
+00:02:27,357 --> 00:02:31,900
+Die Parteien mit den größten Resten, bekommen jeweils noch einen Sitz
+
+30
+00:02:32,086 --> 00:02:37,687
+und tatsächlich hier ist es ganz einfach zu sehen. Wir haben die 9, die 8 und die zwei Sechsen hier.
+
+31
+00:02:37,887 --> 00:02:44,861
+Deswegen bekommen genau diese 4 Parteien jeweils einen zusätzlichen Sitz und die anderen gehen leer aus
+
+32
+00:02:45,143 --> 00:02:47,102
+und damit sind wir nun auch fertig.
+
+33
+00:02:47,302 --> 00:02:52,328
+Das Hare/Niemeyer-Verfahren sagt uns nun, wie diese 119 Sitze zu besetzen sind.
+
+34
+00:02:52,528 --> 00:02:57,909
+Ihr seht also, das Verfahren ist überhaupt nicht schwierig und ganz einfach nachzuvollziehen.
+
+35
+00:02:58,257 --> 00:03:01,471
+Man muss also nur einen Dreisatz ausführen, abrunden
+
+36
+00:03:01,529 --> 00:03:05,064
+und dann im zweiten Schritt, die übrig gebliebenen Sitze verteilen.
+
+37
+00:03:05,500 --> 00:03:10,974
+Das kann also wirklich jeder, für jedes Wahlergebnis, in einer kleinen Excel-Tabelle nachrechnen
+
+38
+00:03:11,400 --> 00:03:16,714
+und dann würde ich sagen, wir können uns gerne beim nächsten Mathevideo wieder treffen. Bis dann!
+
