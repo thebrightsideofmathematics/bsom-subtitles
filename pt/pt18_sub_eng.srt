@@ -4,7 +4,7 @@ Hello and welcome back to probability theory.
 
 2
 00:00:04,239 --> 00:00:11,769
-We've already reached part 18 in the series and we are still talking about the variance and the standard deviation.
+We've already reached part 18 in the series and we are still talking about the variance and the standard deviation.
 
 3
 00:00:11,969 --> 00:00:17,678
