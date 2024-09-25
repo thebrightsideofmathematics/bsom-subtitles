@@ -84,7 +84,7 @@ Which is 0.
 
 22
 00:01:45,743 --> 00:01:48,196
-Ok, so this is the Nambla symbol.
+Ok, so this is the Nabla symbol.
 
 23
 00:01:48,396 --> 00:01:51,112

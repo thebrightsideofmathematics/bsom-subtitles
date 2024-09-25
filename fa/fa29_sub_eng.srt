@@ -556,7 +556,7 @@
 
 140
 00:03:38,679 --> 00:03:40,639
- on is an eigen vector
+ on is an eigenvector
 
 141
 00:03:40,649 --> 00:03:42,139
