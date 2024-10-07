@@ -1,0 +1,13 @@
+Hilbert Spaces - Part 1
+
+00:00 Introduction
+00:45 Network for the video courses
+01:40 Prerequisite for the course
+02:27 Topics in Hilbert Spaces
+03:53 Definition for inner product spaces
+06:53 Pre-Hilbert space as an alternative name
+07:11 Cauchy-Schwarz inequality
+07:53 Proof of Cauchy-Schwarz
+11:20 Norm on inner product spaces
+11:57 Definition of Hilbert space
+12:34 Credits
