@@ -1,0 +1,14 @@
+Complex Analysis - Part 13 
+
+00:00 Intro
+00:12 Logarithm as inverse of exponential function 
+00:33 How it works in the real numbers
+01:54 Complex exponential function 
+03:08 exp(iy) lies on the unit circle
+04:00 Definition of π
+06:05 Exponential is 2πi-periodic
+06:49 Exp is not injective
+08:40 Restrict to open strip and slotted plane
+09:06 Definition of logarithm (principal value)
+09:56 Properties of logarithm
+12:22 Credits
