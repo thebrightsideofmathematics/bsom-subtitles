@@ -1,0 +1,10 @@
+Complex Analysis - Part 14 
+
+00:00 Intro
+00:14 Powers with complex numbers 
+01:06 Power definition in the real numbers
+03:45 Using logarithm to write powers 
+04:50 Power definition in the complex numbers
+06:05 What to do with a complex base?
+07:00 Principal value of the power function
+08:48 Credits
