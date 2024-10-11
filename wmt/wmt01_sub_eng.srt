@@ -1,0 +1,1724 @@
+1
+00:00:00,680 --> 00:00:02,310
+ Hello and welcome to this
+
+2
+00:00:02,350 --> 00:00:04,078
+ video about the Weierstrass
+
+3
+00:00:04,134 --> 00:00:04,970
+ M test.
+
+4
+00:00:05,350 --> 00:00:06,782
+ This is a topic from real
+
+5
+00:00:06,846 --> 00:00:08,222
+ analysis, so if you want
+
+6
+00:00:08,246 --> 00:00:09,390
+ to learn more, you should
+
+7
+00:00:09,430 --> 00:00:10,974
+ check out my real analysis
+
+8
+00:00:11,022 --> 00:00:11,610
+ course.
+
+9
+00:00:12,030 --> 00:00:13,374
+ However, before we start
+
+10
+00:00:13,422 --> 00:00:15,070
+ with this M test, I really
+
+11
+00:00:15,110 --> 00:00:16,270
+ want to thank all the nice
+
+12
+00:00:16,310 --> 00:00:17,462
+ people who support this channel
+
+13
+00:00:17,486 --> 00:00:18,926
+ on Steady here on YouTube
+
+14
+00:00:18,998 --> 00:00:20,326
+ or via other means.
+
+15
+00:00:20,518 --> 00:00:21,966
+ And please don't forget with
+
+16
+00:00:21,998 --> 00:00:23,230
+ the link in the description
+
+17
+00:00:23,310 --> 00:00:24,918
+ you find additional material
+
+18
+00:00:25,014 --> 00:00:26,798
+ like PDF versions, quizzes
+
+19
+00:00:26,854 --> 00:00:27,970
+ and other stuff.
+
+20
+00:00:28,440 --> 00:00:28,968
+ Okay.
+
+21
+00:00:29,024 --> 00:00:30,328
+ With this I would say we
+
+22
+00:00:30,344 --> 00:00:32,184
+ can immediately start explaining
+
+23
+00:00:32,272 --> 00:00:34,100
+ the Weierstrass M test.
+
+24
+00:00:34,560 --> 00:00:35,808
+ Now what you should remember
+
+25
+00:00:35,904 --> 00:00:37,808
+ is that this M test is
+
+26
+00:00:37,824 --> 00:00:39,168
+ a comparison test for
+
+27
+00:00:39,224 --> 00:00:40,696
+ series, but for the
+
+28
+00:00:40,728 --> 00:00:42,552
+ uniform convergence for
+
+29
+00:00:42,576 --> 00:00:44,140
+ a sequence of functions.
+
+30
+00:00:44,560 --> 00:00:45,744
+ So it's not so complicated
+
+31
+00:00:45,792 --> 00:00:46,320
+ at all.
+
+32
+00:00:46,400 --> 00:00:48,256
+ And it's called m test simply
+
+33
+00:00:48,288 --> 00:00:49,728
+ because the constants in
+
+34
+00:00:49,744 --> 00:00:51,168
+ the theorem are called
+
+35
+00:00:51,264 --> 00:00:51,952
+ M.
+
+36
+00:00:52,136 --> 00:00:53,224
+ And there I would say we
+
+37
+00:00:53,232 --> 00:00:54,384
+ can immediately formulate
+
+38
+00:00:54,432 --> 00:00:55,340
+ this statement.
+
+39
+00:00:56,180 --> 00:00:57,436
+ And as already mentioned,
+
+40
+00:00:57,508 --> 00:00:59,060
+ the only thing you need here
+
+41
+00:00:59,140 --> 00:01:00,500
+ is to know what a series
+
+42
+00:01:00,620 --> 00:01:02,100
+ is and the uniform
+
+43
+00:01:02,140 --> 00:01:03,540
+ convergence for a sequence
+
+44
+00:01:03,580 --> 00:01:04,520
+ of functions.
+
+45
+00:01:04,940 --> 00:01:06,268
+ And these functions can be
+
+46
+00:01:06,284 --> 00:01:07,516
+ defined on any set.
+
+47
+00:01:07,588 --> 00:01:09,188
+ So let's call it D.
+
+48
+00:01:09,364 --> 00:01:11,108
+ And indeed, often we have
+
+49
+00:01:11,164 --> 00:01:13,060
+ that D is a subset of the
+
+50
+00:01:13,100 --> 00:01:14,160
+ real numbers.
+
+51
+00:01:14,580 --> 00:01:16,452
+ Hence our functions fk
+
+52
+00:01:16,556 --> 00:01:18,100
+ should have D as their
+
+53
+00:01:18,140 --> 00:01:18,916
+ domain.
+
+54
+00:01:19,108 --> 00:01:20,356
+ And now the functions could
+
+55
+00:01:20,388 --> 00:01:22,164
+ be real valued or complex
+
+56
+00:01:22,212 --> 00:01:23,110
+ valued.
+
+57
+00:01:23,300 --> 00:01:24,786
+ So in general we could just
+
+58
+00:01:24,858 --> 00:01:26,386
+ write that they map into
+
+59
+00:01:26,418 --> 00:01:28,298
+ the complex numbers and
+
+60
+00:01:28,314 --> 00:01:29,594
+ then we have a function for
+
+61
+00:01:29,642 --> 00:01:31,218
+ each k in the natural
+
+62
+00:01:31,274 --> 00:01:33,026
+ numbers, so already
+
+63
+00:01:33,098 --> 00:01:34,882
+ a whole sequence of functions
+
+64
+00:01:34,946 --> 00:01:36,790
+ with the same domain D.
+
+65
+00:01:37,130 --> 00:01:38,570
+ However, for the Weierstrass
+
+66
+00:01:38,610 --> 00:01:40,050
+ M test we are interested
+
+67
+00:01:40,090 --> 00:01:41,866
+ in the partial sums, so the
+
+68
+00:01:41,898 --> 00:01:43,630
+ series of these functions.
+
+69
+00:01:44,010 --> 00:01:45,466
+ And to have the convergence
+
+70
+00:01:45,498 --> 00:01:46,994
+ of this series, we
+
+71
+00:01:47,042 --> 00:01:48,818
+ assume that we have constants
+
+72
+00:01:48,914 --> 00:01:50,732
+ with the name M.
+
+73
+00:01:50,906 --> 00:01:52,328
+ And as already mentioned,
+
+74
+00:01:52,424 --> 00:01:53,632
+ this is the whole reason
+
+75
+00:01:53,696 --> 00:01:55,540
+ we call it the M test.
+
+76
+00:01:56,000 --> 00:01:57,304
+ Now we have two assumptions
+
+77
+00:01:57,352 --> 00:01:58,400
+ for these constants.
+
+78
+00:01:58,520 --> 00:01:59,744
+ First, they should be non
+
+79
+00:01:59,792 --> 00:02:01,496
+ negative, and second, the
+
+80
+00:02:01,528 --> 00:02:02,480
+ series should be
+
+81
+00:02:02,520 --> 00:02:03,576
+ convergent.
+
+82
+00:02:03,768 --> 00:02:05,280
+ This means that the limit
+
+83
+00:02:05,320 --> 00:02:07,096
+ of the partial sums should
+
+84
+00:02:07,168 --> 00:02:07,900
+ exist.
+
+85
+00:02:08,440 --> 00:02:09,960
+ In other words, the value
+
+86
+00:02:10,040 --> 00:02:11,960
+ of the series is not equal
+
+87
+00:02:12,000 --> 00:02:13,096
+ to infinity.
+
+88
+00:02:13,288 --> 00:02:14,696
+ And now in addition, the
+
+89
+00:02:14,728 --> 00:02:16,256
+ constants should be always
+
+90
+00:02:16,368 --> 00:02:17,836
+ bigger than the values
+
+91
+00:02:17,868 --> 00:02:19,760
+ of the functions fk.
+
+92
+00:02:20,220 --> 00:02:21,844
+ More precisely, we look at
+
+93
+00:02:21,892 --> 00:02:23,684
+ f k of x and take
+
+94
+00:02:23,732 --> 00:02:25,640
+ the absolute value of this,
+
+95
+00:02:26,060 --> 00:02:27,444
+ and then this should be less
+
+96
+00:02:27,492 --> 00:02:28,676
+ or equal than
+
+97
+00:02:28,748 --> 00:02:29,560
+ M_k.
+
+98
+00:02:29,940 --> 00:02:31,580
+ And indeed we want that for
+
+99
+00:02:31,620 --> 00:02:33,492
+ all k in n and for
+
+100
+00:02:33,556 --> 00:02:35,092
+ all x in D.
+
+101
+00:02:35,276 --> 00:02:36,980
+ So the constants M_k
+
+102
+00:02:37,100 --> 00:02:39,044
+ form a uniform majorant
+
+103
+00:02:39,092 --> 00:02:40,160
+ for the functions.
+
+104
+00:02:40,620 --> 00:02:42,324
+ Ok, so these are the assumptions
+
+105
+00:02:42,372 --> 00:02:43,752
+ we need, and then we get
+
+106
+00:02:43,776 --> 00:02:45,320
+ the result for the series
+
+107
+00:02:45,440 --> 00:02:47,180
+ of the functions fk.
+
+108
+00:02:47,480 --> 00:02:48,872
+ Indeed, by the comparison
+
+109
+00:02:48,936 --> 00:02:50,472
+ test for series we
+
+110
+00:02:50,496 --> 00:02:51,576
+ immediately get that the
+
+111
+00:02:51,608 --> 00:02:53,208
+ sequence of partial sums
+
+112
+00:02:53,344 --> 00:02:55,336
+ converges for every x in
+
+113
+00:02:55,368 --> 00:02:56,016
+ D.
+
+114
+00:02:56,208 --> 00:02:57,928
+ However, we get even more
+
+115
+00:02:58,024 --> 00:02:59,736
+ because we deal with functions.
+
+116
+00:02:59,848 --> 00:03:01,120
+ The term uniform
+
+117
+00:03:01,160 --> 00:03:02,560
+ convergence also makes
+
+118
+00:03:02,600 --> 00:03:03,296
+ sense.
+
+119
+00:03:03,488 --> 00:03:05,392
+ So we get out that the series
+
+120
+00:03:05,496 --> 00:03:06,704
+ is uniformly
+
+121
+00:03:06,752 --> 00:03:07,740
+ convergent.
+
+122
+00:03:08,040 --> 00:03:09,808
+ Moreover, as a side note,
+
+123
+00:03:09,864 --> 00:03:11,488
+ I should also mention that
+
+124
+00:03:11,504 --> 00:03:12,888
+ we have the same result for
+
+125
+00:03:12,904 --> 00:03:14,192
+ the absolute value of the
+
+126
+00:03:14,216 --> 00:03:14,940
+ functions.
+
+127
+00:03:15,360 --> 00:03:17,168
+ So both nice things come
+
+128
+00:03:17,224 --> 00:03:18,640
+ out of the Weierstrass M-
+
+129
+00:03:18,680 --> 00:03:19,288
+ test.
+
+130
+00:03:19,464 --> 00:03:20,736
+ Now, in the case you don't
+
+131
+00:03:20,768 --> 00:03:22,144
+ know exactly what the term
+
+132
+00:03:22,192 --> 00:03:23,856
+ uniform convergence means,
+
+133
+00:03:24,008 --> 00:03:25,616
+ let me refresh your memory
+
+134
+00:03:25,688 --> 00:03:26,208
+ here.
+
+135
+00:03:26,344 --> 00:03:27,528
+ Now, the first thing you
+
+136
+00:03:27,544 --> 00:03:28,808
+ should see here is that we
+
+137
+00:03:28,824 --> 00:03:30,248
+ get a well defined function
+
+138
+00:03:30,304 --> 00:03:32,100
+ we can call S,
+
+139
+00:03:32,440 --> 00:03:33,864
+ and this one has the same
+
+140
+00:03:33,912 --> 00:03:35,592
+ domain D and it sends
+
+141
+00:03:35,696 --> 00:03:37,460
+ x to this series.
+
+142
+00:03:38,250 --> 00:03:39,562
+ And what I mean there is
+
+143
+00:03:39,586 --> 00:03:41,506
+ that we just sum up f
+
+144
+00:03:41,578 --> 00:03:43,530
+ k of x and
+
+145
+00:03:43,570 --> 00:03:44,842
+ this limit should exist.
+
+146
+00:03:44,946 --> 00:03:46,266
+ So we get a well defined
+
+147
+00:03:46,338 --> 00:03:47,510
+ function S.
+
+148
+00:03:47,810 --> 00:03:49,538
+ And moreover, this capital
+
+149
+00:03:49,634 --> 00:03:51,426
+ S is the limit of the
+
+150
+00:03:51,458 --> 00:03:53,042
+ partial sums of the functions
+
+151
+00:03:53,106 --> 00:03:53,882
+ fk.
+
+152
+00:03:54,066 --> 00:03:55,954
+ And when I say limit, I mean
+
+153
+00:03:56,002 --> 00:03:57,650
+ with respect to the supremum
+
+154
+00:03:57,690 --> 00:03:58,378
+ norm.
+
+155
+00:03:58,554 --> 00:04:00,306
+ And please recall, the supremum
+
+156
+00:04:00,338 --> 00:04:02,210
+ norm is usually denoted with
+
+157
+00:04:02,250 --> 00:04:03,906
+ this infinity sign on the
+
+158
+00:04:03,938 --> 00:04:04,590
+ norm.
+
+159
+00:04:04,970 --> 00:04:06,626
+ Now, S is the uniform
+
+160
+00:04:06,698 --> 00:04:08,362
+ limit for the partial sums.
+
+161
+00:04:08,466 --> 00:04:10,178
+ So this goes to zero when
+
+162
+00:04:10,234 --> 00:04:11,710
+ n goes to infinity.
+
+163
+00:04:12,290 --> 00:04:14,026
+ Hence, this is exactly what
+
+164
+00:04:14,058 --> 00:04:15,354
+ we mean by the uniform
+
+165
+00:04:15,402 --> 00:04:17,306
+ convergence stated in the
+
+166
+00:04:17,338 --> 00:04:18,190
+ theorem.
+
+167
+00:04:18,690 --> 00:04:19,986
+ And maybe it's always good
+
+168
+00:04:20,018 --> 00:04:21,586
+ to visualize this convergence
+
+169
+00:04:21,618 --> 00:04:22,402
+ in a picture.
+
+170
+00:04:22,506 --> 00:04:24,106
+ So let's sketch the graph
+
+171
+00:04:24,178 --> 00:04:25,750
+ of the function S,
+
+172
+00:04:26,050 --> 00:04:27,634
+ and let's simply say that
+
+173
+00:04:27,682 --> 00:04:29,482
+ here on the x axis, we have
+
+174
+00:04:29,506 --> 00:04:30,956
+ the domain D.
+
+175
+00:04:31,098 --> 00:04:32,864
+ Hence, for example, the graph
+
+176
+00:04:32,912 --> 00:04:34,488
+ of S could look like
+
+177
+00:04:34,544 --> 00:04:35,140
+ this.
+
+178
+00:04:35,560 --> 00:04:37,272
+ And now what one can do is
+
+179
+00:04:37,296 --> 00:04:38,768
+ to look at such an epsilon
+
+180
+00:04:38,824 --> 00:04:40,344
+ tube around this
+
+181
+00:04:40,392 --> 00:04:41,112
+ graph.
+
+182
+00:04:41,296 --> 00:04:42,992
+ And then the result is, no
+
+183
+00:04:43,016 --> 00:04:44,448
+ matter how small we choose
+
+184
+00:04:44,504 --> 00:04:46,384
+ this epsilon, the graph
+
+185
+00:04:46,472 --> 00:04:47,928
+ of the partial sums
+
+186
+00:04:48,064 --> 00:04:49,780
+ always lies inside.
+
+187
+00:04:50,280 --> 00:04:51,856
+ Obviously, this only has
+
+188
+00:04:51,888 --> 00:04:53,520
+ to hold eventually, which
+
+189
+00:04:53,560 --> 00:04:55,200
+ means n has to be big
+
+190
+00:04:55,240 --> 00:04:55,820
+ enough.
+
+191
+00:04:56,290 --> 00:04:57,970
+ So this is what you can remember.
+
+192
+00:04:58,090 --> 00:04:59,466
+ This is exactly what the
+
+193
+00:04:59,498 --> 00:05:01,310
+ uniform convergence means.
+
+194
+00:05:01,770 --> 00:05:03,178
+ Okay, then the next step
+
+195
+00:05:03,234 --> 00:05:05,010
+ would be to look at the proof
+
+196
+00:05:05,050 --> 00:05:06,110
+ of this statement.
+
+197
+00:05:06,610 --> 00:05:08,146
+ And in fact, it's surprisingly
+
+198
+00:05:08,178 --> 00:05:08,706
+ easy.
+
+199
+00:05:08,818 --> 00:05:10,298
+ We only need the so called
+
+200
+00:05:10,354 --> 00:05:12,058
+ Cauchy criterion for
+
+201
+00:05:12,114 --> 00:05:12,710
+ series.
+
+202
+00:05:13,170 --> 00:05:14,482
+ And you can find that in
+
+203
+00:05:14,506 --> 00:05:16,378
+ my real analysis course in
+
+204
+00:05:16,434 --> 00:05:17,510
+ part 17.
+
+205
+00:05:18,050 --> 00:05:19,722
+ And it simply tells us that
+
+206
+00:05:19,746 --> 00:05:20,754
+ a series is
+
+207
+00:05:20,802 --> 00:05:22,790
+ convergent if and only
+
+208
+00:05:22,870 --> 00:05:24,534
+ if the partial sums form
+
+209
+00:05:24,582 --> 00:05:26,410
+ a Cauchy sequence.
+
+210
+00:05:26,750 --> 00:05:28,134
+ So you see, the Cauchy
+
+211
+00:05:28,182 --> 00:05:29,726
+ criterion simply
+
+212
+00:05:29,798 --> 00:05:31,430
+ uses the completeness of
+
+213
+00:05:31,470 --> 00:05:33,446
+ the real or complex numbers.
+
+214
+00:05:33,598 --> 00:05:35,014
+ Now, more precisely, this
+
+215
+00:05:35,062 --> 00:05:36,510
+ means that for all epsilon
+
+216
+00:05:36,550 --> 00:05:38,350
+ greater zero, we find an
+
+217
+00:05:38,390 --> 00:05:39,854
+ index capital N
+
+218
+00:05:40,022 --> 00:05:41,406
+ such that for all
+
+219
+00:05:41,478 --> 00:05:43,250
+ indices afterwards,
+
+220
+00:05:43,590 --> 00:05:45,014
+ and let's simply call them
+
+221
+00:05:45,062 --> 00:05:46,462
+ lowercase n and
+
+222
+00:05:46,526 --> 00:05:48,376
+ m, we have that
+
+223
+00:05:48,408 --> 00:05:50,200
+ the sum in the absolute value
+
+224
+00:05:50,320 --> 00:05:52,020
+ is less than epsilon,
+
+225
+00:05:52,360 --> 00:05:54,040
+ and the sum has to go from
+
+226
+00:05:54,120 --> 00:05:55,688
+ m to the index
+
+227
+00:05:55,864 --> 00:05:56,560
+ n.
+
+228
+00:05:56,720 --> 00:05:58,240
+ So you could just say this
+
+229
+00:05:58,280 --> 00:05:59,624
+ partial sum is
+
+230
+00:05:59,672 --> 00:06:00,944
+ arbitrarily small
+
+231
+00:06:01,072 --> 00:06:02,020
+ eventually.
+
+232
+00:06:02,440 --> 00:06:04,168
+ And now please recall, in
+
+233
+00:06:04,184 --> 00:06:05,608
+ the assumption of the theorem,
+
+234
+00:06:05,664 --> 00:06:07,520
+ we assumed that we have the
+
+235
+00:06:07,560 --> 00:06:08,904
+ convergence for the series
+
+236
+00:06:08,992 --> 00:06:10,960
+ of Mk, which means
+
+237
+00:06:11,040 --> 00:06:12,800
+ we have the Cauchy criterion
+
+238
+00:06:12,880 --> 00:06:13,788
+ as well.
+
+239
+00:06:13,984 --> 00:06:15,340
+ Hence, for a given epsilon
+
+240
+00:06:15,380 --> 00:06:17,204
+ greater zero, we can choose
+
+241
+00:06:17,252 --> 00:06:18,644
+ a capital N as
+
+242
+00:06:18,692 --> 00:06:20,620
+ above, and then we immediately
+
+243
+00:06:20,660 --> 00:06:22,468
+ get a result for the series
+
+244
+00:06:22,564 --> 00:06:24,492
+ of the functions fk.
+
+245
+00:06:24,676 --> 00:06:25,972
+ So let's simply look at the
+
+246
+00:06:25,996 --> 00:06:27,964
+ partial sums from m to
+
+247
+00:06:28,012 --> 00:06:29,076
+ n as well.
+
+248
+00:06:29,268 --> 00:06:30,644
+ And then we can just use
+
+249
+00:06:30,692 --> 00:06:32,252
+ the standard triangle
+
+250
+00:06:32,316 --> 00:06:33,240
+ inequality.
+
+251
+00:06:33,820 --> 00:06:35,508
+ It's a finite sum, so we
+
+252
+00:06:35,524 --> 00:06:36,796
+ can just pull the absolute
+
+253
+00:06:36,828 --> 00:06:37,960
+ value inside.
+
+254
+00:06:38,300 --> 00:06:39,596
+ And then in the next step
+
+255
+00:06:39,668 --> 00:06:41,588
+ we can just estimate f
+
+256
+00:06:41,644 --> 00:06:43,360
+ k of x inside.
+
+257
+00:06:43,900 --> 00:06:45,308
+ And now the assumption comes
+
+258
+00:06:45,364 --> 00:06:47,092
+ in that we know that each
+
+259
+00:06:47,156 --> 00:06:49,028
+ one is less or equal than
+
+260
+00:06:49,084 --> 00:06:49,932
+ Mk.
+
+261
+00:06:50,116 --> 00:06:51,716
+ However, for the series of
+
+262
+00:06:51,748 --> 00:06:53,652
+ the non negative Mk's,
+
+263
+00:06:53,756 --> 00:06:55,524
+ we already know it's less
+
+264
+00:06:55,572 --> 00:06:57,204
+ than epsilon by the Cauchy
+
+265
+00:06:57,252 --> 00:06:58,120
+ criterion.
+
+266
+00:06:58,420 --> 00:06:59,924
+ In other words, the Cauchy
+
+267
+00:06:59,972 --> 00:07:01,660
+ criterion now also tells
+
+268
+00:07:01,700 --> 00:07:03,636
+ us that this series here
+
+269
+00:07:03,708 --> 00:07:05,276
+ is a convergent one,
+
+270
+00:07:05,468 --> 00:07:07,188
+ which already implies that
+
+271
+00:07:07,204 --> 00:07:08,762
+ the function S from above
+
+272
+00:07:08,876 --> 00:07:10,798
+ is a well defined function.
+
+273
+00:07:10,974 --> 00:07:12,894
+ In other words, it exists
+
+274
+00:07:13,022 --> 00:07:14,558
+ and it makes sense to talk
+
+275
+00:07:14,614 --> 00:07:15,342
+ about it.
+
+276
+00:07:15,486 --> 00:07:16,590
+ And thats what we will do
+
+277
+00:07:16,630 --> 00:07:18,494
+ now, because we want to talk
+
+278
+00:07:18,542 --> 00:07:20,326
+ about the supremum norm
+
+279
+00:07:20,518 --> 00:07:21,902
+ more concretely, we want
+
+280
+00:07:21,926 --> 00:07:23,390
+ to take the difference of
+
+281
+00:07:23,470 --> 00:07:25,134
+ S with the partial sums
+
+282
+00:07:25,262 --> 00:07:26,830
+ in the supremum norm.
+
+283
+00:07:26,990 --> 00:07:28,286
+ And exactly like before,
+
+284
+00:07:28,398 --> 00:07:29,918
+ lets fix an epsilon greater
+
+285
+00:07:29,974 --> 00:07:31,446
+ zero and lets choose the
+
+286
+00:07:31,478 --> 00:07:33,198
+ corresponding index capital
+
+287
+00:07:33,294 --> 00:07:33,910
+ N.
+
+288
+00:07:34,070 --> 00:07:35,582
+ And as always, the lowercase
+
+289
+00:07:35,646 --> 00:07:37,350
+ n should be greater or equal
+
+290
+00:07:37,390 --> 00:07:39,050
+ than this capital N.
+
+291
+00:07:39,200 --> 00:07:40,806
+ Now first, as a reminder,
+
+292
+00:07:40,878 --> 00:07:42,566
+ the supremum norm is given
+
+293
+00:07:42,638 --> 00:07:43,862
+ by the supremum.
+
+294
+00:07:44,006 --> 00:07:45,542
+ So instead of the norm, we
+
+295
+00:07:45,566 --> 00:07:47,182
+ can just write supremum
+
+296
+00:07:47,246 --> 00:07:49,090
+ over x in D.
+
+297
+00:07:49,390 --> 00:07:50,766
+ And then we just look at
+
+298
+00:07:50,798 --> 00:07:52,566
+ the absolute value of the
+
+299
+00:07:52,598 --> 00:07:54,170
+ value of the functions.
+
+300
+00:07:54,670 --> 00:07:56,374
+ In other words, we just put
+
+301
+00:07:56,422 --> 00:07:57,918
+ in x at the correct
+
+302
+00:07:57,974 --> 00:07:58,970
+ positions.
+
+303
+00:07:59,630 --> 00:08:01,118
+ And then in the next step
+
+304
+00:08:01,174 --> 00:08:02,638
+ we can simply substitute
+
+305
+00:08:02,694 --> 00:08:04,510
+ s with the limit
+
+306
+00:08:04,550 --> 00:08:05,370
+ definition.
+
+307
+00:08:05,850 --> 00:08:07,306
+ This means instead of the
+
+308
+00:08:07,338 --> 00:08:09,202
+ infinity symbol here we can
+
+309
+00:08:09,226 --> 00:08:11,050
+ just write limit of
+
+310
+00:08:11,090 --> 00:08:12,310
+ the partial sums.
+
+311
+00:08:12,610 --> 00:08:14,474
+ So maybe let's use a number
+
+312
+00:08:14,562 --> 00:08:16,010
+ m that goes to
+
+313
+00:08:16,050 --> 00:08:16,830
+ infinity.
+
+314
+00:08:17,170 --> 00:08:18,674
+ And now we can simply use
+
+315
+00:08:18,722 --> 00:08:20,082
+ that the absolute value is
+
+316
+00:08:20,106 --> 00:08:21,930
+ a continuous function, which
+
+317
+00:08:21,970 --> 00:08:23,490
+ means we can pull out the
+
+318
+00:08:23,530 --> 00:08:24,258
+ limit.
+
+319
+00:08:24,434 --> 00:08:25,546
+ So it's not a problem at
+
+320
+00:08:25,578 --> 00:08:27,082
+ all to write the limit in
+
+321
+00:08:27,106 --> 00:08:28,870
+ front of the absolute value.
+
+322
+00:08:29,250 --> 00:08:31,002
+ And then you should see inside
+
+323
+00:08:31,066 --> 00:08:32,026
+ the absolute value.
+
+324
+00:08:32,138 --> 00:08:33,274
+ It looks much simpler.
+
+325
+00:08:33,322 --> 00:08:35,132
+ Now we just subtract
+
+326
+00:08:35,196 --> 00:08:37,068
+ finite sums so we know
+
+327
+00:08:37,124 --> 00:08:38,920
+ a finite sum remains.
+
+328
+00:08:39,540 --> 00:08:40,884
+ However, maybe it's not clear
+
+329
+00:08:40,932 --> 00:08:42,564
+ how to write this sum because
+
+330
+00:08:42,612 --> 00:08:44,436
+ we don't know if m or n is
+
+331
+00:08:44,468 --> 00:08:45,076
+ bigger.
+
+332
+00:08:45,228 --> 00:08:46,572
+ But obviously in the case
+
+333
+00:08:46,636 --> 00:08:48,500
+ that m is bigger than n,
+
+334
+00:08:48,580 --> 00:08:50,156
+ we would say that k goes
+
+335
+00:08:50,188 --> 00:08:51,732
+ from n plus one to
+
+336
+00:08:51,796 --> 00:08:52,400
+ m.
+
+337
+00:08:52,740 --> 00:08:54,148
+ And of course, in the second
+
+338
+00:08:54,204 --> 00:08:55,580
+ case, we would just write
+
+339
+00:08:55,620 --> 00:08:56,960
+ it the other way around.
+
+340
+00:08:57,380 --> 00:08:58,604
+ It does not change so much,
+
+341
+00:08:58,652 --> 00:08:59,972
+ because we know that for
+
+342
+00:08:59,996 --> 00:09:01,740
+ both cases, if n and
+
+343
+00:09:01,780 --> 00:09:03,268
+ m are bigger than the capital
+
+344
+00:09:03,364 --> 00:09:04,964
+ N, then this whole
+
+345
+00:09:05,012 --> 00:09:06,300
+ sum is less than
+
+346
+00:09:06,340 --> 00:09:07,172
+ epsilon.
+
+347
+00:09:07,356 --> 00:09:08,748
+ This is simply the cauchy
+
+348
+00:09:08,804 --> 00:09:10,468
+ criterion we have at
+
+349
+00:09:10,524 --> 00:09:11,920
+ every point x.
+
+350
+00:09:12,620 --> 00:09:14,380
+ Hence, the conclusion is,
+
+351
+00:09:14,500 --> 00:09:16,332
+ even with the limit and with
+
+352
+00:09:16,356 --> 00:09:18,308
+ the supremum, we stay lower
+
+353
+00:09:18,364 --> 00:09:19,160
+ epsilon.
+
+354
+00:09:19,460 --> 00:09:21,012
+ The only thing we can lose
+
+355
+00:09:21,076 --> 00:09:22,412
+ here is the strict
+
+356
+00:09:22,476 --> 00:09:23,400
+ inequality.
+
+357
+00:09:23,940 --> 00:09:25,172
+ But obviously, this does
+
+358
+00:09:25,196 --> 00:09:26,840
+ not change anything, because
+
+359
+00:09:26,920 --> 00:09:28,880
+ epsilon was arbitrarily chosen
+
+360
+00:09:28,920 --> 00:09:30,112
+ from the beginning.
+
+361
+00:09:30,296 --> 00:09:31,704
+ And with that, we have it.
+
+362
+00:09:31,792 --> 00:09:33,472
+ This means that in the limit
+
+363
+00:09:33,536 --> 00:09:35,272
+ n to infinity, this
+
+364
+00:09:35,336 --> 00:09:37,140
+ norm here goes to zero.
+
+365
+00:09:37,520 --> 00:09:39,120
+ And since we have the supremum
+
+366
+00:09:39,160 --> 00:09:40,840
+ norm, this is exactly the
+
+367
+00:09:40,880 --> 00:09:42,540
+ uniform convergence.
+
+368
+00:09:42,920 --> 00:09:44,664
+ Therefore, this is already
+
+369
+00:09:44,752 --> 00:09:45,980
+ the whole proof.
+
+370
+00:09:46,280 --> 00:09:47,744
+ And then I would say, let's
+
+371
+00:09:47,792 --> 00:09:49,392
+ look at a nice application
+
+372
+00:09:49,456 --> 00:09:51,040
+ of this Weierstrass m
+
+373
+00:09:51,080 --> 00:09:51,718
+ test.
+
+374
+00:09:51,904 --> 00:09:53,602
+ So let's take an example
+
+375
+00:09:53,706 --> 00:09:55,658
+ of a series with a function
+
+376
+00:09:55,714 --> 00:09:56,586
+ inside.
+
+377
+00:09:56,778 --> 00:09:57,986
+ And if you know something
+
+378
+00:09:58,058 --> 00:09:59,986
+ about Fourier series, you
+
+379
+00:10:00,018 --> 00:10:01,370
+ might recognize that this
+
+380
+00:10:01,410 --> 00:10:02,538
+ one here is an important
+
+381
+00:10:02,634 --> 00:10:03,226
+ one.
+
+382
+00:10:03,378 --> 00:10:05,146
+ So let's take f k from
+
+383
+00:10:05,218 --> 00:10:07,090
+ R to R, where f
+
+384
+00:10:07,130 --> 00:10:08,970
+ k of x is
+
+385
+00:10:09,010 --> 00:10:10,586
+ given as the cosine
+
+386
+00:10:10,658 --> 00:10:12,154
+ of kx
+
+387
+00:10:12,282 --> 00:10:13,790
+ over k squared.
+
+388
+00:10:14,170 --> 00:10:16,042
+ So this is our function depending
+
+389
+00:10:16,106 --> 00:10:16,746
+ on k.
+
+390
+00:10:16,858 --> 00:10:18,346
+ And now we can look at the
+
+391
+00:10:18,378 --> 00:10:19,430
+ absolute value,
+
+392
+00:10:20,090 --> 00:10:21,650
+ and we know that the cosine
+
+393
+00:10:21,690 --> 00:10:22,898
+ is bounded by one.
+
+394
+00:10:22,994 --> 00:10:24,602
+ So this is definitely less
+
+395
+00:10:24,666 --> 00:10:26,602
+ or equal than one over k
+
+396
+00:10:26,666 --> 00:10:27,350
+ squared.
+
+397
+00:10:27,850 --> 00:10:29,458
+ And this holds for every
+
+398
+00:10:29,554 --> 00:10:30,978
+ x in R.
+
+399
+00:10:31,154 --> 00:10:32,570
+ And now you only have to
+
+400
+00:10:32,610 --> 00:10:34,250
+ know that the series of one
+
+401
+00:10:34,290 --> 00:10:35,674
+ over k squared is
+
+402
+00:10:35,722 --> 00:10:37,522
+ convergent to apply the
+
+403
+00:10:37,546 --> 00:10:39,202
+ Weierstrass M test.
+
+404
+00:10:39,386 --> 00:10:40,938
+ And there are different possibilities
+
+405
+00:10:41,034 --> 00:10:42,562
+ to show this, but it's
+
+406
+00:10:42,586 --> 00:10:44,578
+ definitely not too complicated.
+
+407
+00:10:44,714 --> 00:10:46,650
+ And a basic result you definitely
+
+408
+00:10:46,690 --> 00:10:47,670
+ should remember.
+
+409
+00:10:48,000 --> 00:10:49,304
+ And indeed, we can immediately
+
+410
+00:10:49,352 --> 00:10:50,912
+ make use of that with the
+
+411
+00:10:50,936 --> 00:10:52,460
+ Weierstrass M test.
+
+412
+00:10:52,880 --> 00:10:54,800
+ Our conclusion is that this
+
+413
+00:10:54,840 --> 00:10:56,832
+ series of functions is
+
+414
+00:10:56,896 --> 00:10:58,832
+ uniformly convergent.
+
+415
+00:10:59,016 --> 00:11:00,288
+ And indeed, this is really
+
+416
+00:11:00,344 --> 00:11:01,640
+ helpful as a result.
+
+417
+00:11:01,760 --> 00:11:03,152
+ For example, when you want
+
+418
+00:11:03,176 --> 00:11:04,736
+ to calculate the derivative
+
+419
+00:11:04,808 --> 00:11:06,800
+ of this function and
+
+420
+00:11:06,840 --> 00:11:07,888
+ something like that, you
+
+421
+00:11:07,904 --> 00:11:09,600
+ can find in my Fourier
+
+422
+00:11:09,680 --> 00:11:10,980
+ transform series.
+
+423
+00:11:11,520 --> 00:11:12,864
+ In fact, exactly.
+
+424
+00:11:12,912 --> 00:11:14,792
+ This result here plays a
+
+425
+00:11:14,816 --> 00:11:16,220
+ crucial role there.
+
+426
+00:11:16,680 --> 00:11:18,152
+ Okay, then, I think this
+
+427
+00:11:18,176 --> 00:11:19,680
+ is good enough for this video,
+
+428
+00:11:19,800 --> 00:11:21,096
+ and I really hope I meet
+
+429
+00:11:21,128 --> 00:11:22,352
+ you in another one.
+
+430
+00:11:22,456 --> 00:11:23,784
+ So, have a nice day, and
+
+431
+00:11:23,832 --> 00:11:24,700
+ bye bye.
+
