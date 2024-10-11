@@ -1,0 +1,9 @@
+Weierstrass M-Test - Part 1 
+
+00:00 Intro
+00:28 Comparison for series of functions
+00:56 Theorem about Weierstrass M-Test
+03:19 Uniform convergence explanation
+05:00 Proof of Weierstrass M-Test
+09:46 Application of Weierstrass M-Test
+11:25 Credits
