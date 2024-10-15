@@ -1,0 +1,6 @@
+00:00 Introduction
+00:50 Recipe
+01:33 Eigenvalues
+05:11 Jordan normal form - possibilities
+07:12 Eigenspace calculation
+09:19 Conclusion
