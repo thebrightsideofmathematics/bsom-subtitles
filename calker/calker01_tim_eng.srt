@@ -1,0 +1,13 @@
+Calculating the kernel of a matrix - An example
+
+00:00 Introduction
+00:08 Example with a 3x4 matrix
+00:32 Definition of the kernel
+01:53 Row operations don't change the kernel
+03:10 Creating zeros in second column
+03:54 Row echelon form
+04:45 Stating equation with variables
+05:36 Backwards substitution
+06:50 Solution set
+07:45 Rewriting solution set as a span
+08:30 Basis of the kernel
