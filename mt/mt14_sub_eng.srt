@@ -1,0 +1,2644 @@
+1
+00:00:01,120 --> 00:00:02,705
+ Hello and welcome to a new
+
+2
+00:00:02,745 --> 00:00:04,685
+ video about measure theory.
+
+3
+00:00:05,425 --> 00:00:07,081
+ First, let me thank all the
+
+4
+00:00:07,113 --> 00:00:08,969
+ nice people who support this
+
+5
+00:00:09,017 --> 00:00:10,565
+ channel on Steady.
+
+6
+00:00:11,025 --> 00:00:12,777
+ Today's video is about
+
+7
+00:00:12,801 --> 00:00:14,617
+ Carathéodory's extension
+
+8
+00:00:14,681 --> 00:00:15,525
+ theorem.
+
+9
+00:00:16,345 --> 00:00:17,881
+ Okay, so this is a video
+
+10
+00:00:17,953 --> 00:00:19,537
+ in my measure theory
+
+11
+00:00:19,641 --> 00:00:20,169
+ series.
+
+12
+00:00:20,297 --> 00:00:21,977
+ But you don't have to know
+
+13
+00:00:22,121 --> 00:00:23,673
+ all the videos there
+
+14
+00:00:23,849 --> 00:00:25,297
+ for understanding
+
+15
+00:00:25,361 --> 00:00:27,173
+ Carathéodory's extension theorem.
+
+16
+00:00:27,289 --> 00:00:28,717
+ It's sufficient when you
+
+17
+00:00:28,781 --> 00:00:30,717
+ know what a measure is
+
+18
+00:00:30,781 --> 00:00:31,949
+ and what a sigma algebra
+
+19
+00:00:31,997 --> 00:00:32,585
+ is.
+
+20
+00:00:33,005 --> 00:00:34,421
+ All the other notions we
+
+21
+00:00:34,453 --> 00:00:36,293
+ need I will explain here
+
+22
+00:00:36,349 --> 00:00:36,945
+ today.
+
+23
+00:00:37,685 --> 00:00:39,429
+ So let's start immediately
+
+24
+00:00:39,517 --> 00:00:40,745
+ with the theorem.
+
+25
+00:00:41,165 --> 00:00:42,605
+ As always, we have a set
+
+26
+00:00:42,685 --> 00:00:44,573
+ X and we also look at
+
+27
+00:00:44,669 --> 00:00:46,389
+ subsets of the set
+
+28
+00:00:46,437 --> 00:00:46,741
+ X.
+
+29
+00:00:46,813 --> 00:00:48,245
+ So we look at a collection
+
+30
+00:00:48,285 --> 00:00:50,173
+ of these subsets and we always
+
+31
+00:00:50,229 --> 00:00:51,845
+ call this by this curved
+
+32
+00:00:51,925 --> 00:00:52,545
+ A.
+
+33
+00:00:53,815 --> 00:00:55,671
+ In general, this is not
+
+34
+00:00:55,743 --> 00:00:57,655
+ a sigma algebra now, but
+
+35
+00:00:57,735 --> 00:00:59,207
+ only a so called
+
+36
+00:00:59,311 --> 00:01:00,395
+ semi ring.
+
+37
+00:01:01,775 --> 00:01:03,487
+ To be more specific, I will
+
+38
+00:01:03,511 --> 00:01:05,199
+ call it a semi ring of
+
+39
+00:01:05,287 --> 00:01:05,983
+ sets.
+
+40
+00:01:06,119 --> 00:01:07,335
+ Then you know that we are
+
+41
+00:01:07,375 --> 00:01:08,367
+ talking about a collection
+
+42
+00:01:08,391 --> 00:01:09,315
+ of sets.
+
+43
+00:01:09,775 --> 00:01:11,543
+ The explicit definition of
+
+44
+00:01:11,559 --> 00:01:13,175
+ a semi ring I will give you
+
+45
+00:01:13,215 --> 00:01:13,795
+ later.
+
+46
+00:01:14,495 --> 00:01:15,751
+ However, in the same way
+
+47
+00:01:15,783 --> 00:01:17,247
+ as for the sigma algebras,
+
+48
+00:01:17,351 --> 00:01:19,267
+ we also have a map
+
+49
+00:01:19,331 --> 00:01:20,695
+ we call mu
+
+50
+00:01:21,075 --> 00:01:22,643
+ defined on
+
+51
+00:01:22,779 --> 00:01:24,707
+ the whole collection of subsets.
+
+52
+00:01:24,811 --> 00:01:26,331
+ So on this semi ring
+
+53
+00:01:26,363 --> 00:01:28,219
+ here, and it maps into
+
+54
+00:01:28,267 --> 00:01:29,635
+ the non negative real
+
+55
+00:01:29,715 --> 00:01:31,075
+ numbers where we
+
+56
+00:01:31,155 --> 00:01:32,899
+ include infinity
+
+57
+00:01:33,027 --> 00:01:34,135
+ as a symbol.
+
+58
+00:01:34,595 --> 00:01:34,971
+ Okay.
+
+59
+00:01:35,003 --> 00:01:36,611
+ In the case that A is not
+
+60
+00:01:36,643 --> 00:01:38,531
+ a sigma algebra, this can't
+
+61
+00:01:38,563 --> 00:01:39,815
+ be a measure.
+
+62
+00:01:40,155 --> 00:01:41,371
+ And therefore there is another
+
+63
+00:01:41,443 --> 00:01:42,595
+ name for such a thing.
+
+64
+00:01:42,675 --> 00:01:44,027
+ We call it a pre
+
+65
+00:01:44,091 --> 00:01:44,815
+ measure.
+
+66
+00:01:45,245 --> 00:01:46,917
+ Of course, this name tells
+
+67
+00:01:46,941 --> 00:01:47,845
+ you a lot.
+
+68
+00:01:48,005 --> 00:01:49,829
+ It's a map that you
+
+69
+00:01:49,877 --> 00:01:51,685
+ define before you can
+
+70
+00:01:51,725 --> 00:01:53,585
+ define a real measure.
+
+71
+00:01:53,885 --> 00:01:55,525
+ Okay, I will tell you more
+
+72
+00:01:55,565 --> 00:01:56,589
+ about this later.
+
+73
+00:01:56,717 --> 00:01:58,541
+ First let us focus on the
+
+74
+00:01:58,573 --> 00:01:59,585
+ theorem here.
+
+75
+00:02:00,005 --> 00:02:01,265
+ The first claim.
+
+76
+00:02:01,685 --> 00:02:03,485
+ Obviously you have an
+
+77
+00:02:03,525 --> 00:02:04,425
+ extension,
+
+78
+00:02:05,085 --> 00:02:06,505
+ then mu
+
+79
+00:02:06,845 --> 00:02:08,021
+ has an
+
+80
+00:02:08,093 --> 00:02:08,985
+ extension
+
+81
+00:02:10,894 --> 00:02:11,910
+ and we call this
+
+82
+00:02:11,982 --> 00:02:13,774
+ extension by
+
+83
+00:02:13,934 --> 00:02:15,062
+ mu tilde.
+
+84
+00:02:15,158 --> 00:02:16,774
+ And indeed this is an
+
+85
+00:02:16,814 --> 00:02:18,790
+ ordinary measure as we already
+
+86
+00:02:18,862 --> 00:02:19,674
+ know it.
+
+87
+00:02:20,334 --> 00:02:21,934
+ Therefore it really needs
+
+88
+00:02:22,014 --> 00:02:23,878
+ a sigma algebra as
+
+89
+00:02:23,926 --> 00:02:24,846
+ its domain.
+
+90
+00:02:24,990 --> 00:02:26,278
+ So we call this
+
+91
+00:02:26,406 --> 00:02:27,734
+ sigma of
+
+92
+00:02:27,814 --> 00:02:28,434
+ A.
+
+93
+00:02:28,894 --> 00:02:30,430
+ Please remember this one
+
+94
+00:02:30,462 --> 00:02:32,214
+ is just a short notation
+
+95
+00:02:32,334 --> 00:02:34,190
+ for the sigma algebra that
+
+96
+00:02:34,222 --> 00:02:35,678
+ is generated by the
+
+97
+00:02:35,726 --> 00:02:37,407
+ subsets that are elements
+
+98
+00:02:37,471 --> 00:02:38,315
+ in A.
+
+99
+00:02:38,775 --> 00:02:39,935
+ And of course we have to
+
+100
+00:02:39,975 --> 00:02:41,463
+ land again in our
+
+101
+00:02:41,519 --> 00:02:43,431
+ interval 0 to infinity,
+
+102
+00:02:43,503 --> 00:02:45,195
+ where we include infinity.
+
+103
+00:02:45,975 --> 00:02:47,583
+ Hence the claim of the theorem
+
+104
+00:02:47,639 --> 00:02:49,415
+ is if you have these
+
+105
+00:02:49,495 --> 00:02:51,311
+ things, you get out an
+
+106
+00:02:51,343 --> 00:02:52,535
+ actual measure.
+
+107
+00:02:52,695 --> 00:02:54,487
+ And extension now just
+
+108
+00:02:54,551 --> 00:02:56,391
+ means that if you look at
+
+109
+00:02:56,463 --> 00:02:58,255
+ the original subsets in
+
+110
+00:02:58,295 --> 00:03:00,239
+ A, it does not matter if
+
+111
+00:03:00,247 --> 00:03:01,687
+ you measure it with mu or
+
+112
+00:03:01,711 --> 00:03:02,755
+ mu tilde.
+
+113
+00:03:04,835 --> 00:03:06,731
+ So the new measure is
+
+114
+00:03:06,763 --> 00:03:08,547
+ indeed bigger or better
+
+115
+00:03:08,691 --> 00:03:10,375
+ than the pre measure before,
+
+116
+00:03:10,715 --> 00:03:12,299
+ but you don't change the
+
+117
+00:03:12,347 --> 00:03:13,695
+ original values.
+
+118
+00:03:14,555 --> 00:03:16,539
+ Okay, so this was part
+
+119
+00:03:16,627 --> 00:03:18,603
+ a, which tells you that
+
+120
+00:03:18,659 --> 00:03:20,403
+ there is an extension.
+
+121
+00:03:20,539 --> 00:03:22,259
+ So this is an existence
+
+122
+00:03:22,347 --> 00:03:22,975
+ result.
+
+123
+00:03:23,275 --> 00:03:24,651
+ However it would be also
+
+124
+00:03:24,723 --> 00:03:26,227
+ Nice to have a uniqueness
+
+125
+00:03:26,291 --> 00:03:27,579
+ result as well.
+
+126
+00:03:27,747 --> 00:03:28,819
+ And this is what we will
+
+127
+00:03:28,867 --> 00:03:30,121
+ have in part b.
+
+128
+00:03:30,223 --> 00:03:32,221
+ Now however, we
+
+129
+00:03:32,253 --> 00:03:34,157
+ need some additional condition
+
+130
+00:03:34,221 --> 00:03:34,825
+ here.
+
+131
+00:03:35,245 --> 00:03:36,789
+ This condition is often
+
+132
+00:03:36,877 --> 00:03:37,997
+ called sigma
+
+133
+00:03:38,101 --> 00:03:39,061
+ finite.
+
+134
+00:03:39,253 --> 00:03:41,157
+ It means that you find a
+
+135
+00:03:41,221 --> 00:03:43,149
+ sequence of subsets,
+
+136
+00:03:43,317 --> 00:03:45,305
+ let's call them SJ
+
+137
+00:03:46,125 --> 00:03:47,157
+ such that
+
+138
+00:03:47,301 --> 00:03:49,269
+ SJ is in our
+
+139
+00:03:49,317 --> 00:03:50,301
+ semi ring.
+
+140
+00:03:50,453 --> 00:03:51,585
+ So in A
+
+141
+00:03:52,245 --> 00:03:54,157
+ they should also cover the
+
+142
+00:03:54,181 --> 00:03:54,981
+ whole set.
+
+143
+00:03:55,093 --> 00:03:56,305
+ So the union
+
+144
+00:03:56,835 --> 00:03:58,435
+ J starting with one
+
+145
+00:03:58,595 --> 00:03:59,615
+ going to
+
+146
+00:03:59,915 --> 00:04:00,975
+ infinity
+
+147
+00:04:03,035 --> 00:04:04,563
+ is equal to
+
+148
+00:04:04,619 --> 00:04:05,215
+ X.
+
+149
+00:04:06,355 --> 00:04:08,139
+ And in addition, all the
+
+150
+00:04:08,187 --> 00:04:09,603
+ sets should have
+
+151
+00:04:09,699 --> 00:04:11,535
+ finite pre measure.
+
+152
+00:04:11,835 --> 00:04:13,379
+ This means that if we put
+
+153
+00:04:13,427 --> 00:04:15,403
+ the set into the function
+
+154
+00:04:15,459 --> 00:04:17,307
+ mu, we get out a
+
+155
+00:04:17,331 --> 00:04:18,803
+ finite number, so not
+
+156
+00:04:18,859 --> 00:04:20,055
+ infinity here.
+
+157
+00:04:21,964 --> 00:04:23,820
+ Now, if we have all these
+
+158
+00:04:23,892 --> 00:04:25,644
+ things, then the
+
+159
+00:04:25,684 --> 00:04:27,308
+ conclusion is that this
+
+160
+00:04:27,356 --> 00:04:28,916
+ extension is also
+
+161
+00:04:29,020 --> 00:04:29,784
+ unique.
+
+162
+00:04:30,164 --> 00:04:31,652
+ Now this means that we can
+
+163
+00:04:31,708 --> 00:04:33,564
+ summarize Carathéodory's
+
+164
+00:04:33,604 --> 00:04:35,104
+ theorem in the following.
+
+165
+00:04:35,724 --> 00:04:37,268
+ If we have a pre
+
+166
+00:04:37,316 --> 00:04:38,924
+ measure that fulfills
+
+167
+00:04:39,004 --> 00:04:40,580
+ this condition here,
+
+168
+00:04:40,732 --> 00:04:42,476
+ then there is exactly
+
+169
+00:04:42,620 --> 00:04:44,132
+ one extension
+
+170
+00:04:44,268 --> 00:04:46,068
+ to the sigma
+
+171
+00:04:46,116 --> 00:04:47,706
+ algebra that is generated
+
+172
+00:04:47,860 --> 00:04:49,595
+ by this semi ring.
+
+173
+00:04:50,175 --> 00:04:51,911
+ So exactly one
+
+174
+00:04:52,023 --> 00:04:52,755
+ measure.
+
+175
+00:04:53,295 --> 00:04:54,871
+ Moreover, this property
+
+176
+00:04:54,943 --> 00:04:56,735
+ then also holds for
+
+177
+00:04:56,775 --> 00:04:58,155
+ our mu tilde.
+
+178
+00:04:58,615 --> 00:05:00,431
+ Mu tilde is also
+
+179
+00:05:00,543 --> 00:05:01,875
+ sigma finite.
+
+180
+00:05:02,375 --> 00:05:04,007
+ If you never heard this notion
+
+181
+00:05:04,071 --> 00:05:05,407
+ sigma finite, that's not
+
+182
+00:05:05,431 --> 00:05:06,223
+ a problem.
+
+183
+00:05:06,399 --> 00:05:08,271
+ Definition is here and you
+
+184
+00:05:08,303 --> 00:05:09,767
+ should recognize it's a
+
+185
+00:05:09,791 --> 00:05:11,775
+ generalization of a finite
+
+186
+00:05:11,855 --> 00:05:12,535
+ measure.
+
+187
+00:05:12,695 --> 00:05:14,569
+ For a finite measure, the
+
+188
+00:05:14,617 --> 00:05:16,193
+ measure of X would be
+
+189
+00:05:16,249 --> 00:05:18,073
+ finite, and this then
+
+190
+00:05:18,209 --> 00:05:19,405
+ still holds.
+
+191
+00:05:19,705 --> 00:05:21,281
+ But if it's not finite,
+
+192
+00:05:21,393 --> 00:05:23,065
+ then sigma finite
+
+193
+00:05:23,145 --> 00:05:24,761
+ then tells you you can
+
+194
+00:05:24,833 --> 00:05:26,625
+ approximate the whole
+
+195
+00:05:26,705 --> 00:05:28,265
+ set with finite
+
+196
+00:05:28,345 --> 00:05:29,765
+ measured sets
+
+197
+00:05:30,705 --> 00:05:32,561
+ and you only need countable
+
+198
+00:05:32,633 --> 00:05:33,805
+ many of them.
+
+199
+00:05:34,785 --> 00:05:36,321
+ However, don't worry, you
+
+200
+00:05:36,353 --> 00:05:37,857
+ will see in other videos
+
+201
+00:05:37,961 --> 00:05:39,441
+ why this will be important
+
+202
+00:05:39,513 --> 00:05:40,365
+ in future.
+
+203
+00:05:41,095 --> 00:05:42,271
+ Well, there you have it.
+
+204
+00:05:42,343 --> 00:05:43,935
+ This is Carathéodory's
+
+205
+00:05:43,975 --> 00:05:45,515
+ extension theorem.
+
+206
+00:05:45,855 --> 00:05:47,583
+ There may be other variants
+
+207
+00:05:47,639 --> 00:05:49,415
+ of this theorem, but this
+
+208
+00:05:49,455 --> 00:05:50,983
+ version is the one I
+
+209
+00:05:51,039 --> 00:05:52,195
+ personally prefer.
+
+210
+00:05:53,415 --> 00:05:55,263
+ Now, as promised, I give
+
+211
+00:05:55,319 --> 00:05:57,175
+ you all the explanations
+
+212
+00:05:57,295 --> 00:05:58,527
+ you need for the notions
+
+213
+00:05:58,591 --> 00:05:59,195
+ here.
+
+214
+00:05:59,575 --> 00:06:01,287
+ After this I give you
+
+215
+00:06:01,351 --> 00:06:03,055
+ an example and also
+
+216
+00:06:03,135 --> 00:06:04,415
+ an application of the
+
+217
+00:06:04,455 --> 00:06:05,989
+ theorem.
+
+218
+00:06:06,067 --> 00:06:07,681
+ But first, let's start with
+
+219
+00:06:07,713 --> 00:06:08,885
+ the semi ring.
+
+220
+00:06:11,025 --> 00:06:12,617
+ I called it a semi ring
+
+221
+00:06:12,681 --> 00:06:13,745
+ of sets.
+
+222
+00:06:13,865 --> 00:06:15,777
+ To remember you that we
+
+223
+00:06:15,841 --> 00:06:17,681
+ consider a subset
+
+224
+00:06:17,753 --> 00:06:19,725
+ in the power set of X.
+
+225
+00:06:21,465 --> 00:06:23,385
+ Now we need three properties
+
+226
+00:06:23,505 --> 00:06:24,889
+ such that we can call it
+
+227
+00:06:24,937 --> 00:06:26,045
+ a semiring.
+
+228
+00:06:26,745 --> 00:06:28,521
+ The first property is that
+
+229
+00:06:28,553 --> 00:06:30,281
+ the empty set is in
+
+230
+00:06:30,313 --> 00:06:32,235
+ all cases in the
+
+231
+00:06:32,275 --> 00:06:33,015
+ collection.
+
+232
+00:06:33,915 --> 00:06:35,235
+ If you remember the sigma
+
+233
+00:06:35,275 --> 00:06:37,147
+ algebra, you recognize this
+
+234
+00:06:37,171 --> 00:06:38,987
+ is the same thing we
+
+235
+00:06:39,011 --> 00:06:40,539
+ want from a sigma algebra
+
+236
+00:06:40,627 --> 00:06:41,683
+ at the beginning.
+
+237
+00:06:41,859 --> 00:06:43,475
+ The second property is now
+
+238
+00:06:43,555 --> 00:06:44,923
+ that we can form
+
+239
+00:06:45,059 --> 00:06:46,215
+ intersections.
+
+240
+00:06:46,515 --> 00:06:48,195
+ This means that the intersection
+
+241
+00:06:48,235 --> 00:06:49,779
+ of two sets in A
+
+242
+00:06:49,907 --> 00:06:51,539
+ lies also in
+
+243
+00:06:51,587 --> 00:06:52,175
+ A.
+
+244
+00:06:52,715 --> 00:06:54,467
+ Please also remember this
+
+245
+00:06:54,491 --> 00:06:56,419
+ is indeed satisfied for sigma
+
+246
+00:06:56,467 --> 00:06:57,155
+ algebras.
+
+247
+00:06:57,275 --> 00:06:58,475
+ It's not in the definition,
+
+248
+00:06:58,595 --> 00:06:59,811
+ but of course it follows
+
+249
+00:06:59,843 --> 00:07:00,975
+ from the definition.
+
+250
+00:07:01,515 --> 00:07:02,811
+ However, please note that
+
+251
+00:07:02,843 --> 00:07:04,555
+ we don't say anything about
+
+252
+00:07:04,635 --> 00:07:06,067
+ complements or unions
+
+253
+00:07:06,131 --> 00:07:06,643
+ here.
+
+254
+00:07:06,779 --> 00:07:08,475
+ So Indeed, we weaken the
+
+255
+00:07:08,515 --> 00:07:10,291
+ notion of the sigma algebra
+
+256
+00:07:10,403 --> 00:07:11,691
+ with the notion of a semi
+
+257
+00:07:11,723 --> 00:07:12,451
+ ring.
+
+258
+00:07:12,643 --> 00:07:14,323
+ But we have a third property
+
+259
+00:07:14,459 --> 00:07:15,843
+ where you will see a little
+
+260
+00:07:15,899 --> 00:07:17,091
+ bit of the unions and
+
+261
+00:07:17,123 --> 00:07:17,935
+ complements.
+
+262
+00:07:18,555 --> 00:07:20,507
+ It tells you that for arbitrary
+
+263
+00:07:20,571 --> 00:07:21,855
+ elements AB
+
+264
+00:07:22,395 --> 00:07:24,379
+ in A, you can
+
+265
+00:07:24,427 --> 00:07:26,091
+ look at the difference
+
+266
+00:07:26,243 --> 00:07:27,535
+ of the sets.
+
+267
+00:07:28,475 --> 00:07:30,131
+ This one here is not the
+
+268
+00:07:30,163 --> 00:07:31,771
+ complement because we don't
+
+269
+00:07:31,803 --> 00:07:33,755
+ know if the set X is
+
+270
+00:07:33,795 --> 00:07:35,123
+ inside our semi ring.
+
+271
+00:07:35,219 --> 00:07:36,395
+ This does not follow from
+
+272
+00:07:36,435 --> 00:07:37,855
+ the two properties here.
+
+273
+00:07:38,355 --> 00:07:39,923
+ Nevertheless, we don't want
+
+274
+00:07:39,979 --> 00:07:41,811
+ that this difference is again
+
+275
+00:07:41,883 --> 00:07:42,611
+ in A.
+
+276
+00:07:42,723 --> 00:07:44,331
+ We just want that we can
+
+277
+00:07:44,363 --> 00:07:46,339
+ find a union of sets of
+
+278
+00:07:46,387 --> 00:07:48,011
+ A that is given
+
+279
+00:07:48,123 --> 00:07:49,717
+ as the difference here.
+
+280
+00:07:49,891 --> 00:07:51,481
+ More concretely, this means
+
+281
+00:07:51,593 --> 00:07:53,385
+ there are pairwise
+
+282
+00:07:53,545 --> 00:07:54,565
+ disjoint
+
+283
+00:07:56,665 --> 00:07:58,457
+ sets and let's call
+
+284
+00:07:58,481 --> 00:08:00,361
+ them S1 till
+
+285
+00:08:00,433 --> 00:08:02,169
+ SN, so finitely
+
+286
+00:08:02,217 --> 00:08:02,805
+ many.
+
+287
+00:08:03,385 --> 00:08:05,145
+ And they should lie in our
+
+288
+00:08:05,185 --> 00:08:07,113
+ semi ring A such
+
+289
+00:08:07,169 --> 00:08:08,913
+ that we can write this
+
+290
+00:08:08,969 --> 00:08:10,849
+ difference as the
+
+291
+00:08:10,937 --> 00:08:12,721
+ union of these
+
+292
+00:08:12,833 --> 00:08:14,065
+ pairwise disjoint
+
+293
+00:08:14,145 --> 00:08:14,885
+ sets.
+
+294
+00:08:16,235 --> 00:08:17,571
+ And this is then what we
+
+295
+00:08:17,603 --> 00:08:19,403
+ call a semi ring of
+
+296
+00:08:19,459 --> 00:08:20,215
+ sets.
+
+297
+00:08:20,755 --> 00:08:21,971
+ When you see this for the
+
+298
+00:08:22,003 --> 00:08:23,923
+ first time, it may look a
+
+299
+00:08:23,939 --> 00:08:25,451
+ little bit strange, but you
+
+300
+00:08:25,483 --> 00:08:26,947
+ will see later that this
+
+301
+00:08:26,971 --> 00:08:28,935
+ is exactly what we need
+
+302
+00:08:29,355 --> 00:08:30,843
+ for getting some intuition
+
+303
+00:08:30,939 --> 00:08:31,627
+ behind.
+
+304
+00:08:31,811 --> 00:08:32,443
+ Maybe.
+
+305
+00:08:32,539 --> 00:08:34,371
+ Let's look at an example
+
+306
+00:08:34,563 --> 00:08:36,499
+ and I call this one the
+
+307
+00:08:36,547 --> 00:08:38,255
+ most important example.
+
+308
+00:08:39,075 --> 00:08:40,923
+ This one is an example in
+
+309
+00:08:40,979 --> 00:08:41,459
+ R.
+
+310
+00:08:41,587 --> 00:08:43,455
+ So the real number line
+
+311
+00:08:43,885 --> 00:08:45,797
+ and we look at the finite
+
+312
+00:08:45,901 --> 00:08:47,821
+ intervals given by
+
+313
+00:08:47,933 --> 00:08:49,773
+ ab, where A
+
+314
+00:08:49,829 --> 00:08:51,453
+ is inside the interval but
+
+315
+00:08:51,549 --> 00:08:53,065
+ B is not.
+
+316
+00:08:54,045 --> 00:08:55,701
+ And for having a good interval
+
+317
+00:08:55,773 --> 00:08:57,733
+ I want A less or
+
+318
+00:08:57,789 --> 00:08:59,345
+ equal than B.
+
+319
+00:09:00,525 --> 00:09:02,509
+ Obviously this is not
+
+320
+00:09:02,557 --> 00:09:03,945
+ a sigma algebra.
+
+321
+00:09:04,565 --> 00:09:06,469
+ You can see this immediately
+
+322
+00:09:06,597 --> 00:09:08,237
+ because only the finite
+
+323
+00:09:08,301 --> 00:09:10,195
+ intervals are A.
+
+324
+00:09:11,135 --> 00:09:12,911
+ In particular, R
+
+325
+00:09:12,983 --> 00:09:14,831
+ itself is not in
+
+326
+00:09:14,863 --> 00:09:15,435
+ A.
+
+327
+00:09:17,415 --> 00:09:19,343
+ But we have to note
+
+328
+00:09:19,479 --> 00:09:21,191
+ that A generates a
+
+329
+00:09:21,223 --> 00:09:23,047
+ well known sigma algebra
+
+330
+00:09:23,231 --> 00:09:24,887
+ and this one is the Borel
+
+331
+00:09:24,951 --> 00:09:25,991
+ sigma algebra.
+
+332
+00:09:26,103 --> 00:09:27,863
+ So we can write in short,
+
+333
+00:09:27,999 --> 00:09:29,759
+ sigma of A
+
+334
+00:09:29,927 --> 00:09:31,575
+ is equal to
+
+335
+00:09:31,695 --> 00:09:33,519
+ Borel sigma algebra
+
+336
+00:09:33,647 --> 00:09:34,635
+ of R.
+
+337
+00:09:35,345 --> 00:09:36,897
+ This means that if we want
+
+338
+00:09:36,921 --> 00:09:38,305
+ to describe the Borel sigma
+
+339
+00:09:38,345 --> 00:09:40,065
+ algebra, it is sufficient
+
+340
+00:09:40,145 --> 00:09:41,905
+ to use these finite
+
+341
+00:09:41,985 --> 00:09:42,725
+ intervals.
+
+342
+00:09:43,185 --> 00:09:44,873
+ And the beautiful thing now
+
+343
+00:09:44,929 --> 00:09:46,921
+ is they form a semi
+
+344
+00:09:46,953 --> 00:09:48,665
+ ring, which
+
+345
+00:09:48,705 --> 00:09:50,401
+ means they can help us with
+
+346
+00:09:50,433 --> 00:09:52,233
+ Carathéodory's extension
+
+347
+00:09:52,289 --> 00:09:53,125
+ theorem.
+
+348
+00:09:53,625 --> 00:09:55,345
+ Ok, then let's check that.
+
+349
+00:09:55,425 --> 00:09:56,753
+ So let's check the three
+
+350
+00:09:56,809 --> 00:09:57,565
+ properties.
+
+351
+00:09:58,185 --> 00:09:59,849
+ Of course the empty set
+
+352
+00:09:59,937 --> 00:10:01,847
+ is not a problem, it's
+
+353
+00:10:01,871 --> 00:10:03,279
+ formally given in this
+
+354
+00:10:03,327 --> 00:10:04,935
+ definition, but of course
+
+355
+00:10:04,975 --> 00:10:06,455
+ we always could put it in.
+
+356
+00:10:06,535 --> 00:10:08,503
+ But here, for a equals b,
+
+357
+00:10:08,599 --> 00:10:09,935
+ we have the empty set here
+
+358
+00:10:09,975 --> 00:10:10,951
+ because there's no point
+
+359
+00:10:10,983 --> 00:10:12,035
+ in the interval.
+
+360
+00:10:12,695 --> 00 :10:14,247
+ So let's look at the second
+
+361
+00:10:14,311 --> 00:10:15,271
+ property here.
+
+362
+00:10:15,303 --> 00:10:17,159
+ It's about the intersection.
+
+363
+00:10:17,287 --> 00:10:19,215
+ So let's choose two intervals,
+
+364
+00:10:19,335 --> 00:10:20,315
+ maybe ab
+
+365
+00:10:21,015 --> 00:10:22,119
+ and also
+
+366
+00:10:22,287 --> 00:10:23,275
+ cd.
+
+367
+00:10:24,535 --> 00:10:26,151
+ Then it's easy to see what
+
+368
+00:10:26,183 --> 00:10:27,751
+ the intersection is if you
+
+369
+00:10:27,783 --> 00:10:29,229
+ just do a short
+
+370
+00:10:29,277 --> 00:10:30,105
+ drawing.
+
+371
+00:10:31,365 --> 00:10:33,125
+ So here's the first interval
+
+372
+00:10:33,285 --> 00:10:34,685
+ a to b.
+
+373
+00:10:34,845 --> 00:10:36,365
+ And maybe the second one
+
+374
+00:10:36,445 --> 00:10:37,613
+ is now here.
+
+375
+00:10:37,709 --> 00:10:39,677
+ So c to
+
+376
+00:10:39,741 --> 00:10:40,345
+ d.
+
+377
+00:10:41,005 --> 00:10:42,821
+ Hence if this is the positions
+
+378
+00:10:42,853 --> 00:10:44,309
+ of the intervals, then we
+
+379
+00:10:44,357 --> 00:10:46,157
+ immediately get out the empty
+
+380
+00:10:46,221 --> 00:10:46,825
+ set.
+
+381
+00:10:47,205 --> 00:10:48,341
+ And then you see, this is
+
+382
+00:10:48,373 --> 00:10:50,061
+ in the case when
+
+383
+00:10:50,253 --> 00:10:52,245
+ b is less or equal than
+
+384
+00:10:52,365 --> 00:10:53,077
+ c.
+
+385
+00:10:53,261 --> 00:10:54,865
+ Or the other way around,
+
+386
+00:10:55,195 --> 00:10:57,131
+ if d is less
+
+387
+00:10:57,203 --> 00:10:59,015
+ or equal than a.
+
+388
+00:10:59,595 --> 00:11:01,019
+ Of course this is not so
+
+389
+00:11:01,067 --> 00:11:01,659
+ exciting.
+
+390
+00:11:01,787 --> 00:11:03,283
+ So maybe more
+
+391
+00:11:03,339 --> 00:11:05,091
+ interesting would be if
+
+392
+00:11:05,123 --> 00:11:06,691
+ the interval is
+
+393
+00:11:06,843 --> 00:11:08,147
+ inside the other interval.
+
+394
+00:11:08,211 --> 00:11:10,139
+ So maybe we shift
+
+395
+00:11:10,187 --> 00:11:11,015
+ that around.
+
+396
+00:11:11,395 --> 00:11:13,307
+ So there we
+
+397
+00:11:13,331 --> 00:11:14,055
+ have it.
+
+398
+00:11:15,915 --> 00:11:17,851
+ Now what comes out here is
+
+399
+00:11:17,883 --> 00:11:19,571
+ the interval that starts
+
+400
+00:11:19,603 --> 00:11:21,109
+ with c and ends with
+
+401
+00:11:21,157 --> 00:11:21,745
+ b.
+
+402
+00:11:22,325 --> 00:11:23,837
+ So let's put that in here.
+
+403
+00:11:23,901 --> 00:11:25,701
+ So I have c to
+
+404
+00:11:25,773 --> 00:11:27,581
+ b exactly in the
+
+405
+00:11:27,613 --> 00:11:29,509
+ case when my c
+
+406
+00:11:29,597 --> 00:11:31,277
+ lies inside
+
+407
+00:11:31,381 --> 00:11:32,705
+ interval ab,
+
+408
+00:11:33,565 --> 00:11:35,117
+ but d not.
+
+409
+00:11:35,301 --> 00:11:36,661
+ So I could write it in this
+
+410
+00:11:36,693 --> 00:11:37,265
+ way.
+
+411
+00:11:38,685 --> 00:11:39,917
+ Now you believe me that you
+
+412
+00:11:39,941 --> 00:11:41,821
+ get out the same or a similar
+
+413
+00:11:41,893 --> 00:11:42,917
+ result if you look at the
+
+414
+00:11:42,941 --> 00:11:44,221
+ symmetric case, so where
+
+415
+00:11:44,253 --> 00:11:45,613
+ the blue interval is on the
+
+416
+00:11:45,629 --> 00:11:46,749
+ right and the green intervals
+
+417
+00:11:46,797 --> 00:11:48,253
+ on the left, so no problem
+
+418
+00:11:48,309 --> 00:11:48,909
+ there.
+
+419
+00:11:49,077 --> 00:11:50,869
+ And that you also get such
+
+420
+00:11:50,917 --> 00:11:52,869
+ an interval out if the interval
+
+421
+00:11:52,917 --> 00:11:54,637
+ lies completely inside the
+
+422
+00:11:54,661 --> 00:11:55,465
+ other one.
+
+423
+00:11:55,885 --> 00:11:57,109
+ Therefore I don't write this
+
+424
+00:11:57,157 --> 00:11:57,749
+ down.
+
+425
+00:11:57,917 --> 00:11:59,645
+ You note that we
+
+426
+00:11:59,765 --> 00:12:01,365
+ always get out
+
+427
+00:12:01,485 --> 00:12:02,549
+ such an interval.
+
+428
+00:12:02,637 --> 00:12:04,549
+ So an interval in A.
+
+429
+00:12:04,677 --> 00:12:06,077
+ So also this property
+
+430
+00:12:06,141 --> 00:12:07,845
+ holds and
+
+431
+00:12:07,925 --> 00:12:09,025
+ one holds.
+
+432
+00:12:09,365 --> 00:12:10,861
+ This means that we now have
+
+433
+00:12:10,893 --> 00:12:12,601
+ to check property three,
+
+434
+00:12:12,733 --> 00:12:14,285
+ the difference property.
+
+435
+00:12:14,825 --> 00:12:16,209
+ Here we look now at
+
+436
+00:12:16,297 --> 00:12:16,925
+ ab
+
+437
+00:12:18,145 --> 00:12:20,045
+ without the set
+
+438
+00:12:20,425 --> 00:12:22,005
+ cd.
+
+439
+00:12:22,785 --> 00:12:24,465
+ Again here let's look at
+
+440
+00:12:24,545 --> 00:12:25,361
+ some cases.
+
+441
+00:12:25,473 --> 00:12:26,793
+ So maybe the first one from
+
+442
+00:12:26,849 --> 00:12:28,225
+ before, where there's no
+
+443
+00:12:28,265 --> 00:12:29,049
+ intersection.
+
+444
+00:12:29,177 --> 00:12:30,449
+ Okay, then the difference
+
+445
+00:12:30,497 --> 00:12:30,905
+ is clear.
+
+446
+00:12:30,945 --> 00:12:32,605
+ We don't subtract anything.
+
+447
+00:12:33,065 --> 00:12:34,857
+ The ab interval
+
+448
+00:12:34,961 --> 00:12:35,725
+ remains.
+
+449
+00:12:37,225 --> 00:12:38,787
+ Now in this case
+
+450
+00:12:38,921 --> 00:12:40,727
+ from here, you see, this
+
+451
+00:12:40,751 --> 00:12:41,839
+ is the intersection.
+
+452
+00:12:41,927 --> 00:12:43,591
+ So what remains is the
+
+453
+00:12:43,623 --> 00:12:45,559
+ interval from a to
+
+454
+00:12:45,607 --> 00:12:46,195
+ c.
+
+455
+00:12:47,215 --> 00:12:48,639
+ So let's write this down
+
+456
+00:12:48,767 --> 00:12:50,687
+ a to c, but c
+
+457
+00:12:50,831 --> 00:12:52,515
+ is not included.
+
+458
+00:12:53,095 --> 00:12:54,831
+ Okay, maybe we can ignore
+
+459
+00:12:54,903 --> 00:12:56,367
+ the other symmetric case.
+
+460
+00:12:56,431 --> 00:12:57,927
+ So when the blue interval
+
+461
+00:12:57,951 --> 00:12:59,327
+ is on the right, then of
+
+462
+00:12:59,351 --> 00:13:00,855
+ course this interval would
+
+463
+00:13:00,895 --> 00:13:02,515
+ remain the right hand side.
+
+464
+00:13:03,575 --> 00:13:05,255
+ More interesting would be
+
+465
+00:13:05,295 --> 00:13:06,675
+ now another case
+
+466
+00:13:06,815 --> 00:13:08,379
+ where cd is
+
+467
+00:13:08,427 --> 00:13:09,695
+ inside ab.
+
+468
+00:13:10,395 --> 00:13:12,059
+ Of course for the intersection
+
+469
+00:13:12,107 --> 00:13:13,379
+ this was very boring.
+
+470
+00:13:13,507 --> 00:13:15,379
+ But now something happens
+
+471
+00:13:15,467 --> 00:13:16,095
+ here.
+
+472
+00:13:18,435 --> 00:13:20,187
+ Hence we subtract the middle
+
+473
+00:13:20,251 --> 00:13:21,171
+ part here.
+
+474
+00:13:21,323 --> 00:13:23,091
+ So what remains
+
+475
+00:13:23,243 --> 00:13:24,615
+ is this part
+
+476
+00:13:24,955 --> 00:13:26,815
+ and this part.
+
+477
+00:13:27,795 --> 00:13:29,659
+ In other words, this is a
+
+478
+00:13:29,707 --> 00:13:30,899
+ union of two
+
+479
+00:13:30,947 --> 00:13:32,743
+ intervals, namely
+
+480
+00:13:32,899 --> 00:13:34,355
+ a to c
+
+481
+00:13:34,895 --> 00:13:36,375
+ union with the
+
+482
+00:13:36,415 --> 00:13:38,007
+ interval d
+
+483
+00:13:38,151 --> 00:13:39,195
+ to b.
+
+484
+00:13:41,015 --> 00:13:42,783
+ But this is okay for a
+
+485
+00:13:42,799 --> 00:13:43,623
+ semi ring.
+
+486
+00:13:43,719 --> 00:13:45,511
+ We know we can have a union
+
+487
+00:13:45,583 --> 00:13:47,407
+ out of elements out
+
+488
+00:13:47,431 --> 00:13:48,275
+ of A.
+
+489
+00:13:49,175 --> 00:13:50,271
+ Okay, ignoring
+
+490
+00:13:50,343 --> 00:13:52,119
+ renaming of the letters
+
+491
+00:13:52,167 --> 00:13:53,967
+ here, we know these are all
+
+492
+00:13:53,991 --> 00:13:55,511
+ the cases that can happen
+
+493
+00:13:55,623 --> 00:13:57,555
+ and therefore we are safe.
+
+494
+00:13:58,305 --> 00:13:59,925
+ This is a semi ring.
+
+495
+00:14:00,865 --> 00:14:02,417
+ Okay, I hope this helped
+
+496
+00:14:02,441 --> 00:14:04,241
+ you a little bit about semi
+
+497
+00:14:04,273 --> 00:14:04,889
+ rings.
+
+498
+00:14:05,057 --> 00:14:06,889
+ And now we can talk about
+
+499
+00:14:06,977 --> 00:14:08,825
+ the next notion, which is
+
+500
+00:14:08,865 --> 00:14:10,085
+ the pre measure
+
+501
+00:14:11,185 --> 00:14:13,009
+ a premeasure is almost
+
+502
+00:14:13,097 --> 00:14:13,769
+ a measure.
+
+503
+00:14:13,857 --> 00:14:14,937
+ That's the idea.
+
+504
+00:14:15,041 --> 00:14:16,961
+ But it's not defined on a
+
+505
+00:14:16,993 --> 00:14:18,777
+ sigma algebra, but just
+
+506
+00:14:18,841 --> 00:14:20,393
+ on such a semi ring
+
+507
+00:14:20,449 --> 00:14:21,045
+ A.
+
+508
+00:14:21,825 --> 00:14:23,665
+ Ignoring this fact, the
+
+509
+00:14:23,705 --> 00:14:25,545
+ definition looks almost the
+
+510
+00:14:25,585 --> 00:14:27,549
+ same, which means we have
+
+511
+00:14:27,597 --> 00:14:28,557
+ two conditions.
+
+512
+00:14:28,701 --> 00:14:30,405
+ And the first one is that
+
+513
+00:14:30,445 --> 00:14:32,213
+ the pre measure of the empty
+
+514
+00:14:32,269 --> 00:14:34,077
+ set as
+
+515
+00:14:34,141 --> 00:14:35,029
+ the measure of the empty
+
+516
+00:14:35,077 --> 00:14:36,677
+ set should always be
+
+517
+00:14:36,741 --> 00:14:37,345
+ zero.
+
+518
+00:14:38,765 --> 00:14:40,365
+ And the second property
+
+519
+00:14:40,525 --> 00:14:41,877
+ was the sigma
+
+520
+00:14:41,941 --> 00:14:42,905
+ additivity.
+
+521
+00:14:43,685 --> 00:14:45,261
+ This is what we can write
+
+522
+00:14:45,413 --> 00:14:46,797
+ as mu
+
+523
+00:14:46,941 --> 00:14:48,665
+ of a union,
+
+524
+00:14:49,045 --> 00:14:50,661
+ a countable union.
+
+525
+00:14:50,773 --> 00:14:52,488
+ So J from 1
+
+526
+00:14:52,595 --> 00:14:54,099
+ to infinity of
+
+527
+00:14:54,207 --> 00:14:55,711
+ sets AJ is
+
+528
+00:14:55,818 --> 00:14:57,322
+ equal to a
+
+529
+00:14:57,429 --> 00:14:58,933
+ series which starts
+
+530
+00:14:59,041 --> 00:15:00,967
+ also with 1 and goes
+
+531
+00:15:00,991 --> 00:15:02,775
+ to infinity, where we have
+
+532
+00:15:02,815 --> 00:15:04,743
+ inside the three measures
+
+533
+00:15:04,879 --> 00:15:06,155
+ of AJ.
+
+534
+00:15:07,615 --> 00:15:09,431
+ Now what we need are
+
+535
+00:15:09,583 --> 00:15:11,143
+ sets AJ
+
+536
+00:15:11,319 --> 00:15:12,767
+ from our curved 
+
+537
+00:15:12,831 --> 00:15:13,511
+ A.
+
+538
+00:15:13,703 --> 00:15:15,635
+ So from our semi ring.
+
+539
+00:15:15,935 --> 00:15:17,375
+ Of course, otherwise this
+
+540
+00:15:17,415 --> 00:15:18,675
+ does not make sense
+
+541
+00:15:19,345 --> 00:15:20,993
+ and there should be disjoint,
+
+542
+00:15:21,129 --> 00:15:22,073
+ which means
+
+543
+00:15:22,249 --> 00:15:24,185
+ AI intersected
+
+544
+00:15:24,225 --> 00:15:25,697
+ with aj
+
+545
+00:15:25,881 --> 00:15:27,793
+ is the empty set
+
+546
+00:15:27,969 --> 00:15:28,685
+ for
+
+547
+00:15:29,425 --> 00:15:30,913
+ I not equal
+
+548
+00:15:30,969 --> 00:15:31,565
+ j.
+
+549
+00:15:32,545 --> 00:15:34,273
+ Okay, so this was the definition
+
+550
+00:15:34,329 --> 00:15:36,121
+ or the sigma additivity for
+
+551
+00:15:36,153 --> 00:15:37,645
+ an ordinary measure.
+
+552
+00:15:38,185 --> 00:15:39,769
+ However, here it can't be
+
+553
+00:15:39,817 --> 00:15:41,641
+ true, because we
+
+554
+00:15:41,673 --> 00:15:43,305
+ have here the union
+
+555
+00:15:43,465 --> 00:15:45,185
+ of sets out of
+
+556
+00:15:45,265 --> 00:15:45,901
+ A.
+
+557
+00:15:46,073 --> 00:15:47,853
+ For sigma algebra this is
+
+558
+00:15:47,869 --> 00:15:49,437
+ not a problem, because in
+
+559
+00:15:49,461 --> 00:15:50,549
+ the definition of a sigma
+
+560
+00:15:50,597 --> 00:15:52,341
+ algebra we already know
+
+561
+00:15:52,413 --> 00:15:54,301
+ this is also in A.
+
+562
+00:15:54,493 --> 00:15:56,381
+ However, for semi ring we
+
+563
+00:15:56,413 --> 00:15:57,301
+ don't know this.
+
+564
+00:15:57,373 --> 00:15:59,357
+ We don't know if this union
+
+565
+00:15:59,461 --> 00:16:01,305
+ is inside A as well.
+
+566
+00:16:01,805 --> 00:16:03,477
+ But we need this if we want
+
+567
+00:16:03,501 --> 00:16:05,421
+ to put this one into the
+
+568
+00:16:05,453 --> 00:16:07,197
+ map mu and
+
+569
+00:16:07,221 --> 00:16:09,005
+ therefore we have to add
+
+570
+00:16:09,165 --> 00:16:10,389
+ this condition here.
+
+571
+00:16:10,477 --> 00:16:12,175
+ So we add that
+
+572
+00:16:12,295 --> 00:16:13,687
+ the union here
+
+573
+00:16:13,871 --> 00:16:15,115
+ is also
+
+574
+00:16:15,935 --> 00:16:17,555
+ in A.
+
+575
+00:16:18,575 --> 00:16:19,847
+ This means you should read
+
+576
+00:16:19,911 --> 00:16:21,791
+ (b) in this way for all
+
+577
+00:16:21,863 --> 00:16:23,855
+ sets AJ where this
+
+578
+00:16:23,895 --> 00:16:25,159
+ one and this one is
+
+579
+00:16:25,207 --> 00:16:27,039
+ fulfilled, this one
+
+580
+00:16:27,087 --> 00:16:28,231
+ here is also
+
+581
+00:16:28,303 --> 00:16:29,195
+ satisfied.
+
+582
+00:16:29,855 --> 00:16:31,375
+ And then we can call the
+
+583
+00:16:31,415 --> 00:16:32,727
+ map mu a pre
+
+584
+00:16:32,751 --> 00:16:33,595
+ measure.
+
+585
+00:16:35,815 --> 00:16:37,255
+ Now, for the end of this
+
+586
+00:16:37,295 --> 00:16:39,049
+ video, I want to give you
+
+587
+00:16:39,137 --> 00:16:40,697
+ an important application
+
+588
+00:16:40,801 --> 00:16:42,409
+ of Carathéodory's
+
+589
+00:16:42,457 --> 00:16:43,845
+ extension theorem.
+
+590
+00:16:44,385 --> 00:16:46,217
+ We have already seen
+
+591
+00:16:46,401 --> 00:16:47,697
+ that the finite
+
+592
+00:16:47,801 --> 00:16:49,361
+ intervals defined
+
+593
+00:16:49,473 --> 00:16:50,685
+ as ab
+
+594
+00:16:51,025 --> 00:16:52,177
+ where b is
+
+595
+00:16:52,241 --> 00:16:54,113
+ excluded form
+
+596
+00:16:54,169 --> 00:16:55,857
+ a semi ring of
+
+597
+00:16:55,921 --> 00:16:56,685
+ sets.
+
+598
+00:16:57,625 --> 00:16:59,513
+ Now we have no problem
+
+599
+00:16:59,689 --> 00:17:01,585
+ defining a pre measure,
+
+600
+00:17:01,705 --> 00:17:03,521
+ namely one that is defined
+
+601
+00:17:03,633 --> 00:17:05,473
+ on this finite
+
+602
+00:17:05,649 --> 00:17:06,525
+ intervals.
+
+603
+00:17:07,745 --> 00:17:09,665
+ What we can do is look at
+
+604
+00:17:09,705 --> 00:17:11,521
+ the length of the interval,
+
+605
+00:17:11,633 --> 00:17:13,289
+ which means our pre measure
+
+606
+00:17:13,337 --> 00:17:15,129
+ is defined as the
+
+607
+00:17:15,177 --> 00:17:16,993
+ difference between b
+
+608
+00:17:17,129 --> 00:17:18,085
+ and a.
+
+609
+00:17:18,785 --> 00:17:20,305
+ Now, it's not hard to see
+
+610
+00:17:20,385 --> 00:17:22,137
+ that this is indeed a pre
+
+611
+00:17:22,161 --> 00:17:22,793
+ measure.
+
+612
+00:17:22,889 --> 00:17:24,497
+ By this definition, you can
+
+613
+00:17:24,521 --> 00:17:26,337
+ immediately check these two
+
+614
+00:17:26,401 --> 00:17:27,525
+ properties here.
+
+615
+00:17:28,745 --> 00:17:30,649
+ And now we can apply
+
+616
+00:17:30,777 --> 00:17:32,225
+ Carathéodory's
+
+617
+00:17:32,265 --> 00:17:33,725
+ extension theorem
+
+618
+00:17:34,105 --> 00:17:35,393
+ and know that there is
+
+619
+00:17:35,449 --> 00:17:36,769
+ exactly one
+
+620
+00:17:36,857 --> 00:17:38,105
+ extension for this
+
+621
+00:17:38,145 --> 00:17:39,165
+ premeasure.
+
+622
+00:17:39,665 --> 00:17:41,225
+ And this measure now
+
+623
+00:17:41,265 --> 00:17:42,929
+ lives on the sigma
+
+624
+00:17:42,977 --> 00:17:44,417
+ algebra that is generated
+
+625
+00:17:44,481 --> 00:17:46,297
+ by A, so generated by
+
+626
+00:17:46,321 --> 00:17:48,121
+ the finite intervals here.
+
+627
+00:17:48,233 --> 00:17:49,673
+ And we already know the sigma
+
+628
+00:17:49,729 --> 00:17:50,601
+ algebra.
+
+629
+00:17:50,793 --> 00:17:52,145
+ It's the Borel sigma
+
+630
+00:17:52,185 --> 00:17:52,965
+ algebra.
+
+631
+00:17:54,065 --> 00:17:55,689
+ Indeed, this is the measure
+
+632
+00:17:55,737 --> 00:17:57,561
+ that one knows as the
+
+633
+00:17:57,593 --> 00:17:58,765
+ Lebesgue measure.
+
+634
+00:17:59,355 --> 00:18:00,747
+ And here you see why
+
+635
+00:18:00,811 --> 00:18:02,139
+ Carathéodory's
+
+636
+00:18:02,187 --> 00:18:03,643
+ theorem is so
+
+637
+00:18:03,699 --> 00:18:04,371
+ important.
+
+638
+00:18:04,563 --> 00:18:06,115
+ Because the Lebesgue measure
+
+639
+00:18:06,155 --> 00:18:07,135
+ is so important.
+
+640
+00:18:07,755 --> 00:18:09,579
+ And now by proving this
+
+641
+00:18:09,627 --> 00:18:11,419
+ extension theorem, we prove
+
+642
+00:18:11,467 --> 00:18:13,435
+ the existence and the uniqueness
+
+643
+00:18:13,515 --> 00:18:14,975
+ of the Lebesgue measure.
+
+644
+00:18:15,635 --> 00:18:17,203
+ Okay, there we have
+
+645
+00:18:17,219 --> 00:18:17,707
+ it.
+
+646
+00:18:17,851 --> 00:18:18,963
+ This was 
+
+647
+00:18:18,979 --> 00:18:20,683
+ Carathéodory's extension
+
+648
+00:18:20,779 --> 00:18:21,615
+ theorem.
+
+649
+00:18:22,075 --> 00:18:23,827
+ I really hope that this
+
+650
+00:18:23,891 --> 00:18:25,875
+ helped you a little bit understanding
+
+651
+00:18:25,915 --> 00:18:26,495
+ it.
+
+652
+00:18:26,945 --> 00:18:28,625
+ Of course, in other videos
+
+653
+00:18:28,665 --> 00:18:29,525
+ in future
+
+654
+00:18:29,825 --> 00:18:31,441
+ applications for this
+
+655
+00:18:31,473 --> 00:18:33,285
+ theorem will follow.
+
+656
+00:18:33,705 --> 00:18:35,673
+ And maybe we also talk about
+
+657
+00:18:35,729 --> 00:18:37,085
+ the proof later
+
+658
+00:18:38,025 --> 00:18:39,305
+ then thank you very much
+
+659
+00:18:39,345 --> 00:18:41,145
+ for listening and see you
+
+660
+00:18:41,185 --> 00:18:41,965
+ next time.
+
+661
+00:18:42,905 --> 00:18:43,225
+ Bye.
+
