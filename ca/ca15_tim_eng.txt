@@ -1,0 +1,14 @@
+Complex Analysis - Part 15 
+
+00:00 Intro
+00:14 Generalization of power series
+00:47 Radius of convergence
+01:35 Consider inverse of complex numbers 
+02:20 Second radius of convergence for outside world 
+02:56 Series with negative powers is holomorphic
+04:15 Two series combined gives holomorphic function
+05:43 Definition Laurent Series
+06:42 Principal part of Laurent Series
+06:55 Residue of Laurent Series
+07:20 Domain is a generalized ring
+08:06 Credits
