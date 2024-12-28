@@ -1,0 +1,936 @@
+1
+00:00:00,520 --> 00:00:04,720
+Hello and welcome to this
+
+2
+00:00:02,679 --> 00:00:06,480
+video about the election system for
+
+3
+00:00:04,720 --> 00:00:09,080
+the "Bundestagswahl 2025".
+
+4
+00:00:06,480 --> 00:00:10,559
+Mainly, I want to explain
+
+5
+00:00:09,080 --> 00:00:12,599
+how the German parliament (Bundestag)
+
+6
+00:00:10,559 --> 00:00:14,400
+is put together after each voter
+
+7
+00:00:12,599 --> 00:00:16,800
+has given his two votes (There are Erststimme and Zweitstimme)
+
+8
+00:00:14,400 --> 00:00:18,480
+Often one says that the whole
+
+9
+00:00:16,800 --> 00:00:20,000
+election system is really
+
+10
+00:00:18,480 --> 00:00:22,039
+complicated since it is adapted again and again.
+
+11
+00:00:20,000 --> 00:00:24,080
+However, in this video
+
+12
+00:00:22,039 --> 00:00:26,080
+you will see that the entire 
+
+13
+00:00:24,080 --> 00:00:28,599
+distribution procedure is actually
+
+14
+00:00:26,080 --> 00:00:30,400
+quite simple and the first thing to
+
+15
+00:00:28,599 --> 00:00:32,920
+remember is that the whole
+
+16
+00:00:30,400 --> 00:00:35,559
+election prodecure essentially has three
+
+17
+00:00:32,920 --> 00:00:37,600
+layers. On the outermost layer,
+
+18
+00:00:35,559 --> 00:00:40,320
+we have the entire federal republic of
+
+19
+00:00:37,600 --> 00:00:42,640
+Germany. This defines the electoral area.
+
+20
+00:00:40,320 --> 00:00:45,360
+But it is split, on the one hand,
+
+21
+00:00:42,640 --> 00:00:49,640
+into 16 states. And the other hand
+
+22
+00:00:45,360 --> 00:00:51,480
+it is split into 299 electoral districts (Wahlkreise)
+
+23
+00:00:49,640 --> 00:00:53,559
+There, it is important to know that a Wahlkreis
+
+24
+00:00:51,480 --> 00:00:55,800
+always lies completely inside a
+
+25
+00:00:53,559 --> 00:00:57,079
+given state. Then these districts are
+
+26
+00:00:55,800 --> 00:00:59,399
+enumerated from 1-299.
+
+27
+00:00:57,079 --> 00:01:03,040
+For example for the state Hessia
+
+28
+00:00:59,399 --> 00:01:05,799
+we find the numbers 166 to
+
+29
+00:01:03,040 --> 00:01:08,479
+187. And it's important to know that
+
+30
+00:01:05,799 --> 00:01:11,080
+in each district, the given ballot paper
+
+31
+00:01:08,479 --> 00:01:14,680
+looks different. In that sense, voting
+
+32
+00:01:11,080 --> 00:01:16,720
+happens on the layer of the electoral districts.
+
+33
+00:01:14,680 --> 00:01:18,200
+If we pick out one of them,
+
+34
+00:01:16,720 --> 00:01:21,000
+then we see that within the
+
+35
+00:01:18,200 --> 00:01:23,560
+given Wahlkreis, so-called constituency candidates (Wahlkreisbewerber)
+
+36
+00:01:21,000 --> 00:01:25,720
+compete against each other.
+
+37
+00:01:23,560 --> 00:01:28,960
+They are also called "direct candidates" because
+
+38
+00:01:25,720 --> 00:01:30,759
+one can vote for them directly, as a vote for a person.
+
+39
+00:01:28,960 --> 00:01:33,600
+That is exactly what you can do with your first vote.
+
+40
+00:01:30,759 --> 00:01:35,600
+This is one is called "Erststimme".
+
+41
+00:01:33,600 --> 00:01:38,479
+Your own Erstimme, which you can use,
+
+42
+00:01:35,600 --> 00:01:41,200
+is only applicable in the given
+
+43
+00:01:38,479 --> 00:01:43,439
+electoral district. On the other hand, your second vote,
+
+44
+00:01:41,200 --> 00:01:46,079
+the so-called "Zweitstimme" is stronger.
+
+45
+00:01:43,439 --> 00:01:48,079
+It's applicable to the whole state you are living in.
+
+46
+00:01:46,079 --> 00:01:50,200
+However, with this Zweitstimme you do not vote for a single person anymore
+
+47
+00:01:48,079 --> 00:01:52,880
+but for a whole list of people
+
+48
+00:01:50,200 --> 00:01:54,520
+that is given by a political party.
+
+49
+00:01:52,880 --> 00:01:57,200
+This means each party in a given state 
+
+50
+00:01:54,520 --> 00:01:59,960
+can state a whole list of candidates
+
+51
+00:01:57,200 --> 00:02:01,960
+and the voter can use his Zweitstimme
+
+52
+00:01:59,960 --> 00:02:04,159
+to say which party he wants.
+
+53
+00:02:01,960 --> 00:02:07,039
+In the following sense,
+
+54
+00:02:04,159 --> 00:02:09,599
+the Zweitstimme is stronger than the Erststimme
+
+55
+00:02:07,039 --> 00:02:11,360
+because the total number of votes in the Zweitstimme
+
+56
+00:02:09,599 --> 00:02:13,920
+determine the proportions of the parties 
+
+57
+00:02:11,360 --> 00:02:16,080
+in the Bundestag.
+
+58
+00:02:13,920 --> 00:02:18,360
+So, only the Zweitstimme says
+
+59
+00:02:16,080 --> 00:02:21,120
+how many seats a party has in the parliament.
+
+60
+00:02:18,360 --> 00:02:22,959
+However, the people who can actually take the seats with priority
+
+61
+00:02:21,120 --> 00:02:25,599
+are the winners in the electoral districts.
+
+62
+00:02:22,959 --> 00:02:27,480
+It's common that these candidates are
+
+63
+00:02:25,599 --> 00:02:29,480
+associated to political party as well.
+
+64
+00:02:27,480 --> 00:02:30,760
+This is not
+
+65
+00:02:29,480 --> 00:02:32,360
+a strong requirement but
+
+66
+00:02:30,760 --> 00:02:34,120
+it's still the normal case.
+
+67
+00:02:32,360 --> 00:02:36,519
+In exceptional cases, it can happen
+
+68
+00:02:34,120 --> 00:02:39,360
+that an independent candidate
+
+69
+00:02:36,519 --> 00:02:41,239
+wins a given district.
+
+70
+00:02:39,360 --> 00:02:43,319
+In this case, this independent person immediately gets their seat in
+
+71
+00:02:41,239 --> 00:02:46,080
+the Bundestag. Everything that follows now does not hold for this person.
+
+72
+00:02:43,319 --> 00:02:48,040
+The winners that
+
+73
+00:02:46,080 --> 00:02:50,159
+are associated to a party
+
+74
+00:02:48,040 --> 00:02:52,519
+don't get their seats immediately.
+
+75
+00:02:50,159 --> 00:02:55,000
+For them, it's important
+
+76
+00:02:52,519 --> 00:02:57,319
+how many votes their part got with the Zweitstimme.
+
+77
+00:02:55,000 --> 00:02:58,920
+To make it clear again:
+
+78
+00:02:57,319 --> 00:03:01,920
+The winner of a district
+
+79
+00:02:58,920 --> 00:03:04,080
+is just the candidate that got the most
+
+80
+00:03:01,920 --> 00:03:07,760
+votes with the Erststimme.
+
+81
+00:03:04,080 --> 00:03:10,319
+So their is exactly one winner for each district.
+
+82
+00:03:07,760 --> 00:03:11,920
+However, if this winner associated to a party
+
+83
+00:03:10,319 --> 00:03:14,159
+really gets a seat in the parliament
+
+84
+00:03:11,920 --> 00:03:16,640
+is only decided by the amount of votes 
+
+85
+00:03:14,159 --> 00:03:18,840
+in the Zweitstimme.
+
+86
+00:03:16,640 --> 00:03:21,159
+Let's see how this works. After the election
+
+87
+00:03:18,840 --> 00:03:24,040
+we have the total number of valid votes in the Zweitstimmme.
+
+88
+00:03:21,159 --> 00:03:27,519
+This is done on the upper level, for the entire federation.
+
+89
+00:03:24,040 --> 00:03:30,239
+A common number in Germany is around 46 million votes.
+
+90
+00:03:27,519 --> 00:03:32,040
+And since the Zweitstimme can only be given
+
+91
+00:03:30,239 --> 00:03:34,040
+to a party,
+
+92
+00:03:32,040 --> 00:03:35,680
+we have a distribution of votes across all parties
+
+93
+00:03:34,040 --> 00:03:37,799
+that took part in the election.
+
+94
+00:03:35,680 --> 00:03:40,319
+So we just count the votes (Zweitstimmen)
+
+95
+00:03:37,799 --> 00:03:42,840
+and then we know how well a given
+
+96
+00:03:40,319 --> 00:03:44,360
+party has done.
+
+97
+00:03:42,840 --> 00:03:46,480
+Obviously, we can write this 
+
+98
+00:03:44,360 --> 00:03:48,879
+as a percentage as well. 
+
+99
+00:03:46,480 --> 00:03:51,599
+So we have the share of votes in relation 
+
+100
+00:03:48,879 --> 00:03:53,040
+to the total number of valid votes.
+
+101
+00:03:51,599 --> 00:03:54,920
+On the other hand, we can also look
+
+102
+00:03:53,040 --> 00:03:57,159
+how successful the parties
+
+103
+00:03:54,920 --> 00:03:59,000
+were with respect to the Erststimme
+
+104
+00:03:57,159 --> 00:04:01,640
+This means how many of the 299 districts
+
+105
+00:03:59,000 --> 00:04:04,120
+they could win.
+
+106
+00:04:01,640 --> 00:04:06,200
+This is really important because now
+
+107
+00:04:04,120 --> 00:04:09,120
+it will be decided which party is
+
+108
+00:04:06,200 --> 00:04:12,120
+important enough for the Bundestag.
+
+109
+00:04:09,120 --> 00:04:15,239
+Unimportant are parties with less than 5% of the total second votes.
+
+110
+00:04:12,120 --> 00:04:17,359
+They will be thrown out completely unless
+
+111
+00:04:15,239 --> 00:04:19,639
+they have won at least three districts
+
+112
+00:04:17,359 --> 00:04:22,479
+with the Erststimme. In that case, they are spared.
+
+113
+00:04:19,639 --> 00:04:24,800
+So first check the 5% barrier and, if they are below, then check
+
+114
+00:04:22,479 --> 00:04:29,240
+how many districts are won.
+
+115
+00:04:24,800 --> 00:04:31,840
+For example, here 4.8% is not enough.
+
+116
+00:04:29,240 --> 00:04:34,400
+and two districts are also too little.
+
+117
+00:04:31,840 --> 00:04:36,320
+After these cancellations,
+
+118
+00:04:34,400 --> 00:04:39,120
+only some parties remain and exactly these
+
+119
+00:04:36,320 --> 00:04:41,080
+will get the seats in the parliament.
+
+120
+00:04:39,120 --> 00:04:43,440
+So we just have to find the correct number
+
+121
+00:04:41,080 --> 00:04:45,960
+and this is done with the so-called
+
+122
+00:04:43,440 --> 00:04:47,440
+Sainte-Laguë method/ Webster method.
+
+123
+00:04:45,960 --> 00:04:49,039
+I have a separate video for that
+
+124
+00:04:47,440 --> 00:04:51,720
+if you are interested in it.
+
+125
+00:04:49,039 --> 00:04:53,800
+Here, we can just apply it
+
+126
+00:04:51,720 --> 00:04:56,560
+and it's only important to know
+
+127
+00:04:53,800 --> 00:05:00,560
+that the total number of seats in the Bundestag
+
+128
+00:04:56,560 --> 00:05:02,800
+is given by 630.
+
+129
+00:05:00,560 --> 00:05:05,000
+So with all the votes in Germany,
+
+130
+00:05:02,800 --> 00:05:06,960
+we find the suitable distribution of seats.
+
+131
+00:05:05,000 --> 00:05:09,199
+This distribution for the different parties is called "Oberverteilung".
+
+132
+00:05:06,960 --> 00:05:11,360
+It already tells out the power of different parties
+
+133
+00:05:09,199 --> 00:05:13,680
+in the parliament.
+
+134
+00:05:11,360 --> 00:05:15,759
+However, we already know that
+
+135
+00:05:13,680 --> 00:05:17,400
+we need to put in more
+
+136
+00:05:15,759 --> 00:05:20,160
+because the votes (Zweitstimmen) were given
+
+137
+00:05:17,400 --> 00:05:22,400
+to a list in a state.
+
+138
+00:05:20,160 --> 00:05:24,600
+Hence, in the next step, we have to distribute
+
+139
+00:05:22,400 --> 00:05:26,680
+the seats to the 16 states.
+
+140
+00:05:24,600 --> 00:05:28,440
+This can be done for each party separately
+
+141
+00:05:26,680 --> 00:05:30,240
+since we know how many votes
+
+142
+00:05:28,440 --> 00:05:32,360
+each party got in each state.
+
+143
+00:05:30,240 --> 00:05:34,560
+Therefore, we just create a new list 
+
+144
+00:05:32,360 --> 00:05:36,919
+where all 16 states are listed
+
+145
+00:05:34,560 --> 00:05:39,360
+with the corresponding number of votes
+
+146
+00:05:36,919 --> 00:05:41,639
+for the given party.
+
+147
+00:05:39,360 --> 00:05:43,960
+To this list, the Sainte-Laguë method is applied again.
+
+148
+00:05:41,639 --> 00:05:46,680
+Afterwards, each party knows
+
+149
+00:05:43,960 --> 00:05:49,240
+how many seats for each state
+
+150
+00:05:46,680 --> 00:05:51,319
+they get in the Bundestag.
+
+151
+00:05:49,240 --> 00:05:53,840
+Just to clarify: this second distribution
+
+152
+00:05:51,319 --> 00:05:55,759
+is often called "Unterverteilung".
+
+153
+00:05:53,840 --> 00:05:57,800
+This distribution has to be calculated
+
+154
+00:05:55,759 --> 00:06:00,400
+for each (important) party.
+
+155
+00:05:57,800 --> 00:06:02,840
+With that, we also know the people who
+
+156
+00:06:00,400 --> 00:06:05,120
+will occupy the seats.
+
+157
+00:06:02,840 --> 00:06:06,759
+In order to see this, let's jump
+
+158
+00:06:05,120 --> 00:06:10,720
+to one state, let's say that this
+
+159
+00:06:06,759 --> 00:06:12,720
+is state 2 and we consider the party B.
+
+160
+00:06:10,720 --> 00:06:15,440
+So, we know that 8 seats can be given.
+
+161
+00:06:12,720 --> 00:06:17,240
+Please recall that, from the beginning,
+
+162
+00:06:15,440 --> 00:06:19,199
+the parties had lists of people in the states.
+
+163
+00:06:17,240 --> 00:06:21,520
+Indeed, this state list of the 
+
+164
+00:06:19,199 --> 00:06:23,599
+given party is numbered consecutively
+
+165
+00:06:21,520 --> 00:06:24,960
+such that we can got step by step
+
+166
+00:06:23,599 --> 00:06:26,880
+to give the seats to different persons.
+
+167
+00:06:24,960 --> 00:06:28,960
+We can do this until all seats
+
+168
+00:06:26,880 --> 00:06:31,160
+are taken. However, actually some other people
+
+169
+00:06:28,960 --> 00:06:33,680
+have a higher priority first.
+
+170
+00:06:31,160 --> 00:06:35,680
+They are put on top of the list.
+
+171
+00:06:33,680 --> 00:06:38,199
+These are exactly the winners of the districts
+
+172
+00:06:35,680 --> 00:06:41,000
+that belong to the given state and party.
+
+173
+00:06:38,199 --> 00:06:42,840
+So people with the most votes (Erststimmen) in a district
+
+174
+00:06:41,000 --> 00:06:44,759
+are higher ranked than the state list.
+
+175
+00:06:42,840 --> 00:06:46,639
+Obviously, we only consider winners
+
+176
+00:06:44,759 --> 00:06:49,440
+that belong to party B. With that we 
+
+177
+00:06:46,639 --> 00:06:51,479
+can order the whole list.
+
+178
+00:06:49,440 --> 00:06:53,919
+On top, we have the best winner. So the candidate that had the 
+
+179
+00:06:51,479 --> 00:06:55,560
+highest percentage value in votes (Erststimmen).
+
+180
+00:06:53,919 --> 00:06:57,479
+Then comes the candidate with the next highest score.
+
+181
+00:06:55,560 --> 00:07:00,120
+And then it just goes on like this.
+
+182
+00:06:57,479 --> 00:07:02,280
+The list of priorities is done
+
+183
+00:07:00,120 --> 00:07:04,520
+and we can allocate the 8 seats.
+
+184
+00:07:02,280 --> 00:07:06,639
+At this point, you should see
+
+185
+00:07:04,520 --> 00:07:08,360
+that we have exactly 3 possibilities.
+
+186
+00:07:06,639 --> 00:07:11,120
+Let's start with the best case.
+
+187
+00:07:08,360 --> 00:07:13,360
+There, all winners of the districts
+
+188
+00:07:11,120 --> 00:07:16,280
+take seats in the Bundestag.
+
+189
+00:07:13,360 --> 00:07:18,479
+And maybe also the first persons on the state list get seats.
+
+190
+00:07:16,280 --> 00:07:20,960
+In this case, it does not matter at all 
+
+191
+00:07:18,479 --> 00:07:23,240
+how good a winner in a district actually was.
+
+192
+00:07:20,960 --> 00:07:25,560
+However, if there are too many winners 
+
+193
+00:07:23,240 --> 00:07:27,800
+of the given party,
+
+194
+00:07:25,560 --> 00:07:29,759
+then it can definitely play an important role.
+
+195
+00:07:27,800 --> 00:07:32,120
+In this case, the worst winners
+
+196
+00:07:29,759 --> 00:07:34,520
+will not get a seat in the Bundestag.
+
+197
+00:07:32,120 --> 00:07:36,520
+There are simply not enough seats for the party
+
+198
+00:07:34,520 --> 00:07:38,800
+and in this case, the state list is also 
+
+199
+00:07:36,520 --> 00:07:41,039
+untouched.
+
+200
+00:07:38,800 --> 00:07:43,160
+Now, the third case is something that
+
+201
+00:07:41,039 --> 00:07:45,960
+actually should never happen, but theoretically, it's possible.
+
+202
+00:07:43,160 --> 00:07:47,720
+It could happen that the state list
+
+203
+00:07:45,960 --> 00:07:50,159
+is too short, meaning that the party
+
+204
+00:07:47,720 --> 00:07:52,319
+did not find enough people to put on the list
+
+205
+00:07:50,159 --> 00:07:54,120
+and now they can't fill all their seats.
+
+206
+00:07:52,319 --> 00:07:57,400
+Therefore, these seats will just stay empty
+
+207
+00:07:54,120 --> 00:07:59,599
+and they remain unoccupied in the Bundestag
+
+208
+00:07:57,400 --> 00:08:01,639
+Hence, only if such a case occurs,
+
+209
+00:07:59,599 --> 00:08:04,639
+can the total number of seats
+
+210
+00:08:01,639 --> 00:08:06,039
+in the parliament be smaller than 630.
+
+211
+00:08:04,639 --> 00:08:07,800
+In fact, on the other hand, there is still
+
+212
+00:08:06,039 --> 00:08:11,120
+a special case that the total number is greater
+
+213
+00:08:07,800 --> 00:08:12,879
+than the planned 630.
+
+214
+00:08:11,120 --> 00:08:16,720
+This can only happen if a party
+
+215
+00:08:12,879 --> 00:08:19,599
+get more than 50% of the 
+
+216
+00:08:16,720 --> 00:08:21,599
+relevant second votes (Zweitstimmen).
+
+217
+00:08:19,599 --> 00:08:23,680
+Then this party must get more than
+
+218
+00:08:21,599 --> 00:08:25,360
+50% of the seats in the parliament. 
+
+219
+00:08:23,680 --> 00:08:27,400
+Because of rounding errors
+
+220
+00:08:25,360 --> 00:08:29,120
+during the distribution procedure,
+
+221
+00:08:27,400 --> 00:08:31,520
+this is not guaranteed. 
+
+222
+00:08:29,120 --> 00:08:32,680
+Hence, one has to add seats until 
+
+223
+00:08:31,520 --> 00:08:36,320
+until 50% are exceeded.
+
+224
+00:08:32,680 --> 00:08:37,800
+For the election 2025 this is not expected.
+
+225
+00:08:36,320 --> 00:08:39,959
+I now hope that this voting procedure is clearer and
+
+226
+00:08:37,800 --> 00:08:41,640
+that there will be no more confusion
+
+227
+00:08:39,959 --> 00:08:43,959
+when you have the ballot paper in front of you.
+
+228
+00:08:41,640 --> 00:08:45,880
+Otherwise we can discuss further 
+
+229
+00:08:43,959 --> 00:08:48,240
+questions in the comments.
+
+230
+00:08:45,880 --> 00:08:50,380
+See you next time.
+
+231
+00:08:48,240 --> 00:09:00,560
+Bye!
+
+232
+00:08:50,380 --> 00:09:03,560
+[Musik]
+
+233
+00:09:00,560 --> 00:09:03,560
+of
+
+234
+00:09:05,230 --> 00:09:08,850
+[Musik]
+
