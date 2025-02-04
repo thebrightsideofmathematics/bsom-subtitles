@@ -1,0 +1,11 @@
+﻿Real Analysis - Part 34
+
+00:00 Intro
+00:14 Notions about differentiability
+01:27 Slope at a point
+01:44 Affine linear function
+03:54 Linear approximation
+04:28 Secant
+06:11 Tangent
+07:05 Derivative at a point
+07:44 Definition: differentiability
