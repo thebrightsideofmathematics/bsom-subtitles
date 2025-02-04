@@ -9,3 +9,4 @@
 06:11 Tangent
 07:05 Derivative at a point
 07:44 Definition: differentiability
+10:20 Credits
