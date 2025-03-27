@@ -1,0 +1,12 @@
+Abstract Linear Algebra - Part 10
+
+00:00 Introduction
+00:37 Extension of notations 
+02:13 Definition: inner product
+02:52 Positive definite
+04:23 Linear in the second argument
+05:50 Conjugate symmetric
+06:50 Standard inner product
+08:10 Non-standard inner product
+09:37 Integral inner product on polynomial space
+13:26 Credits
