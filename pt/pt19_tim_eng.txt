@@ -1,0 +1,10 @@
+Probability Theory - Part 19
+
+00:00 Introduction
+00:58 Definition: covariance 
+01:30 Variance is additive
+04:04 Connection to independence
+04:45 Correction: (X,Y) should be jointly normally distributed. 
+06:10 Definition: correlation coefficient
+07:25 Example of covariance
+11:00 Credits
