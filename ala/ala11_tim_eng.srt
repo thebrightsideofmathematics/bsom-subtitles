@@ -1,0 +1,14 @@
+Abstract Linear Algebra - Part 11
+
+00:00 Introduction
+00:45 Example: inner product in F²
+02:30 Checking rules for inner product
+03:20 Definition: positive definite matrix
+04:30 Positive definite matrices define inner products
+05:24 Example revisited
+07:21 Example of a positive definite matrix
+07:56 Equivalent statements for positive definite matrices
+09:48 Sylvester's criterion
+12:14 Example for Sylvester's criterion
+13:07 Example for Gaussian elimination
+14:38 Credits
